@@ -3,7 +3,7 @@ name: Update VPN subscriptions
 on:
   workflow_dispatch:
   schedule:
-    - cron: "*/30 * * * *"
+    - cron: "7,37 * * * *"
 
 permissions:
   contents: write
@@ -30,17 +30,20 @@ jobs:
         run: |
           python build_sub.py
 
-      - name: Show outputs
+      - name: Show generated files
         run: |
+          echo "Repository root:"
           ls -la
+          echo
+          echo "Outputs:"
           ls -la outputs || true
 
-      - name: Commit updated files
+      - name: Commit and push if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add outputs/*.txt SUBSCRIPTIONS.md README.md LINKS.md 2>/dev/null || true
+          git add outputs/*.txt SUBSCRIPTIONS.md
 
           if git diff --cached --quiet; then
             echo "No changes to commit"
