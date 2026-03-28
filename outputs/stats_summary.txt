@@ -1,5 +1,5 @@
 VPN Builder stats summary
-Generated at: 2026-03-28 13:44:47 MSK
+Generated at: 2026-03-28 14:38:58 MSK
 
 ====================================================================
 RAW GROUPS
@@ -204,8 +204,8 @@ Unknown country: 7
   Russia: 20
   Unknown: 7
   Poland: 3
-  France: 2
   Netherlands: 2
+  France: 2
   United States: 1
   Germany: 1
 
@@ -224,14 +224,14 @@ Unknown country: 7
 Топ портов:
   443: 36
   8443: 7
+  9443: 2
   2443: 2
   4443: 2
   10443: 2
   7443: 2
-  9443: 2
   48011: 1
   49322: 1
-  12443: 1
+  8444: 1
 
 Топ схем:
   vless: 56
@@ -271,23 +271,23 @@ Unknown country: 7
 
 Топ SNI:
   ads.x5.ru: 13
-  rbc.ru: 8
   max.ru: 8
+  rbc.ru: 8
   sun6-22.userapi.com: 4
   goodcardboard.shop: 3
   5post-gate.x5.ru: 2
   chat.deepseek.com: 2
   sni.pl-dp-01.online: 2
+  max.ru:443: 1
   www.vk.com: 1
-  eh.vk.com: 1
 
 Топ портов:
   443: 33
   8443: 7
   2443: 2
-  7443: 2
-  4443: 2
   9443: 2
+  4443: 2
+  7443: 2
   10443: 2
   48011: 1
   49322: 1
@@ -316,12 +316,12 @@ Unknown country: 7
 Уникальных строк: 120
 Уникальных host:port: 120
 Уникальных backend: 119
-Anycast: 9
-Unknown country: 105
+Anycast: 12
+Unknown country: 102
 
 Топ стран:
-  Unknown: 105
-  🌐 Anycast: 9
+  Unknown: 102
+  🌐 Anycast: 12
   Lithuania: 2
   Russia: 1
   Poland: 1
@@ -330,27 +330,27 @@ Unknown country: 105
 
 Топ SNI:
   www.amd.com: 2
-  cloud.whost-solutions.ru: 2
   chat.deepseek.com: 2
+  cloud.whost-solutions.ru: 2
   google.com: 1
   www.cloudflare.com: 1
-  185.117.91.27: 1
-  114.45.161.97: 1
   _acme-challenge.443888.xyz: 1
-  node-hk-1.v2sv.top: 1
+  114.45.161.97: 1
   50.62.88.16: 1
+  jflsjlaf.pages.dev: 1
+  node-hk-1.v2sv.top: 1
 
 Топ портов:
-  38388: 103
+  38388: 100
   443: 6
-  50099: 3
+  50099: 6
   7443: 2
   695: 1
-  9443: 1
   773: 1
-  21836: 1
-  8443: 1
+  9443: 1
   8444: 1
+  8443: 1
+  21836: 1
 
 Топ схем:
   ss: 108
@@ -372,62 +372,61 @@ Unknown country: 105
 ────────────────────────────────────────────────────────────────────
 Всего конфигов: 150
 Уникальных строк: 150
-Уникальных host:port: 148
+Уникальных host:port: 149
 Уникальных backend: 129
-Anycast: 27
-Unknown country: 88
+Anycast: 33
+Unknown country: 83
 
 Топ стран:
-  Unknown: 88
-  🌐 Anycast: 27
+  Unknown: 83
+  🌐 Anycast: 33
   Russia: 21
   Poland: 5
   Netherlands: 3
   France: 2
   Germany: 2
   United States: 1
-  Lithuania: 1
 
 Топ SNI:
   ads.x5.ru: 13
-  rbc.ru: 9
+  rbc.ru: 8
   max.ru: 8
   sun6-22.userapi.com: 6
   chat.deepseek.com: 4
-  5post-gate.x5.ru: 3
   goodcardboard.shop: 3
+  5post-gate.x5.ru: 3
   sni.pl-dp-01.online: 3
+  jflsjlaf.pages.dev: 2
   www.amd.com: 2
-  images.apple.com: 1
 
 Топ портов:
-  38388: 78
-  443: 39
-  8443: 9
+  38388: 74
+  443: 42
+  8443: 8
   7443: 4
-  9443: 3
-  2443: 2
-  4443: 2
+  50099: 4
   10443: 2
-  50099: 2
-  48011: 1
+  4443: 2
+  2443: 2
+  9443: 2
+  8444: 2
 
 Топ схем:
-  ss: 81
+  ss: 80
   vless: 65
+  trojan: 3
   hysteria2: 2
-  trojan: 2
 
 Топ transport:
-  tcp: 135
+  tcp: 134
   grpc: 7
-  xhttp: 6
-  ws: 2
+  xhttp: 5
+  ws: 4
 
 Топ security:
-  none: 84
-  reality: 64
-  tls: 2
+  none: 83
+  reality: 63
+  tls: 4
 
 ────────────────────────────────────────────────────────────────────
 📊 mixed
@@ -437,37 +436,38 @@ Unknown country: 88
 Уникальных host:port: 30
 Уникальных backend: 29
 Anycast: 5
-Unknown country: 14
+Unknown country: 12
 
 Топ стран:
-  Unknown: 14
+  Unknown: 12
   Russia: 7
   🌐 Anycast: 5
   Netherlands: 2
-  United States: 1
+  Poland: 2
   France: 1
+  United States: 1
 
 Топ SNI:
-  ads.x5.ru: 4
-  max.ru: 4
-  rbc.ru: 3
-  www.vk.com: 1
-  144.31.224.14: 1
-  chat.deepseek.com: 1
-  www.google.com: 1
+  goodcardboard.shop: 2
+  rbc.ru: 2
+  ads.x5.ru: 2
+  max.ru: 2
   sun6-22.userapi.com: 1
-  goodcardboard.shop: 1
-  jflsjlaf.pages.dev: 1
+  144.31.224.14: 1
+  max.ru:443: 1
+  api.vk.com: 1
+  x5.ru: 1
+  5post-gate.x5.ru: 1
 
 Топ портов:
-  38388: 12
-  443: 11
+  443: 12
+  38388: 11
   8443: 2
-  10443: 1
-  7443: 1
-  2443: 1
-  9443: 1
+  4443: 1
   8444: 1
+  9443: 1
+  49322: 1
+  21836: 1
 
 Топ схем:
   vless: 16
@@ -478,12 +478,12 @@ Unknown country: 14
 Топ transport:
   tcp: 25
   xhttp: 2
-  grpc: 2
-  ws: 1
+  ws: 2
+  grpc: 1
 
 Топ security:
-  reality: 16
-  none: 13
+  reality: 15
+  none: 14
   tls: 1
 
 ====================================================================
@@ -493,67 +493,67 @@ Unknown country: 14
 Уникальных строк: 185
 Уникальных host:port: 179
 Уникальных backend: 160
-Anycast: 85
-Unknown country: 221
+Anycast: 94
+Unknown country: 211
 
 Топ стран:
-  Unknown: 221
-  🌐 Anycast: 85
+  Unknown: 211
+  🌐 Anycast: 94
   Russia: 68
-  Poland: 12
+  Poland: 14
   Netherlands: 10
   France: 7
   Germany: 5
   United States: 4
-  Lithuania: 3
+  Lithuania: 2
 
 Топ SNI:
-  ads.x5.ru: 43
-  max.ru: 28
-  rbc.ru: 28
+  ads.x5.ru: 41
+  max.ru: 26
+  rbc.ru: 26
   sun6-22.userapi.com: 17
-  chat.deepseek.com: 11
-  goodcardboard.shop: 10
-  5post-gate.x5.ru: 8
-  sni.pl-dp-01.online: 7
-  jflsjlaf.pages.dev: 5
+  goodcardboard.shop: 11
+  chat.deepseek.com: 10
+  5post-gate.x5.ru: 9
+  sni.pl-dp-01.online: 8
+  jflsjlaf.pages.dev: 6
   www.vk.com: 4
+  api.vk.com: 4
   144.31.224.14: 4
-  www.google.com: 4
-  www.amd.com: 4
-  eh.vk.com: 3
-  images.apple.com: 3
+  x5.ru: 4
+  max.ru:443: 4
+  tt.mambo-jambo.ru: 4
 
 Топ портов:
-  38388: 193
-  443: 125
-  8443: 26
-  7443: 11
-  9443: 9
-  2443: 7
-  10443: 7
-  4443: 6
-  8444: 5
-  50099: 5
+  38388: 185
+  443: 129
+  8443: 25
+  7443: 10
+  50099: 10
+  9443: 8
+  4443: 7
+  2443: 6
+  10443: 6
+  8444: 6
+  49322: 4
   48011: 3
-  49322: 3
   12443: 3
   3443: 3
   22000: 3
 
 Топ схем:
-  ss: 201
   vless: 200
+  ss: 200
+  trojan: 8
   hysteria2: 7
-  trojan: 7
 
 Топ transport:
-  tcp: 364
-  grpc: 23
-  xhttp: 19
-  ws: 9
+  tcp: 363
+  grpc: 22
+  xhttp: 18
+  ws: 12
 
 Топ security:
   none: 211
-  reality: 196
-  tls: 8
+  reality: 194
+  tls: 10
