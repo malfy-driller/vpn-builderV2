@@ -708,13 +708,70 @@ def build_big_group(raw_configs: list[str], group_name: str, limit: int, slot_ke
 def calc_quota(total: int, ratio: float) -> int:
     return max(1, int(total * ratio))
 
+def get_scheme(cfg: str) -> str:
+    cfg = cfg.strip().lower()
+    for proto in PROTOCOLS:
+        if cfg.startswith(proto):
+            return proto[:-3]  # "vless://"=> "vless"
+    return ""
+
+
+def get_security(cfg: str) -> str:
+    cfg = cfg.strip()
+
+    # ss:// обычно считаем как отдельный тип, не смешиваем с vless/trojan
+    if cfg.lower().startswith("ss://"):
+        return "ss"
+
+    try:
+        parsed = urlparse(cfg)
+        qs = parse_qs(parsed.query)
+
+        sec = (qs.get("security", [""])[0] or "").strip().lower()
+        if sec:
+            return sec
+
+        # Иногда tls/reality можно понять косвенно по flow/sni/alpn, но здесь лучше не гадать.
+        return "none"
+    except Exception:
+        return "none"
+
+
+def is_ss(cfg: str) -> bool:
+    return get_scheme(cfg) == "ss"
+
+
+def is_vless(cfg: str) -> bool:
+    return get_scheme(cfg) == "vless"
+
+
+def is_good_mixed_cfg(cfg: str) -> bool:
+    # Mixed делаем только из VLESS и только с reality/tls
+    if not is_vless(cfg):
+        return False
+
+    sec = get_security(cfg)
+    return sec in {"reality", "tls"}
+
+
+def filter_no_ss(configs: list[str]) -> list[str]:
+    return [cfg for cfg in configs if not is_ss(cfg)]
+
+
+def filter_good_for_mixed(configs: list[str]) -> list[str]:
+    return [cfg for cfg in configs if is_good_mixed_cfg(cfg)]
 
 def build_pool_parts(white_cidr: list[str], white_vless: list[str], black_all: list[str]):
     slot = current_1h_slot()
 
-    wc_rot = stable_rotate_sort(white_cidr, "pool_wc|" + slot)
-    wv_rot = stable_rotate_sort(white_vless, "pool_wv|" + slot)
-    bl_rot = stable_rotate_sort(black_all, "pool_bl|" + slot)
+    # Убираем ss из всех частей пула
+    white_cidr_clean = filter_no_ss(white_cidr)
+    white_vless_clean = filter_no_ss(white_vless)
+    black_all_clean = filter_no_ss(black_all)
+
+    wc_rot = stable_rotate_sort(white_cidr_clean, "pool_wc|" + slot)
+    wv_rot = stable_rotate_sort(white_vless_clean, "pool_wv|" + slot)
+    bl_rot = stable_rotate_sort(black_all_clean, "pool_bl|" + slot)
 
     wc_limit = calc_quota(POOL_TOTAL, POOL_RATIOS["white_cidr"])
     wv_limit = calc_quota(POOL_TOTAL, POOL_RATIOS["white_vless"])
@@ -727,7 +784,9 @@ def build_pool_parts(white_cidr: list[str], white_vless: list[str], black_all: l
     combined = dedup_host_port(part_wc + part_wv + part_bl)
 
     if len(combined) < POOL_TOTAL:
-        overflow = dedup_host_port(wc_rot[wc_limit:] + wv_rot[wv_limit:] + bl_rot[bl_limit:])
+        overflow = dedup_host_port(
+            wc_rot[wc_limit:] + wv_rot[wv_limit:] + bl_rot[bl_limit:]
+        )
         for cfg in overflow:
             if len(combined) >= POOL_TOTAL:
                 break
@@ -736,10 +795,14 @@ def build_pool_parts(white_cidr: list[str], white_vless: list[str], black_all: l
 
     combined = combined[:POOL_TOTAL]
 
+    set_wc = set(white_cidr_clean)
+    set_wv = set(white_vless_clean)
+    set_bl = set(black_all_clean)
+
     return {
-        "white_cidr": [x for x in combined if x in set(white_cidr)],
-        "white_vless": [x for x in combined if x in set(white_vless)],
-        "black_all": [x for x in combined if x in set(black_all)],
+        "white_cidr": [x for x in combined if x in set_wc],
+        "white_vless": [x for x in combined if x in set_wv],
+        "black_all": [x for x in combined if x in set_bl],
         "combined": combined,
     }
 
@@ -747,22 +810,30 @@ def build_pool_parts(white_cidr: list[str], white_vless: list[str], black_all: l
 def build_mixed_from_pool_parts(pool_parts: dict) -> list[str]:
     slot = current_30m_slot()
 
-    wc_limit = calc_quota(MIXED_TOTAL, MIXED_RATIOS["white_cidr"])
-    wv_limit = calc_quota(MIXED_TOTAL, MIXED_RATIOS["white_vless"])
-    bl_limit = MIXED_TOTAL - wc_limit - wv_limit
+    wc_limit = calc_quota(MIXED_TOTAL, 0.50)
+    wv_limit = MIXED_TOTAL - wc_limit
 
-    pool_wc = stable_rotate_sort(pool_parts["white_cidr"], "mix_wc|" + slot)
-    pool_wv = stable_rotate_sort(pool_parts["white_vless"], "mix_wv|" + slot)
-    pool_bl = stable_rotate_sort(pool_parts["black_all"], "mix_bl|" + slot)
+    # Mixed собираем ТОЛЬКО из white_cidr + white_vless
+    # и только из хороших VLESS (reality/tls)
+    pool_wc = stable_rotate_sort(
+        filter_good_for_mixed(pool_parts["white_cidr"]),
+        "mix_wc|" + slot,
+    )
+    pool_wv = stable_rotate_sort(
+        filter_good_for_mixed(pool_parts["white_vless"]),
+        "mix_wv|" + slot,
+    )
 
     mix_wc = pool_wc[:wc_limit]
     mix_wv = pool_wv[:wv_limit]
-    mix_bl = pool_bl[:bl_limit]
 
-    mixed = dedup_host_port(mix_wc + mix_wv + mix_bl)
+    mixed = dedup_host_port(mix_wc + mix_wv)
 
     if len(mixed) < MIXED_TOTAL:
-        extra = stable_rotate_sort(pool_parts["combined"], "mix_all|" + slot)
+        extra = stable_rotate_sort(
+            filter_good_for_mixed(pool_parts["combined"]),
+            "mix_all_clean|" + slot,
+        )
         for cfg in extra:
             if len(mixed) >= MIXED_TOTAL:
                 break
