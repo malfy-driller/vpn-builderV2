@@ -932,15 +932,20 @@ def build_lte_from_pool(pool_parts: dict) -> list[str]:
 # SAVE
 # ============================================================
 
-def build_header(title: str, count: int, description: str) -> str:
-    now = datetime.now(timezone(timedelta(hours=3))).strftime("%Y-%m-%d %H:%M")
+def build_header(title: str, count: int, description: str, public_note: str = "") -> str:
+    now = datetime.now(timezone(timedelta(hours=3))).strftime("%Y-%m-%d %H:%M:%S MSK")
+
+    extra = ""
+    if public_note:
+        extra = f"# Note: {public_note}\n"
 
     return (
         f"#profile-title: {title} | {count} configs\n"
         f"#profile-update-interval: 1\n"
-        f"# Date: {now} MSK\n"
+        f"# Date: {now}\n"
         f"# Count: {count}\n"
-        f"# {description}\n\n"
+        f"# {description}\n"
+        f"{extra}\n"
     )
 
 
@@ -1093,25 +1098,28 @@ def main():
     )
 
     save_file(
-        os.path.join(OUTPUT_DIR, "pool.txt"),
-        pool,
-        title="Pool",
-        description="public extended profile built from all internal groups",
-    )
+    os.path.join(OUTPUT_DIR, "pool.txt"),
+    pool,
+    title="Pool",
+    description="Public extended profile",
+    public_note="Расширенный набор с большим количеством вариантов.",
+)
 
     save_file(
-        os.path.join(OUTPUT_DIR, "mixed.txt"),
-        mixed,
-        title="Mixed",
-        description="public main profile built from the best clean configs",
-    )
+    os.path.join(OUTPUT_DIR, "mixed.txt"),
+    mixed,
+    title="Mixed",
+    description="Public main profile",
+    public_note="Основной сбалансированный набор для большинства пользователей. Обновляется автоматически.",
+)
 
     save_file(
-        os.path.join(OUTPUT_DIR, "lte.txt"),
-        lte,
-        title="LTE",
-        description="compact public profile for mobile/LTE usage",
-    )
+    os.path.join(OUTPUT_DIR, "lte.txt"),
+    lte,
+    title="LTE",
+    description="Compact mobile profile",
+    public_note="Компактный профиль для мобильной сети и быстрых проверок.",
+)
 
     save_subscriptions_md(
         repo_owner="malfy-driller",
