@@ -1,23 +1,26 @@
 """
-build_sub.py v2.5
-Большие группы + pool + mixed с разными слотами обновления
+build_sub.py v3.0
+Большие группы + pool + mixed + lte
 
 Что делает:
 - грузит 8 источников
-- показывает статистику как в V3
+- показывает статистику
 - собирает:
     white_cidr.txt
     white_vless.txt
     black_all.txt
     pool.txt
     mixed.txt
+    lte.txt
 - сохраняет:
     stats_summary.txt
+    SUBSCRIPTIONS.md
 
 Логика обновления:
-- white_* / black_all -> 2h slot
-- pool.txt -> 1h slot
-- mixed.txt -> 30m slot
+- white_* / black_all -> внутренние строительные группы
+- pool.txt -> публичный расширенный профиль
+- mixed.txt -> публичный основной профиль
+- lte.txt -> публичный компактный профиль для мобильной сети
 """
 
 import os
@@ -42,6 +45,7 @@ os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 STATS_SUMMARY_PATH = os.path.join(OUTPUT_DIR, "stats_summary.txt")
 SUBSCRIPTIONS_MD_PATH = os.path.join(BASE_DIR, "SUBSCRIPTIONS.md")
+
 
 # ============================================================
 # SETTINGS
@@ -71,23 +75,24 @@ SOURCE_GROUPS = {
 BIG_GROUP_LIMITS = {
     "white_cidr": 120,
     "white_vless": 120,
-    "black_all": 120,
+    "black_all": 140,
 }
 
-# Внутренний пул
+# Публичные профили
 POOL_TOTAL = 150
+MIXED_TOTAL = 60
+LTE_TOTAL = 25
+
 POOL_RATIOS = {
     "white_cidr": 0.34,
     "white_vless": 0.33,
     "black_all": 0.33,
 }
 
-# Публичная подписка
-MIXED_TOTAL = 30
 MIXED_RATIOS = {
-    "white_cidr": 0.34,
-    "white_vless": 0.33,
-    "black_all": 0.33,
+    "white_cidr": 0.50,
+    "white_vless": 0.35,
+    "black_all": 0.15,
 }
 
 MAX_PER_BACKEND = 4
@@ -663,7 +668,6 @@ def build_big_group(raw_configs: list[str], group_name: str, limit: int, slot_ke
     anycast_limit = max(8, int(limit * ANYCAST_RATIO))
     anycast_count = 0
 
-    # Проход 1: строгий баланс
     for row in scored:
         if len(result) >= limit:
             break
@@ -689,7 +693,6 @@ def build_big_group(raw_configs: list[str], group_name: str, limit: int, slot_ke
         result_set.add(cfg)
         country_counts[country] += 1
 
-    # Проход 2: мягкий добор до target
     if len(result) < limit:
         for row in scored:
             if len(result) >= limit:
@@ -708,30 +711,27 @@ def build_big_group(raw_configs: list[str], group_name: str, limit: int, slot_ke
 def calc_quota(total: int, ratio: float) -> int:
     return max(1, int(total * ratio))
 
+
 def get_scheme(cfg: str) -> str:
     cfg = cfg.strip().lower()
     for proto in PROTOCOLS:
         if cfg.startswith(proto):
-            return proto[:-3]  # "vless://"=> "vless"
+            return proto[:-3]
     return ""
 
 
 def get_security(cfg: str) -> str:
     cfg = cfg.strip()
 
-    # ss:// обычно считаем как отдельный тип, не смешиваем с vless/trojan
     if cfg.lower().startswith("ss://"):
         return "ss"
 
     try:
         parsed = urlparse(cfg)
         qs = parse_qs(parsed.query)
-
         sec = (qs.get("security", [""])[0] or "").strip().lower()
         if sec:
             return sec
-
-        # Иногда tls/reality можно понять косвенно по flow/sni/alpn, но здесь лучше не гадать.
         return "none"
     except Exception:
         return "none"
@@ -745,11 +745,13 @@ def is_vless(cfg: str) -> bool:
     return get_scheme(cfg) == "vless"
 
 
+def is_security_none(cfg: str) -> bool:
+    return get_security(cfg) == "none"
+
+
 def is_good_mixed_cfg(cfg: str) -> bool:
-    # Mixed делаем только из VLESS и только с reality/tls
     if not is_vless(cfg):
         return False
-
     sec = get_security(cfg)
     return sec in {"reality", "tls"}
 
@@ -761,17 +763,54 @@ def filter_no_ss(configs: list[str]) -> list[str]:
 def filter_good_for_mixed(configs: list[str]) -> list[str]:
     return [cfg for cfg in configs if is_good_mixed_cfg(cfg)]
 
+
+def is_good_public_cfg(cfg: str) -> bool:
+    if is_ss(cfg):
+        return False
+    if is_security_none(cfg):
+        return False
+    return True
+
+
+def lte_static_bonus(cfg: str) -> int:
+    score = 0
+    security = extract_security(cfg)
+    transport = extract_transport(cfg)
+    scheme = extract_scheme(cfg)
+
+    if scheme == "vless":
+        score += 5
+    elif scheme == "trojan":
+        score += 2
+    elif scheme == "hysteria2":
+        score += 1
+
+    if security == "tls":
+        score += 12
+    elif security == "reality":
+        score += 6
+
+    if transport == "xhttp":
+        score += 10
+    elif transport == "ws":
+        score += 8
+    elif transport == "grpc":
+        score += 6
+    elif transport == "tcp":
+        score += 3
+
+    if is_anycast_or_unknown(cfg):
+        score -= 2
+
+    return score
+
+
 def build_pool_parts(white_cidr: list[str], white_vless: list[str], black_all: list[str]):
     slot = current_1h_slot()
 
-    # Убираем ss из всех частей пула
-    white_cidr_clean = filter_no_ss(white_cidr)
-    white_vless_clean = filter_no_ss(white_vless)
-    black_all_clean = filter_no_ss(black_all)
-
-    wc_rot = stable_rotate_sort(white_cidr_clean, "pool_wc|" + slot)
-    wv_rot = stable_rotate_sort(white_vless_clean, "pool_wv|" + slot)
-    bl_rot = stable_rotate_sort(black_all_clean, "pool_bl|" + slot)
+    wc_rot = stable_rotate_sort(white_cidr, "pool_wc|" + slot)
+    wv_rot = stable_rotate_sort(white_vless, "pool_wv|" + slot)
+    bl_rot = stable_rotate_sort(black_all, "pool_bl|" + slot)
 
     wc_limit = calc_quota(POOL_TOTAL, POOL_RATIOS["white_cidr"])
     wv_limit = calc_quota(POOL_TOTAL, POOL_RATIOS["white_vless"])
@@ -782,6 +821,7 @@ def build_pool_parts(white_cidr: list[str], white_vless: list[str], black_all: l
     part_bl = bl_rot[:bl_limit]
 
     combined = dedup_host_port(part_wc + part_wv + part_bl)
+    combined = dedup_backend(combined, max_per_backend=2)
 
     if len(combined) < POOL_TOTAL:
         overflow = dedup_host_port(
@@ -795,9 +835,9 @@ def build_pool_parts(white_cidr: list[str], white_vless: list[str], black_all: l
 
     combined = combined[:POOL_TOTAL]
 
-    set_wc = set(white_cidr_clean)
-    set_wv = set(white_vless_clean)
-    set_bl = set(black_all_clean)
+    set_wc = set(white_cidr)
+    set_wv = set(white_vless)
+    set_bl = set(black_all)
 
     return {
         "white_cidr": [x for x in combined if x in set_wc],
@@ -810,11 +850,10 @@ def build_pool_parts(white_cidr: list[str], white_vless: list[str], black_all: l
 def build_mixed_from_pool_parts(pool_parts: dict) -> list[str]:
     slot = current_30m_slot()
 
-    wc_limit = calc_quota(MIXED_TOTAL, 0.50)
-    wv_limit = MIXED_TOTAL - wc_limit
+    wc_limit = calc_quota(MIXED_TOTAL, MIXED_RATIOS["white_cidr"])
+    wv_limit = calc_quota(MIXED_TOTAL, MIXED_RATIOS["white_vless"])
+    bl_limit = MIXED_TOTAL - wc_limit - wv_limit
 
-    # Mixed собираем ТОЛЬКО из white_cidr + white_vless
-    # и только из хороших VLESS (reality/tls)
     pool_wc = stable_rotate_sort(
         filter_good_for_mixed(pool_parts["white_cidr"]),
         "mix_wc|" + slot,
@@ -823,11 +862,16 @@ def build_mixed_from_pool_parts(pool_parts: dict) -> list[str]:
         filter_good_for_mixed(pool_parts["white_vless"]),
         "mix_wv|" + slot,
     )
+    pool_bl = stable_rotate_sort(
+        filter_good_for_mixed(pool_parts["black_all"]),
+        "mix_bl|" + slot,
+    )
 
-    mix_wc = pool_wc[:wc_limit]
-    mix_wv = pool_wv[:wv_limit]
-
-    mixed = dedup_host_port(mix_wc + mix_wv)
+    mixed = dedup_host_port(
+        pool_wc[:wc_limit] +
+        pool_wv[:wv_limit] +
+        pool_bl[:bl_limit]
+    )
 
     if len(mixed) < MIXED_TOTAL:
         extra = stable_rotate_sort(
@@ -840,7 +884,48 @@ def build_mixed_from_pool_parts(pool_parts: dict) -> list[str]:
             if cfg not in mixed:
                 mixed.append(cfg)
 
+    mixed = dedup_backend(mixed, max_per_backend=2)
     return mixed[:MIXED_TOTAL]
+
+
+def build_lte_from_pool(pool_parts: dict) -> list[str]:
+    slot = current_30m_slot()
+
+    candidates = [cfg for cfg in pool_parts["combined"] if is_good_public_cfg(cfg)]
+    candidates = dedup_host_port(candidates)
+    candidates = dedup_backend(candidates, max_per_backend=2)
+    rotated = stable_rotate_sort(candidates, "lte|" + slot)
+
+    scored = []
+    for cfg in rotated:
+        s = static_score(cfg, set(), set()) + lte_static_bonus(cfg)
+        scored.append({
+            "config": cfg,
+            "country": extract_country(extract_label(cfg)),
+            "score": s,
+        })
+
+    top = min(len(scored), 120)
+    for i in range(top):
+        cfg = scored[i]["config"]
+        host, port = extract_host_port(cfg)
+        lat = tcp_latency_ms(host, port)
+        scored[i]["score"] += tcp_bonus(lat)
+
+    scored.sort(key=lambda x: x["score"], reverse=True)
+
+    result = []
+    seen = set()
+    for row in scored:
+        cfg = row["config"]
+        if cfg in seen:
+            continue
+        result.append(cfg)
+        seen.add(cfg)
+        if len(result) >= LTE_TOTAL:
+            break
+
+    return result[:LTE_TOTAL]
 
 
 # ============================================================
@@ -872,14 +957,15 @@ def save_file(path: str, configs: list[str], title: str, description: str):
 
 
 # ============================================================
-# MAIN
+# SUBSCRIPTIONS.MD
 # ============================================================
+
 def format_msk_now():
     return datetime.now(timezone(timedelta(hours=3))).strftime("%d.%m.%Y %H:%M MSK")
 
 
-def make_raw_url(repo_owner: str, repo_name: str, branch: str, file_name: str) -> str:
-    return f"https://raw.githubusercontent.com/{repo_owner}/{repo_name}/{branch}/outputs/{file_name}"
+def make_pages_url(repo_owner: str, repo_name: str, file_name: str) -> str:
+    return f"https://{repo_owner}.github.io/{repo_name}/outputs/{file_name}"
 
 
 def save_subscriptions_md(repo_owner: str, repo_name: str, branch: str, files_meta: list[dict]):
@@ -888,7 +974,7 @@ def save_subscriptions_md(repo_owner: str, repo_name: str, branch: str, files_me
     lines = []
     lines.append("# Подписки")
     lines.append("")
-    lines.append("Ниже собраны актуальные ссылки на подписки.")
+    lines.append("Ниже собраны актуальные ссылки на публичные подписки.")
     lines.append("")
     lines.append(f"**Обновлено:** {updated_at}")
     lines.append("")
@@ -900,7 +986,7 @@ def save_subscriptions_md(repo_owner: str, repo_name: str, branch: str, files_me
         count = item["count"]
         note = item["note"]
 
-        raw_url = make_raw_url(repo_owner, repo_name, branch, file_name)
+        page_url = make_pages_url(repo_owner, repo_name, file_name)
 
         lines.append(f"## {title_ru}")
         lines.append("")
@@ -912,7 +998,7 @@ def save_subscriptions_md(repo_owner: str, repo_name: str, branch: str, files_me
         lines.append("")
         lines.append("Ссылка:")
         lines.append("")
-        lines.append(f"`{raw_url}`")
+        lines.append(f"`{page_url}`")
         lines.append("")
         lines.append("---")
         lines.append("")
@@ -922,13 +1008,18 @@ def save_subscriptions_md(repo_owner: str, repo_name: str, branch: str, files_me
 
     print(f"📝 Список подписок сохранён: {SUBSCRIPTIONS_MD_PATH}")
 
+
+# ============================================================
+# MAIN
+# ============================================================
+
 def main():
     print("\n" + "=" * 72)
     print("VPN Builder v3.0")
-    print("Большие группы 2h + pool 1h + mixed 30m")
+    print("Большие группы + pool + mixed + lte")
     print("=" * 72)
 
-    print("\n📥 Загрузка источников (8 файлов)...")
+    print("\n📥 Загрузка источников...")
 
     raw_white_cidr = fetch_group("WHITE CIDR", SOURCE_GROUPS["white_cidr"])
     raw_white_vless = fetch_group("WHITE VLESS", SOURCE_GROUPS["white_vless"])
@@ -969,6 +1060,7 @@ def main():
     pool_parts = build_pool_parts(white_cidr, white_vless, black_all)
     pool = pool_parts["combined"]
     mixed = build_mixed_from_pool_parts(pool_parts)
+    lte = build_lte_from_pool(pool_parts)
 
     final_groups = {
         "white_cidr": white_cidr,
@@ -976,42 +1068,51 @@ def main():
         "black_all": black_all,
         "pool": pool,
         "mixed": mixed,
+        "lte": lte,
     }
 
     save_file(
         os.path.join(OUTPUT_DIR, "white_cidr.txt"),
         white_cidr,
         title="White CIDR",
-        description="large selected white CIDR group from 8-source build",
+        description="internal white CIDR source group",
     )
 
     save_file(
         os.path.join(OUTPUT_DIR, "white_vless.txt"),
         white_vless,
         title="White VLESS",
-        description="large selected white VLESS group from 8-source build",
+        description="internal white VLESS source group",
     )
 
     save_file(
         os.path.join(OUTPUT_DIR, "black_all.txt"),
         black_all,
         title="Black All",
-        description="large selected black group from 8-source build",
+        description="internal black source group",
     )
 
     save_file(
         os.path.join(OUTPUT_DIR, "pool.txt"),
         pool,
         title="Pool",
-        description="internal 150-config pool built from three large groups",
+        description="public extended profile built from all internal groups",
     )
 
     save_file(
         os.path.join(OUTPUT_DIR, "mixed.txt"),
         mixed,
         title="Mixed",
-        description="rotating public mix built from pool",
+        description="public main profile built from the best clean configs",
     )
+
+    save_file(
+        os.path.join(OUTPUT_DIR, "lte.txt"),
+        lte,
+        title="LTE",
+        description="compact public profile for mobile/LTE usage",
+    )
+
     save_subscriptions_md(
         repo_owner="malfy-driller",
         repo_name="vpn-builderV2",
@@ -1022,35 +1123,21 @@ def main():
                 "title_en": "Mixed",
                 "file_name": "mixed.txt",
                 "count": len(mixed),
-                "note": "Универсальная подписка для большинства пользователей.",
+                "note": "Основной сбалансированный набор для большинства пользователей.",
             },
             {
-                "title_ru": "Белый CIDR",
-                "title_en": "White CIDR",
-                "file_name": "white_cidr.txt",
-                "count": len(white_cidr),
-                "note": "Отдельная категория отобранных конфигов.",
-            },
-            {
-                "title_ru": "Белый VLESS",
-                "title_en": "White VLESS",
-                "file_name": "white_vless.txt",
-                "count": len(white_vless),
-                "note": "Подборка VLESS-конфигов.",
-            },
-            {
-                "title_ru": "Чёрная категория",
-                "title_en": "Black All",
-                "file_name": "black_all.txt",
-                "count": len(black_all),
-                "note": "Альтернативная категория конфигов.",
-            },
-            {
-                "title_ru": "Внутренний пул",
+                "title_ru": "Расширенная подписка",
                 "title_en": "Pool",
                 "file_name": "pool.txt",
                 "count": len(pool),
-                "note": "Технический пул для формирования основной подписки.",
+                "note": "Большой набор с дополнительными вариантами и более широким охватом.",
+            },
+            {
+                "title_ru": "LTE-подписка",
+                "title_en": "LTE",
+                "file_name": "lte.txt",
+                "count": len(lte),
+                "note": "Компактный профиль для мобильной сети и быстрых проверок.",
             },
         ],
     )
@@ -1061,6 +1148,7 @@ def main():
     print_stats("black_all", black_all)
     print_stats("pool", pool)
     print_stats("mixed", mixed)
+    print_stats("lte", lte)
 
     save_stats_summary(
         raw_groups={
@@ -1076,12 +1164,8 @@ def main():
     print("=" * 72)
     print(f"Рабочие файлы: {OUTPUT_DIR}")
     print(f"Сводка: {STATS_SUMMARY_PATH}")
-    print("Обновление по логике:")
-    print("  white_* / black_all -> 2 часа")
-    print("  pool.txt            -> 1 час")
-    print("  mixed.txt           -> 30 минут")
-    print("Файлы для себя: white_cidr / white_vless / black_all / pool")
-    print("Файл для людей: mixed.txt")
+    print("Публичные файлы: pool / mixed / lte")
+    print("Внутренние группы: white_cidr / white_vless / black_all")
 
 
 if __name__ == "__main__":
