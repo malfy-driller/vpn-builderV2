@@ -935,23 +935,24 @@ def build_lte_from_pool(pool_parts: dict) -> list[str]:
 def build_header(title: str, count: int, description: str, public_note: str = "") -> str:
     now = datetime.now(timezone(timedelta(hours=3))).strftime("%Y-%m-%d %H:%M:%S MSK")
 
-    extra = ""
+    lines = [
+        f"#profile-title: {title} | {count} configs",
+        "#profile-update-interval: 1",
+        f"# Date: {now}",
+        f"# Count: {count}",
+        f"# {description}",
+    ]
+
     if public_note:
-        extra = f"# Note: {public_note}\n"
+        lines.append(f"# {public_note}")
 
-    return (
-        f"#profile-title: {title} | {count} configs\n"
-        f"#profile-update-interval: 1\n"
-        f"# Date: {now}\n"
-        f"# Count: {count}\n"
-        f"# {description}\n"
-        f"{extra}\n"
-    )
+    lines.append("")
+    return "\n".join(lines)
 
 
-def save_file(path: str, configs: list[str], title: str, description: str):
+def save_file(path: str, configs: list[str], title: str, description: str, public_note: str = ""):
     os.makedirs(os.path.dirname(path), exist_ok=True)
-    header = build_header(title, len(configs), description)
+    header = build_header(title, len(configs), description, public_note=public_note)
 
     with open(path, "w", encoding="utf-8") as f:
         f.write(header)
@@ -1081,6 +1082,7 @@ def main():
         white_cidr,
         title="White CIDR",
         description="internal white CIDR source group",
+        public_note="Внутренняя группа для сборки публичных подписок.",
     )
 
     save_file(
@@ -1088,6 +1090,7 @@ def main():
         white_vless,
         title="White VLESS",
         description="internal white VLESS source group",
+        public_note="Внутренняя группа для сборки публичных подписок.",
     )
 
     save_file(
@@ -1095,31 +1098,32 @@ def main():
         black_all,
         title="Black All",
         description="internal black source group",
+        public_note="Внутренняя группа для расширенного пула и альтернативных вариантов.",
     )
 
     save_file(
-    os.path.join(OUTPUT_DIR, "pool.txt"),
-    pool,
-    title="Pool",
-    description="Public extended profile",
-    public_note="Расширенный набор с большим количеством вариантов.",
-)
+        os.path.join(OUTPUT_DIR, "pool.txt"),
+        pool,
+        title="Pool",
+        description="public extended profile built from all internal groups",
+        public_note="Расширенная публичная подписка. Больше вариантов и более широкий охват.",
+    )
 
     save_file(
-    os.path.join(OUTPUT_DIR, "mixed.txt"),
-    mixed,
-    title="Mixed",
-    description="Public main profile",
-    public_note="Основной сбалансированный набор для большинства пользователей. Обновляется автоматически.",
-)
+        os.path.join(OUTPUT_DIR, "mixed.txt"),
+        mixed,
+        title="Mixed",
+        description="public main profile built from the best clean configs",
+        public_note="Основная публичная подписка для большинства пользователей.",
+    )
 
     save_file(
-    os.path.join(OUTPUT_DIR, "lte.txt"),
-    lte,
-    title="LTE",
-    description="Compact mobile profile",
-    public_note="Компактный профиль для мобильной сети и быстрых проверок.",
-)
+        os.path.join(OUTPUT_DIR, "lte.txt"),
+        lte,
+        title="LTE",
+        description="compact public profile for mobile/LTE usage",
+        public_note="Компактная публичная подписка для мобильной сети и быстрых проверок.",
+    )
 
     save_subscriptions_md(
         repo_owner="malfy-driller",
