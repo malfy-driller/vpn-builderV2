@@ -1,5 +1,5 @@
 VPN Builder stats summary
-Generated at: 2026-04-08 18:51:56 MSK
+Generated at: 2026-04-08 19:56:06 MSK
 
 ====================================================================
 RAW GROUPS
@@ -8,98 +8,116 @@ RAW GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 205
-Уникальных строк: 118
-Уникальных host:port: 52
-Уникальных backend: 44
-Anycast: 16
-Unknown country: 12
+Всего конфигов: 235
+Уникальных строк: 143
+Уникальных host:port: 79
+Уникальных backend: 55
+Anycast: 30
+Unknown country: 5
 
 Топ стран:
-  Russia: 163
-  🌐 Anycast: 16
-  Finland: 12
-  Unknown: 12
-  France: 2
+  Russia: 155
+  🌐 Anycast: 30
+  Finland: 18
+  France: 12
+  Germany: 9
+  Unknown: 5
+  Czechia: 2
+  Switzerland: 2
+  Netherlands: 2
 
 Топ SNI:
-  eh.vk.com: 61
-  ads.x5.ru: 55
+  ads.x5.ru: 58
+  eh.vk.com: 42
+  rbc.ru: 23
   sso.passport.yandex.ru: 20
-  rbc.ru: 8
-  max.ru: 6
-  goodcardboard.shop: 5
-  ya.ru: 4
-  api-maps.yandex.ru: 3
-  wl-3-5.legendary-vpn.com: 2
-  wl-3-4.legendary-vpn.com: 2
+  max.ru: 15
+  tunnel.vk-apps.com: 12
+  yandex.ru: 6
+  goodcardboard.shop: 6
+  www.io.ozone.ru: 5
+  smartcaptcha.yandexcloud.net: 4
 
 Топ портов:
-  443: 118
-  7443: 52
-  8443: 28
-  2083: 4
-  40006: 2
-  2095: 1
+  443: 127
+  7443: 46
+  8443: 36
+  5444: 5
+  2083: 5
+  9443: 3
+  9887: 2
+  9830: 2
+  9882: 2
+  2095: 2
 
 Топ схем:
-  vless: 203
-  hysteria2: 2
+  vless: 232
+  hysteria2: 3
 
 Топ transport:
-  grpc: 133
-  tcp: 72
+  tcp: 124
+  grpc: 110
+  xhttp: 1
 
 Топ security:
-  reality: 203
-  none: 1
+  reality: 232
+  none: 2
   tls: 1
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_vless
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 100
-Уникальных строк: 100
-Уникальных host:port: 40
-Уникальных backend: 32
-Anycast: 9
-Unknown country: 6
+Всего конфигов: 109
+Уникальных строк: 109
+Уникальных host:port: 53
+Уникальных backend: 38
+Anycast: 14
+Unknown country: 3
 
 Топ стран:
-  Russia: 78
-  🌐 Anycast: 9
-  Finland: 6
-  Unknown: 6
-  France: 1
+  Russia: 69
+  🌐 Anycast: 14
+  Finland: 9
+  France: 6
+  Germany: 5
+  Unknown: 3
+  Czechia: 1
+  Switzerland: 1
+  Netherlands: 1
 
 Топ SNI:
-  ads.x5.ru: 29
-  eh.vk.com: 29
+  ads.x5.ru: 31
+  eh.vk.com: 19
   sso.passport.yandex.ru: 10
-  goodcardboard.shop: 5
-  max.ru: 3
+  tunnel.vk-apps.com: 6
+  goodcardboard.shop: 6
+  max.ru: 4
+  rbc.ru: 4
+  www.io.ozone.ru: 3
+  yandex.ru: 3
   api-maps.yandex.ru: 2
-  pimg.mycdn.me: 2
-  wl-3-5.legendary-vpn.com: 1
-  wl-3-4.legendary-vpn.com: 1
-  wl-4-2.legendary-vpn.com: 1
 
 Топ портов:
-  443: 60
-  7443: 26
-  8443: 10
-  2083: 3
-  40006: 1
+  443: 59
+  7443: 23
+  8443: 13
+  2083: 5
+  9443: 2
+  9887: 1
+  5444: 1
+  9877: 1
+  9830: 1
+  4397: 1
 
 Топ схем:
-  vless: 100
+  vless: 109
 
 Топ transport:
-  grpc: 68
-  tcp: 32
+  grpc: 58
+  tcp: 51
 
 Топ security:
-  reality: 100
+  reality: 109
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW black_all
@@ -168,97 +186,115 @@ FINAL GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 47
-Уникальных строк: 47
-Уникальных host:port: 47
-Уникальных backend: 32
-Anycast: 7
-Unknown country: 1
+Всего конфигов: 76
+Уникальных строк: 76
+Уникальных host:port: 76
+Уникальных backend: 48
+Anycast: 15
+Unknown country: 3
 
 Топ стран:
-  Russia: 32
-  🌐 Anycast: 7
-  Finland: 6
+  Russia: 42
+  🌐 Anycast: 15
+  Finland: 9
+  Germany: 3
+  Unknown: 3
+  Netherlands: 1
   France: 1
-  Unknown: 1
+  Switzerland: 1
+  Czechia: 1
 
 Топ SNI:
+  rbc.ru: 11
+  max.ru: 9
+  ads.x5.ru: 8
   eh.vk.com: 6
-  ads.x5.ru: 5
-  ya.ru: 4
   goodcardboard.shop: 4
-  max.ru: 3
+  yandex.ru: 3
   sso.passport.yandex.ru: 3
-  rbc.ru: 3
-  api-maps.yandex.ru: 2
-  ozon.ru: 2
-  swscan.apple.com: 1
+  www.io.ozone.ru: 3
+  ozon.ru: 3
+  smartcaptcha.yandexcloud.net: 2
 
 Топ портов:
-  443: 32
-  8443: 7
+  443: 44
+  8443: 11
   7443: 4
-  2083: 2
-  40006: 1
-  2095: 1
+  5444: 4
+  9443: 2
+  2095: 2
+  9893: 1
+  9882: 1
+  2083: 1
+  9877: 1
 
 Топ схем:
-  vless: 46
+  vless: 75
   hysteria2: 1
 
 Топ transport:
-  tcp: 35
-  grpc: 12
+  tcp: 62
+  grpc: 13
+  xhttp: 1
 
 Топ security:
-  reality: 46
+  reality: 75
   none: 1
 
 ────────────────────────────────────────────────────────────────────
 📊 white_vless
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 35
-Уникальных строк: 35
-Уникальных host:port: 35
-Уникальных backend: 24
-Anycast: 6
-Unknown country: 1
+Всего конфигов: 51
+Уникальных строк: 51
+Уникальных host:port: 51
+Уникальных backend: 33
+Anycast: 10
+Unknown country: 3
 
 Топ стран:
-  Russia: 21
-  🌐 Anycast: 6
-  Finland: 6
+  Russia: 22
+  🌐 Anycast: 10
+  Finland: 9
+  Germany: 3
+  Unknown: 3
+  Netherlands: 1
   France: 1
-  Unknown: 1
+  Switzerland: 1
+  Czechia: 1
 
 Топ SNI:
-  ads.x5.ru: 5
+  ads.x5.ru: 7
   eh.vk.com: 4
   goodcardboard.shop: 4
+  yandex.ru: 3
+  max.ru: 3
   sso.passport.yandex.ru: 3
-  max.ru: 2
-  api-maps.yandex.ru: 2
-  swscan.apple.com: 1
-  360.yandex.ru: 1
-  wl-4-2.legendary-vpn.com: 1
-  st.ozone.ru: 1
+  www.io.ozone.ru: 3
+  rbc.ru: 2
+  smartcaptcha.yandexcloud.net: 2
+  api-maps.yandex.ru: 1
 
 Топ портов:
-  443: 26
+  443: 32
+  8443: 5
   7443: 4
-  8443: 3
-  40006: 1
+  9443: 2
+  9882: 1
   2083: 1
+  9877: 1
+  5444: 1
+  9887: 1
+  48444: 1
 
 Топ схем:
-  vless: 35
+  vless: 51
 
 Топ transport:
-  tcp: 23
-  grpc: 12
+  tcp: 38
+  grpc: 13
 
 Топ security:
-  reality: 35
+  reality: 51
 
 ────────────────────────────────────────────────────────────────────
 📊 black_all
@@ -277,8 +313,8 @@ Unknown country: 4
   Netherlands: 3
   Japan: 2
   Poland: 1
-  France: 1
   Finland: 1
+  France: 1
 
 Топ SNI:
   qyi.fqjd663.ggff.net: 4
@@ -286,23 +322,23 @@ Unknown country: 4
   dongjing1.zqjsqapi.com: 2
   www.coinbase.com: 2
   shenbaoluo1.zqjsqapi.com: 2
-  jflsjlaf.pages.dev: 2
   subtale.trevely.us.kg: 2
+  jflsjlaf.pages.dev: 2
   www.microsoft.com: 2
-  www.apple.com: 1
   cdn.trahodrom.fun: 1
+  snippet.danfeng.com.cfd: 1
 
 Топ портов:
   443: 41
   8443: 8
   2053: 3
-  81: 1
   44300: 1
+  81: 1
   56657: 1
+  32237: 1
   1443: 1
+  12028: 1
   8888: 1
-  20201: 1
-  15430: 1
 
 Топ схем:
   vless: 30
@@ -323,122 +359,124 @@ Unknown country: 4
 ────────────────────────────────────────────────────────────────────
 📊 pool
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 104
-Уникальных строк: 104
-Уникальных host:port: 104
-Уникальных backend: 88
-Anycast: 56
-Unknown country: 5
+Всего конфигов: 133
+Уникальных строк: 133
+Уникальных host:port: 132
+Уникальных backend: 105
+Anycast: 62
+Unknown country: 7
 
 Топ стран:
-  🌐 Anycast: 56
-  Russia: 25
-  Finland: 7
-  Unknown: 5
-  Germany: 4
+  🌐 Anycast: 62
+  Russia: 37
+  Finland: 10
+  Unknown: 7
+  Germany: 6
+  Netherlands: 4
   France: 2
   Japan: 2
-  Netherlands: 2
-  Poland: 1
+  Switzerland: 1
+  Czechia: 1
 
 Топ SNI:
-  ya.ru: 4
-  eh.vk.com: 4
-  max.ru: 3
-  ads.x5.ru: 3
-  rbc.ru: 3
-  qyi.fqjd663.ggff.net: 3
-  ozon.ru: 2
-  api-maps.yandex.ru: 2
-  goodcardboard.shop: 2
-  sso.passport.yandex.ru: 2
+  max.ru: 9
+  rbc.ru: 9
+  ads.x5.ru: 6
+  eh.vk.com: 5
+  sso.passport.yandex.ru: 3
+  ozon.ru: 3
+  goodcardboard.shop: 3
+  www.io.ozone.ru: 3
+  smartcaptcha.yandexcloud.net: 2
+  yandex.ru: 2
 
 Топ портов:
-  443: 67
-  8443: 14
+  443: 81
+  8443: 18
+  5444: 4
+  2095: 2
   7443: 2
-  2083: 2
-  2053: 2
-  2095: 1
-  40006: 1
-  22000: 1
-  8444: 1
-  56657: 1
+  9443: 2
+  9830: 1
+  9882: 1
+  9887: 1
+  9877: 1
 
 Топ схем:
-  vless: 67
+  vless: 95
   ss: 26
   trojan: 6
-  hysteria2: 5
+  hysteria2: 6
 
 Топ transport:
-  tcp: 73
-  ws: 21
-  grpc: 7
-  xhttp: 3
+  tcp: 99
+  ws: 20
+  grpc: 10
+  xhttp: 4
 
 Топ security:
-  reality: 47
-  none: 30
-  tls: 27
+  reality: 76
+  none: 31
+  tls: 26
 
 ────────────────────────────────────────────────────────────────────
 📊 mixed
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 60
-Уникальных строк: 60
-Уникальных host:port: 60
-Уникальных backend: 50
-Anycast: 17
-Unknown country: 4
+Всего конфигов: 58
+Уникальных строк: 58
+Уникальных host:port: 58
+Уникальных backend: 48
+Anycast: 16
+Unknown country: 3
 
 Топ стран:
-  Russia: 24
-  🌐 Anycast: 17
-  Finland: 7
-  Unknown: 4
+  Russia: 19
+  🌐 Anycast: 16
+  Finland: 8
+  Germany: 4
+  Netherlands: 3
+  Unknown: 3
   France: 2
-  Germany: 2
-  Japan: 2
+  Switzerland: 1
   Poland: 1
-  Netherlands: 1
+  Japan: 1
 
 Топ SNI:
-  ya.ru: 4
+  rbc.ru: 4
+  ads.x5.ru: 4
   max.ru: 3
-  rbc.ru: 3
-  ads.x5.ru: 3
-  eh.vk.com: 3
-  api-maps.yandex.ru: 2
-  sso.passport.yandex.ru: 2
-  ozon.ru: 2
+  smartcaptcha.yandexcloud.net: 2
+  yandex.ru: 2
   goodcardboard.shop: 2
+  ya.ru: 2
+  sso.passport.yandex.ru: 2
+  www.io.ozone.ru: 2
   qyi.fqjd663.ggff.net: 2
 
 Топ портов:
   443: 42
-  8443: 7
+  8443: 5
   7443: 2
-  2083: 2
-  40006: 1
-  2095: 1
-  56657: 1
-  44300: 1
-  81: 1
-  2053: 1
+  9443: 2
+  9893: 1
+  4397: 1
+  9877: 1
+  2083: 1
+  9830: 1
+  9882: 1
 
 Топ схем:
-  vless: 60
+  vless: 58
 
 Топ transport:
-  tcp: 38
-  ws: 13
+  tcp: 43
   grpc: 7
+  ws: 6
   xhttp: 2
 
 Топ security:
-  reality: 44
-  tls: 16
+  reality: 51
+  tls: 7
 
 ────────────────────────────────────────────────────────────────────
 📊 lte
@@ -446,120 +484,118 @@ Unknown country: 4
 Всего конфигов: 25
 Уникальных строк: 25
 Уникальных host:port: 25
-Уникальных backend: 20
-Anycast: 9
+Уникальных backend: 19
+Anycast: 12
 Unknown country: 0
 
 Топ стран:
-  Russia: 9
-  🌐 Anycast: 9
+  🌐 Anycast: 12
+  Russia: 8
   Netherlands: 2
   Japan: 2
-  France: 1
   Finland: 1
-  Germany: 1
 
 Топ SNI:
-  eh.vk.com: 3
-  ads.x5.ru: 3
-  sso.passport.yandex.ru: 2
-  max.ru: 2
+  ads.x5.ru: 6
+  max.ru: 3
+  eh.vk.com: 2
+  yandex.ru: 2
   dongjing1.zqjsqapi.com: 2
-  api-maps.yandex.ru: 2
+  gavorbhj.chinam.indevs.in: 2
   qyi.fqjd663.ggff.net: 2
-  swscan.apple.com: 1
-  www.apple.com: 1
+  mirror.yandex.ru: 1
+  nle.tunnelguard.ru: 1
   hlc.tunnelguard.ru: 1
 
 Топ портов:
-  443: 17
-  8443: 3
+  443: 21
   7443: 2
+  8443: 1
   2083: 1
-  40006: 1
-  2053: 1
 
 Топ схем:
   vless: 25
 
 Топ transport:
-  tcp: 9
-  grpc: 7
-  ws: 6
-  xhttp: 3
+  tcp: 10
+  ws: 7
+  xhttp: 4
+  grpc: 4
 
 Топ security:
-  reality: 16
-  tls: 9
+  reality: 15
+  tls: 10
 
 ====================================================================
 🌍 GLOBAL SUMMARY
 ====================================================================
-Всего конфигов: 338
-Уникальных строк: 114
-Уникальных host:port: 113
-Уникальных backend: 89
-Anycast: 146
-Unknown country: 15
+Всего конфигов: 410
+Уникальных строк: 143
+Уникальных host:port: 142
+Уникальных backend: 105
+Anycast: 166
+Unknown country: 20
 
 Топ стран:
-  🌐 Anycast: 146
-  Russia: 111
-  Finland: 28
-  Unknown: 15
-  Germany: 11
-  France: 8
-  Netherlands: 8
-  Japan: 8
+  🌐 Anycast: 166
+  Russia: 128
+  Finland: 38
+  Germany: 20
+  Unknown: 20
+  Netherlands: 14
+  France: 7
+  Japan: 7
+  Switzerland: 4
+  Czechia: 3
   Poland: 3
 
 Топ SNI:
-  eh.vk.com: 20
-  ads.x5.ru: 19
-  max.ru: 13
-  sso.passport.yandex.ru: 12
-  ya.ru: 12
-  goodcardboard.shop: 12
-  qyi.fqjd663.ggff.net: 11
-  api-maps.yandex.ru: 10
-  rbc.ru: 9
-  dongjing1.zqjsqapi.com: 8
-  gavorbhj.chinam.indevs.in: 7
+  ads.x5.ru: 31
+  max.ru: 27
+  rbc.ru: 26
+  eh.vk.com: 18
+  goodcardboard.shop: 13
+  yandex.ru: 12
+  sso.passport.yandex.ru: 11
+  www.io.ozone.ru: 11
+  qyi.fqjd663.ggff.net: 10
+  gavorbhj.chinam.indevs.in: 9
+  smartcaptcha.yandexcloud.net: 8
+  dongjing1.zqjsqapi.com: 7
+  ya.ru: 6
   ozon.ru: 6
-  www.coinbase.com: 6
-  swscan.apple.com: 5
-  360.yandex.ru: 5
+  api-maps.yandex.ru: 5
 
 Топ портов:
-  443: 225
-  8443: 42
+  443: 261
+  8443: 48
   7443: 14
-  2083: 8
-  2053: 7
-  40006: 5
-  2095: 3
-  81: 3
-  44300: 3
-  56657: 3
-  32237: 3
-  1443: 2
-  8888: 2
-  20201: 2
-  15430: 2
+  5444: 9
+  9443: 8
+  2083: 5
+  9882: 4
+  9877: 4
+  4397: 4
+  48444: 4
+  9830: 4
+  2095: 4
+  2053: 4
+  9893: 3
+  9887: 3
 
 Топ схем:
-  vless: 263
+  vless: 334
   ss: 52
+  hysteria2: 12
   trojan: 12
-  hysteria2: 11
 
 Топ transport:
-  tcp: 219
-  ws: 63
-  grpc: 45
-  xhttp: 11
+  tcp: 293
+  ws: 56
+  grpc: 47
+  xhttp: 14
 
 Топ security:
-  reality: 196
-  tls: 81
-  none: 61
+  reality: 276
+  tls: 72
+  none: 62
