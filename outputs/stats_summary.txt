@@ -1,5 +1,5 @@
 VPN Builder stats summary
-Generated at: 2026-04-12 14:22:27 MSK
+Generated at: 2026-04-12 14:53:29 MSK
 
 ====================================================================
 RAW GROUPS
@@ -210,9 +210,9 @@ Unknown country: 2
   France: 5
   Unknown: 2
   Poland: 1
-  Finland: 1
   Israel: 1
   Japan: 1
+  Austria: 1
 
 Топ SNI:
   max.ru: 13
@@ -240,8 +240,8 @@ Unknown country: 2
 
 Топ схем:
   vless: 83
-  hysteria2: 1
   trojan: 1
+  hysteria2: 1
 
 Топ transport:
   tcp: 64
@@ -274,7 +274,7 @@ Unknown country: 2
   Poland: 1
   Austria: 1
   Japan: 1
-  Finland: 1
+  Israel: 1
 
 Топ SNI:
   max.ru: 8
@@ -336,9 +336,9 @@ Unknown country: 8
 
 Топ SNI:
   www.samsung.com: 4
-  www.cloudflare.com: 4
   aier.eu.cc: 4
   2026.hhhhh.eu.org: 4
+  www.cloudflare.com: 4
   www.microsoft.com: 4
   sub.sbrf-cdn342.ru: 4
   jflsjlaf.pages.dev: 4
@@ -442,62 +442,61 @@ Unknown country: 7
 ────────────────────────────────────────────────────────────────────
 📊 mixed
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 56
-Уникальных строк: 56
-Уникальных host:port: 56
-Уникальных backend: 47
+Всего конфигов: 55
+Уникальных строк: 55
+Уникальных host:port: 55
+Уникальных backend: 46
 Anycast: 23
-Unknown country: 3
+Unknown country: 4
 
 Топ стран:
   🌐 Anycast: 23
-  Russia: 12
+  Russia: 9
+  Netherlands: 6
   Germany: 6
-  Netherlands: 5
-  Unknown: 3
-  France: 2
-  Poland: 2
+  France: 4
+  Unknown: 4
+  Poland: 1
+  Israel: 1
   Finland: 1
-  Austria: 1
-  Japan: 1
 
 Топ SNI:
-  max.ru: 8
-  ads.x5.ru: 5
-  eh.vk.com: 4
-  5post-gate.x5.ru: 2
-  goodcardboard.shop: 2
-  login.vk.com: 2
-  sub.sbrf-cdn342.ru: 2
-  tunnel.vk-apps.com: 2
+  max.ru: 7
+  eh.vk.com: 5
+  tunnel.vk-apps.com: 4
+  5post-gate.x5.ru: 4
+  ads.x5.ru: 3
+  www.kinopoisk.ru: 2
   nice.ducks.tel: 2
-  ozon.ru: 2
+  debian.org: 2
+  yahoo.com: 2
+  sub.sbrf-cdn342.ru: 2
 
 Топ портов:
-  443: 38
-  8443: 5
+  443: 39
+  8443: 4
+  2443: 2
   2053: 2
-  5443: 2
   3443: 2
-  2443: 1
-  8080: 1
-  12443: 1
+  7443: 2
+  52000: 1
   10443: 1
-  7443: 1
+  5443: 1
+  2083: 1
 
 Топ схем:
-  vless: 56
+  vless: 55
 
 Топ transport:
-  tcp: 39
-  xhttp: 9
-  grpc: 5
-  ws: 2
+  tcp: 38
+  xhttp: 8
+  ws: 6
+  grpc: 2
   raw: 1
 
 Топ security:
-  reality: 50
-  tls: 6
+  reality: 45
+  tls: 10
 
 ────────────────────────────────────────────────────────────────────
 📊 lte
@@ -517,107 +516,110 @@ Unknown country: 0
 
 Топ SNI:
   max.ru: 7
-  eh.vk.com: 5
-  ads.x5.ru: 4
+  ads.x5.ru: 6
+  eh.vk.com: 4
   vk.com: 2
   login.vk.com: 1
   web.max.ru: 1
   static.rutube.ru: 1
-  akashi.vk-portal.net: 1
   sun6-22.userapi.com: 1
+  akashi.vk-portal.net: 1
   music.yandex.ru: 1
 
 Топ портов:
-  443: 15
+  443: 14
   8443: 4
   3443: 3
   2443: 1
   12443: 1
+  4380: 1
   52000: 1
 
 Топ схем:
-  vless: 25
+  vless: 24
+  trojan: 1
 
 Топ transport:
-  tcp: 16
-  xhttp: 8
+  tcp: 17
+  xhttp: 7
   grpc: 1
 
 Топ security:
-  reality: 25
+  reality: 24
+  tls: 1
 
 ====================================================================
 🌍 GLOBAL SUMMARY
 ====================================================================
-Всего конфигов: 493
+Всего конфигов: 492
 Уникальных строк: 213
 Уникальных host:port: 210
 Уникальных backend: 153
 Anycast: 244
-Unknown country: 22
+Unknown country: 23
 
 Топ стран:
   🌐 Anycast: 244
-  Russia: 86
+  Russia: 83
   Germany: 45
-  Netherlands: 40
-  Unknown: 22
-  France: 19
-  Japan: 9
+  Netherlands: 41
+  Unknown: 23
+  France: 21
+  Japan: 8
   Finland: 8
-  Poland: 7
-  Austria: 6
+  Poland: 6
+  Austria: 5
+  Israel: 4
   United States: 4
-  Israel: 3
 
 Топ SNI:
-  max.ru: 48
-  eh.vk.com: 34
+  max.ru: 47
   ads.x5.ru: 34
+  eh.vk.com: 34
+  tunnel.vk-apps.com: 19
   sub.sbrf-cdn342.ru: 18
-  tunnel.vk-apps.com: 17
-  5post-gate.x5.ru: 15
+  5post-gate.x5.ru: 17
   nice.ducks.tel: 15
-  sun6-22.userapi.com: 13
-  goodcardboard.shop: 13
+  sun6-22.userapi.com: 14
+  goodcardboard.shop: 12
   vk.com: 11
-  login.vk.com: 10
-  ozon.ru: 10
   yahoo.com: 9
-  www.samsung.com: 9
-  www.microsoft.com: 9
+  ozon.ru: 9
+  login.vk.com: 8
+  debian.org: 8
+  www.samsung.com: 8
 
 Топ портов:
   443: 316
-  8443: 39
+  8443: 38
   2053: 19
   1935: 19
   3443: 15
-  7443: 13
-  2443: 11
-  5443: 8
-  52000: 7
-  12443: 5
+  7443: 14
+  2443: 12
+  52000: 8
+  5443: 7
+  12443: 4
   10443: 4
-  8080: 3
+  2083: 4
+  4380: 3
   2087: 3
-  5432: 3
-  46806: 3
+  8444: 3
 
 Топ схем:
-  vless: 388
+  vless: 386
   ss: 53
   hysteria2: 35
-  trojan: 17
+  trojan: 18
 
 Топ transport:
   tcp: 354
-  xhttp: 59
-  ws: 44
-  grpc: 32
+  xhttp: 57
+  ws: 48
+  grpc: 29
   raw: 4
 
 Топ security:
-  reality: 324
-  tls: 98
+  reality: 318
+  tls: 103
   none: 71
