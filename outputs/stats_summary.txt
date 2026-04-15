@@ -1,5 +1,5 @@
 VPN Builder stats summary
-Generated at: 2026-04-15 23:00:25 MSK
+Generated at: 2026-04-15 23:58:09 MSK
 
 ====================================================================
 RAW GROUPS
@@ -8,108 +8,115 @@ RAW GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 717
-Уникальных строк: 700
-Уникальных host:port: 43
-Уникальных backend: 41
-Anycast: 487
-Unknown country: 107
+Всего конфигов: 954
+Уникальных строк: 913
+Уникальных host:port: 67
+Уникальных backend: 65
+Anycast: 752
+Unknown country: 12
 
 Топ стран:
-  🌐 Anycast: 487
-  Russia: 112
-  Unknown: 107
-  Lithuania: 7
-  Germany: 2
-  Estonia: 1
-  Netherlands: 1
+  🌐 Anycast: 752
+  Russia: 172
+  Unknown: 12
+  Lithuania: 6
+  Finland: 4
+  Poland: 4
+  Netherlands: 2
+  Germany: 1
+  Japan: 1
 
 Топ SNI:
-  cmm-13.anti-vpn.ru: 153
-  ing-dop.anti-vpn.ru: 126
-  ger-13.anti-vpn.ru: 122
-  germ-dop.anti-vpn.ru: 79
-  cluster11.anti-vpn.ru: 61
-  ing-13.anti-vpn.ru: 56
-  russ-13.anti-vpn.ru: 55
-  5post-gate.x5.ru: 20
-  ads.x5.ru: 5
-  api-maps.yandex.ru: 5
+  cmm-13.anti-vpn.ru: 174
+  ger-13.anti-vpn.ru: 159
+  ing-dop.anti-vpn.ru: 151
+  germ-dop.anti-vpn.ru: 97
+  cluster11.anti-vpn.ru: 92
+  russ-13.anti-vpn.ru: 74
+  ing-13.anti-vpn.ru: 70
+  5post-gate.x5.ru: 36
+  api-maps.yandex.ru: 13
+  ads.x5.ru: 13
 
 Топ портов:
-  52006: 652
-  443: 47
-  8443: 5
-  54445: 2
+  52006: 817
+  443: 92
+  8443: 15
+  5443: 5
+  4243: 4
+  54445: 4
+  7443: 3
+  3443: 2
+  29737: 2
   8448: 2
-  2041: 2
-  10001: 2
-  1443: 1
-  5443: 1
-  4433: 1
 
 Топ схем:
-  vless: 711
+  vless: 948
   hysteria2: 4
   ss: 2
 
 Топ transport:
-  tcp: 700
-  xhttp: 10
-  grpc: 7
+  tcp: 921
+  grpc: 16
+  xhttp: 16
+  ws: 1
 
 Топ security:
-  tls: 653
-  reality: 59
+  tls: 821
+  reality: 128
   none: 5
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_vless
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 299
-Уникальных строк: 299
-Уникальных host:port: 21
-Уникальных backend: 20
-Anycast: 217
-Unknown country: 19
+Всего конфигов: 300
+Уникальных строк: 300
+Уникальных host:port: 25
+Уникальных backend: 25
+Anycast: 246
+Unknown country: 5
 
 Топ стран:
-  🌐 Anycast: 217
-  Russia: 62
-  Unknown: 19
+  🌐 Anycast: 246
+  Russia: 47
+  Unknown: 5
+  Finland: 1
   Lithuania: 1
 
 Топ SNI:
-  ger-13.anti-vpn.ru: 62
-  ing-dop.anti-vpn.ru: 61
-  cluster11.anti-vpn.ru: 47
-  germ-dop.anti-vpn.ru: 44
-  cmm-13.anti-vpn.ru: 24
-  ing-13.anti-vpn.ru: 23
-  russ-13.anti-vpn.ru: 23
-  5post-gate.x5.ru: 4
-  ads.x5.ru: 2
-  www.kinopoisk.ru: 1
+  ing-dop.anti-vpn.ru: 85
+  ger-13.anti-vpn.ru: 48
+  germ-dop.anti-vpn.ru: 47
+  cluster11.anti-vpn.ru: 44
+  russ-13.anti-vpn.ru: 17
+  cmm-13.anti-vpn.ru: 17
+  ing-13.anti-vpn.ru: 15
+  5post-gate.x5.ru: 9
+  www.kinopoisk.ru: 3
+  ads.x5.ru: 3
 
 Топ портов:
-  52006: 284
-  443: 12
-  2443: 1
+  52006: 273
+  443: 21
+  8443: 2
+  3443: 1
   8448: 1
-  8443: 1
+  4243: 1
+  5443: 1
 
 Топ схем:
-  vless: 297
+  vless: 298
   ss: 2
 
 Топ transport:
-  tcp: 293
-  xhttp: 5
-  grpc: 1
+  tcp: 289
+  xhttp: 6
+  grpc: 4
+  ws: 1
 
 Топ security:
-  tls: 284
-  reality: 13
+  tls: 274
+  reality: 24
   none: 2
 
 ────────────────────────────────────────────────────────────────────
@@ -185,107 +192,115 @@ FINAL GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 43
-Уникальных строк: 43
-Уникальных host:port: 43
-Уникальных backend: 40
-Anycast: 19
-Unknown country: 6
+Всего конфигов: 67
+Уникальных строк: 67
+Уникальных host:port: 67
+Уникальных backend: 58
+Anycast: 29
+Unknown country: 4
 
 Топ стран:
-  🌐 Anycast: 19
-  Russia: 13
-  Unknown: 6
-  Germany: 2
-  Estonia: 1
+  🌐 Anycast: 29
+  Russia: 25
+  Unknown: 4
+  Lithuania: 3
+  Poland: 2
   Netherlands: 1
-  Lithuania: 1
+  Japan: 1
+  Finland: 1
+  Germany: 1
 
 Топ SNI:
+  ads.x5.ru: 9
+  api-maps.yandex.ru: 6
   5post-gate.x5.ru: 4
-  max.ru: 3
-  api-maps.yandex.ru: 3
-  ads.x5.ru: 3
+  germ-dop.anti-vpn.ru: 3
+  max.ru: 2
   eh.vk.com: 2
-  germ-dop.anti-vpn.ru: 2
-  travel.yandex.ru: 1
-  ing-dop.anti-vpn.ru: 1
-  nlx1.braidpro.online: 1
-  sso.passport.yandex.ru: 1
+  sso.passport.yandex.ru: 2
+  yandex.ru: 2
+  id.x5.ru: 2
+  cdnv-img.perekrestok.ru: 2
 
 Топ портов:
-  443: 22
-  52006: 8
-  8443: 4
-  54445: 1
+  443: 32
+  8443: 11
+  52006: 9
+  5443: 2
+  54445: 2
+  4243: 2
+  29737: 1
+  7443: 1
   8448: 1
-  5443: 1
-  4433: 1
-  2443: 1
-  10001: 1
-  1443: 1
+  3443: 1
 
 Топ схем:
-  vless: 40
+  vless: 64
   ss: 2
   hysteria2: 1
 
 Топ transport:
-  tcp: 32
+  tcp: 54
   xhttp: 8
-  grpc: 3
+  grpc: 4
+  ws: 1
 
 Топ security:
-  reality: 32
-  tls: 8
+  reality: 53
+  tls: 11
   none: 3
 
 ────────────────────────────────────────────────────────────────────
 📊 white_vless
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 21
-Уникальных строк: 21
-Уникальных host:port: 21
-Уникальных backend: 20
-Anycast: 12
-Unknown country: 5
+Всего конфигов: 25
+Уникальных строк: 25
+Уникальных host:port: 25
+Уникальных backend: 22
+Anycast: 16
+Unknown country: 3
 
 Топ стран:
-  🌐 Anycast: 12
-  Unknown: 5
+  🌐 Anycast: 16
   Russia: 4
+  Unknown: 3
+  Lithuania: 1
+  Finland: 1
 
 Топ SNI:
-  ads.x5.ru: 2
-  germ-dop.anti-vpn.ru: 2
-  5post-gate.x5.ru: 2
-  api-maps.yandex.ru: 1
-  st.vk.com: 1
-  max.ru: 1
-  russ-13.anti-vpn.ru: 1
+  ads.x5.ru: 3
+  germ-dop.anti-vpn.ru: 3
+  5post-gate.x5.ru: 3
   cluster11.anti-vpn.ru: 1
+  event.yandex.ru: 1
+  api-maps.yandex.ru: 1
+  id.x5.ru: 1
+  russ-13.anti-vpn.ru: 1
+  ing-dop.anti-vpn.ru: 1
   ing-13.anti-vpn.ru: 1
-  cmm-13.anti-vpn.ru: 1
 
 Топ портов:
   443: 10
-  52006: 8
+  52006: 9
+  8443: 2
   8448: 1
-  2443: 1
-  8443: 1
+  5443: 1
+  4243: 1
+  3443: 1
 
 Топ схем:
-  vless: 19
+  vless: 23
   ss: 2
 
 Топ transport:
-  tcp: 15
-  xhttp: 5
+  tcp: 19
+  xhttp: 4
   grpc: 1
+  ws: 1
 
 Топ security:
-  reality: 11
-  tls: 8
+  reality: 13
+  tls: 10
   none: 2
 
 ────────────────────────────────────────────────────────────────────
@@ -308,12 +323,12 @@ Unknown country: 30
   Germany: 3
   Switzerland: 2
   Lithuania: 2
-  Estonia: 1
+  United States: 1
 
 Топ SNI:
-  www.microsoft.com: 4
   2026.hhhhh.eu.org: 4
   q40ivxuck.danfeng.qzz.io: 4
+  www.microsoft.com: 4
   www.cloudflare.com: 3
   gateway.icloud.com: 3
   j.6sc.co: 3
@@ -330,9 +345,9 @@ Unknown country: 30
   2377: 3
   30011: 2
   2096: 1
-  40022: 1
   81: 1
-  3389: 1
+  53413: 1
+  40022: 1
 
 Топ схем:
   vless: 63
@@ -358,123 +373,123 @@ Unknown country: 30
 ────────────────────────────────────────────────────────────────────
 Всего конфигов: 150
 Уникальных строк: 150
-Уникальных host:port: 130
-Уникальных backend: 123
-Anycast: 78
-Unknown country: 33
+Уникальных host:port: 137
+Уникальных backend: 125
+Anycast: 73
+Unknown country: 27
 
 Топ стран:
-  🌐 Anycast: 78
-  Unknown: 33
-  Russia: 15
-  Germany: 5
-  Netherlands: 4
+  🌐 Anycast: 73
+  Unknown: 27
+  Russia: 26
+  Netherlands: 5
+  Lithuania: 4
   Japan: 4
-  Lithuania: 3
-  Poland: 3
-  Estonia: 2
-  France: 1
+  Poland: 4
+  Germany: 2
+  Switzerland: 2
+  Finland: 1
 
 Топ SNI:
-  5post-gate.x5.ru: 4
-  2026.hhhhh.eu.org: 4
+  ads.x5.ru: 9
+  api-maps.yandex.ru: 6
+  5post-gate.x5.ru: 5
   q40ivxuck.danfeng.qzz.io: 4
-  www.microsoft.com: 4
-  api-maps.yandex.ru: 3
-  max.ru: 3
-  life.ru: 3
-  ads.x5.ru: 3
-  eyj2ijoimiisinbzijoi8j+hs: 3
-  eh.vk.com: 2
+  jflsjlaf.pages.dev: 3
+  j.6sc.co: 3
+  gateway.icloud.com: 3
+  id.x5.ru: 2
+  germ-dop.anti-vpn.ru: 2
+  sso.passport.yandex.ru: 2
 
 Топ портов:
-  443: 78
-  8443: 12
-  52006: 11
+  443: 79
+  8443: 18
+  52006: 8
   2377: 3
-  2053: 3
-  30011: 2
-  54445: 1
-  10001: 1
-  4433: 1
-  8448: 1
+  4243: 2
+  54445: 2
+  5443: 2
+  1443: 1
+  7443: 1
+  2041: 1
 
 Топ схем:
-  vless: 91
-  ss: 30
-  vmess: 15
-  hysteria2: 10
-  trojan: 4
+  vless: 105
+  ss: 22
+  vmess: 11
+  hysteria2: 7
+  trojan: 5
 
 Топ transport:
-  tcp: 110
-  ws: 19
-  xhttp: 16
-  grpc: 4
+  tcp: 114
+  ws: 18
+  xhttp: 12
+  grpc: 5
   httpupgrade: 1
 
 Топ security:
-  reality: 63
-  none: 56
-  tls: 31
+  reality: 81
+  none: 42
+  tls: 27
 
 ────────────────────────────────────────────────────────────────────
 📊 mixed
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 60
-Уникальных строк: 60
-Уникальных host:port: 58
-Уникальных backend: 53
-Anycast: 28
-Unknown country: 12
+Всего конфигов: 59
+Уникальных строк: 59
+Уникальных host:port: 59
+Уникальных backend: 54
+Anycast: 24
+Unknown country: 7
 
 Топ стран:
-  🌐 Anycast: 28
-  Unknown: 12
-  Russia: 12
-  Netherlands: 2
-  Germany: 2
-  Poland: 1
-  Japan: 1
+  🌐 Anycast: 24
+  Russia: 16
+  Unknown: 7
+  Poland: 4
+  Netherlands: 3
+  Japan: 2
   Lithuania: 1
-  Estonia: 1
+  Finland: 1
+  Germany: 1
 
 Топ SNI:
+  api-maps.yandex.ru: 5
   5post-gate.x5.ru: 4
-  ads.x5.ru: 3
-  api-maps.yandex.ru: 3
-  max.ru: 3
+  ads.x5.ru: 4
+  id.x5.ru: 2
   germ-dop.anti-vpn.ru: 2
-  cluster11.anti-vpn.ru: 2
-  it3.lazeroe.com: 2
-  2026.hhhhh.eu.org: 2
-  j.6sc.co: 2
-  cdnv-img.perekrestok.ru: 1
+  sso.passport.yandex.ru: 2
+  q40ivxuck.danfeng.qzz.io: 2
+  stats.vk-portal.net: 1
+  yandex.ru: 1
+  rbc.ru: 1
 
 Топ портов:
   443: 34
-  52006: 9
+  52006: 7
   8443: 6
-  5443: 1
-  52000: 1
-  4433: 1
-  2443: 1
-  10001: 1
-  2041: 1
+  4243: 2
+  54445: 2
+  5443: 2
+  20222: 1
   8448: 1
+  52000: 1
+  3443: 1
 
 Топ схем:
-  vless: 60
+  vless: 59
 
 Топ transport:
-  tcp: 38
-  xhttp: 11
-  ws: 8
-  grpc: 3
+  tcp: 44
+  xhttp: 8
+  ws: 5
+  grpc: 2
 
 Топ security:
-  reality: 42
-  tls: 18
+  reality: 46
+  tls: 13
 
 ────────────────────────────────────────────────────────────────────
 📊 lte
@@ -482,127 +497,126 @@ Unknown country: 12
 Всего конфигов: 25
 Уникальных строк: 25
 Уникальных host:port: 25
-Уникальных backend: 23
-Anycast: 9
+Уникальных backend: 22
+Anycast: 4
 Unknown country: 0
 
 Топ стран:
-  🌐 Anycast: 9
-  Russia: 7
-  Lithuania: 3
-  Germany: 2
+  Russia: 14
+  🌐 Anycast: 4
+  Lithuania: 2
+  Netherlands: 2
   Japan: 2
-  Estonia: 1
-  Netherlands: 1
+  Poland: 1
 
 Топ SNI:
+  ads.x5.ru: 7
+  api-maps.yandex.ru: 3
   max.ru: 2
-  api-maps.yandex.ru: 2
-  ads.x5.ru: 2
+  sso.passport.yandex.ru: 2
   dongjing3.zqjsqapi.com: 2
-  germ-dop.anti-vpn.ru: 2
   travel.yandex.ru: 1
-  eh.vk.com: 1
-  ing-dop.anti-vpn.ru: 1
-  cluster11.anti-vpn.ru: 1
+  event.yandex.ru: 1
   russ-13.anti-vpn.ru: 1
+  cluster11.anti-vpn.ru: 1
+  id.vk.com: 1
 
 Топ портов:
-  443: 13
-  52006: 6
-  8443: 1
-  2443: 1
-  10001: 1
-  54445: 1
+  443: 10
+  8443: 7
+  52006: 3
+  54445: 2
+  29737: 1
   8448: 1
-  2096: 1
+  5443: 1
 
 Топ схем:
   vless: 25
 
 Топ transport:
-  tcp: 12
-  xhttp: 7
-  ws: 4
+  tcp: 19
   grpc: 2
+  ws: 2
+  xhttp: 2
 
 Топ security:
-  reality: 15
-  tls: 10
+  reality: 20
+  tls: 5
 
 ====================================================================
 🌍 GLOBAL SUMMARY
 ====================================================================
-Всего конфигов: 426
-Уникальных строк: 175
-Уникальных host:port: 144
-Уникальных backend: 133
+Всего конфигов: 453
+Уникальных строк: 201
+Уникальных host:port: 168
+Уникальных backend: 151
 Anycast: 216
-Unknown country: 86
+Unknown country: 71
 
 Топ стран:
   🌐 Anycast: 216
-  Unknown: 86
-  Russia: 55
-  Germany: 14
-  Netherlands: 13
-  Japan: 11
-  Lithuania: 10
-  Poland: 8
-  Estonia: 6
-  Switzerland: 3
-  France: 2
+  Russia: 89
+  Unknown: 71
+  Netherlands: 16
+  Poland: 15
+  Lithuania: 13
+  Japan: 13
+  Germany: 7
+  Finland: 4
+  Switzerland: 4
   United States: 2
+  France: 2
+  Estonia: 1
 
 Топ SNI:
-  5post-gate.x5.ru: 14
-  ads.x5.ru: 13
-  max.ru: 12
-  api-maps.yandex.ru: 12
-  germ-dop.anti-vpn.ru: 10
-  2026.hhhhh.eu.org: 10
-  www.microsoft.com: 9
-  q40ivxuck.danfeng.qzz.io: 9
-  cluster11.anti-vpn.ru: 8
-  life.ru: 8
-  ing-dop.anti-vpn.ru: 7
+  ads.x5.ru: 32
+  api-maps.yandex.ru: 21
+  5post-gate.x5.ru: 16
+  germ-dop.anti-vpn.ru: 11
+  q40ivxuck.danfeng.qzz.io: 10
+  sso.passport.yandex.ru: 8
+  max.ru: 7
+  id.x5.ru: 7
   dongjing3.zqjsqapi.com: 7
   j.6sc.co: 7
-  eh.vk.com: 6
-  russ-13.anti-vpn.ru: 6
+  www.microsoft.com: 7
+  cluster11.anti-vpn.ru: 6
+  it3.lazeroe.com: 6
+  www.cloudflare.com: 6
+  gateway.icloud.com: 6
 
 Топ портов:
-  443: 225
-  52006: 48
-  8443: 34
-  2053: 6
+  443: 233
+  8443: 54
+  52006: 42
+  5443: 8
+  54445: 8
+  4243: 7
   2377: 6
   8448: 5
-  2443: 5
-  54445: 4
-  10001: 4
-  2096: 4
-  30011: 4
-  5443: 3
-  4433: 3
+  3443: 4
+  2053: 4
+  29737: 3
+  7443: 3
+  10001: 3
+  20222: 3
   52000: 3
-  2041: 3
 
 Топ схем:
-  vless: 298
-  ss: 67
-  vmess: 31
-  hysteria2: 21
-  trojan: 9
+  vless: 339
+  ss: 59
+  vmess: 27
+  hysteria2: 18
+  trojan: 10
 
 Топ transport:
-  tcp: 300
-  xhttp: 56
-  ws: 54
-  grpc: 14
+  tcp: 343
+  ws: 50
+  xhttp: 43
+  grpc: 15
   httpupgrade: 2
 
 Топ security:
-  reality: 200
-  none: 121
-  tls: 105
+  reality: 250
+  none: 107
+  tls: 96
