@@ -1,5 +1,5 @@
 VPN Builder stats summary
-Generated at: 2026-04-25 00:34:08 MSK
+Generated at: 2026-04-25 01:28:38 MSK
 
 ====================================================================
 RAW GROUPS
@@ -8,185 +8,189 @@ RAW GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 458
-Уникальных строк: 330
-Уникальных host:port: 153
-Уникальных backend: 92
-Anycast: 168
-Unknown country: 46
+Всего конфигов: 617
+Уникальных строк: 445
+Уникальных host:port: 183
+Уникальных backend: 105
+Anycast: 243
+Unknown country: 71
 
 Топ стран:
-  🌐 Anycast: 168
-  Russia: 114
-  Unknown: 46
-  Finland: 38
-  Germany: 23
-  Poland: 20
-  Netherlands: 20
-  United States: 15
-  Czechia: 6
+  🌐 Anycast: 243
+  Russia: 149
+  Unknown: 71
+  Finland: 47
+  Germany: 29
+  Netherlands: 27
+  United States: 27
+  Czechia: 8
+  Poland: 6
   Austria: 4
 
 Топ SNI:
-  ads.x5.ru: 68
-  id.x5.ru: 44
-  max.ru: 43
-  eh.vk.com: 34
+  ads.x5.ru: 97
+  max.ru: 57
+  eh.vk.com: 47
+  id.x5.ru: 46
+  5post-gate.x5.ru: 38
+  ir.ozone.ru: 36
   sso.passport.yandex.ru: 32
-  ir.ozone.ru: 31
-  5post-gate.x5.ru: 23
-  cluster-russia-1.firstvideocdn.ru: 20
-  cluster-de-2.firstvideocdn.ru: 15
-  lerua.xyz: 14
+  lerua.xyz: 30
+  cluster-russia-1.firstvideocdn.ru: 25
+  cluster-de-2.firstvideocdn.ru: 24
 
 Топ портов:
-  443: 168
-  52006: 73
-  2083: 31
-  7443: 26
-  8083: 18
-  7433: 18
-  8444: 18
-  8080: 17
-  8081: 16
-  8181: 16
+  443: 221
+  52006: 98
+  2083: 36
+  7443: 30
+  8080: 28
+  80: 24
+  8083: 22
+  8081: 22
+  7433: 20
+  8181: 18
 
 Топ схем:
-  vless: 433
-  hysteria2: 24
+  vless: 579
+  hysteria2: 37
   ss: 1
 
 Топ transport:
-  tcp: 396
-  grpc: 46
+  tcp: 526
+  grpc: 74
   xhttp: 16
+  ws: 1
 
 Топ security:
-  reality: 360
-  tls: 74
-  none: 24
+  reality: 480
+  tls: 99
+  none: 38
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_vless
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 293
-Уникальных строк: 293
-Уникальных host:port: 135
-Уникальных backend: 79
-Anycast: 98
-Unknown country: 32
+Всего конфигов: 300
+Уникальных строк: 300
+Уникальных host:port: 165
+Уникальных backend: 93
+Anycast: 111
+Unknown country: 36
 
 Топ стран:
-  🌐 Anycast: 98
-  Russia: 90
-  Unknown: 32
-  Finland: 20
-  Germany: 14
+  🌐 Anycast: 111
+  Russia: 86
+  Unknown: 36
+  Finland: 17
+  Germany: 15
   Netherlands: 12
-  Poland: 10
   United States: 8
-  Czechia: 3
-  Austria: 2
+  Czechia: 4
+  Estonia: 4
+  Poland: 3
 
 Топ SNI:
-  ads.x5.ru: 38
-  ir.ozone.ru: 31
-  max.ru: 26
-  id.x5.ru: 22
-  cluster-russia-1.firstvideocdn.ru: 20
-  sso.passport.yandex.ru: 16
-  cluster-de-2.firstvideocdn.ru: 15
-  lerua.xyz: 14
-  eh.vk.com: 14
-  5post-gate.x5.ru: 12
+  ads.x5.ru: 40
+  lerua.xyz: 23
+  ir.ozone.ru: 21
+  cluster-russia-1.firstvideocdn.ru: 21
+  max.ru: 18
+  5post-gate.x5.ru: 17
+  eh.vk.com: 16
+  id.x5.ru: 10
+  cluster-de-2.firstvideocdn.ru: 9
+  sso.passport.yandex.ru: 8
 
 Топ портов:
-  443: 90
-  52006: 73
-  2083: 31
-  7443: 14
-  8083: 9
-  7433: 9
-  8444: 9
-  8081: 8
-  2443: 8
-  8181: 8
+  443: 110
+  52006: 61
+  2083: 21
+  80: 9
+  7433: 8
+  9865: 8
+  7081: 8
+  8443: 7
+  8080: 7
+  7443: 6
 
 Топ схем:
-  vless: 292
+  vless: 280
+  hysteria2: 19
   ss: 1
 
 Топ transport:
   tcp: 236
-  grpc: 45
-  xhttp: 12
+  grpc: 54
+  xhttp: 9
+  ws: 1
 
 Топ security:
-  reality: 219
-  tls: 73
-  none: 1
+  reality: 218
+  tls: 62
+  none: 20
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW black_all
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 392
-Уникальных строк: 245
-Уникальных host:port: 193
-Уникальных backend: 88
-Anycast: 315
-Unknown country: 34
+Всего конфигов: 440
+Уникальных строк: 290
+Уникальных host:port: 205
+Уникальных backend: 138
+Anycast: 357
+Unknown country: 26
 
 Топ стран:
-  🌐 Anycast: 315
-  Unknown: 34
-  Germany: 12
-  Netherlands: 9
-  France: 8
-  Japan: 6
-  Finland: 3
-  United States: 3
-  Russia: 2
+  🌐 Anycast: 357
+  Unknown: 26
+  Germany: 18
+  Netherlands: 10
+  France: 10
+  Finland: 5
+  United States: 5
+  Japan: 5
+  Austria: 2
+  Czechia: 2
 
 Топ SNI:
-  kfm-bn0.pages.dev: 149
-  sni.latonyamadeline.ndjp.net: 17
-  www.microsoft.com: 15
-  45.192.195.52: 15
-  eyj2ijoimiisinbzijoi8j+hs: 14
-  cchh2.pages.dev: 12
-  sni.skylee4.cloudns.ch: 9
-  s3vz.user-service.chinav.indevs.in: 5
-  germ1.o4ka-internet.com: 4
-  sn1.skylee5.cloudns.ch: 4
+  kfm-bn0.pages.dev: 104
+  dl.google.com: 72
+  sni.skylee4.cloudns.ch: 20
+  www.microsoft.com: 19
+  sni.latonyamadeline.ndjp.net: 14
+  45.192.195.52: 11
+  s3vz.user-service.chinav.indevs.in: 10
+  cchh2.pages.dev: 9
+  www.bing.com: 7
+  eyj2ijoimiisinbzijoi8j+hs: 6
 
 Топ портов:
-  443: 128
-  8443: 36
-  5555: 15
-  2053: 11
-  2056: 7
-  25448: 6
-  10035: 6
-  12300: 6
-  41283: 4
-  35000: 4
+  443: 205
+  8443: 53
+  2053: 17
+  5555: 11
+  40022: 7
+  64534: 6
+  65000: 4
+  37215: 4
+  10035: 4
+  12300: 4
 
 Топ схем:
-  trojan: 170
-  ss: 73
-  vless: 71
-  hysteria2: 61
-  vmess: 17
+  vless: 176
+  trojan: 117
+  ss: 81
+  hysteria2: 57
+  vmess: 9
 
 Топ transport:
-  ws: 215
-  tcp: 174
+  tcp: 247
+  ws: 190
   grpc: 3
 
 Топ security:
-  tls: 224
-  none: 143
-  reality: 25
+  tls: 187
+  none: 155
+  reality: 98
 
 ====================================================================
 FINAL GROUPS
@@ -195,305 +199,309 @@ FINAL GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 118
-Уникальных строк: 118
-Уникальных host:port: 118
-Уникальных backend: 85
-Anycast: 47
+Всего конфигов: 120
+Уникальных строк: 120
+Уникальных host:port: 120
+Уникальных backend: 86
+Anycast: 40
 Unknown country: 8
 
 Топ стран:
-  🌐 Anycast: 47
-  Russia: 34
-  Finland: 10
+  🌐 Anycast: 40
+  Russia: 31
+  Finland: 11
+  Netherlands: 8
   Unknown: 8
-  Netherlands: 5
-  Czechia: 3
-  Germany: 3
-  Lithuania: 2
+  Germany: 7
+  Czechia: 4
+  Poland: 3
+  United States: 3
   Austria: 2
-  United States: 2
 
 Топ SNI:
-  ads.x5.ru: 19
-  max.ru: 6
+  ads.x5.ru: 21
+  max.ru: 13
+  eh.vk.com: 5
+  5post-gate.x5.ru: 5
+  api-maps.yandex.ru: 4
   yahoo.com: 4
-  5post-gate.x5.ru: 4
-  cluster-russia-3.firstvideocdn.ru: 4
   ir.ozone.ru: 4
-  lerua.xyz: 4
   id.x5.ru: 4
-  ozon.ru: 4
-  vkvideo.ru: 4
+  sso.passport.yandex.ru: 3
+  cluster-russia-3.firstvideocdn.ru: 3
 
 Топ портов:
-  443: 50
-  52006: 25
-  8443: 7
+  443: 53
+  52006: 19
+  8443: 6
   2083: 4
+  7433: 3
+  8081: 3
   9443: 3
-  8080: 3
   8083: 3
-  52000: 2
-  7443: 2
-  6443: 2
+  8080: 2
+  51190: 2
 
 Топ схем:
-  vless: 110
-  hysteria2: 7
-  ss: 1
+  vless: 119
+  hysteria2: 1
 
 Топ transport:
-  tcp: 99
-  grpc: 14
-  xhttp: 5
+  tcp: 100
+  grpc: 16
+  xhttp: 3
+  ws: 1
 
 Топ security:
-  reality: 85
-  tls: 25
-  none: 8
+  reality: 99
+  tls: 20
+  none: 1
 
 ────────────────────────────────────────────────────────────────────
 📊 white_vless
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 106
-Уникальных строк: 106
-Уникальных host:port: 106
-Уникальных backend: 74
-Anycast: 39
-Unknown country: 8
+Всего конфигов: 120
+Уникальных строк: 120
+Уникальных host:port: 120
+Уникальных backend: 81
+Anycast: 42
+Unknown country: 10
 
 Топ стран:
-  🌐 Anycast: 39
-  Russia: 25
+  🌐 Anycast: 42
+  Russia: 29
   Finland: 10
-  Unknown: 8
-  Netherlands: 6
-  Germany: 6
-  Czechia: 3
+  Unknown: 10
+  Netherlands: 8
+  Germany: 7
+  Czechia: 4
+  United States: 3
   Poland: 2
-  United States: 2
-  Lithuania: 2
+  Austria: 2
 
 Топ SNI:
-  ads.x5.ru: 16
+  ads.x5.ru: 19
   max.ru: 8
-  cluster-russia-3.firstvideocdn.ru: 4
+  5post-gate.x5.ru: 5
+  api-maps.yandex.ru: 4
   yahoo.com: 4
+  sso.passport.yandex.ru: 4
+  eh.vk.com: 4
   ir.ozone.ru: 4
-  5post-gate.x5.ru: 4
-  cluster-de-2.firstvideocdn.ru: 4
   lerua.xyz: 4
   id.x5.ru: 4
-  vkvideo.ru: 4
 
 Топ портов:
-  443: 42
-  52006: 25
-  8443: 4
+  443: 51
+  52006: 21
+  8443: 5
   2083: 4
-  7433: 3
-  8083: 3
   9443: 3
+  7443: 3
+  7433: 3
+  2053: 3
+  9866: 2
   8181: 2
-  8081: 2
-  7443: 2
 
 Топ схем:
-  vless: 105
+  vless: 119
   ss: 1
 
 Топ transport:
-  tcp: 90
-  grpc: 13
+  tcp: 99
+  grpc: 17
   xhttp: 3
+  ws: 1
 
 Топ security:
-  reality: 80
-  tls: 25
+  reality: 97
+  tls: 22
   none: 1
 
 ────────────────────────────────────────────────────────────────────
 📊 black_all
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 110
-Уникальных строк: 110
-Уникальных host:port: 104
-Уникальных backend: 85
-Anycast: 77
-Unknown country: 13
+Всего конфигов: 122
+Уникальных строк: 122
+Уникальных host:port: 117
+Уникальных backend: 98
+Anycast: 84
+Unknown country: 15
 
 Топ стран:
-  🌐 Anycast: 77
-  Unknown: 13
-  Germany: 5
+  🌐 Anycast: 84
+  Unknown: 15
+  Germany: 6
   Japan: 4
+  Finland: 3
+  United States: 3
   Netherlands: 3
-  France: 3
-  Finland: 2
-  United States: 2
-  Russia: 1
+  France: 2
+  Austria: 1
+  Czechia: 1
 
 Топ SNI:
   www.microsoft.com: 6
-  sni.latonyamadeline.ndjp.net: 4
-  kfm-bn0.pages.dev: 4
-  s3vz.user-service.chinav.indevs.in: 4
-  cchh2.pages.dev: 4
   sni.skylee4.cloudns.ch: 4
-  eyj2ijoimiisinbzijoi8j+hs: 4
-  sn1.skylee5.cloudns.ch: 2
-  www.bing.com: 2
-  store.timimi.dpdns.org: 2
+  sni.latonyamadeline.ndjp.net: 4
+  cchh2.pages.dev: 4
+  s3vz.user-service.chinav.indevs.in: 4
+  kfm-bn0.pages.dev: 4
+  sn1.skylee5.cloudns.ch: 3
+  eyj2ijoimiisinbzijoi8j+hs: 3
+  www.amd.com: 2
+  gso9r.gateway-edge.chinav.indevs.in: 2
 
 Топ портов:
-  443: 63
-  8443: 15
-  2053: 4
-  35000: 2
-  36398: 1
+  443: 67
+  8443: 19
+  2053: 5
+  64534: 3
+  65000: 2
+  46110: 1
   9443: 1
-  40022: 1
-  2087: 1
-  21182: 1
-  36002: 1
+  14430: 1
+  36398: 1
+  37215: 1
 
 Топ схем:
-  ss: 41
-  vless: 34
-  hysteria2: 17
-  trojan: 12
-  vmess: 6
+  vless: 47
+  ss: 44
+  hysteria2: 15
+  trojan: 11
+  vmess: 5
 
 Топ transport:
-  tcp: 77
-  ws: 31
+  tcp: 82
+  ws: 38
   grpc: 2
 
 Топ security:
-  none: 66
-  tls: 30
-  reality: 14
+  none: 74
+  tls: 31
+  reality: 17
 
 ────────────────────────────────────────────────────────────────────
 📊 pool
 ────────────────────────────────────────────────────────────────────
 Всего конфигов: 150
 Уникальных строк: 150
-Уникальных host:port: 143
-Уникальных backend: 115
-Anycast: 71
+Уникальных host:port: 146
+Уникальных backend: 116
+Anycast: 68
 Unknown country: 15
 
 Топ стран:
-  🌐 Anycast: 71
-  Russia: 28
+  🌐 Anycast: 68
+  Russia: 25
   Unknown: 15
-  Finland: 13
-  Netherlands: 5
+  Finland: 10
+  Netherlands: 7
+  United States: 5
   Germany: 5
-  Czechia: 2
-  United States: 2
-  Austria: 2
-  Poland: 2
+  Poland: 3
+  Czechia: 3
+  Japan: 3
 
 Топ SNI:
-  ads.x5.ru: 16
-  max.ru: 6
-  id.x5.ru: 5
-  lerua.xyz: 4
-  vkvideo.ru: 4
-  5post-gate.x5.ru: 4
-  ozon.ru: 4
+  ads.x5.ru: 17
+  max.ru: 9
+  api-maps.yandex.ru: 4
+  eh.vk.com: 4
+  ir.ozone.ru: 4
+  id.x5.ru: 4
   www.microsoft.com: 4
-  ir.ozone.ru: 3
-  cluster-russia-1.firstvideocdn.ru: 3
+  sun6-21.userapi.com: 3
+  yahoo.com: 3
+  5post-gate.x5.ru: 3
 
 Топ портов:
-  443: 73
-  52006: 20
-  8443: 11
-  2083: 3
-  8083: 3
-  8080: 3
-  6443: 2
-  7081: 2
-  52000: 2
-  7443: 2
+  443: 74
+  52006: 15
+  8443: 12
+  2053: 4
+  2083: 4
+  7443: 3
+  8080: 2
+  9866: 2
+  7433: 2
+  8081: 2
 
 Топ схем:
-  vless: 111
-  ss: 17
-  hysteria2: 13
+  vless: 119
+  ss: 16
+  hysteria2: 9
   trojan: 5
-  vmess: 4
+  vmess: 1
 
 Топ transport:
   tcp: 118
-  grpc: 14
-  ws: 13
-  xhttp: 5
+  grpc: 16
+  ws: 15
+  xhttp: 1
 
 Топ security:
-  reality: 83
-  none: 36
-  tls: 31
+  reality: 93
+  tls: 29
+  none: 28
 
 ────────────────────────────────────────────────────────────────────
 📊 mixed
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 57
-Уникальных строк: 57
-Уникальных host:port: 57
-Уникальных backend: 50
-Anycast: 23
-Unknown country: 6
+Всего конфигов: 60
+Уникальных строк: 60
+Уникальных host:port: 60
+Уникальных backend: 53
+Anycast: 24
+Unknown country: 7
 
 Топ стран:
-  🌐 Anycast: 23
-  Russia: 16
-  Unknown: 6
-  Finland: 6
-  Lithuania: 2
-  Netherlands: 2
-  Poland: 1
-  Germany: 1
+  🌐 Anycast: 24
+  Russia: 14
+  Unknown: 7
+  Finland: 5
+  Netherlands: 3
+  Poland: 2
+  Germany: 2
+  Estonia: 1
+  United States: 1
+  Czechia: 1
 
 Топ SNI:
   ads.x5.ru: 10
-  esg.x5.ru: 2
-  5post-gate.x5.ru: 2
-  ir.ozone.ru: 2
-  cluster-de-2.firstvideocdn.ru: 2
-  lerua.xyz: 2
+  api-maps.yandex.ru: 3
+  sun6-21.userapi.com: 2
   id.x5.ru: 2
   max.ru: 2
-  vk.com: 2
+  yandex.ru: 2
+  eh.vk.com: 2
   yahoo.com: 2
+  s3vz.user-service.chinav.indevs.in: 2
+  sni.latonyamadeline.ndjp.net: 2
 
 Топ портов:
-  443: 27
-  52006: 11
-  8443: 5
-  2083: 2
-  8083: 2
-  8181: 1
-  5443: 1
-  4449: 1
-  7443: 1
-  8081: 1
+  443: 34
+  52006: 9
+  8443: 3
+  2053: 2
+  51190: 2
+  7443: 2
+  9443: 2
+  2083: 1
+  55269: 1
+  993: 1
 
 Топ схем:
-  vless: 57
+  vless: 60
 
 Топ transport:
-  tcp: 45
-  grpc: 9
-  ws: 3
+  tcp: 50
+  ws: 6
+  grpc: 4
 
 Топ security:
-  reality: 43
-  tls: 14
+  reality: 45
+  tls: 15
 
 ────────────────────────────────────────────────────────────────────
 📊 lte
@@ -501,126 +509,127 @@ Unknown country: 6
 Всего конфигов: 25
 Уникальных строк: 25
 Уникальных host:port: 25
-Уникальных backend: 23
-Anycast: 10
+Уникальных backend: 25
+Anycast: 5
 Unknown country: 0
 
 Топ стран:
-  🌐 Anycast: 10
-  Russia: 4
-  Finland: 3
-  Austria: 2
-  Lithuania: 2
-  Poland: 2
-  United States: 1
-  Netherlands: 1
+  Russia: 5
+  🌐 Anycast: 5
+  Netherlands: 4
+  Poland: 3
+  Germany: 2
+  United States: 2
+  Lithuania: 1
+  Finland: 1
+  Czechia: 1
+  Austria: 1
 
 Топ SNI:
-  ads.x5.ru: 12
-  max.ru: 5
-  api-maps.yandex.ru: 3
-  vk.com: 2
-  yandex.ru: 1
+  ads.x5.ru: 11
+  api-maps.yandex.ru: 4
+  max.ru: 4
+  yandex.ru: 2
+  vk.com: 1
+  eh.vk.com: 1
   sso.passport.yandex.ru: 1
-  sni.skylee4.cloudns.ch: 1
+  web.max.ru: 1
 
 Топ портов:
-  443: 16
-  8443: 2
-  8083: 2
+  443: 17
+  8080: 2
+  8443: 1
   2443: 1
+  51190: 1
+  7433: 1
   8444: 1
-  8080: 1
-  8181: 1
   12443: 1
 
 Топ схем:
   vless: 25
 
 Топ transport:
-  tcp: 16
+  tcp: 18
   grpc: 6
-  xhttp: 2
-  ws: 1
+  xhttp: 1
 
 Топ security:
-  reality: 24
-  tls: 1
+  reality: 25
 
 ====================================================================
 🌍 GLOBAL SUMMARY
 ====================================================================
-Всего конфигов: 566
-Уникальных строк: 258
-Уникальных host:port: 233
-Уникальных backend: 173
-Anycast: 267
-Unknown country: 50
+Всего конфигов: 597
+Уникальных строк: 282
+Уникальных host:port: 254
+Уникальных backend: 187
+Anycast: 263
+Unknown country: 55
 
 Топ стран:
-  🌐 Anycast: 267
-  Russia: 108
-  Unknown: 50
-  Finland: 44
-  Netherlands: 22
-  Germany: 20
-  Lithuania: 10
-  United States: 9
-  Austria: 8
-  Poland: 8
-  Czechia: 8
-  Japan: 5
+  🌐 Anycast: 263
+  Russia: 104
+  Unknown: 55
+  Finland: 40
+  Netherlands: 33
+  Germany: 29
+  United States: 17
+  Czechia: 14
+  Poland: 13
+  Austria: 7
+  Estonia: 7
+  Japan: 7
+  Lithuania: 4
   France: 4
-  Estonia: 3
 
 Топ SNI:
-  ads.x5.ru: 73
-  max.ru: 27
-  id.x5.ru: 15
-  api-maps.yandex.ru: 14
+  ads.x5.ru: 78
+  max.ru: 36
+  api-maps.yandex.ru: 19
+  eh.vk.com: 16
   5post-gate.x5.ru: 14
-  lerua.xyz: 14
-  yahoo.com: 13
+  yahoo.com: 14
+  id.x5.ru: 14
   ir.ozone.ru: 13
-  vkvideo.ru: 13
-  cluster-russia-1.firstvideocdn.ru: 12
-  cluster-de-2.firstvideocdn.ru: 12
-  cluster-russia-3.firstvideocdn.ru: 11
   www.microsoft.com: 11
-  ozon.ru: 9
-  vk.com: 8
+  yandex.ru: 10
+  sso.passport.yandex.ru: 10
+  sun6-21.userapi.com: 10
+  s3vz.user-service.chinav.indevs.in: 10
+  cluster-russia-3.firstvideocdn.ru: 9
+  download.spectrum.vu: 9
 
 Топ портов:
-  443: 271
-  52006: 81
-  8443: 44
-  8083: 13
+  443: 296
+  52006: 64
+  8443: 46
+  2053: 16
   2083: 13
-  9443: 9
+  9443: 11
+  7443: 10
+  7433: 9
+  51190: 9
+  8081: 8
   8080: 8
-  2053: 8
-  8181: 7
-  7443: 7
-  6443: 6
-  8081: 5
+  9865: 7
+  9866: 6
+  8083: 5
   12443: 5
-  52000: 5
-  2443: 4
 
 Топ схем:
-  vless: 442
-  ss: 60
-  hysteria2: 37
-  trojan: 17
-  vmess: 10
+  vless: 489
+  ss: 61
+  hysteria2: 25
+  trojan: 16
+  vmess: 6
 
 Топ transport:
-  tcp: 445
-  grpc: 58
-  ws: 48
-  xhttp: 15
+  tcp: 467
+  grpc: 61
+  ws: 61
+  xhttp: 8
 
 Топ security:
-  reality: 329
-  tls: 126
-  none: 111
+  reality: 376
+  tls: 117
+  none: 104
