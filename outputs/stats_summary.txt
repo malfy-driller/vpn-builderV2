@@ -1,5 +1,5 @@
 VPN Builder stats summary
-Generated at: 2026-05-17 15:01:51 MSK
+Generated at: 2026-05-17 17:01:57 MSK
 
 ====================================================================
 RAW GROUPS
@@ -8,108 +8,116 @@ RAW GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 93
-Уникальных строк: 78
-Уникальных host:port: 42
-Уникальных backend: 37
-Anycast: 43
-Unknown country: 8
+Всего конфигов: 97
+Уникальных строк: 88
+Уникальных host:port: 57
+Уникальных backend: 50
+Anycast: 46
+Unknown country: 14
 
 Топ стран:
-  🌐 Anycast: 43
-  Netherlands: 19
-  Russia: 19
-  Unknown: 8
+  🌐 Anycast: 46
+  Netherlands: 16
+  Russia: 16
+  Unknown: 14
   Poland: 4
+  Germany: 1
 
 Топ SNI:
-  cl-de-2.edgeflux.ru: 24
-  ads.x5.ru: 12
+  cl-de-2.edgeflux.ru: 15
+  ads.x5.ru: 13
+  api-maps.yandex.ru: 7
+  eh.vk.com: 7
   cl-ru-tw.fastaichat.ru: 7
-  netcenter-cdn.com: 5
-  eh.vk.com: 5
-  api-maps.yandex.ru: 4
-  smartcaptcha.yandexcloud.net: 4
-  storage.yandexcloud.net: 4
+  storage.yandexcloud.net: 5
+  netcenter-cdn.com: 4
+  pl194.mechvpn.online: 3
+  s1.ws.listwhite.cc: 2
   w2ws.listwhite.cc: 2
-  s3.listwhite.cc: 2
 
 Топ портов:
-  443: 49
-  52006: 34
-  8443: 3
-  44003: 2
+  443: 48
+  52006: 26
+  8443: 10
+  80: 3
   44001: 2
-  80: 1
+  44003: 1
+  63443: 1
+  29443: 1
   44002: 1
-  8080: 1
+  9443: 1
 
 Топ схем:
-  vless: 92
+  vless: 96
   ss: 1
 
 Топ transport:
-  tcp: 79
-  xhttp: 8
-  ws: 5
-  grpc: 1
+  tcp: 78
+  ws: 7
+  xhttp: 7
+  grpc: 5
 
 Топ security:
-  reality: 53
-  tls: 38
-  none: 2
+  reality: 60
+  tls: 33
+  none: 4
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_vless
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 67
-Уникальных строк: 67
-Уникальных host:port: 31
-Уникальных backend: 31
-Anycast: 38
-Unknown country: 6
+Всего конфигов: 70
+Уникальных строк: 70
+Уникальных host:port: 40
+Уникальных backend: 42
+Anycast: 41
+Unknown country: 12
 
 Топ стран:
-  🌐 Anycast: 38
-  Russia: 11
-  Netherlands: 10
-  Unknown: 6
+  🌐 Anycast: 41
+  Unknown: 12
+  Netherlands: 11
+  Russia: 3
   Poland: 2
+  Germany: 1
 
 Топ SNI:
-  cl-de-2.edgeflux.ru: 24
+  cl-de-2.edgeflux.ru: 15
   ads.x5.ru: 7
   cl-ru-tw.fastaichat.ru: 7
-  netcenter-cdn.com: 5
+  api-maps.yandex.ru: 5
+  netcenter-cdn.com: 4
+  pl194.mechvpn.online: 3
+  cdn.trahodrom.fun: 2
   www.apple.com: 2
-  ru8.aimodelhub.top: 2
-  api-maps.yandex.ru: 2
-  smartcaptcha.yandexcloud.net: 2
-  188.246.226.14: 2
-  de.corpmail59.ru: 1
+  yahoo.com: 2
+  partner.zoom.us: 2
 
 Топ портов:
-  52006: 34
-  443: 25
-  44003: 2
-  8443: 2
+  443: 29
+  52006: 26
+  8443: 3
+  80: 3
   44001: 2
-  80: 1
+  44003: 1
+  63443: 1
+  29443: 1
   44002: 1
+  9443: 1
 
 Топ схем:
-  vless: 66
+  vless: 69
   ss: 1
 
 Топ transport:
-  tcp: 62
-  ws: 3
+  tcp: 60
+  ws: 5
+  grpc: 3
   xhttp: 2
 
 Топ security:
-  tls: 36
-  reality: 29
-  none: 2
+  reality: 35
+  tls: 31
+  none: 4
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW black_all
@@ -178,107 +186,115 @@ FINAL GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 42
-Уникальных строк: 42
-Уникальных host:port: 42
-Уникальных backend: 34
-Anycast: 17
-Unknown country: 6
+Всего конфигов: 56
+Уникальных строк: 56
+Уникальных host:port: 56
+Уникальных backend: 45
+Anycast: 22
+Unknown country: 9
 
 Топ стран:
-  🌐 Anycast: 17
-  Russia: 11
-  Netherlands: 6
-  Unknown: 6
+  🌐 Anycast: 22
+  Russia: 15
+  Unknown: 9
+  Netherlands: 7
   Poland: 2
+  Germany: 1
 
 Топ SNI:
-  ads.x5.ru: 7
-  eh.vk.com: 5
+  ads.x5.ru: 8
+  eh.vk.com: 7
+  api-maps.yandex.ru: 4
   storage.yandexcloud.net: 4
   netcenter-cdn.com: 3
   www.apple.com: 2
+  cdn.trahodrom.fun: 2
+  yandex.net: 2
+  yahoo.com: 2
   ru8.aimodelhub.top: 2
-  api-maps.yandex.ru: 1
-  wl-3-1.legendary-vpn.com: 1
-  188.246.226.14: 1
-  google.com: 1
 
 Топ портов:
   443: 30
-  52006: 4
-  8443: 3
+  8443: 10
+  52006: 6
   8080: 1
-  44003: 1
-  80: 1
+  29443: 1
+  52080: 1
+  63443: 1
+  9443: 1
+  38291: 1
   44002: 1
-  44001: 1
 
 Топ схем:
-  vless: 41
+  vless: 55
   ss: 1
 
 Топ transport:
-  tcp: 31
-  xhttp: 7
+  tcp: 43
+  xhttp: 6
+  grpc: 4
   ws: 3
-  grpc: 1
 
 Топ security:
-  reality: 34
-  tls: 6
+  reality: 45
+  tls: 9
   none: 2
 
 ────────────────────────────────────────────────────────────────────
 📊 white_vless
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 31
-Уникальных строк: 31
-Уникальных host:port: 31
-Уникальных backend: 28
-Anycast: 13
-Unknown country: 6
+Всего конфигов: 40
+Уникальных строк: 40
+Уникальных host:port: 40
+Уникальных backend: 37
+Anycast: 18
+Unknown country: 9
 
 Топ стран:
-  🌐 Anycast: 13
-  Netherlands: 6
-  Unknown: 6
-  Russia: 4
+  🌐 Anycast: 18
+  Unknown: 9
+  Netherlands: 7
+  Russia: 3
   Poland: 2
+  Germany: 1
 
 Топ SNI:
   ads.x5.ru: 6
+  api-maps.yandex.ru: 4
   netcenter-cdn.com: 3
   www.apple.com: 2
+  cdn.trahodrom.fun: 2
+  yahoo.com: 2
   ru8.aimodelhub.top: 2
-  api-maps.yandex.ru: 1
   eh.vk.com: 1
-  s3.listwhite.cc: 1
-  google.com: 1
-  cl-ru-tw.fastaichat.ru: 1
-  wl-3-1.legendary-vpn.com: 1
+  s1.ws.listwhite.cc: 1
+  stats.vk-portal.net: 1
 
 Топ портов:
-  443: 21
-  52006: 4
-  8443: 2
-  44001: 1
+  443: 22
+  52006: 6
+  8443: 3
+  52080: 1
+  29443: 1
+  63443: 1
+  9443: 1
+  38291: 1
   80: 1
-  44002: 1
   44003: 1
 
 Топ схем:
-  vless: 30
+  vless: 39
   ss: 1
 
 Топ transport:
-  tcp: 26
+  tcp: 33
   ws: 3
+  grpc: 2
   xhttp: 2
 
 Топ security:
-  reality: 23
-  tls: 6
+  reality: 29
+  tls: 9
   none: 2
 
 ────────────────────────────────────────────────────────────────────
@@ -298,32 +314,32 @@ Unknown country: 4
   Germany: 3
   Netherlands: 1
   Poland: 1
-  United States: 1
   Russia: 1
+  United States: 1
 
 Топ SNI:
   cchh2.pages.dev: 4
-  www.calmlunch.com: 3
   google.com: 3
+  www.calmlunch.com: 3
   apple.com: 2
-  www.microsoft.com: 2
   vpn4.rnmcnm.com: 2
   222.113.18.214: 2
   59.3.62.210: 2
+  www.microsoft.com: 2
   www.cloudflare.com: 1
-  www.google.com: 1
+  ru43.mechvpn.online: 1
 
 Топ портов:
   443: 13
   8443: 9
   39800: 2
-  12000: 2
   18081: 2
-  14147: 1
+  12000: 2
   8444: 1
-  22000: 1
-  14573: 1
-  10911: 1
+  10002: 1
+  27015: 1
+  20201: 1
+  19888: 1
 
 Топ схем:
   ss: 35
@@ -344,120 +360,120 @@ Unknown country: 4
 ────────────────────────────────────────────────────────────────────
 📊 pool
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 104
-Уникальных строк: 104
-Уникальных host:port: 104
-Уникальных backend: 89
-Anycast: 66
-Unknown country: 10
+Всего конфигов: 117
+Уникальных строк: 117
+Уникальных host:port: 117
+Уникальных backend: 100
+Anycast: 71
+Unknown country: 13
 
 Топ стран:
-  🌐 Anycast: 66
-  Russia: 10
-  Unknown: 10
-  Netherlands: 7
-  France: 4
+  🌐 Anycast: 71
+  Russia: 14
+  Unknown: 13
+  Netherlands: 8
+  Germany: 4
   Poland: 3
-  Germany: 3
+  France: 3
   United States: 1
 
 Топ SNI:
-  ads.x5.ru: 7
-  eh.vk.com: 4
+  ads.x5.ru: 8
+  eh.vk.com: 6
+  api-maps.yandex.ru: 4
   google.com: 4
   cchh2.pages.dev: 4
   netcenter-cdn.com: 3
-  www.calmlunch.com: 3
-  storage.yandexcloud.net: 2
   ru8.aimodelhub.top: 2
-  www.apple.com: 2
-  vpn4.rnmcnm.com: 2
+  yandex.net: 2
+  storage.yandexcloud.net: 2
+  yahoo.com: 2
 
 Топ портов:
   443: 40
-  8443: 12
-  52006: 4
-  39800: 2
+  8443: 18
+  52006: 6
   18081: 2
   12000: 2
-  44003: 1
-  80: 1
+  39800: 2
   44002: 1
-  8080: 1
+  9443: 1
+  80: 1
+  44003: 1
 
 Топ схем:
-  vless: 54
+  vless: 68
   ss: 36
   hysteria2: 7
-  trojan: 7
+  trojan: 6
 
 Топ transport:
-  tcp: 77
-  ws: 15
-  xhttp: 11
-  grpc: 1
+  tcp: 89
+  ws: 14
+  xhttp: 10
+  grpc: 4
 
 Топ security:
+  reality: 51
   none: 45
-  reality: 40
-  tls: 19
+  tls: 21
 
 ────────────────────────────────────────────────────────────────────
 📊 mixed
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 52
-Уникальных строк: 52
-Уникальных host:port: 52
-Уникальных backend: 45
-Anycast: 21
-Unknown country: 6
+Всего конфигов: 59
+Уникальных строк: 59
+Уникальных host:port: 59
+Уникальных backend: 52
+Anycast: 25
+Unknown country: 8
 
 Топ стран:
-  🌐 Anycast: 21
-  Russia: 10
-  Netherlands: 7
-  Unknown: 6
+  🌐 Anycast: 25
+  Russia: 9
+  Netherlands: 8
+  Unknown: 8
+  Germany: 4
   Poland: 3
-  Germany: 3
   United States: 1
   France: 1
 
 Топ SNI:
   ads.x5.ru: 7
+  api-maps.yandex.ru: 4
   eh.vk.com: 4
   google.com: 4
   netcenter-cdn.com: 3
+  cdn.trahodrom.fun: 2
+  yahoo.com: 2
   www.apple.com: 2
-  ru8.aimodelhub.top: 2
+  yandex.net: 2
   storage.yandexcloud.net: 2
-  apple.com: 2
-  vpn4.rnmcnm.com: 2
-  s3.listwhite.cc: 1
 
 Топ портов:
-  443: 33
-  8443: 6
-  52006: 4
+  443: 29
+  8443: 10
+  52006: 6
   39800: 2
+  9443: 1
   8080: 1
-  44001: 1
-  44002: 1
+  29443: 1
+  52080: 1
   44003: 1
-  27015: 1
-  18789: 1
+  44002: 1
 
 Топ схем:
-  vless: 52
+  vless: 59
 
 Топ transport:
-  tcp: 34
-  xhttp: 11
+  tcp: 40
+  xhttp: 10
   ws: 6
-  grpc: 1
+  grpc: 3
 
 Топ security:
-  reality: 40
-  tls: 12
+  reality: 45
+  tls: 14
 
 ────────────────────────────────────────────────────────────────────
 📊 lte
@@ -466,47 +482,46 @@ Unknown country: 6
 Уникальных строк: 25
 Уникальных host:port: 25
 Уникальных backend: 21
-Anycast: 7
+Anycast: 4
 Unknown country: 1
 
 Топ стран:
-  🌐 Anycast: 7
-  Russia: 6
-  Netherlands: 5
-  France: 3
-  Poland: 1
-  United States: 1
+  Russia: 10
+  Netherlands: 6
+  🌐 Anycast: 4
+  Poland: 2
+  France: 2
   Unknown: 1
-  Germany: 1
 
 Топ SNI:
-  eh.vk.com: 4
-  google.com: 3
+  eh.vk.com: 5
+  ads.x5.ru: 4
   apple.com: 2
-  ads.x5.ru: 2
-  storage.yandexcloud.net: 2
+  api-maps.yandex.ru: 2
   www.calmlunch.com: 2
-  api-maps.yandex.ru: 1
-  www.cloudflare.com: 1
-  127.0.0.1: 1
+  www.vk.com: 1
+  s1.ws.listwhite.cc: 1
+  stats.vk-portal.net: 1
+  google.com: 1
   www.apple.com: 1
 
 Топ портов:
-  443: 18
-  8443: 3
+  443: 14
+  8443: 6
   39800: 2
   8080: 1
-  8444: 1
+  52080: 1
+  9443: 1
 
 Топ схем:
   vless: 23
   trojan: 2
 
 Топ transport:
-  tcp: 11
-  xhttp: 9
-  ws: 4
-  grpc: 1
+  tcp: 10
+  xhttp: 7
+  ws: 5
+  grpc: 3
 
 Топ security:
   reality: 19
@@ -515,70 +530,70 @@ Unknown country: 1
 ====================================================================
 🌍 GLOBAL SUMMARY
 ====================================================================
-Всего конфигов: 319
-Уникальных строк: 107
-Уникальных host:port: 107
-Уникальных backend: 89
-Anycast: 174
-Unknown country: 33
+Всего конфигов: 362
+Уникальных строк: 121
+Уникальных host:port: 121
+Уникальных backend: 100
+Anycast: 190
+Unknown country: 44
 
 Топ стран:
-  🌐 Anycast: 174
-  Russia: 42
-  Unknown: 33
-  Netherlands: 32
-  Poland: 12
-  France: 12
-  Germany: 10
-  United States: 4
+  🌐 Anycast: 190
+  Russia: 52
+  Unknown: 44
+  Netherlands: 37
+  Germany: 13
+  Poland: 13
+  France: 10
+  United States: 3
 
 Топ SNI:
-  ads.x5.ru: 29
-  eh.vk.com: 18
-  google.com: 16
+  ads.x5.ru: 33
+  eh.vk.com: 23
+  api-maps.yandex.ru: 18
+  google.com: 14
   netcenter-cdn.com: 12
-  storage.yandexcloud.net: 10
   www.apple.com: 9
-  ru8.aimodelhub.top: 8
+  storage.yandexcloud.net: 9
+  cdn.trahodrom.fun: 8
+  yahoo.com: 8
   apple.com: 8
-  www.calmlunch.com: 8
   cchh2.pages.dev: 8
-  vpn4.rnmcnm.com: 6
-  api-maps.yandex.ru: 5
-  x5.ru: 5
-  wl-6-5.nodes.ac: 5
-  wl-3-1.legendary-vpn.com: 4
+  www.nvidia.com: 7
+  ru8.aimodelhub.top: 7
+  www.calmlunch.com: 7
+  yandex.net: 6
 
 Топ портов:
-  443: 155
-  8443: 35
-  52006: 16
+  443: 148
+  8443: 56
+  52006: 24
   39800: 8
+  52080: 5
+  9443: 5
   8080: 4
-  44003: 4
+  29443: 4
+  63443: 4
+  38291: 4
   44002: 4
+  44003: 4
   44001: 4
-  8444: 4
-  12000: 4
   18081: 4
-  80: 3
-  18789: 3
-  27015: 3
-  14147: 2
+  12000: 4
 
 Топ схем:
-  vless: 216
+  vless: 260
   ss: 73
-  trojan: 16
+  trojan: 15
   hysteria2: 14
 
 Топ transport:
-  tcp: 226
-  xhttp: 46
+  tcp: 262
   ws: 43
-  grpc: 4
+  xhttp: 41
+  grpc: 16
 
 Топ security:
-  reality: 165
+  reality: 198
   none: 92
-  tls: 62
+  tls: 72
