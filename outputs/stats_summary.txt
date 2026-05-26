@@ -1,5 +1,5 @@
 VPN Builder stats summary
-Generated at: 2026-05-26 22:09:04 MSK
+Generated at: 2026-05-27 00:02:31 MSK
 
 ====================================================================
 RAW GROUPS
@@ -8,106 +8,112 @@ RAW GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 59
-Уникальных строк: 54
-Уникальных host:port: 45
-Уникальных backend: 21
-Anycast: 31
-Unknown country: 2
+Всего конфигов: 150
+Уникальных строк: 107
+Уникальных host:port: 85
+Уникальных backend: 46
+Anycast: 125
+Unknown country: 0
 
 Топ стран:
-  🌐 Anycast: 31
+  🌐 Anycast: 125
   Russia: 13
-  Netherlands: 10
-  Czechia: 2
-  Unknown: 2
-  Estonia: 1
+  Netherlands: 6
+  Germany: 3
+  Czechia: 3
 
 Топ SNI:
-  Koma-YT.PAGeS.Dev: 28
-  ads.x5.ru: 10
+  Koma-YT.PAGeS.Dev: 33
+  cdp.x5.ru: 28
+  ads.x5.ru: 27
+  api-maps.yandex.ru: 10
+  max.ru: 10
+  yandex.ru: 4
+  www.google.com: 4
   ru3.alexanderoff.ru: 4
-  www.google.com: 2
-  b905247956cd04ec.topology.gslb.yccdn.ru: 2
-  api-maps.yandex.ru: 2
-  rutube.ru: 2
-  teamdocs.su: 1
-  max.ru: 1
-  api.yandex.ru: 1
+  eh.vk.com: 2
+  event.yandex.ru: 2
 
 Топ портов:
-  8443: 23
-  443: 12
-  2053: 12
-  4443: 7
-  1443: 4
-  51608: 1
+  443: 92
+  8443: 27
+  4443: 11
+  2053: 10
+  5443: 4
+  3443: 4
+  61825: 1
+  28167: 1
 
 Топ схем:
-  trojan: 30
-  vless: 29
+  vless: 115
+  trojan: 34
+  ss: 1
 
 Топ transport:
-  ws: 30
-  tcp: 22
-  xhttp: 7
+  tcp: 104
+  ws: 34
+  xhttp: 9
+  grpc: 3
 
 Топ security:
-  tls: 30
-  reality: 22
-  none: 5
+  reality: 107
+  tls: 35
+  none: 6
   false: 2
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_vless
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 49
-Уникальных строк: 49
-Уникальных host:port: 41
-Уникальных backend: 18
-Anycast: 28
-Unknown country: 2
+Всего конфигов: 101
+Уникальных строк: 101
+Уникальных host:port: 80
+Уникальных backend: 42
+Anycast: 84
+Unknown country: 0
 
 Топ стран:
-  🌐 Anycast: 28
+  🌐 Anycast: 84
   Russia: 9
-  Netherlands: 8
-  Unknown: 2
-  Czechia: 1
-  Estonia: 1
+  Czechia: 3
+  Netherlands: 3
+  Germany: 2
 
 Топ SNI:
-  Koma-YT.PAGeS.Dev: 28
+  Koma-YT.PAGeS.Dev: 33
+  cdp.x5.ru: 14
+  ads.x5.ru: 12
+  max.ru: 6
+  api-maps.yandex.ru: 5
   ru3.alexanderoff.ru: 4
-  ads.x5.ru: 3
-  api-maps.yandex.ru: 2
-  rutube.ru: 2
-  teamdocs.su: 1
-  max.ru: 1
-  api.yandex.ru: 1
-  5.188.156.138: 1
-  87.228.124.196: 1
+  www.google.com: 3
+  eh.vk.ru: 2
+  yandex.ru: 2
+  ads.yandex.ru: 1
 
 Топ портов:
-  8443: 22
-  2053: 11
-  443: 7
-  4443: 7
-  1443: 2
+  443: 50
+  8443: 27
+  2053: 10
+  4443: 9
+  5443: 2
+  3443: 2
+  61825: 1
 
 Топ схем:
-  trojan: 30
-  vless: 19
+  vless: 66
+  trojan: 34
+  ss: 1
 
 Топ transport:
-  ws: 30
-  tcp: 16
+  tcp: 61
+  ws: 34
   xhttp: 3
+  grpc: 3
 
 Топ security:
-  tls: 30
-  reality: 12
-  none: 5
+  reality: 58
+  tls: 35
+  none: 6
   false: 2
 
 ────────────────────────────────────────────────────────────────────
@@ -180,106 +186,110 @@ FINAL GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 22
-Уникальных строк: 22
-Уникальных host:port: 22
-Уникальных backend: 17
-Anycast: 6
-Unknown country: 2
+Всего конфигов: 48
+Уникальных строк: 48
+Уникальных host:port: 48
+Уникальных backend: 35
+Anycast: 34
+Unknown country: 0
 
 Топ стран:
-  Russia: 8
-  🌐 Anycast: 6
-  Netherlands: 4
-  Unknown: 2
+  🌐 Anycast: 34
+  Russia: 9
+  Netherlands: 2
+  Germany: 2
   Czechia: 1
-  Estonia: 1
 
 Топ SNI:
-  ads.x5.ru: 6
+  ads.x5.ru: 11
+  max.ru: 4
   Koma-YT.PAGeS.Dev: 4
-  api-maps.yandex.ru: 2
-  teamdocs.su: 1
-  87.228.124.196: 1
-  www.google.com: 1
-  ya.ru: 1
-  5.188.156.138: 1
-  0o3vr2n5k2.bpuk2026.top: 1
-  hfaw9h34.bpca2026.top: 1
+  cdp.x5.ru: 4
+  api-maps.yandex.ru: 3
+  www.google.com: 3
+  yandex.ru: 2
+  ads.yandex.ru: 1
+  vk.com: 1
+  www.tradingview.com: 1
 
 Топ портов:
-  443: 8
-  8443: 5
-  4443: 4
-  1443: 2
-  2053: 2
-  51608: 1
+  443: 31
+  8443: 8
+  4443: 5
+  5443: 1
+  3443: 1
+  61825: 1
+  28167: 1
 
 Топ схем:
-  vless: 16
-  trojan: 6
+  vless: 42
+  trojan: 5
+  ss: 1
 
 Топ transport:
-  tcp: 12
-  ws: 6
-  xhttp: 4
+  tcp: 33
+  xhttp: 7
+  ws: 5
+  grpc: 3
 
 Топ security:
-  reality: 12
+  reality: 37
   tls: 6
-  none: 3
+  none: 4
   false: 1
 
 ────────────────────────────────────────────────────────────────────
 📊 white_vless
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 18
-Уникальных строк: 18
-Уникальных host:port: 18
-Уникальных backend: 14
-Anycast: 4
-Unknown country: 2
+Всего конфигов: 43
+Уникальных строк: 43
+Уникальных host:port: 43
+Уникальных backend: 31
+Anycast: 32
+Unknown country: 0
 
 Топ стран:
+  🌐 Anycast: 32
   Russia: 6
-  Netherlands: 4
-  🌐 Anycast: 4
-  Unknown: 2
+  Netherlands: 2
+  Germany: 2
   Czechia: 1
-  Estonia: 1
 
 Топ SNI:
+  ads.x5.ru: 8
+  max.ru: 4
+  cdp.x5.ru: 4
   Koma-YT.PAGeS.Dev: 4
-  ads.x5.ru: 3
-  api-maps.yandex.ru: 2
-  teamdocs.su: 1
-  www.google.com: 1
-  ru3.alexanderoff.ru: 1
-  5.188.156.138: 1
-  87.228.124.196: 1
-  0o3vr2n5k2.bpuk2026.top: 1
-  hfaw9h34.bpca2026.top: 1
+  api-maps.yandex.ru: 3
+  www.google.com: 3
+  yandex.ru: 2
+  ads.yandex.ru: 1
+  vk.com: 1
+  img.yandex.ru: 1
 
 Топ портов:
-  8443: 5
-  443: 5
-  4443: 4
-  1443: 2
-  2053: 2
+  443: 27
+  8443: 8
+  4443: 5
+  3443: 1
+  5443: 1
+  61825: 1
 
 Топ схем:
-  vless: 12
-  trojan: 6
+  vless: 37
+  trojan: 5
+  ss: 1
 
 Топ transport:
-  tcp: 11
-  ws: 6
-  xhttp: 1
+  tcp: 32
+  ws: 5
+  grpc: 3
+  xhttp: 3
 
 Топ security:
-  reality: 8
+  reality: 32
   tls: 6
-  none: 3
+  none: 4
   false: 1
 
 ────────────────────────────────────────────────────────────────────
@@ -298,11 +308,11 @@ Unknown country: 5
   Netherlands: 4
   United States: 3
   Japan: 3
-  Switzerland: 1
-  Bulgaria: 1
-  Germany: 1
   Poland: 1
   Czechia: 1
+  Switzerland: 1
+  Germany: 1
+  Bulgaria: 1
 
 Топ SNI:
   download-porter.hoyoverse.com: 4
@@ -312,7 +322,7 @@ Unknown country: 5
   deb.debian.org: 2
   down.spectrumproxy.shop: 1
   www.microsoft.com: 1
-  www.yimg.com: 1
+  www.nvidia.com: 1
   s545.ccgfw.online: 1
   down.spectrum.vu: 1
 
@@ -325,8 +335,8 @@ Unknown country: 5
   80: 2
   10909: 2
   8080: 1
-  55919: 1
   8654: 1
+  55919: 1
 
 Топ схем:
   vless: 29
@@ -348,124 +358,124 @@ Unknown country: 5
 ────────────────────────────────────────────────────────────────────
 📊 pool
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 74
-Уникальных строк: 74
-Уникальных host:port: 74
-Уникальных backend: 68
-Anycast: 37
-Unknown country: 7
+Всего конфигов: 96
+Уникальных строк: 96
+Уникальных host:port: 96
+Уникальных backend: 86
+Anycast: 61
+Unknown country: 5
 
 Топ стран:
-  🌐 Anycast: 37
-  Russia: 8
-  Netherlands: 8
-  Unknown: 7
-  United States: 3
+  🌐 Anycast: 61
+  Russia: 9
+  Netherlands: 6
+  Unknown: 5
+  Germany: 3
   Japan: 3
+  United States: 3
   Czechia: 2
-  Estonia: 1
-  Switzerland: 1
-  Germany: 1
+  Poland: 1
+  Bulgaria: 1
 
 Топ SNI:
-  ads.x5.ru: 6
+  ads.x5.ru: 10
   download-porter.hoyoverse.com: 4
+  max.ru: 3
+  www.google.com: 3
+  api-maps.yandex.ru: 3
   Koma-YT.PAGeS.Dev: 2
-  api-maps.yandex.ru: 2
-  static.gcore.pro: 2
+  cdp.x5.ru: 2
+  yandex.ru: 2
   stackoverflow.com: 2
   deb.debian.org: 2
-  5.188.156.138: 1
-  ya.ru: 1
-  87.228.124.196: 1
 
 Топ портов:
-  443: 34
-  8443: 6
-  4443: 4
+  443: 54
+  8443: 8
+  4443: 5
   2056: 4
-  1443: 2
-  2053: 2
-  10909: 2
   7443: 2
+  10909: 2
   80: 2
-  51608: 1
+  61825: 1
+  28167: 1
+  3443: 1
 
 Топ схем:
-  vless: 45
-  ss: 15
+  vless: 67
+  ss: 16
   hysteria2: 10
-  trojan: 4
+  trojan: 3
 
 Топ transport:
-  tcp: 56
-  ws: 8
-  xhttp: 6
-  grpc: 4
+  tcp: 73
+  xhttp: 9
+  grpc: 7
+  ws: 7
 
 Топ security:
-  reality: 32
-  none: 29
+  reality: 53
+  none: 30
   tls: 12
   false: 1
 
 ────────────────────────────────────────────────────────────────────
 📊 mixed
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 39
-Уникальных строк: 39
-Уникальных host:port: 39
-Уникальных backend: 34
-Anycast: 12
+Всего конфигов: 60
+Уникальных строк: 60
+Уникальных host:port: 60
+Уникальных backend: 51
+Anycast: 34
 Unknown country: 4
 
 Топ стран:
-  🌐 Anycast: 12
-  Netherlands: 8
-  Russia: 4
+  🌐 Anycast: 34
+  Russia: 5
+  Netherlands: 5
   Unknown: 4
+  Germany: 3
   Japan: 3
   Czechia: 2
   United States: 2
-  Estonia: 1
-  Germany: 1
   Poland: 1
+  Switzerland: 1
 
 Топ SNI:
-  ads.x5.ru: 6
+  ads.x5.ru: 10
   download-porter.hoyoverse.com: 4
-  api-maps.yandex.ru: 2
-  stackoverflow.com: 2
+  max.ru: 3
+  api-maps.yandex.ru: 3
+  www.google.com: 3
+  cdp.x5.ru: 2
+  yandex.ru: 2
   deb.debian.org: 2
+  stackoverflow.com: 2
   static.gcore.pro: 2
-  teamdocs.su: 1
-  ya.ru: 1
-  b905247956cd04ec.topology.gslb.yccdn.ru: 1
-  www.google.com: 1
 
 Топ портов:
-  443: 27
-  1443: 2
-  8443: 2
+  443: 46
+  8443: 4
   7443: 2
-  51608: 1
-  2053: 1
-  8080: 1
-  8654: 1
+  3443: 1
+  4443: 1
+  61825: 1
   17820: 1
+  8080: 1
+  28167: 1
   55919: 1
 
 Топ схем:
-  vless: 39
+  vless: 60
 
 Топ transport:
-  tcp: 27
-  xhttp: 6
-  grpc: 4
+  tcp: 42
+  xhttp: 9
+  grpc: 7
   ws: 2
 
 Топ security:
-  reality: 32
+  reality: 53
   tls: 7
 
 ────────────────────────────────────────────────────────────────────
@@ -475,129 +485,118 @@ Unknown country: 4
 Уникальных строк: 25
 Уникальных host:port: 25
 Уникальных backend: 21
-Anycast: 5
+Anycast: 17
 Unknown country: 0
 
 Топ стран:
-  Netherlands: 8
-  🌐 Anycast: 5
+  🌐 Anycast: 17
   Russia: 3
-  United States: 2
-  Japan: 2
+  Netherlands: 2
   Czechia: 1
   Switzerland: 1
-  Poland: 1
-  Estonia: 1
-  Germany: 1
+  United States: 1
 
 Топ SNI:
-  ads.x5.ru: 6
-  api-maps.yandex.ru: 2
-  static.gcore.pro: 2
-  download-porter.hoyoverse.com: 2
-  stackoverflow.com: 2
-  Koma-YT.PAGeS.Dev: 2
-  s881.ccgfw.top: 1
-  down.spectrum.vu: 1
-  down.spectrumproxy.shop: 1
-  teamdocs.su: 1
+  ads.x5.ru: 9
+  api-maps.yandex.ru: 3
+  max.ru: 3
+  yandex.ru: 2
+  ads.yandex.ru: 1
+  vk.com: 1
+  www.kinopoisk.ru: 1
+  static.gcore.pro: 1
+  platform-api.max.ru: 1
+  img.yandex.ru: 1
 
 Топ портов:
-  443: 14
-  8443: 4
-  1443: 2
-  7443: 2
-  8080: 1
-  8654: 1
-  55919: 1
+  443: 23
+  8443: 1
+  3443: 1
 
 Топ схем:
-  vless: 23
-  trojan: 2
+  vless: 25
 
 Топ transport:
-  tcp: 13
-  xhttp: 6
-  grpc: 4
-  ws: 2
+  tcp: 17
+  xhttp: 7
+  grpc: 1
 
 Топ security:
-  reality: 21
-  tls: 4
+  reality: 23
+  tls: 2
 
 ====================================================================
 🌍 GLOBAL SUMMARY
 ====================================================================
-Всего конфигов: 236
-Уникальных строк: 80
-Уникальных host:port: 80
-Уникальных backend: 68
-Anycast: 101
-Unknown country: 20
+Всего конфигов: 330
+Уникальных строк: 106
+Уникальных host:port: 106
+Уникальных backend: 86
+Anycast: 215
+Unknown country: 14
 
 Топ стран:
-  🌐 Anycast: 101
-  Netherlands: 36
-  Russia: 29
-  Unknown: 20
-  Japan: 11
-  United States: 10
+  🌐 Anycast: 215
+  Russia: 32
+  Netherlands: 21
+  Unknown: 14
+  Germany: 11
+  United States: 9
+  Japan: 9
   Czechia: 8
-  Estonia: 5
   Switzerland: 4
-  Germany: 4
-  Poland: 4
+  Poland: 3
   Bulgaria: 2
   Finland: 2
 
 Топ SNI:
-  ads.x5.ru: 27
-  Koma-YT.PAGeS.Dev: 16
-  download-porter.hoyoverse.com: 14
-  api-maps.yandex.ru: 10
-  static.gcore.pro: 8
-  stackoverflow.com: 8
+  ads.x5.ru: 48
+  max.ru: 17
+  api-maps.yandex.ru: 15
+  Koma-YT.PAGeS.Dev: 14
+  www.google.com: 12
+  cdp.x5.ru: 12
+  download-porter.hoyoverse.com: 12
+  yandex.ru: 10
+  static.gcore.pro: 7
+  stackoverflow.com: 6
   deb.debian.org: 6
-  teamdocs.su: 5
-  www.google.com: 5
-  b905247956cd04ec.topology.gslb.yccdn.ru: 4
-  down.spectrumproxy.shop: 4
-  www.microsoft.com: 4
-  www.yimg.com: 4
-  down.spectrum.vu: 4
-  s881.ccgfw.top: 4
+  ads.yandex.ru: 5
+  vk.com: 5
+  img.yandex.ru: 5
+  platform-api.max.ru: 5
 
 Топ портов:
-  443: 114
-  8443: 25
-  4443: 12
-  2053: 11
-  1443: 10
-  7443: 8
+  443: 207
+  8443: 32
+  4443: 16
   2056: 8
-  8080: 4
-  55919: 4
-  8654: 4
+  7443: 6
+  3443: 5
+  2053: 5
+  61825: 4
   80: 4
   10909: 4
-  51608: 3
+  28167: 3
+  8080: 3
+  8654: 3
+  55919: 3
   17820: 3
-  14000: 2
 
 Топ схем:
-  vless: 164
-  ss: 30
-  trojan: 22
+  vless: 260
+  ss: 33
   hysteria2: 20
+  trojan: 17
 
 Топ transport:
-  tcp: 163
-  ws: 32
-  xhttp: 25
-  grpc: 16
+  tcp: 241
+  xhttp: 37
+  ws: 27
+  grpc: 25
 
 Топ security:
-  reality: 125
-  none: 61
-  tls: 47
+  reality: 218
+  none: 64
+  tls: 45
   false: 3
