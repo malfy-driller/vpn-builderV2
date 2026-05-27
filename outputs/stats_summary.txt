@@ -1,5 +1,5 @@
 VPN Builder stats summary
-Generated at: 2026-05-27 05:45:34 MSK
+Generated at: 2026-05-27 09:50:02 MSK
 
 ====================================================================
 RAW GROUPS
@@ -8,176 +8,185 @@ RAW GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 79
-Уникальных строк: 67
-Уникальных host:port: 55
-Уникальных backend: 43
-Anycast: 40
-Unknown country: 4
+Всего конфигов: 134
+Уникальных строк: 88
+Уникальных host:port: 61
+Уникальных backend: 35
+Anycast: 87
+Unknown country: 6
 
 Топ стран:
-  🌐 Anycast: 40
-  Russia: 25
-  Unknown: 4
-  Netherlands: 4
-  United States: 3
-  Germany: 3
+  🌐 Anycast: 87
+  Netherlands: 14
+  Russia: 10
+  Poland: 8
+  Unknown: 6
+  Germany: 6
+  Czechia: 2
+  France: 1
 
 Топ SNI:
-  ads.x5.ru: 18
-  api-maps.yandex.ru: 4
-  www.google.com: 4
-  max.ru: 3
-  sub.sbrf-cdn342.ru: 3
-  s28315.cdn.ngenix.net: 3
-  vms.lifetime08.workers.dev: 3
-  vms.lifetime44.workers.dev: 3
-  vms.lifetime46.workers.dev: 3
-  fuckingfangbinxing.cnmfangbinxing-p.workers.dev: 3
+  cdp.x5.ru: 50
+  ads.x5.ru: 23
+  api-maps.yandex.ru: 8
+  obhod.riotvpn.eu: 7
+  colorlib.com: 6
+  s28315.cdn.ngenix.net: 5
+  avatars.mds.yandex.net: 4
+  itx-server.digital: 4
+  m.vk.com: 3
+  dey.lnmarketplace.net: 3
 
 Топ портов:
-  443: 38
-  8880: 25
-  8443: 5
-  2095: 3
-  80: 1
-  61825: 1
-  10444: 1
-  30904: 1
-  27439: 1
-  28737: 1
+  443: 100
+  2053: 6
+  7443: 6
+  4443: 4
+  8443: 3
+  80: 3
+  2083: 2
+  5443: 2
+  4449: 2
+  3443: 2
 
 Топ схем:
-  vless: 78
-  ss: 1
+  vless: 133
+  trojan: 1
 
 Топ transport:
-  tcp: 36
-  ws: 32
-  xhttp: 8
-  grpc: 3
+  tcp: 95
+  xhttp: 20
+  ws: 12
+  grpc: 7
 
 Топ security:
-  reality: 40
-  none: 29
-  tls: 10
+  reality: 107
+  tls: 26
+  none: 1
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_vless
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 55
-Уникальных строк: 55
-Уникальных host:port: 44
-Уникальных backend: 33
-Anycast: 37
-Unknown country: 2
+Всего конфигов: 77
+Уникальных строк: 77
+Уникальных host:port: 52
+Уникальных backend: 27
+Anycast: 46
+Unknown country: 5
 
 Топ стран:
-  🌐 Anycast: 37
-  Russia: 9
-  Germany: 3
-  Unknown: 2
-  Netherlands: 2
-  United States: 2
+  🌐 Anycast: 46
+  Netherlands: 10
+  Germany: 6
+  Poland: 6
+  Unknown: 5
+  Russia: 2
+  Czechia: 1
+  France: 1
 
 Топ SNI:
-  ads.x5.ru: 7
+  cdp.x5.ru: 25
+  ads.x5.ru: 8
+  colorlib.com: 6
+  s28315.cdn.ngenix.net: 5
+  obhod.riotvpn.eu: 4
+  itx-server.digital: 4
+  api-maps.yandex.ru: 4
+  dey.lnmarketplace.net: 3
   sub.sbrf-cdn342.ru: 3
-  s28315.cdn.ngenix.net: 3
-  vms.lifetime08.workers.dev: 3
-  vms.lifetime44.workers.dev: 3
-  vms.lifetime46.workers.dev: 3
-  fuckingfangbinxing.cnmfangbinxing-p.workers.dev: 3
-  dey.lnmarketplace.net: 2
-  api-maps.yandex.ru: 2
-  www.google.com: 2
+  m.vk.com: 2
 
 Топ портов:
-  8880: 25
-  443: 23
-  2095: 3
-  8443: 2
-  80: 1
-  61825: 1
+  443: 54
+  2053: 6
+  7443: 6
+  80: 2
+  4443: 2
+  8443: 1
+  57506: 1
+  2083: 1
+  5443: 1
+  4449: 1
 
 Топ схем:
-  vless: 54
-  ss: 1
+  vless: 76
+  trojan: 1
 
 Топ transport:
-  ws: 32
-  tcp: 18
-  xhttp: 3
-  grpc: 2
+  tcp: 49
+  ws: 12
+  xhttp: 10
+  grpc: 6
 
 Топ security:
-  none: 29
-  reality: 16
-  tls: 10
+  reality: 53
+  tls: 23
+  none: 1
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW black_all
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 353
-Уникальных строк: 205
-Уникальных host:port: 145
-Уникальных backend: 123
-Anycast: 187
-Unknown country: 65
+Всего конфигов: 158
+Уникальных строк: 81
+Уникальных host:port: 59
+Уникальных backend: 57
+Anycast: 91
+Unknown country: 10
 
 Топ стран:
-  🌐 Anycast: 187
-  Unknown: 65
-  Netherlands: 24
-  Germany: 21
-  United States: 18
-  Finland: 9
-  France: 8
-  India: 6
-  Switzerland: 4
-  Kazakhstan: 3
+  🌐 Anycast: 91
+  United States: 12
+  Poland: 10
+  Unknown: 10
+  India: 8
+  Finland: 6
+  France: 6
+  Germany: 6
+  Netherlands: 6
+  Japan: 2
 
 Топ SNI:
-  cdn.trahodrom.fun: 18
-  yahoo.com: 13
-  www.python.org: 13
-  vms.lifetime26.workers.dev: 13
   sub.sbrf-cdn342.ru: 10
-  buylite.music.apple.com: 8
-  o00o.osd.qzz.io: 8
-  tw3.769970.xyz: 8
-  ld1.mangshe.xyz: 8
-  vms.lifetime06.workers.dev: 6
+  yahoo.com: 9
+  qi4rysu2u-e8j2zzhk.bsld.de5.net: 8
+  www.digikala.com: 6
+  s881.ccgfw.top: 6
+  o00o.osd.qzz.io: 6
+  dey.lnmarketplace.net: 4
+  oijji.global.ssl.fastly.net: 4
+  discord.com: 4
+  45.80.230.241: 4
 
 Топ портов:
-  443: 155
-  8880: 64
-  8443: 27
-  2056: 22
-  8080: 14
-  30050: 8
-  80: 6
-  4433: 6
+  443: 78
+  80: 8
+  8443: 8
+  2056: 8
+  55014: 6
+  16443: 6
+  30050: 6
+  55919: 4
   11111: 4
-  2053: 3
+  56309: 4
 
 Топ схем:
-  vless: 283
-  hysteria2: 54
-  ss: 8
-  trojan: 6
-  vmess: 2
+  vless: 118
+  hysteria2: 24
+  trojan: 10
+  ss: 6
 
 Топ transport:
-  tcp: 227
-  ws: 97
-  grpc: 16
-  xhttp: 13
+  tcp: 94
+  ws: 32
+  xhttp: 20
+  grpc: 10
+  httpupgrade: 2
 
 Топ security:
-  reality: 151
-  none: 144
-  tls: 58
+  tls: 59
+  reality: 53
+  none: 42
+  false: 4
 
 ====================================================================
 FINAL GROUPS
@@ -186,296 +195,308 @@ FINAL GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 55
-Уникальных строк: 55
-Уникальных host:port: 55
-Уникальных backend: 42
-Anycast: 31
-Unknown country: 1
+Всего конфигов: 50
+Уникальных строк: 50
+Уникальных host:port: 50
+Уникальных backend: 33
+Anycast: 20
+Unknown country: 4
 
 Топ стран:
-  🌐 Anycast: 31
-  Russia: 16
-  Germany: 3
-  Netherlands: 2
-  United States: 2
-  Unknown: 1
+  🌐 Anycast: 20
+  Russia: 8
+  Netherlands: 7
+  Germany: 5
+  Poland: 4
+  Unknown: 4
+  Czechia: 1
+  France: 1
 
 Топ SNI:
-  ads.x5.ru: 8
-  www.vk.com: 3
-  s28315.cdn.ngenix.net: 3
-  vms.lifetime44.workers.dev: 3
+  ads.x5.ru: 11
+  colorlib.com: 4
+  obhod.riotvpn.eu: 4
+  s28315.cdn.ngenix.net: 4
+  cdp.x5.ru: 4
   api-maps.yandex.ru: 2
-  max.ru: 2
-  www.google.com: 2
-  vms.lifetime03.workers.dev: 2
-  vms.lifetime06.workers.dev: 2
-  vms.lifetime08.workers.dev: 2
+  m.vk.com: 2
+  www.kinopoisk.ru: 2
+  itx-server.digital: 2
+  mail.yandex.ru: 1
 
 Топ портов:
-  443: 22
-  8880: 21
+  443: 30
+  2053: 4
+  7443: 4
   8443: 2
-  2095: 2
-  27439: 1
-  38941: 1
-  61825: 1
-  26146: 1
-  80: 1
-  28737: 1
+  80: 2
+  2083: 1
+  20468: 1
+  3443: 1
+  4443: 1
+  5443: 1
 
 Топ схем:
-  vless: 54
-  ss: 1
+  vless: 49
+  trojan: 1
 
 Топ transport:
-  ws: 27
-  tcp: 19
-  xhttp: 6
-  grpc: 3
+  tcp: 23
+  xhttp: 13
+  ws: 9
+  grpc: 5
 
 Топ security:
-  reality: 24
-  none: 24
-  tls: 7
+  reality: 33
+  tls: 16
+  none: 1
 
 ────────────────────────────────────────────────────────────────────
 📊 white_vless
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 44
-Уникальных строк: 44
-Уникальных host:port: 44
-Уникальных backend: 32
-Anycast: 29
-Unknown country: 1
+Всего конфигов: 41
+Уникальных строк: 41
+Уникальных host:port: 41
+Уникальных backend: 25
+Anycast: 17
+Unknown country: 4
 
 Топ стран:
-  🌐 Anycast: 29
-  Russia: 7
-  Germany: 3
-  United States: 2
-  Netherlands: 2
-  Unknown: 1
+  🌐 Anycast: 17
+  Netherlands: 7
+  Germany: 5
+  Poland: 4
+  Unknown: 4
+  Russia: 2
+  Czechia: 1
+  France: 1
 
 Топ SNI:
-  ads.x5.ru: 4
-  s28315.cdn.ngenix.net: 3
-  vms.lifetime44.workers.dev: 3
+  ads.x5.ru: 6
+  colorlib.com: 4
+  obhod.riotvpn.eu: 4
+  cdp.x5.ru: 4
+  s28315.cdn.ngenix.net: 4
   api-maps.yandex.ru: 2
-  www.google.com: 2
-  vms.lifetime03.workers.dev: 2
-  vms.lifetime46.workers.dev: 2
-  vms.lifetime08.workers.dev: 2
-  vms.lifetime06.workers.dev: 2
-  vms.lifetime36.workers.dev: 2
+  m.vk.com: 2
+  itx-server.digital: 2
+  mail.yandex.ru: 1
+  yandex.ru: 1
 
 Топ портов:
-  8880: 21
-  443: 18
-  2095: 2
+  443: 23
+  2053: 4
+  7443: 4
+  80: 2
   8443: 1
-  61825: 1
-  80: 1
+  2083: 1
+  5443: 1
+  4443: 1
+  3443: 1
+  4449: 1
 
 Топ схем:
-  vless: 43
-  ss: 1
+  vless: 40
+  trojan: 1
 
 Топ transport:
-  ws: 27
-  tcp: 13
-  grpc: 2
-  xhttp: 2
+  tcp: 20
+  ws: 9
+  xhttp: 8
+  grpc: 4
 
 Топ security:
-  none: 24
-  reality: 13
-  tls: 7
+  reality: 24
+  tls: 16
+  none: 1
 
 ────────────────────────────────────────────────────────────────────
 📊 black_all
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 140
-Уникальных строк: 140
-Уникальных host:port: 140
-Уникальных backend: 115
-Anycast: 83
-Unknown country: 20
+Всего конфигов: 59
+Уникальных строк: 59
+Уникальных host:port: 59
+Уникальных backend: 54
+Anycast: 33
+Unknown country: 3
 
 Топ стран:
-  🌐 Anycast: 83
-  Unknown: 20
-  Germany: 9
-  Netherlands: 8
-  United States: 5
-  Finland: 3
-  Poland: 2
-  India: 2
-  France: 2
-  Estonia: 1
+  🌐 Anycast: 33
+  Poland: 4
+  United States: 4
+  India: 4
+  France: 3
+  Unknown: 3
+  Germany: 2
+  Netherlands: 2
+  Finland: 2
+  Russia: 1
 
 Топ SNI:
-  yahoo.com: 6
-  vms.lifetime26.workers.dev: 4
-  www.python.org: 3
+  yahoo.com: 4
   sub.sbrf-cdn342.ru: 3
-  vms.lifetime40.workers.dev: 3
-  vms.lifetime08.workers.dev: 3
-  vms.lifetime44.workers.dev: 3
-  static.gcore.pro: 2
-  buylite.music.apple.com: 2
-  www.amd.com: 2
+  www.yahoo.com: 2
+  www.digikala.com: 2
+  qi4rysu2u-e8j2zzhk.bsld.de5.net: 2
+  www.creationlong.org: 1
+  wikiportal.su: 1
+  ru.c2horizon.app: 1
+  Parsashonam.atlasq.ir: 1
+  us2.c2horizon.app: 1
 
 Топ портов:
-  443: 59
-  8880: 37
-  8443: 7
-  8080: 4
-  80: 3
-  2053: 2
-  4433: 2
+  443: 32
+  8443: 3
+  55014: 2
+  80: 2
   2056: 2
-  7443: 1
-  1000: 1
+  10047: 1
+  8080: 1
+  11518: 1
+  55919: 1
+  39354: 1
 
 Топ схем:
-  vless: 123
-  hysteria2: 11
-  trojan: 4
+  vless: 44
+  hysteria2: 8
+  trojan: 5
   ss: 2
 
 Топ transport:
-  tcp: 77
-  ws: 52
-  xhttp: 6
-  grpc: 5
+  tcp: 37
+  ws: 10
+  xhttp: 7
+  grpc: 4
+  httpupgrade: 1
 
 Топ security:
-  reality: 59
-  none: 59
-  tls: 22
+  reality: 24
+  tls: 18
+  none: 16
+  false: 1
 
 ────────────────────────────────────────────────────────────────────
 📊 pool
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 150
-Уникальных строк: 150
-Уникальных host:port: 150
-Уникальных backend: 120
-Anycast: 90
-Unknown country: 15
+Всего конфигов: 98
+Уникальных строк: 98
+Уникальных host:port: 97
+Уникальных backend: 84
+Anycast: 47
+Unknown country: 6
 
 Топ стран:
-  🌐 Anycast: 90
-  Russia: 17
-  Unknown: 15
-  Germany: 8
-  United States: 7
-  Netherlands: 5
-  France: 2
-  Kazakhstan: 1
-  Estonia: 1
-  Israel: 1
+  🌐 Anycast: 47
+  Netherlands: 8
+  Russia: 8
+  Poland: 8
+  Unknown: 6
+  Germany: 5
+  France: 4
+  United States: 4
+  India: 4
+  Finland: 2
 
 Топ SNI:
-  ads.x5.ru: 8
-  vms.lifetime44.workers.dev: 5
-  vms.lifetime46.workers.dev: 4
-  www.google.com: 3
-  sub.sbrf-cdn342.ru: 3
-  vms.lifetime40.workers.dev: 3
-  vms.lifetime36.workers.dev: 3
-  s28315.cdn.ngenix.net: 3
-  www.vk.com: 3
-  vms.lifetime08.workers.dev: 3
+  ads.x5.ru: 10
+  yahoo.com: 4
+  colorlib.com: 3
+  api-maps.yandex.ru: 2
+  obhod.riotvpn.eu: 2
+  cdp.x5.ru: 2
+  s28315.cdn.ngenix.net: 2
+  dey.lnmarketplace.net: 2
+  itx-server.digital: 2
+  www.kinopoisk.ru: 2
 
 Топ портов:
-  443: 64
-  8880: 44
-  8443: 7
-  80: 4
-  2095: 3
-  8080: 2
-  27439: 1
-  28737: 1
-  30904: 1
-  38941: 1
+  443: 54
+  8443: 5
+  2053: 4
+  80: 3
+  7443: 3
+  4443: 2
+  2056: 2
+  55014: 2
+  5443: 1
+  3443: 1
 
 Топ схем:
-  vless: 137
+  vless: 82
   hysteria2: 8
-  ss: 3
-  trojan: 2
+  trojan: 6
+  ss: 2
 
 Топ transport:
-  tcp: 75
-  ws: 59
-  xhttp: 10
-  grpc: 6
+  tcp: 54
+  xhttp: 18
+  ws: 17
+  grpc: 8
+  httpupgrade: 1
 
 Топ security:
-  reality: 66
-  none: 65
-  tls: 19
+  reality: 53
+  tls: 28
+  none: 16
+  false: 1
 
 ────────────────────────────────────────────────────────────────────
 📊 mixed
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 58
-Уникальных строк: 58
-Уникальных host:port: 58
-Уникальных backend: 53
-Anycast: 19
-Unknown country: 6
+Всего конфигов: 60
+Уникальных строк: 60
+Уникальных host:port: 60
+Уникальных backend: 50
+Anycast: 30
+Unknown country: 4
 
 Топ стран:
-  🌐 Anycast: 19
-  Russia: 16
-  Unknown: 6
-  United States: 5
+  🌐 Anycast: 30
+  Netherlands: 8
+  Russia: 6
   Germany: 5
-  Netherlands: 4
-  India: 1
-  Israel: 1
-  Kazakhstan: 1
+  Poland: 5
+  Unknown: 4
+  Czechia: 1
+  Finland: 1
 
 Топ SNI:
   ads.x5.ru: 8
-  www.vk.com: 3
-  www.google.com: 3
-  max.ru: 2
-  api-maps.yandex.ru: 2
+  colorlib.com: 3
+  yahoo.com: 3
+  itx-server.digital: 2
+  www.kinopoisk.ru: 2
+  m.vk.com: 2
+  obhod.riotvpn.eu: 2
   s28315.cdn.ngenix.net: 2
   sub.sbrf-cdn342.ru: 2
-  www.python.org: 2
-  yahoo.com: 2
-  bitter-base-6f9e.amirmahdizamani50.workers.dev: 1
+  api-maps.yandex.ru: 2
 
 Топ портов:
-  443: 41
-  8443: 5
-  38941: 1
+  443: 36
+  2053: 4
+  8443: 3
+  7443: 3
+  4443: 2
+  20468: 1
   80: 1
-  30904: 1
-  27439: 1
-  28737: 1
-  10444: 1
-  26146: 1
-  61825: 1
+  57506: 1
+  2083: 1
+  5443: 1
 
 Топ схем:
-  vless: 58
+  vless: 60
 
 Топ transport:
-  tcp: 41
-  ws: 6
-  xhttp: 6
-  grpc: 5
+  tcp: 32
+  xhttp: 13
+  ws: 8
+  grpc: 6
+  httpupgrade: 1
 
 Топ security:
-  reality: 47
-  tls: 11
+  reality: 43
+  tls: 17
 
 ────────────────────────────────────────────────────────────────────
 📊 lte
@@ -484,125 +505,123 @@ Unknown country: 6
 Уникальных строк: 25
 Уникальных host:port: 25
 Уникальных backend: 22
-Anycast: 6
+Anycast: 8
 Unknown country: 0
 
 Топ стран:
-  Russia: 12
-  🌐 Anycast: 6
-  United States: 2
-  Netherlands: 2
-  Germany: 2
-  Poland: 1
+  🌐 Anycast: 8
+  Russia: 5
+  Germany: 4
+  Poland: 4
+  Netherlands: 3
+  Czechia: 1
 
 Топ SNI:
-  ads.x5.ru: 8
-  www.vk.com: 3
-  api-maps.yandex.ru: 2
+  ads.x5.ru: 7
+  m.vk.com: 2
   s28315.cdn.ngenix.net: 2
-  yandex.ru: 1
-  eh.vk.com: 1
-  eh.vk.com:443: 1
-  dey.lnmarketplace.net: 1
+  Parsashonam.atlasq.ir: 1
+  api-maps.yandex.ru: 1
+  mail.yandex.ru: 1
+  www.vk.com: 1
+  itx-server.digital: 1
+  89300733153383a5.itx-server.digital: 1
   static.gcore.pro: 1
-  obhod.riotvpn.eu: 1
 
 Топ портов:
-  443: 19
-  8443: 1
-  28737: 1
-  27439: 1
+  443: 17
+  2053: 3
+  8443: 2
+  2083: 1
+  20468: 1
   80: 1
-  10444: 1
-  38941: 1
 
 Топ схем:
   vless: 25
 
 Топ transport:
-  tcp: 12
-  xhttp: 7
-  ws: 4
-  grpc: 2
+  xhttp: 10
+  tcp: 8
+  ws: 6
+  grpc: 1
 
 Топ security:
-  reality: 18
-  tls: 7
+  reality: 14
+  tls: 11
 
 ====================================================================
 🌍 GLOBAL SUMMARY
 ====================================================================
-Всего конфигов: 472
-Уникальных строк: 195
-Уникальных host:port: 194
-Уникальных backend: 146
-Anycast: 258
-Unknown country: 43
+Всего конфигов: 333
+Уникальных строк: 109
+Уникальных host:port: 107
+Уникальных backend: 84
+Anycast: 155
+Unknown country: 21
 
 Топ стран:
-  🌐 Anycast: 258
-  Russia: 69
-  Unknown: 43
-  Germany: 30
-  Netherlands: 23
-  United States: 23
-  Poland: 4
-  India: 4
-  Finland: 4
-  France: 4
-  Israel: 3
-  Kazakhstan: 3
-  Estonia: 2
-  Switzerland: 1
-  Czechia: 1
+  🌐 Anycast: 155
+  Netherlands: 35
+  Russia: 30
+  Poland: 29
+  Germany: 26
+  Unknown: 21
+  France: 9
+  United States: 8
+  India: 8
+  Czechia: 5
+  Finland: 5
+  Japan: 2
 
 Топ SNI:
-  ads.x5.ru: 36
+  ads.x5.ru: 42
+  colorlib.com: 14
   s28315.cdn.ngenix.net: 14
-  vms.lifetime44.workers.dev: 14
-  www.vk.com: 12
-  www.google.com: 11
-  api-maps.yandex.ru: 10
-  sub.sbrf-cdn342.ru: 10
-  vms.lifetime08.workers.dev: 10
-  vms.lifetime46.workers.dev: 10
-  yahoo.com: 10
-  max.ru: 8
-  vms.lifetime40.workers.dev: 8
-  vms.lifetime36.workers.dev: 8
-  vms.lifetime06.workers.dev: 7
-  www.python.org: 7
+  obhod.riotvpn.eu: 13
+  cdp.x5.ru: 12
+  yahoo.com: 11
+  m.vk.com: 10
+  api-maps.yandex.ru: 9
+  itx-server.digital: 9
+  sub.sbrf-cdn342.ru: 9
+  www.kinopoisk.ru: 7
+  dey.lnmarketplace.net: 7
+  www.yahoo.com: 6
+  mail.yandex.ru: 5
+  db5cc1f925bf22c0.itx-server.digital: 5
 
 Топ портов:
-  443: 223
-  8880: 123
-  8443: 23
+  443: 192
+  2053: 19
+  8443: 16
+  7443: 14
   80: 11
-  2095: 8
-  8080: 6
-  27439: 4
-  38941: 4
-  61825: 4
-  28737: 4
-  10444: 4
-  26146: 3
-  30904: 3
+  4443: 7
+  2083: 5
+  55014: 5
+  20468: 4
+  3443: 4
+  5443: 4
+  4438: 4
+  57506: 4
+  2056: 4
   10047: 3
-  2053: 3
 
 Топ схем:
-  vless: 440
-  hysteria2: 19
-  ss: 7
-  trojan: 6
+  vless: 300
+  hysteria2: 16
+  trojan: 13
+  ss: 4
 
 Топ transport:
-  tcp: 237
-  ws: 175
-  xhttp: 37
-  grpc: 23
+  tcp: 174
+  xhttp: 69
+  ws: 59
+  grpc: 28
+  httpupgrade: 3
 
 Топ security:
-  reality: 227
-  none: 172
-  tls: 73
+  reality: 191
+  tls: 106
+  none: 34
+  false: 2
