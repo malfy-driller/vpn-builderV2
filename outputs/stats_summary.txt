@@ -1,5 +1,5 @@
 VPN Builder stats summary
-Generated at: 2026-05-27 13:51:57 MSK
+Generated at: 2026-05-27 17:23:57 MSK
 
 ====================================================================
 RAW GROUPS
@@ -8,166 +8,172 @@ RAW GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 34
-Уникальных строк: 28
-Уникальных host:port: 22
-Уникальных backend: 21
-Anycast: 12
-Unknown country: 1
+Всего конфигов: 104
+Уникальных строк: 63
+Уникальных host:port: 46
+Уникальных backend: 32
+Anycast: 80
+Unknown country: 4
 
 Топ стран:
-  🌐 Anycast: 12
-  Russia: 9
-  Netherlands: 5
-  Germany: 5
-  Finland: 2
-  Unknown: 1
+  🌐 Anycast: 80
+  Netherlands: 8
+  Russia: 8
+  Unknown: 4
+  Germany: 4
 
 Топ SNI:
-  ads.x5.ru: 8
-  api-maps.yandex.ru: 6
-  s28315.cdn.ngenix.net: 5
-  ya.ru: 2
-  dey.lnmarketplace.net: 2
-  yandex.by: 2
-  sub.sbrf-cdn342.ru: 1
-  yahoo.com: 1
-  soft98.ir: 1
-  www.speedtest.com: 1
+  ads.x5.ru: 27
+  cdp.x5.ru: 26
+  api-maps.yandex.ru: 8
+  yandex.ru: 4
+  ya.ru: 4
+  payment-widget.plus.kinopoisk.ru: 4
+  s28315.cdn.ngenix.net: 3
+  www.vk.com: 2
+  login.mts.ru: 2
+  avatars.mds.yandex.net: 2
 
 Топ портов:
-  443: 26
+  443: 75
+  5443: 4
+  2450: 4
+  3443: 4
   42652: 4
-  8443: 3
-  14088: 1
+  2445: 2
+  2444: 2
+  2447: 2
+  4443: 2
+  4449: 2
 
 Топ схем:
-  vless: 34
+  vless: 104
 
 Топ transport:
-  xhttp: 14
-  tcp: 12
-  ws: 5
-  grpc: 3
+  tcp: 86
+  xhttp: 15
+  ws: 3
 
 Топ security:
-  reality: 21
+  reality: 92
   tls: 12
-  none: 1
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_vless
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 21
-Уникальных строк: 21
-Уникальных host:port: 17
-Уникальных backend: 15
-Anycast: 9
-Unknown country: 1
+Всего конфигов: 55
+Уникальных строк: 55
+Уникальных host:port: 40
+Уникальных backend: 26
+Anycast: 42
+Unknown country: 3
 
 Топ стран:
-  🌐 Anycast: 9
-  Germany: 5
-  Netherlands: 3
+  🌐 Anycast: 42
+  Germany: 4
+  Netherlands: 4
+  Unknown: 3
   Russia: 2
-  Finland: 1
-  Unknown: 1
 
 Топ SNI:
-  s28315.cdn.ngenix.net: 5
-  api-maps.yandex.ru: 3
-  dey.lnmarketplace.net: 2
-  ads.x5.ru: 2
-  sub.sbrf-cdn342.ru: 1
+  cdp.x5.ru: 13
+  ads.x5.ru: 11
+  api-maps.yandex.ru: 4
+  s28315.cdn.ngenix.net: 3
+  yandex.ru: 2
+  www.amd.com: 2
+  ya.ru: 2
+  sellflow.org: 2
+  payment-widget.plus.kinopoisk.ru: 2
   yahoo.com: 1
-  soft98.ir: 1
-  www.speedtest.com: 1
-  www.wikipedia.com: 1
-  m.twitch.tv: 1
 
 Топ портов:
-  443: 15
+  443: 38
   42652: 4
-  8443: 1
-  14088: 1
+  24223: 2
+  5443: 2
+  2450: 2
+  3443: 2
+  2445: 1
+  2444: 1
+  2447: 1
+  4443: 1
 
 Топ схем:
-  vless: 21
+  vless: 55
 
 Топ transport:
-  xhttp: 8
-  tcp: 7
-  ws: 5
-  grpc: 1
+  tcp: 45
+  xhttp: 7
+  ws: 3
 
 Топ security:
-  tls: 12
-  reality: 8
-  none: 1
+  reality: 44
+  tls: 11
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW black_all
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 106
-Уникальных строк: 55
-Уникальных host:port: 44
-Уникальных backend: 41
-Anycast: 57
+Всего конфигов: 127
+Уникальных строк: 66
+Уникальных host:port: 45
+Уникальных backend: 44
+Anycast: 61
 Unknown country: 14
 
 Топ стран:
-  🌐 Anycast: 57
+  🌐 Anycast: 61
   United States: 18
+  France: 14
   Unknown: 14
-  France: 6
-  Switzerland: 4
+  Netherlands: 12
   Germany: 2
-  Bulgaria: 2
-  Finland: 2
-  Russia: 1
+  Lithuania: 2
+  Switzerland: 2
+  Russia: 2
 
 Топ SNI:
-  sub.sbrf-cdn342.ru: 10
-  www.samsung.com: 6
-  31.59.40.53: 6
-  m.twitch.tv: 5
+  sub.sbrf-cdn342.ru: 14
+  tignaltofan.global.ssl.fastly.net: 8
+  colorlib.com: 6
+  t1.hhaakk9922.com: 6
+  m.twitch.tv: 4
+  127.0.0.1: 4
+  shangulin.global.ssl.fastly.net: 4
+  oijji.global.ssl.fastly.net: 4
+  www.samsung.com: 4
   www.microsoft.com: 4
-  tignaltofan.global.ssl.fastly.net: 4
-  s881.ccgfw.top: 4
-  t1.hhaakk9922.com: 4
-  cdnjp.douyinvod.com: 4
-  at16.fastlanehosting.ru: 2
 
 Топ портов:
-  443: 62
-  80: 6
-  52729: 6
-  8443: 4
-  7443: 4
+  443: 57
+  80: 24
+  8443: 6
+  7443: 6
   2053: 4
-  65302: 4
-  55919: 2
-  54495: 2
-  54254: 2
+  39354: 2
+  2087: 2
+  2056: 2
+  8880: 2
+  8080: 2
 
 Топ схем:
-  vless: 88
-  hysteria2: 10
+  vless: 116
+  hysteria2: 5
   trojan: 4
-  ss: 2
   vmess: 2
 
 Топ transport:
-  tcp: 74
-  xhttp: 11
-  ws: 11
-  grpc: 8
-  hysteria: 2
+  tcp: 54
+  xhttp: 28
+  ws: 27
+  grpc: 16
+  httpupgrade: 2
 
 Топ security:
-  tls: 49
-  reality: 33
-  none: 24
+  tls: 50
+  reality: 37
+  none: 36
+  false: 4
 
 ====================================================================
 FINAL GROUPS
@@ -176,288 +182,293 @@ FINAL GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 21
-Уникальных строк: 21
-Уникальных host:port: 21
-Уникальных backend: 17
-Anycast: 6
-Unknown country: 1
+Всего конфигов: 37
+Уникальных строк: 37
+Уникальных host:port: 37
+Уникальных backend: 25
+Anycast: 22
+Unknown country: 2
 
 Топ стран:
-  🌐 Anycast: 6
-  Russia: 6
+  🌐 Anycast: 22
+  Russia: 7
   Germany: 4
-  Netherlands: 3
-  Finland: 1
-  Unknown: 1
+  Netherlands: 2
+  Unknown: 2
 
 Топ SNI:
-  ads.x5.ru: 5
-  s28315.cdn.ngenix.net: 4
-  api-maps.yandex.ru: 3
+  ads.x5.ru: 11
+  cdp.x5.ru: 4
+  s28315.cdn.ngenix.net: 3
+  api-maps.yandex.ru: 2
+  sellflow.org: 2
+  yabro-wbplugin.edadeal.yandex.ru: 1
   yandex.ru: 1
-  yandex.by: 1
-  www.kinopoisk.ru: 1
-  m.twitch.tv: 1
-  ya.ru: 1
-  yahoo.com: 1
+  login.mts.ru: 1
   dey.lnmarketplace.net: 1
+  www.amd.com: 1
 
 Топ портов:
-  443: 17
-  8443: 2
+  443: 26
+  2444: 1
+  8443: 1
+  4443: 1
+  5443: 1
+  3443: 1
+  24223: 1
   42652: 1
-  14088: 1
+  2445: 1
+  2447: 1
 
 Топ схем:
-  vless: 21
+  vless: 37
 
 Топ transport:
-  xhttp: 8
-  tcp: 7
-  ws: 4
-  grpc: 2
+  tcp: 25
+  xhttp: 9
+  ws: 3
 
 Топ security:
-  reality: 13
-  tls: 7
-  none: 1
+  reality: 29
+  tls: 8
 
 ────────────────────────────────────────────────────────────────────
 📊 white_vless
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 16
-Уникальных строк: 16
-Уникальных host:port: 16
-Уникальных backend: 12
-Anycast: 5
-Unknown country: 1
+Всего конфигов: 31
+Уникальных строк: 31
+Уникальных host:port: 31
+Уникальных backend: 20
+Anycast: 21
+Unknown country: 2
 
 Топ стран:
-  🌐 Anycast: 5
+  🌐 Anycast: 21
   Germany: 4
-  Netherlands: 3
+  Netherlands: 2
   Russia: 2
-  Finland: 1
-  Unknown: 1
+  Unknown: 2
 
 Топ SNI:
-  s28315.cdn.ngenix.net: 4
-  api-maps.yandex.ru: 3
-  ads.x5.ru: 2
+  ads.x5.ru: 7
+  cdp.x5.ru: 4
+  s28315.cdn.ngenix.net: 3
+  api-maps.yandex.ru: 2
+  sellflow.org: 2
+  yabro-wbplugin.edadeal.yandex.ru: 1
   yandex.ru: 1
-  ya.ru: 1
-  yahoo.com: 1
-  109.120.177.210: 1
-  sub.sbrf-cdn342.ru: 1
-  m.twitch.tv: 1
+  login.mts.ru: 1
   dey.lnmarketplace.net: 1
+  www.amd.com: 1
 
 Топ портов:
-  443: 13
-  8443: 1
+  443: 21
+  2444: 1
+  3443: 1
+  4443: 1
+  5443: 1
+  24223: 1
+  2447: 1
   42652: 1
-  14088: 1
+  4449: 1
+  2450: 1
 
 Топ схем:
-  vless: 16
+  vless: 31
 
 Топ transport:
-  tcp: 7
+  tcp: 24
   xhttp: 4
-  ws: 4
-  grpc: 1
+  ws: 3
 
 Топ security:
-  reality: 8
-  tls: 7
-  none: 1
+  reality: 23
+  tls: 8
 
 ────────────────────────────────────────────────────────────────────
 📊 black_all
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 45
-Уникальных строк: 45
-Уникальных host:port: 44
-Уникальных backend: 37
-Anycast: 23
-Unknown country: 7
+Всего конфигов: 46
+Уникальных строк: 46
+Уникальных host:port: 45
+Уникальных backend: 39
+Anycast: 21
+Unknown country: 6
 
 Топ стран:
-  🌐 Anycast: 23
-  United States: 7
-  Unknown: 7
-  Switzerland: 2
-  France: 2
-  Germany: 1
-  Bulgaria: 1
-  Finland: 1
+  🌐 Anycast: 21
+  Unknown: 6
+  Netherlands: 5
+  United States: 5
+  France: 5
+  Lithuania: 1
   Russia: 1
+  Switzerland: 1
+  Germany: 1
 
 Топ SNI:
-  www.samsung.com: 3
-  m.twitch.tv: 3
   sub.sbrf-cdn342.ru: 3
+  t1.hhaakk9922.com: 3
+  apple.com: 2
+  m.twitch.tv: 2
+  tignaltofan.global.ssl.fastly.net: 2
+  www.samsung.com: 2
   www.microsoft.com: 2
-  t1.hhaakk9922.com: 2
-  cdnjp.douyinvod.com: 2
-  www.apple.com: 1
-  apple.com: 1
-  9275c19dd85e935c.itx-server.digital: 1
-  stackoverflow.com: 1
+  84.32.51.137: 1
+  ru4.easyserf.top: 1
+  static.gcore.pro: 1
 
 Топ портов:
-  443: 26
-  7443: 2
-  80: 2
-  65302: 2
+  443: 22
+  80: 5
   8443: 2
   54254: 1
-  2053: 1
-  54495: 1
-  46783: 1
-  55919: 1
+  2096: 1
+  2087: 1
+  39354: 1
+  8080: 1
+  8070: 1
+  7443: 1
 
 Топ схем:
-  vless: 36
-  hysteria2: 5
+  vless: 41
   trojan: 2
-  ss: 1
+  hysteria2: 2
   vmess: 1
 
 Топ transport:
-  tcp: 29
-  ws: 6
-  xhttp: 5
-  grpc: 4
-  hysteria: 1
+  tcp: 21
+  xhttp: 9
+  ws: 9
+  grpc: 6
+  httpupgrade: 1
 
 Топ security:
-  tls: 19
-  reality: 17
-  none: 9
+  tls: 18
+  reality: 16
+  none: 11
+  false: 1
 
 ────────────────────────────────────────────────────────────────────
 📊 pool
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 59
-Уникальных строк: 59
-Уникальных host:port: 58
-Уникальных backend: 52
-Anycast: 25
+Всего конфигов: 75
+Уникальных строк: 75
+Уникальных host:port: 74
+Уникальных backend: 63
+Anycast: 36
 Unknown country: 8
 
 Топ стран:
-  🌐 Anycast: 25
+  🌐 Anycast: 36
+  Russia: 8
   Unknown: 8
-  Russia: 7
-  United States: 7
-  Netherlands: 3
-  Germany: 3
-  Finland: 2
-  France: 2
-  Bulgaria: 1
+  Netherlands: 7
+  United States: 5
+  France: 5
+  Germany: 4
   Switzerland: 1
+  Lithuania: 1
 
 Топ SNI:
-  ads.x5.ru: 5
-  api-maps.yandex.ru: 3
-  yahoo.com: 2
-  m.twitch.tv: 2
-  sub.sbrf-cdn342.ru: 2
+  ads.x5.ru: 9
+  api-maps.yandex.ru: 2
+  sellflow.org: 2
+  cdp.x5.ru: 2
   s28315.cdn.ngenix.net: 2
-  www.samsung.com: 2
+  sub.sbrf-cdn342.ru: 2
+  m.twitch.tv: 2
   t1.hhaakk9922.com: 2
   www.microsoft.com: 2
-  cdnjp.douyinvod.com: 2
+  apple.com: 2
 
 Топ портов:
-  443: 36
-  8443: 4
-  80: 2
-  65302: 2
-  7443: 2
+  443: 42
+  80: 5
+  8443: 3
+  4449: 1
   42652: 1
-  14088: 1
-  46784: 1
-  41227: 1
-  2053: 1
+  2447: 1
+  24223: 1
+  5443: 1
+  2450: 1
+  2444: 1
 
 Топ схем:
-  vless: 50
-  hysteria2: 5
+  vless: 70
+  hysteria2: 2
   trojan: 2
   vmess: 1
-  ss: 1
 
 Топ transport:
-  tcp: 33
-  xhttp: 11
-  ws: 8
-  grpc: 6
-  hysteria: 1
+  tcp: 40
+  xhttp: 18
+  ws: 11
+  grpc: 5
+  httpupgrade: 1
 
 Топ security:
-  reality: 27
+  reality: 41
   tls: 22
-  none: 10
+  none: 11
+  false: 1
 
 ────────────────────────────────────────────────────────────────────
 📊 mixed
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 46
-Уникальных строк: 46
-Уникальных host:port: 46
-Уникальных backend: 40
-Anycast: 18
+Всего конфигов: 60
+Уникальных строк: 60
+Уникальных host:port: 60
+Уникальных backend: 49
+Anycast: 30
 Unknown country: 6
 
 Топ стран:
-  🌐 Anycast: 18
-  Russia: 7
+  🌐 Anycast: 30
+  Russia: 8
+  Netherlands: 6
   Unknown: 6
-  United States: 6
+  United States: 4
   Germany: 3
-  Netherlands: 3
-  Finland: 1
-  Switzerland: 1
   France: 1
+  Switzerland: 1
+  Lithuania: 1
 
 Топ SNI:
-  ads.x5.ru: 5
-  api-maps.yandex.ru: 3
+  ads.x5.ru: 9
+  sellflow.org: 2
+  cdp.x5.ru: 2
+  api-maps.yandex.ru: 2
   s28315.cdn.ngenix.net: 2
   sub.sbrf-cdn342.ru: 2
-  yahoo.com: 2
+  www.samsung.com: 2
   m.twitch.tv: 2
   t1.hhaakk9922.com: 2
-  www.samsung.com: 2
-  ya.ru: 1
-  dey.lnmarketplace.net: 1
+  apple.com: 2
 
 Топ портов:
-  443: 32
+  443: 40
   8443: 3
-  7443: 2
+  2444: 1
+  4449: 1
+  5443: 1
   42652: 1
-  2053: 1
-  2083: 1
-  2096: 1
-  46783: 1
-  46784: 1
-  54495: 1
+  2450: 1
+  3443: 1
+  2447: 1
+  24223: 1
 
 Топ схем:
-  vless: 46
+  vless: 60
 
 Топ transport:
-  tcp: 23
-  xhttp: 10
+  tcp: 34
+  xhttp: 14
   ws: 7
-  grpc: 6
+  grpc: 5
 
 Топ security:
-  reality: 27
+  reality: 41
   tls: 19
 
 ────────────────────────────────────────────────────────────────────
@@ -466,126 +477,120 @@ Unknown country: 6
 Всего конфигов: 25
 Уникальных строк: 25
 Уникальных host:port: 25
-Уникальных backend: 22
-Anycast: 6
-Unknown country: 1
+Уникальных backend: 20
+Anycast: 12
+Unknown country: 0
 
 Топ стран:
-  Russia: 6
-  🌐 Anycast: 6
-  United States: 5
+  🌐 Anycast: 12
+  Russia: 4
   Netherlands: 3
-  Germany: 2
-  Finland: 1
+  Germany: 3
+  United States: 2
   Switzerland: 1
-  Unknown: 1
 
 Топ SNI:
-  ads.x5.ru: 5
-  api-maps.yandex.ru: 3
+  ads.x5.ru: 8
+  api-maps.yandex.ru: 2
+  apple.com: 2
   s28315.cdn.ngenix.net: 2
-  m.twitch.tv: 2
-  www.apple.com: 1
-  apple.com: 1
-  9275c19dd85e935c.itx-server.digital: 1
+  dey.lnmarketplace.net: 1
   yandex.by: 1
-  static.gcore.pro: 1
   yandex.ru: 1
+  static.gcore.pro: 1
+  ws.kheybar.store: 1
+  127.0.0.1: 1
 
 Топ портов:
-  443: 17
-  8443: 2
+  443: 18
+  8443: 3
   54254: 1
-  2053: 1
+  2087: 1
   2096: 1
-  2083: 1
-  46783: 1
-  7443: 1
+  3443: 1
 
 Топ схем:
   vless: 25
 
 Топ transport:
-  xhttp: 8
-  tcp: 7
-  ws: 6
-  grpc: 4
+  tcp: 11
+  xhttp: 9
+  ws: 5
 
 Топ security:
-  reality: 16
-  tls: 9
+  reality: 15
+  tls: 10
 
 ====================================================================
 🌍 GLOBAL SUMMARY
 ====================================================================
-Всего конфигов: 212
-Уникальных строк: 66
-Уникальных host:port: 65
-Уникальных backend: 52
-Anycast: 83
+Всего конфигов: 274
+Уникальных строк: 83
+Уникальных host:port: 82
+Уникальных backend: 63
+Anycast: 142
 Unknown country: 24
 
 Топ стран:
-  🌐 Anycast: 83
-  Russia: 29
-  United States: 25
+  🌐 Anycast: 142
+  Russia: 30
+  Netherlands: 25
   Unknown: 24
-  Germany: 17
-  Netherlands: 15
-  Finland: 7
-  Switzerland: 5
-  France: 5
-  Bulgaria: 2
+  Germany: 19
+  United States: 16
+  France: 11
+  Switzerland: 4
+  Lithuania: 3
 
 Топ SNI:
-  ads.x5.ru: 22
-  api-maps.yandex.ru: 15
-  s28315.cdn.ngenix.net: 14
-  m.twitch.tv: 11
+  ads.x5.ru: 44
+  s28315.cdn.ngenix.net: 12
+  cdp.x5.ru: 12
+  api-maps.yandex.ru: 10
   sub.sbrf-cdn342.ru: 9
-  yahoo.com: 7
-  www.samsung.com: 7
+  sellflow.org: 8
+  apple.com: 8
   t1.hhaakk9922.com: 7
+  m.twitch.tv: 6
+  www.samsung.com: 6
   yandex.ru: 5
   dey.lnmarketplace.net: 5
+  top2197697635.mwscdn.ru: 5
   www.microsoft.com: 5
-  yandex.by: 4
-  ya.ru: 4
-  www.apple.com: 4
-  apple.com: 4
+  yabro-wbplugin.edadeal.yandex.ru: 4
 
 Топ портов:
-  443: 141
-  8443: 14
-  7443: 7
+  443: 169
+  8443: 12
+  80: 10
+  3443: 5
+  2444: 4
+  5443: 4
+  24223: 4
   42652: 4
+  2445: 4
+  2447: 4
+  4449: 4
+  2450: 4
   54254: 4
-  2053: 4
-  46783: 4
-  2083: 4
   2096: 4
-  80: 4
-  65302: 4
-  14088: 3
-  54495: 3
-  55919: 3
-  46784: 3
+  2087: 4
 
 Топ схем:
-  vless: 194
-  hysteria2: 10
+  vless: 264
   trojan: 4
-  ss: 2
+  hysteria2: 4
   vmess: 2
 
 Топ transport:
-  tcp: 106
-  xhttp: 46
-  ws: 35
-  grpc: 23
-  hysteria: 2
+  tcp: 155
+  xhttp: 63
+  ws: 38
+  grpc: 16
+  httpupgrade: 2
 
 Топ security:
-  reality: 108
-  tls: 83
-  none: 21
+  reality: 165
+  tls: 85
+  none: 22
+  false: 2
