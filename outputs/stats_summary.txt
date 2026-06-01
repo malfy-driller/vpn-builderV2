@@ -1,5 +1,5 @@
 VPN Builder stats summary
-Generated at: 2026-06-02 01:18:40 MSK
+Generated at: 2026-06-02 02:46:19 MSK
 
 ====================================================================
 RAW GROUPS
@@ -8,122 +8,120 @@ RAW GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 68
-Уникальных строк: 56
-Уникальных host:port: 41
-Уникальных backend: 36
-Anycast: 23
-Unknown country: 5
+Всего конфигов: 102
+Уникальных строк: 75
+Уникальных host:port: 55
+Уникальных backend: 44
+Anycast: 46
+Unknown country: 13
 
 Топ стран:
-  🌐 Anycast: 23
-  Russia: 20
-  Poland: 8
-  Unknown: 5
-  France: 4
+  🌐 Anycast: 46
+  Russia: 19
+  Unknown: 13
+  Estonia: 6
+  Czechia: 4
+  Poland: 4
   Netherlands: 4
-  Czechia: 2
-  Germany: 1
-  India: 1
+  Germany: 3
+  France: 3
 
 Топ SNI:
-  max.ru: 16
-  ads.x5.ru: 7
+  cdp.x5.ru: 24
+  max.ru: 13
+  ads.x5.ru: 10
+  apple.com: 6
+  wl-4-1.legendary.ac: 6
   185.14.46.20.blanesik.space: 6
-  surfvpn24.ru: 4
-  testing5.nimarko.org: 4
   yandex.ru: 3
   cdn9-33.vk-cdnvideo.com: 3
   del.ccnnx.ir: 3
-  loadtest.dev.urent.ru: 2
-  sync.amordad.xyz: 2
+  www.kinopoisk.ru: 3
 
 Топ портов:
-  443: 42
-  8443: 10
-  8448: 4
-  5987: 2
-  5994: 2
-  9443: 2
+  443: 76
+  8443: 12
+  4455: 6
   5443: 1
+  19326: 1
+  8446: 1
   7443: 1
   2096: 1
 
 Топ схем:
-  vless: 58
-  hysteria2: 5
+  vless: 95
   vmess: 3
-  trojan: 2
+  trojan: 3
+  hysteria2: 1
 
 Топ transport:
-  tcp: 47
+  tcp: 75
+  xhttp: 10
+  grpc: 9
   ws: 8
-  grpc: 7
-  xhttp: 6
 
 Топ security:
-  reality: 38
-  tls: 22
-  none: 8
+  reality: 78
+  tls: 20
+  none: 4
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_vless
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 42
-Уникальных строк: 42
-Уникальных host:port: 28
-Уникальных backend: 29
-Anycast: 14
-Unknown country: 5
+Всего конфигов: 59
+Уникальных строк: 59
+Уникальных host:port: 40
+Уникальных backend: 34
+Anycast: 26
+Unknown country: 10
 
 Топ стран:
-  🌐 Anycast: 14
-  Russia: 9
-  Unknown: 5
-  Poland: 5
+  🌐 Anycast: 26
+  Unknown: 10
+  Russia: 7
+  Estonia: 3
   France: 3
+  Poland: 3
   Netherlands: 3
-  Czechia: 1
-  Germany: 1
-  India: 1
+  Czechia: 2
+  Germany: 2
 
 Топ SNI:
+  cdp.x5.ru: 12
   185.14.46.20.blanesik.space: 6
-  max.ru: 5
-  ads.x5.ru: 3
+  ads.x5.ru: 4
+  apple.com: 3
+  max.ru: 3
   cdn9-33.vk-cdnvideo.com: 3
   del.ccnnx.ir: 3
-  yandex.ru: 2
-  sync.amordad.xyz: 2
-  top3739667002.mwscdn.ru: 2
-  surfvpn24.ru: 2
-  testing5.nimarko.org: 2
+  wl-4-1.legendary.ac: 3
+  www.samsung.com: 2
+  smartcaptcha.yandexcloud.net: 2
 
 Топ портов:
-  443: 27
+  443: 44
   8443: 6
-  8448: 2
+  4455: 3
   5443: 1
-  5987: 1
-  5994: 1
-  9443: 1
+  19326: 1
+  8446: 1
 
 Топ схем:
-  vless: 34
-  hysteria2: 3
+  vless: 52
   vmess: 3
-  trojan: 2
+  trojan: 3
+  hysteria2: 1
 
 Топ transport:
-  tcp: 25
+  tcp: 39
+  grpc: 8
   ws: 8
-  grpc: 6
-  xhttp: 3
+  xhttp: 4
 
 Топ security:
-  tls: 22
-  reality: 14
-  none: 6
+  reality: 35
+  tls: 20
+  none: 4
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW black_all
@@ -195,122 +193,120 @@ FINAL GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 44
-Уникальных строк: 44
-Уникальных host:port: 41
-Уникальных backend: 36
-Anycast: 16
-Unknown country: 4
+Всего конфигов: 50
+Уникальных строк: 50
+Уникальных host:port: 47
+Уникальных backend: 40
+Anycast: 18
+Unknown country: 7
 
 Топ стран:
-  🌐 Anycast: 16
+  🌐 Anycast: 18
   Russia: 13
-  Poland: 4
-  Unknown: 4
+  Unknown: 7
+  Poland: 3
+  Czechia: 2
   Netherlands: 2
+  Germany: 2
   France: 2
-  Czechia: 1
-  Germany: 1
-  India: 1
+  Estonia: 1
 
 Топ SNI:
-  max.ru: 13
-  ads.x5.ru: 4
+  max.ru: 11
+  ads.x5.ru: 6
+  cdp.x5.ru: 4
   yandex.ru: 2
-  surfvpn24.ru: 2
+  www.samsung.com: 2
+  www.kinopoisk.ru: 2
   185.14.46.20.blanesik.space: 2
-  sync.amordad.xyz: 2
-  id.vk.com: 1
-  www.ignitelimit.com: 1
-  www.kinopoisk.ru: 1
-  157.22.241.242: 1
+  smartcaptcha.yandexcloud.net: 2
+  apple.com: 1
+  api-maps.yandex.ru: 1
 
 Топ портов:
-  443: 27
-  8443: 7
+  443: 33
+  8443: 8
+  4455: 1
   5443: 1
   2096: 1
+  19326: 1
   7443: 1
-  5987: 1
-  9443: 1
-  5994: 1
-  8448: 1
+  8446: 1
 
 Топ схем:
-  vless: 38
+  vless: 44
   vmess: 3
-  hysteria2: 2
-  trojan: 1
+  trojan: 2
+  hysteria2: 1
 
 Топ transport:
-  tcp: 33
-  ws: 5
-  grpc: 3
-  xhttp: 3
+  tcp: 36
+  xhttp: 6
+  grpc: 4
+  ws: 4
 
 Топ security:
-  reality: 27
-  tls: 12
-  none: 5
+  reality: 37
+  tls: 9
+  none: 4
 
 ────────────────────────────────────────────────────────────────────
 📊 white_vless
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 31
-Уникальных строк: 31
-Уникальных host:port: 28
-Уникальных backend: 29
-Anycast: 11
-Unknown country: 4
+Всего конфигов: 35
+Уникальных строк: 35
+Уникальных host:port: 32
+Уникальных backend: 30
+Anycast: 13
+Unknown country: 7
 
 Топ стран:
-  🌐 Anycast: 11
-  Russia: 5
-  Poland: 4
-  Unknown: 4
+  🌐 Anycast: 13
+  Unknown: 7
+  Russia: 3
+  Poland: 3
   Netherlands: 2
+  Czechia: 2
+  Germany: 2
   France: 2
-  Germany: 1
-  Czechia: 1
-  India: 1
+  Estonia: 1
 
 Топ SNI:
-  max.ru: 5
-  ads.x5.ru: 3
+  ads.x5.ru: 4
+  cdp.x5.ru: 4
+  max.ru: 3
   yandex.ru: 2
-  surfvpn24.ru: 2
+  www.samsung.com: 2
   185.14.46.20.blanesik.space: 2
-  sync.amordad.xyz: 2
-  cdn3-25.vk-cdnvideo.com: 1
-  www.samsung.com: 1
-  del.ccnnx.ir: 1
-  loadtest.dev.urent.ru: 1
+  smartcaptcha.yandexcloud.net: 2
+  apple.com: 1
+  vk.com: 1
+  api-maps.yandex.ru: 1
 
 Топ портов:
-  443: 19
+  443: 24
   8443: 4
+  4455: 1
   5443: 1
-  5987: 1
-  9443: 1
-  5994: 1
-  8448: 1
+  19326: 1
+  8446: 1
 
 Топ схем:
-  vless: 25
+  vless: 29
   vmess: 3
-  hysteria2: 2
-  trojan: 1
+  trojan: 2
+  hysteria2: 1
 
 Топ transport:
-  tcp: 22
-  ws: 5
-  xhttp: 2
-  grpc: 2
+  tcp: 25
+  ws: 4
+  xhttp: 3
+  grpc: 3
 
 Топ security:
-  reality: 14
-  tls: 12
-  none: 5
+  reality: 22
+  tls: 9
+  none: 4
 
 ────────────────────────────────────────────────────────────────────
 📊 black_all
@@ -377,65 +373,65 @@ Unknown country: 14
 ────────────────────────────────────────────────────────────────────
 📊 pool
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 111
-Уникальных строк: 111
-Уникальных host:port: 106
-Уникальных backend: 94
+Всего конфигов: 116
+Уникальных строк: 116
+Уникальных host:port: 111
+Уникальных backend: 99
 Anycast: 37
-Unknown country: 20
+Unknown country: 23
 
 Топ стран:
   🌐 Anycast: 37
-  Unknown: 20
-  Russia: 15
+  Unknown: 23
+  Russia: 14
   France: 9
   United States: 8
-  Netherlands: 6
   Poland: 6
+  Netherlands: 6
+  Germany: 4
+  Czechia: 3
   Switzerland: 3
-  Czechia: 2
-  Germany: 2
 
 Топ SNI:
-  max.ru: 10
-  ads.x5.ru: 4
-  surfvpn24.ru: 3
+  max.ru: 9
+  ads.x5.ru: 6
+  www.samsung.com: 3
+  apple.com: 3
   service28342.global.ssl.fastly.net: 3
-  frog.nalognolife.fun: 3
-  eyj2ijoimiisinbzijoi8j+hs: 2
-  www.samsung.com: 2
-  yandex.ru: 2
-  sync.amordad.xyz: 2
+  cdp.x5.ru: 2
   185.14.46.20.blanesik.space: 2
+  eyj2ijoimiisinbzijoi8j+hs: 2
+  www.kinopoisk.ru: 2
+  yandex.ru: 2
 
 Топ портов:
-  443: 57
-  8443: 11
+  443: 62
+  8443: 12
   80: 3
   666: 3
-  45619: 2
-  48697: 2
-  2040: 2
   4433: 2
-  8448: 1
-  7443: 1
+  48697: 2
+  45619: 2
+  2040: 2
+  5443: 1
+  2096: 1
 
 Топ схем:
-  vless: 78
-  trojan: 20
+  vless: 82
+  trojan: 21
   hysteria2: 8
   vmess: 5
 
 Топ transport:
-  tcp: 78
-  ws: 19
-  xhttp: 8
-  grpc: 6
+  tcp: 81
+  ws: 17
+  xhttp: 11
+  grpc: 7
 
 Топ security:
-  reality: 52
-  tls: 38
-  none: 21
+  reality: 61
+  tls: 35
+  none: 20
 
 ────────────────────────────────────────────────────────────────────
 📊 mixed
@@ -443,58 +439,58 @@ Unknown country: 20
 Всего конфигов: 60
 Уникальных строк: 60
 Уникальных host:port: 60
-Уникальных backend: 53
+Уникальных backend: 54
 Anycast: 21
-Unknown country: 4
+Unknown country: 6
 
 Топ стран:
   🌐 Anycast: 21
-  Russia: 14
-  France: 6
-  Poland: 4
-  Netherlands: 4
-  Unknown: 4
-  United States: 3
-  Switzerland: 2
-  Czechia: 1
-  India: 1
+  Russia: 13
+  Unknown: 6
+  United States: 4
+  Czechia: 3
+  Germany: 3
+  Netherlands: 3
+  Poland: 3
+  France: 2
+  Estonia: 1
 
 Топ SNI:
   max.ru: 9
-  ads.x5.ru: 4
-  surfvpn24.ru: 3
-  yandex.ru: 2
-  www.samsung.com: 2
-  sync.amordad.xyz: 2
+  ads.x5.ru: 6
+  apple.com: 2
+  smartcaptcha.yandexcloud.net: 2
+  www.kinopoisk.ru: 2
   185.14.46.20.blanesik.space: 2
+  cdp.x5.ru: 2
+  yandex.ru: 2
+  deepl.com: 2
   www.amd.com: 2
-  m.twitch.tv: 2
-  down.spectrumproxy.shop: 2
 
 Топ портов:
-  443: 38
-  8443: 8
-  666: 2
-  5994: 1
+  443: 34
+  8443: 9
+  666: 3
+  4455: 1
   5443: 1
-  9443: 1
-  7443: 1
-  5987: 1
-  2096: 1
-  21002: 1
+  8446: 1
+  25645: 1
+  34129: 1
+  852: 1
+  5984: 1
 
 Топ схем:
   vless: 60
 
 Топ transport:
-  tcp: 42
+  tcp: 41
   ws: 7
+  xhttp: 6
   grpc: 6
-  xhttp: 5
 
 Топ security:
-  reality: 45
-  tls: 15
+  reality: 47
+  tls: 13
 
 ────────────────────────────────────────────────────────────────────
 📊 lte
@@ -502,122 +498,125 @@ Unknown country: 4
 Всего конфигов: 25
 Уникальных строк: 25
 Уникальных host:port: 25
-Уникальных backend: 20
-Anycast: 7
+Уникальных backend: 21
+Anycast: 6
 Unknown country: 0
 
 Топ стран:
-  Russia: 9
-  🌐 Anycast: 7
-  France: 3
+  Russia: 8
+  🌐 Anycast: 6
+  Czechia: 2
   Netherlands: 2
   United States: 2
-  Czechia: 1
+  France: 2
+  Germany: 1
   Poland: 1
+  Estonia: 1
 
 Топ SNI:
-  max.ru: 8
+  max.ru: 7
   ads.x5.ru: 4
   yandex.ru: 2
+  www.kinopoisk.ru: 2
   m.twitch.tv: 2
-  185.14.46.20.blanesik.space: 2
+  api-maps.yandex.ru: 1
   id.vk.com: 1
   del.ccnnx.ir: 1
+  apple.com: 1
   43.162.85.247: 1
-  www.kinopoisk.ru: 1
-  43.162.115.192: 1
 
 Топ портов:
-  443: 19
-  8443: 3
+  443: 17
+  8443: 4
   666: 2
   2096: 1
+  4455: 1
 
 Топ схем:
   vless: 25
 
 Топ transport:
-  tcp: 13
-  ws: 5
-  xhttp: 4
-  grpc: 3
+  tcp: 14
+  xhttp: 7
+  ws: 3
+  grpc: 1
 
 Топ security:
-  reality: 18
-  tls: 7
+  reality: 22
+  tls: 3
 
 ====================================================================
 🌍 GLOBAL SUMMARY
 ====================================================================
-Всего конфигов: 342
-Уникальных строк: 117
-Уникальных host:port: 111
-Уникальных backend: 94
-Anycast: 117
-Unknown country: 46
+Всего конфигов: 357
+Уникальных строк: 123
+Уникальных host:port: 118
+Уникальных backend: 99
+Anycast: 120
+Unknown country: 57
 
 Топ стран:
-  🌐 Anycast: 117
-  Russia: 58
-  Unknown: 46
-  France: 29
-  Poland: 22
-  United States: 21
-  Netherlands: 20
-  Switzerland: 8
-  Czechia: 7
-  Germany: 6
-  India: 4
+  🌐 Anycast: 120
+  Unknown: 57
+  Russia: 53
+  France: 24
+  United States: 22
+  Netherlands: 19
+  Poland: 19
+  Germany: 14
+  Czechia: 13
+  Switzerland: 7
+  Estonia: 5
   Bulgaria: 2
   Finland: 2
 
 Топ SNI:
-  max.ru: 45
-  ads.x5.ru: 19
-  surfvpn24.ru: 11
+  max.ru: 39
+  ads.x5.ru: 26
+  cdp.x5.ru: 12
+  apple.com: 10
   yandex.ru: 10
-  185.14.46.20.blanesik.space: 10
-  sync.amordad.xyz: 9
-  m.twitch.tv: 8
-  www.samsung.com: 7
+  www.samsung.com: 9
+  www.kinopoisk.ru: 8
+  185.14.46.20.blanesik.space: 8
+  smartcaptcha.yandexcloud.net: 8
   service28342.global.ssl.fastly.net: 7
-  frog.nalognolife.fun: 7
   www.amd.com: 6
+  m.twitch.tv: 6
   deepl.com: 6
-  down.spectrumproxy.shop: 6
-  del.ccnnx.ir: 5
-  www.genflix.co.id.cyylr.eu.cc: 5
+  frog.nalognolife.fun: 6
+  api-maps.yandex.ru: 5
 
 Топ портов:
-  443: 192
-  8443: 38
-  666: 10
+  443: 202
+  8443: 42
+  666: 11
   80: 7
+  4455: 5
+  2040: 5
   5443: 4
   2096: 4
-  5987: 4
-  9443: 4
-  5994: 4
-  8448: 4
-  2040: 4
+  8446: 4
   45619: 4
   48697: 4
   4433: 4
+  19326: 3
   7443: 3
+  43871: 3
 
 Топ схем:
-  vless: 271
-  trojan: 41
-  hysteria2: 19
+  vless: 285
+  trojan: 44
+  hysteria2: 17
   vmess: 11
 
 Топ transport:
-  tcp: 235
-  ws: 56
-  xhttp: 28
-  grpc: 23
+  tcp: 244
+  ws: 50
+  xhttp: 39
+  grpc: 24
 
 Топ security:
-  reality: 184
-  tls: 110
-  none: 48
+  reality: 217
+  tls: 95
+  none: 45
