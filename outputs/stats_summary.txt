@@ -1,5 +1,5 @@
 VPN Builder stats summary
-Generated at: 2026-06-04 15:33:09 MSK
+Generated at: 2026-06-04 19:05:08 MSK
 
 ====================================================================
 RAW GROUPS
@@ -8,153 +8,167 @@ RAW GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 24
-Уникальных строк: 16
-Уникальных host:port: 16
-Уникальных backend: 9
-Anycast: 17
-Unknown country: 1
+Всего конфигов: 59
+Уникальных строк: 50
+Уникальных host:port: 34
+Уникальных backend: 25
+Anycast: 42
+Unknown country: 9
 
 Топ стран:
-  🌐 Anycast: 17
-  Russia: 4
-  Finland: 1
-  Unknown: 1
-  Poland: 1
+  🌐 Anycast: 42
+  Unknown: 9
+  Finland: 2
+  Poland: 2
+  Russia: 2
+  Estonia: 1
+  Netherlands: 1
 
 Топ SNI:
-  cdp.x5.ru: 12
-  max.ru: 4
-  cdn7-09.vk-cdnvideo.com: 2
-  nw.pedramdns.shop: 1
-  db.herumhas.shop: 1
-  pl-in.api.dznn.net: 1
-  www.google.com:443: 1
-  109.120.138.95: 1
-  ads.x5.ru: 1
+  cdp.x5.ru: 16
+  cdn7-09.vk-cdnvideo.com: 13
+  us.healthy-connected.com: 5
+  yandex.ru: 4
+  slopllex.app: 2
+  pl-in.api.dznn.net: 2
+  avatars.mds.yandex.net: 2
+  xapi.ozon.ru: 2
+  eh.vk.com: 2
+  sfera.x5.ru: 1
 
 Топ портов:
-  443: 16
-  5443: 4
-  8443: 4
+  443: 35
+  8443: 19
+  8448: 2
+  2096: 1
 
 Топ схем:
-  vless: 24
+  vless: 56
+  vmess: 2
+  hysteria2: 1
 
 Топ transport:
-  tcp: 23
+  tcp: 53
+  grpc: 5
   xhttp: 1
 
 Топ security:
-  reality: 19
-  tls: 4
-  none: 1
+  reality: 39
+  tls: 14
+  none: 6
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_vless
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 15
-Уникальных строк: 15
-Уникальных host:port: 15
-Уникальных backend: 8
-Anycast: 10
-Unknown country: 1
+Всего конфигов: 44
+Уникальных строк: 44
+Уникальных host:port: 28
+Уникальных backend: 20
+Anycast: 29
+Unknown country: 8
 
 Топ стран:
-  🌐 Anycast: 10
-  Russia: 2
-  Finland: 1
-  Unknown: 1
-  Poland: 1
+  🌐 Anycast: 29
+  Unknown: 8
+  Finland: 2
+  Poland: 2
+  Estonia: 1
+  Netherlands: 1
+  Russia: 1
 
 Топ SNI:
-  cdp.x5.ru: 6
-  cdn7-09.vk-cdnvideo.com: 2
-  max.ru: 2
-  nw.pedramdns.shop: 1
-  db.herumhas.shop: 1
-  pl-in.api.dznn.net: 1
-  www.google.com:443: 1
-  109.120.138.95: 1
+  cdn7-09.vk-cdnvideo.com: 13
+  cdp.x5.ru: 8
+  us.healthy-connected.com: 5
+  slopllex.app: 2
+  pl-in.api.dznn.net: 2
+  yandex.ru: 2
+  avatars.mds.yandex.net: 2
+  sfera.x5.ru: 1
+  d.lv-cdn.ru: 1
+  id.vk.com: 1
 
 Топ портов:
-  443: 10
-  8443: 3
-  5443: 2
+  443: 26
+  8443: 14
+  2096: 1
+  8448: 1
 
 Топ схем:
-  vless: 15
+  vless: 41
+  vmess: 2
+  hysteria2: 1
 
 Топ transport:
-  tcp: 14
+  tcp: 38
+  grpc: 5
   xhttp: 1
 
 Топ security:
-  reality: 10
-  tls: 4
-  none: 1
+  reality: 24
+  tls: 14
+  none: 6
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW black_all
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 172
-Уникальных строк: 86
-Уникальных host:port: 76
-Уникальных backend: 38
-Anycast: 108
-Unknown country: 24
+Всего конфигов: 126
+Уникальных строк: 64
+Уникальных host:port: 56
+Уникальных backend: 47
+Anycast: 72
+Unknown country: 16
 
 Топ стран:
-  🌐 Anycast: 108
-  Unknown: 24
-  France: 10
-  Germany: 10
-  Poland: 6
-  United States: 6
-  Switzerland: 4
-  Netherlands: 4
+  🌐 Anycast: 72
+  Unknown: 16
+  France: 14
+  Netherlands: 10
+  Finland: 4
+  Poland: 4
+  Belarus: 2
+  United States: 2
+  Germany: 2
 
 Топ SNI:
-  aho-7ev.pages.dev: 64
-  de2.niekotin.de: 8
-  cdn7-09.vk-cdnvideo.com: 8
-  tignaltofan.global.ssl.fastly.net: 6
-  www.microsoft.com: 6
-  tradingview.com: 6
-  5.144.179.56: 4
+  cdn7-09.vk-cdnvideo.com: 14
+  play.google.com: 6
+  fastsync.xyz: 4
+  uuipo.ice.lol: 4
   shangulin.global.ssl.fastly.net: 4
+  s3.tehno.store: 4
+  tignaltofan.global.ssl.fastly.net: 4
   frws.silorano.ir: 4
-  www.digikala.com: 4
+  colorlib.com: 4
+  www.microsoft.com: 4
 
 Топ портов:
-  2087: 24
-  80: 22
-  443: 20
-  2096: 20
-  4443: 18
-  8443: 16
-  2083: 16
-  2053: 8
-  2040: 6
-  45466: 4
+  443: 36
+  8443: 26
+  4443: 26
+  80: 14
+  1310: 6
+  39557: 4
+  2087: 4
+  7443: 4
+  2040: 2
+  64772: 2
 
 Топ схем:
-  vless: 158
+  vless: 114
   hysteria2: 6
   trojan: 6
-  vmess: 2
 
 Топ transport:
-  ws: 82
-  tcp: 50
-  grpc: 22
-  xhttp: 16
-  httpupgrade: 2
+  tcp: 56
+  grpc: 32
+  ws: 20
+  xhttp: 18
 
 Топ security:
-  tls: 88
-  none: 54
-  reality: 28
+  none: 57
+  reality: 42
+  tls: 25
   false: 2
 
 ====================================================================
@@ -164,276 +178,288 @@ FINAL GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 14
-Уникальных строк: 14
-Уникальных host:port: 14
-Уникальных backend: 9
-Anycast: 9
-Unknown country: 1
+Всего конфигов: 31
+Уникальных строк: 31
+Уникальных host:port: 29
+Уникальных backend: 24
+Anycast: 17
+Unknown country: 7
 
 Топ стран:
-  🌐 Anycast: 9
+  🌐 Anycast: 17
+  Unknown: 7
   Russia: 2
+  Finland: 2
+  Netherlands: 1
+  Estonia: 1
   Poland: 1
-  Finland: 1
-  Unknown: 1
 
 Топ SNI:
   cdp.x5.ru: 4
-  max.ru: 2
-  cdn7-09.vk-cdnvideo.com: 2
-  pl-in.api.dznn.net: 1
-  nw.pedramdns.shop: 1
+  cdn7-09.vk-cdnvideo.com: 4
+  yandex.ru: 3
+  slopllex.app: 2
+  eh.vk.com: 2
+  xapi.ozon.ru: 2
+  id.vk.com: 1
   ads.x5.ru: 1
-  www.google.com:443: 1
-  db.herumhas.shop: 1
-  109.120.138.95: 1
+  sfera.x5.ru: 1
+  pl-in.api.dznn.net: 1
 
 Топ портов:
-  443: 8
-  8443: 4
-  5443: 2
+  443: 17
+  8443: 10
+  2096: 1
+  8448: 1
 
 Топ схем:
-  vless: 14
+  vless: 28
+  vmess: 2
+  hysteria2: 1
 
 Топ transport:
-  tcp: 13
+  tcp: 26
+  grpc: 4
   xhttp: 1
 
 Топ security:
-  reality: 9
-  tls: 4
-  none: 1
+  reality: 20
+  none: 6
+  tls: 5
 
 ────────────────────────────────────────────────────────────────────
 📊 white_vless
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 13
-Уникальных строк: 13
-Уникальных host:port: 13
-Уникальных backend: 8
-Anycast: 8
-Unknown country: 1
+Всего конфигов: 25
+Уникальных строк: 25
+Уникальных host:port: 23
+Уникальных backend: 19
+Anycast: 12
+Unknown country: 7
 
 Топ стран:
-  🌐 Anycast: 8
-  Russia: 2
+  🌐 Anycast: 12
+  Unknown: 7
+  Finland: 2
+  Netherlands: 1
+  Russia: 1
   Poland: 1
-  Finland: 1
-  Unknown: 1
+  Estonia: 1
 
 Топ SNI:
+  cdn7-09.vk-cdnvideo.com: 4
   cdp.x5.ru: 4
-  max.ru: 2
-  cdn7-09.vk-cdnvideo.com: 2
+  yandex.ru: 2
+  slopllex.app: 2
+  id.vk.com: 1
   pl-in.api.dznn.net: 1
-  nw.pedramdns.shop: 1
+  sfera.x5.ru: 1
   www.google.com:443: 1
-  db.herumhas.shop: 1
-  109.120.138.95: 1
+  us.healthy-connected.com: 1
+  avatars.mds.yandex.net: 1
 
 Топ портов:
-  443: 8
-  8443: 3
-  5443: 2
+  443: 16
+  8443: 5
+  2096: 1
+  8448: 1
 
 Топ схем:
-  vless: 13
+  vless: 22
+  vmess: 2
+  hysteria2: 1
 
 Топ transport:
-  tcp: 12
+  tcp: 20
+  grpc: 4
   xhttp: 1
 
 Топ security:
-  reality: 8
-  tls: 4
-  none: 1
+  reality: 14
+  none: 6
+  tls: 5
 
 ────────────────────────────────────────────────────────────────────
 📊 black_all
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 49
-Уникальных строк: 49
-Уникальных host:port: 48
-Уникальных backend: 38
-Anycast: 24
-Unknown country: 11
+Всего конфигов: 54
+Уникальных строк: 54
+Уникальных host:port: 54
+Уникальных backend: 47
+Anycast: 32
+Unknown country: 8
 
 Топ стран:
-  🌐 Anycast: 24
-  Unknown: 11
-  United States: 3
-  France: 3
-  Switzerland: 2
-  Poland: 2
-  Netherlands: 2
-  Germany: 2
+  🌐 Anycast: 32
+  Unknown: 8
+  France: 6
+  Netherlands: 3
+  United States: 1
+  Belarus: 1
+  Poland: 1
+  Finland: 1
+  Germany: 1
 
 Топ SNI:
   cdn7-09.vk-cdnvideo.com: 4
-  aho-7ev.pages.dev: 4
-  tradingview.com: 3
-  www.digikala.com: 2
+  s3.tehno.store: 2
   www.microsoft.com: 2
+  fastsync.xyz: 2
+  colorlib.com: 2
   tignaltofan.global.ssl.fastly.net: 2
   shangulin.global.ssl.fastly.net: 2
+  front.xwhiteness.site: 1
   www.creationlong.org: 1
-  pl-in.api.dznn.net: 1
-  food.artmisserver.site: 1
+  www.google.com: 1
 
 Топ портов:
-  443: 8
-  4443: 8
+  443: 17
+  4443: 12
+  8443: 10
   80: 7
-  8443: 7
-  2087: 3
-  2040: 3
-  55013: 2
-  2096: 2
-  2053: 1
-  7443: 1
+  7443: 2
+  2087: 1
+  1310: 1
+  2040: 1
+  39557: 1
+  11000: 1
 
 Топ схем:
-  vless: 43
+  vless: 49
   hysteria2: 3
   trojan: 2
-  vmess: 1
 
 Топ transport:
-  tcp: 23
-  grpc: 10
-  ws: 9
-  xhttp: 6
-  httpupgrade: 1
+  tcp: 25
+  grpc: 15
+  xhttp: 8
+  ws: 6
 
 Топ security:
-  none: 22
-  reality: 13
-  tls: 13
+  none: 25
+  reality: 21
+  tls: 7
   false: 1
 
 ────────────────────────────────────────────────────────────────────
 📊 pool
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 53
-Уникальных строк: 53
-Уникальных host:port: 52
-Уникальных backend: 45
-Anycast: 26
-Unknown country: 10
+Всего конфигов: 78
+Уникальных строк: 78
+Уникальных host:port: 76
+Уникальных backend: 70
+Anycast: 45
+Unknown country: 12
 
 Топ стран:
-  🌐 Anycast: 26
-  Unknown: 10
-  United States: 3
-  France: 3
+  🌐 Anycast: 45
+  Unknown: 12
+  France: 6
+  Netherlands: 4
+  Finland: 3
   Russia: 2
   Poland: 2
-  Switzerland: 2
-  Netherlands: 2
-  Germany: 2
-  Finland: 1
+  Estonia: 1
+  Belarus: 1
+  Germany: 1
 
 Топ SNI:
-  max.ru: 2
+  yandex.ru: 3
+  cdn7-09.vk-cdnvideo.com: 3
+  slopllex.app: 2
   cdp.x5.ru: 2
-  cdn7-09.vk-cdnvideo.com: 2
-  aho-7ev.pages.dev: 2
-  www.digikala.com: 2
-  tradingview.com: 2
-  www.microsoft.com: 2
-  shangulin.global.ssl.fastly.net: 2
+  xapi.ozon.ru: 2
+  eh.vk.com: 2
+  colorlib.com: 2
+  fastsync.xyz: 2
   tignaltofan.global.ssl.fastly.net: 2
-  db.herumhas.shop: 1
+  shangulin.global.ssl.fastly.net: 2
 
 Топ портов:
-  443: 13
-  4443: 8
-  8443: 7
+  443: 32
+  8443: 15
+  4443: 12
   80: 7
-  5443: 2
-  2096: 2
-  55013: 2
-  2040: 2
-  10035: 1
+  7443: 2
+  8448: 1
+  2096: 1
   64772: 1
+  11000: 1
+  1310: 1
 
 Топ схем:
-  vless: 47
-  hysteria2: 3
+  vless: 70
+  hysteria2: 4
+  vmess: 2
   trojan: 2
-  vmess: 1
 
 Топ transport:
-  tcp: 28
-  grpc: 10
-  xhttp: 7
-  ws: 7
-  httpupgrade: 1
+  tcp: 44
+  grpc: 19
+  xhttp: 9
+  ws: 6
 
 Топ security:
-  none: 23
-  reality: 18
-  tls: 11
+  reality: 39
+  none: 31
+  tls: 7
   false: 1
 
 ────────────────────────────────────────────────────────────────────
 📊 mixed
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 27
-Уникальных строк: 27
-Уникальных host:port: 27
-Уникальных backend: 21
-Anycast: 12
-Unknown country: 6
+Всего конфигов: 43
+Уникальных строк: 43
+Уникальных host:port: 43
+Уникальных backend: 38
+Anycast: 21
+Unknown country: 8
 
 Топ стран:
-  🌐 Anycast: 12
-  Unknown: 6
+  🌐 Anycast: 21
+  Unknown: 8
+  France: 4
+  Netherlands: 3
   Russia: 2
-  Switzerland: 2
-  United States: 2
+  Estonia: 1
   Poland: 1
   Finland: 1
-  France: 1
+  United States: 1
+  Belarus: 1
 
 Топ SNI:
+  yandex.ru: 3
   cdn7-09.vk-cdnvideo.com: 2
   cdp.x5.ru: 2
-  max.ru: 2
-  www.digikala.com: 2
-  tradingview.com: 2
+  eh.vk.com: 2
+  xapi.ozon.ru: 2
+  fastsync.xyz: 2
+  s3.tehno.store: 2
+  colorlib.com: 2
   www.microsoft.com: 2
-  aho-7ev.pages.dev: 2
-  pl-in.api.dznn.net: 1
-  db.herumhas.shop: 1
-  nw.pedramdns.shop: 1
+  id.vk.com: 1
 
 Топ портов:
-  443: 10
-  8443: 5
-  5443: 2
-  55013: 2
-  2040: 2
-  2096: 2
+  443: 25
+  8443: 11
+  7443: 2
+  2096: 1
+  8448: 1
+  80: 1
+  2040: 1
   2087: 1
-  45466: 1
-  2053: 1
-  7443: 1
 
 Топ схем:
-  vless: 27
+  vless: 43
 
 Топ transport:
-  tcp: 21
-  xhttp: 2
-  grpc: 2
-  ws: 2
+  tcp: 34
+  grpc: 5
+  xhttp: 4
 
 Топ security:
-  reality: 18
-  tls: 9
+  reality: 39
+  tls: 4
 
 ────────────────────────────────────────────────────────────────────
 📊 lte
@@ -441,131 +467,123 @@ Unknown country: 6
 Всего конфигов: 25
 Уникальных строк: 25
 Уникальных host:port: 25
-Уникальных backend: 21
+Уникальных backend: 24
 Anycast: 11
-Unknown country: 4
+Unknown country: 0
 
 Топ стран:
   🌐 Anycast: 11
-  Unknown: 4
+  France: 4
+  Netherlands: 2
   Russia: 2
   Poland: 2
-  Switzerland: 2
-  France: 1
-  Finland: 1
   United States: 1
-  Netherlands: 1
+  Belarus: 1
+  Finland: 1
+  Estonia: 1
 
 Топ SNI:
-  max.ru: 2
-  aho-7ev.pages.dev: 2
-  www.microsoft.com: 2
-  www.digikala.com: 2
-  cdp.x5.ru: 2
+  yandex.ru: 2
+  eh.vk.com: 2
+  s3.tehno.store: 2
+  id.vk.com: 1
   frws.silorano.ir: 1
-  nw.pedramdns.shop: 1
   ads.x5.ru: 1
+  top3259365054.mwscdn.ru: 1
   www.creationlong.org: 1
-  pl-in.api.dznn.net: 1
+  www.microsoft.com: 1
+  www.amd.com: 1
 
 Топ портов:
-  443: 9
-  8443: 5
-  5443: 2
-  2096: 2
-  55013: 2
+  443: 16
+  8443: 6
+  2096: 1
   2087: 1
-  2053: 1
-  45466: 1
-  2040: 1
   7443: 1
 
 Топ схем:
-  vless: 23
-  trojan: 2
+  vless: 24
+  trojan: 1
 
 Топ transport:
-  tcp: 16
-  ws: 5
-  xhttp: 2
-  grpc: 2
+  tcp: 18
+  grpc: 3
+  xhttp: 3
+  ws: 1
 
 Топ security:
-  reality: 14
-  tls: 10
-  false: 1
+  reality: 21
+  tls: 4
 
 ====================================================================
 🌍 GLOBAL SUMMARY
 ====================================================================
-Всего конфигов: 181
-Уникальных строк: 63
-Уникальных host:port: 61
-Уникальных backend: 45
-Anycast: 90
-Unknown country: 33
+Всего конфигов: 256
+Уникальных строк: 85
+Уникальных host:port: 83
+Уникальных backend: 70
+Anycast: 138
+Unknown country: 42
 
 Топ стран:
-  🌐 Anycast: 90
-  Unknown: 33
-  Russia: 10
-  Poland: 9
-  United States: 9
-  Switzerland: 8
-  France: 8
-  Finland: 5
-  Netherlands: 5
-  Germany: 4
+  🌐 Anycast: 138
+  Unknown: 42
+  France: 20
+  Netherlands: 14
+  Finland: 10
+  Russia: 9
+  Poland: 8
+  Estonia: 5
+  United States: 4
+  Belarus: 4
+  Germany: 2
 
 Топ SNI:
-  cdp.x5.ru: 14
-  cdn7-09.vk-cdnvideo.com: 13
-  max.ru: 10
-  aho-7ev.pages.dev: 10
-  www.digikala.com: 8
-  www.microsoft.com: 8
-  tradingview.com: 8
-  pl-in.api.dznn.net: 6
-  nw.pedramdns.shop: 5
+  cdn7-09.vk-cdnvideo.com: 18
+  yandex.ru: 13
+  cdp.x5.ru: 12
+  slopllex.app: 8
+  eh.vk.com: 8
+  s3.tehno.store: 8
+  xapi.ozon.ru: 7
+  www.microsoft.com: 7
+  fastsync.xyz: 7
+  colorlib.com: 7
+  id.vk.com: 5
+  sfera.x5.ru: 5
+  pl-in.api.dznn.net: 5
   www.google.com:443: 5
-  db.herumhas.shop: 5
-  ads.x5.ru: 4
-  tignaltofan.global.ssl.fastly.net: 4
-  shangulin.global.ssl.fastly.net: 4
-  frws.silorano.ir: 4
+  avatars.mds.yandex.net: 5
 
 Топ портов:
-  443: 56
-  8443: 31
-  4443: 16
-  80: 14
-  5443: 10
-  55013: 8
-  2096: 8
-  2040: 8
-  2087: 6
-  2053: 4
-  7443: 4
-  45466: 4
-  10035: 2
-  37141: 2
-  55555: 2
+  443: 123
+  8443: 57
+  4443: 24
+  80: 15
+  7443: 7
+  2096: 5
+  8448: 4
+  2087: 4
+  2040: 3
+  1310: 2
+  39557: 2
+  11000: 2
+  64772: 2
 
 Топ схем:
-  vless: 167
-  trojan: 6
-  hysteria2: 6
-  vmess: 2
+  vless: 236
+  hysteria2: 9
+  vmess: 6
+  trojan: 5
 
 Топ transport:
-  tcp: 113
-  grpc: 24
-  ws: 23
-  xhttp: 19
-  httpupgrade: 2
+  tcp: 167
+  grpc: 50
+  xhttp: 26
+  ws: 13
 
 Топ security:
-  reality: 80
-  tls: 51
-  none: 47
-  false: 3
+  reality: 154
+  none: 68
+  tls: 32
+  false: 2
