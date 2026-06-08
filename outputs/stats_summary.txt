@@ -1,5 +1,5 @@
 VPN Builder stats summary
-Generated at: 2026-06-08 22:54:00 MSK
+Generated at: 2026-06-09 00:47:08 MSK
 
 ====================================================================
 RAW GROUPS
@@ -8,116 +8,116 @@ RAW GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 51
-Уникальных строк: 45
-Уникальных host:port: 28
-Уникальных backend: 27
-Anycast: 21
-Unknown country: 12
+Всего конфигов: 98
+Уникальных строк: 88
+Уникальных host:port: 50
+Уникальных backend: 47
+Anycast: 40
+Unknown country: 26
 
 Топ стран:
-  🌐 Anycast: 21
-  Unknown: 12
-  Russia: 8
-  Germany: 5
-  Poland: 3
+  🌐 Anycast: 40
+  Unknown: 26
+  Russia: 12
+  Germany: 9
+  Austria: 2
+  Switzerland: 2
+  Netherlands: 2
   Finland: 2
+  Czechia: 1
+  Estonia: 1
 
 Топ SNI:
-  ru21.whost-solutions.ru: 7
-  api.cockroachservice.ru: 6
-  loadtest.dev.urent.ru: 5
+  ads.x5.ru: 20
+  cdn7-09.vk-cdnvideo.com: 8
+  95.85.246.16.speed-storage.ru: 6
+  95.85.246.14.speed-storage.ru: 6
+  loadtest.dev.urent.ru: 6
+  ru-vk-5.1001notes.ru: 4
   de-xh-01.hpdata.click: 4
-  top1342980873.mwscdn.ru: 3
-  debian.ubuntuhosting.host: 2
-  cdn7-09.vk-cdnvideo.com: 2
-  es-xh-01.hpdata.click: 2
-  www.middle.cc.cd: 2
-  ru.whost-solutions.ru: 2
+  es-xh-01.hpdata.click: 3
+  www.middle.cc.cd: 3
+  sun6-22.userapi.com: 2
 
 Топ портов:
-  443: 30
-  8443: 3
-  7443: 2
-  9443: 2
-  23458: 2
+  443: 51
+  8443: 28
+  7443: 6
   13337: 2
-  1443: 1
   80: 1
-  18443: 1
 
 Топ схем:
-  vless: 41
-  vmess: 7
+  vless: 83
+  vmess: 10
+  ss: 3
   hysteria2: 2
-  ss: 1
 
 Топ transport:
-  tcp: 31
-  xhttp: 13
-  grpc: 7
+  tcp: 42
+  grpc: 38
+  xhttp: 18
 
 Топ security:
-  reality: 26
-  tls: 15
-  none: 10
+  reality: 45
+  tls: 38
+  none: 15
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_vless
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 43
-Уникальных строк: 43
-Уникальных host:port: 26
-Уникальных backend: 25
-Anycast: 18
-Unknown country: 12
+Всего конфигов: 73
+Уникальных строк: 73
+Уникальных host:port: 38
+Уникальных backend: 37
+Anycast: 25
+Unknown country: 26
 
 Топ стран:
-  🌐 Anycast: 18
-  Unknown: 12
-  Germany: 5
-  Poland: 3
-  Russia: 3
+  Unknown: 26
+  🌐 Anycast: 25
+  Germany: 9
+  Austria: 2
+  Switzerland: 2
+  Netherlands: 2
+  Russia: 2
   Finland: 2
+  Czechia: 1
+  Estonia: 1
 
 Топ SNI:
-  ru21.whost-solutions.ru: 7
+  cdn7-09.vk-cdnvideo.com: 8
+  ads.x5.ru: 7
+  ru-vk-5.1001notes.ru: 4
   de-xh-01.hpdata.click: 4
-  top1342980873.mwscdn.ru: 3
-  loadtest.dev.urent.ru: 3
-  api.cockroachservice.ru: 3
-  cdn7-09.vk-cdnvideo.com: 2
-  es-xh-01.hpdata.click: 2
-  www.middle.cc.cd: 2
-  ru.whost-solutions.ru: 2
-  h2.mtproxy-hub.org: 2
+  loadtest.dev.urent.ru: 4
+  es-xh-01.hpdata.click: 3
+  95.85.246.16.speed-storage.ru: 3
+  95.85.246.14.speed-storage.ru: 3
+  www.middle.cc.cd: 3
+  eyj2ijoimiisinbzijoi8j+hs: 3
 
 Топ портов:
-  443: 25
-  8443: 3
+  443: 37
+  8443: 19
+  7443: 4
   13337: 2
-  1443: 1
   80: 1
-  18443: 1
-  7443: 1
-  9443: 1
-  23458: 1
 
 Топ схем:
-  vless: 33
-  vmess: 7
+  vless: 58
+  vmess: 10
+  ss: 3
   hysteria2: 2
-  ss: 1
 
 Топ transport:
-  tcp: 25
-  xhttp: 13
-  grpc: 5
+  tcp: 30
+  grpc: 26
+  xhttp: 17
 
 Топ security:
-  reality: 18
-  tls: 15
-  none: 10
+  tls: 32
+  reality: 26
+  none: 15
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW black_all
@@ -189,116 +189,116 @@ FINAL GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 34
-Уникальных строк: 34
-Уникальных host:port: 27
-Уникальных backend: 27
-Anycast: 13
-Unknown country: 11
+Всего конфигов: 58
+Уникальных строк: 58
+Уникальных host:port: 48
+Уникальных backend: 46
+Anycast: 16
+Unknown country: 19
 
 Топ стран:
-  🌐 Anycast: 13
-  Unknown: 11
-  Russia: 4
-  Poland: 2
-  Germany: 2
+  Unknown: 19
+  🌐 Anycast: 16
+  Russia: 10
+  Germany: 5
   Finland: 2
+  Switzerland: 1
+  Czechia: 1
+  United States: 1
+  Estonia: 1
+  Netherlands: 1
 
 Топ SNI:
-  ru21.whost-solutions.ru: 4
+  ads.x5.ru: 14
+  cdn7-09.vk-cdnvideo.com: 4
   loadtest.dev.urent.ru: 3
-  top1342980873.mwscdn.ru: 2
-  api.cockroachservice.ru: 2
-  cdn7-09.vk-cdnvideo.com: 2
   h2.mtproxy-hub.org: 2
-  yandex.ru: 1
-  de-xh-01.hpdata.click: 1
-  a.wb.ru: 1
-  avatars.mds.yandex.net: 1
+  eyj2ijoimiisinbzijoi8j+hs: 2
+  api-maps.yandex.ru: 1
+  files.perekrestok.ru: 1
+  www.google.com: 1
+  sentry.x5.ru: 1
+  gw-feedbacktsx-test.x5.ru: 1
 
 Топ портов:
-  443: 16
-  8443: 3
+  443: 22
+  8443: 21
+  7443: 2
   13337: 2
-  1443: 1
-  18443: 1
-  7443: 1
-  9443: 1
   80: 1
-  23458: 1
 
 Топ схем:
-  vless: 24
-  vmess: 7
+  vless: 44
+  vmess: 10
+  ss: 2
   hysteria2: 2
-  ss: 1
 
 Топ transport:
-  tcp: 22
-  xhttp: 7
-  grpc: 5
+  tcp: 33
+  grpc: 17
+  xhttp: 8
 
 Топ security:
-  reality: 15
-  none: 10
-  tls: 9
+  reality: 31
+  none: 14
+  tls: 13
 
 ────────────────────────────────────────────────────────────────────
 📊 white_vless
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 32
-Уникальных строк: 32
-Уникальных host:port: 25
-Уникальных backend: 25
-Anycast: 13
-Unknown country: 11
+Всего конфигов: 46
+Уникальных строк: 46
+Уникальных host:port: 36
+Уникальных backend: 37
+Anycast: 12
+Unknown country: 19
 
 Топ стран:
-  🌐 Anycast: 13
-  Unknown: 11
-  Germany: 2
-  Poland: 2
+  Unknown: 19
+  🌐 Anycast: 12
+  Germany: 5
   Russia: 2
   Finland: 2
+  Switzerland: 1
+  United States: 1
+  Estonia: 1
+  Czechia: 1
+  Austria: 1
 
 Топ SNI:
-  ru21.whost-solutions.ru: 4
+  ads.x5.ru: 5
+  cdn7-09.vk-cdnvideo.com: 4
   loadtest.dev.urent.ru: 3
-  top1342980873.mwscdn.ru: 2
-  cdn7-09.vk-cdnvideo.com: 2
-  api.cockroachservice.ru: 2
+  eyj2ijoimiisinbzijoi8j+hs: 3
   h2.mtproxy-hub.org: 2
-  avatars.mds.yandex.net: 1
-  de-xh-01.hpdata.click: 1
-  gp1.steptofsvo.com: 1
-  www.middle.cc.cd: 1
+  api-maps.yandex.ru: 1
+  files.perekrestok.ru: 1
+  sentry.x5.ru: 1
+  gw-feedbacktsx-test.x5.ru: 1
+  www.google.com: 1
 
 Топ портов:
-  443: 14
-  8443: 3
+  443: 17
+  8443: 14
+  7443: 2
   13337: 2
-  1443: 1
-  18443: 1
-  9443: 1
   80: 1
-  7443: 1
-  23458: 1
 
 Топ схем:
-  vless: 22
-  vmess: 7
+  vless: 32
+  vmess: 10
+  ss: 2
   hysteria2: 2
-  ss: 1
 
 Топ transport:
-  tcp: 20
+  tcp: 24
+  grpc: 15
   xhttp: 7
-  grpc: 5
 
 Топ security:
-  reality: 13
-  none: 10
-  tls: 9
+  reality: 19
+  none: 14
+  tls: 13
 
 ────────────────────────────────────────────────────────────────────
 📊 black_all
@@ -317,33 +317,33 @@ Unknown country: 34
   France: 7
   Switzerland: 5
   Finland: 3
-  United States: 2
+  Poland: 2
   Netherlands: 2
   Russia: 2
-  Poland: 2
+  United States: 2
 
 Топ SNI:
-  ru21.whost-solutions.ru: 4
-  fr.01.naiun.bilibili.com: 4
   ch.01.naiun.bilibili.com: 4
   api-6a20f558.noooo.win: 4
+  ru21.whost-solutions.ru: 4
   nl05.whost-solutions.ru: 4
   de.01.naiun.bilibili.com: 4
-  shangulin.global.ssl.fastly.net: 4
+  fr.01.naiun.bilibili.com: 4
   tignaltofansv8.global.ssl.fastly.net: 4
-  gh.01.naiun.bilibili.com: 4
+  shangulin.global.ssl.fastly.net: 4
   is.01.naiun.bilibili.com: 4
+  az.01.naiun.bilibili.com: 4
 
 Топ портов:
   443: 42
   80: 19
   8443: 8
-  45619: 4
   45553: 4
   46424: 4
-  48697: 4
+  45619: 4
   47909: 4
   41943: 4
+  48697: 4
   7443: 2
 
 Топ схем:
@@ -366,123 +366,123 @@ Unknown country: 34
 ────────────────────────────────────────────────────────────────────
 📊 pool
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 141
-Уникальных строк: 141
-Уникальных host:port: 133
-Уникальных backend: 97
-Anycast: 57
-Unknown country: 45
+Всего конфигов: 150
+Уникальных строк: 150
+Уникальных host:port: 139
+Уникальных backend: 112
+Anycast: 58
+Unknown country: 44
 
 Топ стран:
-  🌐 Anycast: 57
-  Unknown: 45
-  Germany: 9
-  France: 7
-  Russia: 6
-  Switzerland: 5
-  Finland: 4
-  Poland: 4
-  Netherlands: 2
-  United States: 2
+  🌐 Anycast: 58
+  Unknown: 44
+  Germany: 10
+  Russia: 10
+  Switzerland: 6
+  France: 6
+  Finland: 5
+  United States: 3
+  Netherlands: 3
+  Poland: 2
 
 Топ SNI:
-  tignaltofansv8.global.ssl.fastly.net: 4
+  ads.x5.ru: 11
   nl05.whost-solutions.ru: 4
-  az.01.naiun.bilibili.com: 4
-  shangulin.global.ssl.fastly.net: 4
-  is.01.naiun.bilibili.com: 4
-  api-6a20f558.noooo.win: 4
-  fr.01.naiun.bilibili.com: 4
   ch.01.naiun.bilibili.com: 4
-  gh.01.naiun.bilibili.com: 4
+  fr.01.naiun.bilibili.com: 4
+  is.01.naiun.bilibili.com: 4
+  tignaltofansv8.global.ssl.fastly.net: 4
   cdn7-09.vk-cdnvideo.com: 3
+  h2.mtproxy-hub.org: 3
+  loadtest.dev.urent.ru: 3
+  ru21.whost-solutions.ru: 3
 
 Топ портов:
-  443: 52
-  80: 20
-  8443: 11
-  41943: 4
-  47909: 4
-  45619: 4
+  443: 58
+  8443: 23
+  80: 17
+  7443: 4
   45553: 4
-  48697: 4
+  45619: 4
+  47909: 4
   13337: 3
-  7443: 3
+  46424: 3
+  48697: 2
 
 Топ схем:
-  vless: 84
-  trojan: 27
+  vless: 95
+  trojan: 23
   ss: 12
-  hysteria2: 11
-  vmess: 7
+  vmess: 10
+  hysteria2: 10
 
 Топ transport:
-  tcp: 95
-  xhttp: 36
-  grpc: 7
+  tcp: 99
+  xhttp: 32
+  grpc: 16
   ws: 3
 
 Топ security:
-  tls: 54
+  reality: 56
   none: 47
-  reality: 40
+  tls: 47
 
 ────────────────────────────────────────────────────────────────────
 📊 mixed
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 57
-Уникальных строк: 57
-Уникальных host:port: 56
-Уникальных backend: 49
-Anycast: 24
-Unknown country: 17
+Всего конфигов: 58
+Уникальных строк: 58
+Уникальных host:port: 58
+Уникальных backend: 52
+Anycast: 23
+Unknown country: 16
 
 Топ стран:
-  🌐 Anycast: 24
-  Unknown: 17
-  Russia: 5
-  Poland: 4
+  🌐 Anycast: 23
+  Unknown: 16
+  Russia: 8
   Germany: 3
+  United States: 2
+  Austria: 1
   Netherlands: 1
-  United States: 1
-  Finland: 1
+  Czechia: 1
+  Estonia: 1
   Switzerland: 1
 
 Топ SNI:
-  loadtest.dev.urent.ru: 3
-  www.icloud.com: 3
-  ru.whost-solutions.ru: 2
-  ru21.whost-solutions.ru: 2
-  top1342980873.mwscdn.ru: 2
-  api.cockroachservice.ru: 2
+  ads.x5.ru: 10
   cdn7-09.vk-cdnvideo.com: 2
+  loadtest.dev.urent.ru: 2
   nl05.whost-solutions.ru: 2
+  www.icloud.com: 2
   api-6a20f558.noooo.win: 2
-  Itsrezu2.dr-ping.com: 2
+  vk.ru: 1
+  alpha4.minigames.mail.ru: 1
+  95.85.246.14.speed-storage.ru: 1
+  www.middle.cc.cd: 1
 
 Топ портов:
-  443: 34
-  8443: 8
-  7443: 3
-  1443: 1
-  23458: 1
-  9443: 1
+  443: 30
+  8443: 18
+  7443: 4
   80: 1
+  55519: 1
   18443: 1
   26902: 1
+  12524: 1
   30804: 1
 
 Топ схем:
-  vless: 57
+  vless: 58
 
 Топ transport:
-  tcp: 34
-  xhttp: 18
-  grpc: 5
+  tcp: 31
+  grpc: 15
+  xhttp: 12
 
 Топ security:
-  reality: 36
-  tls: 21
+  reality: 42
+  tls: 16
 
 ────────────────────────────────────────────────────────────────────
 📊 lte
@@ -490,120 +490,122 @@ Unknown country: 17
 Всего конфигов: 25
 Уникальных строк: 25
 Уникальных host:port: 25
-Уникальных backend: 23
-Anycast: 5
-Unknown country: 6
+Уникальных backend: 22
+Anycast: 8
+Unknown country: 1
 
 Топ стран:
-  Unknown: 6
-  🌐 Anycast: 5
-  Russia: 4
-  Poland: 4
-  Germany: 3
+  🌐 Anycast: 8
+  Russia: 7
+  Germany: 4
+  Netherlands: 2
+  Poland: 1
   Switzerland: 1
-  Netherlands: 1
-  United States: 1
+  Unknown: 1
+  Czechia: 1
 
 Топ SNI:
-  top1342980873.mwscdn.ru: 2
-  Itsrezu2.dr-ping.com: 2
-  yandex.ru: 1
+  ads.x5.ru: 10
+  de-xh-01.hpdata.click: 1
+  api-maps.yandex.ru: 1
   pl-xh-01.hpdata.click: 1
   ch-xh-01.hpdata.click: 1
-  de-xh-01.hpdata.click: 1
   ru-vk-4.1001notes.ru: 1
-  www.fastly.com: 1
   www.middle.cc.cd: 1
-  ru-vk-5.1001notes.ru: 1
+  www.fastly.com: 1
+  obhod.riotvpn.eu: 1
+  ca-xh-01.hpdata.click: 1
 
 Топ портов:
-  443: 21
-  8443: 2
-  1443: 1
-  18443: 1
+  443: 14
+  8443: 10
+  80: 1
 
 Топ схем:
   vless: 25
 
 Топ transport:
-  xhttp: 16
-  tcp: 6
-  grpc: 3
+  xhttp: 10
+  tcp: 9
+  grpc: 6
 
 Топ security:
-  tls: 17
-  reality: 8
+  reality: 15
+  tls: 10
 
 ====================================================================
 🌍 GLOBAL SUMMARY
 ====================================================================
-Всего конфигов: 403
-Уникальных строк: 148
-Уникальных host:port: 137
-Уникальных backend: 97
-Anycast: 161
-Unknown country: 124
+Всего конфигов: 451
+Уникальных строк: 173
+Уникальных host:port: 161
+Уникальных backend: 117
+Anycast: 166
+Unknown country: 133
 
 Топ стран:
-  🌐 Anycast: 161
-  Unknown: 124
-  Germany: 27
-  Russia: 23
-  Poland: 18
-  France: 14
-  Finland: 12
-  Switzerland: 12
-  United States: 6
-  Netherlands: 6
+  🌐 Anycast: 166
+  Unknown: 133
+  Russia: 39
+  Germany: 35
+  Switzerland: 15
+  Finland: 13
+  France: 13
+  Netherlands: 10
+  United States: 9
+  Czechia: 5
+  Poland: 5
+  Estonia: 4
+  Austria: 4
 
 Топ SNI:
-  ru21.whost-solutions.ru: 16
-  loadtest.dev.urent.ru: 12
-  top1342980873.mwscdn.ru: 10
-  cdn7-09.vk-cdnvideo.com: 10
-  Itsrezu2.dr-ping.com: 10
-  api-6a20f558.noooo.win: 10
+  ads.x5.ru: 50
+  cdn7-09.vk-cdnvideo.com: 14
+  loadtest.dev.urent.ru: 11
   nl05.whost-solutions.ru: 10
-  api.cockroachservice.ru: 9
-  www.icloud.com: 9
+  api-6a20f558.noooo.win: 9
   h2.mtproxy-hub.org: 8
-  fr.01.naiun.bilibili.com: 8
   ch.01.naiun.bilibili.com: 8
-  shangulin.global.ssl.fastly.net: 8
+  ru21.whost-solutions.ru: 8
+  fr.01.naiun.bilibili.com: 8
   tignaltofansv8.global.ssl.fastly.net: 8
-  gh.01.naiun.bilibili.com: 8
+  is.01.naiun.bilibili.com: 8
+  eyj2ijoimiisinbzijoi8j+hs: 7
+  www.icloud.com: 7
+  de.01.naiun.bilibili.com: 7
+  sni.ru-selectel-01.com: 6
 
 Топ портов:
-  443: 179
-  80: 42
-  8443: 35
-  7443: 10
+  443: 183
+  8443: 94
+  80: 40
+  7443: 14
   13337: 8
-  45619: 8
   45553: 8
-  48697: 8
+  45619: 8
   47909: 8
-  41943: 8
-  18443: 7
   46424: 7
-  1443: 5
-  9443: 4
-  23458: 4
+  41943: 6
+  48697: 6
+  18443: 3
+  12524: 3
+  55519: 3
+  26902: 3
 
 Топ схем:
-  vless: 278
-  trojan: 55
-  ss: 25
-  hysteria2: 24
-  vmess: 21
+  vless: 320
+  trojan: 51
+  vmess: 30
+  ss: 27
+  hysteria2: 23
 
 Топ transport:
-  tcp: 257
-  xhttp: 113
-  grpc: 27
+  tcp: 276
+  xhttp: 98
+  grpc: 71
   ws: 6
 
 Топ security:
-  tls: 156
-  reality: 143
-  none: 104
+  reality: 194
+  tls: 145
+  none: 112
