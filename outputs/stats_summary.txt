@@ -1,5 +1,5 @@
 VPN Builder stats summary
-Generated at: 2026-06-30 00:59:42 MSK
+Generated at: 2026-06-30 02:02:05 MSK
 
 ====================================================================
 RAW GROUPS
@@ -8,111 +8,124 @@ RAW GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 98
-Уникальных строк: 91
-Уникальных host:port: 28
-Уникальных backend: 23
-Anycast: 41
-Unknown country: 0
+Всего конфигов: 517
+Уникальных строк: 372
+Уникальных host:port: 31
+Уникальных backend: 34
+Anycast: 139
+Unknown country: 2
 
 Топ стран:
-  🌐 Anycast: 41
-  Finland: 22
-  Netherlands: 18
-  Russia: 11
-  Poland: 4
+  Finland: 182
+  🌐 Anycast: 139
+  Netherlands: 98
+  United States: 78
+  Russia: 9
+  Germany: 4
+  Poland: 3
+  Unknown: 2
   France: 2
 
 Топ SNI:
-  fta.fontanvpn.com: 22
-  newlte.kihsuyhf8jkiugsxb.cfd: 18
-  max.ru: 8
-  u691611us1244.csgfw.top: 8
-  yandex.ru: 6
-  unnes.ac.id.yxls.eu.cc: 6
-  95r.ir: 6
-  www.kinopoisk.ru: 5
-  www.avito.ru: 3
-  api-maps.yandex.ru: 2
+  fta.fontanvpn.com: 182
+  itit.nimarko.org: 90
+  testing8.nimarko.org: 78
+  testing7.nimarko.org: 50
+  testing6.nimarko.org: 48
+  ads.x5.ru: 14
+  u691611us1244.csgfw.top: 9
+  vk.com: 8
+  unnes.ac.id.yxls.eu.cc: 5
+  95r.ir: 5
 
 Топ портов:
-  443: 90
-  1111: 2
+  443: 223
+  8465: 90
+  8444: 78
+  8451: 50
+  8450: 48
+  8443: 8
+  1111: 4
+  8441: 4
   65535: 2
-  9881: 1
-  28737: 1
-  2053: 1
-  8080: 1
+  80: 2
 
 Топ схем:
-  hysteria2: 48
-  vless: 38
-  trojan: 12
+  hysteria2: 457
+  vless: 50
+  trojan: 10
 
 Топ transport:
-  tcp: 72
-  ws: 16
-  xhttp: 7
-  grpc: 3
+  tcp: 489
+  ws: 17
+  grpc: 9
+  raw: 2
 
 Топ security:
-  none: 48
-  reality: 33
-  tls: 17
+  none: 455
+  reality: 43
+  tls: 19
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_vless
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 78
-Уникальных строк: 78
-Уникальных host:port: 20
-Уникальных backend: 18
-Anycast: 31
-Unknown country: 0
+Всего конфигов: 300
+Уникальных строк: 300
+Уникальных host:port: 24
+Уникальных backend: 29
+Anycast: 71
+Unknown country: 2
 
 Топ стран:
-  🌐 Anycast: 31
-  Finland: 22
-  Netherlands: 18
-  Poland: 4
+  Finland: 146
+  🌐 Anycast: 71
+  Netherlands: 47
+  United States: 24
+  Russia: 3
+  Poland: 3
+  Germany: 2
+  Unknown: 2
   France: 2
-  Russia: 1
 
 Топ SNI:
-  fta.fontanvpn.com: 22
-  newlte.kihsuyhf8jkiugsxb.cfd: 18
-  u691611us1244.csgfw.top: 8
-  unnes.ac.id.yxls.eu.cc: 6
-  95r.ir: 6
-  max.ru: 5
-  yandex.ru: 3
-  www.calmloud.com: 2
-  www.creationlong.org: 2
-  api-maps.yandex.ru: 1
+  fta.fontanvpn.com: 146
+  itit.nimarko.org: 34
+  testing6.nimarko.org: 24
+  testing8.nimarko.org: 24
+  testing7.nimarko.org: 23
+  ads.x5.ru: 10
+  u691611us1244.csgfw.top: 9
+  unnes.ac.id.yxls.eu.cc: 5
+  95r.ir: 5
+  vk.com: 4
 
 Топ портов:
-  443: 73
-  1111: 1
-  9881: 1
-  28737: 1
-  65535: 1
-  2053: 1
+  443: 178
+  8465: 34
+  8450: 24
+  8444: 24
+  8451: 23
+  8443: 8
+  1111: 2
+  80: 2
+  8441: 2
+  2097: 1
 
 Топ схем:
-  hysteria2: 48
-  vless: 18
-  trojan: 12
+  hysteria2: 260
+  vless: 30
+  trojan: 10
 
 Топ transport:
-  tcp: 59
-  ws: 16
-  grpc: 2
-  xhttp: 1
+  tcp: 273
+  ws: 17
+  grpc: 9
+  raw: 1
 
 Топ security:
-  none: 48
-  tls: 17
-  reality: 13
+  none: 259
+  reality: 23
+  tls: 18
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW black_all
@@ -185,111 +198,124 @@ FINAL GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 28
-Уникальных строк: 28
-Уникальных host:port: 28
-Уникальных backend: 22
-Anycast: 18
-Unknown country: 0
+Всего конфигов: 31
+Уникальных строк: 31
+Уникальных host:port: 31
+Уникальных backend: 26
+Anycast: 17
+Unknown country: 1
 
 Топ стран:
-  🌐 Anycast: 18
+  🌐 Anycast: 17
   Russia: 5
-  Poland: 2
+  Finland: 2
+  Netherlands: 2
+  Poland: 1
+  Germany: 1
   France: 1
-  Finland: 1
-  Netherlands: 1
+  United States: 1
+  Unknown: 1
 
 Топ SNI:
-  max.ru: 6
-  yandex.ru: 3
-  eh.vk.com: 2
-  www.kinopoisk.ru: 2
+  ads.x5.ru: 3
+  max.ru: 2
+  vk.com: 2
+  fta.fontanvpn.com: 2
+  www.vk.ru: 2
   unnes.ac.id.yxls.eu.cc: 2
+  vk.ru: 2
+  www.vk.com: 1
   api-maps.yandex.ru: 1
   www.calmloud.com: 1
-  www.vk.com: 1
-  fta.fontanvpn.com: 1
-  www.avito.ru: 1
 
 Топ портов:
-  443: 22
+  443: 15
+  26146: 2
+  30904: 2
   65535: 1
-  1111: 1
   28737: 1
-  2053: 1
-  8080: 1
-  9881: 1
+  4089: 1
+  1111: 1
+  8443: 1
+  8444: 1
+  2097: 1
 
 Топ схем:
-  vless: 22
+  vless: 21
+  hysteria2: 7
   trojan: 3
-  hysteria2: 3
 
 Топ transport:
-  tcp: 18
-  ws: 4
-  xhttp: 4
+  tcp: 22
+  ws: 6
   grpc: 2
+  raw: 1
 
 Топ security:
-  reality: 20
-  tls: 4
-  none: 4
+  reality: 18
+  none: 8
+  tls: 5
 
 ────────────────────────────────────────────────────────────────────
 📊 white_vless
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 20
-Уникальных строк: 20
-Уникальных host:port: 20
-Уникальных backend: 17
-Anycast: 14
-Unknown country: 0
+Всего конфигов: 24
+Уникальных строк: 24
+Уникальных host:port: 24
+Уникальных backend: 21
+Anycast: 13
+Unknown country: 1
 
 Топ стран:
-  🌐 Anycast: 14
-  Poland: 2
-  Russia: 1
+  🌐 Anycast: 13
+  Russia: 2
+  Finland: 2
+  Netherlands: 2
+  Germany: 1
+  Poland: 1
   France: 1
-  Finland: 1
-  Netherlands: 1
+  United States: 1
+  Unknown: 1
 
 Топ SNI:
-  max.ru: 4
-  yandex.ru: 3
+  ads.x5.ru: 2
+  vk.com: 2
+  fta.fontanvpn.com: 2
   unnes.ac.id.yxls.eu.cc: 2
+  max.ru: 1
   www.vk.com: 1
   api-maps.yandex.ru: 1
   www.calmloud.com: 1
-  api.gruztrack.online: 1
-  api.cs7777.vk.ru: 1
   ai.sellflow.org: 1
-  95r.ir: 1
+  www.kinopoisk.ru: 1
 
 Топ портов:
-  443: 15
-  28737: 1
+  443: 13
   65535: 1
+  28737: 1
   1111: 1
-  2053: 1
-  9881: 1
+  8443: 1
+  2097: 1
+  8444: 1
+  80: 1
+  8450: 1
+  8451: 1
 
 Топ схем:
   vless: 14
+  hysteria2: 7
   trojan: 3
-  hysteria2: 3
 
 Топ transport:
-  tcp: 13
-  ws: 4
+  tcp: 15
+  ws: 6
   grpc: 2
-  xhttp: 1
+  raw: 1
 
 Топ security:
-  reality: 12
-  tls: 4
-  none: 4
+  reality: 11
+  none: 8
+  tls: 5
 
 ────────────────────────────────────────────────────────────────────
 📊 black_all
@@ -315,13 +341,13 @@ Unknown country: 18
 
 Топ SNI:
   storage.yandex.net: 6
+  ssl.fastly.com: 4
   cdn.gamingdll.ir: 4
   hhcm.hhxaf.cc.cd: 4
-  ssl.fastly.com: 4
   tjsp.hhxaf.cc.cd: 4
   3-mitivpn.global.ssl.fastly.net: 4
-  us2.wxgqlfx.icu: 3
   cloudflare.com: 3
+  us2.wxgqlfx.icu: 3
   138.252.100.85: 3
   ee.seaspirit.dpdns.org: 3
 
@@ -329,13 +355,13 @@ Unknown country: 18
   443: 75
   8443: 10
   80: 8
-  2053: 2
   10000: 2
+  2053: 2
   9443: 1
-  9891: 1
   50863: 1
-  19643: 1
+  1443: 1
   55555: 1
+  19643: 1
 
 Топ схем:
   vless: 56
@@ -357,124 +383,126 @@ Unknown country: 18
 ────────────────────────────────────────────────────────────────────
 📊 pool
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 144
-Уникальных строк: 144
-Уникальных host:port: 144
-Уникальных backend: 108
+Всего конфигов: 147
+Уникальных строк: 147
+Уникальных host:port: 143
+Уникальных backend: 107
 Anycast: 62
 Unknown country: 18
 
 Топ стран:
   🌐 Anycast: 62
-  Germany: 20
+  Germany: 21
   Unknown: 18
-  Netherlands: 7
-  United States: 7
-  Poland: 6
+  Netherlands: 8
+  United States: 8
   Russia: 5
+  Poland: 5
   Japan: 5
+  Finland: 4
   Switzerland: 4
-  France: 3
 
 Топ SNI:
-  max.ru: 6
   storage.yandex.net: 6
   95r.ir: 4
-  3-mitivpn.global.ssl.fastly.net: 4
-  ssl.fastly.com: 4
-  tjsp.hhxaf.cc.cd: 4
+  hhcm.hhxaf.cc.cd: 4
   cdn.gamingdll.ir: 4
-  yandex.ru: 3
+  tjsp.hhxaf.cc.cd: 4
+  ssl.fastly.com: 4
+  3-mitivpn.global.ssl.fastly.net: 4
+  ads.x5.ru: 3
   ee.seaspirit.dpdns.org: 3
-  138.252.100.85: 3
+  us2.wxgqlfx.icu: 3
 
 Топ портов:
-  443: 96
-  8443: 10
+  443: 90
+  8443: 11
   80: 8
-  2053: 3
-  10000: 2
-  1111: 1
-  9881: 1
-  28737: 1
-  65535: 1
-  8080: 1
+  30904: 2
+  8450: 2
+  26146: 2
+  8451: 2
+  8444: 2
+  8465: 2
+  2053: 2
 
 Топ схем:
-  vless: 78
-  trojan: 50
-  hysteria2: 16
+  vless: 76
+  trojan: 51
+  hysteria2: 20
 
 Топ transport:
-  tcp: 83
-  ws: 46
-  xhttp: 10
+  tcp: 87
+  ws: 48
+  xhttp: 6
   grpc: 4
+  raw: 1
   httpupgrade: 1
 
 Топ security:
-  tls: 61
-  reality: 49
-  none: 34
+  tls: 63
+  reality: 47
+  none: 37
 
 ────────────────────────────────────────────────────────────────────
 📊 mixed
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 57
-Уникальных строк: 57
-Уникальных host:port: 57
-Уникальных backend: 47
-Anycast: 28
+Всего конфигов: 56
+Уникальных строк: 56
+Уникальных host:port: 56
+Уникальных backend: 48
+Anycast: 27
 Unknown country: 7
 
 Топ стран:
-  🌐 Anycast: 28
+  🌐 Anycast: 27
   Unknown: 7
   Russia: 5
   Germany: 4
-  Netherlands: 3
-  Poland: 2
-  Finland: 2
+  Poland: 3
+  United States: 3
   France: 2
-  United States: 2
+  Netherlands: 2
   Switzerland: 2
+  Finland: 1
 
 Топ SNI:
-  max.ru: 6
   storage.yandex.net: 4
-  yandex.ru: 3
-  www.kinopoisk.ru: 2
-  eh.vk.com: 2
-  cloudflare.com: 2
+  ads.x5.ru: 3
+  vk.ru: 2
+  www.vk.ru: 2
+  max.ru: 2
+  vk.com: 2
   www.cloudflare.com: 2
-  ee.seaspirit.dpdns.org: 2
+  us2.wxgqlfx.icu: 2
   ssl.fastly.com: 2
-  www.avito.ru: 1
+  ee.seaspirit.dpdns.org: 2
 
 Топ портов:
-  443: 38
-  8443: 6
-  2053: 3
+  443: 32
+  8443: 7
+  30904: 2
+  26146: 2
+  2097: 1
+  8441: 1
   28737: 1
-  1111: 1
-  8080: 1
   65535: 1
-  666: 1
-  55555: 1
-  9443: 1
+  4089: 1
+  1111: 1
 
 Топ схем:
-  vless: 57
+  vless: 56
 
 Топ transport:
-  tcp: 37
-  ws: 10
-  xhttp: 7
+  tcp: 36
+  ws: 12
+  xhttp: 4
   grpc: 3
+  raw: 1
 
 Топ security:
-  reality: 44
-  tls: 13
+  reality: 40
+  tls: 16
 
 ────────────────────────────────────────────────────────────────────
 📊 lte
@@ -482,123 +510,130 @@ Unknown country: 7
 Всего конфигов: 25
 Уникальных строк: 25
 Уникальных host:port: 25
-Уникальных backend: 20
+Уникальных backend: 23
 Anycast: 13
 Unknown country: 0
 
 Топ стран:
   🌐 Anycast: 13
-  Russia: 4
   United States: 3
-  Poland: 2
+  Poland: 3
+  Germany: 2
   Finland: 1
-  Germany: 1
   Netherlands: 1
+  Russia: 1
+  France: 1
 
 Топ SNI:
-  max.ru: 6
-  yandex.ru: 3
-  eh.vk.com: 2
+  ads.x5.ru: 3
   us2.wxgqlfx.icu: 2
+  max.ru: 2
+  ee.seaspirit.dpdns.org: 2
   maps.apple.com: 1
-  shegeftihaaa.net: 1
   argavan-333-production.up.railway.app: 1
-  cdn-mws.garagecloud.ru: 1
   apple.com: 1
-  www.kinopoisk.ru: 1
+  www.vk.com: 1
+  shegeftihaaa.net: 1
+  shadyvpn-production-afff.up.railway.app: 1
 
 Топ портов:
-  443: 22
+  443: 17
+  8443: 2
   9443: 1
+  28737: 1
   65535: 1
   50863: 1
+  4089: 1
+  1111: 1
 
 Топ схем:
-  vless: 24
-  trojan: 1
+  vless: 23
+  trojan: 2
 
 Топ transport:
-  tcp: 12
-  ws: 7
-  xhttp: 5
-  grpc: 1
+  ws: 12
+  tcp: 7
+  xhttp: 3
+  grpc: 2
+  raw: 1
 
 Топ security:
-  reality: 16
-  tls: 9
+  tls: 14
+  reality: 11
 
 ====================================================================
 🌍 GLOBAL SUMMARY
 ====================================================================
-Всего конфигов: 391
-Уникальных строк: 145
-Уникальных host:port: 145
+Всего конфигов: 400
+Уникальных строк: 154
+Уникальных host:port: 143
 Уникальных backend: 108
-Anycast: 180
-Unknown country: 43
+Anycast: 177
+Unknown country: 45
 
 Топ стран:
-  🌐 Anycast: 180
-  Germany: 45
-  Unknown: 43
-  Russia: 20
-  Netherlands: 19
-  United States: 19
-  Poland: 18
-  Finland: 10
+  🌐 Anycast: 177
+  Germany: 49
+  Unknown: 45
+  United States: 23
+  Netherlands: 21
+  Russia: 18
+  Poland: 17
+  Finland: 12
+  France: 10
   Switzerland: 10
   Japan: 10
-  France: 9
   India: 6
   Czechia: 2
 
 Топ SNI:
-  max.ru: 28
   storage.yandex.net: 16
-  yandex.ru: 15
-  ssl.fastly.com: 10
+  ads.x5.ru: 14
+  ssl.fastly.com: 11
+  us2.wxgqlfx.icu: 10
+  ee.seaspirit.dpdns.org: 10
+  max.ru: 9
+  vk.com: 9
   95r.ir: 9
-  us2.wxgqlfx.icu: 9
-  eh.vk.com: 8
   unnes.ac.id.yxls.eu.cc: 8
-  cloudflare.com: 8
-  ee.seaspirit.dpdns.org: 8
   cdn.gamingdll.ir: 8
+  hhcm.hhxaf.cc.cd: 8
   tjsp.hhxaf.cc.cd: 8
   3-mitivpn.global.ssl.fastly.net: 8
-  www.kinopoisk.ru: 7
-  hhcm.hhxaf.cc.cd: 7
+  cloudflare.com: 7
+  fta.fontanvpn.com: 6
 
 Топ портов:
-  443: 268
-  8443: 26
-  80: 16
-  2053: 10
+  443: 242
+  8443: 32
+  80: 18
+  26146: 6
+  30904: 6
   65535: 5
-  1111: 4
-  28737: 4
-  9443: 4
-  50863: 4
-  10000: 4
-  8080: 3
-  9881: 3
-  55555: 3
-  1443: 3
-  666: 3
+  28737: 5
+  1111: 5
+  8444: 5
+  8450: 5
+  8451: 5
+  8465: 5
+  2053: 5
+  4089: 4
+  2097: 4
 
 Топ схем:
-  vless: 251
-  trojan: 105
-  hysteria2: 35
+  vless: 246
+  trojan: 107
+  hysteria2: 47
 
 Топ transport:
-  tcp: 228
-  ws: 114
-  xhttp: 33
-  grpc: 14
+  tcp: 232
+  ws: 127
+  xhttp: 19
+  grpc: 15
+  raw: 5
   httpupgrade: 2
 
 Топ security:
-  reality: 170
-  tls: 149
-  none: 72
+  tls: 161
+  reality: 156
+  none: 83
