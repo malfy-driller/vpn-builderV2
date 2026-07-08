@@ -1,5 +1,5 @@
 VPN Builder stats summary
-Generated at: 2026-07-09 01:43:02 MSK
+Generated at: 2026-07-09 02:45:31 MSK
 
 ====================================================================
 RAW GROUPS
@@ -8,97 +8,107 @@ RAW GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 25
-Уникальных строк: 23
-Уникальных host:port: 14
-Уникальных backend: 14
-Anycast: 9
-Unknown country: 0
+Всего конфигов: 66
+Уникальных строк: 51
+Уникальных host:port: 34
+Уникальных backend: 26
+Anycast: 30
+Unknown country: 1
 
 Топ стран:
-  🌐 Anycast: 9
-  Germany: 6
-  Russia: 6
-  Netherlands: 4
+  🌐 Anycast: 30
+  Russia: 24
+  Netherlands: 7
+  France: 2
+  Germany: 2
+  Unknown: 1
 
 Топ SNI:
+  cdn.stroimvmeste.icu: 9
+  rezerv8.yunus.guru: 6
+  max.ru: 6
+  viennaairport: 6
+  api-maps.yandex.ru: 5
   ya.ru: 4
-  cdn.stroimvmeste.icu: 4
-  cdn.jsdelivr.net: 4
-  yandex.ru: 3
-  141.98.87.48: 2
-  192.144.13.35: 2
-  yandex.net: 2
-  yastatic.net: 2
-  eh.vk.com: 1
-  api-maps.yandex.ru: 1
+  kookas.fi: 4
+  sun2-11.userapi.com: 4
+  yastatic.net: 4
+  rbc.ru: 3
 
 Топ портов:
-  443: 14
+  443: 46
+  5443: 6
   8443: 4
+  7443: 3
   9999: 2
   59242: 2
-  48212: 2
-  2053: 1
+  2053: 2
+  8450: 1
 
 Топ схем:
-  vless: 25
+  vless: 66
 
 Топ transport:
-  tcp: 8
-  xhttp: 8
-  raw: 7
-  grpc: 2
+  tcp: 40
+  xhttp: 11
+  raw: 8
+  grpc: 7
 
 Топ security:
-  reality: 17
-  tls: 4
+  reality: 51
+  tls: 11
   none: 4
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_vless
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 17
-Уникальных строк: 17
-Уникальных host:port: 9
-Уникальных backend: 9
-Anycast: 5
-Unknown country: 0
+Всего конфигов: 34
+Уникальных строк: 34
+Уникальных host:port: 23
+Уникальных backend: 16
+Anycast: 18
+Unknown country: 1
 
 Топ стран:
-  Germany: 6
-  🌐 Anycast: 5
+  🌐 Anycast: 18
+  Russia: 8
   Netherlands: 4
-  Russia: 2
+  Germany: 2
+  Unknown: 1
+  France: 1
 
 Топ SNI:
-  cdn.stroimvmeste.icu: 4
-  cdn.jsdelivr.net: 4
+  cdn.stroimvmeste.icu: 9
+  rezerv8.yunus.guru: 3
+  max.ru: 3
+  viennaairport: 3
+  sun2-11.userapi.com: 2
   ya.ru: 2
-  141.98.87.48: 2
+  api.vk.ru: 2
+  kookas.fi: 2
   192.144.13.35: 2
-  yandex.ru: 2
-  eh.vk.com: 1
+  vpn.oplatasite.ru: 2
 
 Топ портов:
-  443: 7
+  443: 22
   8443: 4
+  5443: 3
   9999: 2
   59242: 2
-  48212: 2
+  8450: 1
 
 Топ схем:
-  vless: 17
+  vless: 34
 
 Топ transport:
-  xhttp: 8
+  tcp: 14
+  xhttp: 10
   raw: 6
-  grpc: 2
-  tcp: 1
+  grpc: 4
 
 Топ security:
-  reality: 9
-  tls: 4
+  reality: 19
+  tls: 11
   none: 4
 
 ────────────────────────────────────────────────────────────────────
@@ -171,98 +181,108 @@ FINAL GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 14
-Уникальных строк: 14
-Уникальных host:port: 14
-Уникальных backend: 13
-Anycast: 5
-Unknown country: 0
+Всего конфигов: 34
+Уникальных строк: 34
+Уникальных host:port: 34
+Уникальных backend: 26
+Anycast: 15
+Unknown country: 1
 
 Топ стран:
-  🌐 Anycast: 5
-  Germany: 4
-  Russia: 4
-  Netherlands: 1
+  🌐 Anycast: 15
+  Russia: 13
+  Netherlands: 2
+  Germany: 2
+  France: 1
+  Unknown: 1
 
 Топ SNI:
+  api-maps.yandex.ru: 4
+  max.ru: 3
+  sun2-11.userapi.com: 3
+  viennaairport: 3
   yastatic.net: 2
-  yandex.ru: 2
+  kookas.fi: 2
+  api.vk.ru: 2
   ya.ru: 2
   cdn.stroimvmeste.icu: 2
-  eh.vk.com: 1
-  api-maps.yandex.ru: 1
-  cdn.jsdelivr.net: 1
-  yandex.net: 1
-  192.144.13.35: 1
-  141.98.87.48: 1
+  ads.x5.ru: 1
 
 Топ портов:
-  443: 9
-  8443: 1
-  48212: 1
+  443: 22
+  5443: 3
+  8443: 3
+  9999: 2
   2053: 1
   59242: 1
-  9999: 1
+  8450: 1
+  7443: 1
 
 Топ схем:
-  vless: 14
+  vless: 34
 
 Топ transport:
-  tcp: 6
-  raw: 4
-  xhttp: 3
-  grpc: 1
+  tcp: 21
+  raw: 5
+  xhttp: 4
+  grpc: 4
 
 Топ security:
-  reality: 10
-  tls: 2
-  none: 2
+  reality: 28
+  tls: 3
+  none: 3
 
 ────────────────────────────────────────────────────────────────────
 📊 white_vless
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 9
-Уникальных строк: 9
-Уникальных host:port: 9
-Уникальных backend: 8
-Anycast: 3
-Unknown country: 0
+Всего конфигов: 23
+Уникальных строк: 23
+Уникальных host:port: 23
+Уникальных backend: 16
+Anycast: 11
+Unknown country: 1
 
 Топ стран:
-  Germany: 4
-  🌐 Anycast: 3
-  Netherlands: 1
-  Russia: 1
+  🌐 Anycast: 11
+  Russia: 6
+  Netherlands: 2
+  Germany: 2
+  France: 1
+  Unknown: 1
 
 Топ SNI:
+  max.ru: 3
+  viennaairport: 3
+  kookas.fi: 2
+  sun2-11.userapi.com: 2
   ya.ru: 2
+  api.vk.ru: 2
   cdn.stroimvmeste.icu: 2
-  eh.vk.com: 1
-  yandex.ru: 1
+  api-maps.yandex.ru: 1
+  rezerv8.yunus.guru: 1
   cdn.jsdelivr.net: 1
-  192.144.13.35: 1
-  141.98.87.48: 1
 
 Топ портов:
-  443: 5
-  48212: 1
-  8443: 1
+  443: 13
+  5443: 3
+  8443: 3
+  9999: 2
+  8450: 1
   59242: 1
-  9999: 1
 
 Топ схем:
-  vless: 9
+  vless: 23
 
 Топ transport:
-  raw: 4
+  tcp: 11
+  raw: 5
+  grpc: 4
   xhttp: 3
-  grpc: 1
-  tcp: 1
 
 Топ security:
-  reality: 5
-  none: 2
-  tls: 2
+  reality: 17
+  none: 3
+  tls: 3
 
 ────────────────────────────────────────────────────────────────────
 📊 black_all
@@ -330,123 +350,124 @@ Unknown country: 9
 ────────────────────────────────────────────────────────────────────
 📊 pool
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 59
-Уникальных строк: 59
-Уникальных host:port: 59
-Уникальных backend: 53
-Anycast: 25
+Всего конфигов: 76
+Уникальных строк: 76
+Уникальных host:port: 76
+Уникальных backend: 66
+Anycast: 35
 Unknown country: 9
 
 Топ стран:
-  🌐 Anycast: 25
+  🌐 Anycast: 35
+  Russia: 11
   Unknown: 9
-  Netherlands: 6
-  Germany: 5
-  Russia: 4
+  Netherlands: 7
+  Germany: 3
+  France: 3
   United States: 3
-  France: 2
   Poland: 2
   Finland: 1
   Japan: 1
 
 Топ SNI:
-  yandex.ru: 2
-  yastatic.net: 2
-  cdn.stroimvmeste.icu: 2
+  api-maps.yandex.ru: 4
   ya.ru: 2
-  apexcloud.ggff.net: 2
-  ro.spectrum.vu: 2
+  viennaairport: 2
+  max.ru: 2
+  cdn.stroimvmeste.icu: 2
+  yastatic.net: 2
+  api.vk.ru: 2
+  sun2-11.userapi.com: 2
+  kookas.fi: 2
   www.cloudflare.com: 2
-  ssl.fastly.com: 2
-  tjplay.lxdxo.kdns.fr: 2
-  space.byu.id.yxls.eu.cc: 2
 
 Топ портов:
-  443: 37
-  80: 3
-  8443: 2
+  443: 48
+  8443: 5
+  9999: 2
+  5443: 2
+  80: 2
   59242: 1
   2053: 1
-  9999: 1
-  48212: 1
-  60111: 1
-  55089: 1
-  32521: 1
+  7443: 1
+  8450: 1
+  57150: 1
 
 Топ схем:
-  vless: 42
+  vless: 59
   trojan: 11
   hysteria2: 6
 
 Топ transport:
+  tcp: 35
   ws: 26
-  tcp: 22
-  raw: 4
-  xhttp: 4
-  grpc: 3
+  xhttp: 5
+  raw: 5
+  grpc: 5
 
 Топ security:
-  tls: 24
+  reality: 32
+  tls: 26
   none: 17
-  reality: 17
   false: 1
 
 ────────────────────────────────────────────────────────────────────
 📊 mixed
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 30
-Уникальных строк: 30
-Уникальных host:port: 30
-Уникальных backend: 28
-Anycast: 9
+Всего конфигов: 47
+Уникальных строк: 47
+Уникальных host:port: 47
+Уникальных backend: 41
+Anycast: 20
 Unknown country: 3
 
 Топ стран:
-  🌐 Anycast: 9
-  Netherlands: 5
-  Russia: 3
-  Germany: 3
-  United States: 3
+  🌐 Anycast: 20
+  Russia: 10
+  Netherlands: 6
   Unknown: 3
+  United States: 3
+  France: 2
   Finland: 1
   Poland: 1
-  France: 1
   Switzerland: 1
 
 Топ SNI:
-  ya.ru: 2
-  yastatic.net: 2
-  yandex.ru: 2
+  api-maps.yandex.ru: 4
   cdn.stroimvmeste.icu: 2
+  max.ru: 2
+  ya.ru: 2
+  sun2-11.userapi.com: 2
+  api.vk.ru: 2
+  yastatic.net: 2
+  viennaairport: 2
+  kookas.fi: 2
   www.cloudflare.com: 2
-  ro.spectrum.vu: 2
-  eh.vk.com: 1
-  yandex.net: 1
-  api-maps.yandex.ru: 1
-  cdn.jsdelivr.net: 1
 
 Топ портов:
-  443: 23
-  8443: 2
+  443: 34
+  8443: 5
+  5443: 2
+  7443: 1
   2053: 1
-  48212: 1
+  8450: 1
+  2087: 1
   25367: 1
   42670: 1
-  2087: 1
 
 Топ схем:
-  vless: 30
+  vless: 47
 
 Топ transport:
-  tcp: 12
-  ws: 9
-  xhttp: 4
-  grpc: 3
-  raw: 2
+  tcp: 24
+  ws: 10
+  xhttp: 5
+  grpc: 5
+  raw: 3
 
 Топ security:
-  reality: 17
-  tls: 13
+  reality: 32
+  tls: 15
 
 ────────────────────────────────────────────────────────────────────
 📊 lte
@@ -454,126 +475,121 @@ Unknown country: 3
 Всего конфигов: 25
 Уникальных строк: 25
 Уникальных host:port: 25
-Уникальных backend: 24
-Anycast: 7
+Уникальных backend: 23
+Anycast: 10
 Unknown country: 0
 
 Топ стран:
-  🌐 Anycast: 7
-  Netherlands: 5
-  Germany: 3
-  United States: 3
-  France: 2
-  Poland: 2
-  Russia: 2
-  Finland: 1
+  🌐 Anycast: 10
+  Russia: 5
+  Netherlands: 4
+  France: 3
+  United States: 2
+  Poland: 1
 
 Топ SNI:
+  api-maps.yandex.ru: 4
+  max.ru: 2
   cdn.stroimvmeste.icu: 2
-  yandex.ru: 2
+  amooaliii.net: 1
+  ads.x5.ru: 1
+  x4g-production-fa85.up.railway.app: 1
+  x4g-production-1506.up.railway.app: 1
   x4g-production-13a0.up.railway.app: 1
   x4g-production-145b.up.railway.app: 1
-  x4g-production-1506.up.railway.app: 1
-  amooaliii.net: 1
-  x4g-production-a9ee.up.railway.app: 1
-  x4g-production-fa85.up.railway.app: 1
   x4g-production-6e53.up.railway.app: 1
-  eh.vk.com: 1
 
 Топ портов:
-  443: 20
-  2087: 1
-  8443: 1
+  443: 19
+  5443: 2
+  8443: 2
   2053: 1
-  48212: 1
-  25367: 1
+  2087: 1
 
 Топ схем:
-  vless: 22
-  trojan: 3
+  vless: 23
+  trojan: 2
 
 Топ transport:
   ws: 12
-  tcp: 7
+  tcp: 9
   xhttp: 4
-  raw: 1
-  grpc: 1
 
 Топ security:
-  tls: 15
-  reality: 10
+  tls: 16
+  reality: 9
 
 ====================================================================
 🌍 GLOBAL SUMMARY
 ====================================================================
-Всего конфигов: 191
-Уникальных строк: 68
-Уникальных host:port: 64
-Уникальных backend: 53
-Anycast: 75
-Unknown country: 21
+Всего конфигов: 259
+Уникальных строк: 88
+Уникальных host:port: 84
+Уникальных backend: 66
+Anycast: 117
+Unknown country: 23
 
 Топ стран:
-  🌐 Anycast: 75
-  Netherlands: 23
-  Unknown: 21
-  Germany: 20
-  Russia: 14
-  United States: 13
-  France: 8
-  Poland: 8
-  Finland: 4
+  🌐 Anycast: 117
+  Russia: 45
+  Netherlands: 26
+  Unknown: 23
+  France: 13
+  United States: 12
+  Germany: 8
+  Poland: 7
+  Finland: 3
   Switzerland: 3
   Japan: 2
 
 Топ SNI:
+  api-maps.yandex.ru: 17
+  max.ru: 12
   cdn.stroimvmeste.icu: 11
-  yastatic.net: 9
-  yandex.ru: 9
+  viennaairport: 10
+  sun2-11.userapi.com: 9
+  yastatic.net: 8
+  kookas.fi: 8
+  api.vk.ru: 8
   ya.ru: 8
-  www.cloudflare.com: 7
+  apexcloud.ggff.net: 7
+  www.cloudflare.com: 6
   tjplay.lxdxo.kdns.fr: 6
   ro.spectrum.vu: 6
   ssl.fastly.com: 6
-  eh.vk.com: 5
-  cdn.jsdelivr.net: 5
-  yandex.net: 5
-  space.byu.id.yxls.eu.cc: 5
-  apexcloud.ggff.net: 5
-  api-maps.yandex.ru: 4
-  x4g-production-fa85.up.railway.app: 4
+  vpn.oplatasite.ru: 5
 
 Топ портов:
-  443: 130
-  8443: 9
-  80: 6
-  48212: 5
+  443: 172
+  8443: 20
+  5443: 12
+  9999: 6
+  80: 5
   2053: 4
-  25367: 4
+  8450: 4
   2087: 4
   59242: 3
-  9999: 3
+  7443: 3
+  25367: 3
   42670: 3
   54603: 2
   8585: 2
   28168: 2
-  55089: 2
-  32521: 2
 
 Топ схем:
-  vless: 150
-  trojan: 29
+  vless: 219
+  trojan: 28
   hysteria2: 12
 
 Топ transport:
-  ws: 78
-  tcp: 67
-  xhttp: 20
-  raw: 15
-  grpc: 11
+  tcp: 119
+  ws: 79
+  xhttp: 23
+  grpc: 20
+  raw: 18
 
 Топ security:
-  tls: 84
-  reality: 69
-  none: 36
+  reality: 128
+  tls: 91
+  none: 38
   false: 2
