@@ -1,5 +1,5 @@
 VPN Builder stats summary
-Generated at: 2026-07-09 20:06:05 MSK
+Generated at: 2026-07-09 22:01:52 MSK
 
 ====================================================================
 RAW GROUPS
@@ -8,88 +8,95 @@ RAW GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 17
-Уникальных строк: 12
-Уникальных host:port: 8
-Уникальных backend: 8
-Anycast: 4
-Unknown country: 2
+Всего конфигов: 26
+Уникальных строк: 17
+Уникальных host:port: 10
+Уникальных backend: 10
+Anycast: 7
+Unknown country: 6
 
 Топ стран:
-  Germany: 10
-  🌐 Anycast: 4
-  Unknown: 2
-  Russia: 1
+  Germany: 8
+  🌐 Anycast: 7
+  Unknown: 6
+  Russia: 3
+  Netherlands: 2
 
 Топ SNI:
+  max.ru: 6
   api-maps.yandex.ru: 6
-  ads.x5.ru: 3
-  141.98.87.48: 3
-  max.ru: 2
-  freetg.strettenvpn.com: 1
-  www.amd.com: 1
+  ads.x5.ru: 6
+  sso.passport.yandex.ru: 2
+  141.98.87.48: 2
+  yandex.ru: 2
+  192.144.13.35: 1
   yandex.net: 1
 
 Топ портов:
+  1829: 10
   1695: 6
-  443: 4
-  9999: 4
-  1829: 2
-  544: 1
+  443: 5
+  9999: 2
+  48212: 2
+  59242: 1
 
 Топ схем:
-  vless: 17
+  vless: 26
 
 Топ transport:
-  raw: 11
-  tcp: 5
-  xhttp: 1
+  raw: 20
+  tcp: 4
+  grpc: 2
 
 Топ security:
-  reality: 13
-  none: 4
+  reality: 23
+  none: 3
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_vless
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 10
-Уникальных строк: 10
-Уникальных host:port: 6
-Уникальных backend: 6
-Anycast: 2
-Unknown country: 1
+Всего конфигов: 15
+Уникальных строк: 15
+Уникальных host:port: 8
+Уникальных backend: 8
+Anycast: 4
+Unknown country: 3
 
 Топ стран:
-  Germany: 7
-  🌐 Anycast: 2
-  Unknown: 1
+  Germany: 5
+  🌐 Anycast: 4
+  Unknown: 3
+  Russia: 2
+  Netherlands: 1
 
 Топ SNI:
-  141.98.87.48: 3
+  max.ru: 3
+  ads.x5.ru: 3
   api-maps.yandex.ru: 3
-  max.ru: 1
-  freetg.strettenvpn.com: 1
-  ads.x5.ru: 1
-  www.amd.com: 1
+  141.98.87.48: 2
+  yandex.ru: 2
+  sso.passport.yandex.ru: 1
+  192.144.13.35: 1
 
 Топ портов:
-  9999: 4
+  1829: 5
   1695: 3
-  1829: 1
-  443: 1
-  544: 1
+  9999: 2
+  443: 2
+  48212: 2
+  59242: 1
 
 Топ схем:
-  vless: 10
+  vless: 15
 
 Топ transport:
-  raw: 7
-  tcp: 2
-  xhttp: 1
+  raw: 12
+  grpc: 2
+  tcp: 1
 
 Топ security:
-  reality: 6
-  none: 4
+  reality: 12
+  none: 3
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW black_all
@@ -158,87 +165,93 @@ FINAL GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 8
-Уникальных строк: 8
-Уникальных host:port: 8
-Уникальных backend: 8
+Всего конфигов: 10
+Уникальных строк: 10
+Уникальных host:port: 10
+Уникальных backend: 10
 Anycast: 3
 Unknown country: 1
 
 Топ стран:
+  Russia: 3
   🌐 Anycast: 3
-  Germany: 3
-  Russia: 1
+  Germany: 2
+  Netherlands: 1
   Unknown: 1
 
 Топ SNI:
-  ads.x5.ru: 2
-  api-maps.yandex.ru: 1
+  ads.x5.ru: 3
+  sso.passport.yandex.ru: 1
   yandex.net: 1
-  www.amd.com: 1
-  freetg.strettenvpn.com: 1
+  yandex.ru: 1
   141.98.87.48: 1
+  192.144.13.35: 1
+  api-maps.yandex.ru: 1
   max.ru: 1
 
 Топ портов:
-  443: 3
-  9999: 2
+  443: 4
+  1829: 2
+  48212: 1
+  9999: 1
+  59242: 1
   1695: 1
-  544: 1
-  1829: 1
 
 Топ схем:
-  vless: 8
+  vless: 10
 
 Топ transport:
-  raw: 4
-  tcp: 3
-  xhttp: 1
+  raw: 7
+  tcp: 2
+  grpc: 1
 
 Топ security:
-  reality: 6
+  reality: 8
   none: 2
 
 ────────────────────────────────────────────────────────────────────
 📊 white_vless
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 6
-Уникальных строк: 6
-Уникальных host:port: 6
-Уникальных backend: 6
+Всего конфигов: 8
+Уникальных строк: 8
+Уникальных host:port: 8
+Уникальных backend: 8
 Anycast: 2
 Unknown country: 1
 
 Топ стран:
-  Germany: 3
+  Russia: 2
+  Germany: 2
   🌐 Anycast: 2
+  Netherlands: 1
   Unknown: 1
 
 Топ SNI:
-  ads.x5.ru: 1
+  ads.x5.ru: 2
+  sso.passport.yandex.ru: 1
+  yandex.ru: 1
   api-maps.yandex.ru: 1
+  192.144.13.35: 1
   141.98.87.48: 1
-  www.amd.com: 1
   max.ru: 1
-  freetg.strettenvpn.com: 1
 
 Топ портов:
-  9999: 2
-  443: 1
+  443: 2
+  1829: 2
+  48212: 1
   1695: 1
-  544: 1
-  1829: 1
+  59242: 1
+  9999: 1
 
 Топ схем:
-  vless: 6
+  vless: 8
 
 Топ transport:
-  raw: 4
-  xhttp: 1
-  tcp: 1
+  raw: 7
+  grpc: 1
 
 Топ security:
-  reality: 4
+  reality: 6
   none: 2
 
 ────────────────────────────────────────────────────────────────────
@@ -255,22 +268,22 @@ Unknown country: 6
   🌐 Anycast: 25
   France: 6
   Unknown: 6
-  Netherlands: 5
   United States: 5
-  Poland: 2
+  Netherlands: 5
   Germany: 2
+  Poland: 2
 
 Топ SNI:
   stx4x.gyvz.kj2.hh.hhyf.kdns.fr: 4
   apexcloud.ggff.net: 3
   JoinProxyVPN11.vangoghhh.info: 2
+  pl.spectrum.vu: 2
   wbz6z.ok7s.ceq.hh.hhyf.kdns.fr: 2
   www.yahoo.com: 2
-  pl.spectrum.vu: 2
   t1.hhaakk9922.com: 2
-  ads.x5.ru: 1
-  www.twitch.tv: 1
-  x4g1.up.railway.app: 1
+  x4g-production-caeb.up.railway.app: 1
+  manage.fastly.com: 1
+  aws-us-east-1.amazon.com: 1
 
 Топ портов:
   443: 34
@@ -281,8 +294,8 @@ Unknown country: 6
   2083: 1
   2087: 1
   22000: 1
-  46783: 1
   7080: 1
+  46783: 1
 
 Топ схем:
   vless: 42
@@ -303,121 +316,121 @@ Unknown country: 6
 ────────────────────────────────────────────────────────────────────
 📊 pool
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 54
-Уникальных строк: 54
-Уникальных host:port: 54
-Уникальных backend: 48
+Всего конфигов: 56
+Уникальных строк: 56
+Уникальных host:port: 56
+Уникальных backend: 50
 Anycast: 24
 Unknown country: 7
 
 Топ стран:
   🌐 Anycast: 24
   Unknown: 7
-  Germany: 5
-  Netherlands: 5
-  France: 5
+  Netherlands: 6
   United States: 5
+  France: 5
+  Germany: 4
+  Russia: 3
   Poland: 2
-  Russia: 1
 
 Топ SNI:
-  ads.x5.ru: 2
-  apexcloud.ggff.net: 2
-  JoinProxyVPN11.vangoghhh.info: 2
+  ads.x5.ru: 3
   www.yahoo.com: 2
-  t1.hhaakk9922.com: 2
-  wbz6z.ok7s.ceq.hh.hhyf.kdns.fr: 2
-  stx4x.gyvz.kj2.hh.hhyf.kdns.fr: 2
   pl.spectrum.vu: 2
+  JoinProxyVPN11.vangoghhh.info: 2
+  stx4x.gyvz.kj2.hh.hhyf.kdns.fr: 2
+  wbz6z.ok7s.ceq.hh.hhyf.kdns.fr: 2
+  apexcloud.ggff.net: 2
+  t1.hhaakk9922.com: 2
+  yandex.net: 1
   max.ru: 1
-  www.amd.com: 1
 
 Топ портов:
-  443: 33
+  443: 34
   80: 4
   8443: 3
-  9999: 2
-  1829: 1
-  544: 1
+  1829: 2
   1695: 1
-  2083: 1
-  46780: 1
-  7080: 1
+  9999: 1
+  59242: 1
+  48212: 1
+  60111: 1
+  22000: 1
 
 Топ схем:
-  vless: 45
+  vless: 47
   hysteria2: 5
   trojan: 4
 
 Топ transport:
   ws: 21
-  tcp: 19
-  xhttp: 7
-  raw: 4
-  grpc: 3
+  tcp: 18
+  raw: 7
+  xhttp: 6
+  grpc: 4
 
 Топ security:
   tls: 28
-  reality: 14
+  reality: 16
   none: 12
 
 ────────────────────────────────────────────────────────────────────
 📊 mixed
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 37
-Уникальных строк: 37
-Уникальных host:port: 37
-Уникальных backend: 32
+Всего конфигов: 39
+Уникальных строк: 39
+Уникальных host:port: 39
+Уникальных backend: 34
 Anycast: 17
 Unknown country: 4
 
 Топ стран:
   🌐 Anycast: 17
+  Netherlands: 5
   United States: 5
   Unknown: 4
-  Netherlands: 4
   France: 3
+  Russia: 2
   Germany: 2
-  Russia: 1
   Poland: 1
 
 Топ SNI:
-  ads.x5.ru: 2
-  JoinProxyVPN11.vangoghhh.info: 2
-  pl.spectrum.vu: 2
+  ads.x5.ru: 3
   wbz6z.ok7s.ceq.hh.hhyf.kdns.fr: 2
-  www.yahoo.com: 2
   t1.hhaakk9922.com: 2
+  pl.spectrum.vu: 2
+  JoinProxyVPN11.vangoghhh.info: 2
   stx4x.gyvz.kj2.hh.hhyf.kdns.fr: 2
-  max.ru: 1
-  api-maps.yandex.ru: 1
+  www.yahoo.com: 2
   yandex.net: 1
+  sso.passport.yandex.ru: 1
+  yandex.ru: 1
 
 Топ портов:
-  443: 24
+  443: 25
   8443: 3
-  1829: 1
+  1829: 2
+  48212: 1
   1695: 1
-  544: 1
+  46780: 1
   2053: 1
-  22287: 1
-  2087: 1
+  22000: 1
   2083: 1
-  46783: 1
+  2087: 1
 
 Топ схем:
-  vless: 37
+  vless: 39
 
 Топ transport:
   ws: 15
   tcp: 10
-  xhttp: 6
-  raw: 3
-  grpc: 3
+  raw: 5
+  xhttp: 5
+  grpc: 4
 
 Топ security:
   tls: 23
-  reality: 14
+  reality: 16
 
 ────────────────────────────────────────────────────────────────────
 📊 lte
@@ -426,117 +439,119 @@ Unknown country: 4
 Уникальных строк: 25
 Уникальных host:port: 25
 Уникальных backend: 23
-Anycast: 10
+Anycast: 8
 Unknown country: 0
 
 Топ стран:
-  🌐 Anycast: 10
-  United States: 5
+  🌐 Anycast: 8
+  Netherlands: 4
+  United States: 4
   France: 4
-  Netherlands: 3
-  Germany: 2
-  Poland: 1
+  Russia: 2
+  Poland: 2
+  Germany: 1
 
 Топ SNI:
   JoinProxyVPN11.vangoghhh.info: 2
   stx4x.gyvz.kj2.hh.hhyf.kdns.fr: 2
-  manage.fastly.com: 1
+  yandex.ru: 1
   185.5.75.151: 1
-  x4g1.up.railway.app: 1
-  x4g-production-caeb.up.railway.app: 1
-  x4g-production-75b2.up.railway.app: 1
+  manage.fastly.com: 1
   x4g-production-1aff.up.railway.app: 1
-  amooaliii.net: 1
   node-7946883854-bfd146-production.up.railway.app: 1
+  x4g1.up.railway.app: 1
+  x4g-production-75b2.up.railway.app: 1
+  amooaliii.net: 1
 
 Топ портов:
   443: 19
   8443: 3
-  2087: 1
+  48212: 1
   2083: 1
-  1695: 1
+  2087: 1
 
 Топ схем:
   vless: 22
   trojan: 3
 
 Топ transport:
-  ws: 16
+  ws: 15
   xhttp: 6
-  raw: 2
-  tcp: 1
+  tcp: 2
+  grpc: 1
+  raw: 1
 
 Топ security:
-  tls: 22
-  reality: 3
+  tls: 21
+  reality: 4
 
 ====================================================================
 🌍 GLOBAL SUMMARY
 ====================================================================
-Всего конфигов: 181
-Уникальных строк: 59
-Уникальных host:port: 57
-Уникальных backend: 48
-Anycast: 81
+Всего конфигов: 189
+Уникальных строк: 61
+Уникальных host:port: 59
+Уникальных backend: 50
+Anycast: 79
 Unknown country: 19
 
 Топ стран:
-  🌐 Anycast: 81
-  United States: 20
+  🌐 Anycast: 79
+  Netherlands: 22
   Unknown: 19
+  United States: 19
   France: 18
-  Germany: 17
-  Netherlands: 17
-  Poland: 6
-  Russia: 3
+  Germany: 13
+  Russia: 12
+  Poland: 7
 
 Топ SNI:
+  ads.x5.ru: 12
   stx4x.gyvz.kj2.hh.hhyf.kdns.fr: 10
-  ads.x5.ru: 9
   JoinProxyVPN11.vangoghhh.info: 8
   wbz6z.ok7s.ceq.hh.hhyf.kdns.fr: 7
   apexcloud.ggff.net: 7
-  www.yahoo.com: 6
   pl.spectrum.vu: 6
+  www.yahoo.com: 6
   t1.hhaakk9922.com: 6
-  api-maps.yandex.ru: 5
-  yandex.net: 4
-  www.amd.com: 4
+  sso.passport.yandex.ru: 5
+  yandex.net: 5
+  yandex.ru: 5
+  api-maps.yandex.ru: 4
   max.ru: 4
-  x4g1.up.railway.app: 4
-  x4g-production-1aff.up.railway.app: 4
-  ansooyefilter-production-abf6.up.railway.app: 4
+  x4g-production-caeb.up.railway.app: 4
+  manage.fastly.com: 4
 
 Топ портов:
-  443: 114
+  443: 118
   8443: 12
   80: 9
-  9999: 6
-  1695: 5
-  544: 4
-  1829: 4
+  1829: 8
+  48212: 5
+  1695: 4
   2083: 4
   2087: 4
+  9999: 3
+  59242: 3
   22287: 3
   2053: 3
   22000: 3
   46783: 3
   46780: 3
-  7080: 2
 
 Топ схем:
-  vless: 160
+  vless: 168
   trojan: 11
   hysteria2: 10
 
 Топ transport:
-  ws: 76
-  tcp: 52
-  xhttp: 27
-  raw: 17
-  grpc: 9
+  ws: 75
+  tcp: 50
+  raw: 27
+  xhttp: 23
+  grpc: 14
 
 Топ security:
-  tls: 103
-  reality: 51
+  tls: 102
+  reality: 60
   none: 27
