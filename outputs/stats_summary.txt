@@ -1,5 +1,5 @@
 VPN Builder stats summary
-Generated at: 2026-07-14 21:35:08 MSK
+Generated at: 2026-07-14 22:56:14 MSK
 
 ====================================================================
 RAW GROUPS
@@ -242,8 +242,8 @@ Unknown country: 8
   40443: 3
   45115: 2
   34443: 1
+  52794: 1
   1234: 1
-  41152: 1
 
 Топ схем:
   vless: 118
@@ -293,7 +293,7 @@ Unknown country: 8
   ai.sellflow.org: 4
   gb.sellflow.org: 4
   cdn.tracker.yandex.net: 3
-  fi.sellflow.org: 3
+  at.sellflow.org: 3
 
 Топ портов:
   443: 69
@@ -365,10 +365,10 @@ Unknown country: 9
   55000: 3
   8443: 2
   64584: 1
-  2090: 1
   8080: 1
+  2090: 1
   2083: 1
-  603: 1
+  1020: 1
 
 Топ схем:
   vless: 37
@@ -393,64 +393,65 @@ Unknown country: 9
 ────────────────────────────────────────────────────────────────────
 Всего конфигов: 150
 Уникальных строк: 150
-Уникальных host:port: 147
-Уникальных backend: 121
-Anycast: 73
-Unknown country: 15
+Уникальных host:port: 145
+Уникальных backend: 115
+Anycast: 72
+Unknown country: 17
 
 Топ стран:
-  🌐 Anycast: 73
-  Russia: 25
-  Unknown: 15
-  Netherlands: 10
-  Finland: 6
-  Germany: 6
-  Poland: 4
+  🌐 Anycast: 72
+  Russia: 23
+  Unknown: 17
+  Netherlands: 8
+  Finland: 7
+  Poland: 5
+  Germany: 5
   Estonia: 3
-  France: 2
-  United States: 2
+  France: 3
+  United States: 3
 
 Топ SNI:
-  api-maps.yandex.ru: 11
-  web.max.ru: 7
-  rutube.ru: 6
+  api-maps.yandex.ru: 13
+  web.max.ru: 9
+  rutube.ru: 8
+  ads.x5.ru: 5
   smartcaptcha.yandexcloud.net: 5
-  gb.sellflow.org: 4
-  ads.x5.ru: 4
-  max.ru: 4
+  ai.sellflow.org: 4
   sellflow.org: 4
-  eh.vk.ru: 3
-  fi.sellflow.org: 3
+  vk.com: 3
+  gb.sellflow.org: 3
+  fr.sellflow.org: 3
 
 Топ портов:
-  443: 100
+  443: 103
   8443: 9
   2053: 3
   444: 3
-  40443: 3
-  8880: 3
-  45115: 2
+  55000: 3
+  80: 3
   6443: 2
-  55000: 2
-  80: 2
+  40443: 2
+  8880: 2
+  4100: 1
 
 Топ схем:
-  vless: 129
-  trojan: 14
-  hysteria2: 4
+  vless: 128
+  trojan: 13
+  hysteria2: 6
   vmess: 3
 
 Топ transport:
   tcp: 89
-  grpc: 18
-  ws: 18
-  xhttp: 15
-  raw: 10
+  ws: 20
+  grpc: 20
+  xhttp: 13
+  raw: 8
 
 Топ security:
   reality: 105
-  tls: 28
-  none: 17
+  tls: 25
+  none: 19
+  false: 1
 
 ────────────────────────────────────────────────────────────────────
 📊 mixed
@@ -458,59 +459,59 @@ Unknown country: 15
 Всего конфигов: 59
 Уникальных строк: 59
 Уникальных host:port: 59
-Уникальных backend: 52
-Anycast: 28
-Unknown country: 2
+Уникальных backend: 51
+Anycast: 27
+Unknown country: 4
 
 Топ стран:
-  🌐 Anycast: 28
-  Russia: 11
-  Netherlands: 4
-  Germany: 4
-  Unknown: 2
+  🌐 Anycast: 27
+  Russia: 10
+  Netherlands: 5
+  Unknown: 4
+  Finland: 3
+  Germany: 3
   Poland: 2
   Estonia: 2
-  Finland: 2
   United States: 2
   France: 1
 
 Топ SNI:
-  web.max.ru: 4
-  rutube.ru: 3
-  api-maps.yandex.ru: 3
+  api-maps.yandex.ru: 6
+  rutube.ru: 5
+  smartcaptcha.yandexcloud.net: 3
   ads.x5.ru: 3
-  cdn.tracker.yandex.net: 3
-  gb.sellflow.org: 2
-  t1s1.rittbo.kdns.fr: 2
+  web.max.ru: 3
+  dzen.ru: 2
   fi.sellflow.org: 2
+  fr.sellflow.org: 2
+  gb.sellflow.org: 2
   sellflow.org: 2
-  at.sellflow.org: 2
 
 Топ портов:
-  443: 39
-  8443: 7
+  443: 40
+  8443: 6
   2053: 3
-  444: 2
-  40443: 2
-  2443: 1
-  41152: 1
+  6443: 2
+  45115: 1
+  1234: 1
+  8444: 1
+  40443: 1
   7443: 1
-  1020: 1
   603: 1
 
 Топ схем:
   vless: 59
 
 Топ transport:
-  tcp: 36
-  grpc: 9
-  xhttp: 8
-  raw: 4
+  tcp: 40
+  grpc: 8
+  xhttp: 6
+  raw: 3
   ws: 2
 
 Топ security:
-  reality: 52
-  tls: 7
+  reality: 53
+  tls: 6
 
 ────────────────────────────────────────────────────────────────────
 📊 lte
@@ -518,52 +519,53 @@ Unknown country: 2
 Всего конфигов: 25
 Уникальных строк: 25
 Уникальных host:port: 25
-Уникальных backend: 25
-Anycast: 6
+Уникальных backend: 24
+Anycast: 1
 Unknown country: 0
 
 Топ стран:
-  Russia: 11
-  🌐 Anycast: 6
+  Russia: 14
+  Germany: 3
   Finland: 2
-  Germany: 2
-  United States: 2
+  Estonia: 1
+  United States: 1
   Czechia: 1
   France: 1
+  🌐 Anycast: 1
+  Poland: 1
 
 Топ SNI:
-  web.max.ru: 6
-  api-maps.yandex.ru: 3
-  ads.x5.ru: 3
+  web.max.ru: 7
+  ads.x5.ru: 4
+  api-maps.yandex.ru: 2
+  rutube.ru: 2
   max.ru: 2
   vk.com: 2
   cdn.tracker.yandex.net: 2
   test-azaditim-4bda.up.railway.app: 1
   manage.fastly.com: 1
-  backbone.unlimitedteam.space: 1
   amooaliii.net: 1
 
 Топ портов:
-  443: 18
+  443: 19
   444: 3
+  8443: 1
   41152: 1
   36104: 1
-  2083: 1
-  8443: 1
 
 Топ схем:
   vless: 25
 
 Топ transport:
   tcp: 13
-  xhttp: 6
-  grpc: 4
+  grpc: 5
+  xhttp: 5
   ws: 1
   raw: 1
 
 Топ security:
-  reality: 20
-  tls: 5
+  reality: 22
+  tls: 3
 
 ====================================================================
 🌍 GLOBAL SUMMARY
@@ -572,73 +574,73 @@ Unknown country: 0
 Уникальных строк: 195
 Уникальных host:port: 182
 Уникальных backend: 137
-Anycast: 241
-Unknown country: 42
+Anycast: 234
+Unknown country: 46
 
 Топ стран:
-  🌐 Anycast: 241
+  🌐 Anycast: 234
   Russia: 95
-  Unknown: 42
-  Netherlands: 29
-  Germany: 24
-  Finland: 23
-  Poland: 13
-  Estonia: 11
-  France: 9
+  Unknown: 46
+  Netherlands: 28
+  Finland: 25
+  Germany: 23
+  Poland: 15
+  Estonia: 12
+  France: 10
   United States: 9
-  Czechia: 5
-  India: 4
-  Kazakhstan: 3
+  Czechia: 4
+  Kazakhstan: 4
+  India: 3
 
 Топ SNI:
-  api-maps.yandex.ru: 44
-  web.max.ru: 29
-  rutube.ru: 24
-  ads.x5.ru: 20
-  smartcaptcha.yandexcloud.net: 17
-  cdn.tracker.yandex.net: 16
+  api-maps.yandex.ru: 48
+  web.max.ru: 31
+  rutube.ru: 29
+  ads.x5.ru: 22
+  smartcaptcha.yandexcloud.net: 18
+  ai.sellflow.org: 14
   sellflow.org: 14
-  gb.sellflow.org: 14
-  max.ru: 13
-  ai.sellflow.org: 12
-  eh.vk.ru: 12
-  vk.com: 11
-  at.sellflow.org: 11
+  cdn.tracker.yandex.net: 13
+  gb.sellflow.org: 13
+  max.ru: 12
+  fr.sellflow.org: 11
   fi.sellflow.org: 11
-  deepl.com: 11
+  vk.com: 10
+  eh.vk.ru: 10
+  at.sellflow.org: 9
 
 Топ портов:
-  443: 347
-  8443: 35
-  444: 12
+  443: 352
+  8443: 34
   2053: 12
-  40443: 11
-  6443: 8
-  80: 7
-  8880: 7
-  41152: 5
-  55000: 5
-  36104: 4
+  444: 10
+  6443: 10
+  40443: 9
+  80: 8
+  8880: 6
+  55000: 6
   45115: 4
-  2443: 4
+  41152: 4
+  36104: 4
   7443: 4
-  2083: 4
+  8444: 4
+  1234: 3
 
 Топ схем:
-  vless: 459
-  trojan: 32
-  hysteria2: 11
+  vless: 458
+  trojan: 31
+  hysteria2: 13
   vmess: 6
 
 Топ transport:
-  tcp: 307
-  grpc: 65
-  xhttp: 52
-  ws: 49
-  raw: 35
+  tcp: 311
+  grpc: 67
+  ws: 51
+  xhttp: 47
+  raw: 32
 
 Топ security:
-  reality: 389
-  tls: 76
-  none: 41
-  false: 2
+  reality: 392
+  tls: 70
+  none: 43
+  false: 3
