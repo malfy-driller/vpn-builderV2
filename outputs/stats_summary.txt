@@ -1,5 +1,5 @@
 VPN Builder stats summary
-Generated at: 2026-07-22 06:52:56 MSK
+Generated at: 2026-07-22 09:23:55 MSK
 
 ====================================================================
 RAW GROUPS
@@ -8,195 +8,192 @@ RAW GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 209
-Уникальных строк: 178
-Уникальных host:port: 77
-Уникальных backend: 67
-Anycast: 98
-Unknown country: 23
+Всего конфигов: 169
+Уникальных строк: 138
+Уникальных host:port: 57
+Уникальных backend: 41
+Anycast: 77
+Unknown country: 14
 
 Топ стран:
-  🌐 Anycast: 98
-  Russia: 48
-  Unknown: 23
-  Germany: 13
-  United States: 8
+  🌐 Anycast: 77
+  Russia: 41
+  Unknown: 14
+  Germany: 9
+  United States: 9
   Estonia: 5
-  Finland: 3
-  France: 3
-  Poland: 3
-  Lithuania: 2
+  France: 5
+  Finland: 4
+  Czechia: 2
+  Poland: 2
 
 Топ SNI:
-  ads.x5.ru: 19
-  pro-ru-213.emrata.top: 16
+  ads.x5.ru: 21
+  pro-ru-213.emrata.top: 14
+  sellflow.org: 13
   storage.yandexcloud.net: 12
-  sellflow.org: 11
   tjplay.lxdxo.kdns.fr: 11
-  api-maps.yandex.ru: 10
+  auto.quattro-tech.ru: 9
+  api-maps.yandex.ru: 9
   eh3.vk.ru: 8
-  auto.quattro-tech.ru: 7
-  hh.ru: 6
-  ru-xr-1.124515.xyz: 6
+  ru-xr-1.124515.xyz: 5
+  mc.yandex.ru: 5
 
 Топ портов:
-  443: 141
-  8443: 27
-  2053: 6
-  2200: 6
-  9443: 5
-  49010: 4
-  16923: 4
-  1111: 4
-  25565: 3
-  5555: 2
-
-Топ схем:
-  vless: 195
-  trojan: 11
-  hysteria2: 3
-
-Топ transport:
-  tcp: 72
-  raw: 70
-  grpc: 48
-  ws: 18
-  xhttp: 1
-
-Топ security:
-  reality: 185
-  tls: 14
-  none: 10
-
-────────────────────────────────────────────────────────────────────
-📊 RAW white_vless
-────────────────────────────────────────────────────────────────────
-Всего конфигов: 150
-Уникальных строк: 150
-Уникальных host:port: 69
-Уникальных backend: 64
-Anycast: 64
-Unknown country: 22
-
-Топ стран:
-  🌐 Anycast: 64
-  Russia: 30
-  Unknown: 22
-  Germany: 10
-  Estonia: 5
-  United States: 5
-  Finland: 3
-  France: 3
-  Poland: 3
-  Lithuania: 2
-
-Топ SNI:
-  ads.x5.ru: 14
-  sellflow.org: 9
-  pro-ru-213.emrata.top: 8
-  auto.quattro-tech.ru: 7
-  ru-xr-1.124515.xyz: 6
-  storage.yandexcloud.net: 6
-  tjplay.lxdxo.kdns.fr: 6
-  abuse.sellflow.org: 4
-  id.pervye.ru: 4
-  eh3.vk.ru: 4
-
-Топ портов:
-  443: 102
-  8443: 21
-  2200: 6
-  9443: 5
-  49010: 4
-  25565: 3
-  2053: 3
-  14134: 1
+  443: 116
+  8443: 29
+  16923: 5
+  2053: 4
+  25565: 4
+  9443: 3
+  2200: 2
+  4449: 1
   8445: 1
   8444: 1
 
 Топ схем:
-  vless: 142
-  trojan: 6
-  hysteria2: 2
+  vless: 158
+  trojan: 11
 
 Топ transport:
-  tcp: 52
-  raw: 47
+  raw: 64
+  tcp: 53
   grpc: 37
-  ws: 13
+  ws: 14
   xhttp: 1
 
 Топ security:
-  reality: 132
-  tls: 9
-  none: 9
+  reality: 151
+  tls: 15
+  none: 3
+
+────────────────────────────────────────────────────────────────────
+📊 RAW white_vless
+────────────────────────────────────────────────────────────────────
+Всего конфигов: 123
+Уникальных строк: 123
+Уникальных host:port: 50
+Уникальных backend: 39
+Anycast: 50
+Unknown country: 13
+
+Топ стран:
+  🌐 Anycast: 50
+  Russia: 23
+  Unknown: 13
+  Germany: 9
+  United States: 9
+  Estonia: 5
+  France: 5
+  Finland: 4
+  Czechia: 2
+  Poland: 2
+
+Топ SNI:
+  ads.x5.ru: 13
+  sellflow.org: 10
+  auto.quattro-tech.ru: 9
+  pro-ru-213.emrata.top: 7
+  storage.yandexcloud.net: 6
+  tjplay.lxdxo.kdns.fr: 6
+  ru-xr-1.124515.xyz: 5
+  mc.yandex.ru: 5
+  abuse.sellflow.org: 4
+  gp.x5.ru: 4
+
+Топ портов:
+  443: 87
+  8443: 20
+  25565: 4
+  9443: 3
+  2053: 2
+  2200: 2
+  4449: 1
+  8445: 1
+  8444: 1
+  18443: 1
+
+Топ схем:
+  vless: 117
+  trojan: 6
+
+Топ transport:
+  raw: 50
+  tcp: 40
+  grpc: 23
+  ws: 9
+  xhttp: 1
+
+Топ security:
+  reality: 110
+  tls: 10
+  none: 3
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW black_all
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 457
-Уникальных строк: 308
-Уникальных host:port: 140
-Уникальных backend: 99
-Anycast: 74
-Unknown country: 39
+Всего конфигов: 435
+Уникальных строк: 292
+Уникальных host:port: 194
+Уникальных backend: 150
+Anycast: 172
+Unknown country: 84
 
 Топ стран:
-  Germany: 251
-  🌐 Anycast: 74
-  Unknown: 39
-  Netherlands: 31
-  United States: 24
-  Poland: 14
-  France: 10
-  Estonia: 7
-  Czechia: 2
-  India: 2
+  🌐 Anycast: 172
+  Unknown: 84
+  Netherlands: 49
+  United States: 35
+  Germany: 33
+  France: 19
+  Estonia: 10
+  Poland: 9
+  Finland: 8
+  Czechia: 7
 
 Топ SNI:
-  ch-de.sdcards.ir: 234
-  185.5.75.151: 11
-  valid22.validbv9501.ir: 11
-  global.fastly.com: 7
-  www.creationlong.org: 7
-  149.104.104.58: 7
-  fn.fifapes.monster: 6
-  www.ignitelimit.com: 6
-  ru-xr-1.124515.xyz: 5
-  www.twitch.tv: 5
+  storage.yandex.net: 26
+  www.creationlong.org: 16
+  valid22.validbv9501.ir: 15
+  notls.lukongtou.eu.org: 13
+  00.img.avito.st: 8
+  149.104.104.58: 8
+  www.ignitelimit.com: 7
+  caz.sempai.site: 6
+  ru-xr-1.124515.xyz: 6
+  octopusss.net: 6
 
 Топ портов:
-  2087: 245
-  443: 116
-  8443: 22
-  2090: 13
-  40118: 5
+  443: 259
+  8443: 33
+  80: 20
+  2087: 17
+  8880: 12
+  15084: 8
+  19128: 6
   55089: 5
-  23806: 5
-  40443: 4
-  48343: 4
-  2398: 4
+  10428: 5
+  3690: 4
 
 Топ схем:
-  vless: 387
-  hysteria2: 34
-  trojan: 31
+  vless: 326
+  hysteria2: 53
+  trojan: 52
   vmess: 4
-  ss: 1
 
 Топ transport:
-  xhttp: 260
-  tcp: 137
-  ws: 44
-  raw: 10
-  grpc: 4
+  tcp: 250
+  ws: 148
+  xhttp: 20
+  raw: 9
+  grpc: 6
   httpupgrade: 2
 
 Топ security:
-  tls: 318
-  reality: 80
-  none: 57
-  false: 2
+  reality: 185
+  tls: 151
+  none: 96
+  false: 3
 
 ====================================================================
 FINAL GROUPS
@@ -205,320 +202,312 @@ FINAL GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 75
-Уникальных строк: 75
-Уникальных host:port: 75
-Уникальных backend: 56
-Anycast: 29
-Unknown country: 15
+Всего конфигов: 54
+Уникальных строк: 54
+Уникальных host:port: 54
+Уникальных backend: 35
+Anycast: 20
+Unknown country: 10
 
 Топ стран:
-  🌐 Anycast: 29
-  Russia: 18
-  Unknown: 15
-  Germany: 3
-  Poland: 2
+  🌐 Anycast: 20
+  Russia: 11
+  Unknown: 10
+  France: 3
+  Estonia: 2
   Finland: 2
-  United States: 1
-  Lithuania: 1
-  Netherlands: 1
-  France: 1
+  United States: 2
+  Poland: 1
+  Switzerland: 1
+  Czechia: 1
 
 Топ SNI:
   api-maps.yandex.ru: 5
-  ads.x5.ru: 4
   auto.quattro-tech.ru: 4
-  pro-ru-213.emrata.top: 4
   sellflow.org: 4
+  pro-ru-213.emrata.top: 4
   360.yandex.ru: 3
-  hh.ru: 3
+  ads.x5.ru: 3
+  ru-xr-1.124515.xyz: 2
+  spbculture.org: 2
   ai.sellflow.org: 2
   00.img.avito.st: 2
-  spbculture.org: 2
 
 Топ портов:
-  443: 41
-  8443: 12
-  2053: 3
-  16923: 3
-  9443: 3
-  2200: 3
-  14134: 1
-  9445: 1
-  1111: 1
+  443: 32
+  8443: 8
+  16923: 2
+  9443: 2
+  2053: 2
+  8444: 1
   18443: 1
+  8445: 1
+  1111: 1
+  4100: 1
 
 Топ схем:
-  vless: 72
-  hysteria2: 2
+  vless: 53
   trojan: 1
 
 Топ transport:
-  raw: 25
-  tcp: 24
-  grpc: 20
-  ws: 5
+  raw: 21
+  tcp: 15
+  grpc: 14
+  ws: 3
   xhttp: 1
 
 Топ security:
-  reality: 66
-  none: 6
+  reality: 49
   tls: 3
+  none: 2
 
 ────────────────────────────────────────────────────────────────────
 📊 white_vless
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 68
-Уникальных строк: 68
-Уникальных host:port: 68
-Уникальных backend: 53
-Anycast: 28
-Unknown country: 15
+Всего конфигов: 49
+Уникальных строк: 49
+Уникальных host:port: 49
+Уникальных backend: 33
+Anycast: 19
+Unknown country: 10
 
 Топ стран:
-  🌐 Anycast: 28
-  Unknown: 15
-  Russia: 12
-  Germany: 3
-  Poland: 2
+  🌐 Anycast: 19
+  Unknown: 10
+  Russia: 7
+  France: 3
+  United States: 2
+  Estonia: 2
   Finland: 2
-  Lithuania: 1
-  Netherlands: 1
-  France: 1
-  Estonia: 1
+  Poland: 1
+  Switzerland: 1
+  Germany: 1
 
 Топ SNI:
-  ads.x5.ru: 4
-  sellflow.org: 4
-  auto.quattro-tech.ru: 4
   pro-ru-213.emrata.top: 4
+  auto.quattro-tech.ru: 4
+  sellflow.org: 4
   360.yandex.ru: 3
-  hh.ru: 3
-  spbculture.org: 2
-  ru-xr-1.124515.xyz: 2
+  ads.x5.ru: 3
+  api-maps.yandex.ru: 2
   ai.sellflow.org: 2
+  ru-xr-1.124515.xyz: 2
+  fr-1.converter.darkpn.com: 2
   abuse.sellflow.org: 2
 
 Топ портов:
-  443: 40
-  8443: 11
-  9443: 3
-  2053: 3
-  2200: 3
-  14134: 1
+  443: 31
+  8443: 7
+  9443: 2
+  2053: 2
   18443: 1
-  8444: 1
-  49010: 1
   8445: 1
+  8444: 1
+  4100: 1
+  25565: 1
+  2200: 1
 
 Топ схем:
-  vless: 65
-  hysteria2: 2
+  vless: 48
   trojan: 1
 
 Топ transport:
-  raw: 24
-  tcp: 21
-  grpc: 17
-  ws: 5
+  raw: 21
+  grpc: 12
+  tcp: 12
+  ws: 3
   xhttp: 1
 
 Топ security:
-  reality: 59
-  none: 6
+  reality: 44
   tls: 3
+  none: 2
 
 ────────────────────────────────────────────────────────────────────
 📊 black_all
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 111
-Уникальных строк: 111
-Уникальных host:port: 107
-Уникальных backend: 95
-Anycast: 34
-Unknown country: 24
+Всего конфигов: 140
+Уникальных строк: 140
+Уникальных host:port: 140
+Уникальных backend: 124
+Anycast: 48
+Unknown country: 20
 
 Топ стран:
-  🌐 Anycast: 34
-  Unknown: 24
-  Germany: 13
-  United States: 13
-  Netherlands: 12
-  Poland: 5
-  Estonia: 3
-  France: 2
+  🌐 Anycast: 48
+  Unknown: 20
+  Netherlands: 18
+  Germany: 16
+  United States: 15
+  France: 4
+  Estonia: 4
+  Finland: 4
+  Poland: 3
   Czechia: 2
-  Russia: 1
 
 Топ SNI:
   usr.sempai.site: 4
-  ch-de.sdcards.ir: 4
-  global.fastly.com: 4
+  storage.yandex.net: 4
+  google.com: 3
+  notls.lukongtou.eu.org: 3
   valid22.validbv9501.ir: 3
-  google.com: 2
   www.twitch.tv: 2
-  00.img.avito.st: 2
   ru-xr-1.124515.xyz: 2
-  185.5.75.151: 2
-  deepl.com: 2
+  www.amd.com: 2
+  nl.savesafe.space: 2
+  00.img.avito.st: 2
 
 Топ портов:
-  443: 54
-  8443: 13
-  2087: 7
+  443: 91
+  8443: 9
+  80: 5
+  2087: 4
+  8880: 4
   40443: 2
-  80: 2
-  2200: 2
-  2090: 2
-  2398: 2
-  55256: 1
-  3690: 1
+  2095: 2
+  21001: 1
+  2443: 1
+  1337: 1
 
 Топ схем:
-  vless: 75
-  hysteria2: 23
-  trojan: 8
-  vmess: 4
-  ss: 1
+  vless: 122
+  hysteria2: 12
+  trojan: 6
 
 Топ transport:
-  tcp: 72
-  ws: 15
-  xhttp: 15
-  raw: 6
-  grpc: 2
-  httpupgrade: 1
+  tcp: 82
+  ws: 39
+  xhttp: 9
+  raw: 7
+  grpc: 3
 
 Топ security:
-  reality: 43
-  none: 35
-  tls: 33
+  reality: 76
+  tls: 38
+  none: 26
 
 ────────────────────────────────────────────────────────────────────
 📊 pool
 ────────────────────────────────────────────────────────────────────
 Всего конфигов: 150
 Уникальных строк: 150
-Уникальных host:port: 145
-Уникальных backend: 126
-Anycast: 51
-Unknown country: 34
+Уникальных host:port: 148
+Уникальных backend: 127
+Anycast: 49
+Unknown country: 23
 
 Топ стран:
-  🌐 Anycast: 51
-  Unknown: 34
-  Russia: 17
-  Netherlands: 11
-  Germany: 10
-  United States: 10
-  Poland: 5
-  Estonia: 3
-  France: 3
-  Czechia: 2
+  🌐 Anycast: 49
+  Unknown: 23
+  United States: 14
+  Germany: 14
+  Netherlands: 13
+  Russia: 12
+  France: 7
+  Finland: 5
+  Estonia: 4
+  Poland: 3
 
 Топ SNI:
-  api-maps.yandex.ru: 4
   sellflow.org: 4
-  pro-ru-213.emrata.top: 4
-  ads.x5.ru: 4
-  auto.quattro-tech.ru: 3
-  abuse.sellflow.org: 3
-  hh.ru: 3
+  usr.sempai.site: 4
+  ads.x5.ru: 3
+  api-maps.yandex.ru: 3
+  00.img.avito.st: 3
   360.yandex.ru: 3
-  ru-xr-1.124515.xyz: 3
-  live.ok.ru: 2
+  notls.lukongtou.eu.org: 3
+  auto.quattro-tech.ru: 2
+  ai.sellflow.org: 2
+  fr-1.converter.darkpn.com: 2
 
 Топ портов:
-  443: 79
-  8443: 21
-  2053: 3
-  2200: 3
+  443: 94
+  8443: 14
   9443: 3
+  8880: 3
   2087: 3
-  4100: 2
-  16923: 2
-  80: 2
-  14134: 1
+  80: 3
+  2053: 2
+  40443: 2
+  2095: 2
+  16923: 1
 
 Топ схем:
-  vless: 121
-  hysteria2: 18
-  trojan: 7
-  vmess: 3
-  ss: 1
+  vless: 135
+  hysteria2: 9
+  trojan: 6
 
 Топ transport:
-  tcp: 74
-  raw: 28
-  grpc: 20
-  ws: 17
+  tcp: 73
+  ws: 29
+  raw: 24
+  grpc: 14
   xhttp: 10
-  httpupgrade: 1
 
 Топ security:
-  reality: 93
-  none: 30
-  tls: 27
+  reality: 99
+  tls: 29
+  none: 22
 
 ────────────────────────────────────────────────────────────────────
 📊 mixed
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 55
-Уникальных строк: 55
-Уникальных host:port: 55
-Уникальных backend: 50
-Anycast: 21
-Unknown country: 11
+Всего конфигов: 59
+Уникальных строк: 59
+Уникальных host:port: 59
+Уникальных backend: 49
+Anycast: 19
+Unknown country: 10
 
 Топ стран:
-  🌐 Anycast: 21
-  Unknown: 11
-  Russia: 9
+  🌐 Anycast: 19
+  Unknown: 10
+  Russia: 7
+  United States: 5
+  France: 4
+  Finland: 3
   Germany: 3
-  Poland: 3
-  Finland: 2
-  Netherlands: 2
-  Lithuania: 1
-  France: 1
-  Czechia: 1
+  Netherlands: 3
+  Estonia: 2
+  Poland: 1
 
 Топ SNI:
-  ads.x5.ru: 3
   api-maps.yandex.ru: 3
-  abuse.sellflow.org: 2
+  360.yandex.ru: 3
+  ads.x5.ru: 3
   sellflow.org: 2
+  fr-1.converter.darkpn.com: 2
+  ru-xr-1.124515.xyz: 2
   spbculture.org: 2
-  pro-ru-213.emrata.top: 2
   hh.ru: 2
-  gentoo.ubuntuhosting.host: 1
-  eh3.vk.ru: 1
-  muzgrape.space: 1
+  auto.quattro-tech.ru: 2
+  ai.sellflow.org: 2
 
 Топ портов:
-  443: 37
-  8443: 5
+  443: 38
+  8443: 6
   9443: 2
   2053: 2
-  18443: 1
+  40443: 2
   16923: 1
-  1111: 1
-  9445: 1
-  14134: 1
+  8444: 1
   25565: 1
+  1111: 1
+  18443: 1
 
 Топ схем:
-  vless: 55
+  vless: 59
 
 Топ transport:
-  raw: 19
-  tcp: 16
-  grpc: 14
-  xhttp: 4
+  tcp: 25
+  raw: 17
+  grpc: 12
+  xhttp: 3
   ws: 2
 
 Топ security:
-  reality: 49
-  tls: 6
+  reality: 54
+  tls: 5
 
 ────────────────────────────────────────────────────────────────────
 📊 lte
@@ -526,134 +515,128 @@ Unknown country: 11
 Всего конфигов: 25
 Уникальных строк: 25
 Уникальных host:port: 25
-Уникальных backend: 22
-Anycast: 10
+Уникальных backend: 21
+Anycast: 13
 Unknown country: 0
 
 Топ стран:
-  🌐 Anycast: 10
-  Russia: 5
-  Netherlands: 2
+  🌐 Anycast: 13
+  Netherlands: 4
   France: 2
-  Poland: 2
-  Germany: 1
+  Finland: 2
+  Poland: 1
   Estonia: 1
-  Finland: 1
-  Lithuania: 1
+  Germany: 1
+  Russia: 1
 
 Топ SNI:
-  ads.x5.ru: 3
   api-maps.yandex.ru: 2
+  185.5.75.151: 2
+  ads.x5.ru: 2
+  spbculture.org: 2
   valid22.validbv9501.ir: 2
-  ch-de.sdcards.ir: 1
   apple.com: 1
-  octopusss.net: 1
   free-exp.kyras.pw: 1
-  185.5.75.151: 1
-  global.fastly.com: 1
-  yandex.ru: 1
+  octopusss.net: 1
+  nlx.raketa-balance.com: 1
+  clr.raketa-balance.com: 1
 
 Топ портов:
-  443: 13
+  443: 15
+  8443: 4
   2087: 3
-  8443: 3
-  16923: 2
   18443: 1
-  14134: 1
-  49010: 1
-  9445: 1
+  23806: 1
+  16923: 1
 
 Топ схем:
-  vless: 23
-  trojan: 2
+  vless: 24
+  trojan: 1
 
 Топ transport:
-  ws: 8
-  grpc: 7
-  xhttp: 6
-  tcp: 2
-  raw: 2
+  ws: 11
+  xhttp: 8
+  grpc: 5
+  tcp: 1
 
 Топ security:
-  tls: 14
-  reality: 11
+  tls: 17
+  reality: 8
 
 ====================================================================
 🌍 GLOBAL SUMMARY
 ====================================================================
-Всего конфигов: 484
-Уникальных строк: 187
-Уникальных host:port: 174
-Уникальных backend: 144
-Anycast: 173
-Unknown country: 99
+Всего конфигов: 477
+Уникальных строк: 196
+Уникальных host:port: 185
+Уникальных backend: 151
+Anycast: 168
+Unknown country: 73
 
 Топ стран:
-  🌐 Anycast: 173
-  Unknown: 99
-  Russia: 62
-  Germany: 33
-  Netherlands: 29
-  United States: 26
-  Poland: 19
-  France: 10
-  Finland: 9
-  Estonia: 9
-  Czechia: 7
-  Lithuania: 5
-  Japan: 2
-  India: 1
+  🌐 Anycast: 168
+  Unknown: 73
+  Russia: 40
+  United States: 38
+  Netherlands: 38
+  Germany: 36
+  France: 23
+  Finland: 18
+  Estonia: 15
+  Poland: 10
+  Czechia: 6
+  Switzerland: 4
+  Japan: 3
+  India: 3
+  Kazakhstan: 2
 
 Топ SNI:
-  ads.x5.ru: 18
   api-maps.yandex.ru: 15
   sellflow.org: 15
-  pro-ru-213.emrata.top: 14
-  auto.quattro-tech.ru: 12
-  hh.ru: 11
-  360.yandex.ru: 10
+  ads.x5.ru: 14
+  auto.quattro-tech.ru: 13
+  360.yandex.ru: 12
+  pro-ru-213.emrata.top: 12
+  spbculture.org: 11
   ru-xr-1.124515.xyz: 10
-  abuse.sellflow.org: 10
-  spbculture.org: 9
-  ai.sellflow.org: 8
+  ai.sellflow.org: 9
+  abuse.sellflow.org: 9
+  usr.sempai.site: 9
+  00.img.avito.st: 8
+  fr-1.converter.darkpn.com: 8
+  hh.ru: 8
   valid22.validbv9501.ir: 8
-  00.img.avito.st: 7
-  global.fastly.com: 7
-  usr.sempai.site: 6
 
 Топ портов:
-  443: 264
-  8443: 65
-  2087: 14
-  9443: 12
-  2053: 11
-  2200: 11
-  16923: 8
-  14134: 5
+  443: 301
+  8443: 48
+  2087: 11
+  9443: 10
+  2053: 8
+  80: 8
+  8880: 7
+  40443: 6
+  16923: 5
   18443: 5
-  4100: 5
-  9445: 4
-  49010: 4
   8444: 4
+  8445: 4
   25565: 4
-  80: 4
+  2200: 4
+  2095: 4
 
 Топ схем:
-  vless: 411
-  hysteria2: 45
-  trojan: 19
-  vmess: 7
-  ss: 2
+  vless: 441
+  hysteria2: 21
+  trojan: 15
 
 Топ transport:
-  tcp: 209
-  raw: 104
-  grpc: 80
-  ws: 52
-  xhttp: 37
-  httpupgrade: 2
+  tcp: 208
+  raw: 90
+  ws: 87
+  grpc: 60
+  xhttp: 32
 
 Топ security:
-  reality: 321
-  tls: 86
-  none: 77
+  reality: 330
+  tls: 95
+  none: 52
