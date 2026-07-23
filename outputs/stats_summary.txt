@@ -1,5 +1,5 @@
 VPN Builder stats summary
-Generated at: 2026-07-23 14:32:43 MSK
+Generated at: 2026-07-23 16:13:38 MSK
 
 ====================================================================
 RAW GROUPS
@@ -8,101 +8,112 @@ RAW GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 102
-Уникальных строк: 94
-Уникальных host:port: 16
-Уникальных backend: 12
-Anycast: 25
-Unknown country: 6
+Всего конфигов: 121
+Уникальных строк: 105
+Уникальных host:port: 25
+Уникальных backend: 20
+Anycast: 40
+Unknown country: 11
 
 Топ стран:
-  Russia: 33
-  Germany: 33
-  🌐 Anycast: 25
-  Unknown: 6
-  United States: 5
+  🌐 Anycast: 40
+  Germany: 31
+  Russia: 29
+  Unknown: 11
+  Netherlands: 10
 
 Топ SNI:
-  ch-de.sdcards.ir: 25
-  stats.vk-portal.net: 20
-  tjplay.lxdxo.kdns.fr: 13
-  sellflow.org: 8
-  ads.x5.ru: 8
-  ru-bridge.monkeyvillage.pro: 4
-  bzzru.hat.apruxdomain.space: 4
+  ch-de.sdcards.ir: 23
+  stats.vk-portal.net: 19
+  max.ru: 15
+  hh.ru: 12
+  ads.x5.ru: 11
+  tjplay.lxdxo.kdns.fr: 11
+  5post-gate.x5.ru: 6
+  absolute-disaster.org: 6
   id.pervye.ru: 4
-  clr.raketa-balance.com: 4
-  ai.sellflow.org: 4
+  clr.raketa-balance.com: 3
 
 Топ портов:
-  443: 69
-  2087: 25
+  443: 71
+  2087: 23
+  2053: 12
+  8442: 9
   8443: 4
-  8442: 4
+  29311: 1
+  9443: 1
 
 Топ схем:
-  vless: 89
-  trojan: 13
+  vless: 109
+  trojan: 11
+  hysteria2: 1
 
 Топ transport:
-  xhttp: 49
-  tcp: 24
-  ws: 13
-  raw: 8
-  grpc: 8
+  xhttp: 45
+  tcp: 31
+  grpc: 25
+  ws: 11
+  raw: 9
 
 Топ security:
-  reality: 64
-  tls: 38
+  reality: 85
+  tls: 34
+  none: 2
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_vless
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 72
-Уникальных строк: 72
-Уникальных host:port: 12
-Уникальных backend: 11
-Anycast: 13
-Unknown country: 6
+Всего конфигов: 85
+Уникальных строк: 85
+Уникальных host:port: 21
+Уникальных backend: 20
+Anycast: 19
+Unknown country: 8
 
 Топ стран:
-  Germany: 33
-  Russia: 15
-  🌐 Anycast: 13
-  Unknown: 6
-  United States: 5
+  Germany: 31
+  🌐 Anycast: 19
+  Russia: 17
+  Netherlands: 10
+  Unknown: 8
 
 Топ SNI:
-  ch-de.sdcards.ir: 25
-  stats.vk-portal.net: 8
-  tjplay.lxdxo.kdns.fr: 7
-  ru-bridge.monkeyvillage.pro: 4
-  bzzru.hat.apruxdomain.space: 4
+  ch-de.sdcards.ir: 23
+  max.ru: 9
+  ads.x5.ru: 7
+  stats.vk-portal.net: 7
+  hh.ru: 6
+  absolute-disaster.org: 6
+  tjplay.lxdxo.kdns.fr: 6
   id.pervye.ru: 4
-  clr.raketa-balance.com: 4
-  ai.sellflow.org: 4
-  funny1.oneok.name: 4
-  sellflow.org: 4
+  clr.raketa-balance.com: 3
+  5post-gate.x5.ru: 3
 
 Топ портов:
-  443: 43
-  2087: 25
+  443: 47
+  2087: 23
+  2053: 6
   8443: 4
+  8442: 3
+  29311: 1
+  9443: 1
 
 Топ схем:
-  vless: 65
-  trojan: 7
+  vless: 78
+  trojan: 6
+  hysteria2: 1
 
 Топ transport:
-  xhttp: 37
-  tcp: 16
-  grpc: 8
-  ws: 7
-  raw: 4
+  xhttp: 33
+  tcp: 24
+  grpc: 16
+  raw: 6
+  ws: 6
 
 Топ security:
-  reality: 40
-  tls: 32
+  reality: 54
+  tls: 29
+  none: 2
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW black_all
@@ -176,101 +187,112 @@ FINAL GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 15
-Уникальных строк: 15
-Уникальных host:port: 15
-Уникальных backend: 12
-Anycast: 2
-Unknown country: 2
+Всего конфигов: 24
+Уникальных строк: 24
+Уникальных host:port: 24
+Уникальных backend: 20
+Anycast: 6
+Unknown country: 3
 
 Топ стран:
-  Russia: 7
-  Germany: 3
-  🌐 Anycast: 2
-  Unknown: 2
-  United States: 1
+  Russia: 8
+  🌐 Anycast: 6
+  Germany: 4
+  Netherlands: 3
+  Unknown: 3
 
 Топ SNI:
+  max.ru: 4
   stats.vk-portal.net: 4
-  max.ru: 1
-  ads.x5.ru: 1
-  ai.sellflow.org: 1
-  ch-de.sdcards.ir: 1
-  funny1.oneok.name: 1
-  clr.raketa-balance.com: 1
+  ads.x5.ru: 2
+  absolute-disaster.org: 2
+  hh.ru: 2
   id.pervye.ru: 1
-  sellflow.org: 1
-  ru-bridge.monkeyvillage.pro: 1
+  clr.raketa-balance.com: 1
+  ch-de.sdcards.ir: 1
+  yt.orpheous.ru: 1
+  funny1.oneok.name: 1
 
 Топ портов:
-  443: 12
-  8442: 1
-  2087: 1
+  443: 16
+  8442: 2
+  2053: 2
   8443: 1
+  2087: 1
+  29311: 1
+  9443: 1
 
 Топ схем:
-  vless: 14
+  vless: 22
   trojan: 1
+  hysteria2: 1
 
 Топ transport:
+  tcp: 10
   xhttp: 6
-  tcp: 5
-  grpc: 2
-  raw: 1
+  grpc: 5
+  raw: 2
   ws: 1
 
 Топ security:
-  reality: 13
+  reality: 20
   tls: 2
+  none: 2
 
 ────────────────────────────────────────────────────────────────────
 📊 white_vless
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 12
-Уникальных строк: 12
-Уникальных host:port: 12
-Уникальных backend: 11
-Anycast: 2
-Unknown country: 2
+Всего конфигов: 21
+Уникальных строк: 21
+Уникальных host:port: 21
+Уникальных backend: 20
+Anycast: 5
+Unknown country: 3
 
 Топ стран:
-  Russia: 4
-  Germany: 3
-  🌐 Anycast: 2
-  Unknown: 2
-  United States: 1
+  Russia: 6
+  🌐 Anycast: 5
+  Germany: 4
+  Netherlands: 3
+  Unknown: 3
 
 Топ SNI:
+  max.ru: 3
+  absolute-disaster.org: 2
+  ads.x5.ru: 2
+  hh.ru: 2
   stats.vk-portal.net: 2
-  ads.x5.ru: 1
-  clr.raketa-balance.com: 1
-  ai.sellflow.org: 1
-  sellflow.org: 1
-  tjplay.lxdxo.kdns.fr: 1
-  funny1.oneok.name: 1
   id.pervye.ru: 1
-  ch-de.sdcards.ir: 1
-  ru-bridge.monkeyvillage.pro: 1
+  yt.orpheous.ru: 1
+  5post-gate.x5.ru: 1
+  clr.raketa-balance.com: 1
+  funny1.oneok.name: 1
 
 Топ портов:
-  443: 10
+  443: 14
+  2053: 2
   8443: 1
+  8442: 1
   2087: 1
+  29311: 1
+  9443: 1
 
 Топ схем:
-  vless: 11
+  vless: 19
   trojan: 1
+  hysteria2: 1
 
 Топ transport:
-  tcp: 4
+  tcp: 9
+  grpc: 5
   xhttp: 4
-  grpc: 2
-  raw: 1
+  raw: 2
   ws: 1
 
 Топ security:
-  reality: 10
+  reality: 17
   tls: 2
+  none: 2
 
 ────────────────────────────────────────────────────────────────────
 📊 black_all
@@ -296,8 +318,8 @@ Unknown country: 22
 
 Топ SNI:
   world.yahoo.com:443: 9
-  ajax.googleapis.com: 4
   ch-de.sdcards.ir: 4
+  ajax.googleapis.com: 4
   storage.yandex.net: 4
   cloudflare.vhub.pro: 4
   vpn-6d9.pages.dev: 4
@@ -310,8 +332,8 @@ Unknown country: 22
   443: 56
   2087: 10
   8443: 9
-  8880: 3
   8080: 3
+  8880: 3
   26518: 2
   80: 2
   5841: 1
@@ -338,123 +360,121 @@ Unknown country: 22
 ────────────────────────────────────────────────────────────────────
 📊 pool
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 116
-Уникальных строк: 116
-Уникальных host:port: 115
-Уникальных backend: 95
-Anycast: 37
-Unknown country: 24
+Всего конфигов: 125
+Уникальных строк: 125
+Уникальных host:port: 124
+Уникальных backend: 103
+Anycast: 39
+Unknown country: 25
 
 Топ стран:
-  🌐 Anycast: 37
-  Unknown: 24
+  🌐 Anycast: 39
+  Unknown: 25
   Germany: 13
+  Netherlands: 11
   United States: 11
-  Netherlands: 8
-  Russia: 5
+  Russia: 8
   Poland: 5
   Japan: 3
   France: 3
-  India: 2
+  Finland: 2
 
 Топ SNI:
   world.yahoo.com:443: 9
+  max.ru: 4
   ch-de.sdcards.ir: 4
-  vpn-6d9.pages.dev: 4
   storage.yandex.net: 4
   ajax.googleapis.com: 4
-  cloudflare.vhub.pro: 4
+  vpn-6d9.pages.dev: 4
+  cloudflare.vhub.pro: 3
   learn00.evany.de5.net: 3
-  stats.vk-portal.net: 2
-  clr.raketa-balance.com: 2
-  nlx.savesafe.space: 2
+  funny1.oneok.name: 2
+  hh.ru: 2
 
 Топ портов:
-  443: 64
-  2087: 10
+  443: 69
   8443: 10
+  2087: 10
   8080: 3
   8880: 3
+  2053: 2
+  8442: 2
   26518: 2
   80: 2
-  8442: 1
-  55089: 1
-  10428: 1
+  29311: 1
 
 Топ схем:
-  vless: 79
+  vless: 88
   hysteria2: 20
   trojan: 16
   vmess: 1
 
 Топ transport:
-  tcp: 54
-  ws: 30
+  tcp: 59
+  ws: 29
   xhttp: 18
-  grpc: 13
-  raw: 1
+  grpc: 17
+  raw: 2
 
 Топ security:
-  reality: 49
-  tls: 37
-  none: 30
+  reality: 58
+  tls: 36
+  none: 31
 
 ────────────────────────────────────────────────────────────────────
 📊 mixed
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 53
-Уникальных строк: 53
-Уникальных host:port: 53
+Всего конфигов: 56
+Уникальных строк: 56
+Уникальных host:port: 56
 Уникальных backend: 44
-Anycast: 18
+Anycast: 21
 Unknown country: 10
 
 Топ стран:
-  🌐 Anycast: 18
+  🌐 Anycast: 21
   Unknown: 10
+  Russia: 7
   Germany: 5
-  Russia: 5
-  United States: 4
-  Japan: 3
+  Netherlands: 5
+  Japan: 2
   Poland: 2
   Finland: 2
-  Netherlands: 2
-  Czechia: 1
+  United States: 2
 
 Топ SNI:
+  max.ru: 4
   ajax.googleapis.com: 3
+  stats.vk-portal.net: 2
+  ads.x5.ru: 2
+  funny1.oneok.name: 2
+  hh.ru: 2
+  absolute-disaster.org: 2
   ch-de.sdcards.ir: 2
   clr.raketa-balance.com: 2
-  stats.vk-portal.net: 2
-  storage.yandex.net: 2
-  nlx.savesafe.space: 2
-  vpn-6d9.pages.dev: 2
   learn00.evany.de5.net: 2
-  cloudflare.vhub.pro: 2
-  www.yahoo.com: 2
 
 Топ портов:
-  443: 40
-  2087: 5
+  443: 43
+  2087: 6
+  8442: 2
   8443: 2
-  26518: 2
-  8080: 2
-  8442: 1
+  2053: 2
   10428: 1
 
 Топ схем:
-  vless: 53
+  vless: 56
 
 Топ transport:
-  tcp: 20
-  xhttp: 14
+  tcp: 21
   ws: 14
-  grpc: 4
-  raw: 1
+  xhttp: 11
+  grpc: 8
+  raw: 2
 
 Топ security:
-  reality: 35
-  tls: 18
+  reality: 39
+  tls: 17
 
 ────────────────────────────────────────────────────────────────────
 📊 lte
@@ -462,46 +482,41 @@ Unknown country: 10
 Всего конфигов: 25
 Уникальных строк: 25
 Уникальных host:port: 25
-Уникальных backend: 20
-Anycast: 11
+Уникальных backend: 17
+Anycast: 13
 Unknown country: 0
 
 Топ стран:
-  🌐 Anycast: 11
-  Russia: 4
+  🌐 Anycast: 13
   Germany: 4
+  Russia: 3
+  Netherlands: 2
   United States: 2
   France: 1
-  Netherlands: 1
-  Japan: 1
-  Poland: 1
 
 Топ SNI:
   ch-de.sdcards.ir: 2
-  vpn-6d9.pages.dev: 2
-  valid22.validbv9501.ir: 2
-  ssl.fastly.com: 2
+  clr.raketa-balance.com: 2
+  stats.vk-portal.net: 2
   cloudflare.vhub.pro: 2
+  learn00.evany.de5.net: 2
+  ssl.fastly.com: 2
+  valid22.validbv9501.ir: 2
+  vpn-6d9.pages.dev: 2
   ads.x5.ru: 1
-  octopusss.net: 1
-  web-production-9c70.up.railway.app: 1
-  ezaccess1-x4g-ezaccess1-e6b8.up.railway.app: 1
   max.ru: 1
 
 Топ портов:
-  443: 16
+  443: 18
   2087: 6
-  8443: 2
-  8442: 1
+  8443: 1
 
 Топ схем:
-  vless: 24
-  trojan: 1
+  vless: 25
 
 Топ transport:
   ws: 15
-  xhttp: 5
-  grpc: 3
+  xhttp: 8
   tcp: 2
 
 Топ security:
@@ -511,77 +526,77 @@ Unknown country: 0
 ====================================================================
 🌍 GLOBAL SUMMARY
 ====================================================================
-Всего конфигов: 327
-Уникальных строк: 122
-Уникальных host:port: 118
-Уникальных backend: 95
-Anycast: 105
-Unknown country: 60
+Всего конфигов: 357
+Уникальных строк: 132
+Уникальных host:port: 128
+Уникальных backend: 103
+Anycast: 119
+Unknown country: 63
 
 Топ стран:
-  🌐 Anycast: 105
-  Unknown: 60
-  Germany: 39
-  United States: 30
-  Russia: 26
-  Netherlands: 19
-  Poland: 13
-  Japan: 10
-  France: 8
+  🌐 Anycast: 119
+  Unknown: 63
+  Germany: 41
+  Russia: 33
+  Netherlands: 32
+  United States: 26
+  Poland: 12
+  Japan: 8
+  France: 7
   Finland: 6
   India: 4
-  Czechia: 3
   Switzerland: 2
   Bulgaria: 2
+  Czechia: 2
 
 Топ SNI:
   world.yahoo.com:443: 18
+  max.ru: 16
   ch-de.sdcards.ir: 14
-  cloudflare.vhub.pro: 12
+  stats.vk-portal.net: 12
   vpn-6d9.pages.dev: 12
-  stats.vk-portal.net: 11
   ajax.googleapis.com: 11
+  cloudflare.vhub.pro: 11
   storage.yandex.net: 10
-  learn00.evany.de5.net: 9
-  clr.raketa-balance.com: 8
-  ssl.fastly.com: 7
-  valid22.validbv9501.ir: 7
-  funny1.oneok.name: 6
-  nlx.savesafe.space: 6
-  www.yahoo.com: 6
-  ads.x5.ru: 5
+  learn00.evany.de5.net: 10
+  ads.x5.ru: 9
+  clr.raketa-balance.com: 9
+  absolute-disaster.org: 8
+  hh.ru: 8
+  ssl.fastly.com: 8
+  valid22.validbv9501.ir: 8
 
 Топ портов:
-  443: 198
-  2087: 33
-  8443: 25
-  8080: 8
-  26518: 6
+  443: 216
+  2087: 34
+  8443: 24
+  2053: 8
+  8442: 7
+  8080: 6
   8880: 6
-  8442: 4
+  9443: 4
+  26518: 4
   80: 4
+  29311: 3
   10428: 3
   5841: 2
   3611: 2
   58615: 2
-  2095: 2
-  2659: 2
-  4288: 2
 
 Топ схем:
-  vless: 251
-  hysteria2: 40
-  trojan: 34
+  vless: 280
+  hysteria2: 42
+  trojan: 33
   vmess: 2
 
 Топ transport:
-  tcp: 135
-  ws: 90
+  tcp: 151
+  ws: 89
   xhttp: 62
-  grpc: 36
-  raw: 4
+  grpc: 47
+  raw: 8
 
 Топ security:
-  reality: 155
-  tls: 112
-  none: 60
+  reality: 182
+  tls: 110
+  none: 65
