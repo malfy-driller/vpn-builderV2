@@ -1,5 +1,5 @@
 VPN Builder stats summary
-Generated at: 2026-07-25 18:59:59 MSK
+Generated at: 2026-07-25 20:00:33 MSK
 
 ====================================================================
 RAW GROUPS
@@ -8,128 +8,121 @@ RAW GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 181
-Уникальных строк: 137
-Уникальных host:port: 41
-Уникальных backend: 35
-Anycast: 129
-Unknown country: 11
+Всего конфигов: 188
+Уникальных строк: 135
+Уникальных host:port: 39
+Уникальных backend: 31
+Anycast: 145
+Unknown country: 2
 
 Топ стран:
-  🌐 Anycast: 129
-  Russia: 22
-  Unknown: 11
-  United States: 6
+  🌐 Anycast: 145
+  Russia: 23
+  United States: 5
+  Finland: 5
   Netherlands: 4
-  Finland: 2
-  France: 2
-  Israel: 2
-  Switzerland: 2
+  France: 3
+  Unknown: 2
   Germany: 1
 
 Топ SNI:
-  abuse.sellflow.org: 28
-  apple.com: 18
-  api-maps.yandex.ru: 15
+  abuse.sellflow.org: 26
+  api-maps.yandex.ru: 22
+  apple.com: 22
   tjplay.lxdxo.kdns.fr: 13
   sellflow.org: 12
   ai.sellflow.org: 10
   at.sellflow.org: 10
-  www.tradingview.com: 10
-  funny2.oneok.name: 8
-  maps.apple.com: 6
+  www.tradingview.com: 9
+  funny2.oneok.name: 9
+  maps.apple.com: 5
 
 Топ портов:
-  443: 157
-  8443: 4
+  443: 170
   9443: 3
-  4100: 2
+  7443: 3
+  8443: 3
   40017: 2
-  40027: 2
-  40025: 2
   40003: 2
-  2200: 2
+  4100: 2
   8082: 2
+  2200: 1
 
 Топ схем:
-  vless: 167
+  vless: 174
   trojan: 13
   hysteria2: 1
 
 Топ transport:
-  tcp: 101
-  grpc: 23
-  xhttp: 22
-  ws: 19
-  raw: 16
+  tcp: 95
+  raw: 32
+  grpc: 26
+  ws: 18
+  xhttp: 17
 
 Топ security:
-  reality: 158
+  reality: 169
   tls: 15
-  none: 8
+  none: 4
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_vless
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 124
-Уникальных строк: 124
-Уникальных host:port: 39
-Уникальных backend: 34
-Anycast: 80
-Unknown country: 8
+Всего конфигов: 127
+Уникальных строк: 127
+Уникальных host:port: 38
+Уникальных backend: 30
+Anycast: 90
+Unknown country: 2
 
 Топ стран:
-  🌐 Anycast: 80
+  🌐 Anycast: 90
   Russia: 21
-  Unknown: 8
-  United States: 4
-  Finland: 2
-  France: 2
-  Israel: 2
-  Switzerland: 2
+  Finland: 5
+  France: 3
+  United States: 3
+  Unknown: 2
   Netherlands: 2
   Germany: 1
 
 Топ SNI:
-  abuse.sellflow.org: 16
-  www.tradingview.com: 10
+  abuse.sellflow.org: 15
+  api-maps.yandex.ru: 11
+  apple.com: 11
   sellflow.org: 10
-  apple.com: 9
-  funny2.oneok.name: 8
+  www.tradingview.com: 9
+  funny2.oneok.name: 9
   tjplay.lxdxo.kdns.fr: 7
-  maps.apple.com: 6
-  api-maps.yandex.ru: 5
+  maps.apple.com: 5
   ai.sellflow.org: 5
   at.sellflow.org: 5
 
 Топ портов:
-  443: 102
-  8443: 4
+  443: 111
   9443: 3
-  4100: 2
+  7443: 3
+  8443: 3
   40017: 2
-  40027: 2
-  40025: 2
   40003: 2
-  2200: 2
-  13561: 1
+  4100: 2
+  2200: 1
 
 Топ схем:
-  vless: 116
+  vless: 119
   trojan: 7
   hysteria2: 1
 
 Топ transport:
-  tcp: 61
-  grpc: 21
-  xhttp: 20
-  ws: 13
-  raw: 9
+  tcp: 60
+  grpc: 24
+  raw: 16
+  xhttp: 15
+  ws: 12
 
 Топ security:
-  reality: 107
+  reality: 114
   tls: 9
-  none: 8
+  none: 4
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW black_all
@@ -204,110 +197,44 @@ FINAL GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 40
-Уникальных строк: 40
-Уникальных host:port: 40
-Уникальных backend: 31
-Anycast: 21
-Unknown country: 4
-
-Топ стран:
-  🌐 Anycast: 21
-  Russia: 7
-  Unknown: 4
-  United States: 2
-  Finland: 1
-  France: 1
-  Netherlands: 1
-  Israel: 1
-  Switzerland: 1
-  Germany: 1
-
-Топ SNI:
-  sellflow.org: 4
-  maps.apple.com: 3
-  apple.com: 3
-  abuse.sellflow.org: 3
-  api-maps.yandex.ru: 2
-  funny2.oneok.name: 2
-  176.123.165.127: 2
-  www.nvidia.com: 1
-  ads.x5.ru: 1
-  id.vk.com: 1
-
-Топ портов:
-  443: 26
-  9443: 2
-  8443: 2
-  8082: 1
-  40027: 1
-  56745: 1
-  40003: 1
-  40025: 1
-  4100: 1
-  2200: 1
-
-Топ схем:
-  vless: 38
-  trojan: 1
-  hysteria2: 1
-
-Топ transport:
-  tcp: 19
-  grpc: 8
-  xhttp: 6
-  ws: 4
-  raw: 3
-
-Топ security:
-  reality: 32
-  none: 6
-  tls: 2
-
-────────────────────────────────────────────────────────────────────
-📊 white_vless
-────────────────────────────────────────────────────────────────────
 Всего конфигов: 38
 Уникальных строк: 38
 Уникальных host:port: 38
-Уникальных backend: 30
-Anycast: 19
-Unknown country: 4
+Уникальных backend: 29
+Anycast: 23
+Unknown country: 1
 
 Топ стран:
-  🌐 Anycast: 19
+  🌐 Anycast: 23
   Russia: 7
-  Unknown: 4
+  Finland: 2
   United States: 2
   France: 1
-  Finland: 1
   Netherlands: 1
-  Israel: 1
-  Switzerland: 1
+  Unknown: 1
   Germany: 1
 
 Топ SNI:
+  apple.com: 5
   sellflow.org: 4
-  maps.apple.com: 3
-  apple.com: 3
-  abuse.sellflow.org: 3
+  maps.apple.com: 2
+  api-maps.yandex.ru: 2
   funny2.oneok.name: 2
-  176.123.165.127: 2
-  www.nvidia.com: 1
+  abuse.sellflow.org: 2
+  id.vk.com: 1
   ads.x5.ru: 1
-  api-maps.yandex.ru: 1
-  cdn6-24.yahoo.com: 1
+  www.tradingview.com: 1
+  5post-gate.x5.ru: 1
 
 Топ портов:
-  443: 25
-  8443: 2
+  443: 29
   9443: 2
-  40027: 1
-  40025: 1
+  8443: 1
+  8082: 1
+  7443: 1
   40003: 1
   4100: 1
-  57836: 1
-  13561: 1
+  40017: 1
   2200: 1
 
 Топ схем:
@@ -316,15 +243,74 @@ Unknown country: 4
   hysteria2: 1
 
 Топ transport:
-  tcp: 18
-  grpc: 7
-  xhttp: 6
+  tcp: 16
+  grpc: 8
+  raw: 6
+  xhttp: 4
   ws: 4
-  raw: 3
 
 Топ security:
-  reality: 30
-  none: 6
+  reality: 33
+  none: 3
+  tls: 2
+
+────────────────────────────────────────────────────────────────────
+📊 white_vless
+────────────────────────────────────────────────────────────────────
+Всего конфигов: 37
+Уникальных строк: 37
+Уникальных host:port: 37
+Уникальных backend: 28
+Anycast: 22
+Unknown country: 1
+
+Топ стран:
+  🌐 Anycast: 22
+  Russia: 7
+  United States: 2
+  Finland: 2
+  France: 1
+  Netherlands: 1
+  Unknown: 1
+  Germany: 1
+
+Топ SNI:
+  apple.com: 5
+  sellflow.org: 4
+  maps.apple.com: 2
+  abuse.sellflow.org: 2
+  api-maps.yandex.ru: 2
+  funny2.oneok.name: 2
+  ads.x5.ru: 1
+  www.nvidia.com: 1
+  se.sellflow.org: 1
+  optim.tildacdn.pub: 1
+
+Топ портов:
+  443: 29
+  9443: 2
+  8443: 1
+  40003: 1
+  7443: 1
+  40017: 1
+  4100: 1
+  2200: 1
+
+Топ схем:
+  vless: 35
+  trojan: 1
+  hysteria2: 1
+
+Топ transport:
+  tcp: 16
+  grpc: 7
+  raw: 6
+  xhttp: 4
+  ws: 4
+
+Топ security:
+  reality: 32
+  none: 3
   tls: 2
 
 ────────────────────────────────────────────────────────────────────
@@ -346,19 +332,19 @@ Unknown country: 31
   Poland: 4
   Russia: 3
   France: 2
-  Switzerland: 1
   Finland: 1
+  Switzerland: 1
 
 Топ SNI:
   sellflow.org: 4
+  BankMelat.glObal.ssl.faStly.nEt.: 4
   storage.yandex.net: 4
   valid22.validbv9501.ir: 4
-  BankMelat.glObal.ssl.faStly.nEt.: 4
   sg.xfj123.top: 3
-  www.bing.com: 3
   2.r.y.a.j.7.c.z.d.z.8.f.f.r.us.art-us.kdns.fr: 3
-  www.nvidia.com: 2
+  www.bing.com: 3
   apple.com: 2
+  www.nvidia.com: 2
   de.sellflow.org: 2
 
 Топ портов:
@@ -368,10 +354,10 @@ Unknown country: 31
   2087: 4
   2083: 2
   8880: 2
-  1337: 1
   21001: 1
-  36029: 1
-  25499: 1
+  1337: 1
+  40019: 1
+  40025: 1
 
 Топ схем:
   vless: 71
@@ -397,46 +383,46 @@ Unknown country: 31
 ────────────────────────────────────────────────────────────────────
 Всего конфигов: 146
 Уникальных строк: 146
-Уникальных host:port: 137
-Уникальных backend: 116
-Anycast: 65
-Unknown country: 34
+Уникальных host:port: 141
+Уникальных backend: 115
+Anycast: 68
+Unknown country: 32
 
 Топ стран:
-  🌐 Anycast: 65
-  Unknown: 34
-  Germany: 12
+  🌐 Anycast: 68
+  Unknown: 32
+  Germany: 13
   Netherlands: 10
-  Russia: 7
   United States: 6
+  Russia: 6
   Poland: 4
   France: 3
-  Finland: 2
-  Switzerland: 2
+  Finland: 3
+  Switzerland: 1
 
 Топ SNI:
-  apple.com: 5
+  apple.com: 6
   sellflow.org: 4
   storage.yandex.net: 4
-  maps.apple.com: 3
-  api-maps.yandex.ru: 3
+  valid22.validbv9501.ir: 4
+  BankMelat.glObal.ssl.faStly.nEt.: 4
   www.nvidia.com: 3
-  valid22.validbv9501.ir: 3
+  api-maps.yandex.ru: 3
+  www.bing.com: 3
   2.r.y.a.j.7.c.z.d.z.8.f.f.r.us.art-us.kdns.fr: 3
-  BankMelat.glObal.ssl.faStly.nEt.: 3
   sg.xfj123.top: 3
 
 Топ портов:
-  443: 81
-  8443: 14
-  80: 5
-  2087: 3
+  443: 84
+  8443: 13
+  80: 6
+  2087: 4
   9443: 2
-  40025: 2
-  2083: 2
   8880: 2
-  40027: 1
-  40003: 1
+  2083: 2
+  4100: 1
+  2200: 1
+  8082: 1
 
 Топ схем:
   vless: 102
@@ -445,77 +431,76 @@ Unknown country: 34
   vmess: 4
 
 Топ transport:
-  tcp: 81
-  ws: 32
-  xhttp: 16
+  tcp: 79
+  ws: 34
+  xhttp: 14
   grpc: 13
-  raw: 3
+  raw: 5
   httpupgrade: 1
 
 Топ security:
-  reality: 64
-  none: 51
-  tls: 29
+  reality: 65
+  none: 49
+  tls: 30
   false: 2
 
 ────────────────────────────────────────────────────────────────────
 📊 mixed
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 59
-Уникальных строк: 59
+Всего конфигов: 57
+Уникальных строк: 57
 Уникальных host:port: 57
-Уникальных backend: 49
-Anycast: 29
-Unknown country: 10
+Уникальных backend: 48
+Anycast: 30
+Unknown country: 9
 
 Топ стран:
-  🌐 Anycast: 29
-  Unknown: 10
+  🌐 Anycast: 30
+  Unknown: 9
   Russia: 5
-  Netherlands: 4
   United States: 3
+  Netherlands: 3
   France: 2
+  Finland: 2
   Germany: 2
-  Finland: 1
-  Switzerland: 1
-  Israel: 1
+  Poland: 1
 
 Топ SNI:
-  apple.com: 5
-  maps.apple.com: 3
-  abuse.sellflow.org: 2
+  apple.com: 4
   sellflow.org: 2
+  abuse.sellflow.org: 2
   api-maps.yandex.ru: 2
   funny2.oneok.name: 2
   www.nvidia.com: 2
-  dowload.max.ru: 2
-  sg.xfj123.top: 2
+  maps.apple.com: 2
+  l.m.j.u.w.9.y.i.m.y.s.8.p.y.us.art-us.kdns.fr: 2
+  valid22.validbv9501.ir: 2
   storage.yandex.net: 2
 
 Топ портов:
-  443: 43
-  8443: 3
-  9443: 1
-  8082: 1
+  443: 42
+  8443: 2
+  2087: 2
   40003: 1
-  40027: 1
-  40025: 1
   40017: 1
-  40019: 1
+  8082: 1
+  9443: 1
+  7443: 1
+  12150: 1
   11481: 1
 
 Топ схем:
-  vless: 59
+  vless: 57
 
 Топ transport:
-  tcp: 24
-  xhttp: 12
-  grpc: 10
+  tcp: 22
+  grpc: 11
   ws: 10
-  raw: 3
+  xhttp: 9
+  raw: 5
 
 Топ security:
-  reality: 47
+  reality: 45
   tls: 12
 
 ────────────────────────────────────────────────────────────────────
@@ -524,7 +509,7 @@ Unknown country: 10
 Всего конфигов: 25
 Уникальных строк: 25
 Уникальных host:port: 25
-Уникальных backend: 21
+Уникальных backend: 22
 Anycast: 16
 Unknown country: 0
 
@@ -534,120 +519,117 @@ Unknown country: 0
   Germany: 2
   Finland: 1
   Netherlands: 1
-  United States: 1
   Poland: 1
-  Israel: 1
+  United States: 1
+  Russia: 1
 
 Топ SNI:
   apple.com: 3
   maps.apple.com: 2
-  sg.xfj123.top: 2
   valid22.validbv9501.ir: 2
-  2.r.y.a.j.7.c.z.d.z.8.f.f.r.us.art-us.kdns.fr: 2
+  sg.xfj123.top: 2
   dowload.max.ru: 1
   status.fastly.com: 1
   octopusss.net: 1
+  www.nvidia.com: 1
+  manage.fastly.com: 1
   cpn.moniablue.dpdns.org: 1
-  id.vk.com: 1
 
 Топ портов:
-  443: 14
+  443: 17
   8443: 2
-  2083: 2
   2087: 2
   9443: 1
+  2083: 1
   8082: 1
   40003: 1
-  21001: 1
-  40027: 1
 
 Топ схем:
   vless: 24
   trojan: 1
 
 Топ transport:
-  ws: 10
-  xhttp: 7
-  tcp: 5
-  grpc: 3
+  ws: 11
+  xhttp: 6
+  grpc: 4
+  tcp: 4
 
 Топ security:
-  tls: 13
-  reality: 12
+  tls: 14
+  reality: 11
 
 ====================================================================
 🌍 GLOBAL SUMMARY
 ====================================================================
-Всего конфигов: 421
-Уникальных строк: 157
-Уникальных host:port: 143
-Уникальных backend: 116
-Anycast: 196
-Unknown country: 83
+Всего конфигов: 416
+Уникальных строк: 155
+Уникальных host:port: 144
+Уникальных backend: 115
+Anycast: 205
+Unknown country: 74
 
 Топ стран:
-  🌐 Anycast: 196
-  Unknown: 83
-  Germany: 30
+  🌐 Anycast: 205
+  Unknown: 74
+  Germany: 31
   Russia: 29
-  Netherlands: 26
+  Netherlands: 25
   United States: 18
   France: 11
+  Finland: 11
   Poland: 10
-  Finland: 7
-  Switzerland: 6
-  Israel: 5
+  Switzerland: 2
 
 Топ SNI:
-  apple.com: 21
+  apple.com: 25
   sellflow.org: 18
-  maps.apple.com: 14
+  valid22.validbv9501.ir: 12
+  api-maps.yandex.ru: 11
+  maps.apple.com: 10
   www.nvidia.com: 10
-  api-maps.yandex.ru: 10
-  abuse.sellflow.org: 10
-  sg.xfj123.top: 10
   storage.yandex.net: 10
-  valid22.validbv9501.ir: 10
-  2.r.y.a.j.7.c.z.d.z.8.f.f.r.us.art-us.kdns.fr: 10
-  dowload.max.ru: 8
-  funny2.oneok.name: 8
-  BankMelat.glObal.ssl.faStly.nEt.: 7
-  176.123.165.127: 6
-  cdn6-49.yahoo.com: 6
+  funny2.oneok.name: 9
+  sg.xfj123.top: 9
+  abuse.sellflow.org: 8
+  BankMelat.glObal.ssl.faStly.nEt.: 8
+  2.r.y.a.j.7.c.z.d.z.8.f.f.r.us.art-us.kdns.fr: 7
+  cloudflare.com: 6
+  www.bing.com: 6
+  l.m.j.u.w.9.y.i.m.y.s.8.p.y.us.art-us.kdns.fr: 6
 
 Топ портов:
-  443: 249
-  8443: 35
-  80: 11
-  2087: 10
+  443: 261
+  8443: 31
+  80: 12
+  2087: 12
   9443: 8
-  2083: 7
-  40025: 6
-  40027: 5
   40003: 5
+  2083: 5
   8082: 4
+  7443: 4
   40017: 4
   8880: 4
-  56745: 3
   4100: 3
   2200: 3
+  1337: 3
+  40025: 3
 
 Топ схем:
-  vless: 330
+  vless: 325
   hysteria2: 63
   trojan: 20
   vmess: 8
 
 Топ transport:
-  tcp: 214
-  ws: 90
-  xhttp: 57
-  grpc: 46
-  raw: 12
+  tcp: 204
+  ws: 93
+  grpc: 48
+  xhttp: 47
+  raw: 22
   httpupgrade: 2
 
 Топ security:
-  reality: 222
-  none: 109
-  tls: 86
+  reality: 223
+  none: 101
+  tls: 88
   false: 4
