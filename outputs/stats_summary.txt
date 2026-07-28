@@ -1,5 +1,5 @@
 VPN Builder stats summary
-Generated at: 2026-07-28 12:10:53 MSK
+Generated at: 2026-07-28 14:31:53 MSK
 
 ====================================================================
 RAW GROUPS
@@ -8,126 +8,126 @@ RAW GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 130
-Уникальных строк: 111
-Уникальных host:port: 33
-Уникальных backend: 25
-Anycast: 56
-Unknown country: 21
+Всего конфигов: 340
+Уникальных строк: 213
+Уникальных host:port: 52
+Уникальных backend: 32
+Anycast: 286
+Unknown country: 13
 
 Топ стран:
-  🌐 Anycast: 56
-  Unknown: 21
-  United States: 12
-  Russia: 12
-  Poland: 10
-  Estonia: 6
-  Germany: 6
+  🌐 Anycast: 286
+  Russia: 14
+  Unknown: 13
+  Poland: 6
+  United States: 5
+  Estonia: 4
   Czechia: 4
-  Switzerland: 2
-  Austria: 1
+  Austria: 3
+  Netherlands: 2
+  France: 2
 
 Топ SNI:
-  dl.google.com: 29
-  api-maps.yandex.ru: 18
-  www.twitch.tv: 16
-  cdn-spb.buildsnow.top: 12
+  apple.com: 218
+  dl.google.com: 21
+  api-maps.yandex.ru: 17
+  hhtj.hhllfly.kdns.fr: 13
+  www.twitch.tv: 12
   tjplay.lxdxo.kdns.fr: 12
-  hhtj.hhllfly.kdns.fr: 10
-  maps.apple.com: 6
-  tradingview.com: 6
-  ign.com: 4
-  media2.tcpdoor.net: 3
+  cdn-spb.buildsnow.top: 10
+  www.tradingview.com: 7
+  ads.x5.ru: 5
+  www.singaporeair.com: 4
 
 Топ портов:
-  443: 63
-  9878: 9
-  29447: 6
-  29445: 6
-  9879: 6
-  9892: 6
-  29443: 4
-  29446: 4
+  443: 294
+  9878: 6
+  29447: 4
+  29445: 4
   9891: 4
-  6443: 4
+  9892: 4
+  9830: 3
+  9879: 3
+  29446: 2
+  29444: 2
 
 Топ схем:
-  vless: 108
-  trojan: 22
+  vless: 314
+  trojan: 25
+  hysteria2: 1
 
 Топ transport:
-  grpc: 54
-  raw: 26
-  tcp: 26
-  ws: 24
+  raw: 194
+  tcp: 71
+  grpc: 39
+  ws: 29
+  xhttp: 7
 
 Топ security:
-  reality: 104
-  tls: 24
-  none: 1
-  none```: 1
+  reality: 309
+  tls: 28
+  none: 3
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_vless
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 105
-Уникальных строк: 105
-Уникальных host:port: 33
-Уникальных backend: 25
-Anycast: 41
-Unknown country: 19
+Всего конфигов: 150
+Уникальных строк: 150
+Уникальных host:port: 44
+Уникальных backend: 26
+Anycast: 133
+Unknown country: 5
 
 Топ стран:
-  🌐 Anycast: 41
-  Unknown: 19
-  Russia: 12
-  United States: 9
-  Poland: 8
-  Germany: 6
-  Czechia: 4
-  Estonia: 3
-  Switzerland: 2
+  🌐 Anycast: 133
+  Unknown: 5
+  Russia: 3
+  Estonia: 2
+  Poland: 2
+  United States: 2
   Austria: 1
+  France: 1
+  Netherlands: 1
 
 Топ SNI:
-  dl.google.com: 29
-  cdn-spb.buildsnow.top: 12
-  hhtj.hhllfly.kdns.fr: 10
-  api-maps.yandex.ru: 9
-  www.twitch.tv: 8
-  maps.apple.com: 6
-  tradingview.com: 6
-  tjplay.lxdxo.kdns.fr: 6
-  media2.tcpdoor.net: 3
-  www.io.ozone.ru: 2
+  apple.com: 109
+  api-maps.yandex.ru: 8
+  dl.google.com: 6
+  www.twitch.tv: 6
+  ads.x5.ru: 4
+  hhtj.hhllfly.kdns.fr: 3
+  media2.tcpdoor.net: 2
+  www.singaporeair.com: 2
+  www.tradingview.com: 1
+  api.yandex-api.org: 1
 
 Топ портов:
-  443: 48
-  9878: 9
-  9879: 6
-  9892: 6
-  9891: 4
-  6443: 4
-  4353: 4
-  29447: 3
-  29445: 3
-  9830: 2
+  443: 133
+  29447: 2
+  9878: 2
+  29445: 2
+  9830: 1
+  13561: 1
+  9879: 1
+  7899: 1
+  9892: 1
+  29446: 1
 
 Топ схем:
-  vless: 89
-  trojan: 16
+  vless: 146
+  trojan: 4
 
 Топ transport:
-  grpc: 54
-  tcp: 20
-  ws: 18
-  raw: 13
+  raw: 98
+  tcp: 34
+  grpc: 13
+  ws: 4
+  xhttp: 1
 
 Топ security:
-  reality: 85
-  tls: 18
+  reality: 145
+  tls: 4
   none: 1
-  none```: 1
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW black_all
@@ -201,121 +201,124 @@ FINAL GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 33
-Уникальных строк: 33
-Уникальных host:port: 33
-Уникальных backend: 22
-Anycast: 12
-Unknown country: 7
+Всего конфигов: 51
+Уникальных строк: 51
+Уникальных host:port: 51
+Уникальных backend: 31
+Anycast: 30
+Unknown country: 6
 
 Топ стран:
-  🌐 Anycast: 12
-  Unknown: 7
-  United States: 3
-  Russia: 3
-  Germany: 3
+  🌐 Anycast: 30
+  Russia: 7
+  Unknown: 6
   Poland: 2
-  Switzerland: 1
+  Austria: 1
   Czechia: 1
+  France: 1
+  United States: 1
   Estonia: 1
+  Netherlands: 1
 
 Топ SNI:
+  apple.com: 12
   dl.google.com: 7
-  maps.apple.com: 3
+  ads.x5.ru: 4
+  www.twitch.tv: 4
+  api-maps.yandex.ru: 3
   cdn-spb.buildsnow.top: 3
-  www.twitch.tv: 3
   hhtj.hhllfly.kdns.fr: 3
-  api-maps.yandex.ru: 2
   tradingview.com: 2
   metrika.yandex.ru: 1
-  play.overcloud.cloud: 1
-  amd.com: 1
+  hh.ru: 1
 
 Топ портов:
-  443: 14
-  6443: 2
+  443: 31
   9878: 2
-  9882: 1
-  9891: 1
+  16923: 1
+  8443: 1
+  49001: 1
   9892: 1
-  29447: 1
-  4353: 1
-  9443: 1
-  10443: 1
+  9830: 1
+  9891: 1
+  2053: 1
+  7899: 1
 
 Топ схем:
-  vless: 29
+  vless: 47
   trojan: 4
 
 Топ transport:
+  raw: 20
   grpc: 16
-  tcp: 7
-  raw: 5
-  ws: 5
+  tcp: 8
+  ws: 6
+  xhttp: 1
 
 Топ security:
-  reality: 27
+  reality: 44
   tls: 5
-  none: 1
+  none: 2
 
 ────────────────────────────────────────────────────────────────────
 📊 white_vless
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 33
-Уникальных строк: 33
-Уникальных host:port: 33
-Уникальных backend: 22
-Anycast: 12
-Unknown country: 7
+Всего конфигов: 43
+Уникальных строк: 43
+Уникальных host:port: 43
+Уникальных backend: 26
+Anycast: 29
+Unknown country: 4
 
 Топ стран:
-  🌐 Anycast: 12
-  Unknown: 7
+  🌐 Anycast: 29
+  Unknown: 4
   Russia: 3
-  United States: 3
-  Germany: 3
   Poland: 2
-  Switzerland: 1
-  Czechia: 1
+  France: 1
+  Austria: 1
   Estonia: 1
+  United States: 1
+  Netherlands: 1
 
 Топ SNI:
-  dl.google.com: 7
-  cdn-spb.buildsnow.top: 3
-  maps.apple.com: 3
-  www.twitch.tv: 3
+  apple.com: 12
+  dl.google.com: 6
+  ads.x5.ru: 4
+  www.twitch.tv: 4
   hhtj.hhllfly.kdns.fr: 3
-  tradingview.com: 2
   api-maps.yandex.ru: 2
   metrika.yandex.ru: 1
-  5post-gate.x5.ru: 1
-  amd.com: 1
+  cdn-spb.buildsnow.top: 1
+  api.yandex-api.org: 1
+  media2.tcpdoor.net: 1
 
 Топ портов:
-  443: 14
-  6443: 2
+  443: 28
   9878: 2
-  10443: 1
-  9882: 1
-  9891: 1
-  4353: 1
-  29446: 1
+  8443: 1
+  49001: 1
+  9892: 1
+  9830: 1
+  2053: 1
+  9894: 1
+  7899: 1
   29447: 1
-  9443: 1
 
 Топ схем:
-  vless: 29
+  vless: 39
   trojan: 4
 
 Топ transport:
-  grpc: 16
-  tcp: 7
-  raw: 5
-  ws: 5
+  raw: 20
+  grpc: 12
+  tcp: 6
+  ws: 4
+  xhttp: 1
 
 Топ security:
-  reality: 27
-  tls: 5
+  reality: 38
+  tls: 4
   none: 1
 
 ────────────────────────────────────────────────────────────────────
@@ -325,18 +328,18 @@ Unknown country: 7
 Уникальных строк: 140
 Уникальных host:port: 140
 Уникальных backend: 112
-Anycast: 55
-Unknown country: 28
+Anycast: 54
+Unknown country: 29
 
 Топ стран:
-  🌐 Anycast: 55
-  Unknown: 28
+  🌐 Anycast: 54
+  Unknown: 29
   Germany: 14
   United States: 12
   Netherlands: 11
   Japan: 4
-  Finland: 4
   France: 4
+  Finland: 4
   Estonia: 2
   India: 2
 
@@ -344,43 +347,43 @@ Unknown country: 28
   storage.yandex.net: 5
   valid22.validbv9501.ir: 4
   BankMelat.glObal.ssl.faStly.nEt.: 4
-  dl.google.com: 3
   www.intel.com: 3
+  auto.malina24.xyz: 3
+  dl.google.com: 3
   vlso.1d.mom: 3
   BankMelat.glObal.ssl.faStly.nEt: 3
   cdn2-56.yahoo.com: 2
   updates.cdn-apple.com: 2
-  auto.malina24.xyz: 2
 
 Топ портов:
   443: 76
-  8443: 13
-  80: 10
-  8880: 7
+  8443: 16
+  80: 9
+  8880: 6
   2087: 4
   2083: 3
   1443: 2
-  2053: 2
   2027: 2
   44356: 2
+  2053: 2
 
 Топ схем:
-  vless: 116
+  vless: 118
   hysteria2: 16
-  trojan: 8
+  trojan: 6
 
 Топ transport:
   tcp: 73
-  ws: 40
+  ws: 37
   xhttp: 17
-  grpc: 7
+  grpc: 10
   raw: 3
 
 Топ security:
-  reality: 66
-  tls: 36
-  none: 34
-  false: 4
+  reality: 67
+  none: 36
+  tls: 35
+  false: 2
 
 ────────────────────────────────────────────────────────────────────
 📊 pool
@@ -388,122 +391,122 @@ Unknown country: 28
 Всего конфигов: 150
 Уникальных строк: 150
 Уникальных host:port: 150
-Уникальных backend: 120
-Anycast: 59
-Unknown country: 31
+Уникальных backend: 122
+Anycast: 62
+Unknown country: 27
 
 Топ стран:
-  🌐 Anycast: 59
-  Unknown: 31
-  Germany: 16
-  United States: 13
-  Netherlands: 9
-  France: 4
+  🌐 Anycast: 62
+  Unknown: 27
+  Germany: 14
+  Netherlands: 11
+  United States: 9
+  Russia: 6
+  France: 5
   Poland: 3
-  Russia: 2
-  Estonia: 2
-  Switzerland: 2
+  Estonia: 3
+  Finland: 3
 
 Топ SNI:
-  dl.google.com: 9
-  www.twitch.tv: 4
-  storage.yandex.net: 4
-  valid22.validbv9501.ir: 4
-  maps.apple.com: 3
-  vlso.1d.mom: 3
+  dl.google.com: 8
+  apple.com: 6
+  www.twitch.tv: 5
+  ads.x5.ru: 4
+  api-maps.yandex.ru: 3
+  hhtj.hhllfly.kdns.fr: 3
+  valid22.validbv9501.ir: 3
   BankMelat.glObal.ssl.faStly.nEt: 3
-  cdn-spb.buildsnow.top: 2
-  api-maps.yandex.ru: 2
-  tradingview.com: 2
+  www.intel.com: 3
+  storage.yandex.net: 3
 
 Топ портов:
-  443: 76
-  8443: 12
-  80: 8
+  443: 82
+  8443: 15
+  80: 6
   8880: 5
-  2087: 4
-  2083: 3
-  6443: 2
+  2053: 3
+  2087: 3
   9878: 2
+  2027: 2
   44356: 2
-  1443: 2
+  2083: 2
 
 Топ схем:
-  vless: 127
-  hysteria2: 13
-  trojan: 10
+  vless: 128
+  hysteria2: 14
+  trojan: 8
 
 Топ transport:
-  tcp: 69
-  ws: 39
-  grpc: 19
+  tcp: 63
+  ws: 33
+  grpc: 21
+  raw: 17
   xhttp: 16
-  raw: 7
 
 Топ security:
-  reality: 81
-  tls: 37
-  none: 28
-  false: 4
+  reality: 85
+  tls: 34
+  none: 29
+  false: 2
 
 ────────────────────────────────────────────────────────────────────
 📊 mixed
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 59
-Уникальных строк: 59
-Уникальных host:port: 59
-Уникальных backend: 47
-Anycast: 20
-Unknown country: 16
+Всего конфигов: 60
+Уникальных строк: 60
+Уникальных host:port: 60
+Уникальных backend: 50
+Anycast: 29
+Unknown country: 10
 
 Топ стран:
-  🌐 Anycast: 20
-  Unknown: 16
-  Germany: 7
-  United States: 5
-  Russia: 2
+  🌐 Anycast: 29
+  Unknown: 10
+  Netherlands: 6
+  Russia: 4
+  Estonia: 2
   Poland: 2
+  France: 2
+  Germany: 2
   Czechia: 1
-  Estonia: 1
-  Switzerland: 1
-  France: 1
+  Austria: 1
 
 Топ SNI:
-  dl.google.com: 8
-  maps.apple.com: 3
-  www.twitch.tv: 3
+  apple.com: 6
+  www.twitch.tv: 5
+  dl.google.com: 5
+  ads.x5.ru: 4
+  cdn-spb.buildsnow.top: 2
   api-maps.yandex.ru: 2
   tradingview.com: 2
-  cdn-spb.buildsnow.top: 2
   valid22.validbv9501.ir: 2
-  hu007.bearbeer.digital: 2
-  storage.yandex.net: 2
-  www.myanmarone.site: 2
+  hh.ru: 1
+  sun1-93.userapi.com: 1
 
 Топ портов:
-  443: 32
-  8443: 4
-  9878: 2
-  6443: 2
+  443: 33
+  8443: 5
+  2053: 3
+  2027: 2
   2087: 2
-  29445: 1
-  9891: 1
-  4353: 1
   29447: 1
-  9877: 1
+  49001: 1
+  9892: 1
+  4353: 1
+  29446: 1
 
 Топ схем:
-  vless: 59
+  vless: 60
 
 Топ transport:
-  tcp: 24
-  grpc: 15
-  ws: 8
-  raw: 6
-  xhttp: 6
+  tcp: 18
+  raw: 14
+  grpc: 13
+  xhttp: 9
+  ws: 6
 
 Топ security:
-  reality: 47
+  reality: 48
   tls: 12
 
 ────────────────────────────────────────────────────────────────────
@@ -512,36 +515,36 @@ Unknown country: 16
 Всего конфигов: 25
 Уникальных строк: 25
 Уникальных host:port: 25
-Уникальных backend: 22
+Уникальных backend: 20
 Anycast: 14
 Unknown country: 0
 
 Топ стран:
   🌐 Anycast: 14
-  Germany: 4
+  Netherlands: 4
+  Germany: 2
+  Russia: 2
   United States: 2
-  Netherlands: 2
   Poland: 1
-  Russia: 1
-  Japan: 1
 
 Топ SNI:
-  maps.apple.com: 3
+  31.56.222.208: 2
+  ads.x5.ru: 2
+  dl.google.com: 2
+  apple.com: 2
+  u695099uf6377524s2057.gogocs.xyz: 2
   valid22.validbv9501.ir: 2
   vlso.1d.mom: 2
   dowload.max.ru: 1
-  accaunts.fastly.com: 1
-  31.56.222.208: 1
-  dl.google.com: 1
-  cpn.moniablue.dpdns.org: 1
-  top1272307106.mwscdn.ru: 1
-  sinavm3.soft10.ir: 1
+  api-maps.yandex.ru: 1
+  metrika.yandex.ru: 1
 
 Топ портов:
-  443: 14
-  8443: 5
+  443: 12
+  8443: 6
   2087: 2
-  6443: 1
+  16923: 1
+  49001: 1
   2083: 1
   2096: 1
   2053: 1
@@ -551,90 +554,91 @@ Unknown country: 0
   trojan: 1
 
 Топ transport:
-  ws: 12
+  ws: 10
   xhttp: 6
-  grpc: 5
-  tcp: 2
+  grpc: 4
+  tcp: 4
+  raw: 1
 
 Топ security:
-  tls: 17
-  reality: 8
+  tls: 15
+  reality: 10
 
 ====================================================================
 🌍 GLOBAL SUMMARY
 ====================================================================
-Всего конфигов: 440
-Уникальных строк: 177
-Уникальных host:port: 172
-Уникальных backend: 133
-Anycast: 172
-Unknown country: 89
+Всего конфигов: 469
+Уникальных строк: 200
+Уникальных host:port: 190
+Уникальных backend: 140
+Anycast: 218
+Unknown country: 76
 
 Топ стран:
-  🌐 Anycast: 172
-  Unknown: 89
-  Germany: 47
-  United States: 38
-  Netherlands: 23
-  Russia: 11
+  🌐 Anycast: 218
+  Unknown: 76
+  Netherlands: 34
+  Germany: 32
+  United States: 26
+  Russia: 22
+  France: 13
   Poland: 11
-  France: 9
-  Japan: 8
-  Estonia: 7
-  Switzerland: 6
-  Finland: 6
-  Czechia: 4
+  Estonia: 9
+  Finland: 7
+  Japan: 5
+  Austria: 4
   India: 4
-  Kazakhstan: 3
+  Czechia: 3
+  Kazakhstan: 2
 
 Топ SNI:
-  dl.google.com: 35
-  maps.apple.com: 15
-  www.twitch.tv: 14
-  valid22.validbv9501.ir: 12
-  cdn-spb.buildsnow.top: 11
-  storage.yandex.net: 11
-  api-maps.yandex.ru: 10
-  hhtj.hhllfly.kdns.fr: 9
-  vlso.1d.mom: 9
-  tradingview.com: 8
-  hu007.bearbeer.digital: 6
-  www.myanmarone.site: 6
-  31.56.222.208: 6
-  BankMelat.glObal.ssl.faStly.nEt: 6
-  BankMelat.glObal.ssl.faStly.nEt.: 6
+  apple.com: 38
+  dl.google.com: 31
+  www.twitch.tv: 19
+  ads.x5.ru: 18
+  api-maps.yandex.ru: 12
+  valid22.validbv9501.ir: 11
+  hhtj.hhllfly.kdns.fr: 10
+  cdn-spb.buildsnow.top: 8
+  storage.yandex.net: 8
+  tradingview.com: 7
+  u695099uf6377524s2057.gogocs.xyz: 7
+  31.56.222.208: 7
+  vlso.1d.mom: 7
+  www.singaporeair.com: 6
+  www.intel.com: 6
 
 Топ портов:
-  443: 226
-  8443: 34
-  80: 18
-  2087: 12
-  8880: 12
-  6443: 9
-  9878: 8
-  2083: 8
-  2053: 6
-  1443: 5
-  9882: 4
-  9891: 4
+  443: 262
+  8443: 44
+  80: 15
+  2053: 11
+  2087: 11
+  8880: 11
+  9878: 7
+  2083: 7
+  2027: 6
+  49001: 5
+  16923: 4
   9892: 4
-  29447: 4
-  4353: 4
+  9830: 4
+  7899: 4
+  29445: 4
 
 Топ схем:
-  vless: 384
-  hysteria2: 29
-  trojan: 27
+  vless: 416
+  hysteria2: 30
+  trojan: 23
 
 Топ transport:
-  tcp: 182
-  ws: 109
-  grpc: 78
-  xhttp: 45
-  raw: 26
+  tcp: 172
+  ws: 96
+  grpc: 76
+  raw: 75
+  xhttp: 50
 
 Топ security:
-  reality: 256
-  tls: 112
-  none: 64
-  false: 8
+  reality: 292
+  tls: 105
+  none: 68
+  false: 4
