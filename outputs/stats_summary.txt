@@ -1,5 +1,5 @@
 VPN Builder stats summary
-Generated at: 2026-08-01 19:16:52 MSK
+Generated at: 2026-08-01 20:28:10 MSK
 
 ====================================================================
 RAW GROUPS
@@ -9,54 +9,59 @@ RAW GROUPS
 📊 RAW white_cidr
 ────────────────────────────────────────────────────────────────────
 Всего конфигов: 523
-Уникальных строк: 297
-Уникальных host:port: 48
-Уникальных backend: 28
-Anycast: 427
-Unknown country: 82
+Уникальных строк: 293
+Уникальных host:port: 46
+Уникальных backend: 31
+Anycast: 485
+Unknown country: 7
 
 Топ стран:
-  🌐 Anycast: 427
-  Unknown: 82
-  Germany: 7
-  Poland: 4
-  Netherlands: 2
-  Finland: 1
+  🌐 Anycast: 485
+  Germany: 10
+  Poland: 10
+  Unknown: 7
+  Netherlands: 7
+  Russia: 3
+  France: 1
 
 Топ SNI:
-  apple.com: 366
-  pro-ru-213.emrata.top: 30
-  www.eni.com: 26
-  eh.vk.ru: 18
-  media-ru3.lbdnetwork.com: 14
+  apple.com: 444
+  hh.ru: 12
   tjplay.lxdxo.kdns.fr: 11
-  media2.tcpdoor.net: 9
-  hh.ru: 8
+  media-ru3.lbdnetwork.com: 9
   www.tradingview.com: 6
   www.singaporeair.com: 4
+  ru-msk.sillyvpn.cc: 4
+  icloud.com: 4
+  dogs.abvphelp.cc: 4
+  wx-deu-037.cdnphotos.org: 3
 
 Топ портов:
-  443: 498
-  2053: 9
+  443: 492
+  2053: 13
   80: 7
   7443: 4
-  8443: 4
-  56745: 1
+  440: 1
+  6443: 1
+  442: 1
+  439: 1
+  8443: 1
+  2200: 1
 
 Топ схем:
   vless: 512
   trojan: 11
 
 Топ transport:
-  raw: 267
-  tcp: 181
-  grpc: 30
-  xhttp: 26
+  raw: 237
+  tcp: 218
+  xhttp: 25
+  grpc: 24
   ws: 19
 
 Топ security:
-  reality: 483
-  tls: 32
+  reality: 486
+  tls: 29
   none: 8
 
 ────────────────────────────────────────────────────────────────────
@@ -64,36 +69,34 @@ Unknown country: 82
 ────────────────────────────────────────────────────────────────────
 Всего конфигов: 150
 Уникальных строк: 150
-Уникальных host:port: 26
-Уникальных backend: 9
-Anycast: 112
-Unknown country: 35
+Уникальных host:port: 21
+Уникальных backend: 7
+Anycast: 140
+Unknown country: 2
 
 Топ стран:
-  🌐 Anycast: 112
-  Unknown: 35
-  Poland: 2
-  Netherlands: 1
+  🌐 Anycast: 140
+  Poland: 5
+  Unknown: 2
+  Netherlands: 2
+  Germany: 1
 
 Топ SNI:
-  apple.com: 111
-  pro-ru-213.emrata.top: 15
-  eh.vk.ru: 9
-  www.eni.com: 9
-  hh.ru: 4
+  apple.com: 142
+  hh.ru: 6
   www.singaporeair.com: 2
 
 Топ портов:
-  443: 146
-  2053: 4
+  443: 144
+  2053: 6
 
 Топ схем:
   vless: 150
 
 Топ transport:
-  raw: 98
-  tcp: 48
-  grpc: 4
+  raw: 86
+  tcp: 58
+  grpc: 6
 
 Топ security:
   reality: 150
@@ -170,92 +173,97 @@ FINAL GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 42
-Уникальных строк: 42
-Уникальных host:port: 42
-Уникальных backend: 25
-Anycast: 26
-Unknown country: 9
+Всего конфигов: 40
+Уникальных строк: 40
+Уникальных host:port: 40
+Уникальных backend: 28
+Anycast: 25
+Unknown country: 4
 
 Топ стран:
-  🌐 Anycast: 26
-  Unknown: 9
+  🌐 Anycast: 25
   Germany: 5
+  Unknown: 4
+  Russia: 3
   Poland: 1
-  Finland: 1
+  Netherlands: 1
+  France: 1
 
 Топ SNI:
   apple.com: 12
-  id.pervye.ru: 3
-  www.eni.com: 3
+  ru-msk.sillyvpn.cc: 4
   hh.ru: 2
-  wx-deu-037.cdnphotos.org: 2
-  media-ru3.lbdnetwork.com: 2
-  wx-deu-022.cdnphotos.org: 2
-  eh.vk.ru: 2
-  www.vk.com: 1
-  www.tradingview.com: 1
+  wx-deu-037.cdnphotos.org: 1
+  sun6-21.userapi.com: 1
+  sun1-19.userapi.com: 1
+  yastatic.net: 1
+  www.singaporeair.com: 1
+  dogs.abvphelp.cc: 1
+  id.pervye.ru: 1
 
 Топ портов:
-  443: 30
+  443: 25
   80: 4
   2053: 3
-  8443: 3
-  56745: 1
+  8443: 1
+  6443: 1
+  18443: 1
+  440: 1
+  2200: 1
   7443: 1
+  442: 1
 
 Топ схем:
-  vless: 41
+  vless: 39
   trojan: 1
 
 Топ transport:
-  raw: 17
-  grpc: 9
-  xhttp: 7
+  raw: 10
+  xhttp: 10
+  grpc: 8
+  tcp: 6
   ws: 6
-  tcp: 3
 
 Топ security:
-  reality: 29
-  tls: 8
+  reality: 26
+  tls: 9
   none: 5
 
 ────────────────────────────────────────────────────────────────────
 📊 white_vless
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 20
-Уникальных строк: 20
-Уникальных host:port: 20
-Уникальных backend: 8
-Anycast: 13
-Unknown country: 6
+Всего конфигов: 15
+Уникальных строк: 15
+Уникальных host:port: 15
+Уникальных backend: 6
+Anycast: 12
+Unknown country: 1
 
 Топ стран:
-  🌐 Anycast: 13
-  Unknown: 6
+  🌐 Anycast: 12
+  Germany: 1
   Poland: 1
+  Unknown: 1
 
 Топ SNI:
   apple.com: 12
-  www.eni.com: 3
   hh.ru: 2
-  eh.vk.ru: 2
-  pro-ru-213.emrata.top: 1
+  www.singaporeair.com: 1
 
 Топ портов:
-  443: 18
+  443: 13
   2053: 2
 
 Топ схем:
-  vless: 20
+  vless: 15
 
 Топ transport:
-  raw: 15
+  raw: 10
   tcp: 3
   grpc: 2
 
 Топ security:
-  reality: 20
+  reality: 15
 
 ────────────────────────────────────────────────────────────────────
 📊 black_all
@@ -276,8 +284,8 @@ Unknown country: 30
   United States: 3
   Japan: 2
   Estonia: 1
-  Austria: 1
   Finland: 1
+  Austria: 1
 
 Топ SNI:
   forfreeuse.sub-flow.online: 4
@@ -300,8 +308,8 @@ Unknown country: 30
   20004: 2
   20041: 2
   2086: 1
-  2000: 1
-  8880: 1
+  25004: 1
+  57137: 1
 
 Топ схем:
   vless: 36
@@ -324,66 +332,66 @@ Unknown country: 30
 ────────────────────────────────────────────────────────────────────
 📊 pool
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 103
-Уникальных строк: 103
-Уникальных host:port: 101
-Уникальных backend: 81
-Anycast: 38
-Unknown country: 37
+Всего конфигов: 102
+Уникальных строк: 102
+Уникальных host:port: 100
+Уникальных backend: 84
+Anycast: 36
+Unknown country: 34
 
 Топ стран:
-  🌐 Anycast: 38
-  Unknown: 37
-  Germany: 9
-  Netherlands: 4
-  France: 4
+  🌐 Anycast: 36
+  Unknown: 34
+  Germany: 10
+  Netherlands: 5
+  France: 5
+  Russia: 3
   United States: 3
-  Finland: 2
   Japan: 2
   Poland: 1
-  Estonia: 1
+  Austria: 1
 
 Топ SNI:
   apple.com: 6
-  forfreeuse.sub-flow.online: 3
-  id.pervye.ru: 2
-  www.eni.com: 2
+  9c32fa182e9a7e35.apruxdomain.xyz: 2
   hh.ru: 2
   wx-deu-022.cdnphotos.org: 2
-  eh.vk.ru: 2
+  ru-msk.sillyvpn.cc: 2
   wx-deu-037.cdnphotos.org: 2
-  media-ru3.lbdnetwork.com: 2
-  9bae1d148edc10e6.apruxdomain.xyz: 2
+  www.ignitelimit.com: 2
+  forfreeuse.sub-flow.online: 2
+  hopp-us.yyuyy.com: 2
+  hk.catxstar.com: 2
 
 Топ портов:
-  443: 58
-  8443: 9
+  443: 55
+  8443: 8
   80: 7
-  2053: 7
+  2053: 6
   52315: 2
-  20041: 2
   20004: 2
+  20041: 2
+  18443: 1
+  6443: 1
   7443: 1
-  56745: 1
-  47257: 1
 
 Топ схем:
-  vless: 65
+  vless: 64
   hysteria2: 27
   trojan: 10
   vmess: 1
 
 Топ transport:
-  tcp: 43
-  ws: 25
-  xhttp: 12
-  raw: 12
+  tcp: 45
+  ws: 24
+  xhttp: 15
   grpc: 11
+  raw: 7
 
 Топ security:
   none: 42
   tls: 31
-  reality: 30
+  reality: 29
 
 ────────────────────────────────────────────────────────────────────
 📊 mixed
@@ -391,36 +399,40 @@ Unknown country: 37
 Всего конфигов: 49
 Уникальных строк: 49
 Уникальных host:port: 49
-Уникальных backend: 37
-Anycast: 22
-Unknown country: 15
+Уникальных backend: 40
+Anycast: 21
+Unknown country: 12
 
 Топ стран:
-  🌐 Anycast: 22
-  Unknown: 15
-  Germany: 6
-  France: 2
+  🌐 Anycast: 21
+  Unknown: 12
+  Germany: 7
+  France: 3
+  Russia: 2
+  Netherlands: 2
   Poland: 1
-  Netherlands: 1
   United States: 1
-  Russia: 1
 
 Топ SNI:
   apple.com: 6
-  hh.ru: 2
+  ru-msk.sillyvpn.cc: 2
   wx-deu-022.cdnphotos.org: 2
-  eh.vk.ru: 2
-  id.pervye.ru: 2
-  media-ru3.lbdnetwork.com: 2
   wx-deu-037.cdnphotos.org: 2
-  www.eni.com: 2
-  forfreeuse.sub-flow.online: 2
+  hh.ru: 2
   b67c99c6s591.csgfw.top: 2
+  forfreeuse.sub-flow.online: 2
+  auto.malina24.xyz: 2
+  play.overcloud.cloud: 1
+  russia2.ethicsdinnerpave.online: 1
 
 Топ портов:
-  443: 36
+  443: 33
   2053: 6
-  8443: 5
+  8443: 4
+  439: 1
+  6443: 1
+  18443: 1
+  440: 1
   7443: 1
   25004: 1
 
@@ -428,15 +440,15 @@ Unknown country: 15
   vless: 49
 
 Топ transport:
-  raw: 12
+  xhttp: 13
   grpc: 11
-  xhttp: 10
-  ws: 9
-  tcp: 7
+  tcp: 10
+  ws: 8
+  raw: 7
 
 Топ security:
-  reality: 30
-  tls: 19
+  reality: 29
+  tls: 20
 
 ────────────────────────────────────────────────────────────────────
 📊 lte
@@ -444,45 +456,48 @@ Unknown country: 15
 Всего конфигов: 25
 Уникальных строк: 25
 Уникальных host:port: 25
-Уникальных backend: 21
-Anycast: 14
+Уникальных backend: 22
+Anycast: 13
 Unknown country: 0
 
 Топ стран:
-  🌐 Anycast: 14
+  🌐 Anycast: 13
   Germany: 5
   France: 3
   United States: 1
   Netherlands: 1
   Poland: 1
+  Russia: 1
 
 Топ SNI:
   apple.com: 4
   wx-deu-037.cdnphotos.org: 2
   wx-deu-022.cdnphotos.org: 2
-  media-ru3.lbdnetwork.com: 2
+  hh.ru: 2
+  octopusss.net: 1
   deu683.lackerdeu.org: 1
   uk2.denverpresents.top: 1
-  octopusss.net: 1
   www.google.com: 1
-  www.vk.com: 1
-  ov.iran-servers.shop: 1
+  russia2.ethicsdinnerpave.online: 1
+  forfreeuse.sub-flow.online: 1
 
 Топ портов:
-  443: 21
+  443: 19
   2053: 3
   8443: 1
+  440: 1
+  18443: 1
 
 Топ схем:
   vless: 23
   trojan: 2
 
 Топ transport:
-  xhttp: 11
+  xhttp: 12
   ws: 7
-  raw: 4
-  tcp: 2
-  grpc: 1
+  raw: 3
+  grpc: 2
+  tcp: 1
 
 Топ security:
   tls: 16
@@ -491,75 +506,75 @@ Unknown country: 0
 ====================================================================
 🌍 GLOBAL SUMMARY
 ====================================================================
-Всего конфигов: 312
-Уникальных строк: 116
-Уникальных host:port: 110
-Уникальных backend: 81
-Anycast: 134
-Unknown country: 97
+Всего конфигов: 304
+Уникальных строк: 115
+Уникальных host:port: 112
+Уникальных backend: 84
+Anycast: 128
+Unknown country: 81
 
 Топ стран:
-  🌐 Anycast: 134
-  Unknown: 97
-  Germany: 30
-  France: 13
-  Netherlands: 10
+  🌐 Anycast: 128
+  Unknown: 81
+  Germany: 33
+  France: 16
+  Netherlands: 13
+  Russia: 10
   United States: 8
   Poland: 5
-  Finland: 4
   Japan: 4
-  Russia: 3
   Estonia: 2
+  Finland: 2
   Austria: 2
 
 Топ SNI:
   apple.com: 40
-  www.eni.com: 10
-  forfreeuse.sub-flow.online: 10
-  hh.ru: 9
-  wx-deu-037.cdnphotos.org: 9
-  wx-deu-022.cdnphotos.org: 9
-  media-ru3.lbdnetwork.com: 8
-  eh.vk.ru: 8
-  id.pervye.ru: 7
+  hh.ru: 10
+  ru-msk.sillyvpn.cc: 9
+  forfreeuse.sub-flow.online: 9
+  wx-deu-037.cdnphotos.org: 8
+  wx-deu-022.cdnphotos.org: 8
   auto.malina24.xyz: 6
   b67c99c6s591.csgfw.top: 6
   www.ignitelimit.com: 5
-  www.vk.com: 4
+  www.singaporeair.com: 4
   www.tradingview.com: 4
-  pro-ru-213.emrata.top: 4
+  max.ru: 4
+  russia2.ethicsdinnerpave.online: 4
+  9c32fa182e9a7e35.apruxdomain.xyz: 4
+  octopusss.net: 4
 
 Топ портов:
-  443: 200
-  2053: 26
-  8443: 25
+  443: 182
+  2053: 25
+  8443: 21
   80: 15
+  18443: 4
+  440: 4
   52315: 4
   20004: 4
   20041: 4
+  6443: 3
   7443: 3
+  439: 3
   25004: 3
-  56745: 2
+  2200: 2
   2086: 2
-  2000: 2
-  8880: 2
-  10000: 2
-  56127: 2
 
 Топ схем:
-  vless: 234
+  vless: 226
   hysteria2: 54
   trojan: 22
   vmess: 2
 
 Топ transport:
-  tcp: 98
-  ws: 68
-  raw: 62
-  xhttp: 47
+  tcp: 105
+  ws: 66
+  xhttp: 57
+  raw: 39
   grpc: 37
 
 Топ security:
-  reality: 127
-  tls: 100
+  reality: 117
+  tls: 102
   none: 85
