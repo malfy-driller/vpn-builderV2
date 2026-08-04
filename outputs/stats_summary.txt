@@ -1,5 +1,5 @@
 VPN Builder stats summary
-Generated at: 2026-08-04 02:48:02 MSK
+Generated at: 2026-08-04 04:52:04 MSK
 
 ====================================================================
 RAW GROUPS
@@ -8,166 +8,184 @@ RAW GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 596
-Уникальных строк: 365
-Уникальных host:port: 59
-Уникальных backend: 40
-Anycast: 508
-Unknown country: 5
+Всего конфигов: 192
+Уникальных строк: 180
+Уникальных host:port: 60
+Уникальных backend: 44
+Anycast: 95
+Unknown country: 3
 
 Топ стран:
-  🌐 Anycast: 508
-  Russia: 31
-  Finland: 22
-  Netherlands: 16
-  Germany: 14
-  Unknown: 5
+  🌐 Anycast: 95
+  Russia: 38
+  Germany: 25
+  Netherlands: 18
+  Finland: 13
+  Unknown: 3
 
 Топ SNI:
-  apple.com: 436
-  enterprisekitten.com: 15
-  sun6-21.userapi.com: 14
-  media2.tcpdoor.net: 13
-  wx-deu-022.cdnphotos.org: 13
-  wx-deu-037.cdnphotos.org: 12
+  wx-deu-022.cdnphotos.org: 22
+  wx-deu-037.cdnphotos.org: 18
+  enterprisekitten.com: 14
+  media2.tcpdoor.net: 12
   tjplay.lxdxo.kdns.fr: 11
-  www.nvidia.com: 8
-  5post-gate.x5.ru: 7
-  ultra-01.serveroff.net: 7
+  www.nvidia.com: 10
+  yandex.ru: 9
+  5post-gate.x5.ru: 8
+  id.pervye.ru: 8
+  ultra-01.serveroff.net: 8
 
 Топ портов:
-  443: 546
-  8443: 16
-  16923: 13
-  2053: 6
+  443: 129
+  16923: 18
+  8443: 15
+  2200: 9
   9895: 6
-  2200: 3
-  4100: 2
+  4100: 5
+  8880: 3
+  80: 2
+  2053: 2
   777: 2
-  56139: 1
-  9444: 1
 
 Топ схем:
-  vless: 581
+  vless: 177
   trojan: 11
   hysteria2: 4
 
 Топ transport:
-  raw: 269
-  tcp: 213
-  xhttp: 46
-  grpc: 43
-  ws: 25
+  xhttp: 64
+  grpc: 54
+  ws: 36
+  tcp: 28
+  raw: 10
 
 Топ security:
-  reality: 539
-  tls: 48
-  none: 9
+  reality: 104
+  tls: 65
+  none: 23
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_vless
 ────────────────────────────────────────────────────────────────────
 Всего конфигов: 150
 Уникальных строк: 150
-Уникальных host:port: 23
-Уникальных backend: 8
-Anycast: 139
-Unknown country: 0
+Уникальных host:port: 48
+Уникальных backend: 39
+Anycast: 76
+Unknown country: 3
 
 Топ стран:
-  🌐 Anycast: 139
-  Finland: 7
-  Netherlands: 4
+  🌐 Anycast: 76
+  Germany: 25
+  Russia: 23
+  Netherlands: 13
+  Finland: 10
+  Unknown: 3
 
 Топ SNI:
-  apple.com: 135
-  sun6-21.userapi.com: 7
-  www.nvidia.com: 4
-  m.vk.com: 2
-  31.56.188.26.fwqfw783rg2dad.website: 1
-  quic.tyr-agentstvo.tech: 1
+  wx-deu-022.cdnphotos.org: 18
+  wx-deu-037.cdnphotos.org: 18
+  enterprisekitten.com: 14
+  media2.tcpdoor.net: 12
+  5post-gate.x5.ru: 8
+  id.pervye.ru: 8
+  ultra-01.serveroff.net: 8
+  tjplay.lxdxo.kdns.fr: 7
+  www.nvidia.com: 5
+  apple.com: 4
 
 Топ портов:
-  443: 148
-  2053: 2
+  443: 105
+  8443: 15
+  2200: 9
+  9895: 6
+  4100: 4
+  8880: 3
+  16923: 3
+  777: 2
+  80: 1
+  9444: 1
 
 Топ схем:
-  vless: 149
-  hysteria2: 1
+  vless: 140
+  trojan: 7
+  hysteria2: 3
 
 Топ transport:
-  raw: 99
-  tcp: 46
-  xhttp: 4
-  ws: 1
+  xhttp: 50
+  grpc: 38
+  ws: 31
+  tcp: 25
+  raw: 6
 
 Топ security:
-  reality: 148
-  tls: 1
-  none: 1
+  reality: 73
+  tls: 57
+  none: 20
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW black_all
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 386
-Уникальных строк: 284
-Уникальных host:port: 77
-Уникальных backend: 89
-Anycast: 219
-Unknown country: 87
+Всего конфигов: 504
+Уникальных строк: 354
+Уникальных host:port: 107
+Уникальных backend: 121
+Anycast: 307
+Unknown country: 91
 
 Топ стран:
-  🌐 Anycast: 219
-  Unknown: 87
-  Germany: 23
-  Russia: 15
-  Finland: 13
-  Poland: 8
-  United States: 5
-  Estonia: 4
-  Japan: 4
-  Switzerland: 4
+  🌐 Anycast: 307
+  Unknown: 91
+  Germany: 34
+  Russia: 18
+  Finland: 12
+  Poland: 9
+  United States: 9
+  Switzerland: 8
+  Netherlands: 8
+  Japan: 6
 
 Топ SNI:
-  pro-de.emrata.top: 32
-  ddc-akn.astralweb.tech: 16
-  tr.feyland.ir: 16
-  forfreeuse.sub-flow.online: 12
-  www.yahoo.com: 11
-  GERMAN.sarzamiiinahang.ir: 11
-  2--ldej--MiTiVPN---MiTiVPN-o.KingNetwork.ir: 11
-  anyfile2file.com: 8
-  findmypackets.com: 8
-  enterprisekitten.com: 8
+  pro-de.emrata.top: 42
+  m.zoom.us: 26
+  ssl.fastly.com: 21
+  enterprisekitten.com: 14
+  findmypackets.com: 12
+  ad-018.cloud25075.info: 11
+  tr.feyland.ir: 11
+  wx-deu-022.cdnphotos.org: 10
+  wx-deu-037.cdnphotos.org: 10
+  ya.ru: 10
 
 Топ портов:
-  443: 165
-  8443: 100
-  16923: 22
-  2053: 17
-  2083: 16
-  2086: 10
-  20041: 10
-  20004: 9
-  52012: 4
-  8527: 4
+  443: 223
+  8443: 124
+  16923: 33
+  57137: 26
+  20041: 12
+  2083: 11
+  7443: 7
+  2053: 7
+  1000: 6
+  2086: 5
 
 Топ схем:
-  vless: 291
-  trojan: 43
-  hysteria2: 42
-  vmess: 10
+  vless: 388
+  trojan: 65
+  hysteria2: 44
+  vmess: 7
 
 Топ transport:
-  tcp: 184
-  ws: 129
-  grpc: 40
-  xhttp: 33
+  tcp: 204
+  ws: 170
+  xhttp: 65
+  grpc: 65
 
 Топ security:
-  tls: 216
-  reality: 112
-  none: 58
+  tls: 252
+  reality: 164
+  none: 74
+  false: 14
 
 ====================================================================
 FINAL GROUPS
@@ -176,227 +194,247 @@ FINAL GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 53
-Уникальных строк: 53
-Уникальных host:port: 53
-Уникальных backend: 37
-Anycast: 28
-Unknown country: 4
+Всего конфигов: 59
+Уникальных строк: 59
+Уникальных host:port: 59
+Уникальных backend: 43
+Anycast: 30
+Unknown country: 2
 
 Топ стран:
-  🌐 Anycast: 28
-  Russia: 11
-  Unknown: 4
-  Netherlands: 4
+  🌐 Anycast: 30
+  Russia: 17
+  Germany: 4
   Finland: 3
-  Germany: 3
+  Netherlands: 3
+  Unknown: 2
 
 Топ SNI:
-  apple.com: 12
   yandex.ru: 4
+  rzd.ru: 3
+  5post-gate.x5.ru: 2
+  music.yandex.ru: 2
+  mail.yandex.ru: 2
   enterprisekitten.com: 2
-  sun6-21.userapi.com: 2
   ultra-01.serveroff.net: 2
-  rzd.ru: 2
-  maps.yandex.ru: 1
-  max.ru: 1
-  5post-gate.x5.ru: 1
-  api-maps.yandex.ru: 1
+  sun6-21.userapi.com: 2
+  wx-deu-037.cdnphotos.org: 2
+  wx-deu-022.cdnphotos.org: 2
 
 Топ портов:
-  443: 29
-  16923: 7
-  8443: 6
-  2200: 3
-  2053: 2
-  4100: 2
+  443: 24
+  16923: 10
+  2200: 9
+  8443: 4
+  4100: 4
+  8880: 3
   9895: 1
-  777: 1
   9444: 1
-  56139: 1
+  777: 1
+  2053: 1
 
 Топ схем:
-  vless: 51
+  vless: 56
+  hysteria2: 2
   trojan: 1
-  hysteria2: 1
 
 Топ transport:
-  raw: 15
-  grpc: 13
-  tcp: 10
-  ws: 9
-  xhttp: 6
+  ws: 19
+  grpc: 18
+  tcp: 9
+  xhttp: 9
+  raw: 4
 
 Топ security:
-  reality: 39
-  tls: 8
-  none: 6
+  reality: 30
+  none: 19
+  tls: 10
 
 ────────────────────────────────────────────────────────────────────
 📊 white_vless
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 17
-Уникальных строк: 17
-Уникальных host:port: 17
-Уникальных backend: 7
-Anycast: 14
-Unknown country: 0
+Всего конфигов: 48
+Уникальных строк: 48
+Уникальных host:port: 48
+Уникальных backend: 38
+Anycast: 27
+Unknown country: 2
 
 Топ стран:
-  🌐 Anycast: 14
-  Finland: 2
-  Netherlands: 1
+  🌐 Anycast: 27
+  Russia: 9
+  Germany: 4
+  Finland: 3
+  Netherlands: 3
+  Unknown: 2
 
 Топ SNI:
-  apple.com: 12
+  rzd.ru: 3
+  5post-gate.x5.ru: 2
+  wx-deu-037.cdnphotos.org: 2
+  ultra-01.serveroff.net: 2
+  enterprisekitten.com: 2
   sun6-21.userapi.com: 2
-  www.nvidia.com: 1
-  31.56.188.26.fwqfw783rg2dad.website: 1
-  m.vk.com: 1
+  wx-deu-022.cdnphotos.org: 2
+  ru.node.sillyvpn.cc: 2
+  cnd.finland2.2.myfilecdn.com: 2
+  quic.tyr-agentstvo.tech: 2
 
 Топ портов:
-  443: 16
+  443: 22
+  2200: 9
+  8443: 4
+  4100: 3
+  8880: 3
+  16923: 2
+  9895: 1
+  9444: 1
+  777: 1
   2053: 1
 
 Топ схем:
-  vless: 17
+  vless: 45
+  hysteria2: 2
+  trojan: 1
 
 Топ transport:
-  raw: 13
-  tcp: 2
-  xhttp: 1
-  ws: 1
+  ws: 18
+  grpc: 10
+  xhttp: 8
+  tcp: 8
+  raw: 4
 
 Топ security:
-  reality: 16
-  tls: 1
+  reality: 20
+  none: 18
+  tls: 10
 
 ────────────────────────────────────────────────────────────────────
 📊 black_all
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 82
-Уникальных строк: 82
-Уникальных host:port: 77
-Уникальных backend: 64
-Anycast: 34
-Unknown country: 24
+Всего конфигов: 112
+Уникальных строк: 112
+Уникальных host:port: 107
+Уникальных backend: 89
+Anycast: 48
+Unknown country: 33
 
 Топ стран:
-  🌐 Anycast: 34
-  Unknown: 24
+  🌐 Anycast: 48
+  Unknown: 33
   Germany: 8
-  Russia: 4
+  Russia: 6
   Finland: 4
-  Poland: 2
-  United States: 2
-  Switzerland: 1
+  Poland: 3
+  Netherlands: 3
+  United States: 3
+  Switzerland: 2
   Japan: 1
-  Netherlands: 1
 
 Топ SNI:
+  anyfile2file.com: 4
   pro-de.emrata.top: 4
-  forfreeuse.sub-flow.online: 3
-  ssl.fastly.com: 3
-  www.yahoo.com: 3
-  yandex.ru: 2
-  findmypackets.com: 2
-  anyfile2file.com: 2
-  enterprisekitten.com: 2
-  tr.feyland.ir: 2
-  fi-one.quiet-rogue.site: 2
-
-Топ портов:
-  443: 37
-  8443: 9
-  16923: 6
-  2053: 4
-  2086: 4
-  2083: 2
-  20041: 2
-  36723: 2
-  20004: 2
-  777: 1
-
-Топ схем:
-  vless: 45
-  hysteria2: 20
-  trojan: 12
-  vmess: 5
-
-Топ transport:
-  tcp: 51
-  ws: 15
-  grpc: 11
-  xhttp: 5
-
-Топ security:
-  tls: 29
-  none: 28
-  reality: 25
-
-────────────────────────────────────────────────────────────────────
-📊 pool
-────────────────────────────────────────────────────────────────────
-Всего конфигов: 125
-Уникальных строк: 125
-Уникальных host:port: 115
-Уникальных backend: 96
-Anycast: 55
-Unknown country: 28
-
-Топ стран:
-  🌐 Anycast: 55
-  Unknown: 28
-  Russia: 12
-  Germany: 11
-  Finland: 7
-  Netherlands: 5
-  United States: 2
-  Poland: 2
-  Estonia: 1
-  Japan: 1
-
-Топ SNI:
-  apple.com: 6
-  enterprisekitten.com: 4
-  yandex.ru: 3
+  ssl.fastly.com: 4
   fi-one.quiet-rogue.site: 3
-  forfreeuse.sub-flow.online: 3
-  pro-de.emrata.top: 3
-  www.yahoo.com: 3
-  ssl.fastly.com: 3
-  sun6-21.userapi.com: 2
-  ultra-01.serveroff.net: 2
+  hk.catxstar.com: 3
+  b67c99c6s591.csgfw.top: 3
+  findmypackets.com: 2
+  enterprisekitten.com: 2
+  delivery.yandex.ru: 2
+  tr.feyland.ir: 2
 
 Топ портов:
-  443: 59
-  8443: 15
+  443: 54
   16923: 10
-  2053: 6
-  2086: 4
-  2200: 3
+  8443: 10
+  2053: 2
   4100: 2
-  777: 2
-  36723: 2
+  7443: 2
   2083: 2
+  2086: 2
+  2087: 2
+  20041: 2
 
 Топ схем:
-  vless: 86
-  hysteria2: 21
+  vless: 70
+  hysteria2: 24
   trojan: 13
   vmess: 5
 
 Топ transport:
-  tcp: 59
-  ws: 24
-  grpc: 21
-  xhttp: 11
-  raw: 10
+  tcp: 64
+  grpc: 20
+  ws: 15
+  xhttp: 13
 
 Топ security:
-  reality: 54
-  tls: 37
-  none: 34
+  reality: 39
+  tls: 38
+  none: 35
+
+────────────────────────────────────────────────────────────────────
+📊 pool
+────────────────────────────────────────────────────────────────────
+Всего конфигов: 150
+Уникальных строк: 150
+Уникальных host:port: 144
+Уникальных backend: 113
+Anycast: 71
+Unknown country: 31
+
+Топ стран:
+  🌐 Anycast: 71
+  Unknown: 31
+  Russia: 18
+  Germany: 10
+  Finland: 7
+  Netherlands: 4
+  United States: 3
+  Switzerland: 2
+  Poland: 2
+  Japan: 1
+
+Топ SNI:
+  yandex.ru: 4
+  ssl.fastly.com: 4
+  enterprisekitten.com: 3
+  music.yandex.ru: 3
+  mail.yandex.ru: 3
+  hk.catxstar.com: 3
+  pro-de.emrata.top: 3
+  b67c99c6s591.csgfw.top: 3
+  fi-one.quiet-rogue.site: 3
+  anyfile2file.com: 3
+
+Топ портов:
+  443: 68
+  16923: 17
+  8443: 13
+  2200: 8
+  4100: 4
+  8880: 3
+  2053: 2
+  80: 2
+  20004: 2
+  2083: 2
+
+Топ схем:
+  vless: 108
+  hysteria2: 25
+  trojan: 14
+  vmess: 3
+
+Топ transport:
+  tcp: 67
+  grpc: 33
+  ws: 29
+  xhttp: 17
+  raw: 4
+
+Топ security:
+  reality: 60
+  none: 48
+  tls: 42
 
 ────────────────────────────────────────────────────────────────────
 📊 mixed
@@ -404,59 +442,59 @@ Unknown country: 28
 Всего конфигов: 58
 Уникальных строк: 58
 Уникальных host:port: 58
-Уникальных backend: 49
-Anycast: 25
+Уникальных backend: 47
+Anycast: 20
 Unknown country: 8
 
 Топ стран:
-  🌐 Anycast: 25
-  Russia: 9
+  🌐 Anycast: 20
+  Russia: 16
   Unknown: 8
-  Netherlands: 5
   Germany: 4
   Finland: 3
-  Poland: 1
-  Estonia: 1
+  Netherlands: 3
   Japan: 1
+  Switzerland: 1
+  Estonia: 1
   United States: 1
 
 Топ SNI:
-  apple.com: 6
+  anyfile2file.com: 3
+  yandex.ru: 2
   enterprisekitten.com: 2
+  wx-deu-022.cdnphotos.org: 2
+  5post-gate.x5.ru: 2
+  wx-deu-037.cdnphotos.org: 2
+  mail.yandex.ru: 2
+  music.yandex.ru: 2
   sun6-21.userapi.com: 2
   ultra-01.serveroff.net: 2
-  yandex.ru: 2
-  wx-deu-037.cdnphotos.org: 2
-  www.yahoo.com: 2
-  findmypackets.com: 2
-  pro-de.emrata.top: 2
-  max.ru: 1
 
 Топ портов:
-  443: 32
-  8443: 8
-  16923: 7
-  2053: 4
+  443: 34
+  16923: 11
+  8443: 5
   9895: 1
   777: 1
-  56139: 1
   9444: 1
-  52012: 1
+  2087: 1
+  47000: 1
   2083: 1
+  33729: 1
 
 Топ схем:
   vless: 58
 
 Топ transport:
-  tcp: 18
-  grpc: 14
-  raw: 10
-  xhttp: 9
-  ws: 7
+  grpc: 20
+  tcp: 16
+  xhttp: 12
+  ws: 6
+  raw: 4
 
 Топ security:
-  reality: 42
-  tls: 16
+  reality: 41
+  tls: 17
 
 ────────────────────────────────────────────────────────────────────
 📊 lte
@@ -464,122 +502,119 @@ Unknown country: 8
 Всего конфигов: 25
 Уникальных строк: 25
 Уникальных host:port: 25
-Уникальных backend: 20
-Anycast: 13
+Уникальных backend: 19
+Anycast: 7
 Unknown country: 0
 
 Топ стран:
-  🌐 Anycast: 13
-  Russia: 6
-  Germany: 2
-  Netherlands: 2
-  Switzerland: 1
-  Poland: 1
+  Russia: 9
+  🌐 Anycast: 7
+  Germany: 4
+  Netherlands: 3
+  Switzerland: 2
 
 Топ SNI:
   yandex.ru: 2
+  mail.yandex.ru: 2
   wx-deu-037.cdnphotos.org: 2
+  delivery.yandex.ru: 2
+  ru.node.sillyvpn.cc: 2
   ultra-01.serveroff.net: 2
-  tr.feyland.ir: 2
-  forfreeuse.sub-flow.online: 2
+  api-maps.yandex.ru: 1
   www.apple.com: 1
-  music.yandex.ru: 1
-  mail.yandex.ru: 1
   images.yandex.ru: 1
-  ru.node.sillyvpn.cc: 1
+  wx-deu-022.cdnphotos.org: 1
 
 Топ портов:
-  443: 10
-  16923: 7
-  8443: 3
-  2083: 2
-  2053: 2
+  443: 12
+  16923: 11
   9895: 1
+  2083: 1
 
 Топ схем:
   vless: 25
 
 Топ transport:
-  xhttp: 8
-  ws: 8
-  grpc: 7
-  tcp: 2
+  grpc: 11
+  xhttp: 9
+  ws: 4
+  tcp: 1
 
 Топ security:
-  tls: 16
-  reality: 9
+  reality: 14
+  tls: 11
 
 ====================================================================
 🌍 GLOBAL SUMMARY
 ====================================================================
-Всего конфигов: 360
-Уникальных строк: 140
-Уникальных host:port: 129
-Уникальных backend: 96
-Anycast: 169
-Unknown country: 64
+Всего конфигов: 452
+Уникальных строк: 172
+Уникальных host:port: 151
+Уникальных backend: 118
+Anycast: 203
+Unknown country: 76
 
 Топ стран:
-  🌐 Anycast: 169
-  Unknown: 64
-  Russia: 42
-  Germany: 28
-  Finland: 19
-  Netherlands: 18
-  Poland: 6
-  United States: 5
-  Switzerland: 3
+  🌐 Anycast: 203
+  Unknown: 76
+  Russia: 75
+  Germany: 34
+  Finland: 20
+  Netherlands: 19
+  Switzerland: 7
+  United States: 7
+  Poland: 5
   Japan: 3
   Estonia: 3
 
 Топ SNI:
-  apple.com: 36
-  yandex.ru: 13
-  enterprisekitten.com: 10
-  forfreeuse.sub-flow.online: 9
-  pro-de.emrata.top: 9
+  yandex.ru: 14
+  ru.node.sillyvpn.cc: 12
+  enterprisekitten.com: 11
+  ultra-01.serveroff.net: 11
+  wx-deu-037.cdnphotos.org: 11
+  delivery.yandex.ru: 10
+  mail.yandex.ru: 10
+  wx-deu-022.cdnphotos.org: 10
+  anyfile2file.com: 10
+  music.yandex.ru: 9
+  ssl.fastly.com: 9
+  5post-gate.x5.ru: 8
   sun6-21.userapi.com: 8
-  ultra-01.serveroff.net: 8
-  wx-deu-037.cdnphotos.org: 8
-  www.yahoo.com: 8
-  fi-one.quiet-rogue.site: 7
-  tr.feyland.ir: 7
-  findmypackets.com: 6
-  ssl.fastly.com: 6
-  x5club.ru: 5
-  yahoo.com: 5
+  rzd.ru: 8
+  pro-de.emrata.top: 7
 
 Топ портов:
-  443: 183
-  8443: 41
-  16923: 37
-  2053: 19
-  2086: 8
-  2083: 7
-  2200: 6
+  443: 214
+  16923: 61
+  8443: 36
+  2200: 26
+  4100: 13
+  8880: 9
+  2053: 6
+  2083: 6
+  9895: 5
   777: 5
-  9895: 4
-  4100: 4
-  20041: 4
-  36723: 4
-  20004: 4
-  9444: 3
-  56139: 3
+  80: 5
+  2087: 5
+  9444: 4
+  7443: 4
+  2086: 4
 
 Топ схем:
-  vless: 282
-  hysteria2: 42
-  trojan: 26
-  vmess: 10
+  vless: 362
+  hysteria2: 53
+  trojan: 29
+  vmess: 8
 
 Топ transport:
-  tcp: 142
-  grpc: 66
-  ws: 64
-  raw: 48
-  xhttp: 40
+  tcp: 165
+  grpc: 112
+  ws: 91
+  xhttp: 68
+  raw: 16
 
 Топ security:
-  reality: 185
-  tls: 107
-  none: 68
+  reality: 204
+  tls: 128
+  none: 120
