@@ -1,5 +1,5 @@
 VPN Builder stats summary
-Generated at: 2026-08-05 20:58:03 MSK
+Generated at: 2026-08-05 22:26:43 MSK
 
 ====================================================================
 RAW GROUPS
@@ -8,93 +8,92 @@ RAW GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 462
-Уникальных строк: 249
-Уникальных host:port: 34
+Всего конфигов: 419
+Уникальных строк: 226
+Уникальных host:port: 31
 Уникальных backend: 19
-Anycast: 430
-Unknown country: 0
+Anycast: 384
+Unknown country: 1
 
 Топ стран:
-  🌐 Anycast: 430
+  🌐 Anycast: 384
   Russia: 23
-  Netherlands: 8
-  Germany: 1
+  Germany: 9
+  Netherlands: 2
+  Unknown: 1
 
 Топ SNI:
-  apple.com: 400
-  media2.tcpdoor.net: 13
-  api-maps.yandex.ru: 12
+  apple.com: 360
+  wx-deu-022.cdnphotos.org: 13
   eh.vk.com: 10
-  www.nvidia.com: 6
-  wx-deu-022.cdnphotos.org: 5
+  api-maps.yandex.ru: 10
+  storage.yandex.net: 8
   www.tradingview.com: 4
+  www.samsung.com: 3
   monalisgame.com: 3
-  cloudflare.vhub.pro: 2
-  river-3-369.rtbcdn.ru: 2
+  www.nvidia.com: 2
+  wx-deu-037.cdnphotos.org: 1
 
 Топ портов:
-  443: 450
+  443: 403
+  2027: 8
   9443: 4
-  2200: 3
-  50445: 2
-  9895: 2
-  989: 1
+  4100: 2
+  2053: 1
+  8443: 1
 
 Топ схем:
-  vless: 462
+  vless: 419
 
 Топ transport:
-  raw: 246
-  tcp: 181
-  xhttp: 17
-  grpc: 13
-  ws: 5
+  raw: 276
+  tcp: 120
+  xhttp: 20
+  ws: 2
+  grpc: 1
 
 Топ security:
-  reality: 451
-  tls: 7
-  none: 4
+  reality: 403
+  tls: 14
+  none: 2
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_vless
 ────────────────────────────────────────────────────────────────────
 Всего конфигов: 150
 Уникальных строк: 150
-Уникальных host:port: 23
-Уникальных backend: 8
+Уникальных host:port: 19
+Уникальных backend: 7
 Anycast: 137
 Unknown country: 0
 
 Топ стран:
   🌐 Anycast: 137
-  Russia: 9
-  Netherlands: 4
+  Russia: 8
+  Germany: 4
+  Netherlands: 1
 
 Топ SNI:
-  apple.com: 136
+  apple.com: 137
   eh.vk.com: 5
-  api-maps.yandex.ru: 4
-  www.nvidia.com: 3
-  cloudflare.vhub.pro: 1
-  river-3-369.rtbcdn.ru: 1
+  storage.yandex.net: 4
+  api-maps.yandex.ru: 3
+  www.nvidia.com: 1
 
 Топ портов:
-  443: 149
-  50445: 1
+  443: 146
+  2027: 4
 
 Топ схем:
   vless: 150
 
 Топ transport:
-  raw: 93
-  tcp: 53
-  xhttp: 3
-  ws: 1
+  raw: 112
+  tcp: 37
+  xhttp: 1
 
 Топ security:
-  reality: 149
-  tls: 1
+  reality: 150
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW black_all
@@ -171,90 +170,89 @@ FINAL GROUPS
 Всего конфигов: 28
 Уникальных строк: 28
 Уникальных host:port: 28
-Уникальных backend: 18
-Anycast: 22
-Unknown country: 0
+Уникальных backend: 19
+Anycast: 18
+Unknown country: 1
 
 Топ стран:
-  🌐 Anycast: 22
-  Russia: 4
-  Germany: 1
+  🌐 Anycast: 18
+  Russia: 6
+  Germany: 2
   Netherlands: 1
+  Unknown: 1
 
 Топ SNI:
-  apple.com: 13
+  apple.com: 12
   api-maps.yandex.ru: 2
   monalisgame.com: 2
-  rzd.ru: 2
   eh.vk.com: 1
-  193.233.216.247: 1
   www.nvidia.com: 1
-  media2.tcpdoor.net: 1
+  storage.yandex.net: 1
   www.tradingview.com: 1
-  river-3-369.rtbcdn.ru: 1
+  dzen.ru: 1
+  wx-deu-037.cdnphotos.org: 1
+  cr-r1.astralweb.tech: 1
 
 Топ портов:
   443: 22
-  2200: 2
+  4100: 2
   9443: 1
-  9895: 1
-  989: 1
-  50445: 1
+  2027: 1
+  2053: 1
+  8443: 1
 
 Топ схем:
   vless: 28
 
 Топ transport:
-  raw: 12
-  tcp: 8
+  raw: 15
+  tcp: 6
   xhttp: 4
-  ws: 3
+  ws: 2
   grpc: 1
 
 Топ security:
-  reality: 23
-  none: 3
+  reality: 24
   tls: 2
+  none: 2
 
 ────────────────────────────────────────────────────────────────────
 📊 white_vless
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 17
-Уникальных строк: 17
-Уникальных host:port: 17
-Уникальных backend: 8
-Anycast: 14
+Всего конфигов: 16
+Уникальных строк: 16
+Уникальных host:port: 16
+Уникальных backend: 7
+Anycast: 12
 Unknown country: 0
 
 Топ стран:
-  🌐 Anycast: 14
+  🌐 Anycast: 12
   Russia: 2
   Netherlands: 1
+  Germany: 1
 
 Топ SNI:
   apple.com: 12
   eh.vk.com: 1
   api-maps.yandex.ru: 1
   www.nvidia.com: 1
-  cloudflare.vhub.pro: 1
-  river-3-369.rtbcdn.ru: 1
+  storage.yandex.net: 1
 
 Топ портов:
-  443: 16
-  50445: 1
+  443: 15
+  2027: 1
 
 Топ схем:
-  vless: 17
+  vless: 16
 
 Топ transport:
-  raw: 12
-  tcp: 3
+  raw: 13
+  tcp: 2
   xhttp: 1
-  ws: 1
 
 Топ security:
   reality: 16
-  tls: 1
 
 ────────────────────────────────────────────────────────────────────
 📊 black_all
@@ -270,17 +268,17 @@ Unknown country: 35
   Unknown: 35
   🌐 Anycast: 31
   United States: 7
-  Germany: 5
   Netherlands: 5
-  Japan: 2
+  Germany: 5
   Finland: 2
+  Japan: 2
   France: 2
   Switzerland: 1
 
 Топ SNI:
   monalisgame.com: 5
-  free-server.techsonic.dev: 4
   accounts.fastly.com: 4
+  free-server.techsonic.dev: 4
   ssl.fastly.com: 3
   hk.catxstar.com: 3
   www.bing.com: 3
@@ -297,8 +295,8 @@ Unknown country: 35
   10808: 2
   20041: 2
   20129: 2
-  47588: 1
   53261: 1
+  25129: 1
   448: 1
 
 Топ схем:
@@ -323,125 +321,125 @@ Unknown country: 35
 ────────────────────────────────────────────────────────────────────
 📊 pool
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 110
-Уникальных строк: 110
+Всего конфигов: 111
+Уникальных строк: 111
 Уникальных host:port: 108
-Уникальных backend: 89
-Anycast: 47
-Unknown country: 33
+Уникальных backend: 90
+Anycast: 42
+Unknown country: 36
 
 Топ стран:
-  🌐 Anycast: 47
-  Unknown: 33
+  🌐 Anycast: 42
+  Unknown: 36
+  Germany: 7
   United States: 7
-  Germany: 6
+  Russia: 6
   Netherlands: 6
-  Russia: 4
   Finland: 2
   France: 2
   Japan: 2
   Switzerland: 1
 
 Топ SNI:
-  apple.com: 7
-  monalisgame.com: 6
-  accounts.fastly.com: 4
+  monalisgame.com: 7
+  apple.com: 6
+  free-server.techsonic.dev: 4
+  accounts.fastly.com: 3
   ssl.fastly.com: 3
-  hk.catxstar.com: 3
-  free-server.techsonic.dev: 3
   www.bing.com: 3
-  rzd.ru: 2
+  hk.catxstar.com: 3
+  www.samsung.com: 2
   api-maps.yandex.ru: 2
-  b67c99c6s591.csgfw.top: 2
+  157.85.102.28: 2
 
 Топ портов:
   443: 55
-  8443: 9
-  2096: 3
-  2200: 2
-  20129: 2
-  80: 2
+  8443: 10
+  2096: 4
+  4100: 2
   10808: 2
   20041: 2
-  9443: 1
-  9895: 1
+  80: 2
+  20129: 2
+  2027: 1
+  2053: 1
 
 Топ схем:
-  vless: 69
+  vless: 70
   hysteria2: 28
   trojan: 11
   vmess: 2
 
 Топ transport:
-  tcp: 72
+  tcp: 71
   ws: 15
-  xhttp: 14
-  raw: 6
+  xhttp: 13
+  raw: 9
   grpc: 2
   httpupgrade: 1
 
 Топ security:
-  none: 42
-  reality: 39
+  reality: 41
+  none: 41
   tls: 28
   false: 1
 
 ────────────────────────────────────────────────────────────────────
 📊 mixed
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 54
-Уникальных строк: 54
-Уникальных host:port: 54
-Уникальных backend: 47
-Anycast: 28
-Unknown country: 13
+Всего конфигов: 56
+Уникальных строк: 56
+Уникальных host:port: 55
+Уникальных backend: 48
+Anycast: 26
+Unknown country: 15
 
 Топ стран:
-  🌐 Anycast: 28
-  Unknown: 13
+  🌐 Anycast: 26
+  Unknown: 15
   Russia: 4
   United States: 4
+  Germany: 3
   Netherlands: 2
   Japan: 1
-  Germany: 1
   Finland: 1
 
 Топ SNI:
-  apple.com: 7
-  monalisgame.com: 6
+  monalisgame.com: 7
+  apple.com: 6
   api-maps.yandex.ru: 2
-  b67c99c6s591.csgfw.top: 2
+  www.samsung.com: 2
   free-server.techsonic.dev: 2
   accounts.fastly.com: 2
-  www.nvidia.com: 1
+  b67c99c6s591.csgfw.top: 2
   wx-deu-022.cdnphotos.org: 1
-  www.tradingview.com: 1
-  cloudflare.vhub.pro: 1
+  wx-deu-037.cdnphotos.org: 1
+  storage.yandex.net: 1
 
 Топ портов:
-  443: 41
+  443: 42
+  8443: 2
   2096: 2
-  50445: 1
-  9895: 1
+  2027: 1
   9443: 1
-  47588: 1
-  8443: 1
-  48991: 1
-  25129: 1
+  2053: 1
+  448: 1
   22264: 1
+  25129: 1
+  47588: 1
 
 Топ схем:
-  vless: 54
+  vless: 56
 
 Топ transport:
   tcp: 30
   xhttp: 10
-  ws: 7
-  raw: 6
+  raw: 9
+  ws: 6
   grpc: 1
 
 Топ security:
-  reality: 39
+  reality: 41
   tls: 15
 
 ────────────────────────────────────────────────────────────────────
@@ -451,33 +449,32 @@ Unknown country: 13
 Уникальных строк: 25
 Уникальных host:port: 25
 Уникальных backend: 22
-Anycast: 17
+Anycast: 16
 Unknown country: 0
 
 Топ стран:
-  🌐 Anycast: 17
+  🌐 Anycast: 16
   Russia: 4
+  Netherlands: 2
   United States: 2
-  Netherlands: 1
   Germany: 1
 
 Топ SNI:
-  apple.com: 6
+  apple.com: 5
+  monalisgame.com: 3
   api-maps.yandex.ru: 2
   accounts.fastly.com: 2
-  monalisgame.com: 2
   eh.vk.com: 1
+  wx-deu-037.cdnphotos.org: 1
   kanan.aahhajwwiwjwowuwjwwjjwje.online: 1
-  www.nvidia.com: 1
   GERMAN.sarzamiiinahang.ir: 1
-  ad-013.orbitqgr7v.info: 1
+  www.nvidia.com: 1
   wx-deu-022.cdnphotos.org: 1
 
 Топ портов:
   443: 21
+  8443: 2
   9443: 1
-  9895: 1
-  8443: 1
   48991: 1
 
 Топ схем:
@@ -485,9 +482,9 @@ Unknown country: 0
 
 Топ transport:
   xhttp: 9
-  tcp: 7
+  tcp: 8
   raw: 5
-  ws: 4
+  ws: 3
 
 Топ security:
   reality: 16
@@ -496,75 +493,75 @@ Unknown country: 0
 ====================================================================
 🌍 GLOBAL SUMMARY
 ====================================================================
-Всего конфигов: 324
-Уникальных строк: 122
+Всего конфигов: 326
+Уникальных строк: 118
 Уникальных host:port: 115
-Уникальных backend: 89
-Anycast: 159
-Unknown country: 81
+Уникальных backend: 90
+Anycast: 145
+Unknown country: 87
 
 Топ стран:
-  🌐 Anycast: 159
-  Unknown: 81
+  🌐 Anycast: 145
+  Unknown: 87
+  Russia: 22
   United States: 20
-  Russia: 18
-  Netherlands: 16
-  Germany: 14
-  Japan: 5
+  Germany: 19
+  Netherlands: 17
   Finland: 5
+  Japan: 5
   France: 4
   Switzerland: 2
 
 Топ SNI:
-  apple.com: 45
-  monalisgame.com: 21
-  accounts.fastly.com: 12
+  apple.com: 41
+  monalisgame.com: 24
+  accounts.fastly.com: 11
+  free-server.techsonic.dev: 10
   api-maps.yandex.ru: 9
-  free-server.techsonic.dev: 9
   ssl.fastly.com: 7
+  www.samsung.com: 6
   b67c99c6s591.csgfw.top: 6
   hk.catxstar.com: 6
   www.bing.com: 6
   eh.vk.com: 5
   www.nvidia.com: 5
-  cloudflare.vhub.pro: 5
+  storage.yandex.net: 4
   www.tradingview.com: 4
-  river-3-369.rtbcdn.ru: 4
-  wx-deu-022.cdnphotos.org: 4
+  wx-deu-037.cdnphotos.org: 4
 
 Топ портов:
   443: 195
-  8443: 20
-  2096: 9
+  8443: 24
+  2096: 10
   9443: 4
-  9895: 4
-  50445: 4
-  2200: 4
-  48991: 4
+  2027: 4
+  4100: 4
   80: 4
+  48991: 4
   10808: 4
   20041: 4
   20129: 4
-  47588: 3
+  2053: 3
+  25129: 3
   448: 3
-  50527: 3
+  22264: 3
 
 Топ схем:
-  vless: 242
+  vless: 244
   hysteria2: 56
   trojan: 22
   vmess: 4
 
 Топ transport:
-  tcp: 185
-  xhttp: 48
-  ws: 43
-  raw: 41
+  tcp: 182
+  raw: 51
+  xhttp: 47
+  ws: 39
   grpc: 5
   httpupgrade: 2
 
 Топ security:
-  reality: 156
-  none: 84
-  tls: 82
+  reality: 161
+  none: 82
+  tls: 81
   false: 2
