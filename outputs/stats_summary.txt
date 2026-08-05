@@ -1,5 +1,5 @@
 VPN Builder stats summary
-Generated at: 2026-08-05 10:24:39 MSK
+Generated at: 2026-08-05 13:16:44 MSK
 
 ====================================================================
 RAW GROUPS
@@ -8,161 +8,152 @@ RAW GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 58
-Уникальных строк: 53
-Уникальных host:port: 11
-Уникальных backend: 11
-Anycast: 17
-Unknown country: 15
+Всего конфигов: 387
+Уникальных строк: 212
+Уникальных host:port: 34
+Уникальных backend: 15
+Anycast: 361
+Unknown country: 12
 
 Топ стран:
-  🌐 Anycast: 17
-  Unknown: 15
-  Netherlands: 10
-  Germany: 10
-  Russia: 6
+  🌐 Anycast: 361
+  Unknown: 12
+  Germany: 9
+  Netherlands: 3
+  Russia: 2
 
 Топ SNI:
-  www.nvidia.com: 10
-  www.tradingview.com: 10
-  wx-deu-037.cdnphotos.org: 10
-  aispir.ru: 5
-  mc.yandex.tr: 5
-  mm.melbicom.net: 5
-  dogs.abvphelp.cc: 5
-  m.vk.com: 5
-  77.222.35.10: 1
-  72.56.7.195: 1
+  apple.com: 346
+  wx-deu-022.cdnphotos.org: 12
+  cloudflare.vhub.pro: 5
+  media2.tcpdoor.net: 4
+  aispir.ru: 4
+  mc.yandex.tr: 4
+  mm.melbicom.net: 4
+  rzd.ru: 3
+  wx-deu-037.cdnphotos.org: 1
+  5post-gate.x5.ru: 1
 
 Топ портов:
-  443: 50
-  34499: 5
-  2200: 2
+  443: 380
+  2200: 4
+  6443: 1
+  48097: 1
   4100: 1
 
 Топ схем:
-  vless: 58
+  vless: 387
 
 Топ transport:
-  xhttp: 45
-  grpc: 10
-  ws: 3
+  raw: 200
+  tcp: 147
+  xhttp: 25
+  ws: 10
+  grpc: 5
 
 Топ security:
-  reality: 45
-  tls: 10
-  none: 3
+  reality: 363
+  tls: 18
+  none: 6
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_vless
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 48
-Уникальных строк: 48
-Уникальных host:port: 10
-Уникальных backend: 10
-Anycast: 17
-Unknown country: 15
+Всего конфигов: 150
+Уникальных строк: 150
+Уникальных host:port: 20
+Уникальных backend: 4
+Anycast: 149
+Unknown country: 0
 
 Топ стран:
-  🌐 Anycast: 17
-  Unknown: 15
-  Germany: 10
-  Netherlands: 5
-  Russia: 1
+  🌐 Anycast: 149
+  Netherlands: 1
 
 Топ SNI:
-  www.tradingview.com: 10
-  wx-deu-037.cdnphotos.org: 10
-  aispir.ru: 5
-  mc.yandex.tr: 5
-  mm.melbicom.net: 5
-  www.nvidia.com: 5
-  dogs.abvphelp.cc: 5
-  77.222.35.10: 1
-  72.56.7.195: 1
-  live.ok.ru: 1
+  apple.com: 148
+  cloudflare.vhub.pro: 2
 
 Топ портов:
-  443: 45
-  2200: 2
-  4100: 1
+  443: 150
 
 Топ схем:
-  vless: 48
+  vless: 150
 
 Топ transport:
-  xhttp: 40
-  grpc: 5
-  ws: 3
+  raw: 92
+  tcp: 56
+  ws: 2
 
 Топ security:
-  reality: 35
-  tls: 10
-  none: 3
+  reality: 148
+  tls: 2
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW black_all
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 498
-Уникальных строк: 351
-Уникальных host:port: 178
-Уникальных backend: 159
-Anycast: 340
-Unknown country: 101
+Всего конфигов: 423
+Уникальных строк: 275
+Уникальных host:port: 136
+Уникальных backend: 129
+Anycast: 210
+Unknown country: 119
 
 Топ стран:
-  🌐 Anycast: 340
-  Unknown: 101
-  Finland: 18
-  Germany: 10
-  Netherlands: 10
-  United States: 9
-  Japan: 5
-  Poland: 5
+  🌐 Anycast: 210
+  Unknown: 119
+  Germany: 31
+  Finland: 21
+  Netherlands: 17
+  Japan: 8
+  United States: 8
+  Poland: 4
+  France: 4
+  Switzerland: 1
 
 Топ SNI:
-  accounts.fastly.com: 31
-  twilight-poetry-2bfe.218-699.workers.dev: 26
-  old-violet-a5ce.29-440.workers.dev: 16
-  whitecreeper.pages.dev: 13
-  notls.lukongtou.eu.org: 12
-  www.amd.com: 10
-  vp58.cc.cd: 10
-  149.104.104.58: 9
-  pro-fi.emrata.top: 7
-  www.cloudflare.com: 7
+  google.com: 24
+  accounts.fastly.com: 24
+  pro-de.emrata.top: 16
+  pro-se.emrata.top: 16
+  pro-ru-bridge.emrata.top: 12
+  pro-fi.emrata.top: 12
+  pro-it.emrata.top: 12
+  pro-tr.emrata.top: 12
+  pro-uk.emrata.top: 12
+  free-server.techsonic.dev: 10
 
 Топ портов:
-  443: 223
-  8443: 65
-  8880: 39
-  80: 33
-  2095: 17
-  2096: 15
-  20041: 13
-  10428: 5
-  2087: 4
-  20004: 4
+  443: 210
+  8443: 77
+  8880: 34
+  2096: 10
+  20041: 10
+  80: 8
+  4443: 6
+  56127: 6
+  448: 4
+  2084: 4
 
 Топ схем:
-  vless: 416
-  trojan: 46
-  hysteria2: 32
-  vmess: 4
+  vless: 335
+  hysteria2: 43
+  trojan: 38
+  vmess: 7
 
 Топ transport:
-  ws: 248
-  tcp: 178
-  xhttp: 56
-  grpc: 13
+  tcp: 230
+  ws: 121
+  xhttp: 39
+  grpc: 29
   httpupgrade: 2
-  raw: 1
+  raw: 2
 
 Топ security:
-  tls: 245
-  none: 130
-  reality: 121
-  false: 2
+  reality: 170
+  tls: 150
+  none: 94
+  false: 9
 
 ====================================================================
 FINAL GROUPS
@@ -171,283 +162,272 @@ FINAL GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 11
-Уникальных строк: 11
-Уникальных host:port: 11
-Уникальных backend: 11
-Anycast: 4
+Всего конфигов: 28
+Уникальных строк: 28
+Уникальных host:port: 28
+Уникальных backend: 15
+Anycast: 20
 Unknown country: 3
 
 Топ стран:
-  🌐 Anycast: 4
+  🌐 Anycast: 20
   Unknown: 3
+  Germany: 2
   Russia: 2
   Netherlands: 1
-  Germany: 1
 
 Топ SNI:
-  www.nvidia.com: 1
+  apple.com: 12
+  cloudflare.vhub.pro: 3
+  rzd.ru: 3
+  media2.tcpdoor.net: 1
+  5post-gate.x5.ru: 1
   wx-deu-037.cdnphotos.org: 1
-  m.vk.com: 1
-  mc.yandex.tr: 1
+  95.214.63.147: 1
   aispir.ru: 1
-  mm.melbicom.net: 1
-  72.56.7.195: 1
-  dogs.abvphelp.cc: 1
-  77.222.35.10: 1
-  live.ok.ru: 1
+  mc.yandex.tr: 1
+  wx-deu-022.cdnphotos.org: 1
 
 Топ портов:
-  443: 7
-  2200: 2
-  34499: 1
+  443: 21
+  2200: 4
+  6443: 1
+  48097: 1
   4100: 1
 
 Топ схем:
-  vless: 11
+  vless: 28
 
 Топ transport:
-  xhttp: 6
-  ws: 3
+  raw: 12
+  ws: 8
+  xhttp: 5
   grpc: 2
+  tcp: 1
 
 Топ security:
-  reality: 7
-  none: 3
-  tls: 1
+  reality: 17
+  none: 6
+  tls: 5
 
 ────────────────────────────────────────────────────────────────────
 📊 white_vless
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 10
-Уникальных строк: 10
-Уникальных host:port: 10
-Уникальных backend: 10
-Anycast: 4
-Unknown country: 3
+Всего конфигов: 14
+Уникальных строк: 14
+Уникальных host:port: 14
+Уникальных backend: 4
+Anycast: 14
+Unknown country: 0
 
 Топ стран:
-  🌐 Anycast: 4
-  Unknown: 3
-  Netherlands: 1
-  Germany: 1
-  Russia: 1
+  🌐 Anycast: 14
 
 Топ SNI:
-  www.nvidia.com: 1
-  wx-deu-037.cdnphotos.org: 1
-  72.56.7.195: 1
-  mc.yandex.tr: 1
-  mm.melbicom.net: 1
-  aispir.ru: 1
-  www.tradingview.com: 1
-  77.222.35.10: 1
-  live.ok.ru: 1
-  dogs.abvphelp.cc: 1
+  apple.com: 12
+  cloudflare.vhub.pro: 2
 
 Топ портов:
-  443: 7
-  2200: 2
-  4100: 1
+  443: 14
 
 Топ схем:
-  vless: 10
+  vless: 14
 
 Топ transport:
-  xhttp: 6
-  ws: 3
-  grpc: 1
+  raw: 12
+  ws: 2
 
 Топ security:
-  reality: 6
-  none: 3
-  tls: 1
+  reality: 12
+  tls: 2
 
 ────────────────────────────────────────────────────────────────────
 📊 black_all
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 140
-Уникальных строк: 140
-Уникальных host:port: 140
-Уникальных backend: 113
-Anycast: 80
-Unknown country: 30
+Всего конфигов: 134
+Уникальных строк: 134
+Уникальных host:port: 130
+Уникальных backend: 105
+Anycast: 56
+Unknown country: 43
 
 Топ стран:
-  🌐 Anycast: 80
-  Unknown: 30
-  Finland: 9
-  Netherlands: 7
-  United States: 5
-  Germany: 4
-  Japan: 3
+  🌐 Anycast: 56
+  Unknown: 43
+  Germany: 11
+  Finland: 8
+  United States: 6
+  Netherlands: 5
   Poland: 2
+  France: 2
+  Japan: 1
 
 Топ SNI:
-  www.amd.com: 6
-  free-server.techsonic.dev: 4
-  whitecreeper.pages.dev: 4
-  notls.lukongtou.eu.org: 4
+  google.com: 7
+  pro-se.emrata.top: 4
+  www.samsung.com: 4
   accounts.fastly.com: 4
+  free-server.techsonic.dev: 4
+  www.bing.com: 4
   pro-fi.emrata.top: 3
-  m.vk.com: 3
-  pro-se.emrata.top: 3
-  www.cloudflare.com: 3
-  www.sony.com: 2
+  hk.catxstar.com: 3
+  www.amd.com: 2
+  pro-uk.emrata.top: 2
 
 Топ портов:
-  443: 67
-  8880: 9
-  2096: 7
-  8443: 4
+  443: 59
+  8443: 14
+  8880: 13
+  2096: 4
   80: 4
-  2095: 4
-  34499: 2
-  2083: 2
-  2053: 2
-  10022: 2
+  448: 3
+  4443: 3
+  10808: 2
+  20041: 2
+  34499: 1
 
 Топ схем:
-  vless: 123
-  trojan: 9
-  hysteria2: 8
+  vless: 94
+  hysteria2: 26
+  trojan: 10
+  vmess: 4
 
 Топ transport:
-  tcp: 66
-  ws: 52
-  xhttp: 12
-  grpc: 8
-  raw: 1
+  tcp: 82
+  ws: 33
+  xhttp: 10
+  grpc: 7
   httpupgrade: 1
+  raw: 1
 
 Топ security:
-  reality: 60
-  tls: 51
-  none: 28
-  false: 1
+  none: 50
+  reality: 49
+  tls: 32
+  false: 3
 
 ────────────────────────────────────────────────────────────────────
 📊 pool
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 148
-Уникальных строк: 148
-Уникальных host:port: 148
-Уникальных backend: 122
-Anycast: 83
-Unknown country: 31
+Всего конфигов: 150
+Уникальных строк: 150
+Уникальных host:port: 146
+Уникальных backend: 116
+Anycast: 65
+Unknown country: 45
 
 Топ стран:
-  🌐 Anycast: 83
-  Unknown: 31
-  Finland: 9
-  Netherlands: 8
-  Germany: 5
-  United States: 5
-  Japan: 3
+  🌐 Anycast: 65
+  Unknown: 45
+  Germany: 13
+  Finland: 8
+  Netherlands: 6
+  United States: 6
   Russia: 2
+  France: 2
   Poland: 2
+  Japan: 1
 
 Топ SNI:
-  www.amd.com: 6
-  whitecreeper.pages.dev: 4
+  google.com: 7
+  apple.com: 6
+  www.bing.com: 4
+  accounts.fastly.com: 4
   free-server.techsonic.dev: 4
-  notls.lukongtou.eu.org: 4
-  m.vk.com: 3
-  pro-se.emrata.top: 3
-  accounts.fastly.com: 3
-  www.cloudflare.com: 3
+  pro-se.emrata.top: 4
+  www.samsung.com: 4
+  hk.catxstar.com: 3
   pro-fi.emrata.top: 3
-  www.adobe.com: 2
+  rzd.ru: 2
 
 Топ портов:
-  443: 72
-  8880: 9
-  2096: 7
-  8443: 4
+  443: 70
+  8443: 14
+  8880: 13
+  2096: 4
   80: 4
-  2095: 4
-  34499: 2
-  2200: 2
-  2083: 2
-  2053: 2
+  2200: 3
+  4443: 3
+  448: 3
+  10808: 2
+  20041: 2
 
 Топ схем:
-  vless: 131
-  trojan: 9
-  hysteria2: 8
+  vless: 111
+  hysteria2: 25
+  trojan: 10
+  vmess: 4
 
 Топ transport:
-  tcp: 66
-  ws: 55
-  xhttp: 16
+  tcp: 81
+  ws: 38
+  xhttp: 14
   grpc: 9
+  raw: 7
   httpupgrade: 1
-  raw: 1
 
 Топ security:
-  reality: 65
-  tls: 51
-  none: 31
-  false: 1
+  reality: 58
+  none: 54
+  tls: 35
+  false: 3
 
 ────────────────────────────────────────────────────────────────────
 📊 mixed
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 57
-Уникальных строк: 57
-Уникальных host:port: 57
-Уникальных backend: 52
-Anycast: 29
-Unknown country: 14
+Всего конфигов: 56
+Уникальных строк: 56
+Уникальных host:port: 56
+Уникальных backend: 45
+Anycast: 24
+Unknown country: 17
 
 Топ стран:
-  🌐 Anycast: 29
-  Unknown: 14
-  Germany: 3
-  Netherlands: 3
+  🌐 Anycast: 24
+  Unknown: 17
+  Germany: 7
   Finland: 3
-  Japan: 2
-  Russia: 1
-  United States: 1
-  Poland: 1
+  Netherlands: 2
+  United States: 2
+  Japan: 1
 
 Топ SNI:
-  www.amd.com: 4
-  notls.lukongtou.eu.org: 2
-  www.cloudflare.com: 2
-  free-server.techsonic.dev: 2
+  apple.com: 6
+  www.samsung.com: 4
+  google.com: 3
+  cloudflare.vhub.pro: 2
+  pro-ru-bridge.emrata.top: 2
   pro-it.emrata.top: 2
-  accounts.fastly.com: 2
-  www.sony.com: 2
-  www.samsung.com: 2
-  whitecreeper.pages.dev: 2
-  dogs.abvphelp.cc: 1
+  dl.google.com: 2
+  pro-fi.emrata.top: 2
+  free-server.techsonic.dev: 2
+  pro-se.emrata.top: 2
 
 Топ портов:
-  443: 34
-  2096: 3
+  443: 40
+  448: 3
   8443: 2
-  34499: 1
-  38765: 1
-  20502: 1
-  10280: 1
-  10013: 1
-  43439: 1
-  24499: 1
+  2096: 2
+  6443: 1
+  25129: 1
+  12459: 1
+  50527: 1
+  1000: 1
+  47588: 1
 
 Топ схем:
-  vless: 57
+  vless: 56
 
 Топ transport:
-  tcp: 27
-  ws: 13
-  xhttp: 11
-  grpc: 5
-  raw: 1
+  tcp: 29
+  ws: 9
+  xhttp: 8
+  raw: 6
+  grpc: 4
 
 Топ security:
-  reality: 40
-  tls: 17
+  reality: 42
+  tls: 14
 
 ────────────────────────────────────────────────────────────────────
 📊 lte
@@ -455,121 +435,118 @@ Unknown country: 14
 Всего конфигов: 25
 Уникальных строк: 25
 Уникальных host:port: 25
-Уникальных backend: 22
-Anycast: 19
+Уникальных backend: 21
+Anycast: 20
 Unknown country: 0
 
 Топ стран:
-  🌐 Anycast: 19
-  Poland: 2
-  Netherlands: 2
-  Russia: 1
+  🌐 Anycast: 20
+  Germany: 3
+  Poland: 1
   Finland: 1
 
 Топ SNI:
-  m.vk.com: 2
+  apple.com: 3
   accounts.fastly.com: 2
-  whitecreeper.pages.dev: 2
-  free-server.techsonic.dev: 2
-  static.rutube.ru: 1
+  cloudflare.vhub.pro: 2
+  google.com: 2
+  wx-deu-022.cdnphotos.org: 1
+  ssl.fastly.com: 1
+  GERMAN.sarzamiiinahang.ir: 1
   www.amd.com: 1
   kanan.aahhajwwiwjwowuwjwwjjwje.online: 1
-  www.nvidia.com: 1
-  GERMAN.sarzamiiinahang.ir: 1
-  vp58.cc.cd: 1
+  8qt88qpnmy.vbirffour.site: 1
 
 Топ портов:
-  443: 14
-  2096: 3
-  2083: 2
-  8443: 2
-  8447: 1
-  34499: 1
-  24499: 1
-  2087: 1
+  443: 21
+  8443: 3
+  2083: 1
 
 Топ схем:
   vless: 25
 
 Топ transport:
-  ws: 15
-  xhttp: 6
-  grpc: 4
+  ws: 11
+  xhttp: 8
+  grpc: 3
+  raw: 3
 
 Топ security:
-  tls: 19
-  reality: 6
+  tls: 18
+  reality: 7
 
 ====================================================================
 🌍 GLOBAL SUMMARY
 ====================================================================
-Всего конфигов: 391
-Уникальных строк: 151
-Уникальных host:port: 149
-Уникальных backend: 122
-Anycast: 219
-Unknown country: 81
+Всего конфигов: 407
+Уникальных строк: 162
+Уникальных host:port: 157
+Уникальных backend: 119
+Anycast: 199
+Unknown country: 108
 
 Топ стран:
-  🌐 Anycast: 219
-  Unknown: 81
-  Netherlands: 22
-  Finland: 22
-  Germany: 14
-  United States: 11
-  Japan: 8
-  Russia: 7
-  Poland: 7
+  🌐 Anycast: 199
+  Unknown: 108
+  Germany: 36
+  Finland: 20
+  Netherlands: 14
+  United States: 14
+  Poland: 5
+  Russia: 4
+  France: 4
+  Japan: 3
 
 Топ SNI:
-  www.amd.com: 17
-  free-server.techsonic.dev: 12
-  whitecreeper.pages.dev: 12
-  accounts.fastly.com: 11
-  m.vk.com: 10
-  notls.lukongtou.eu.org: 10
-  www.cloudflare.com: 8
-  pro-fi.emrata.top: 7
-  pro-se.emrata.top: 7
-  www.sony.com: 6
+  apple.com: 39
+  google.com: 19
+  www.samsung.com: 12
+  accounts.fastly.com: 12
+  cloudflare.vhub.pro: 11
+  pro-se.emrata.top: 10
+  free-server.techsonic.dev: 10
+  pro-fi.emrata.top: 8
+  www.bing.com: 8
   pro-it.emrata.top: 6
-  google.com: 6
-  www.samsung.com: 6
-  vp58.cc.cd: 6
-  d39333476.pages.dev: 6
+  dl.google.com: 6
+  ssl.fastly.com: 6
+  pro-ru-bridge.emrata.top: 6
+  hk.catxstar.com: 6
+  rzd.ru: 5
 
 Топ портов:
-  443: 201
-  2096: 20
-  8880: 18
-  8443: 12
+  443: 225
+  8443: 33
+  8880: 26
+  2096: 10
+  448: 9
   80: 8
-  2095: 8
-  34499: 7
-  2083: 7
-  2200: 6
-  2053: 5
-  24499: 4
-  10022: 4
+  2200: 7
+  4443: 7
+  10808: 4
   20041: 4
-  4100: 3
-  8686: 3
+  6443: 3
+  1000: 3
+  47588: 3
+  50527: 3
+  20502: 3
 
 Топ схем:
-  vless: 357
-  trojan: 18
-  hysteria2: 16
+  vless: 328
+  hysteria2: 51
+  trojan: 20
+  vmess: 8
 
 Топ transport:
-  tcp: 159
-  ws: 141
-  xhttp: 57
-  grpc: 29
-  raw: 3
+  tcp: 193
+  ws: 101
+  xhttp: 45
+  raw: 41
+  grpc: 25
   httpupgrade: 2
 
 Топ security:
-  reality: 184
-  tls: 140
-  none: 65
-  false: 2
+  reality: 185
+  none: 110
+  tls: 106
+  false: 6
