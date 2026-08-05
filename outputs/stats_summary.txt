@@ -1,5 +1,5 @@
 VPN Builder stats summary
-Generated at: 2026-08-05 23:47:21 MSK
+Generated at: 2026-08-06 01:07:20 MSK
 
 ====================================================================
 RAW GROUPS
@@ -8,154 +8,168 @@ RAW GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 31
-Уникальных строк: 31
-Уникальных host:port: 7
-Уникальных backend: 7
-Anycast: 20
+Всего конфигов: 83
+Уникальных строк: 78
+Уникальных host:port: 13
+Уникальных backend: 12
+Anycast: 53
 Unknown country: 0
 
 Топ стран:
-  🌐 Anycast: 20
-  Russia: 6
-  Netherlands: 5
+  🌐 Anycast: 53
+  Germany: 20
+  Russia: 10
 
 Топ SNI:
-  cloudflare.vhub.pro: 5
-  ru1.braidx.tech: 5
-  wx-deu-022.cdnphotos.org: 5
-  max.ru: 5
-  cr-r1.astralweb.tech: 5
+  wx-deu-022.cdnphotos.org: 15
+  media2.tcpdoor.net: 15
+  storage.yandex.net: 10
+  wx-deu-037.cdnphotos.org: 10
+  apple.com: 5
+  nl.gruztrack.online: 5
+  ya.ru: 5
+  www.sciencedirect.com: 5
+  www.icloud.com: 5
   dzen.ru: 5
-  rzd.ru: 1
 
 Топ портов:
-  443: 20
+  443: 50
+  2027: 10
+  2053: 10
+  9895: 5
   8443: 5
-  2053: 5
-  2200: 1
+  2200: 2
+  4100: 1
 
 Топ схем:
-  vless: 31
+  vless: 83
 
 Топ transport:
+  xhttp: 30
+  grpc: 25
+  tcp: 15
   raw: 10
-  ws: 6
-  xhttp: 5
-  tcp: 5
-  grpc: 5
+  ws: 3
 
 Топ security:
-  tls: 15
-  reality: 15
-  none: 1
+  reality: 55
+  tls: 25
+  none: 3
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_vless
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 26
-Уникальных строк: 26
-Уникальных host:port: 6
-Уникальных backend: 6
-Anycast: 15
+Всего конфигов: 73
+Уникальных строк: 73
+Уникальных host:port: 12
+Уникальных backend: 11
+Anycast: 48
 Unknown country: 0
 
 Топ стран:
-  🌐 Anycast: 15
-  Russia: 6
-  Netherlands: 5
+  🌐 Anycast: 48
+  Germany: 15
+  Russia: 10
 
 Топ SNI:
-  cloudflare.vhub.pro: 5
-  ru1.braidx.tech: 5
-  wx-deu-022.cdnphotos.org: 5
-  max.ru: 5
-  cr-r1.astralweb.tech: 5
-  rzd.ru: 1
+  wx-deu-022.cdnphotos.org: 15
+  media2.tcpdoor.net: 15
+  wx-deu-037.cdnphotos.org: 10
+  storage.yandex.net: 5
+  apple.com: 5
+  nl.gruztrack.online: 5
+  ya.ru: 5
+  www.sciencedirect.com: 5
+  www.icloud.com: 5
+  rzd.ru: 2
 
 Топ портов:
-  443: 20
+  443: 50
+  2027: 5
+  9895: 5
+  2053: 5
   8443: 5
-  2200: 1
+  2200: 2
+  4100: 1
 
 Топ схем:
-  vless: 26
+  vless: 73
 
 Топ transport:
-  raw: 10
-  ws: 6
-  xhttp: 5
-  tcp: 5
+  xhttp: 30
+  grpc: 20
+  tcp: 15
+  raw: 5
+  ws: 3
 
 Топ security:
-  tls: 15
-  reality: 10
-  none: 1
+  reality: 45
+  tls: 25
+  none: 3
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW black_all
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 372
-Уникальных строк: 222
-Уникальных host:port: 105
-Уникальных backend: 88
-Anycast: 166
-Unknown country: 133
+Всего конфигов: 356
+Уникальных строк: 206
+Уникальных host:port: 98
+Уникальных backend: 82
+Anycast: 184
+Unknown country: 111
 
 Топ стран:
-  🌐 Anycast: 166
-  Unknown: 133
-  United States: 21
-  Germany: 15
-  Japan: 12
-  Finland: 11
-  Netherlands: 9
+  🌐 Anycast: 184
+  Unknown: 111
+  Finland: 14
+  Netherlands: 13
+  Germany: 12
+  United States: 8
+  Japan: 5
   France: 4
-  Switzerland: 1
+  Estonia: 2
+  Poland: 2
 
 Топ SNI:
-  free-server.techsonic.dev: 40
-  accounts.fastly.com: 30
-  pro-de.emrata.top: 18
-  hk.catxstar.com: 11
-  monalisgame.com: 10
-  pro-fi.emrata.top: 10
-  pro-it.emrata.top: 10
-  pro-jp.emrata.top: 10
+  free-server.techsonic.dev: 42
+  accounts.fastly.com: 38
+  titandarkness.mooo.com: 21
+  hk.catxstar.com: 17
+  pro-de.emrata.top: 16
   ov186.ochmaybrooooo.online: 10
-  pro-se.emrata.top: 10
+  pro-fi.emrata.top: 8
+  pro-se.emrata.top: 8
+  pro-uk.emrata.top: 8
+  de.catxstar.com: 8
 
 Топ портов:
-  443: 188
-  8443: 43
-  2096: 40
-  20041: 15
-  20129: 9
-  56127: 7
-  80: 6
-  47588: 6
-  8880: 4
-  63443: 4
+  443: 184
+  8443: 59
+  2096: 42
+  20004: 13
+  20041: 11
+  10808: 8
+  20129: 6
+  41834: 4
+  8113: 2
+  12459: 2
 
 Топ схем:
-  vless: 270
-  hysteria2: 51
+  vless: 243
+  hysteria2: 59
   trojan: 48
-  vmess: 3
+  vmess: 6
 
 Топ transport:
-  tcp: 217
-  ws: 95
-  xhttp: 45
-  grpc: 9
-  httpupgrade: 4
+  tcp: 174
+  ws: 109
+  xhttp: 55
+  grpc: 16
   raw: 2
 
 Топ security:
-  tls: 173
-  reality: 117
-  none: 80
-  false: 2
+  tls: 210
+  reality: 77
+  none: 69
 
 ====================================================================
 FINAL GROUPS
@@ -164,277 +178,292 @@ FINAL GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 7
-Уникальных строк: 7
-Уникальных host:port: 7
-Уникальных backend: 7
-Anycast: 4
+Всего конфигов: 13
+Уникальных строк: 13
+Уникальных host:port: 13
+Уникальных backend: 12
+Anycast: 8
 Unknown country: 0
 
 Топ стран:
-  🌐 Anycast: 4
+  🌐 Anycast: 8
+  Germany: 3
   Russia: 2
-  Netherlands: 1
 
 Топ SNI:
-  max.ru: 1
+  rzd.ru: 2
+  apple.com: 1
   wx-deu-022.cdnphotos.org: 1
-  ru1.braidx.tech: 1
+  nl.gruztrack.online: 1
+  www.icloud.com: 1
+  www.sciencedirect.com: 1
+  wx-deu-037.cdnphotos.org: 1
   dzen.ru: 1
-  cr-r1.astralweb.tech: 1
-  cloudflare.vhub.pro: 1
-  rzd.ru: 1
+  storage.yandex.net: 1
+  live.ok.ru: 1
 
 Топ портов:
-  443: 4
+  443: 5
+  2053: 2
+  2200: 2
+  9895: 1
   8443: 1
-  2053: 1
-  2200: 1
+  2027: 1
+  4100: 1
 
 Топ схем:
-  vless: 7
+  vless: 13
 
 Топ transport:
-  raw: 2
-  ws: 2
-  tcp: 1
-  xhttp: 1
-  grpc: 1
+  xhttp: 3
+  grpc: 3
+  tcp: 3
+  ws: 3
+  raw: 1
 
 Топ security:
-  reality: 3
-  tls: 3
-  none: 1
+  reality: 8
+  none: 3
+  tls: 2
 
 ────────────────────────────────────────────────────────────────────
 📊 white_vless
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 6
-Уникальных строк: 6
-Уникальных host:port: 6
-Уникальных backend: 6
-Anycast: 3
+Всего конфигов: 12
+Уникальных строк: 12
+Уникальных host:port: 12
+Уникальных backend: 11
+Anycast: 7
 Unknown country: 0
 
 Топ стран:
-  🌐 Anycast: 3
+  🌐 Anycast: 7
+  Germany: 3
   Russia: 2
-  Netherlands: 1
 
 Топ SNI:
-  max.ru: 1
-  cr-r1.astralweb.tech: 1
-  ru1.braidx.tech: 1
+  rzd.ru: 2
+  www.sciencedirect.com: 1
+  apple.com: 1
+  storage.yandex.net: 1
+  live.ok.ru: 1
+  wx-deu-037.cdnphotos.org: 1
   wx-deu-022.cdnphotos.org: 1
-  cloudflare.vhub.pro: 1
-  rzd.ru: 1
+  nl.gruztrack.online: 1
+  www.icloud.com: 1
+  media2.tcpdoor.net: 1
 
 Топ портов:
-  443: 4
+  443: 5
+  2200: 2
+  9895: 1
+  2027: 1
+  4100: 1
+  2053: 1
   8443: 1
-  2200: 1
 
 Топ схем:
-  vless: 6
+  vless: 12
 
 Топ transport:
-  raw: 2
-  ws: 2
-  tcp: 1
-  xhttp: 1
+  tcp: 3
+  xhttp: 3
+  ws: 3
+  grpc: 2
+  raw: 1
 
 Топ security:
-  tls: 3
-  reality: 2
-  none: 1
+  reality: 7
+  none: 3
+  tls: 2
 
 ────────────────────────────────────────────────────────────────────
 📊 black_all
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 90
-Уникальных строк: 90
-Уникальных host:port: 88
-Уникальных backend: 72
-Anycast: 31
-Unknown country: 35
+Всего конфигов: 83
+Уникальных строк: 83
+Уникальных host:port: 80
+Уникальных backend: 63
+Anycast: 28
+Unknown country: 30
 
 Топ стран:
-  Unknown: 35
-  🌐 Anycast: 31
-  United States: 7
-  Netherlands: 5
-  Germany: 5
+  Unknown: 30
+  🌐 Anycast: 28
+  Germany: 6
+  Netherlands: 6
+  United States: 3
+  Finland: 3
   Japan: 2
-  Finland: 2
   France: 2
-  Switzerland: 1
+  Estonia: 1
+  Poland: 1
 
 Топ SNI:
-  monalisgame.com: 5
-  accounts.fastly.com: 4
   free-server.techsonic.dev: 4
-  ssl.fastly.com: 3
-  hk.catxstar.com: 3
-  www.bing.com: 3
-  b67c99c6s591.csgfw.top: 2
-  mercedes-grape.yyuyy.com: 2
-  hopp-us.yyuyy.com: 2
-  de.catxstar.com: 2
+  accounts.fastly.com: 4
+  hk.catxstar.com: 4
+  www.bing.com: 4
+  www.icloud.com: 2
+  titandarkness.mooo.com: 2
+  accaunt.fastly.com: 2
+  fi-one.quiet-rogue.site: 2
+  dl.google.com: 2
+  www.cloudflare.com: 2
 
 Топ портов:
-  443: 40
-  8443: 9
+  443: 39
+  8443: 11
   2096: 4
-  10808: 2
-  80: 2
+  10808: 3
+  20004: 2
+  2056: 2
   20041: 2
   20129: 2
-  8464: 1
-  41834: 1
-  53261: 1
+  8113: 1
+  448: 1
 
 Топ схем:
-  vless: 49
-  hysteria2: 28
-  trojan: 11
-  vmess: 2
+  vless: 40
+  hysteria2: 30
+  trojan: 10
+  vmess: 3
 
 Топ transport:
-  tcp: 65
-  ws: 13
-  xhttp: 10
-  httpupgrade: 1
-  grpc: 1
+  tcp: 59
+  ws: 12
+  xhttp: 9
+  grpc: 2
+  raw: 1
 
 Топ security:
-  none: 39
-  tls: 27
-  reality: 23
-  false: 1
+  none: 35
+  tls: 29
+  reality: 19
 
 ────────────────────────────────────────────────────────────────────
 📊 pool
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 96
-Уникальных строк: 96
-Уникальных host:port: 94
-Уникальных backend: 79
-Anycast: 35
-Unknown country: 34
+Всего конфигов: 92
+Уникальных строк: 92
+Уникальных host:port: 89
+Уникальных backend: 74
+Anycast: 36
+Unknown country: 27
 
 Топ стран:
-  🌐 Anycast: 35
-  Unknown: 34
-  United States: 7
+  🌐 Anycast: 36
+  Unknown: 27
+  Germany: 9
   Netherlands: 6
-  Germany: 5
+  Finland: 3
+  United States: 3
   Russia: 2
-  Finland: 2
-  Japan: 2
   France: 2
-  Switzerland: 1
+  Japan: 2
+  Estonia: 1
 
 Топ SNI:
-  monalisgame.com: 5
   accounts.fastly.com: 4
-  ssl.fastly.com: 3
-  www.bing.com: 3
+  hk.catxstar.com: 4
   free-server.techsonic.dev: 3
-  hk.catxstar.com: 3
-  157.85.102.28: 2
-  de.catxstar.com: 2
-  hopp-us.yyuyy.com: 2
-  b67c99c6s591.csgfw.top: 2
+  rzd.ru: 2
+  www.icloud.com: 2
+  accaunt.fastly.com: 2
+  dl.google.com: 2
+  vpn-tw-002.fastervpn.world: 2
+  titandarkness.mooo.com: 2
+  ssl.fastly.com: 2
 
 Топ портов:
-  443: 44
-  8443: 10
+  443: 43
+  8443: 11
   2096: 3
-  80: 2
-  10808: 2
+  10808: 3
+  2200: 2
+  2053: 2
   20041: 2
+  2056: 2
+  20004: 2
   20129: 2
-  2053: 1
-  2200: 1
-  1935: 1
 
 Топ схем:
-  vless: 55
+  vless: 51
   hysteria2: 28
-  trojan: 11
-  vmess: 2
+  trojan: 10
+  vmess: 3
 
 Топ transport:
-  tcp: 66
+  tcp: 59
   ws: 14
-  xhttp: 11
-  grpc: 2
+  xhttp: 12
+  grpc: 5
   raw: 2
-  httpupgrade: 1
 
 Топ security:
-  none: 40
-  tls: 29
+  none: 36
+  tls: 30
   reality: 26
-  false: 1
 
 ────────────────────────────────────────────────────────────────────
 📊 mixed
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 42
-Уникальных строк: 42
-Уникальных host:port: 42
+Всего конфигов: 43
+Уникальных строк: 43
+Уникальных host:port: 43
 Уникальных backend: 38
-Anycast: 18
-Unknown country: 14
+Anycast: 19
+Unknown country: 11
 
 Топ стран:
-  🌐 Anycast: 18
-  Unknown: 14
-  United States: 4
-  Netherlands: 2
-  Russia: 1
-  Germany: 1
-  Japan: 1
+  🌐 Anycast: 19
+  Unknown: 11
+  Germany: 5
+  Russia: 2
   Finland: 1
+  United States: 1
+  Estonia: 1
+  Poland: 1
+  Netherlands: 1
+  Japan: 1
 
 Топ SNI:
-  monalisgame.com: 5
-  free-server.techsonic.dev: 2
+  www.icloud.com: 2
   accounts.fastly.com: 2
-  b67c99c6s591.csgfw.top: 2
-  ru1.braidx.tech: 1
-  cr-r1.astralweb.tech: 1
-  cloudflare.vhub.pro: 1
-  max.ru: 1
-  dzen.ru: 1
-  wx-deu-022.cdnphotos.org: 1
+  free-server.techsonic.dev: 2
+  www.cloudflare.com: 2
+  titandarkness.mooo.com: 2
+  dl.google.com: 2
+  accaunt.fastly.com: 2
+  wx-deu-037.cdnphotos.org: 1
+  www.sciencedirect.com: 1
+  storage.yandex.net: 1
 
 Топ портов:
-  443: 30
-  8443: 2
+  443: 29
+  8443: 4
+  2053: 2
   2096: 2
-  2053: 1
-  25129: 1
-  8464: 1
-  22264: 1
-  47588: 1
-  50527: 1
+  2027: 1
+  9895: 1
+  12459: 1
+  8113: 1
   448: 1
+  50527: 1
 
 Топ схем:
-  vless: 42
+  vless: 43
 
 Топ transport:
-  tcp: 25
+  tcp: 20
+  xhttp: 10
   ws: 7
-  xhttp: 7
-  raw: 2
-  grpc: 1
+  grpc: 5
+  raw: 1
 
 Топ security:
   reality: 26
-  tls: 16
+  tls: 17
 
 ────────────────────────────────────────────────────────────────────
 📊 lte
@@ -442,127 +471,126 @@ Unknown country: 14
 Всего конфигов: 25
 Уникальных строк: 25
 Уникальных host:port: 25
-Уникальных backend: 22
-Anycast: 13
-Unknown country: 3
+Уникальных backend: 21
+Anycast: 14
+Unknown country: 0
 
 Топ стран:
-  🌐 Anycast: 13
-  Unknown: 3
-  United States: 2
-  Japan: 2
-  Netherlands: 2
-  Russia: 1
-  Germany: 1
+  🌐 Anycast: 14
+  Germany: 4
+  Poland: 1
+  Estonia: 1
+  United States: 1
+  Japan: 1
   Finland: 1
+  Russia: 1
+  Netherlands: 1
 
 Топ SNI:
+  accaunt.fastly.com: 2
   accounts.fastly.com: 2
-  monalisgame.com: 2
+  titandarkness.mooo.com: 2
   ssl.fastly.com: 2
-  free-server.techsonic.dev: 2
-  max.ru: 1
-  GERMAN.sarzamiiinahang.ir: 1
-  kanan.aahhajwwiwjwowuwjwwjjwje.online: 1
+  apple.com: 1
+  wx-deu-037.cdnphotos.org: 1
   wx-deu-022.cdnphotos.org: 1
-  ov186.ochmaybrooooo.online: 1
-  ad-013.orbitqgr7v.info: 1
+  kanan.aahhajwwiwjwowuwjwwjjwje.online: 1
+  ad-013.fluxmxd18.info: 1
+  31.76.11.46.cdn-one.org: 1
 
 Топ портов:
   443: 18
   8443: 2
-  2096: 2
-  48991: 1
-  2053: 1
-  20004: 1
+  2053: 2
+  9895: 1
+  8113: 1
+  448: 1
 
 Топ схем:
   vless: 23
   trojan: 2
 
 Топ transport:
-  tcp: 9
-  ws: 8
-  xhttp: 6
-  grpc: 1
-  raw: 1
+  xhttp: 8
+  ws: 7
+  tcp: 7
+  grpc: 3
 
 Топ security:
-  tls: 15
-  reality: 10
+  tls: 14
+  reality: 11
 
 ====================================================================
 🌍 GLOBAL SUMMARY
 ====================================================================
-Всего конфигов: 266
-Уникальных строк: 97
-Уникальных host:port: 95
-Уникальных backend: 79
-Anycast: 104
-Unknown country: 86
+Всего конфигов: 268
+Уникальных строк: 96
+Уникальных host:port: 92
+Уникальных backend: 74
+Anycast: 112
+Unknown country: 68
 
 Топ стран:
-  🌐 Anycast: 104
-  Unknown: 86
-  United States: 20
-  Netherlands: 17
-  Germany: 12
-  Russia: 8
-  Japan: 7
-  Finland: 6
+  🌐 Anycast: 112
+  Unknown: 68
+  Germany: 30
+  Netherlands: 14
+  Russia: 10
+  United States: 8
+  Finland: 8
+  Japan: 6
+  Estonia: 4
+  Poland: 4
   France: 4
-  Switzerland: 2
 
 Топ SNI:
-  monalisgame.com: 17
   accounts.fastly.com: 12
-  free-server.techsonic.dev: 11
-  ssl.fastly.com: 9
-  hk.catxstar.com: 7
-  b67c99c6s591.csgfw.top: 6
+  www.icloud.com: 9
+  free-server.techsonic.dev: 9
+  titandarkness.mooo.com: 8
+  accaunt.fastly.com: 8
+  hk.catxstar.com: 8
+  rzd.ru: 6
+  dl.google.com: 6
+  www.cloudflare.com: 6
+  ssl.fastly.com: 6
   www.bing.com: 6
-  max.ru: 5
+  apple.com: 5
   wx-deu-022.cdnphotos.org: 5
-  ru1.braidx.tech: 5
-  cloudflare.vhub.pro: 5
-  dzen.ru: 4
-  cr-r1.astralweb.tech: 4
-  pro-jp.emrata.top: 4
-  pro-fi.emrata.top: 4
+  nl.gruztrack.online: 5
+  www.sciencedirect.com: 5
 
 Топ портов:
-  443: 140
-  8443: 25
-  2096: 11
-  2053: 4
-  48991: 4
-  10808: 4
-  80: 4
+  443: 139
+  8443: 30
+  2053: 9
+  2096: 9
+  2200: 6
+  10808: 6
+  9895: 5
+  2027: 4
+  8113: 4
+  448: 4
+  20004: 4
+  2056: 4
   20041: 4
   20129: 4
-  2200: 3
-  8464: 3
-  50527: 3
-  22264: 3
-  448: 3
-  25129: 3
+  4100: 3
 
 Топ схем:
   vless: 182
-  hysteria2: 56
-  trojan: 24
-  vmess: 4
+  hysteria2: 58
+  trojan: 22
+  vmess: 6
 
 Топ transport:
-  tcp: 167
+  tcp: 151
   ws: 46
-  xhttp: 36
-  raw: 9
-  grpc: 6
-  httpupgrade: 2
+  xhttp: 45
+  grpc: 20
+  raw: 6
 
 Топ security:
-  tls: 93
-  reality: 90
-  none: 81
-  false: 2
+  reality: 97
+  tls: 94
+  none: 77
