@@ -1,5 +1,5 @@
 VPN Builder stats summary
-Generated at: 2026-08-08 19:58:37 MSK
+Generated at: 2026-08-08 20:29:27 MSK
 
 ====================================================================
 RAW GROUPS
@@ -125,66 +125,67 @@ Unknown country: 4
 ────────────────────────────────────────────────────────────────────
 📊 RAW black_all
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 475
-Уникальных строк: 325
-Уникальных host:port: 162
-Уникальных backend: 79
-Anycast: 83
-Unknown country: 287
+Всего конфигов: 592
+Уникальных строк: 452
+Уникальных host:port: 180
+Уникальных backend: 116
+Anycast: 92
+Unknown country: 322
 
 Топ стран:
-  Unknown: 287
-  🌐 Anycast: 83
-  France: 36
-  Netherlands: 17
-  Germany: 16
-  Russia: 15
-  United States: 12
-  Finland: 6
-  Switzerland: 2
-  Japan: 1
+  Unknown: 322
+  🌐 Anycast: 92
+  United States: 80
+  France: 26
+  Netherlands: 25
+  Germany: 24
+  Russia: 13
+  Japan: 5
+  Finland: 3
+  Poland: 1
 
 Топ SNI:
-  storage.yandex.net: 146
+  storage.yandex.net: 106
+  tradingview.com: 68
   speedtest.tinkoff.ru: 33
-  css.rbxcdn.com: 29
-  t.me: 29
-  fi1-cosmostechnology.ru: 20
-  www.cloudflare.com: 20
-  www.calmlunch.com: 16
-  default.fastly.com: 16
-  154.90.62.70: 7
-  www.avito.ru: 6
+  css.rbxcdn.com: 32
+  t.me: 30
+  fi1-cosmostechnology.ru: 18
+  it1-akn.astralweb.tech: 18
+  free-7f1.pages.dev: 14
+  default.fastly.com: 14
+  uk1.denverpresents.top: 10
 
 Топ портов:
-  443: 372
-  8443: 18
-  8880: 16
-  2056: 10
-  20041: 8
-  56127: 7
-  2083: 6
-  2053: 6
-  80: 4
-  9090: 3
+  443: 359
+  8443: 91
+  2083: 10
+  20041: 10
+  2056: 9
+  56127: 6
+  2060: 4
+  20004: 4
+  9999: 2
+  40480: 2
 
 Топ схем:
-  vless: 268
-  hysteria2: 144
+  vless: 321
+  hysteria2: 149
+  vmess: 69
   trojan: 53
-  vmess: 10
 
 Топ transport:
-  tcp: 379
-  ws: 69
-  xhttp: 21
-  raw: 4
-  grpc: 2
+  tcp: 493
+  ws: 64
+  xhttp: 23
+  raw: 7
+  grpc: 5
 
 Топ security:
-  reality: 198
-  none: 178
-  tls: 99
+  reality: 232
+  none: 227
+  tls: 131
+  false: 2
 
 ====================================================================
 FINAL GROUPS
@@ -278,7 +279,7 @@ Unknown country: 2
   rutube.ru: 1
   arclo.ciphero.xyz: 1
   vk.com: 1
-  www.rumedia-cdn.com: 1
+  iv.kommersant.ru: 1
 
 Топ портов:
   443: 13
@@ -287,8 +288,8 @@ Unknown country: 2
   2200: 3
   4100: 2
   18443: 1
-  8449: 1
   43000: 1
+  8449: 1
   35412: 1
   13561: 1
 
@@ -310,185 +311,190 @@ Unknown country: 2
 ────────────────────────────────────────────────────────────────────
 📊 black_all
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 86
-Уникальных строк: 86
-Уникальных host:port: 81
-Уникальных backend: 64
-Anycast: 25
-Unknown country: 30
+Всего конфигов: 140
+Уникальных строк: 140
+Уникальных host:port: 100
+Уникальных backend: 106
+Anycast: 28
+Unknown country: 76
 
 Топ стран:
-  Unknown: 30
-  🌐 Anycast: 25
-  France: 9
-  Germany: 7
+  Unknown: 76
+  🌐 Anycast: 28
+  Germany: 9
+  France: 7
+  United States: 6
   Netherlands: 5
   Russia: 3
-  United States: 3
+  Japan: 3
   Finland: 2
-  Switzerland: 1
-  Japan: 1
+  Poland: 1
 
 Топ SNI:
-  storage.yandex.net: 4
+  www.google.com: 4
   fi1-cosmostechnology.ru: 4
-  speedtest.tinkoff.ru: 4
-  www.calmlunch.com: 4
+  storage.yandex.net: 4
+  free-7f1.pages.dev: 4
   default.fastly.com: 4
   css.rbxcdn.com: 4
-  www.cloudflare.com: 3
-  uk1.denverpresents.top: 2
-  fi-one.quiet-rogue.site: 2
-  www.bing.com: 2
+  ssl.fastly.com: 3
+  www.calmlunch.com: 3
+  www.bing.com: 3
+  www.apple.com: 2
 
 Топ портов:
-  443: 44
-  8443: 9
+  443: 52
+  8443: 16
   2056: 5
-  8880: 4
-  80: 2
-  2053: 2
-  2083: 1
-  53261: 1
-  6443: 1
-  9090: 1
+  20004: 2
+  2083: 2
+  2060: 2
+  30051: 1
+  2087: 1
+  9999: 1
+  8880: 1
 
 Топ схем:
-  vless: 36
-  hysteria2: 33
-  trojan: 12
-  vmess: 5
+  vless: 51
+  vmess: 40
+  hysteria2: 35
+  trojan: 14
 
 Топ transport:
-  tcp: 59
-  ws: 18
-  xhttp: 6
-  raw: 2
-  grpc: 1
+  tcp: 112
+  ws: 20
+  xhttp: 5
+  grpc: 2
+  raw: 1
 
 Топ security:
-  none: 47
-  tls: 24
-  reality: 15
+  none: 81
+  tls: 32
+  reality: 26
+  false: 1
 
 ────────────────────────────────────────────────────────────────────
 📊 pool
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 109
-Уникальных строк: 109
-Уникальных host:port: 104
-Уникальных backend: 84
-Anycast: 34
-Unknown country: 30
+Всего конфигов: 150
+Уникальных строк: 150
+Уникальных host:port: 110
+Уникальных backend: 116
+Anycast: 35
+Unknown country: 69
 
 Топ стран:
-  🌐 Anycast: 34
-  Unknown: 30
-  Germany: 10
-  Russia: 9
-  Netherlands: 9
-  United States: 7
-  France: 6
+  Unknown: 69
+  🌐 Anycast: 35
+  United States: 11
+  Germany: 9
+  Netherlands: 7
+  Russia: 7
+  France: 5
   Finland: 3
-  Japan: 1
+  Japan: 3
+  Poland: 1
 
 Топ SNI:
+  www.google.com: 5
   maps.apple.com: 4
+  storage.yandex.net: 4
   default.fastly.com: 4
   css.rbxcdn.com: 4
   vk.com: 3
-  www.calmlunch.com: 3
-  www.cloudflare.com: 3
-  storage.yandex.net: 3
-  play.overcloud.cloud: 2
-  media2.tcpdoor.net: 2
+  fi1-cosmostechnology.ru: 3
+  ssl.fastly.com: 3
   87.242.85.201: 2
+  rzd.ru: 2
 
 Топ портов:
-  443: 55
-  8443: 11
-  6443: 4
-  8880: 4
+  443: 59
+  8443: 15
   2056: 4
-  2200: 3
   4100: 3
-  80: 2
-  18443: 1
-  13561: 1
+  2200: 3
+  6443: 2
+  2060: 2
+  20004: 2
+  35412: 1
+  8449: 1
 
 Топ схем:
-  vless: 61
-  hysteria2: 33
-  trojan: 10
-  vmess: 5
+  vless: 71
+  vmess: 38
+  hysteria2: 28
+  trojan: 13
 
 Топ transport:
-  tcp: 63
-  ws: 22
-  grpc: 10
-  xhttp: 8
+  tcp: 106
+  ws: 21
+  grpc: 11
   raw: 6
+  xhttp: 6
 
 Топ security:
-  none: 54
-  reality: 30
-  tls: 25
+  none: 78
+  reality: 42
+  tls: 29
+  false: 1
 
 ────────────────────────────────────────────────────────────────────
 📊 mixed
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 43
-Уникальных строк: 43
-Уникальных host:port: 43
-Уникальных backend: 34
-Anycast: 7
-Unknown country: 9
+Всего конфигов: 52
+Уникальных строк: 52
+Уникальных host:port: 51
+Уникальных backend: 38
+Anycast: 10
+Unknown country: 14
 
 Топ стран:
-  Unknown: 9
-  Russia: 8
-  🌐 Anycast: 7
+  Unknown: 14
+  🌐 Anycast: 10
+  United States: 8
+  Russia: 7
   Netherlands: 6
-  United States: 5
   Germany: 5
-  France: 2
   Finland: 1
+  France: 1
 
 Топ SNI:
   maps.apple.com: 4
-  www.cloudflare.com: 3
-  qwesd.rutendingaltos.top: 2
+  www.google.com: 3
   media2.tcpdoor.net: 2
-  ru6.ethicsdinnerpave.online: 2
   play.overcloud.cloud: 2
-  uk1.denverpresents.top: 2
+  stratix.orbvia.online: 2
+  ru6.ethicsdinnerpave.online: 2
   storage.yandex.net: 2
   fi1-cosmostechnology.ru: 2
-  ru1.braidx.tech: 1
+  free-7f1.pages.dev: 2
+  www.apple.com: 2
 
 Топ портов:
-  443: 32
-  6443: 4
-  8443: 2
+  443: 35
+  8443: 7
+  6443: 2
   8449: 1
-  18443: 1
   43000: 1
+  18443: 1
   2083: 1
-  9090: 1
+  30051: 1
+  1010: 1
+  2087: 1
 
 Топ схем:
-  vless: 43
+  vless: 52
 
 Топ transport:
-  tcp: 18
-  grpc: 9
-  xhttp: 8
-  raw: 6
-  ws: 2
+  tcp: 26
+  grpc: 10
+  xhttp: 6
+  raw: 5
+  ws: 5
 
 Топ security:
-  reality: 29
-  tls: 14
+  reality: 37
+  tls: 15
 
 ────────────────────────────────────────────────────────────────────
 📊 lte
@@ -497,123 +503,124 @@ Unknown country: 9
 Уникальных строк: 25
 Уникальных host:port: 25
 Уникальных backend: 20
-Anycast: 3
+Anycast: 4
 Unknown country: 0
 
 Топ стран:
-  Russia: 7
-  United States: 4
-  Germany: 4
-  Netherlands: 4
-  🌐 Anycast: 3
+  United States: 7
+  Russia: 5
+  🌐 Anycast: 4
+  Germany: 3
+  Netherlands: 3
   France: 2
   Finland: 1
 
 Топ SNI:
   maps.apple.com: 4
   ru6.ethicsdinnerpave.online: 2
-  qwesd.rutendingaltos.top: 2
+  free-7f1.pages.dev: 2
   www.calmlunch.com: 2
-  accaunt.fastly.com: 1
+  www.apple.com: 1
+  qwesd.rutendingaltos.top: 1
   wqeds.denverpresents.top: 1
   api-maps.yandex.ru: 1
   rutube.ru: 1
-  ii--6---6--MiTiVPN---MiTiVPN-o.KinGNetWork.iR: 1
-  free-7f1.pages.dev: 1
+  ssl.fastly.com: 1
 
 Топ портов:
-  443: 18
-  8443: 2
-  6443: 2
+  443: 17
+  8443: 4
   18443: 1
+  2087: 1
   2083: 1
-  2053: 1
+  6443: 1
 
 Топ схем:
-  vless: 22
-  trojan: 3
+  vless: 23
+  trojan: 2
 
 Топ transport:
   tcp: 7
-  xhttp: 6
-  grpc: 5
-  ws: 5
+  grpc: 6
+  ws: 6
+  xhttp: 4
   raw: 2
 
 Топ security:
-  reality: 13
-  tls: 12
+  reality: 14
+  tls: 11
 
 ====================================================================
 🌍 GLOBAL SUMMARY
 ====================================================================
-Всего конфигов: 326
-Уникальных строк: 122
-Уникальных host:port: 113
-Уникальных backend: 84
-Anycast: 91
-Unknown country: 73
+Всего конфигов: 430
+Уникальных строк: 176
+Уникальных host:port: 131
+Уникальных backend: 127
+Anycast: 99
+Unknown country: 163
 
 Топ стран:
-  🌐 Anycast: 91
-  Unknown: 73
-  Russia: 38
-  Netherlands: 32
+  Unknown: 163
+  🌐 Anycast: 99
+  United States: 42
+  Russia: 33
   Germany: 32
-  United States: 29
-  France: 19
+  Netherlands: 29
+  France: 15
   Finland: 9
-  Japan: 2
-  Switzerland: 1
+  Japan: 6
+  Poland: 2
 
 Топ SNI:
   maps.apple.com: 22
+  www.google.com: 15
   vk.com: 10
-  qwesd.rutendingaltos.top: 9
+  storage.yandex.net: 10
+  free-7f1.pages.dev: 10
+  stratix.orbvia.online: 9
   play.overcloud.cloud: 9
   ru6.ethicsdinnerpave.online: 9
-  storage.yandex.net: 9
-  www.calmlunch.com: 9
-  default.fastly.com: 9
-  www.cloudflare.com: 9
+  fi1-cosmostechnology.ru: 9
+  ssl.fastly.com: 9
   media2.tcpdoor.net: 8
-  fi1-cosmostechnology.ru: 8
+  default.fastly.com: 8
   css.rbxcdn.com: 8
-  rzd.ru: 6
-  87.242.85.201: 6
-  uk1.denverpresents.top: 6
+  www.apple.com: 7
+  www.calmlunch.com: 7
 
 Топ портов:
-  443: 179
-  8443: 30
-  6443: 17
+  443: 193
+  8443: 48
+  6443: 11
   2056: 10
   2200: 9
   4100: 8
-  8880: 8
   18443: 5
+  2083: 5
   8449: 4
   43000: 4
-  2083: 4
-  80: 4
-  2053: 4
+  20004: 4
+  2087: 4
+  2060: 4
   35412: 3
   13561: 3
 
 Топ схем:
-  vless: 221
-  hysteria2: 70
-  trojan: 25
-  vmess: 10
+  vless: 256
+  vmess: 78
+  hysteria2: 67
+  trojan: 29
 
 Топ transport:
-  tcp: 167
-  ws: 57
-  grpc: 45
-  xhttp: 32
-  raw: 25
+  tcp: 271
+  ws: 62
+  grpc: 49
+  xhttp: 25
+  raw: 23
 
 Топ security:
-  reality: 126
-  none: 119
-  tls: 81
+  none: 177
+  reality: 158
+  tls: 93
+  false: 2
