@@ -1,5 +1,5 @@
 VPN Builder stats summary
-Generated at: 2026-08-10 12:54:15 MSK
+Generated at: 2026-08-10 14:02:06 MSK
 
 ====================================================================
 RAW GROUPS
@@ -8,189 +8,182 @@ RAW GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 236
-Уникальных строк: 233
-Уникальных host:port: 82
-Уникальных backend: 53
-Anycast: 67
-Unknown country: 18
+Всего конфигов: 139
+Уникальных строк: 139
+Уникальных host:port: 55
+Уникальных backend: 31
+Anycast: 33
+Unknown country: 7
 
 Топ стран:
-  Russia: 107
-  🌐 Anycast: 67
-  Netherlands: 21
-  Unknown: 18
-  Germany: 15
-  Finland: 5
-  Estonia: 2
-  Kazakhstan: 1
+  Russia: 82
+  🌐 Anycast: 33
+  Netherlands: 10
+  Unknown: 7
+  Germany: 7
 
 Топ SNI:
-  sellflow.org: 75
-  max.ru: 12
-  id.vk.com: 10
-  gb.sellflow.org: 9
-  fi.sellflow.org: 9
-  media2.tcpdoor.net: 9
-  wqeds.denverpresents.top: 9
-  arclo.ciphero.xyz: 6
-  abuse.sellflow.org: 5
-  fr.sellflow.org: 5
+  sellflow.org: 71
+  id.vk.com: 9
+  max.ru: 8
+  wqeds.denverpresents.top: 7
+  fi.sellflow.org: 4
+  secure.furrycdn.net: 4
+  stratix.orbvia.online: 3
+  gb.sellflow.org: 3
+  larkix.pulsio.cfd: 2
+  play.overcloud.cloud: 2
 
 Топ портов:
-  443: 181
-  9444: 6
+  443: 116
   9441: 6
-  8443: 5
-  6443: 5
-  4100: 5
-  2445: 4
-  993: 3
-  2083: 3
-  18443: 3
+  8443: 3
+  6443: 3
+  9444: 2
+  4100: 2
+  28474: 2
+  28473: 2
+  993: 1
+  2200: 1
 
 Топ схем:
-  vless: 229
-  hysteria2: 6
-  trojan: 1
-
-Топ transport:
-  tcp: 132
-  raw: 52
-  grpc: 32
-  xhttp: 11
-  ws: 9
-
-Топ security:
-  reality: 210
-  none: 15
-  tls: 11
-
-────────────────────────────────────────────────────────────────────
-📊 RAW white_vless
-────────────────────────────────────────────────────────────────────
-Всего конфигов: 150
-Уникальных строк: 150
-Уникальных host:port: 79
-Уникальных backend: 51
-Anycast: 49
-Unknown country: 13
-
-Топ стран:
-  🌐 Anycast: 49
-  Russia: 47
-  Netherlands: 18
-  Germany: 15
-  Unknown: 13
-  Finland: 5
-  Estonia: 2
-  Kazakhstan: 1
-
-Топ SNI:
-  sellflow.org: 26
-  id.vk.com: 7
-  max.ru: 7
-  gb.sellflow.org: 6
-  fi.sellflow.org: 5
-  fr.sellflow.org: 5
-  maps.apple.com: 5
-  media2.tcpdoor.net: 5
-  wqeds.denverpresents.top: 5
-  www.rumedia-cdn.com: 4
-
-Топ портов:
-  443: 100
-  8443: 5
-  6443: 5
-  4100: 5
-  2445: 4
-  9441: 4
-  993: 3
-  2083: 3
-  9444: 3
-  18443: 3
-
-Топ схем:
-  vless: 145
-  hysteria2: 4
+  vless: 135
+  hysteria2: 3
   trojan: 1
 
 Топ transport:
   tcp: 78
-  raw: 33
-  grpc: 23
-  ws: 9
-  xhttp: 7
+  raw: 28
+  grpc: 20
+  xhttp: 9
+  ws: 4
 
 Топ security:
-  reality: 130
-  none: 13
-  tls: 7
+  reality: 120
+  tls: 13
+  none: 6
+
+────────────────────────────────────────────────────────────────────
+📊 RAW white_vless
+────────────────────────────────────────────────────────────────────
+Всего конфигов: 135
+Уникальных строк: 135
+Уникальных host:port: 53
+Уникальных backend: 30
+Anycast: 33
+Unknown country: 7
+
+Топ стран:
+  Russia: 78
+  🌐 Anycast: 33
+  Netherlands: 10
+  Unknown: 7
+  Germany: 7
+
+Топ SNI:
+  sellflow.org: 71
+  max.ru: 8
+  wqeds.denverpresents.top: 7
+  id.vk.com: 6
+  fi.sellflow.org: 4
+  secure.furrycdn.net: 4
+  stratix.orbvia.online: 3
+  gb.sellflow.org: 3
+  larkix.pulsio.cfd: 2
+  play.overcloud.cloud: 2
+
+Топ портов:
+  443: 112
+  9441: 6
+  8443: 3
+  6443: 3
+  9444: 2
+  4100: 2
+  28474: 2
+  28473: 2
+  993: 1
+  2200: 1
+
+Топ схем:
+  vless: 132
+  hysteria2: 2
+  trojan: 1
+
+Топ transport:
+  tcp: 77
+  raw: 28
+  grpc: 17
+  xhttp: 9
+  ws: 4
+
+Топ security:
+  reality: 117
+  tls: 13
+  none: 5
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW black_all
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 1034
-Уникальных строк: 884
-Уникальных host:port: 497
-Уникальных backend: 257
-Anycast: 257
-Unknown country: 417
+Всего конфигов: 628
+Уникальных строк: 478
+Уникальных host:port: 278
+Уникальных backend: 152
+Anycast: 147
+Unknown country: 281
 
 Топ стран:
-  Unknown: 417
-  🌐 Anycast: 257
-  United States: 107
-  Netherlands: 65
-  Germany: 60
-  Russia: 52
-  France: 36
-  Estonia: 15
-  Poland: 10
-  Finland: 5
+  Unknown: 281
+  🌐 Anycast: 147
+  Netherlands: 56
+  Russia: 55
+  France: 23
+  Germany: 18
+  Estonia: 12
+  United States: 11
+  Poland: 9
+  Finland: 4
 
 Топ SNI:
-  storage.yandex.net: 193
-  sellflow.org: 71
-  tradingview.com: 60
-  www.calmlunch.com: 23
-  ai.sellflow.org: 22
-  speedtest.tinkoff.ru: 16
-  t.me: 16
-  www.cloudflare.com: 14
-  ne4.rexten.cc: 14
-  free-7f1.pages.dev: 14
+  storage.yandex.net: 146
+  sellflow.org: 56
+  speedtest.tinkoff.ru: 18
+  css.rbxcdn.com: 16
+  t.me: 13
+  de3.rexten.cc: 11
+  free-7f1.pages.dev: 11
+  www.calmlunch.com: 11
+  www.nvidia.com: 8
+  cdn.byteark.com: 8
 
 Топ портов:
-  443: 735
-  8443: 111
-  8880: 23
-  80: 16
-  10443: 12
-  2083: 11
-  2053: 10
-  55443: 9
-  40443: 8
-  2087: 8
+  443: 495
+  8443: 25
+  8880: 12
+  2083: 8
+  1337: 6
+  993: 6
+  40443: 5
+  80: 4
+  2761: 4
+  2027: 4
 
 Топ схем:
-  vless: 874
-  hysteria2: 105
-  trojan: 45
-  vmess: 10
+  vless: 496
+  hysteria2: 76
+  trojan: 37
+  vmess: 19
 
 Топ transport:
-  tcp: 707
-  ws: 169
-  grpc: 75
-  xhttp: 48
+  tcp: 479
+  ws: 86
   raw: 29
-  httpupgrade: 6
+  grpc: 21
+  xhttp: 13
 
 Топ security:
-  reality: 645
-  tls: 201
-  none: 186
+  reality: 414
+  none: 131
+  tls: 81
   false: 2
 
 ====================================================================
@@ -200,124 +193,118 @@ FINAL GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 73
-Уникальных строк: 73
-Уникальных host:port: 73
-Уникальных backend: 52
-Anycast: 24
-Unknown country: 13
+Всего конфигов: 44
+Уникальных строк: 44
+Уникальных host:port: 44
+Уникальных backend: 29
+Anycast: 16
+Unknown country: 7
 
 Топ стран:
-  🌐 Anycast: 24
-  Russia: 15
-  Unknown: 13
-  Netherlands: 10
-  Germany: 6
-  Finland: 3
-  Estonia: 1
-  Kazakhstan: 1
-
-Топ SNI:
-  id.vk.com: 4
-  max.ru: 4
-  fi.sellflow.org: 4
-  sellflow.org: 4
-  www.rumedia-cdn.com: 3
-  ads.x5.ru: 2
-  tunix.ciphero.xyz: 2
-  yandex.ru: 2
-  stormix.pulsio.cfd: 2
-  download.nvidia.com: 2
-
-Топ портов:
-  443: 43
-  4100: 5
-  8443: 3
-  2200: 3
-  9444: 2
-  9441: 2
-  2445: 2
-  40443: 2
-  18443: 1
-  7443: 1
-
-Топ схем:
-  vless: 69
-  hysteria2: 3
-  trojan: 1
-
-Топ transport:
-  tcp: 42
-  grpc: 10
-  raw: 9
-  ws: 9
-  xhttp: 3
-
-Топ security:
-  reality: 58
-  none: 12
-  tls: 3
-
-────────────────────────────────────────────────────────────────────
-📊 white_vless
-────────────────────────────────────────────────────────────────────
-Всего конфигов: 71
-Уникальных строк: 71
-Уникальных host:port: 71
-Уникальных backend: 50
-Anycast: 26
-Unknown country: 8
-
-Топ стран:
-  🌐 Anycast: 26
-  Russia: 15
-  Netherlands: 10
-  Unknown: 8
-  Germany: 6
-  Finland: 4
-  Estonia: 1
-  Kazakhstan: 1
+  🌐 Anycast: 16
+  Russia: 9
+  Netherlands: 7
+  Unknown: 7
+  Germany: 5
 
 Топ SNI:
   id.vk.com: 4
   max.ru: 4
   sellflow.org: 4
-  www.rumedia-cdn.com: 3
-  fi.sellflow.org: 3
-  ads.x5.ru: 2
-  tunix.ciphero.xyz: 2
+  secure.furrycdn.net: 4
   stratix.orbvia.online: 2
-  stormix.pulsio.cfd: 2
-  arclo.ciphero.xyz: 2
+  fi.sellflow.org: 2
+  download.nvidia.com: 2
+  play.overcloud.cloud: 2
+  maps.apple.com: 1
+  wqeds.denverpresents.top: 1
 
 Топ портов:
-  443: 41
-  4100: 5
-  8443: 3
-  2200: 3
-  9441: 2
+  443: 26
+  6443: 3
   9444: 2
-  40443: 2
-  2445: 2
-  18443: 1
-  7443: 1
+  9441: 2
+  8443: 2
+  28473: 2
+  4100: 2
+  28474: 2
+  2200: 1
+  993: 1
 
 Топ схем:
-  vless: 68
+  vless: 41
   hysteria2: 2
   trojan: 1
 
 Топ transport:
-  tcp: 40
-  grpc: 10
-  raw: 9
-  ws: 9
+  tcp: 19
+  grpc: 11
+  raw: 7
+  ws: 4
   xhttp: 3
 
 Топ security:
-  reality: 57
-  none: 11
-  tls: 3
+  reality: 32
+  tls: 7
+  none: 5
+
+────────────────────────────────────────────────────────────────────
+📊 white_vless
+────────────────────────────────────────────────────────────────────
+Всего конфигов: 43
+Уникальных строк: 43
+Уникальных host:port: 43
+Уникальных backend: 28
+Anycast: 16
+Unknown country: 7
+
+Топ стран:
+  🌐 Anycast: 16
+  Russia: 8
+  Netherlands: 7
+  Unknown: 7
+  Germany: 5
+
+Топ SNI:
+  id.vk.com: 4
+  sellflow.org: 4
+  max.ru: 4
+  secure.furrycdn.net: 4
+  download.nvidia.com: 2
+  fi.sellflow.org: 2
+  play.overcloud.cloud: 2
+  stratix.orbvia.online: 2
+  maps.apple.com: 1
+  bestrecipes-online.site: 1
+
+Топ портов:
+  443: 25
+  6443: 3
+  9444: 2
+  9441: 2
+  4100: 2
+  8443: 2
+  28473: 2
+  28474: 2
+  65056: 1
+  993: 1
+
+Топ схем:
+  vless: 41
+  hysteria2: 1
+  trojan: 1
+
+Топ transport:
+  tcp: 18
+  grpc: 11
+  raw: 7
+  ws: 4
+  xhttp: 3
+
+Топ security:
+  reality: 32
+  tls: 7
+  none: 4
 
 ────────────────────────────────────────────────────────────────────
 📊 black_all
@@ -325,61 +312,62 @@ Unknown country: 8
 Всего конфигов: 140
 Уникальных строк: 140
 Уникальных host:port: 140
-Уникальных backend: 119
-Anycast: 13
-Unknown country: 19
+Уникальных backend: 110
+Anycast: 50
+Unknown country: 33
 
 Топ стран:
-  Netherlands: 32
-  Germany: 22
-  Unknown: 19
-  United States: 16
-  🌐 Anycast: 13
-  Estonia: 9
-  France: 9
-  Poland: 7
-  Russia: 4
-  Finland: 4
+  🌐 Anycast: 50
+  Unknown: 33
+  Netherlands: 18
+  France: 8
+  Germany: 7
+  Estonia: 5
+  United States: 4
+  Poland: 4
+  Japan: 3
+  Finland: 3
 
 Топ SNI:
-  de-cdn.ru: 4
-  ee.cdn-global.pro: 4
-  ai.sellflow.org: 4
+  de3.rexten.cc: 4
+  sellflow.org: 4
+  storage.yandex.net: 4
+  cdn.byteark.com: 4
   www.calmlunch.com: 4
-  deepl.com: 3
-  sellflow.org: 3
-  yahoo.com: 3
-  download.nvidia.com: 2
+  free-7f1.pages.dev: 4
+  download.nvidia.com: 3
+  www.nvidia.com: 3
   images.apple.com: 2
-  vk.com: 2
+  es.bbobr.win: 2
 
 Топ портов:
-  443: 107
-  8443: 13
+  443: 90
+  8443: 12
+  8880: 5
+  40443: 3
+  1337: 3
   993: 2
-  40443: 2
-  2053: 2
-  55443: 2
-  7443: 1
-  46197: 1
-  43439: 1
-  2087: 1
+  2096: 2
+  2761: 2
+  80: 2
+  2027: 2
 
 Топ схем:
-  vless: 120
-  hysteria2: 16
-  trojan: 4
+  vless: 117
+  trojan: 12
+  hysteria2: 11
 
 Топ transport:
-  tcp: 83
-  grpc: 36
-  ws: 12
-  xhttp: 9
+  tcp: 89
+  ws: 30
+  grpc: 10
+  xhttp: 6
+  raw: 5
 
 Топ security:
-  reality: 80
-  tls: 37
-  none: 22
+  reality: 87
+  tls: 27
+  none: 25
   false: 1
 
 ────────────────────────────────────────────────────────────────────
@@ -389,121 +377,121 @@ Unknown country: 19
 Уникальных строк: 150
 Уникальных host:port: 147
 Уникальных backend: 115
-Anycast: 34
-Unknown country: 22
+Anycast: 57
+Unknown country: 25
 
 Топ стран:
-  🌐 Anycast: 34
-  Netherlands: 33
-  Unknown: 22
-  Russia: 17
-  Germany: 12
-  Estonia: 7
-  United States: 6
-  France: 6
-  Finland: 5
-  Poland: 5
+  🌐 Anycast: 57
+  Unknown: 25
+  Netherlands: 21
+  Germany: 11
+  Russia: 9
+  France: 7
+  Estonia: 5
+  United States: 4
+  Poland: 3
+  Finland: 3
 
 Топ SNI:
-  sellflow.org: 6
-  fi.sellflow.org: 4
+  sellflow.org: 4
   max.ru: 4
-  id.vk.com: 4
-  deepl.com: 3
-  download.nvidia.com: 3
-  gb.sellflow.org: 3
-  www.rumedia-cdn.com: 3
-  vk.com: 3
-  abuse.sellflow.org: 3
+  www.calmlunch.com: 4
+  id.vk.com: 3
+  fi.sellflow.org: 3
+  storage.yandex.net: 3
+  free-7f1.pages.dev: 3
+  de3.rexten.cc: 3
+  cdn.byteark.com: 3
+  play.overcloud.cloud: 2
 
 Топ портов:
-  443: 105
-  8443: 9
-  4100: 5
-  40443: 3
-  2200: 3
-  2445: 2
+  443: 94
+  8443: 10
+  8880: 5
+  6443: 3
+  4100: 3
+  1337: 3
   9444: 2
   9441: 2
-  2053: 2
-  7443: 1
+  28474: 2
+  20004: 2
 
 Топ схем:
-  vless: 133
-  hysteria2: 13
-  trojan: 4
+  vless: 125
+  trojan: 13
+  hysteria2: 12
 
 Топ transport:
-  tcp: 83
-  grpc: 33
-  ws: 16
-  raw: 11
-  xhttp: 7
+  tcp: 88
+  ws: 31
+  grpc: 14
+  raw: 9
+  xhttp: 8
 
 Топ security:
-  reality: 96
-  tls: 30
-  none: 24
+  reality: 93
+  none: 28
+  tls: 28
+  false: 1
 
 ────────────────────────────────────────────────────────────────────
 📊 mixed
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 57
-Уникальных строк: 57
-Уникальных host:port: 57
-Уникальных backend: 50
-Anycast: 12
-Unknown country: 6
+Всего конфигов: 60
+Уникальных строк: 60
+Уникальных host:port: 60
+Уникальных backend: 49
+Anycast: 24
+Unknown country: 8
 
 Топ стран:
-  🌐 Anycast: 12
-  Netherlands: 12
-  Russia: 12
-  Unknown: 6
+  🌐 Anycast: 24
+  Netherlands: 9
+  Unknown: 8
+  Russia: 8
   Germany: 6
-  Finland: 3
-  Poland: 2
-  Kazakhstan: 1
-  Estonia: 1
+  Estonia: 2
+  Poland: 1
+  Japan: 1
   United States: 1
 
 Топ SNI:
-  max.ru: 3
+  max.ru: 4
+  secure.furrycdn.net: 2
+  play.overcloud.cloud: 2
+  stratix.orbvia.online: 2
+  sellflow.org: 2
   fi.sellflow.org: 2
   id.vk.com: 2
-  stormix.pulsio.cfd: 2
-  www.rumedia-cdn.com: 2
-  stratix.orbvia.online: 2
-  yandex.ru: 2
-  deepl.com: 2
-  sellflow.org: 2
-  ru8.cdn-global.pro: 1
+  download.nvidia.com: 2
+  wqeds.denverpresents.top: 2
+  free-7f1.pages.dev: 2
 
 Топ портов:
   443: 39
+  6443: 3
   8443: 3
-  2445: 2
-  40443: 2
+  28474: 2
   9441: 2
-  2083: 1
-  8445: 1
-  9444: 1
-  993: 1
+  9444: 2
+  40443: 2
   65056: 1
+  993: 1
+  2096: 1
 
 Топ схем:
-  vless: 57
+  vless: 60
 
 Топ transport:
-  tcp: 35
-  grpc: 13
-  raw: 5
-  xhttp: 3
-  ws: 1
+  tcp: 30
+  grpc: 11
+  raw: 8
+  ws: 6
+  xhttp: 5
 
 Топ security:
-  reality: 48
-  tls: 9
+  reality: 49
+  tls: 11
 
 ────────────────────────────────────────────────────────────────────
 📊 lte
@@ -511,123 +499,129 @@ Unknown country: 6
 Всего конфигов: 25
 Уникальных строк: 25
 Уникальных host:port: 25
-Уникальных backend: 22
-Anycast: 2
+Уникальных backend: 21
+Anycast: 7
 Unknown country: 0
 
 Топ стран:
-  Netherlands: 15
-  Russia: 4
+  Netherlands: 8
+  🌐 Anycast: 7
+  Russia: 5
   Germany: 3
-  🌐 Anycast: 2
-  Estonia: 1
+  Poland: 1
+  France: 1
 
 Топ SNI:
+  max.ru: 3
   id.vk.com: 2
-  max.ru: 2
-  ads.x5.ru: 2
-  api-maps.yandex.ru: 1
-  ip-1.xn--fjqyexxidv2znoe9rk1n8ada0532g6usa.com: 1
-  rutube.ru: 1
-  wqeds.denverpresents.top: 1
+  images.apple.com: 2
+  wqeds.denverpresents.top: 2
+  free-7f1.pages.dev: 2
+  www.apple.com: 1
+  maps.apple.com: 1
   rvg-production-1dc9.up.railway.app: 1
-  eh.vk.com: 1
-  5post-gate.x5.ru: 1
+  x4g-production-61fb.up.railway.app: 1
+  cdn.steamstatic.com: 1
 
 Топ портов:
-  443: 19
+  443: 14
+  8443: 3
   9441: 2
-  8443: 1
-  2087: 1
-  18443: 1
+  6443: 1
   7443: 1
+  9444: 1
+  2027: 1
+  2083: 1
+  2096: 1
 
 Топ схем:
-  vless: 25
+  vless: 24
+  trojan: 1
 
 Топ transport:
-  grpc: 15
-  tcp: 5
-  xhttp: 4
-  ws: 1
+  ws: 10
+  grpc: 7
+  xhttp: 5
+  tcp: 3
 
 Топ security:
-  tls: 14
-  reality: 11
+  reality: 13
+  tls: 12
 
 ====================================================================
 🌍 GLOBAL SUMMARY
 ====================================================================
-Всего конфигов: 516
-Уникальных строк: 226
-Уникальных host:port: 210
-Уникальных backend: 163
-Anycast: 111
-Unknown country: 68
+Всего конфигов: 462
+Уникальных строк: 185
+Уникальных host:port: 177
+Уникальных backend: 131
+Anycast: 170
+Unknown country: 80
 
 Топ стран:
-  Netherlands: 112
-  🌐 Anycast: 111
-  Unknown: 68
-  Russia: 67
-  Germany: 55
-  United States: 23
-  Estonia: 20
-  Finland: 19
-  France: 15
-  Poland: 14
-  Kazakhstan: 5
-  Japan: 5
-  Lithuania: 2
+  🌐 Anycast: 170
+  Unknown: 80
+  Netherlands: 70
+  Russia: 40
+  Germany: 37
+  France: 16
+  Estonia: 12
+  United States: 9
+  Poland: 9
+  Japan: 6
+  Finland: 6
+  India: 4
+  Czechia: 2
+  Kazakhstan: 1
 
 Топ SNI:
-  sellflow.org: 19
-  max.ru: 17
+  max.ru: 19
+  sellflow.org: 18
   id.vk.com: 16
-  fi.sellflow.org: 13
-  deepl.com: 12
-  www.rumedia-cdn.com: 11
-  download.nvidia.com: 10
-  ads.x5.ru: 9
-  abuse.sellflow.org: 9
-  yandex.ru: 8
-  stormix.pulsio.cfd: 8
+  secure.furrycdn.net: 12
+  fi.sellflow.org: 11
+  download.nvidia.com: 11
+  free-7f1.pages.dev: 11
+  wqeds.denverpresents.top: 9
+  www.calmlunch.com: 9
   stratix.orbvia.online: 8
-  ee.cdn-global.pro: 8
-  tunix.ciphero.xyz: 7
-  gb.sellflow.org: 7
+  play.overcloud.cloud: 8
+  images.apple.com: 8
+  cdn.byteark.com: 8
+  de3.rexten.cc: 7
+  storage.yandex.net: 7
 
 Топ портов:
-  443: 354
+  443: 288
   8443: 32
-  4100: 15
-  40443: 11
+  6443: 13
   9441: 10
-  2200: 9
-  2445: 8
-  9444: 7
-  7443: 6
+  8880: 10
+  9444: 9
+  4100: 8
+  28474: 8
+  40443: 7
   993: 6
-  18443: 4
-  8448: 4
+  2096: 6
+  1337: 6
+  2083: 6
+  2027: 5
   65056: 4
-  8445: 4
-  2083: 4
 
 Топ схем:
-  vless: 472
-  hysteria2: 34
-  trojan: 10
+  vless: 408
+  trojan: 28
+  hysteria2: 26
 
 Топ transport:
-  tcp: 288
-  grpc: 117
-  ws: 48
-  raw: 34
-  xhttp: 29
+  tcp: 247
+  ws: 85
+  grpc: 64
+  raw: 36
+  xhttp: 30
 
 Топ security:
-  reality: 350
-  tls: 96
-  none: 69
-  false: 1
+  reality: 306
+  tls: 92
+  none: 62
+  false: 2
