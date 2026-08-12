@@ -1,5 +1,5 @@
 VPN Builder stats summary
-Generated at: 2026-08-12 17:06:17 MSK
+Generated at: 2026-08-12 18:17:58 MSK
 
 ====================================================================
 RAW GROUPS
@@ -8,88 +8,111 @@ RAW GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 50
-Уникальных строк: 35
-Уникальных host:port: 7
-Уникальных backend: 6
-Anycast: 5
-Unknown country: 5
+Всего конфигов: 92
+Уникальных строк: 77
+Уникальных host:port: 17
+Уникальных backend: 11
+Anycast: 37
+Unknown country: 35
 
 Топ стран:
-  Russia: 30
-  Germany: 10
-  Unknown: 5
-  🌐 Anycast: 5
+  🌐 Anycast: 37
+  Unknown: 35
+  Netherlands: 10
+  Finland: 5
+  Russia: 5
 
 Топ SNI:
-  obx1.vypnet.su: 20
-  storage.yandex.net: 10
-  proxy11.h1guro.ovh: 5
-  media2.tcpdoor.net: 5
+  hh.ru: 30
+  gateway-v1.bosx.net: 20
+  eh.vk.com: 10
+  ads.x5.ru: 5
+  slashdot.org: 5
+  dogs.abvphelp.cc: 5
   media11.abvphelp.cc: 5
-  live.ok.ru: 5
+  rzd.ru: 5
+  max.ru: 5
+  live.ok.ru: 2
 
 Топ портов:
-  443: 30
-  2027: 10
-  25343: 5
-  4100: 5
+  2053: 30
+  443: 20
+  447: 5
+  8444: 5
+  8449: 5
+  7443: 5
+  8443: 5
+  8445: 5
+  2200: 5
+  2055: 5
 
 Топ схем:
-  vless: 50
+  vless: 92
 
 Топ transport:
-  raw: 30
-  tcp: 10
-  grpc: 5
-  ws: 5
+  grpc: 40
+  ws: 27
+  tcp: 20
+  raw: 5
 
 Топ security:
-  reality: 45
-  none: 5
+  reality: 65
+  tls: 20
+  none: 7
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_vless
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 35
-Уникальных строк: 35
-Уникальных host:port: 7
-Уникальных backend: 6
-Anycast: 5
-Unknown country: 5
+Всего конфигов: 72
+Уникальных строк: 72
+Уникальных host:port: 16
+Уникальных backend: 10
+Anycast: 32
+Unknown country: 20
 
 Топ стран:
-  Russia: 20
-  Unknown: 5
-  Germany: 5
-  🌐 Anycast: 5
+  🌐 Anycast: 32
+  Unknown: 20
+  Netherlands: 10
+  Finland: 5
+  Russia: 5
 
 Топ SNI:
-  obx1.vypnet.su: 10
-  proxy11.h1guro.ovh: 5
-  storage.yandex.net: 5
-  media2.tcpdoor.net: 5
+  gateway-v1.bosx.net: 20
+  hh.ru: 15
+  eh.vk.com: 10
+  ads.x5.ru: 5
+  slashdot.org: 5
+  dogs.abvphelp.cc: 5
   media11.abvphelp.cc: 5
-  live.ok.ru: 5
+  rzd.ru: 5
+  live.ok.ru: 2
 
 Топ портов:
   443: 20
-  25343: 5
-  2027: 5
-  4100: 5
+  2053: 15
+  447: 5
+  8444: 5
+  8449: 5
+  7443: 5
+  8443: 5
+  8445: 5
+  2200: 5
+  4100: 2
 
 Топ схем:
-  vless: 35
+  vless: 72
 
 Топ transport:
-  raw: 15
-  tcp: 10
-  grpc: 5
-  ws: 5
+  ws: 27
+  grpc: 20
+  tcp: 20
+  raw: 5
 
 Топ security:
-  reality: 30
-  none: 5
+  reality: 45
+  tls: 20
+  none: 7
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW black_all
@@ -159,88 +182,111 @@ FINAL GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 7
-Уникальных строк: 7
-Уникальных host:port: 7
-Уникальных backend: 6
-Anycast: 1
-Unknown country: 1
+Всего конфигов: 17
+Уникальных строк: 17
+Уникальных host:port: 17
+Уникальных backend: 11
+Anycast: 9
+Unknown country: 4
 
 Топ стран:
-  Russia: 4
-  Germany: 1
-  🌐 Anycast: 1
-  Unknown: 1
+  🌐 Anycast: 9
+  Unknown: 4
+  Netherlands: 2
+  Finland: 1
+  Russia: 1
 
 Топ SNI:
-  obx1.vypnet.su: 2
-  storage.yandex.net: 1
-  live.ok.ru: 1
+  gateway-v1.bosx.net: 4
+  hh.ru: 3
+  eh.vk.com: 2
+  live.ok.ru: 2
+  ads.x5.ru: 1
+  max.ru: 1
   media11.abvphelp.cc: 1
-  media2.tcpdoor.net: 1
-  proxy11.h1guro.ovh: 1
+  slashdot.org: 1
+  rzd.ru: 1
+  dogs.abvphelp.cc: 1
 
 Топ портов:
   443: 4
-  2027: 1
-  4100: 1
-  25343: 1
+  2053: 3
+  4100: 2
+  447: 1
+  2055: 1
+  8444: 1
+  2200: 1
+  8443: 1
+  8445: 1
+  8449: 1
 
 Топ схем:
-  vless: 7
+  vless: 17
 
 Топ transport:
-  raw: 3
-  tcp: 2
-  ws: 1
-  grpc: 1
+  ws: 7
+  grpc: 5
+  tcp: 4
+  raw: 1
 
 Топ security:
-  reality: 6
-  none: 1
+  reality: 10
+  tls: 4
+  none: 3
 
 ────────────────────────────────────────────────────────────────────
 📊 white_vless
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 7
-Уникальных строк: 7
-Уникальных host:port: 7
-Уникальных backend: 6
-Anycast: 1
-Unknown country: 1
+Всего конфигов: 16
+Уникальных строк: 16
+Уникальных host:port: 16
+Уникальных backend: 10
+Anycast: 8
+Unknown country: 4
 
 Топ стран:
-  Russia: 4
-  🌐 Anycast: 1
-  Germany: 1
-  Unknown: 1
+  🌐 Anycast: 8
+  Unknown: 4
+  Netherlands: 2
+  Finland: 1
+  Russia: 1
 
 Топ SNI:
-  obx1.vypnet.su: 2
-  media2.tcpdoor.net: 1
-  storage.yandex.net: 1
+  gateway-v1.bosx.net: 4
+  hh.ru: 3
+  eh.vk.com: 2
+  live.ok.ru: 2
+  ads.x5.ru: 1
   media11.abvphelp.cc: 1
-  live.ok.ru: 1
-  proxy11.h1guro.ovh: 1
+  dogs.abvphelp.cc: 1
+  slashdot.org: 1
+  rzd.ru: 1
 
 Топ портов:
   443: 4
-  2027: 1
-  4100: 1
-  25343: 1
+  2053: 3
+  4100: 2
+  447: 1
+  7443: 1
+  8445: 1
+  2200: 1
+  8443: 1
+  8444: 1
+  8449: 1
 
 Топ схем:
-  vless: 7
+  vless: 16
 
 Топ transport:
-  raw: 3
-  tcp: 2
-  grpc: 1
-  ws: 1
+  ws: 7
+  tcp: 4
+  grpc: 4
+  raw: 1
 
 Топ security:
-  reality: 6
-  none: 1
+  reality: 9
+  tls: 4
+  none: 3
 
 ────────────────────────────────────────────────────────────────────
 📊 black_all
@@ -278,11 +324,11 @@ Unknown country: 21
   8443: 10
   55555: 2
   2053: 1
-  55861: 1
   20007: 1
   8020: 1
   80: 1
   30101: 1
+  55861: 1
   1935: 1
 
 Топ схем:
@@ -305,118 +351,121 @@ Unknown country: 21
 ────────────────────────────────────────────────────────────────────
 📊 pool
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 61
-Уникальных строк: 61
-Уникальных host:port: 57
-Уникальных backend: 48
-Anycast: 21
-Unknown country: 20
+Всего конфигов: 69
+Уникальных строк: 69
+Уникальных host:port: 65
+Уникальных backend: 53
+Anycast: 30
+Unknown country: 21
 
 Топ стран:
-  🌐 Anycast: 21
-  Unknown: 20
+  🌐 Anycast: 30
+  Unknown: 21
   United States: 8
-  Russia: 4
-  Germany: 3
-  Netherlands: 3
-  Finland: 1
+  Netherlands: 4
+  Finland: 2
+  Germany: 2
+  Russia: 1
   Czechia: 1
 
 Топ SNI:
+  hh.ru: 3
   grape-honk.yyuyy.com: 3
-  css.rbxcdn.com: 3
-  obx1.vypnet.su: 2
+  default.fastly.com: 3
+  eh.vk.com: 2
+  gateway-v1.bosx.net: 2
+  live.ok.ru: 2
   media11.abvphelp.cc: 2
+  css.rbxcdn.com: 2
   speedtest.tinkoff.ru: 2
   ssl.fastly.com: 2
-  default.fastly.com: 2
-  127.0.0.1: 2
-  www.bing.com: 2
-  www.ea.com: 2
 
 Топ портов:
   443: 29
   8443: 10
+  2053: 4
+  4100: 2
   55555: 2
-  25343: 1
-  4100: 1
-  2027: 1
-  8080: 1
-  8020: 1
-  30101: 1
-  60111: 1
+  7443: 1
+  2200: 1
+  8445: 1
+  8449: 1
+  2055: 1
 
 Топ схем:
-  vless: 27
-  hysteria2: 25
-  trojan: 5
+  vless: 35
+  hysteria2: 24
+  trojan: 6
   vmess: 4
 
 Топ transport:
-  tcp: 41
-  ws: 9
-  grpc: 4
+  tcp: 42
+  ws: 14
+  grpc: 8
   xhttp: 4
-  raw: 3
+  raw: 1
 
 Топ security:
-  none: 32
-  reality: 18
-  tls: 11
+  none: 33
+  reality: 22
+  tls: 14
 
 ────────────────────────────────────────────────────────────────────
 📊 mixed
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 24
-Уникальных строк: 24
-Уникальных host:port: 24
-Уникальных backend: 20
-Anycast: 9
-Unknown country: 3
+Всего конфигов: 30
+Уникальных строк: 30
+Уникальных host:port: 30
+Уникальных backend: 24
+Anycast: 13
+Unknown country: 6
 
 Топ стран:
-  🌐 Anycast: 9
+  🌐 Anycast: 13
+  Unknown: 6
   United States: 5
-  Russia: 3
-  Unknown: 3
-  Netherlands: 2
-  Germany: 1
+  Netherlands: 3
+  Russia: 1
+  Finland: 1
   Czechia: 1
 
 Топ SNI:
+  hh.ru: 3
+  gateway-v1.bosx.net: 2
   media11.abvphelp.cc: 2
-  obx1.vypnet.su: 2
+  eh.vk.com: 2
   www.ea.com: 2
-  static.gcore.pro: 2
   happierpets.org: 2
-  proxy11.h1guro.ovh: 1
-  media2.tcpdoor.net: 1
-  storage.yandex.net: 1
-  us1.cdnvido.com: 1
-  de36.fast-connect-service.site: 1
+  static.gcore.pro: 2
+  slashdot.org: 1
+  ads.x5.ru: 1
+  max.ru: 1
 
 Топ портов:
   443: 14
+  2053: 4
   8443: 4
   55555: 2
-  25343: 1
-  2027: 1
-  2053: 1
+  8449: 1
+  447: 1
+  2055: 1
+  8445: 1
+  7443: 1
   55861: 1
 
 Топ схем:
-  vless: 24
+  vless: 30
 
 Топ transport:
-  tcp: 11
-  grpc: 4
+  tcp: 13
+  grpc: 8
+  ws: 4
   xhttp: 4
-  raw: 3
-  ws: 2
+  raw: 1
 
 Топ security:
-  reality: 18
-  tls: 6
+  reality: 22
+  tls: 8
 
 ────────────────────────────────────────────────────────────────────
 📊 lte
@@ -424,122 +473,124 @@ Unknown country: 3
 Всего конфигов: 25
 Уникальных строк: 25
 Уникальных host:port: 25
-Уникальных backend: 20
-Anycast: 12
-Unknown country: 2
+Уникальных backend: 18
+Anycast: 14
+Unknown country: 0
 
 Топ стран:
-  🌐 Anycast: 12
+  🌐 Anycast: 14
   United States: 5
-  Netherlands: 2
-  Russia: 2
-  Unknown: 2
+  Netherlands: 3
+  Finland: 1
   Czechia: 1
-  Germany: 1
+  Russia: 1
 
 Топ SNI:
+  eh.vk.com: 2
   www.ea.com: 2
   ssl.fastly.com: 2
   static.gcore.pro: 2
   happierpets.org: 2
   media11.abvphelp.cc: 2
   default.fastly.com: 2
+  gateway-v1.bosx.net: 2
   us1.cdnvido.com: 1
   www.apple.com: 1
-  d-2-AA-ia-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.mitiVpN.lIfeStyLe: 1
-  youqp-ab9040c5d6-sss.apps.ir-central1.arvancaas.ir: 1
 
 Топ портов:
-  443: 16
-  8443: 4
-  55555: 2
+  443: 15
+  8443: 3
+  55555: 1
   2053: 1
-  2027: 1
-  55861: 1
+  2055: 1
+  447: 1
+  8445: 1
+  8449: 1
+  7443: 1
 
 Топ схем:
   vless: 21
   trojan: 4
 
 Топ transport:
-  tcp: 9
-  ws: 6
+  tcp: 8
+  ws: 7
+  grpc: 5
   xhttp: 4
-  grpc: 4
-  raw: 2
+  raw: 1
 
 Топ security:
-  reality: 16
-  tls: 9
+  reality: 15
+  tls: 10
 
 ====================================================================
 🌍 GLOBAL SUMMARY
 ====================================================================
-Всего конфигов: 182
-Уникальных строк: 65
-Уникальных host:port: 61
-Уникальных backend: 48
-Anycast: 66
-Unknown country: 48
+Всего конфигов: 215
+Уникальных строк: 75
+Уникальных host:port: 71
+Уникальных backend: 53
+Anycast: 96
+Unknown country: 56
 
 Топ стран:
-  🌐 Anycast: 66
-  Unknown: 48
+  🌐 Anycast: 96
+  Unknown: 56
   United States: 26
-  Russia: 17
-  Netherlands: 10
-  Germany: 9
+  Netherlands: 17
+  Finland: 7
+  Russia: 5
+  Germany: 4
   Czechia: 4
-  Finland: 2
 
 Топ SNI:
+  gateway-v1.bosx.net: 14
+  hh.ru: 12
+  eh.vk.com: 10
   media11.abvphelp.cc: 9
-  obx1.vypnet.su: 9
   www.ea.com: 8
   happierpets.org: 8
   static.gcore.pro: 8
-  default.fastly.com: 7
+  default.fastly.com: 8
   ssl.fastly.com: 7
-  css.rbxcdn.com: 7
+  live.ok.ru: 6
+  css.rbxcdn.com: 6
   speedtest.tinkoff.ru: 6
   grape-honk.yyuyy.com: 6
-  storage.yandex.net: 5
-  media2.tcpdoor.net: 5
-  proxy11.h1guro.ovh: 4
-  www.apple.com: 4
-  us1.cdnvido.com: 4
+  ads.x5.ru: 5
+  dogs.abvphelp.cc: 5
 
 Топ портов:
-  443: 96
-  8443: 28
-  55555: 8
-  2027: 5
-  25343: 4
-  2053: 4
-  55861: 4
-  4100: 3
+  443: 95
+  8443: 29
+  2053: 16
+  55555: 7
+  4100: 6
+  447: 5
+  8445: 5
+  8449: 5
+  7443: 5
+  2055: 4
+  2200: 3
+  55861: 3
+  8444: 2
   20007: 2
   8020: 2
-  80: 2
-  30101: 2
-  1935: 2
-  8080: 2
-  60111: 2
 
 Топ схем:
-  vless: 106
-  hysteria2: 53
-  trojan: 15
+  vless: 139
+  hysteria2: 52
+  trojan: 16
   vmess: 8
 
 Топ transport:
-  tcp: 107
-  ws: 28
-  grpc: 17
+  tcp: 113
+  ws: 48
+  grpc: 33
   xhttp: 16
-  raw: 14
+  raw: 5
 
 Топ security:
-  reality: 76
-  none: 68
-  tls: 38
+  reality: 90
+  none: 73
+  tls: 52
