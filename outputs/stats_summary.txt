@@ -1,5 +1,5 @@
 VPN Builder stats summary
-Generated at: 2026-08-12 14:29:29 MSK
+Generated at: 2026-08-12 15:31:44 MSK
 
 ====================================================================
 RAW GROUPS
@@ -8,21 +8,20 @@ RAW GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 38
-Уникальных строк: 38
-Уникальных host:port: 10
-Уникальных backend: 8
+Всего конфигов: 43
+Уникальных строк: 28
+Уникальных host:port: 8
+Уникальных backend: 7
 Anycast: 3
-Unknown country: 15
+Unknown country: 30
 
 Топ стран:
-  Russia: 20
-  Unknown: 15
+  Unknown: 30
+  Russia: 10
   🌐 Anycast: 3
 
 Топ SNI:
-  hh.ru: 15
-  obx1.vypnet.su: 10
+  hh.ru: 30
   www.cloudflare.com: 5
   media11.abvphelp.cc: 5
   5.129.241.247: 1
@@ -30,22 +29,21 @@ Unknown country: 15
   rzd.ru: 1
 
 Топ портов:
-  443: 20
-  2053: 15
+  2053: 30
+  443: 10
   2200: 2
   4100: 1
 
 Топ схем:
-  vless: 38
+  vless: 43
 
 Топ transport:
-  tcp: 15
-  grpc: 15
-  raw: 5
+  grpc: 30
+  tcp: 10
   ws: 3
 
 Топ security:
-  reality: 35
+  reality: 40
   none: 3
 
 ────────────────────────────────────────────────────────────────────
@@ -161,44 +159,42 @@ FINAL GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 10
-Уникальных строк: 10
-Уникальных host:port: 10
-Уникальных backend: 8
+Всего конфигов: 8
+Уникальных строк: 8
+Уникальных host:port: 8
+Уникальных backend: 7
 Anycast: 3
 Unknown country: 3
 
 Топ стран:
-  Russia: 4
   Unknown: 3
   🌐 Anycast: 3
+  Russia: 2
 
 Топ SNI:
   hh.ru: 3
-  obx1.vypnet.su: 2
   media11.abvphelp.cc: 1
-  201.51.2.6: 1
   5.129.241.247: 1
-  rzd.ru: 1
   www.cloudflare.com: 1
+  201.51.2.6: 1
+  rzd.ru: 1
 
 Топ портов:
-  443: 4
   2053: 3
+  443: 2
   2200: 2
   4100: 1
 
 Топ схем:
-  vless: 10
+  vless: 8
 
 Топ transport:
-  tcp: 3
   grpc: 3
   ws: 3
-  raw: 1
+  tcp: 2
 
 Топ security:
-  reality: 7
+  reality: 5
   none: 3
 
 ────────────────────────────────────────────────────────────────────
@@ -219,10 +215,10 @@ Unknown country: 3
 Топ SNI:
   hh.ru: 3
   media11.abvphelp.cc: 1
-  www.cloudflare.com: 1
+  201.51.2.6: 1
   rzd.ru: 1
   5.129.241.247: 1
-  201.51.2.6: 1
+  www.cloudflare.com: 1
 
 Топ портов:
   2053: 3
@@ -261,32 +257,32 @@ Unknown country: 23
   Germany: 4
   India: 2
   Poland: 1
-  Japan: 1
   Israel: 1
+  Japan: 1
 
 Топ SNI:
   ads.x5.ru: 4
   css.rbxcdn.com: 4
   speedtest.tinkoff.ru: 4
   82ee2658s70.csgfw.top: 2
-  www.google.com: 2
-  default.fastly.com: 2
-  borat-hopp.bumbleshrimp.com: 2
-  gate-v1.not-a-projects.xyz: 2
   static.gcore.pro: 2
+  default.fastly.com: 2
+  www.google.com: 2
+  borat-hopp.bumbleshrimp.com: 2
   mercedes-grape.yyuyy.com: 2
+  gate-v1.not-a-projects.xyz: 2
 
 Топ портов:
   443: 33
   8443: 9
   2443: 4
-  43327: 2
   8080: 2
-  2053: 1
+  43327: 2
   20004: 1
+  2053: 1
   45647: 1
-  27254: 1
   8880: 1
+  27254: 1
 
 Топ схем:
   hysteria2: 34
@@ -309,52 +305,52 @@ Unknown country: 23
 ────────────────────────────────────────────────────────────────────
 📊 pool
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 71
-Уникальных строк: 71
-Уникальных host:port: 70
-Уникальных backend: 59
-Anycast: 20
-Unknown country: 22
+Всего конфигов: 70
+Уникальных строк: 70
+Уникальных host:port: 69
+Уникальных backend: 58
+Anycast: 19
+Unknown country: 24
 
 Топ стран:
-  Unknown: 22
-  🌐 Anycast: 20
+  Unknown: 24
+  🌐 Anycast: 19
   United States: 7
-  Russia: 4
   Germany: 4
-  Finland: 4
   France: 4
+  Finland: 4
+  Russia: 2
   India: 2
   Japan: 1
-  Kazakhstan: 1
+  Israel: 1
 
 Топ SNI:
   hh.ru: 3
-  obx1.vypnet.su: 2
+  speedtest.tinkoff.ru: 3
   www.cloudflare.com: 2
-  gate-v1.not-a-projects.xyz: 2
-  speedtest.tinkoff.ru: 2
-  css.rbxcdn.com: 2
   static.gcore.pro: 2
   grape-honk.yyuyy.com: 2
-  www.google.com: 2
+  82ee2658s70.csgfw.top: 2
   mercedes-grape.yyuyy.com: 2
+  ads.x5.ru: 2
+  css.rbxcdn.com: 2
+  gate-v1.not-a-projects.xyz: 2
 
 Топ портов:
-  443: 33
+  443: 32
   8443: 9
   2053: 4
   2200: 2
-  43327: 2
   8080: 2
   2443: 2
+  43327: 2
   4100: 1
-  60111: 1
-  45647: 1
+  80: 1
+  20004: 1
 
 Топ схем:
-  vless: 34
-  hysteria2: 30
+  vless: 32
+  hysteria2: 31
   trojan: 6
   vmess: 1
 
@@ -363,46 +359,46 @@ Unknown country: 22
   ws: 10
   grpc: 5
   xhttp: 4
-  raw: 2
+  raw: 1
 
 Топ security:
-  none: 38
-  reality: 20
+  none: 39
+  reality: 18
   tls: 13
 
 ────────────────────────────────────────────────────────────────────
 📊 mixed
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 27
-Уникальных строк: 27
-Уникальных host:port: 27
-Уникальных backend: 23
+Всего конфигов: 25
+Уникальных строк: 25
+Уникальных host:port: 25
+Уникальных backend: 22
 Anycast: 8
 Unknown country: 5
 
 Топ стран:
   🌐 Anycast: 8
   Unknown: 5
-  Russia: 4
   United States: 4
   France: 3
+  Russia: 2
   Finland: 2
   Israel: 1
 
 Топ SNI:
   hh.ru: 3
-  obx1.vypnet.su: 2
   www.cloudflare.com: 2
-  ads.x5.ru: 2
-  82ee2658s70.csgfw.top: 2
   static.gcore.pro: 2
+  ads.x5.ru: 2
   www.google.com: 2
+  82ee2658s70.csgfw.top: 2
   media11.abvphelp.cc: 1
   www.intel.com: 1
-  lvksp.kintuso.com: 1
+  yahoo.com: 1
+  novea.shieldix.top: 1
 
 Топ портов:
-  443: 18
+  443: 16
   2053: 3
   2443: 2
   8443: 1
@@ -411,17 +407,17 @@ Unknown country: 5
   3001: 1
 
 Топ схем:
-  vless: 27
+  vless: 25
 
 Топ transport:
-  tcp: 14
+  tcp: 13
   grpc: 5
   xhttp: 4
-  raw: 2
   ws: 2
+  raw: 1
 
 Топ security:
-  reality: 20
+  reality: 18
   tls: 7
 
 ────────────────────────────────────────────────────────────────────
@@ -432,33 +428,33 @@ Unknown country: 5
 Уникальных host:port: 25
 Уникальных backend: 21
 Anycast: 9
-Unknown country: 4
+Unknown country: 3
 
 Топ стран:
   🌐 Anycast: 9
   France: 4
-  Unknown: 4
   United States: 3
+  Unknown: 3
   Finland: 2
-  Russia: 1
+  Russia: 2
   Israel: 1
   Japan: 1
 
 Топ SNI:
-  hh.ru: 3
-  ads.x5.ru: 2
-  www.google.com: 2
-  default.fastly.com: 2
-  82ee2658s70.csgfw.top: 2
   static.gcore.pro: 2
+  default.fastly.com: 2
+  ads.x5.ru: 2
+  82ee2658s70.csgfw.top: 2
+  www.google.com: 2
+  hh.ru: 2
+  yandex.ru: 1
   uk7.jailever.org: 1
-  ssl.fastly.com: 1
   josni.hoyes.cloudns.ch: 1
-  www.calmlunch.com: 1
+  ssl.fastly.com: 1
 
 Топ портов:
-  443: 17
-  2053: 4
+  443: 18
+  2053: 3
   2443: 2
   20004: 1
   3001: 1
@@ -468,10 +464,10 @@ Unknown country: 4
   trojan: 4
 
 Топ transport:
-  tcp: 11
-  grpc: 5
+  tcp: 12
   ws: 5
   xhttp: 4
+  grpc: 4
 
 Топ security:
   reality: 14
@@ -480,76 +476,76 @@ Unknown country: 4
 ====================================================================
 🌍 GLOBAL SUMMARY
 ====================================================================
-Всего конфигов: 208
-Уникальных строк: 77
-Уникальных host:port: 76
-Уникальных backend: 59
-Anycast: 60
-Unknown country: 60
+Всего конфигов: 203
+Уникальных строк: 75
+Уникальных host:port: 74
+Уникальных backend: 58
+Anycast: 59
+Unknown country: 61
 
 Топ стран:
-  Unknown: 60
-  🌐 Anycast: 60
+  Unknown: 61
+  🌐 Anycast: 59
   United States: 21
-  Russia: 15
   France: 15
   Finland: 13
+  Russia: 10
   Germany: 8
   Israel: 4
   India: 4
   Japan: 3
-  Kazakhstan: 2
   Netherlands: 2
+  Kazakhstan: 2
   Poland: 1
 
 Топ SNI:
-  hh.ru: 15
+  hh.ru: 14
   ads.x5.ru: 10
+  www.cloudflare.com: 8
   82ee2658s70.csgfw.top: 8
-  www.google.com: 8
   static.gcore.pro: 8
-  www.cloudflare.com: 7
-  obx1.vypnet.su: 6
+  www.google.com: 8
+  speedtest.tinkoff.ru: 7
   default.fastly.com: 6
   css.rbxcdn.com: 6
-  speedtest.tinkoff.ru: 6
   media11.abvphelp.cc: 5
-  refraction.chelyabinskdev.com: 4
+  yandex.ru: 4
   static.kintuso.com: 4
   novea.shieldix.top: 4
   uk7.jailever.org: 4
+  ssl.fastly.com: 4
 
 Топ портов:
-  443: 107
+  443: 103
   8443: 19
-  2053: 18
+  2053: 17
   2443: 10
   2200: 6
-  43327: 4
   3001: 4
   8080: 4
+  43327: 4
   4100: 3
   20004: 3
   40056: 3
   8433: 3
   45647: 2
-  27254: 2
   8880: 2
+  27254: 2
 
 Топ схем:
-  vless: 126
-  hysteria2: 64
+  vless: 120
+  hysteria2: 65
   trojan: 16
   vmess: 2
 
 Топ transport:
-  tcp: 131
+  tcp: 130
   ws: 30
-  grpc: 25
+  grpc: 24
   xhttp: 16
-  raw: 6
+  raw: 3
 
 Топ security:
-  none: 83
-  reality: 81
+  none: 84
+  reality: 75
   tls: 44
