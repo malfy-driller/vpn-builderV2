@@ -1,5 +1,5 @@
 VPN Builder stats summary
-Generated at: 2026-08-15 06:59:49 MSK
+Generated at: 2026-08-15 07:33:26 MSK
 
 ====================================================================
 RAW GROUPS
@@ -8,17 +8,17 @@ RAW GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 184
-Уникальных строк: 183
-Уникальных host:port: 80
-Уникальных backend: 51
+Всего конфигов: 173
+Уникальных строк: 172
+Уникальных host:port: 77
+Уникальных backend: 49
 Anycast: 54
 Unknown country: 9
 
 Топ стран:
-  Russia: 85
+  Russia: 82
   🌐 Anycast: 54
-  Netherlands: 18
+  Netherlands: 10
   Unknown: 9
   United States: 9
   Germany: 6
@@ -34,9 +34,9 @@ Unknown country: 9
   smartcaptcha.yandexcloud.net: 9
   rzd.ru: 9
   dl.google.com: 8
-  an.yandex.ru: 6
   deepl.com: 6
-  strm.yandex.net: 5
+  media2.tcpdoor.net: 5
+  avatars.mds.yandex.net: 5
 
 Топ портов:
   52006: 50
@@ -44,25 +44,25 @@ Unknown country: 9
   2200: 19
   4100: 18
   8443: 11
-  2096: 8
   4443: 5
-  1443: 3
   40443: 3
   9871: 3
+  49096: 3
+  9873: 3
 
 Топ схем:
-  vless: 182
+  vless: 171
   hysteria2: 2
 
 Топ transport:
-  grpc: 55
   raw: 46
+  grpc: 44
   ws: 37
   tcp: 30
   xhttp: 16
 
 Топ security:
-  reality: 89
+  reality: 78
   tls: 51
   none: 44
 
@@ -200,23 +200,23 @@ FINAL GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 72
-Уникальных строк: 72
-Уникальных host:port: 72
-Уникальных backend: 43
+Всего конфигов: 69
+Уникальных строк: 69
+Уникальных host:port: 69
+Уникальных backend: 42
 Anycast: 23
 Unknown country: 5
 
 Топ стран:
   🌐 Anycast: 23
   Russia: 22
-  Netherlands: 10
-  Unknown: 5
+  Netherlands: 7
   Germany: 5
+  Unknown: 5
   United States: 4
   Estonia: 1
-  Finland: 1
   Kazakhstan: 1
+  Finland: 1
 
 Топ SNI:
   api-maps.yandex.ru: 11
@@ -224,11 +224,11 @@ Unknown country: 5
   smartcaptcha.yandexcloud.net: 6
   dev.max.ru: 4
   dl.google.com: 4
-  live.ok.ru: 4
   rzd.ru: 4
-  an.yandex.ru: 3
+  live.ok.ru: 4
   rutube.ru: 2
   360.yandex.ru: 2
+  deepl.com: 2
 
 Топ портов:
   443: 16
@@ -236,25 +236,25 @@ Unknown country: 5
   4100: 9
   8443: 5
   4443: 4
-  9002: 3
   9001: 3
-  2096: 2
-  49096: 2
+  9002: 3
   6443: 2
+  40443: 2
+  49096: 2
 
 Топ схем:
-  vless: 70
+  vless: 67
   hysteria2: 2
 
 Топ transport:
-  grpc: 29
+  grpc: 26
   ws: 20
   tcp: 10
   raw: 8
   xhttp: 5
 
 Топ security:
-  reality: 45
+  reality: 42
   none: 25
   tls: 2
 
@@ -275,9 +275,9 @@ Unknown country: 5
   Unknown: 5
   Germany: 5
   United States: 4
+  Kazakhstan: 1
   Estonia: 1
   Finland: 1
-  Kazakhstan: 1
 
 Топ SNI:
   maps.apple.com: 6
@@ -297,11 +297,11 @@ Unknown country: 5
   4100: 9
   8443: 5
   6443: 2
-  16923: 1
   49096: 1
+  9882: 1
   40443: 1
+  16923: 1
   9001: 1
-  989: 1
 
 Топ схем:
   vless: 56
@@ -336,8 +336,8 @@ Unknown country: 48
   United States: 5
   Germany: 5
   Poland: 4
-  Austria: 3
   Finland: 3
+  Austria: 3
   India: 2
   Switzerland: 2
 
@@ -348,9 +348,9 @@ Unknown country: 48
   grape-honk.yyuyy.com: 4
   www.apple.com: 3
   max.ru: 2
-  nl6.o4ka-internet.com: 2
   pol4.o4ka-internet.com: 2
-  ger.netdrug.ru: 2
+  193.29.139.225: 2
+  nl6.o4ka-internet.com: 2
   d1.awsstatic.com: 2
 
 Топ портов:
@@ -362,8 +362,8 @@ Unknown country: 48
   2056: 4
   36723: 2
   9080: 2
-  12972: 1
-  4443: 1
+  17623: 1
+  10574: 1
 
 Топ схем:
   hysteria2: 58
@@ -391,83 +391,82 @@ Unknown country: 48
 Всего конфигов: 150
 Уникальных строк: 150
 Уникальных host:port: 137
-Уникальных backend: 120
-Anycast: 41
-Unknown country: 36
+Уникальных backend: 115
+Anycast: 48
+Unknown country: 35
 
 Топ стран:
-  🌐 Anycast: 41
-  Unknown: 36
-  Netherlands: 22
-  Russia: 21
-  Germany: 9
+  🌐 Anycast: 48
+  Unknown: 35
+  Russia: 20
+  Netherlands: 20
   United States: 8
+  Germany: 5
   Finland: 3
+  Poland: 3
+  Austria: 2
   Switzerland: 2
-  Poland: 2
-  Kazakhstan: 2
 
 Топ SNI:
-  api-maps.yandex.ru: 10
+  api-maps.yandex.ru: 9
   smartcaptcha.yandexcloud.net: 6
-  maps.apple.com: 5
+  dev.max.ru: 4
+  maps.apple.com: 4
   live.ok.ru: 4
-  dl.google.com: 4
-  dev.max.ru: 3
-  an.yandex.ru: 3
-  rzd.ru: 3
+  rzd.ru: 4
+  grape-honk.yyuyy.com: 4
+  pro-se.emrata.top: 4
+  dl.google.com: 3
   css.rbxcdn.com: 3
-  45.90.32.132: 2
 
 Топ портов:
-  443: 44
-  1935: 12
+  443: 46
+  1935: 14
+  4100: 11
   2200: 11
-  8443: 11
-  4100: 10
+  8443: 10
   8080: 6
-  4443: 4
-  9001: 3
-  2096: 2
-  40443: 2
+  4443: 5
+  2056: 3
+  9002: 2
+  49096: 2
 
 Топ схем:
-  vless: 86
+  vless: 87
   hysteria2: 41
   vmess: 12
-  ss: 9
+  ss: 8
   trojan: 2
 
 Топ transport:
-  tcp: 81
-  grpc: 28
-  ws: 25
+  tcp: 84
+  ws: 27
+  grpc: 24
   raw: 9
-  xhttp: 7
+  xhttp: 6
 
 Топ security:
   none: 87
-  reality: 58
-  tls: 5
+  reality: 57
+  tls: 6
 
 ────────────────────────────────────────────────────────────────────
 📊 mixed
 ────────────────────────────────────────────────────────────────────
 Всего конфигов: 55
 Уникальных строк: 55
-Уникальных host:port: 54
-Уникальных backend: 40
-Anycast: 12
-Unknown country: 10
+Уникальных host:port: 55
+Уникальных backend: 39
+Anycast: 14
+Unknown country: 11
 
 Топ стран:
+  🌐 Anycast: 14
   Russia: 13
-  🌐 Anycast: 12
-  Unknown: 10
-  Netherlands: 9
-  United States: 4
-  Germany: 2
-  Kazakhstan: 1
+  Unknown: 11
+  Netherlands: 8
+  United States: 3
+  Germany: 3
   Estonia: 1
   Finland: 1
   Austria: 1
@@ -477,38 +476,38 @@ Unknown country: 10
   smartcaptcha.yandexcloud.net: 5
   maps.apple.com: 4
   dl.google.com: 3
-  deepl.com: 2
+  rutube.ru: 2
   360.yandex.ru: 2
   dev.max.ru: 2
-  rutube.ru: 2
-  an.yandex.ru: 2
-  max.ru: 2
+  deepl.com: 2
+  d1.awsstatic.com: 2
+  ger.netdrug.ru: 2
 
 Топ портов:
-  443: 24
-  8443: 6
+  443: 25
+  8443: 5
   4443: 3
-  40443: 2
   9002: 2
-  2096: 2
-  49096: 2
+  40443: 2
   9001: 2
-  16923: 1
+  49096: 2
   52006: 1
+  9871: 1
+  8446: 1
 
 Топ схем:
   vless: 55
 
 Топ transport:
-  grpc: 23
+  grpc: 22
   tcp: 17
-  xhttp: 7
-  raw: 7
-  ws: 1
+  raw: 8
+  xhttp: 6
+  ws: 2
 
 Топ security:
-  reality: 52
-  tls: 3
+  reality: 51
+  tls: 4
 
 ────────────────────────────────────────────────────────────────────
 📊 lte
@@ -516,131 +515,134 @@ Unknown country: 10
 Всего конфигов: 25
 Уникальных строк: 25
 Уникальных host:port: 25
-Уникальных backend: 16
-Anycast: 1
-Unknown country: 0
+Уникальных backend: 18
+Anycast: 3
+Unknown country: 1
 
 Топ стран:
-  Russia: 12
-  Netherlands: 6
+  Russia: 11
+  Netherlands: 4
   United States: 3
-  Germany: 2
+  🌐 Anycast: 3
+  Germany: 1
   Estonia: 1
-  🌐 Anycast: 1
+  Unknown: 1
+  Poland: 1
 
 Топ SNI:
-  api-maps.yandex.ru: 9
+  api-maps.yandex.ru: 8
   maps.apple.com: 4
-  an.yandex.ru: 2
   dev.max.ru: 2
   deepl.com: 2
-  smartcaptcha.yandexcloud.net: 2
   app-6a7eb845.adhil.uk: 1
   max.ru: 1
   rutube.ru: 1
   avatars.mds.yandex.net: 1
+  admin.jikebet.com: 1
+  smartcaptcha.yandexcloud.net: 1
 
 Топ портов:
-  443: 7
+  443: 10
   4443: 3
   8443: 2
-  9002: 2
   9001: 2
+  9002: 2
   49096: 2
-  40443: 2
-  2096: 1
-  1443: 1
+  6443: 1
   16923: 1
+  40443: 1
+  2088: 1
 
 Топ схем:
   vless: 25
 
 Топ transport:
-  grpc: 13
+  grpc: 12
   xhttp: 6
   tcp: 5
   raw: 1
+  ws: 1
 
 Топ security:
-  reality: 24
-  tls: 1
+  reality: 23
+  tls: 2
 
 ====================================================================
 🌍 GLOBAL SUMMARY
 ====================================================================
-Всего конфигов: 491
-Уникальных строк: 204
-Уникальных host:port: 185
-Уникальных backend: 148
-Anycast: 132
-Unknown country: 104
+Всего конфигов: 488
+Уникальных строк: 201
+Уникальных host:port: 182
+Уникальных backend: 147
+Anycast: 143
+Unknown country: 105
 
 Топ стран:
-  🌐 Anycast: 132
-  Unknown: 104
-  Russia: 81
-  Netherlands: 77
-  United States: 28
-  Germany: 28
+  🌐 Anycast: 143
+  Unknown: 105
+  Russia: 79
+  Netherlands: 69
+  United States: 27
+  Germany: 24
   Finland: 9
-  Poland: 7
-  Kazakhstan: 6
+  Poland: 8
+  Austria: 6
   Estonia: 5
-  Austria: 5
+  Kazakhstan: 4
   Switzerland: 4
   India: 3
   Czechia: 2
 
 Топ SNI:
-  api-maps.yandex.ru: 43
-  maps.apple.com: 25
-  smartcaptcha.yandexcloud.net: 25
-  dl.google.com: 15
+  api-maps.yandex.ru: 41
+  maps.apple.com: 24
+  smartcaptcha.yandexcloud.net: 24
+  dl.google.com: 14
   live.ok.ru: 14
-  dev.max.ru: 11
-  rzd.ru: 11
-  an.yandex.ru: 10
+  dev.max.ru: 12
+  rzd.ru: 12
   deepl.com: 10
+  pro-se.emrata.top: 10
   rutube.ru: 9
-  360.yandex.ru: 8
-  pro-se.emrata.top: 8
-  max.ru: 7
+  360.yandex.ru: 9
+  grape-honk.yyuyy.com: 8
+  www.apple.com: 7
   css.rbxcdn.com: 7
   45.90.32.132: 6
 
 Топ портов:
-  443: 150
-  8443: 37
+  443: 156
+  8443: 35
+  4100: 34
   2200: 34
-  4100: 33
-  1935: 30
+  1935: 32
   8080: 20
-  4443: 15
-  9001: 11
-  9002: 9
+  4443: 16
+  9001: 10
   49096: 9
-  40443: 9
-  2096: 7
-  6443: 6
-  2056: 6
+  9002: 9
+  40443: 8
+  6443: 7
+  2056: 7
   16923: 5
+  2088: 5
 
 Топ схем:
-  vless: 331
+  vless: 329
   hysteria2: 102
   vmess: 29
-  ss: 25
+  ss: 24
   trojan: 4
 
 Топ transport:
-  tcp: 234
-  grpc: 113
-  ws: 78
-  raw: 34
-  xhttp: 32
+  tcp: 237
+  grpc: 104
+  ws: 82
+  raw: 35
+  xhttp: 30
 
 Топ security:
-  reality: 239
   none: 234
-  tls: 17
+  reality: 233
+  tls: 20
   false: 1
