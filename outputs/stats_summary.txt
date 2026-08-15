@@ -1,5 +1,5 @@
 VPN Builder stats summary
-Generated at: 2026-08-15 19:46:29 MSK
+Generated at: 2026-08-15 20:03:05 MSK
 
 ====================================================================
 RAW GROUPS
@@ -217,7 +217,7 @@ Unknown country: 9
   Poland: 3
   Austria: 2
   United States: 2
-  Estonia: 2
+  France: 2
 
 Топ SNI:
   5post-gate.x5.ru: 15
@@ -229,7 +229,7 @@ Unknown country: 9
   api.yandex-dev.org: 3
   api.yandex-cloud.org: 3
   rzd.ru: 3
-  api.yandex-dev.online: 2
+  id.vk.com: 2
 
 Топ портов:
   443: 22
@@ -239,9 +239,9 @@ Unknown country: 9
   8443: 3
   61443: 3
   9001: 2
+  2096: 2
   49443: 2
   9002: 2
-  45443: 2
 
 Топ схем:
   vless: 74
@@ -345,15 +345,15 @@ Unknown country: 48
 
 Топ SNI:
   www.apple.com: 4
-  asia.cendora.ru: 4
   unas.denegnet.cc: 4
+  asia.cendora.ru: 4
   eu-central.cendora.ru: 4
   getsavesafe.net: 4
   panel.vlessbotkey.ru: 3
   apple.com: 2
   eu-west.cendora.ru: 2
-  nl6.o4ka-internet.com: 2
   auto.cendora.ru: 2
+  tesla.com: 2
 
 Топ портов:
   443: 63
@@ -390,64 +390,65 @@ Unknown country: 48
 ────────────────────────────────────────────────────────────────────
 Всего конфигов: 150
 Уникальных строк: 150
-Уникальных host:port: 142
-Уникальных backend: 113
-Anycast: 38
-Unknown country: 37
+Уникальных host:port: 143
+Уникальных backend: 116
+Anycast: 49
+Unknown country: 32
 
 Топ стран:
-  🌐 Anycast: 38
-  Unknown: 37
-  Germany: 12
+  🌐 Anycast: 49
+  Unknown: 32
   Russia: 11
+  Netherlands: 10
+  Germany: 10
   United States: 9
-  Netherlands: 8
   Finland: 8
-  France: 5
-  Poland: 5
-  Estonia: 4
+  Poland: 4
+  France: 4
+  Estonia: 3
 
 Топ SNI:
   5post-gate.x5.ru: 15
   dl.google.com: 7
   api-maps.yandex.ru: 5
   ads.x5.ru: 4
-  rzd.ru: 3
   api.yandex-dev.org: 3
-  live.ok.ru: 3
+  rzd.ru: 3
+  dev.max.ru: 3
   api.yandex-cloud.org: 3
-  maps.apple.com: 3
-  www.apple.com: 3
+  live.ok.ru: 2
+  maps.apple.com: 2
 
 Топ портов:
-  443: 53
-  8443: 9
+  443: 59
+  8443: 11
   4100: 6
+  4443: 5
   1935: 5
   2200: 4
-  4443: 4
   61443: 3
-  8080: 3
-  9001: 2
-  49443: 2
+  43443: 2
+  9443: 2
+  60443: 2
 
 Топ схем:
-  vless: 98
-  hysteria2: 43
-  vmess: 8
-  trojan: 1
+  vless: 102
+  hysteria2: 39
+  vmess: 7
+  trojan: 2
 
 Топ transport:
-  tcp: 88
+  tcp: 82
   grpc: 42
-  ws: 15
-  xhttp: 3
+  ws: 20
+  xhttp: 4
   raw: 2
 
 Топ security:
-  reality: 81
-  none: 63
-  tls: 6
+  reality: 82
+  none: 57
+  tls: 10
+  false: 1
 
 ────────────────────────────────────────────────────────────────────
 📊 mixed
@@ -455,59 +456,59 @@ Unknown country: 37
 Всего конфигов: 57
 Уникальных строк: 57
 Уникальных host:port: 57
-Уникальных backend: 44
-Anycast: 14
-Unknown country: 10
+Уникальных backend: 46
+Anycast: 13
+Unknown country: 11
 
 Топ стран:
-  🌐 Anycast: 14
-  Unknown: 10
-  Finland: 6
+  🌐 Anycast: 13
+  Unknown: 11
+  Germany: 6
   Russia: 5
-  Germany: 4
   Netherlands: 4
-  Estonia: 3
-  Japan: 3
-  Poland: 2
-  United States: 1
+  Poland: 3
+  United States: 3
+  Finland: 3
+  Lithuania: 2
+  Austria: 2
 
 Топ SNI:
-  5post-gate.x5.ru: 13
+  5post-gate.x5.ru: 10
   dl.google.com: 5
-  api-maps.yandex.ru: 3
+  api-maps.yandex.ru: 4
   ads.x5.ru: 3
-  auto.cendora.ru: 2
-  api.yandex-dev.org: 2
-  russia.cendora.ru: 2
   api.yandex-cloud.org: 2
-  www.apple.com: 2
-  getsavesafe.net: 2
+  maps.apple.com: 2
+  api.yandex-dev.org: 2
+  id.vk.com: 2
+  api.yandex-dev.online: 2
+  russia.cendora.ru: 2
 
 Топ портов:
-  443: 16
-  4443: 3
-  8443: 3
-  43443: 2
-  13443: 2
-  45443: 2
-  49443: 2
-  17443: 1
-  14443: 1
-  9880: 1
+  443: 19
+  8443: 4
+  9002: 2
+  61443: 2
+  2096: 2
+  60443: 2
+  2053: 1
+  18443: 1
+  9892: 1
+  9871: 1
 
 Топ схем:
   vless: 57
 
 Топ transport:
-  grpc: 31
-  tcp: 21
-  xhttp: 2
+  grpc: 29
+  tcp: 22
+  ws: 3
   raw: 2
-  ws: 1
+  xhttp: 1
 
 Топ security:
-  reality: 54
-  tls: 3
+  reality: 53
+  tls: 4
 
 ────────────────────────────────────────────────────────────────────
 📊 lte
@@ -516,57 +517,57 @@ Unknown country: 10
 Уникальных строк: 25
 Уникальных host:port: 25
 Уникальных backend: 22
-Anycast: 4
+Anycast: 9
 Unknown country: 0
 
 Топ стран:
-  Russia: 6
-  🌐 Anycast: 4
-  Germany: 3
-  Finland: 2
+  🌐 Anycast: 9
+  Russia: 3
+  Finland: 3
   Poland: 2
-  France: 2
+  Netherlands: 2
   United States: 1
-  Japan: 1
-  Estonia: 1
-  Kazakhstan: 1
+  France: 1
+  Germany: 1
+  Lithuania: 1
+  Czechia: 1
 
 Топ SNI:
-  5post-gate.x5.ru: 4
+  5post-gate.x5.ru: 5
   api-maps.yandex.ru: 3
   ads.x5.ru: 2
-  dev.max.ru: 2
   max.ru: 2
-  dl.google.com: 2
+  dev.max.ru: 2
   maps.apple.com: 1
-  www.apple.com: 1
   s3whlhf3.b-cdn.net: 1
   id.vk.com: 1
+  api.vk.ru: 1
+  admin.jikebet.com: 1
 
 Топ портов:
+  443: 5
   4443: 4
   8443: 3
-  443: 3
-  9002: 1
-  40443: 1
+  9002: 2
   16923: 1
-  9001: 1
+  40443: 1
   22: 1
-  10583: 1
   2096: 1
+  2053: 1
+  18443: 1
 
 Топ схем:
   vless: 25
 
 Топ transport:
   grpc: 16
-  tcp: 5
-  xhttp: 3
-  ws: 1
+  xhttp: 4
+  ws: 3
+  tcp: 2
 
 Топ security:
-  reality: 23
-  tls: 2
+  reality: 22
+  tls: 3
 
 ====================================================================
 🌍 GLOBAL SUMMARY
@@ -575,75 +576,75 @@ Unknown country: 0
 Уникальных строк: 223
 Уникальных host:port: 199
 Уникальных backend: 156
-Anycast: 142
-Unknown country: 113
+Anycast: 157
+Unknown country: 109
 
 Топ стран:
-  🌐 Anycast: 142
-  Unknown: 113
-  Germany: 42
-  Russia: 41
-  Netherlands: 33
-  Finland: 31
-  United States: 26
+  🌐 Anycast: 157
+  Unknown: 109
+  Germany: 40
+  Russia: 38
+  Netherlands: 36
+  Finland: 29
+  United States: 28
   Poland: 20
-  France: 15
-  Estonia: 14
-  Japan: 12
+  France: 13
+  Lithuania: 12
+  Estonia: 11
   Austria: 8
-  Lithuania: 8
+  Japan: 7
   Kazakhstan: 7
-  Czechia: 5
+  Czechia: 6
 
 Топ SNI:
-  5post-gate.x5.ru: 62
-  dl.google.com: 31
-  api-maps.yandex.ru: 17
+  5post-gate.x5.ru: 60
+  dl.google.com: 30
+  api-maps.yandex.ru: 18
   ads.x5.ru: 17
-  api.yandex-cloud.org: 12
+  api.yandex-dev.org: 12
   maps.apple.com: 11
-  dev.max.ru: 11
-  api.yandex-dev.org: 11
-  max.ru: 10
-  www.apple.com: 10
+  api.yandex-cloud.org: 11
+  dev.max.ru: 10
+  id.vk.com: 9
+  max.ru: 9
   rzd.ru: 9
   api.yandex-dev.online: 8
-  id.vk.com: 8
-  auto.cendora.ru: 8
   russia.cendora.ru: 8
+  getsavesafe.net: 8
+  unas.denegnet.cc: 7
 
 Топ портов:
-  443: 178
-  8443: 32
-  4443: 21
+  443: 189
+  8443: 35
+  4443: 19
   4100: 17
   1935: 14
   2200: 12
   61443: 11
-  49443: 8
+  2096: 9
+  9002: 8
   45443: 8
-  2096: 8
-  13443: 8
-  43443: 8
+  60443: 8
   9443: 7
-  60443: 7
-  9001: 6
+  49443: 7
+  43443: 7
+  13443: 6
 
 Топ схем:
-  vless: 385
-  hysteria2: 111
-  vmess: 27
-  trojan: 4
+  vless: 389
+  hysteria2: 107
+  vmess: 26
+  trojan: 5
 
 Топ transport:
-  tcp: 277
-  grpc: 173
-  ws: 51
-  xhttp: 18
+  tcp: 269
+  grpc: 171
+  ws: 60
+  xhttp: 19
   raw: 8
 
 Топ security:
-  reality: 326
-  none: 172
-  tls: 28
-  false: 1
+  reality: 325
+  none: 166
+  tls: 34
+  false: 2
