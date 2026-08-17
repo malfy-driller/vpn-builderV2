@@ -1,5 +1,5 @@
 VPN Builder stats summary
-Generated at: 2026-08-17 19:00:44 MSK
+Generated at: 2026-08-17 19:32:51 MSK
 
 ====================================================================
 RAW GROUPS
@@ -8,24 +8,59 @@ RAW GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 0
-Уникальных строк: 0
-Уникальных host:port: 0
-Уникальных backend: 0
-Anycast: 0
-Unknown country: 0
+Всего конфигов: 105
+Уникальных строк: 105
+Уникальных host:port: 20
+Уникальных backend: 17
+Anycast: 34
+Unknown country: 4
 
 Топ стран:
+  Finland: 44
+  🌐 Anycast: 34
+  Russia: 18
+  Unknown: 4
+  Switzerland: 4
+  Netherlands: 1
 
 Топ SNI:
+  5post-gate.x5.ru: 36
+  dl.google.com: 12
+  gateway-v1.bosx.net: 12
+  api-maps.yandex.ru: 8
+  37.252.20.41: 5
+  ea.com: 4
+  media2.tcpdoor.net: 4
+  grmn-av2.ghost-service.cc: 4
+  360.yandex.ru: 4
+  clode.fastaichat.ru: 4
 
 Топ портов:
+  443: 51
+  9898: 8
+  8445: 8
+  204: 5
+  9445: 4
+  8446: 4
+  9882: 4
+  8444: 4
+  52006: 4
+  9002: 4
 
 Топ схем:
+  vless: 97
+  hysteria2: 8
 
 Топ transport:
+  grpc: 76
+  tcp: 13
+  ws: 12
+  raw: 4
 
 Топ security:
+  reality: 72
+  tls: 21
+  none: 12
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_vless
@@ -158,24 +193,59 @@ FINAL GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 0
-Уникальных строк: 0
-Уникальных host:port: 0
-Уникальных backend: 0
-Anycast: 0
-Unknown country: 0
+Всего конфигов: 20
+Уникальных строк: 20
+Уникальных host:port: 20
+Уникальных backend: 17
+Anycast: 9
+Unknown country: 1
 
 Топ стран:
+  🌐 Anycast: 9
+  Russia: 6
+  Finland: 2
+  Unknown: 1
+  Switzerland: 1
+  Netherlands: 1
 
 Топ SNI:
+  api-maps.yandex.ru: 2
+  dl.google.com: 2
+  vk.com: 2
+  gateway-v1.bosx.net: 2
+  185-22-155-81.liao.kdns.fr: 2
+  360.yandex.ru: 1
+  core.univesalsrv.com: 1
+  grmn-av2.ghost-service.cc: 1
+  media2.tcpdoor.net: 1
+  ea.com: 1
 
 Топ портов:
+  443: 7
+  50160: 2
+  9002: 1
+  8446: 1
+  9882: 1
+  8444: 1
+  9898: 1
+  9445: 1
+  52006: 1
+  9001: 1
 
 Топ схем:
+  vless: 14
+  hysteria2: 6
 
 Топ transport:
+  grpc: 10
+  tcp: 7
+  ws: 2
+  raw: 1
 
 Топ security:
+  reality: 9
+  none: 7
+  tls: 4
 
 ────────────────────────────────────────────────────────────────────
 📊 white_vless
@@ -193,9 +263,9 @@ Unknown country: 2
   Finland: 3
   Unknown: 2
   Netherlands: 1
-  Czechia: 1
   Austria: 1
   Poland: 1
+  Czechia: 1
 
 Топ SNI:
   dl.google.com: 8
@@ -204,10 +274,10 @@ Unknown country: 2
   185-22-155-81.liao.kdns.fr: 2
   avatars.mds.yandex.net: 1
   cdn.pubhoster.ru: 1
-  5post-gate.x5.ru: 1
+  media2.tcpdoor.net: 1
   ea.com: 1
   files-x.bosx.net: 1
-  media2.tcpdoor.net: 1
+  5post-gate.x5.ru: 1
 
 Топ портов:
   443: 6
@@ -215,11 +285,11 @@ Unknown country: 2
   9445: 2
   8445: 2
   50160: 2
-  9890: 1
   9830: 1
   9892: 1
   8444: 1
-  204: 1
+  9880: 1
+  9871: 1
 
 Топ схем:
   vless: 20
@@ -280,7 +350,7 @@ Unknown country: 35
   80: 2
   43327: 2
   2056: 2
-  13779: 1
+  15882: 1
 
 Топ схем:
   hysteria2: 46
@@ -303,27 +373,27 @@ Unknown country: 35
 ────────────────────────────────────────────────────────────────────
 📊 pool
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 117
-Уникальных строк: 117
-Уникальных host:port: 107
-Уникальных backend: 83
-Anycast: 36
-Unknown country: 37
+Всего конфигов: 127
+Уникальных строк: 127
+Уникальных host:port: 116
+Уникальных backend: 91
+Anycast: 39
+Unknown country: 38
 
 Топ стран:
-  Unknown: 37
-  🌐 Anycast: 36
-  Netherlands: 16
+  🌐 Anycast: 39
+  Unknown: 38
+  Netherlands: 17
+  Russia: 8
   United States: 7
+  Finland: 5
   Germany: 5
-  Russia: 4
-  Finland: 4
-  Poland: 3
   Czechia: 2
-  Austria: 1
+  Poland: 2
+  Switzerland: 1
 
 Топ SNI:
-  dl.google.com: 12
+  dl.google.com: 13
   localhost: 4
   savesafe.info: 4
   savesafe.run: 4
@@ -335,93 +405,95 @@ Unknown country: 37
   gateway-v1.bosx.net: 2
 
 Топ портов:
-  443: 49
+  443: 53
   8444: 7
-  8443: 6
+  8443: 7
   50160: 5
   10808: 4
   30001: 4
+  9898: 2
   8445: 2
   9445: 2
   9871: 2
-  80: 2
 
 Топ схем:
-  vless: 57
-  hysteria2: 47
+  vless: 63
+  hysteria2: 51
   vmess: 9
   trojan: 4
 
 Топ transport:
-  tcp: 79
-  grpc: 14
+  tcp: 83
+  grpc: 19
   ws: 13
   xhttp: 10
+  raw: 1
   httpupgrade: 1
 
 Топ security:
-  none: 57
-  reality: 41
-  tls: 19
+  none: 61
+  reality: 46
+  tls: 20
 
 ────────────────────────────────────────────────────────────────────
 📊 mixed
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 42
-Уникальных строк: 42
-Уникальных host:port: 42
-Уникальных backend: 31
-Anycast: 15
-Unknown country: 4
+Всего конфигов: 48
+Уникальных строк: 48
+Уникальных host:port: 48
+Уникальных backend: 36
+Anycast: 14
+Unknown country: 5
 
 Топ стран:
-  🌐 Anycast: 15
-  Netherlands: 10
-  Unknown: 4
-  Finland: 3
+  🌐 Anycast: 14
+  Netherlands: 11
+  Russia: 5
+  Unknown: 5
+  Finland: 4
   Czechia: 2
-  Poland: 2
-  Germany: 2
   United States: 2
+  Germany: 2
+  Switzerland: 1
   Austria: 1
-  Russia: 1
 
 Топ SNI:
-  dl.google.com: 10
-  grmn-av2.ghost-service.cc: 2
+  dl.google.com: 11
   gateway-v1.bosx.net: 2
+  grmn-av2.ghost-service.cc: 2
+  api-maps.yandex.ru: 2
+  savesafe.co: 2
+  savesafe.info: 2
   savesafe.kz: 2
   ssl.fastly.com: 2
-  savesafe.info: 2
-  savesafe.co: 2
   savesafe.run: 2
   www.amd.com: 2
-  cdn.pubhoster.ru: 1
 
 Топ портов:
-  443: 22
+  443: 23
   8444: 4
+  9898: 2
   9445: 2
-  9871: 2
   8445: 2
+  9871: 2
   8443: 2
-  9890: 1
-  9892: 1
-  9830: 1
-  9898: 1
+  8446: 1
+  9001: 1
+  9882: 1
 
 Топ схем:
-  vless: 42
+  vless: 48
 
 Топ transport:
+  grpc: 19
   tcp: 15
-  grpc: 14
   ws: 7
   xhttp: 6
+  raw: 1
 
 Топ security:
-  reality: 32
-  tls: 10
+  reality: 37
+  tls: 11
 
 ────────────────────────────────────────────────────────────────────
 📊 lte
@@ -429,127 +501,126 @@ Unknown country: 4
 Всего конфигов: 25
 Уникальных строк: 25
 Уникальных host:port: 25
-Уникальных backend: 19
+Уникальных backend: 18
 Anycast: 4
 Unknown country: 0
 
 Топ стран:
-  Netherlands: 9
+  Netherlands: 10
+  Russia: 4
   🌐 Anycast: 4
   United States: 3
   Germany: 2
-  Finland: 2
-  Czechia: 2
-  Russia: 1
+  Finland: 1
   Poland: 1
-  Austria: 1
 
 Топ SNI:
-  dl.google.com: 6
+  dl.google.com: 3
+  api-maps.yandex.ru: 2
   savesafe.info: 2
+  gateway-v1.bosx.net: 2
   ssl.fastly.com: 2
   www.amd.com: 2
-  savesafe.co: 2
   savesafe.run: 2
+  savesafe.co: 2
   accaunt.fastly.com: 1
   avatars.mds.yandex.net: 1
-  nl1.unlockvpn.online: 1
-  files-x.bosx.net: 1
 
 Топ портов:
-  443: 18
-  8444: 3
-  9890: 1
-  9892: 1
+  443: 17
+  8444: 4
+  9001: 1
+  9002: 1
   9898: 1
-  9830: 1
+  8445: 1
 
 Топ схем:
-  vless: 24
-  trojan: 1
+  vless: 25
 
 Топ transport:
   tcp: 9
   xhttp: 6
-  ws: 5
-  grpc: 5
+  ws: 6
+  grpc: 4
 
 Топ security:
-  reality: 19
-  tls: 6
+  reality: 18
+  tls: 7
 
 ====================================================================
 🌍 GLOBAL SUMMARY
 ====================================================================
-Всего конфигов: 303
-Уникальных строк: 119
-Уникальных host:port: 108
-Уникальных backend: 83
-Anycast: 91
-Unknown country: 78
+Всего конфигов: 339
+Уникальных строк: 137
+Уникальных host:port: 117
+Уникальных backend: 91
+Anycast: 102
+Unknown country: 81
 
 Топ стран:
-  🌐 Anycast: 91
-  Unknown: 78
-  Netherlands: 51
+  🌐 Anycast: 102
+  Unknown: 81
+  Netherlands: 55
+  Russia: 28
   United States: 19
-  Finland: 14
+  Finland: 17
   Germany: 14
-  Russia: 11
-  Poland: 9
-  Czechia: 8
-  Austria: 4
+  Poland: 7
+  Czechia: 6
+  Switzerland: 3
+  Austria: 3
   France: 2
   Lithuania: 2
 
 Топ SNI:
-  dl.google.com: 41
+  dl.google.com: 42
   savesafe.run: 12
   savesafe.co: 12
   savesafe.info: 12
+  gateway-v1.bosx.net: 10
+  185-22-155-81.liao.kdns.fr: 9
+  api-maps.yandex.ru: 8
   www.amd.com: 8
   savesafe.kz: 8
   ssl.fastly.com: 8
   css.rbxcdn.com: 8
   localhost: 8
-  185-22-155-81.liao.kdns.fr: 7
-  gateway-v1.bosx.net: 6
-  grmn-av2.ghost-service.cc: 6
+  grmn-av2.ghost-service.cc: 7
   vpn-node.internal: 6
-  avatars.mds.yandex.net: 4
-  cdn.pubhoster.ru: 4
+  vk.com: 4
 
 Топ портов:
-  443: 138
-  8444: 21
-  8443: 14
-  50160: 11
+  443: 149
+  8444: 23
+  8443: 16
+  50160: 13
+  9898: 8
+  8445: 8
   10808: 8
   30001: 8
-  9445: 6
+  9445: 7
   9871: 6
-  8445: 6
-  9898: 5
-  9890: 4
-  9830: 4
-  9892: 4
+  9002: 4
+  9001: 4
   80: 4
   43327: 4
+  2056: 4
 
 Топ схем:
-  vless: 181
-  hysteria2: 95
+  vless: 208
+  hysteria2: 105
   vmess: 18
-  trojan: 9
+  trojan: 8
 
 Топ transport:
-  tcp: 183
-  grpc: 48
-  ws: 38
+  tcp: 194
+  grpc: 67
+  ws: 41
   xhttp: 32
+  raw: 3
   httpupgrade: 2
 
 Топ security:
-  reality: 134
-  none: 115
-  tls: 54
+  reality: 152
+  none: 126
+  tls: 61
