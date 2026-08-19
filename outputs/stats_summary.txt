@@ -1,5 +1,5 @@
 VPN Builder stats summary
-Generated at: 2026-08-19 18:49:51 MSK
+Generated at: 2026-08-19 19:22:01 MSK
 
 ====================================================================
 RAW GROUPS
@@ -8,97 +8,81 @@ RAW GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 73
-Уникальных строк: 71
-Уникальных host:port: 15
-Уникальных backend: 11
-Anycast: 23
-Unknown country: 15
+Всего конфигов: 96
+Уникальных строк: 94
+Уникальных host:port: 21
+Уникальных backend: 5
+Anycast: 21
+Unknown country: 10
 
 Топ стран:
-  🌐 Anycast: 23
-  Russia: 20
-  Unknown: 15
-  Czechia: 5
-  Germany: 5
-  Netherlands: 5
+  Russia: 65
+  🌐 Anycast: 21
+  Unknown: 10
 
 Топ SNI:
-  stream-vk.ru: 20
-  live.ok.ru: 12
-  api-maps.yandex.ru: 10
-  ya.ru: 10
-  rzd.ru: 6
-  quic.tyr-agentstvo.tech: 5
-  foodnetwork.com: 5
+  yt.chick-team.ru: 75
+  quic.tyr-agentstvo.tech: 6
   alfastat.ru: 5
+  ya.ru: 5
+  api-maps.yandex.ru: 5
 
 Топ портов:
-  443: 25
-  4100: 12
-  2200: 6
-  8443: 5
-  110: 5
-  465: 5
-  3389: 5
+  443: 85
+  8443: 6
   9002: 5
-  9001: 5
 
 Топ схем:
-  vless: 68
-  hysteria2: 5
+  vless: 90
+  hysteria2: 6
 
 Топ transport:
-  xhttp: 25
-  tcp: 20
-  ws: 18
-  grpc: 10
+  tcp: 81
+  xhttp: 5
+  raw: 5
+  grpc: 5
 
 Топ security:
-  reality: 50
-  none: 23
+  reality: 90
+  none: 6
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_vless
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 33
-Уникальных строк: 33
-Уникальных host:port: 9
-Уникальных backend: 7
-Anycast: 3
-Unknown country: 15
+Всего конфигов: 89
+Уникальных строк: 89
+Уникальных host:port: 20
+Уникальных backend: 4
+Anycast: 19
+Unknown country: 10
 
 Топ стран:
-  Unknown: 15
-  Czechia: 5
-  Germany: 5
-  Netherlands: 5
-  🌐 Anycast: 3
+  Russia: 60
+  🌐 Anycast: 19
+  Unknown: 10
 
 Топ SNI:
-  stream-vk.ru: 20
-  foodnetwork.com: 5
+  yt.chick-team.ru: 75
   alfastat.ru: 5
-  quic.tyr-agentstvo.tech: 3
+  ya.ru: 5
+  quic.tyr-agentstvo.tech: 4
 
 Топ портов:
-  443: 15
-  110: 5
-  465: 5
-  3389: 5
-  8443: 3
+  443: 85
+  8443: 4
 
 Топ схем:
-  vless: 30
-  hysteria2: 3
+  vless: 85
+  hysteria2: 4
 
 Топ transport:
-  xhttp: 25
-  tcp: 8
+  tcp: 79
+  xhttp: 5
+  raw: 5
 
 Топ security:
-  reality: 30
-  none: 3
+  reality: 85
+  none: 4
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW black_all
@@ -167,55 +151,43 @@ FINAL GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 15
-Уникальных строк: 15
-Уникальных host:port: 15
-Уникальных backend: 11
-Anycast: 6
-Unknown country: 3
+Всего конфигов: 10
+Уникальных строк: 10
+Уникальных host:port: 10
+Уникальных backend: 5
+Anycast: 3
+Unknown country: 2
 
 Топ стран:
-  🌐 Anycast: 6
-  Russia: 3
-  Unknown: 3
-  Netherlands: 1
-  Germany: 1
-  Czechia: 1
+  Russia: 5
+  🌐 Anycast: 3
+  Unknown: 2
 
 Топ SNI:
-  stream-vk.ru: 4
+  yt.chick-team.ru: 4
   quic.tyr-agentstvo.tech: 3
-  api-maps.yandex.ru: 2
-  live.ok.ru: 2
-  ya.ru: 1
-  foodnetwork.com: 1
+  api-maps.yandex.ru: 1
   alfastat.ru: 1
-  rzd.ru: 1
+  ya.ru: 1
 
 Топ портов:
-  443: 4
+  443: 6
   8443: 3
-  4100: 2
-  9001: 1
   9002: 1
-  465: 1
-  110: 1
-  2200: 1
-  3389: 1
 
 Топ схем:
-  vless: 12
+  vless: 7
   hysteria2: 3
 
 Топ transport:
-  xhttp: 5
-  tcp: 5
-  ws: 3
-  grpc: 2
+  tcp: 7
+  grpc: 1
+  xhttp: 1
+  raw: 1
 
 Топ security:
-  reality: 9
-  none: 6
+  reality: 7
+  none: 3
 
 ────────────────────────────────────────────────────────────────────
 📊 white_vless
@@ -223,37 +195,33 @@ Unknown country: 3
 Всего конфигов: 9
 Уникальных строк: 9
 Уникальных host:port: 9
-Уникальных backend: 7
+Уникальных backend: 4
 Anycast: 3
-Unknown country: 3
+Unknown country: 2
 
 Топ стран:
-  Unknown: 3
+  Russia: 4
   🌐 Anycast: 3
-  Netherlands: 1
-  Czechia: 1
-  Germany: 1
+  Unknown: 2
 
 Топ SNI:
-  stream-vk.ru: 4
+  yt.chick-team.ru: 4
   quic.tyr-agentstvo.tech: 3
   alfastat.ru: 1
-  foodnetwork.com: 1
+  ya.ru: 1
 
 Топ портов:
-  443: 3
+  443: 6
   8443: 3
-  110: 1
-  465: 1
-  3389: 1
 
 Топ схем:
   vless: 6
   hysteria2: 3
 
 Топ transport:
-  xhttp: 5
-  tcp: 4
+  tcp: 7
+  xhttp: 1
+  raw: 1
 
 Топ security:
   reality: 6
@@ -271,24 +239,24 @@ Unknown country: 31
 
 Топ стран:
   Unknown: 31
-  Netherlands: 10
   🌐 Anycast: 10
+  Netherlands: 10
   Japan: 3
-  United States: 2
   Germany: 2
+  United States: 2
   France: 1
 
 Топ SNI:
   www.apple.com: 5
   edge-nl.mystatic-cdn.ru: 3
   cdn4-61.yahoo.com: 2
-  sync.meshbeat.online: 2
   gb1.wba-pn.ru: 2
+  sync.meshbeat.online: 2
   css.rbxcdn.com: 2
   grape-zet-ro-turbo.bumbleshrimp.com: 2
-  t.me: 2
   flkf3.mangshe.xyz: 2
-  nl4.gracefultun.xyz: 1
+  t.me: 2
+  nl1.noesissite.ru: 1
 
 Топ портов:
   443: 25
@@ -299,8 +267,8 @@ Unknown country: 31
   8080: 2
   51693: 1
   10086: 1
-  33651: 1
-  8443: 1
+  36723: 1
+  35193: 1
 
 Топ схем:
   vless: 25
@@ -321,117 +289,113 @@ Unknown country: 31
 ────────────────────────────────────────────────────────────────────
 📊 pool
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 73
-Уникальных строк: 73
-Уникальных host:port: 61
-Уникальных backend: 61
-Anycast: 15
-Unknown country: 34
+Всего конфигов: 65
+Уникальных строк: 65
+Уникальных host:port: 53
+Уникальных backend: 55
+Anycast: 12
+Unknown country: 33
 
 Топ стран:
-  Unknown: 34
-  🌐 Anycast: 15
-  Netherlands: 11
+  Unknown: 33
+  🌐 Anycast: 12
+  Netherlands: 9
   Russia: 3
-  Germany: 3
   Japan: 3
+  Germany: 2
   United States: 2
-  Czechia: 1
   France: 1
 
 Топ SNI:
   www.apple.com: 5
-  stream-vk.ru: 4
-  edge-nl.mystatic-cdn.ru: 3
-  api-maps.yandex.ru: 2
   quic.tyr-agentstvo.tech: 2
-  live.ok.ru: 2
-  css.rbxcdn.com: 2
-  t.me: 2
-  cdn4-61.yahoo.com: 2
+  yt.chick-team.ru: 2
   sync.meshbeat.online: 2
+  t.me: 2
+  gb1.wba-pn.ru: 2
+  edge-nl.mystatic-cdn.ru: 2
+  css.rbxcdn.com: 2
+  grape-zet-ro-turbo.bumbleshrimp.com: 2
+  cdn4-61.yahoo.com: 2
 
 Топ портов:
-  443: 29
+  443: 28
   8444: 4
   8443: 3
-  4100: 2
-  48982: 2
-  8080: 2
   80: 2
+  8080: 2
+  48982: 2
   2056: 2
-  9001: 1
-  465: 1
+  9002: 1
+  46001: 1
+  1935: 1
 
 Топ схем:
-  vless: 37
+  vless: 29
   hysteria2: 23
   vmess: 12
   trojan: 1
 
 Топ transport:
-  tcp: 51
-  ws: 12
-  xhttp: 8
-  grpc: 2
+  tcp: 50
+  ws: 9
+  xhttp: 4
+  grpc: 1
+  raw: 1
 
 Топ security:
-  none: 43
-  reality: 22
+  none: 40
+  reality: 17
   tls: 8
 
 ────────────────────────────────────────────────────────────────────
 📊 mixed
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 28
-Уникальных строк: 28
-Уникальных host:port: 28
-Уникальных backend: 23
+Всего конфигов: 24
+Уникальных строк: 24
+Уникальных host:port: 24
+Уникальных backend: 19
 Anycast: 2
-Unknown country: 8
+Unknown country: 7
 
 Топ стран:
-  Netherlands: 9
-  Unknown: 8
+  Netherlands: 8
+  Unknown: 7
   Russia: 3
   Japan: 3
-  Germany: 2
   🌐 Anycast: 2
-  Czechia: 1
+  Germany: 1
 
 Топ SNI:
   www.apple.com: 5
-  stream-vk.ru: 4
-  api-maps.yandex.ru: 2
+  yt.chick-team.ru: 2
   cdn4-61.yahoo.com: 2
   edge-nl.mystatic-cdn.ru: 2
-  gb1.wba-pn.ru: 2
   sync.meshbeat.online: 2
-  foodnetwork.com: 1
+  gb1.wba-pn.ru: 2
+  api-maps.yandex.ru: 1
   alfastat.ru: 1
   ya.ru: 1
+  dep.opngtr.nl: 1
 
 Топ портов:
   443: 18
   8444: 3
   48982: 2
-  110: 1
   9002: 1
-  9001: 1
-  3389: 1
-  465: 1
 
 Топ схем:
-  vless: 28
+  vless: 24
 
 Топ transport:
   tcp: 12
-  xhttp: 8
   ws: 6
-  grpc: 2
+  xhttp: 4
+  grpc: 1
+  raw: 1
 
 Топ security:
-  reality: 21
+  reality: 17
   tls: 7
 
 ────────────────────────────────────────────────────────────────────
@@ -442,119 +406,117 @@ Unknown country: 8
 Уникальных host:port: 25
 Уникальных backend: 20
 Anycast: 2
-Unknown country: 5
+Unknown country: 8
 
 Топ стран:
-  Netherlands: 9
-  Unknown: 5
-  Russia: 3
+  Netherlands: 8
+  Unknown: 8
   Japan: 3
+  Russia: 3
   🌐 Anycast: 2
-  Germany: 2
-  Czechia: 1
+  Germany: 1
 
 Топ SNI:
   www.apple.com: 5
-  stream-vk.ru: 3
-  api-maps.yandex.ru: 2
   sync.meshbeat.online: 2
   cdn4-61.yahoo.com: 2
   edge-nl.mystatic-cdn.ru: 2
+  yt.chick-team.ru: 2
   gb1.wba-pn.ru: 2
   nl4.gracefultun.xyz: 1
+  api-maps.yandex.ru: 1
   de-new-1.ariyuz.org: 1
   stream.meshbeat.online: 1
 
 Топ портов:
-  443: 16
-  8444: 3
+  443: 18
+  8444: 4
   48982: 2
   9002: 1
-  9001: 1
-  110: 1
-  465: 1
 
 Топ схем:
-  vless: 25
+  vless: 24
+  trojan: 1
 
 Топ transport:
-  tcp: 10
-  xhttp: 7
+  tcp: 13
   ws: 6
-  grpc: 2
+  xhttp: 4
+  grpc: 1
+  raw: 1
 
 Топ security:
-  reality: 18
-  tls: 7
+  reality: 17
+  tls: 8
 
 ====================================================================
 🌍 GLOBAL SUMMARY
 ====================================================================
-Всего конфигов: 209
-Уникальных строк: 74
-Уникальных host:port: 62
-Уникальных backend: 61
-Anycast: 38
-Unknown country: 84
+Всего конфигов: 192
+Уникальных строк: 69
+Уникальных host:port: 57
+Уникальных backend: 55
+Anycast: 32
+Unknown country: 83
 
 Топ стран:
-  Unknown: 84
-  Netherlands: 41
-  🌐 Anycast: 38
-  Russia: 12
+  Unknown: 83
+  Netherlands: 35
+  🌐 Anycast: 32
+  Russia: 18
   Japan: 12
-  Germany: 11
-  Czechia: 5
+  Germany: 6
   United States: 4
   France: 2
 
 Топ SNI:
   www.apple.com: 20
-  stream-vk.ru: 19
-  edge-nl.mystatic-cdn.ru: 10
-  api-maps.yandex.ru: 8
+  yt.chick-team.ru: 14
+  edge-nl.mystatic-cdn.ru: 9
   quic.tyr-agentstvo.tech: 8
   cdn4-61.yahoo.com: 8
-  sync.meshbeat.online: 8
   gb1.wba-pn.ru: 8
+  sync.meshbeat.online: 8
   alfastat.ru: 5
-  ya.ru: 4
-  live.ok.ru: 4
-  foodnetwork.com: 4
-  nl4.gracefultun.xyz: 4
-  dep.opngtr.nl: 4
+  ya.ru: 5
+  api-maps.yandex.ru: 4
   www.redhat.com: 4
+  dep.opngtr.nl: 4
+  kibi-institut.de: 4
+  nl4.gracefultun.xyz: 4
+  de-new-1.ariyuz.org: 4
 
 Топ портов:
-  443: 95
-  8444: 14
+  443: 101
+  8444: 15
   8443: 10
   48982: 8
-  465: 5
-  110: 5
-  9001: 4
   9002: 4
-  4100: 4
-  3389: 4
   80: 4
   2056: 4
   8080: 4
-  2200: 2
   51693: 2
+  10086: 2
+  36723: 2
+  35193: 2
+  33651: 2
+  46001: 2
+  8445: 2
 
 Топ схем:
-  vless: 133
+  vless: 115
   hysteria2: 50
   vmess: 24
-  trojan: 2
+  trojan: 3
 
 Топ transport:
-  tcp: 129
-  xhttp: 36
-  ws: 36
-  grpc: 8
+  tcp: 136
+  ws: 30
+  xhttp: 17
+  raw: 5
+  grpc: 4
 
 Топ security:
-  none: 90
-  reality: 89
-  tls: 30
+  none: 84
+  reality: 77
+  tls: 31
