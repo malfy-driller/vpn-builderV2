@@ -1,5 +1,5 @@
 VPN Builder stats summary
-Generated at: 2026-08-20 00:45:11 MSK
+Generated at: 2026-08-20 01:01:51 MSK
 
 ====================================================================
 RAW GROUPS
@@ -8,61 +8,62 @@ RAW GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 159
-Уникальных строк: 146
-Уникальных host:port: 49
-Уникальных backend: 25
-Anycast: 26
-Unknown country: 43
+Всего конфигов: 163
+Уникальных строк: 148
+Уникальных host:port: 59
+Уникальных backend: 34
+Anycast: 37
+Unknown country: 50
 
 Топ стран:
-  Russia: 67
-  Unknown: 43
-  🌐 Anycast: 26
-  Netherlands: 11
-  Finland: 8
-  France: 2
-  Germany: 1
-  Poland: 1
+  Unknown: 50
+  Russia: 49
+  🌐 Anycast: 37
+  Netherlands: 10
+  Finland: 5
+  Poland: 5
+  France: 4
+  Germany: 3
 
 Топ SNI:
-  yt.chick-team.ru: 52
-  www.oracle.com: 19
+  yt.chick-team.ru: 43
+  www.oracle.com: 18
   api-maps.yandex.ru: 18
-  live.ok.ru: 9
-  it-one.quiet-rogue.site: 8
-  ya.ru: 7
-  www.sony.com: 5
-  ru.chick-team.ru: 5
+  dl.google.com: 11
+  live.ok.ru: 8
+  max.ru: 6
+  ya.ru: 6
   fi-one.quiet-rogue.site: 5
+  fi.chick-team.ru: 5
   rzd.ru: 5
 
 Топ портов:
-  443: 77
+  443: 75
   9002: 13
-  4100: 9
-  2096: 8
-  6448: 7
+  8443: 9
+  4100: 8
   6447: 6
   6443: 6
-  6444: 5
+  6448: 6
   2053: 5
-  2200: 5
+  6450: 5
+  9892: 5
 
 Топ схем:
-  vless: 153
-  hysteria2: 6
+  vless: 158
+  hysteria2: 5
 
 Топ transport:
-  tcp: 112
-  grpc: 23
-  ws: 14
-  raw: 7
-  xhttp: 3
+  tcp: 100
+  grpc: 31
+  raw: 15
+  ws: 15
+  xhttp: 2
 
 Топ security:
   reality: 138
-  none: 21
+  none: 19
+  tls: 6
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_vless
@@ -194,61 +195,62 @@ FINAL GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 37
-Уникальных строк: 37
-Уникальных host:port: 37
-Уникальных backend: 24
-Anycast: 10
-Unknown country: 11
+Всего конфигов: 47
+Уникальных строк: 47
+Уникальных host:port: 47
+Уникальных backend: 33
+Anycast: 16
+Unknown country: 15
 
 Топ стран:
-  Unknown: 11
-  🌐 Anycast: 10
+  🌐 Anycast: 16
+  Unknown: 15
   Russia: 8
-  Finland: 3
+  Finland: 2
+  Germany: 2
   Netherlands: 2
   France: 1
-  Germany: 1
   Poland: 1
 
 Топ SNI:
   api-maps.yandex.ru: 4
+  dl.google.com: 4
   yt.chick-team.ru: 4
   live.ok.ru: 4
   ya.ru: 3
   www.oracle.com: 3
   max.ru: 2
   fi-one.quiet-rogue.site: 2
+  fi.chick-team.ru: 2
   it-one.quiet-rogue.site: 2
-  rzd.ru: 2
-  eh.vk.com: 1
 
 Топ портов:
-  443: 13
+  443: 18
+  8443: 4
   4100: 4
   9002: 3
   2053: 2
-  8443: 2
+  6450: 2
   2096: 2
   2200: 2
   9001: 1
-  6444: 1
   54: 1
 
 Топ схем:
-  vless: 34
+  vless: 44
   hysteria2: 3
 
 Топ transport:
-  tcp: 23
-  ws: 6
-  grpc: 5
+  tcp: 29
+  grpc: 8
+  ws: 7
   raw: 2
   xhttp: 1
 
 Топ security:
-  reality: 27
+  reality: 34
   none: 10
+  tls: 3
 
 ────────────────────────────────────────────────────────────────────
 📊 white_vless
@@ -263,9 +265,9 @@ Unknown country: 15
 Топ стран:
   Unknown: 15
   🌐 Anycast: 10
+  Finland: 2
   Germany: 2
   Netherlands: 2
-  Finland: 2
   France: 1
   Russia: 1
   Poland: 1
@@ -275,24 +277,24 @@ Unknown country: 15
   yt.chick-team.ru: 4
   www.oracle.com: 3
   fi-one.quiet-rogue.site: 2
-  it-one.quiet-rogue.site: 2
   fi.chick-team.ru: 2
+  it-one.quiet-rogue.site: 2
   max.ru: 1
-  ru.chick-team.ru: 1
-  de-two.quiet-rogue.site: 1
   yandex.ru: 1
+  ru.chick-team.ru: 1
+  135.106.193.180: 1
 
 Топ портов:
   443: 14
   8443: 4
   2053: 2
-  2096: 2
   6450: 2
+  2096: 2
+  27017: 1
   9892: 1
-  6443: 1
-  6444: 1
   54: 1
-  5443: 1
+  6444: 1
+  6447: 1
 
 Топ схем:
   vless: 31
@@ -337,12 +339,12 @@ Unknown country: 35
   olp.crsmaps.com: 3
   google.com: 3
   css.rbxcdn.com: 3
-  sp.crsmaps.com: 2
   foodnetwork.com: 2
+  sp.crsmaps.com: 2
   nl1.noesissite.ru: 2
-  grape-turbo-fr.roxa.org: 2
   t.me: 2
-  gr4.cryptoofarm.com: 1
+  grape-turbo-fr.roxa.org: 2
+  nlnew8.denverpresents.top: 1
 
 Топ портов:
   443: 39
@@ -350,11 +352,11 @@ Unknown country: 35
   36723: 3
   8444: 2
   8080: 2
-  21446: 1
+  2095: 1
   2053: 1
   21443: 1
-  27017: 1
-  2095: 1
+  21446: 1
+  21445: 1
 
 Топ схем:
   vless: 35
@@ -376,126 +378,126 @@ Unknown country: 35
 ────────────────────────────────────────────────────────────────────
 📊 pool
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 120
-Уникальных строк: 120
-Уникальных host:port: 108
-Уникальных backend: 97
-Anycast: 29
-Unknown country: 46
+Всего конфигов: 114
+Уникальных строк: 114
+Уникальных host:port: 104
+Уникальных backend: 96
+Anycast: 28
+Unknown country: 42
 
 Топ стран:
-  Unknown: 46
-  🌐 Anycast: 29
-  Netherlands: 12
+  Unknown: 42
+  🌐 Anycast: 28
+  Netherlands: 13
   Germany: 9
   Russia: 8
-  Finland: 4
   United States: 4
+  Finland: 3
   France: 2
-  Poland: 2
   Japan: 2
+  Poland: 1
 
 Топ SNI:
-  dl.google.com: 7
+  dl.google.com: 6
   api-maps.yandex.ru: 4
-  ya.ru: 4
-  foodnetwork.com: 3
-  css.rbxcdn.com: 3
+  ya.ru: 3
   olp.crsmaps.com: 3
   google.com: 3
+  rzd.ru: 2
+  live.ok.ru: 2
+  it-one.quiet-rogue.site: 2
   yt.chick-team.ru: 2
-  fi.chick-team.ru: 2
   www.oracle.com: 2
 
 Топ портов:
-  443: 56
+  443: 52
   8443: 11
   9002: 3
   2053: 3
   36723: 3
-  6450: 2
-  27017: 2
-  4100: 2
   2200: 2
+  4100: 2
   2096: 2
+  27017: 2
+  6450: 2
 
 Топ схем:
-  vless: 74
-  hysteria2: 31
+  vless: 69
+  hysteria2: 30
   vmess: 10
   trojan: 5
 
 Топ transport:
-  tcp: 87
+  tcp: 82
   ws: 12
-  xhttp: 11
+  xhttp: 10
   grpc: 8
   raw: 2
 
 Топ security:
-  reality: 54
-  none: 46
+  reality: 49
+  none: 45
   tls: 19
   false: 1
 
 ────────────────────────────────────────────────────────────────────
 📊 mixed
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 59
-Уникальных строк: 59
-Уникальных host:port: 58
-Уникальных backend: 47
-Anycast: 13
-Unknown country: 20
+Всего конфигов: 60
+Уникальных строк: 60
+Уникальных host:port: 60
+Уникальных backend: 51
+Anycast: 15
+Unknown country: 18
 
 Топ стран:
-  Unknown: 20
-  🌐 Anycast: 13
-  Russia: 8
-  Netherlands: 7
-  Finland: 3
+  Unknown: 18
+  🌐 Anycast: 15
+  Netherlands: 9
+  Russia: 7
   Germany: 3
-  United States: 2
+  United States: 3
+  Finland: 2
   France: 1
   Poland: 1
   Japan: 1
 
 Топ SNI:
   dl.google.com: 6
-  api-maps.yandex.ru: 4
+  api-maps.yandex.ru: 3
   ya.ru: 3
-  foodnetwork.com: 3
-  it-one.quiet-rogue.site: 2
-  fi.chick-team.ru: 2
-  max.ru: 2
-  www.oracle.com: 2
   yt.chick-team.ru: 2
+  foodnetwork.com: 2
+  www.oracle.com: 2
+  max.ru: 2
+  fi.chick-team.ru: 2
   olp.crsmaps.com: 2
+  sp.crsmaps.com: 2
 
 Топ портов:
-  443: 29
+  443: 32
   8443: 9
-  9002: 3
-  2096: 2
-  2053: 2
-  6450: 2
+  9002: 2
   27017: 2
-  6444: 1
+  6450: 2
+  2053: 2
   9001: 1
+  6443: 1
+  6444: 1
   6447: 1
 
 Топ схем:
-  vless: 59
+  vless: 60
 
 Топ transport:
-  tcp: 36
+  tcp: 38
   xhttp: 9
-  grpc: 8
+  grpc: 7
   ws: 4
   raw: 2
 
 Топ security:
-  reality: 47
+  reality: 48
   tls: 12
 
 ────────────────────────────────────────────────────────────────────
@@ -510,42 +512,40 @@ Unknown country: 0
 
 Топ стран:
   Netherlands: 8
-  Russia: 5
+  Russia: 6
   🌐 Anycast: 5
   United States: 3
   France: 1
-  Finland: 1
-  Poland: 1
   Germany: 1
+  Japan: 1
 
 Топ SNI:
   api-maps.yandex.ru: 4
   max.ru: 2
-  eh.vk.com: 1
-  nl5.gracefultun.xyz: 1
-  nl12.jailever.org: 1
   nlnew8.denverpresents.top: 1
-  nl13.jailever.org: 1
-  nl11.jailever.org: 1
   nlnew9.denverpresents.top: 1
-  usa.savesafe.cc: 1
+  nl5.gracefultun.xyz: 1
+  eh.vk.com: 1
+  nl11.jailever.org: 1
+  nl12.jailever.org: 1
+  nl13.jailever.org: 1
+  yandex.ru: 1
 
 Топ портов:
-  443: 15
+  443: 16
   9002: 3
   8443: 3
   9001: 1
-  2053: 1
-  9892: 1
   21443: 1
+  2053: 1
 
 Топ схем:
   vless: 25
 
 Топ transport:
-  xhttp: 10
-  tcp: 7
-  grpc: 5
+  xhttp: 9
+  tcp: 9
+  grpc: 4
   ws: 3
 
 Топ security:
@@ -555,76 +555,76 @@ Unknown country: 0
 ====================================================================
 🌍 GLOBAL SUMMARY
 ====================================================================
-Всего конфигов: 353
-Уникальных строк: 136
-Уникальных host:port: 120
-Уникальных backend: 98
-Anycast: 82
-Unknown country: 127
+Всего конфигов: 358
+Уникальных строк: 125
+Уникальных host:port: 113
+Уникальных backend: 96
+Anycast: 89
+Unknown country: 125
 
 Топ стран:
-  Unknown: 127
-  🌐 Anycast: 82
-  Netherlands: 42
+  Unknown: 125
+  🌐 Anycast: 89
+  Netherlands: 45
   Russia: 30
-  Germany: 23
-  Finland: 14
-  United States: 13
+  Germany: 24
+  United States: 14
+  Finland: 10
   France: 7
-  Poland: 6
-  Japan: 5
+  Japan: 6
+  Poland: 4
   Switzerland: 2
   Kazakhstan: 2
 
 Топ SNI:
-  dl.google.com: 23
-  api-maps.yandex.ru: 16
+  dl.google.com: 24
+  api-maps.yandex.ru: 15
   yt.chick-team.ru: 12
-  ya.ru: 12
+  ya.ru: 11
   www.oracle.com: 11
-  foodnetwork.com: 10
   max.ru: 9
   olp.crsmaps.com: 9
-  it-one.quiet-rogue.site: 8
+  foodnetwork.com: 8
+  fi.chick-team.ru: 8
   fi-one.quiet-rogue.site: 7
-  fi.chick-team.ru: 7
+  it-one.quiet-rogue.site: 7
   live.ok.ru: 7
   sp.crsmaps.com: 6
   google.com: 6
-  css.rbxcdn.com: 6
+  yandex.ru: 5
 
 Топ портов:
-  443: 166
-  8443: 37
-  9002: 12
+  443: 171
+  8443: 39
+  9002: 11
   2053: 11
-  2096: 8
+  6450: 8
+  2096: 7
   27017: 7
-  6450: 7
   4100: 7
   36723: 6
   8445: 5
   8444: 5
   9001: 4
-  6444: 4
-  6447: 4
-  2200: 4
+  9892: 4
+  6443: 4
+  5443: 4
 
 Топ схем:
-  vless: 258
-  hysteria2: 65
+  vless: 264
+  hysteria2: 64
   vmess: 20
   trojan: 10
 
 Топ transport:
-  tcp: 240
-  xhttp: 41
-  ws: 34
-  grpc: 30
+  tcp: 245
+  xhttp: 39
+  ws: 35
+  grpc: 31
   raw: 8
 
 Топ security:
-  reality: 192
-  none: 99
-  tls: 60
+  reality: 195
+  none: 98
+  tls: 63
   false: 2
