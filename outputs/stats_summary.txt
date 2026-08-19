@@ -1,5 +1,5 @@
 VPN Builder stats summary
-Generated at: 2026-08-19 17:00:53 MSK
+Generated at: 2026-08-19 17:44:56 MSK
 
 ====================================================================
 RAW GROUPS
@@ -8,108 +8,97 @@ RAW GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 67
-Уникальных строк: 65
-Уникальных host:port: 14
-Уникальных backend: 13
-Anycast: 7
-Unknown country: 25
+Всего конфигов: 73
+Уникальных строк: 71
+Уникальных host:port: 15
+Уникальных backend: 11
+Anycast: 23
+Unknown country: 15
 
 Топ стран:
-  Unknown: 25
-  Poland: 10
-  Russia: 10
-  🌐 Anycast: 7
+  🌐 Anycast: 23
+  Russia: 20
+  Unknown: 15
   Czechia: 5
   Germany: 5
   Netherlands: 5
 
 Топ SNI:
   stream-vk.ru: 20
-  dl.google.com: 10
+  live.ok.ru: 12
+  api-maps.yandex.ru: 10
   ya.ru: 10
-  quic.tyr-agentstvo.tech: 6
-  aispir.ru: 5
+  rzd.ru: 6
+  quic.tyr-agentstvo.tech: 5
+  foodnetwork.com: 5
   alfastat.ru: 5
-  s3node1.tcpdoor.net: 5
-  api-maps.yandex.ru: 5
-  rzd.ru: 1
 
 Топ портов:
-  443: 30
-  9892: 10
-  8443: 6
+  443: 25
+  4100: 12
+  2200: 6
+  8443: 5
   110: 5
   465: 5
   3389: 5
   9002: 5
-  2200: 1
+  9001: 5
 
 Топ схем:
-  vless: 61
-  hysteria2: 6
+  vless: 68
+  hysteria2: 5
 
 Топ transport:
-  xhttp: 30
-  grpc: 20
-  tcp: 16
-  ws: 1
+  xhttp: 25
+  tcp: 20
+  ws: 18
+  grpc: 10
 
 Топ security:
-  reality: 60
-  none: 7
+  reality: 50
+  none: 23
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_vless
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 60
-Уникальных строк: 60
-Уникальных host:port: 13
-Уникальных backend: 12
-Anycast: 5
-Unknown country: 25
+Всего конфигов: 33
+Уникальных строк: 33
+Уникальных host:port: 9
+Уникальных backend: 7
+Anycast: 3
+Unknown country: 15
 
 Топ стран:
-  Unknown: 25
-  Poland: 10
+  Unknown: 15
   Czechia: 5
   Germany: 5
   Netherlands: 5
-  Russia: 5
-  🌐 Anycast: 5
+  🌐 Anycast: 3
 
 Топ SNI:
   stream-vk.ru: 20
-  dl.google.com: 10
-  ya.ru: 10
-  aispir.ru: 5
+  foodnetwork.com: 5
   alfastat.ru: 5
-  s3node1.tcpdoor.net: 5
-  quic.tyr-agentstvo.tech: 4
-  rzd.ru: 1
+  quic.tyr-agentstvo.tech: 3
 
 Топ портов:
-  443: 30
-  9892: 10
+  443: 15
   110: 5
   465: 5
   3389: 5
-  8443: 4
-  2200: 1
+  8443: 3
 
 Топ схем:
-  vless: 56
-  hysteria2: 4
+  vless: 30
+  hysteria2: 3
 
 Топ transport:
-  xhttp: 30
-  grpc: 15
-  tcp: 14
-  ws: 1
+  xhttp: 25
+  tcp: 8
 
 Топ security:
-  reality: 55
-  none: 5
+  reality: 30
+  none: 3
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW black_all
@@ -178,18 +167,17 @@ FINAL GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 14
-Уникальных строк: 14
-Уникальных host:port: 14
-Уникальных backend: 12
-Anycast: 4
-Unknown country: 4
+Всего конфигов: 15
+Уникальных строк: 15
+Уникальных host:port: 15
+Уникальных backend: 11
+Anycast: 6
+Unknown country: 3
 
 Топ стран:
-  Unknown: 4
-  🌐 Anycast: 4
-  Russia: 2
-  Poland: 1
+  🌐 Anycast: 6
+  Russia: 3
+  Unknown: 3
   Netherlands: 1
   Czechia: 1
   Germany: 1
@@ -197,89 +185,79 @@ Unknown country: 4
 Топ SNI:
   stream-vk.ru: 4
   quic.tyr-agentstvo.tech: 3
-  api-maps.yandex.ru: 1
-  dl.google.com: 1
-  s3node1.tcpdoor.net: 1
-  alfastat.ru: 1
+  api-maps.yandex.ru: 2
+  live.ok.ru: 2
   ya.ru: 1
-  aispir.ru: 1
+  foodnetwork.com: 1
+  alfastat.ru: 1
   rzd.ru: 1
 
 Топ портов:
-  443: 5
+  443: 4
   8443: 3
+  4100: 2
   9002: 1
-  9892: 1
+  9001: 1
   110: 1
-  465: 1
   2200: 1
   3389: 1
+  465: 1
 
 Топ схем:
-  vless: 11
+  vless: 12
   hysteria2: 3
 
 Топ transport:
-  xhttp: 6
-  tcp: 4
-  grpc: 3
-  ws: 1
+  tcp: 5
+  xhttp: 5
+  ws: 3
+  grpc: 2
 
 Топ security:
-  reality: 10
-  none: 4
+  reality: 9
+  none: 6
 
 ────────────────────────────────────────────────────────────────────
 📊 white_vless
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 13
-Уникальных строк: 13
-Уникальных host:port: 13
-Уникальных backend: 11
-Anycast: 4
-Unknown country: 4
+Всего конфигов: 9
+Уникальных строк: 9
+Уникальных host:port: 9
+Уникальных backend: 7
+Anycast: 3
+Unknown country: 3
 
 Топ стран:
-  Unknown: 4
-  🌐 Anycast: 4
-  Russia: 1
-  Poland: 1
-  Germany: 1
+  Unknown: 3
+  🌐 Anycast: 3
   Czechia: 1
   Netherlands: 1
+  Germany: 1
 
 Топ SNI:
   stream-vk.ru: 4
   quic.tyr-agentstvo.tech: 3
-  s3node1.tcpdoor.net: 1
-  dl.google.com: 1
   alfastat.ru: 1
-  aispir.ru: 1
-  ya.ru: 1
-  rzd.ru: 1
+  foodnetwork.com: 1
 
 Топ портов:
-  443: 5
+  443: 3
   8443: 3
-  9892: 1
-  465: 1
   110: 1
-  2200: 1
+  465: 1
   3389: 1
 
 Топ схем:
-  vless: 10
+  vless: 6
   hysteria2: 3
 
 Топ transport:
-  xhttp: 6
+  xhttp: 5
   tcp: 4
-  grpc: 2
-  ws: 1
 
 Топ security:
-  reality: 9
-  none: 4
+  reality: 6
+  none: 3
 
 ────────────────────────────────────────────────────────────────────
 📊 black_all
@@ -320,9 +298,9 @@ Unknown country: 31
   2056: 2
   8080: 2
   51693: 1
+  10086: 1
   33651: 1
   8443: 1
-  10086: 1
 
 Топ схем:
   vless: 25
@@ -343,119 +321,117 @@ Unknown country: 31
 ────────────────────────────────────────────────────────────────────
 📊 pool
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 71
-Уникальных строк: 71
-Уникальных host:port: 59
-Уникальных backend: 62
-Anycast: 13
-Unknown country: 35
+Всего конфигов: 72
+Уникальных строк: 72
+Уникальных host:port: 60
+Уникальных backend: 61
+Anycast: 15
+Unknown country: 34
 
 Топ стран:
-  Unknown: 35
-  🌐 Anycast: 13
+  Unknown: 34
+  🌐 Anycast: 15
   Netherlands: 10
+  Russia: 3
   Germany: 3
   Japan: 3
-  Russia: 2
   United States: 2
   Czechia: 1
-  Poland: 1
   France: 1
 
 Топ SNI:
   www.apple.com: 5
   stream-vk.ru: 4
+  api-maps.yandex.ru: 2
   quic.tyr-agentstvo.tech: 2
+  live.ok.ru: 2
   cdn4-61.yahoo.com: 2
   grape-zet-ro-turbo.bumbleshrimp.com: 2
   sync.meshbeat.online: 2
   edge-nl.mystatic-cdn.ru: 2
   flkf3.mangshe.xyz: 2
-  css.rbxcdn.com: 2
-  t.me: 2
 
 Топ портов:
-  443: 29
+  443: 28
   8444: 4
   8443: 3
+  4100: 2
   8080: 2
   80: 2
   48982: 2
   2056: 2
-  3389: 1
-  2200: 1
-  9002: 1
+  9001: 1
+  110: 1
 
 Топ схем:
-  vless: 35
+  vless: 36
   hysteria2: 23
   vmess: 12
   trojan: 1
 
 Топ transport:
-  tcp: 49
-  ws: 10
-  xhttp: 9
-  grpc: 3
+  tcp: 50
+  ws: 12
+  xhttp: 8
+  grpc: 2
 
 Топ security:
-  none: 41
-  reality: 22
+  none: 43
+  reality: 21
   tls: 8
 
 ────────────────────────────────────────────────────────────────────
 📊 mixed
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 29
-Уникальных строк: 29
-Уникальных host:port: 29
-Уникальных backend: 25
+Всего конфигов: 28
+Уникальных строк: 28
+Уникальных host:port: 28
+Уникальных backend: 23
 Anycast: 2
-Unknown country: 9
+Unknown country: 8
 
 Топ стран:
-  Unknown: 9
   Netherlands: 9
+  Unknown: 8
+  Russia: 3
   Japan: 3
-  Russia: 2
   Germany: 2
   🌐 Anycast: 2
   Czechia: 1
-  Poland: 1
 
 Топ SNI:
   www.apple.com: 5
   stream-vk.ru: 4
-  sync.meshbeat.online: 2
+  api-maps.yandex.ru: 2
   cdn4-61.yahoo.com: 2
   gb1.wba-pn.ru: 2
+  sync.meshbeat.online: 2
   edge-nl.mystatic-cdn.ru: 2
-  s3node1.tcpdoor.net: 1
-  aispir.ru: 1
+  foodnetwork.com: 1
+  alfastat.ru: 1
   ya.ru: 1
-  dl.google.com: 1
 
 Топ портов:
-  443: 19
+  443: 18
   8444: 3
   48982: 2
+  465: 1
+  9001: 1
+  9002: 1
   110: 1
   3389: 1
-  9892: 1
-  465: 1
-  9002: 1
 
 Топ схем:
-  vless: 29
+  vless: 28
 
 Топ transport:
-  tcp: 11
-  xhttp: 9
+  tcp: 12
+  xhttp: 8
   ws: 6
-  grpc: 3
+  grpc: 2
 
 Топ security:
-  reality: 22
+  reality: 21
   tls: 7
 
 ────────────────────────────────────────────────────────────────────
@@ -472,64 +448,62 @@ Unknown country: 5
   Netherlands: 9
   Unknown: 5
   Japan: 3
+  Russia: 3
   🌐 Anycast: 2
-  Russia: 2
   Germany: 2
   Czechia: 1
-  Poland: 1
 
 Топ SNI:
   www.apple.com: 5
   stream-vk.ru: 3
+  api-maps.yandex.ru: 2
   sync.meshbeat.online: 2
   cdn4-61.yahoo.com: 2
   edge-nl.mystatic-cdn.ru: 2
-  gb1.wba-pn.ru: 2
   nl4.gracefultun.xyz: 1
   stream.meshbeat.online: 1
   de-new-1.ariyuz.org: 1
-  s3node1.tcpdoor.net: 1
+  dep.opngtr.nl: 1
 
 Топ портов:
   443: 16
   8444: 3
   48982: 2
   9002: 1
-  465: 1
+  9001: 1
   110: 1
-  9892: 1
+  465: 1
 
 Топ схем:
   vless: 25
 
 Топ transport:
-  tcp: 9
+  tcp: 11
   xhttp: 7
-  ws: 6
-  grpc: 3
+  ws: 5
+  grpc: 2
 
 Топ security:
-  reality: 18
-  tls: 7
+  reality: 19
+  tls: 6
 
 ====================================================================
 🌍 GLOBAL SUMMARY
 ====================================================================
-Всего конфигов: 211
-Уникальных строк: 73
-Уникальных host:port: 61
-Уникальных backend: 62
-Anycast: 35
-Unknown country: 88
+Всего конфигов: 208
+Уникальных строк: 74
+Уникальных host:port: 62
+Уникальных backend: 61
+Anycast: 38
+Unknown country: 84
 
 Топ стран:
-  Unknown: 88
+  Unknown: 84
   Netherlands: 40
-  🌐 Anycast: 35
+  🌐 Anycast: 38
+  Russia: 12
   Japan: 12
   Germany: 11
-  Russia: 9
-  Poland: 5
   Czechia: 5
   United States: 4
   France: 2
@@ -538,49 +512,49 @@ Unknown country: 88
   www.apple.com: 20
   stream-vk.ru: 19
   edge-nl.mystatic-cdn.ru: 9
+  api-maps.yandex.ru: 8
   quic.tyr-agentstvo.tech: 8
   cdn4-61.yahoo.com: 8
   sync.meshbeat.online: 8
-  gb1.wba-pn.ru: 8
-  dl.google.com: 5
-  s3node1.tcpdoor.net: 5
-  aispir.ru: 5
-  api-maps.yandex.ru: 4
-  alfastat.ru: 4
+  gb1.wba-pn.ru: 7
+  alfastat.ru: 5
   ya.ru: 4
+  live.ok.ru: 4
+  foodnetwork.com: 4
   nl4.gracefultun.xyz: 4
   dep.opngtr.nl: 4
+  www.redhat.com: 4
 
 Топ портов:
-  443: 99
+  443: 94
   8444: 14
   8443: 10
   48982: 8
-  9892: 5
   110: 5
   465: 5
   9002: 4
+  9001: 4
+  4100: 4
   3389: 4
   80: 4
   2056: 4
   8080: 4
-  2200: 3
+  2200: 2
   51693: 2
-  33651: 2
 
 Топ схем:
-  vless: 135
+  vless: 132
   hysteria2: 50
   vmess: 24
   trojan: 2
 
 Топ transport:
-  tcp: 124
-  xhttp: 40
-  ws: 33
-  grpc: 14
+  tcp: 129
+  xhttp: 36
+  ws: 35
+  grpc: 8
 
 Топ security:
-  reality: 94
-  none: 87
-  tls: 30
+  none: 90
+  reality: 89
+  tls: 29
