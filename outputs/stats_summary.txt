@@ -1,5 +1,5 @@
 VPN Builder stats summary
-Generated at: 2026-08-20 11:43:55 MSK
+Generated at: 2026-08-20 12:17:38 MSK
 
 ====================================================================
 RAW GROUPS
@@ -8,107 +8,82 @@ RAW GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 127
-Уникальных строк: 123
-Уникальных host:port: 17
-Уникальных backend: 15
-Anycast: 23
+Всего конфигов: 102
+Уникальных строк: 102
+Уникальных host:port: 11
+Уникальных backend: 7
+Anycast: 10
 Unknown country: 4
 
 Топ стран:
   Russia: 80
-  🌐 Anycast: 23
-  Poland: 20
+  🌐 Anycast: 10
+  Poland: 8
   Unknown: 4
 
 Топ SNI:
-  ru3.gracefultun.xyz: 52
-  api-maps.yandex.ru: 20
-  max.ru: 12
-  dl.google.com: 12
-  pol8.frost-api.com: 8
-  www.rumedia-cdn.com: 4
-  de2.frost-api.com: 4
-  id.pervye.ru: 4
-  russia.cendora.ru: 4
+  ru3.gracefultun.xyz: 48
+  api-maps.yandex.ru: 25
+  max.ru: 16
+  live.ok.ru: 5
+  foodnetwork.com: 4
   dzen.ru: 4
 
 Топ портов:
-  443: 72
-  15443: 12
-  9892: 12
-  9002: 12
-  9001: 8
-  8443: 5
-  5443: 4
-  4100: 1
-  2200: 1
+  443: 56
+  15443: 16
+  9002: 16
+  9001: 9
+  4100: 5
 
 Топ схем:
-  vless: 126
-  hysteria2: 1
+  vless: 102
 
 Топ transport:
-  xhttp: 72
-  grpc: 40
-  tcp: 13
-  ws: 2
+  xhttp: 64
+  grpc: 25
+  tcp: 8
+  ws: 5
 
 Топ security:
-  tls: 64
-  reality: 60
-  none: 3
+  reality: 49
+  tls: 48
+  none: 5
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_vless
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 94
-Уникальных строк: 94
-Уникальных host:port: 10
-Уникальных backend: 11
-Anycast: 18
+Всего конфигов: 56
+Уникальных строк: 56
+Уникальных host:port: 3
+Уникальных backend: 3
+Anycast: 0
 Unknown country: 4
 
 Топ стран:
-  Russia: 56
-  🌐 Anycast: 18
-  Poland: 16
+  Russia: 48
   Unknown: 4
+  Poland: 4
 
 Топ SNI:
-  ru3.gracefultun.xyz: 52
-  dl.google.com: 12
-  pol8.frost-api.com: 8
-  www.rumedia-cdn.com: 4
-  de2.frost-api.com: 4
+  ru3.gracefultun.xyz: 48
+  foodnetwork.com: 4
   max.ru: 4
-  id.pervye.ru: 4
-  russia.cendora.ru: 4
-  live.ok.ru: 1
-  quic.tyr-agentstvo.tech: 1
 
 Топ портов:
-  443: 68
-  9892: 12
-  8443: 5
-  5443: 4
+  443: 52
   15443: 4
-  4100: 1
 
 Топ схем:
-  vless: 93
-  hysteria2: 1
+  vless: 56
 
 Топ transport:
-  xhttp: 64
-  grpc: 20
-  tcp: 9
-  ws: 1
+  xhttp: 52
+  tcp: 4
 
 Топ security:
-  tls: 64
-  reality: 28
-  none: 2
+  tls: 48
+  reality: 8
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW black_all
@@ -178,107 +153,82 @@ FINAL GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 17
-Уникальных строк: 17
-Уникальных host:port: 17
-Уникальных backend: 14
-Anycast: 7
+Всего конфигов: 11
+Уникальных строк: 11
+Уникальных host:port: 11
+Уникальных backend: 7
+Anycast: 2
 Unknown country: 1
 
 Топ стран:
   Russia: 7
-  🌐 Anycast: 7
-  Poland: 2
+  🌐 Anycast: 2
+  Poland: 1
   Unknown: 1
 
 Топ SNI:
-  api-maps.yandex.ru: 4
+  api-maps.yandex.ru: 5
   max.ru: 2
-  dl.google.com: 1
-  russia.cendora.ru: 1
-  ru3.gracefultun.xyz: 1
-  www.rumedia-cdn.com: 1
-  dzen.ru: 1
-  pol8.frost-api.com: 1
-  de2.frost-api.com: 1
   live.ok.ru: 1
+  ru3.gracefultun.xyz: 1
+  dzen.ru: 1
+  foodnetwork.com: 1
 
 Топ портов:
-  443: 5
+  9002: 3
+  443: 3
   15443: 2
-  9002: 2
   9001: 2
-  8443: 2
-  9892: 1
-  5443: 1
   4100: 1
-  2200: 1
 
 Топ схем:
-  vless: 16
-  hysteria2: 1
+  vless: 11
 
 Топ transport:
-  grpc: 7
-  xhttp: 4
-  tcp: 4
-  ws: 2
+  grpc: 5
+  xhttp: 3
+  tcp: 2
+  ws: 1
 
 Топ security:
-  reality: 11
-  tls: 3
-  none: 3
+  reality: 9
+  none: 1
+  tls: 1
 
 ────────────────────────────────────────────────────────────────────
 📊 white_vless
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 10
-Уникальных строк: 10
-Уникальных host:port: 10
-Уникальных backend: 10
-Anycast: 5
+Всего конфигов: 3
+Уникальных строк: 3
+Уникальных host:port: 3
+Уникальных backend: 3
+Anycast: 0
 Unknown country: 1
 
 Топ стран:
-  🌐 Anycast: 5
-  Poland: 2
-  Russia: 2
+  Poland: 1
+  Russia: 1
   Unknown: 1
 
 Топ SNI:
   max.ru: 1
   ru3.gracefultun.xyz: 1
-  dl.google.com: 1
-  de2.frost-api.com: 1
-  www.rumedia-cdn.com: 1
-  russia.cendora.ru: 1
-  pol8.frost-api.com: 1
-  live.ok.ru: 1
-  id.pervye.ru: 1
-  quic.tyr-agentstvo.tech: 1
+  foodnetwork.com: 1
 
 Топ портов:
-  443: 4
-  8443: 2
+  443: 2
   15443: 1
-  9892: 1
-  5443: 1
-  4100: 1
 
 Топ схем:
-  vless: 9
-  hysteria2: 1
+  vless: 3
 
 Топ transport:
-  xhttp: 3
-  grpc: 3
-  tcp: 3
-  ws: 1
+  xhttp: 2
+  tcp: 1
 
 Топ security:
-  reality: 5
-  tls: 3
-  none: 2
+  reality: 2
+  tls: 1
 
 ────────────────────────────────────────────────────────────────────
 📊 black_all
@@ -306,8 +256,8 @@ Unknown country: 23
   google.com: 3
   grape-turbo-fr.roxa.org: 3
   127.0.0.1: 3
-  amp-api-edge.apps.apple.com: 2
   download-porter.hoyoverse.com: 2
+  amp-api-edge.apps.apple.com: 2
   www.siemens.com: 2
   twitch.tv: 2
   deh.skysafe.online: 2
@@ -343,121 +293,118 @@ Unknown country: 23
 ────────────────────────────────────────────────────────────────────
 📊 pool
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 81
-Уникальных строк: 81
-Уникальных host:port: 81
-Уникальных backend: 63
-Anycast: 18
-Unknown country: 24
+Всего конфигов: 76
+Уникальных строк: 76
+Уникальных host:port: 76
+Уникальных backend: 56
+Anycast: 14
+Unknown country: 23
 
 Топ стран:
-  Unknown: 24
-  🌐 Anycast: 18
+  Unknown: 23
+  🌐 Anycast: 14
   Germany: 13
-  Russia: 7
+  Russia: 6
   Netherlands: 6
+  Finland: 5
   United States: 5
-  Finland: 3
-  Poland: 2
   France: 2
+  Poland: 1
   Kazakhstan: 1
 
 Топ SNI:
   api-maps.yandex.ru: 4
-  erfanyosyour-name.global.ssl.fastly.net: 4
+  fin4.wba-pn.ru: 4
+  google.com: 3
   grape-turbo-fr.roxa.org: 3
+  erfanyosyour-name.global.ssl.fastly.net: 3
   127.0.0.1: 3
   max.ru: 2
-  id.pervye.ru: 2
-  fin4.wba-pn.ru: 2
-  google.com: 2
-  download-porter.hoyoverse.com: 2
+  hopp-us.yyuyy.com: 2
   hopp-legend-se.roxa.org: 2
+  www.siemens.com: 2
 
 Топ портов:
-  443: 41
-  8443: 7
-  80: 7
+  443: 42
+  80: 6
+  8443: 5
   8080: 4
+  9002: 3
   15443: 2
-  9001: 2
-  9002: 2
   8880: 2
   2027: 2
-  5443: 1
+  9001: 1
+  4100: 1
 
 Топ схем:
-  vless: 45
-  hysteria2: 32
-  trojan: 4
+  vless: 40
+  hysteria2: 31
+  trojan: 5
 
 Топ transport:
-  tcp: 52
-  ws: 11
-  xhttp: 10
-  grpc: 8
+  tcp: 50
+  ws: 13
+  xhttp: 8
+  grpc: 5
 
 Топ security:
-  none: 42
-  reality: 28
-  tls: 11
+  none: 39
+  reality: 25
+  tls: 12
 
 ────────────────────────────────────────────────────────────────────
 📊 mixed
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 33
-Уникальных строк: 33
-Уникальных host:port: 33
-Уникальных backend: 26
-Anycast: 5
+Всего конфигов: 28
+Уникальных строк: 28
+Уникальных host:port: 28
+Уникальных backend: 21
+Anycast: 2
 Unknown country: 5
 
 Топ стран:
   Germany: 8
-  Russia: 7
+  Russia: 6
   Unknown: 5
-  🌐 Anycast: 5
-  Poland: 2
-  Netherlands: 2
+  🌐 Anycast: 2
   United States: 2
+  Netherlands: 2
   Finland: 2
+  Poland: 1
 
 Топ SNI:
   api-maps.yandex.ru: 4
   max.ru: 2
-  id.pervye.ru: 2
-  twitch.tv: 2
   download-porter.hoyoverse.com: 2
-  deh.skysafe.online: 2
-  amp-api-edge.apps.apple.com: 2
+  twitch.tv: 2
   fin4.wba-pn.ru: 2
   www.siemens.com: 2
-  dl.google.com: 1
+  deh.skysafe.online: 2
+  amp-api-edge.apps.apple.com: 2
+  ru3.gracefultun.xyz: 1
+  dzen.ru: 1
 
 Топ портов:
-  443: 20
+  443: 18
+  9002: 3
   15443: 2
-  9002: 2
-  9001: 2
   2027: 2
-  9892: 1
-  8443: 1
-  5443: 1
-  24949: 1
+  9001: 1
   3443: 1
+  24949: 1
 
 Топ схем:
-  vless: 33
+  vless: 28
 
 Топ transport:
-  tcp: 17
-  grpc: 8
-  xhttp: 6
+  tcp: 16
+  grpc: 5
+  xhttp: 5
   ws: 2
 
 Топ security:
-  reality: 28
-  tls: 5
+  reality: 25
+  tls: 3
 
 ────────────────────────────────────────────────────────────────────
 📊 lte
@@ -465,123 +412,124 @@ Unknown country: 5
 Всего конфигов: 25
 Уникальных строк: 25
 Уникальных host:port: 25
-Уникальных backend: 18
+Уникальных backend: 19
 Anycast: 4
 Unknown country: 0
 
 Топ стран:
+  Germany: 7
   Russia: 6
-  Germany: 6
   🌐 Anycast: 4
   United States: 3
-  Poland: 2
-  Finland: 2
   Netherlands: 2
+  Poland: 1
+  Finland: 1
+  France: 1
 
 Топ SNI:
   api-maps.yandex.ru: 4
   max.ru: 2
   amp-api-edge.apps.apple.com: 2
-  fin4.wba-pn.ru: 2
   twitch.tv: 2
   download-porter.hoyoverse.com: 2
   www.siemens.com: 2
   google.com: 2
   ru3.gracefultun.xyz: 1
-  pol8.frost-api.com: 1
+  fin4.wba-pn.ru: 1
+  id.pervye.ru: 1
 
 Топ портов:
   443: 16
+  9002: 3
   15443: 2
-  9002: 2
-  9001: 2
-  9892: 1
+  9001: 1
   3443: 1
   2027: 1
+  24949: 1
 
 Топ схем:
-  vless: 22
+  vless: 21
   trojan: 2
-  hysteria2: 1
+  hysteria2: 2
 
 Топ transport:
-  tcp: 9
-  xhttp: 6
-  grpc: 6
-  ws: 4
+  tcp: 12
+  xhttp: 5
+  grpc: 5
+  ws: 3
 
 Топ security:
-  reality: 18
-  tls: 7
+  reality: 19
+  tls: 6
 
 ====================================================================
 🌍 GLOBAL SUMMARY
 ====================================================================
-Всего конфигов: 233
-Уникальных строк: 87
-Уникальных host:port: 84
-Уникальных backend: 64
-Anycast: 51
-Unknown country: 54
+Всего конфигов: 210
+Уникальных строк: 79
+Уникальных host:port: 78
+Уникальных backend: 56
+Anycast: 34
+Unknown country: 53
 
 Топ стран:
-  Unknown: 54
-  🌐 Anycast: 51
-  Germany: 40
-  Russia: 29
+  Unknown: 53
+  Germany: 41
+  🌐 Anycast: 34
+  Russia: 26
   Netherlands: 16
   United States: 15
-  Finland: 12
-  Poland: 10
-  France: 4
+  Finland: 13
+  Poland: 5
+  France: 5
   Kazakhstan: 2
 
 Топ SNI:
-  api-maps.yandex.ru: 16
-  fin4.wba-pn.ru: 10
+  api-maps.yandex.ru: 17
+  fin4.wba-pn.ru: 11
   max.ru: 9
-  id.pervye.ru: 8
-  amp-api-edge.apps.apple.com: 8
   download-porter.hoyoverse.com: 8
+  amp-api-edge.apps.apple.com: 8
   www.siemens.com: 8
   twitch.tv: 8
-  erfanyosyour-name.global.ssl.fastly.net: 8
+  google.com: 8
+  erfanyosyour-name.global.ssl.fastly.net: 7
   deh.skysafe.online: 7
-  google.com: 7
   grape-turbo-fr.roxa.org: 6
   127.0.0.1: 6
-  dl.google.com: 5
   ru3.gracefultun.xyz: 5
+  dzen.ru: 4
+  foodnetwork.com: 4
 
 Топ портов:
-  443: 125
-  8443: 17
-  80: 14
+  443: 120
+  80: 13
+  9002: 12
+  8443: 10
   15443: 9
-  9002: 8
-  9001: 8
   8080: 8
   2027: 7
-  9892: 5
-  5443: 4
+  9001: 5
   8880: 4
   3443: 4
-  4100: 3
-  24949: 3
-  2200: 2
+  24949: 4
+  4100: 2
+  36723: 2
+  8444: 2
+  5496: 2
 
 Топ схем:
-  vless: 156
-  hysteria2: 66
-  trojan: 11
+  vless: 134
+  hysteria2: 64
+  trojan: 12
 
 Топ transport:
-  tcp: 133
-  xhttp: 35
-  grpc: 33
-  ws: 32
+  tcp: 129
+  ws: 31
+  xhttp: 29
+  grpc: 21
 
 Топ security:
-  reality: 107
-  none: 86
-  tls: 40
+  reality: 97
+  none: 79
+  tls: 34
