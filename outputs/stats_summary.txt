@@ -1,5 +1,5 @@
 VPN Builder stats summary
-Generated at: 2026-08-20 05:33:17 MSK
+Generated at: 2026-08-20 06:29:31 MSK
 
 ====================================================================
 RAW GROUPS
@@ -8,194 +8,188 @@ RAW GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 196
-Уникальных строк: 169
-Уникальных host:port: 67
-Уникальных backend: 52
-Anycast: 77
-Unknown country: 30
+Всего конфигов: 167
+Уникальных строк: 156
+Уникальных host:port: 47
+Уникальных backend: 35
+Anycast: 50
+Unknown country: 15
 
 Топ стран:
-  🌐 Anycast: 77
-  Russia: 42
-  Unknown: 30
-  Netherlands: 18
-  Finland: 8
-  Germany: 8
+  Russia: 69
+  🌐 Anycast: 50
+  Unknown: 15
+  Finland: 11
+  Germany: 9
   France: 6
-  Lithuania: 3
-  Poland: 3
-  United States: 1
+  Poland: 6
+  Netherlands: 1
 
 Топ SNI:
-  www.oracle.com: 24
-  api-maps.yandex.ru: 22
-  max.ru: 20
-  cloud.mail.ru: 9
-  www.sony.com: 8
-  it-one.quiet-rogue.site: 8
-  der.moktana.app: 8
-  fi.chick-team.ru: 7
-  dl.google.com: 7
-  live.ok.ru: 7
+  api-maps.yandex.ru: 26
+  max.ru: 25
+  cloud.mail.ru: 15
+  dl.google.com: 12
+  rzd.ru: 9
+  fi-one.quiet-rogue.site: 8
+  pol8.frost-api.com: 8
+  ya.ru: 6
+  eh.vk.com: 6
+  de-two.quiet-rogue.site: 6
 
 Топ портов:
-  443: 69
-  9002: 16
-  8443: 11
-  6448: 10
-  6447: 8
-  6444: 8
-  2096: 8
-  2200: 8
-  6450: 7
-  4100: 7
+  443: 64
+  8443: 17
+  9002: 17
+  8080: 9
+  2200: 9
+  9001: 9
+  2053: 8
+  9892: 6
+  2096: 5
+  4100: 5
 
 Топ схем:
-  vless: 188
+  vless: 158
   hysteria2: 6
-  trojan: 2
+  trojan: 3
 
 Топ transport:
-  tcp: 95
-  grpc: 59
-  ws: 17
-  xhttp: 13
-  raw: 12
+  tcp: 83
+  grpc: 40
+  xhttp: 23
+  ws: 18
+  raw: 3
 
 Топ security:
-  reality: 160
-  none: 24
-  tls: 11
-  \u0026encryption=none\u0026headertype=\u0026type=tcp: 1
+  reality: 128
+  none: 21
+  tls: 18
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_vless
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 126
-Уникальных строк: 126
-Уникальных host:port: 51
-Уникальных backend: 45
-Anycast: 52
-Unknown country: 21
+Всего конфигов: 102
+Уникальных строк: 102
+Уникальных host:port: 33
+Уникальных backend: 28
+Anycast: 35
+Unknown country: 15
 
 Топ стран:
-  🌐 Anycast: 52
-  Unknown: 21
-  Russia: 16
-  Netherlands: 11
-  Finland: 8
-  Germany: 8
+  🌐 Anycast: 35
+  Russia: 22
+  Unknown: 15
+  Finland: 11
+  Germany: 9
+  Poland: 6
   France: 3
-  Lithuania: 3
-  Poland: 3
-  United States: 1
+  Netherlands: 1
 
 Топ SNI:
-  www.oracle.com: 12
-  it-one.quiet-rogue.site: 8
-  max.ru: 8
-  der.moktana.app: 8
-  fi.chick-team.ru: 7
-  dl.google.com: 7
-  cloud.mail.ru: 7
-  fi-one.quiet-rogue.site: 6
-  pol8.frost-api.com: 6
+  dl.google.com: 12
+  max.ru: 11
+  cloud.mail.ru: 9
+  fi-one.quiet-rogue.site: 8
+  pol8.frost-api.com: 8
+  de-two.quiet-rogue.site: 6
+  deepl.com: 6
+  it-one.quiet-rogue.site: 5
   www.rumedia-cdn.com: 4
+  de2.frost-api.com: 4
 
 Топ портов:
-  443: 49
-  8443: 11
-  2096: 8
-  6450: 7
-  2053: 6
-  2200: 6
-  6448: 5
-  8080: 5
+  443: 41
+  8443: 17
+  2053: 8
+  9892: 6
+  8080: 6
+  2096: 5
   5443: 4
-  6447: 4
+  2200: 4
+  2083: 3
+  52006: 3
 
 Топ схем:
-  vless: 118
+  vless: 93
   hysteria2: 6
-  trojan: 2
+  trojan: 3
 
 Топ transport:
-  tcp: 69
-  grpc: 28
-  xhttp: 12
-  ws: 10
-  raw: 7
+  tcp: 60
+  xhttp: 20
+  grpc: 10
+  ws: 9
+  raw: 3
 
 Топ security:
-  reality: 97
-  none: 17
-  tls: 11
-  \u0026encryption=none\u0026headertype=\u0026type=tcp: 1
+  reality: 72
+  tls: 18
+  none: 12
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW black_all
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 362
-Уникальных строк: 212
-Уникальных host:port: 125
-Уникальных backend: 105
-Anycast: 94
-Unknown country: 144
+Всего конфигов: 399
+Уникальных строк: 249
+Уникальных host:port: 163
+Уникальных backend: 126
+Anycast: 137
+Unknown country: 107
 
 Топ стран:
-  Unknown: 144
-  🌐 Anycast: 94
-  Finland: 38
-  United States: 30
-  Germany: 29
-  Netherlands: 13
-  Russia: 6
-  Japan: 4
+  🌐 Anycast: 137
+  Unknown: 107
+  Finland: 39
+  Germany: 32
+  Netherlands: 30
+  United States: 28
+  Japan: 11
+  France: 7
+  Russia: 4
   Poland: 2
-  Lithuania: 2
 
 Топ SNI:
-  pl.chick-team.ru: 44
-  foodnetwork.com: 14
-  olp.crsmaps.com: 12
-  usa.savesafe.cc: 12
-  se1.se-cdn.ru: 10
-  sp.crsmaps.com: 10
-  d2e1v87ko56lyw.cloudfront.net:assets.opensignal.com: 10
-  www.deepl.com: 8
-  kibi-institut.de: 8
+  pl.chick-team.ru: 39
+  olp.crsmaps.com: 22
+  www.oracle.com: 15
+  sp.crsmaps.com: 12
+  www.apple.com: 9
+  d2e1v87ko56lyw.cloudfront.net:assets.opensignal.com: 9
+  31.15.18.174: 9
+  google.com: 9
+  www.sony.com: 8
   www.google.com: 8
 
 Топ портов:
-  443: 206
-  8443: 48
-  80: 13
-  8080: 10
+  443: 191
+  8443: 79
+  80: 19
+  8080: 16
+  2053: 9
+  2027: 8
   21443: 8
-  36723: 7
-  21446: 4
+  8880: 7
+  21445: 5
   1000: 4
-  2027: 4
-  21445: 4
 
 Топ схем:
-  vless: 240
-  hysteria2: 95
-  vmess: 18
-  trojan: 9
+  vless: 280
+  hysteria2: 101
+  trojan: 14
+  vmess: 4
 
 Топ transport:
-  tcp: 303
-  xhttp: 33
-  ws: 22
-  grpc: 4
+  tcp: 290
+  xhttp: 48
+  ws: 43
+  grpc: 18
 
 Топ security:
-  reality: 214
-  none: 118
-  tls: 27
-  false: 3
+  reality: 232
+  none: 123
+  tls: 39
+  false: 5
 
 ====================================================================
 FINAL GROUPS
@@ -204,313 +198,312 @@ FINAL GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 66
-Уникальных строк: 66
-Уникальных host:port: 66
-Уникальных backend: 46
-Anycast: 29
-Unknown country: 8
+Всего конфигов: 47
+Уникальных строк: 47
+Уникальных host:port: 47
+Уникальных backend: 34
+Anycast: 14
+Unknown country: 6
 
 Топ стран:
-  🌐 Anycast: 29
-  Russia: 14
-  Unknown: 8
-  Finland: 4
-  Germany: 4
-  Netherlands: 4
+  Russia: 18
+  🌐 Anycast: 14
+  Unknown: 6
+  Finland: 3
+  Germany: 3
   France: 1
-  Lithuania: 1
   Poland: 1
+  Netherlands: 1
 
 Топ SNI:
-  max.ru: 5
+  api-maps.yandex.ru: 5
   cloud.mail.ru: 5
-  api-maps.yandex.ru: 4
-  live.ok.ru: 4
+  max.ru: 4
   rzd.ru: 4
   dl.google.com: 3
-  www.oracle.com: 3
-  der.moktana.app: 3
   eh.vk.com: 2
+  de-two.quiet-rogue.site: 2
+  ya.ru: 2
   fi-one.quiet-rogue.site: 2
+  deepl.com: 2
 
 Топ портов:
-  443: 27
-  8443: 5
-  2200: 5
-  4100: 4
+  443: 16
+  8443: 6
+  2200: 4
   9002: 3
   8080: 3
+  9001: 2
   2053: 2
   2096: 2
-  6450: 2
+  4100: 2
   2087: 1
 
 Топ схем:
-  vless: 62
-  hysteria2: 3
+  vless: 42
+  hysteria2: 4
   trojan: 1
 
 Топ transport:
-  tcp: 30
-  grpc: 16
-  ws: 11
-  xhttp: 5
-  raw: 4
+  tcp: 24
+  grpc: 8
+  ws: 8
+  xhttp: 6
+  raw: 1
 
 Топ security:
-  reality: 49
-  none: 13
-  tls: 3
-  \u0026encryption=none\u0026headertype=\u0026type=tcp: 1
+  reality: 32
+  none: 11
+  tls: 4
 
 ────────────────────────────────────────────────────────────────────
 📊 white_vless
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 51
-Уникальных строк: 51
-Уникальных host:port: 51
-Уникальных backend: 39
-Anycast: 23
-Unknown country: 8
+Всего конфигов: 33
+Уникальных строк: 33
+Уникальных host:port: 33
+Уникальных backend: 27
+Anycast: 11
+Unknown country: 6
 
 Топ стран:
-  🌐 Anycast: 23
-  Unknown: 8
-  Russia: 5
-  Finland: 4
-  Germany: 4
-  Netherlands: 4
+  🌐 Anycast: 11
+  Russia: 7
+  Unknown: 6
+  Finland: 3
+  Germany: 3
   France: 1
-  Lithuania: 1
   Poland: 1
+  Netherlands: 1
 
 Топ SNI:
   max.ru: 3
-  www.oracle.com: 3
-  dl.google.com: 3
-  der.moktana.app: 3
   cloud.mail.ru: 3
-  de-two.quiet-rogue.site: 2
-  live.ok.ru: 2
-  it-one.quiet-rogue.site: 2
-  fi.chick-team.ru: 2
+  dl.google.com: 3
   fi-one.quiet-rogue.site: 2
+  deepl.com: 2
+  de-two.quiet-rogue.site: 2
+  rzd.ru: 2
+  it-one.quiet-rogue.site: 2
+  eh.vk.com: 1
+  stream.telemetryapi.uk: 1
 
 Топ портов:
-  443: 22
-  8443: 5
-  2200: 3
-  4100: 2
-  8080: 2
-  2096: 2
-  6450: 2
+  443: 12
+  8443: 6
   2053: 2
-  6443: 1
+  8080: 2
+  2200: 2
+  2096: 2
+  27017: 1
   9892: 1
+  8880: 1
+  2083: 1
 
 Топ схем:
-  vless: 47
-  hysteria2: 3
+  vless: 28
+  hysteria2: 4
   trojan: 1
 
 Топ transport:
-  tcp: 26
-  grpc: 10
-  ws: 7
-  raw: 4
-  xhttp: 4
+  tcp: 20
+  ws: 5
+  xhttp: 5
+  grpc: 2
+  raw: 1
 
 Топ security:
-  reality: 38
-  none: 9
-  tls: 3
-  \u0026encryption=none\u0026headertype=\u0026type=tcp: 1
+  reality: 21
+  none: 8
+  tls: 4
 
 ────────────────────────────────────────────────────────────────────
 📊 black_all
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 124
-Уникальных строк: 124
-Уникальных host:port: 114
-Уникальных backend: 97
-Anycast: 27
-Unknown country: 49
+Всего конфигов: 140
+Уникальных строк: 140
+Уникальных host:port: 139
+Уникальных backend: 112
+Anycast: 46
+Unknown country: 33
 
 Топ стран:
-  Unknown: 49
-  🌐 Anycast: 27
-  Finland: 17
-  Germany: 11
-  United States: 7
-  Netherlands: 7
-  Japan: 3
+  🌐 Anycast: 46
+  Unknown: 33
+  Finland: 18
+  United States: 10
+  Netherlands: 10
+  Germany: 9
+  Japan: 6
+  France: 4
   Russia: 2
-  Lithuania: 1
+  Poland: 1
 
 Топ SNI:
-  se1.se-cdn.ru: 4
+  www.apple.com: 5
   pl.chick-team.ru: 4
-  grape-turbo-fr.roxa.org: 4
+  www.oracle.com: 4
+  dl.google.com: 3
+  id.pervye.ru: 3
+  www.sony.com: 3
   olp.crsmaps.com: 3
-  nl.chick-team.ru: 3
-  www.yahoo.com: 3
   google.com: 3
-  www.oracle.com: 3
-  grape-honk.yyuyy.com: 3
-  usa.savesafe.cc: 2
+  erfanyosyour-name.global.ssl.fastly.net: 3
+  gem.cryptoofarm.com: 2
 
 Топ портов:
-  443: 61
-  8443: 13
-  8080: 5
-  36723: 3
-  80: 3
-  2027: 2
+  443: 70
+  8443: 26
+  80: 9
+  8880: 7
+  2027: 3
+  8444: 2
   21443: 2
-  21445: 2
-  9080: 2
-  2053: 1
+  2087: 1
+  17780: 1
+  24949: 1
 
 Топ схем:
-  vless: 63
-  hysteria2: 46
-  vmess: 10
-  trojan: 5
+  vless: 96
+  hysteria2: 37
+  trojan: 6
+  vmess: 1
 
 Топ transport:
-  tcp: 103
-  xhttp: 11
-  ws: 8
-  grpc: 2
+  tcp: 95
+  xhttp: 20
+  ws: 18
+  grpc: 7
 
 Топ security:
-  none: 58
-  reality: 53
-  tls: 13
+  reality: 71
+  none: 53
+  tls: 15
+  false: 1
 
 ────────────────────────────────────────────────────────────────────
 📊 pool
 ────────────────────────────────────────────────────────────────────
 Всего конфигов: 150
 Уникальных строк: 150
-Уникальных host:port: 141
-Уникальных backend: 114
-Anycast: 48
-Unknown country: 40
+Уникальных host:port: 148
+Уникальных backend: 120
+Anycast: 51
+Unknown country: 32
 
 Топ стран:
-  🌐 Anycast: 48
-  Unknown: 40
+  🌐 Anycast: 51
+  Unknown: 32
   Finland: 17
-  Russia: 15
+  Russia: 16
   Germany: 9
-  Netherlands: 8
-  United States: 6
+  United States: 8
+  Netherlands: 7
+  France: 4
   Japan: 3
-  Lithuania: 2
-  Poland: 1
+  Poland: 2
 
 Топ SNI:
-  max.ru: 5
-  cloud.mail.ru: 5
+  cloud.mail.ru: 6
+  dl.google.com: 5
   api-maps.yandex.ru: 4
-  dl.google.com: 4
-  live.ok.ru: 4
   pl.chick-team.ru: 4
-  grape-turbo-fr.roxa.org: 4
   rzd.ru: 3
-  der.moktana.app: 3
-  se1.se-cdn.ru: 3
+  deepl.com: 3
+  max.ru: 3
+  google.com: 3
+  www.oracle.com: 3
+  www.apple.com: 3
 
 Топ портов:
-  443: 72
-  8443: 15
-  8080: 7
-  2200: 4
-  4100: 4
+  443: 69
+  8443: 24
+  80: 9
+  8880: 7
+  2200: 3
   9002: 3
-  2053: 3
-  27017: 2
-  6450: 2
-  2096: 2
+  8080: 3
+  2027: 3
+  4100: 2
+  2053: 2
 
 Топ схем:
-  vless: 101
-  hysteria2: 35
-  vmess: 8
+  vless: 109
+  hysteria2: 34
   trojan: 6
+  vmess: 1
 
 Топ transport:
-  tcp: 100
-  grpc: 17
-  ws: 16
-  xhttp: 13
-  raw: 4
+  tcp: 94
+  ws: 22
+  xhttp: 21
+  grpc: 12
+  raw: 1
 
 Топ security:
-  reality: 82
-  none: 52
-  tls: 15
-  \u0026encryption=none\u0026headertype=\u0026type=tcp: 1
+  reality: 80
+  none: 53
+  tls: 16
+  false: 1
 
 ────────────────────────────────────────────────────────────────────
 📊 mixed
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 57
-Уникальных строк: 57
-Уникальных host:port: 57
+Всего конфигов: 59
+Уникальных строк: 59
+Уникальных host:port: 59
 Уникальных backend: 48
-Anycast: 22
-Unknown country: 10
+Anycast: 19
+Unknown country: 14
 
 Топ стран:
-  🌐 Anycast: 22
-  Russia: 11
-  Unknown: 10
-  Germany: 4
-  Finland: 4
-  Netherlands: 3
+  🌐 Anycast: 19
+  Russia: 14
+  Unknown: 14
+  Germany: 5
+  Finland: 2
   Poland: 1
-  Lithuania: 1
+  France: 1
+  Japan: 1
+  Netherlands: 1
   United States: 1
 
 Топ SNI:
   cloud.mail.ru: 4
-  max.ru: 3
-  dl.google.com: 3
-  it-one.quiet-rogue.site: 2
-  de-two.quiet-rogue.site: 2
-  fi.chick-team.ru: 2
-  api-maps.yandex.ru: 2
-  der.moktana.app: 2
+  dl.google.com: 4
+  api-maps.yandex.ru: 4
+  max.ru: 2
   eh.vk.com: 2
-  www.oracle.com: 2
+  de-two.quiet-rogue.site: 2
+  ya.ru: 2
+  deepl.com: 2
+  www.apple.com: 2
+  id.pervye.ru: 2
 
 Топ портов:
-  443: 30
-  8443: 7
+  443: 26
+  8443: 11
   8080: 3
-  2096: 2
-  6450: 2
-  9894: 1
-  9002: 1
+  9002: 3
+  2027: 2
   27017: 1
   2053: 1
+  2096: 1
   9892: 1
+  2087: 1
 
 Топ схем:
-  vless: 57
+  vless: 59
 
 Топ transport:
-  tcp: 33
+  tcp: 36
   grpc: 11
-  xhttp: 7
-  raw: 4
-  ws: 2
+  xhttp: 10
+  ws: 1
+  raw: 1
 
 Топ security:
-  reality: 51
+  reality: 53
   tls: 6
 
 ────────────────────────────────────────────────────────────────────
@@ -519,50 +512,51 @@ Unknown country: 10
 Всего конфигов: 25
 Уникальных строк: 25
 Уникальных host:port: 25
-Уникальных backend: 20
+Уникальных backend: 19
 Anycast: 6
 Unknown country: 0
 
 Топ стран:
   Russia: 8
   🌐 Anycast: 6
-  Netherlands: 3
-  United States: 3
-  Japan: 1
-  Finland: 1
+  United States: 5
+  Japan: 2
   France: 1
+  Finland: 1
   Germany: 1
-  Lithuania: 1
+  Poland: 1
 
 Топ SNI:
   api-maps.yandex.ru: 4
-  max.ru: 3
-  cloud.mail.ru: 3
+  max.ru: 2
+  www.apple.com: 2
   eh.vk.com: 2
+  usa.savesafe.cc: 2
+  cloud.mail.ru: 2
   ads.x5.ru: 1
-  www.apple.com: 1
-  nl5.gracefultun.xyz: 1
-  usa.savesafe.cc: 1
-  cli-q.bosx.net: 1
   stream.telemetryapi.uk: 1
+  de.node.sillyvpn.cc: 1
+  accounts.fastly.com: 1
 
 Топ портов:
-  443: 15
+  443: 14
   9002: 3
-  8080: 3
+  8080: 2
   2087: 1
   9001: 1
+  9443: 1
+  17780: 1
   21443: 1
-  8443: 1
+  2027: 1
 
 Топ схем:
   vless: 25
 
 Топ transport:
-  grpc: 8
-  xhttp: 8
-  tcp: 6
-  ws: 3
+  xhttp: 10
+  tcp: 8
+  grpc: 5
+  ws: 2
 
 Топ security:
   reality: 20
@@ -571,75 +565,75 @@ Unknown country: 0
 ====================================================================
 🌍 GLOBAL SUMMARY
 ====================================================================
-Всего конфигов: 473
-Уникальных строк: 190
-Уникальных host:port: 176
-Уникальных backend: 135
-Anycast: 155
-Unknown country: 115
+Всего конфигов: 454
+Уникальных строк: 188
+Уникальных host:port: 179
+Уникальных backend: 138
+Anycast: 147
+Unknown country: 91
 
 Топ стран:
-  🌐 Anycast: 155
-  Unknown: 115
-  Russia: 55
-  Finland: 47
-  Germany: 33
-  Netherlands: 29
-  United States: 17
-  Lithuania: 7
-  Japan: 7
-  France: 4
-  Poland: 4
+  🌐 Anycast: 147
+  Unknown: 91
+  Russia: 65
+  Finland: 44
+  Germany: 30
+  United States: 24
+  Netherlands: 20
+  France: 12
+  Japan: 12
+  Poland: 7
+  Kazakhstan: 2
 
 Топ SNI:
-  cloud.mail.ru: 20
-  max.ru: 19
-  dl.google.com: 14
-  api-maps.yandex.ru: 14
-  www.oracle.com: 13
-  der.moktana.app: 11
-  live.ok.ru: 11
+  cloud.mail.ru: 22
+  dl.google.com: 18
+  api-maps.yandex.ru: 17
+  max.ru: 16
+  www.apple.com: 12
+  deepl.com: 11
+  eh.vk.com: 10
   rzd.ru: 10
   pl.chick-team.ru: 10
-  eh.vk.com: 9
-  fi.chick-team.ru: 9
   de-two.quiet-rogue.site: 8
-  it-one.quiet-rogue.site: 8
-  se1.se-cdn.ru: 8
-  grape-turbo-fr.roxa.org: 8
+  id.pervye.ru: 8
+  www.oracle.com: 8
+  ya.ru: 7
+  fi-one.quiet-rogue.site: 7
+  it-one.quiet-rogue.site: 7
 
 Топ портов:
-  443: 227
-  8443: 46
-  8080: 23
-  2200: 13
-  4100: 11
-  9002: 10
-  2053: 9
-  6450: 9
-  2096: 8
-  27017: 6
-  6447: 5
-  21443: 5
-  80: 5
-  2087: 4
+  443: 207
+  8443: 73
+  80: 18
+  8880: 16
+  8080: 14
+  9002: 12
+  2200: 10
+  2027: 9
+  2053: 8
+  2096: 7
+  2087: 5
+  9001: 5
+  4100: 5
+  52006: 4
   9892: 4
 
 Топ схем:
-  vless: 355
-  hysteria2: 87
-  vmess: 18
-  trojan: 13
+  vless: 359
+  hysteria2: 79
+  trojan: 14
+  vmess: 2
 
 Топ transport:
-  tcp: 298
-  grpc: 64
-  xhttp: 48
-  ws: 47
-  raw: 16
+  tcp: 277
+  xhttp: 72
+  ws: 56
+  grpc: 45
+  raw: 4
 
 Топ security:
-  reality: 293
-  none: 132
-  tls: 45
-  \u0026encryption=none\u0026headertype=\u0026type=tcp: 3
+  reality: 277
+  none: 125
+  tls: 50
+  false: 2
