@@ -1,5 +1,5 @@
 VPN Builder stats summary
-Generated at: 2026-08-20 17:59:35 MSK
+Generated at: 2026-08-20 18:36:21 MSK
 
 ====================================================================
 RAW GROUPS
@@ -8,15 +8,15 @@ RAW GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 119
-Уникальных строк: 118
-Уникальных host:port: 29
-Уникальных backend: 23
-Anycast: 51
+Всего конфигов: 103
+Уникальных строк: 95
+Уникальных host:port: 25
+Уникальных backend: 20
+Anycast: 35
 Unknown country: 13
 
 Топ стран:
-  🌐 Anycast: 51
+  🌐 Anycast: 35
   Russia: 29
   Poland: 16
   Unknown: 13
@@ -28,18 +28,18 @@ Unknown country: 13
   api-maps.yandex.ru: 19
   max.ru: 16
   russia.cendora.ru: 12
-  fitcube-studio.safeeclipse.online: 8
   www.rumedia-cdn.com: 8
   ru9.cdn-global.pro: 8
   live.ok.ru: 8
   89.19.223.136: 5
   sun6-21.userapi.com: 5
-  eh.vk.com: 4
+  test-cdn-vk-d.cdn.cachefleet.com: 4
+  s3-185.marketmust.ru: 4
 
 Топ портов:
-  443: 43
-  8443: 18
+  443: 35
   15443: 16
+  8443: 10
   9001: 10
   9002: 9
   4100: 8
@@ -49,11 +49,11 @@ Unknown country: 13
   2200: 3
 
 Топ схем:
-  vless: 116
+  vless: 100
   hysteria2: 3
 
 Топ transport:
-  tcp: 52
+  tcp: 36
   grpc: 24
   xhttp: 20
   ws: 11
@@ -61,7 +61,7 @@ Unknown country: 13
   httpupgrade: 4
 
 Топ security:
-  reality: 92
+  reality: 76
   none: 19
   tls: 8
 
@@ -190,15 +190,15 @@ FINAL GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 29
-Уникальных строк: 29
-Уникальных host:port: 29
-Уникальных backend: 22
-Anycast: 14
+Всего конфигов: 25
+Уникальных строк: 25
+Уникальных host:port: 25
+Уникальных backend: 19
+Anycast: 10
 Unknown country: 3
 
 Топ стран:
-  🌐 Anycast: 14
+  🌐 Anycast: 10
   Russia: 6
   Unknown: 3
   Poland: 2
@@ -210,17 +210,17 @@ Unknown country: 3
   api-maps.yandex.ru: 4
   max.ru: 2
   www.rumedia-cdn.com: 2
-  russia.cendora.ru: 2
   ru9.cdn-global.pro: 2
-  fitcube-studio.safeeclipse.online: 2
+  russia.cendora.ru: 2
   live.ok.ru: 2
   rzd.ru: 2
-  eh.vk.com: 1
-  360.yandex.ru: 1
+  cdn.dodostatic.net: 1
+  cdn.byteark.com: 1
+  sun6-21.userapi.com: 1
 
 Топ портов:
-  443: 11
-  8443: 5
+  443: 9
+  8443: 3
   9001: 2
   9002: 2
   15443: 2
@@ -231,11 +231,11 @@ Unknown country: 3
   2083: 1
 
 Топ схем:
-  vless: 26
+  vless: 22
   hysteria2: 3
 
 Топ transport:
-  tcp: 14
+  tcp: 10
   grpc: 5
   ws: 4
   xhttp: 3
@@ -243,7 +243,7 @@ Unknown country: 3
   httpupgrade: 1
 
 Топ security:
-  reality: 19
+  reality: 15
   none: 8
   tls: 2
 
@@ -268,15 +268,15 @@ Unknown country: 3
 
 Топ SNI:
   max.ru: 2
-  www.rumedia-cdn.com: 2
   ru9.cdn-global.pro: 2
   russia.cendora.ru: 2
+  www.rumedia-cdn.com: 2
   cdn.dodostatic.net: 1
   cdn.byteark.com: 1
   89.19.223.136: 1
   live.ok.ru: 1
   s3-185.marketmust.ru: 1
-  quic.tyr-agentstvo.tech: 1
+  test-cdn-vk-d.cdn.cachefleet.com: 1
 
 Топ портов:
   443: 9
@@ -320,8 +320,8 @@ Unknown country: 16
   Netherlands: 5
   Germany: 4
   United States: 2
-  Finland: 1
   Poland: 1
+  Finland: 1
   Czechia: 1
 
 Топ SNI:
@@ -332,8 +332,8 @@ Unknown country: 16
   bing.com: 2
   sun6-21.userapi.com: 1
   s1.test.anti-zapret.com: 1
-  policies.google.com: 1
   dropbox.com: 1
+  policies.google.com: 1
   frw.sywl4.uk: 1
 
 Топ портов:
@@ -368,57 +368,57 @@ Unknown country: 16
 ────────────────────────────────────────────────────────────────────
 📊 pool
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 68
-Уникальных строк: 68
-Уникальных host:port: 67
-Уникальных backend: 57
-Anycast: 26
+Всего конфигов: 64
+Уникальных строк: 64
+Уникальных host:port: 63
+Уникальных backend: 54
+Anycast: 22
 Unknown country: 18
 
 Топ стран:
-  🌐 Anycast: 26
+  🌐 Anycast: 22
   Unknown: 18
   Germany: 6
   Russia: 5
   Netherlands: 4
-  United States: 3
   Poland: 3
+  United States: 3
   Japan: 1
-  Finland: 1
   Czechia: 1
+  Finland: 1
 
 Топ SNI:
   api-maps.yandex.ru: 3
   www.rumedia-cdn.com: 3
-  rzd.ru: 2
-  max.ru: 2
-  live.ok.ru: 2
   russia.cendora.ru: 2
-  fitcube-studio.safeeclipse.online: 2
+  max.ru: 2
   ru9.cdn-global.pro: 2
-  css.rbxcdn.com: 2
+  live.ok.ru: 2
+  rzd.ru: 2
+  127.0.0.1: 2
   bing.com: 2
+  google.com: 2
 
 Топ портов:
-  443: 36
-  8443: 6
-  2200: 2
-  9002: 2
+  443: 34
+  8443: 4
   15443: 2
+  9002: 2
   4100: 2
-  7443: 2
+  2200: 2
   80: 2
-  2007: 1
+  7443: 2
+  9001: 1
   2083: 1
 
 Топ схем:
-  vless: 48
+  vless: 44
   hysteria2: 17
   trojan: 2
   vmess: 1
 
 Топ transport:
-  tcp: 47
+  tcp: 43
   ws: 10
   xhttp: 4
   grpc: 4
@@ -426,23 +426,23 @@ Unknown country: 18
   httpupgrade: 1
 
 Топ security:
-  reality: 34
+  reality: 30
   none: 25
   tls: 9
 
 ────────────────────────────────────────────────────────────────────
 📊 mixed
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 40
-Уникальных строк: 40
-Уникальных host:port: 40
-Уникальных backend: 35
-Anycast: 13
+Всего конфигов: 36
+Уникальных строк: 36
+Уникальных host:port: 36
+Уникальных backend: 32
+Anycast: 9
 Unknown country: 11
 
 Топ стран:
-  🌐 Anycast: 13
   Unknown: 11
+  🌐 Anycast: 9
   Russia: 4
   Germany: 4
   Poland: 3
@@ -454,32 +454,32 @@ Unknown country: 11
 Топ SNI:
   api-maps.yandex.ru: 3
   www.rumedia-cdn.com: 3
-  russia.cendora.ru: 2
   ru9.cdn-global.pro: 2
-  fitcube-studio.safeeclipse.online: 2
+  russia.cendora.ru: 2
   max.ru: 2
   sw2.cryptoofarm.com: 2
+  sun6-21.userapi.com: 1
+  test-cdn-vk-d.cdn.cachefleet.com: 1
+  s3-185.marketmust.ru: 1
   cdn.dodostatic.net: 1
-  cdn.byteark.com: 1
-  eh.vk.com: 1
 
 Топ портов:
-  443: 23
-  8443: 5
+  443: 21
+  8443: 3
   9002: 2
   15443: 2
   7443: 2
   9001: 1
+  2083: 1
   2007: 1
   8444: 1
-  2083: 1
   27017: 1
 
 Топ схем:
-  vless: 40
+  vless: 36
 
 Топ transport:
-  tcp: 27
+  tcp: 23
   grpc: 4
   xhttp: 3
   ws: 3
@@ -487,7 +487,7 @@ Unknown country: 11
   httpupgrade: 1
 
 Топ security:
-  reality: 34
+  reality: 30
   tls: 6
 
 ────────────────────────────────────────────────────────────────────
@@ -496,126 +496,131 @@ Unknown country: 11
 Всего конфигов: 25
 Уникальных строк: 25
 Уникальных host:port: 25
-Уникальных backend: 20
-Anycast: 10
-Unknown country: 0
+Уникальных backend: 21
+Anycast: 9
+Unknown country: 1
 
 Топ стран:
-  🌐 Anycast: 10
+  🌐 Anycast: 9
   Russia: 4
-  Germany: 4
+  Germany: 3
   Poland: 3
   United States: 2
   Czechia: 1
   Finland: 1
+  Japan: 1
+  Unknown: 1
 
 Топ SNI:
   api-maps.yandex.ru: 3
   max.ru: 2
-  sw2.cryptoofarm.com: 2
   google.com: 2
-  ru9.cdn-global.pro: 2
-  eh.vk.com: 1
+  sw2.cryptoofarm.com: 2
   sun6-21.userapi.com: 1
-  360.yandex.ru: 1
   s3-185.marketmust.ru: 1
+  api.fuck-you.dyn.site.fwqfw783rg2dad.website: 1
+  195.123.209.50.fwqfw783rg2dad.website: 1
   vbkil.bluecloudnode-balii.sbs: 1
+  frw.sywl4.uk: 1
 
 Топ портов:
-  443: 14
-  8443: 3
+  443: 13
   9002: 2
+  8443: 2
   15443: 2
   7443: 2
   9001: 1
   2007: 1
+  8444: 1
+  27017: 1
 
 Топ схем:
   vless: 23
   trojan: 2
 
 Топ transport:
-  tcp: 13
+  tcp: 10
+  ws: 5
   grpc: 4
-  ws: 4
   xhttp: 3
-  raw: 1
+  raw: 2
+  httpupgrade: 1
 
 Топ security:
-  reality: 20
-  tls: 5
+  reality: 18
+  tls: 7
 
 ====================================================================
 🌍 GLOBAL SUMMARY
 ====================================================================
-Всего конфигов: 223
-Уникальных строк: 75
-Уникальных host:port: 70
-Уникальных backend: 57
-Anycast: 84
-Unknown country: 51
+Всего конфигов: 211
+Уникальных строк: 69
+Уникальных host:port: 66
+Уникальных backend: 54
+Anycast: 71
+Unknown country: 52
 
 Топ стран:
-  🌐 Anycast: 84
-  Unknown: 51
-  Germany: 22
+  🌐 Anycast: 71
+  Unknown: 52
+  Germany: 21
   Russia: 20
   Poland: 14
   United States: 11
   Netherlands: 9
-  Japan: 4
+  Japan: 5
   Finland: 4
   Czechia: 4
 
 Топ SNI:
   api-maps.yandex.ru: 13
-  www.rumedia-cdn.com: 12
+  www.rumedia-cdn.com: 11
   max.ru: 10
-  ru9.cdn-global.pro: 10
   russia.cendora.ru: 9
+  ru9.cdn-global.pro: 8
   sw2.cryptoofarm.com: 8
   google.com: 7
-  fitcube-studio.safeeclipse.online: 6
   cdn.dodostatic.net: 5
+  cdn.byteark.com: 5
   sun6-21.userapi.com: 5
   s3-185.marketmust.ru: 5
   live.ok.ru: 5
   rzd.ru: 5
+  test-cdn-vk-d.cdn.cachefleet.com: 5
   127.0.0.1: 5
-  eh.vk.com: 4
 
 Топ портов:
-  443: 120
-  8443: 23
+  443: 113
+  8443: 16
   15443: 10
   9002: 8
   7443: 8
   9001: 5
   2007: 5
+  8444: 5
   4100: 5
   2200: 5
-  8444: 4
   2083: 4
   80: 4
-  27017: 3
+  27017: 4
   34156: 3
   2042: 2
 
 Топ схем:
-  vless: 176
+  vless: 164
   hysteria2: 38
   trojan: 7
   vmess: 2
 
 Топ transport:
-  tcp: 146
-  ws: 30
+  tcp: 131
+  ws: 31
   grpc: 18
   xhttp: 17
-  raw: 8
-  httpupgrade: 4
+  raw: 9
+  httpupgrade: 5
 
 Топ security:
-  reality: 134
+  reality: 120
   none: 57
-  tls: 32
+  tls: 34
