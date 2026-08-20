@@ -1,5 +1,5 @@
 VPN Builder stats summary
-Generated at: 2026-08-20 21:27:35 MSK
+Generated at: 2026-08-20 22:18:32 MSK
 
 ====================================================================
 RAW GROUPS
@@ -8,94 +8,103 @@ RAW GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 46
-Уникальных строк: 46
-Уникальных host:port: 13
-Уникальных backend: 10
-Anycast: 11
+Всего конфигов: 52
+Уникальных строк: 52
+Уникальных host:port: 15
+Уникальных backend: 12
+Anycast: 12
 Unknown country: 1
 
 Топ стран:
-  Russia: 27
-  🌐 Anycast: 11
-  Germany: 7
+  Russia: 36
+  🌐 Anycast: 12
+  Germany: 2
+  Poland: 1
   Unknown: 1
 
 Топ SNI:
-  api-maps.yandex.ru: 20
-  test-cdn-vk-d.cdn.cachefleet.com: 10
-  89.19.223.136: 6
-  cdn3-85.cdn-vkvideo.com: 5
-  194.87.69.207: 1
+  api-maps.yandex.ru: 30
+  test-cdn-vk-d.cdn.cachefleet.com: 5
+  russia.cendora.ru: 5
+  89.19.223.136: 5
+  135.106.195.75: 1
+  46.17.40.234: 1
+  195.133.23.200: 1
   althys.superbuba.top: 1
   althys2.superbuba.top: 1
-  ru-i-2.monkeyisland.xyz: 1
   quic.tyr-agentstvo.tech: 1
 
 Топ портов:
-  443: 24
-  9002: 10
+  9002: 20
+  443: 17
   9001: 10
-  20998: 1
+  10666: 2
+  701: 1
   8443: 1
+  4100: 1
 
 Топ схем:
-  vless: 41
-  hysteria2: 4
-  ss: 1
+  vless: 47
+  hysteria2: 3
+  ss: 2
 
 Топ transport:
-  grpc: 20
+  grpc: 30
   tcp: 16
-  httpupgrade: 10
+  httpupgrade: 5
+  ws: 1
 
 Топ security:
-  reality: 25
-  tls: 11
-  none: 10
+  reality: 35
+  none: 12
+  tls: 5
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_vless
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 25
-Уникальных строк: 25
-Уникальных host:port: 8
-Уникальных backend: 7
+Всего конфигов: 21
+Уникальных строк: 21
+Уникальных host:port: 9
+Уникальных backend: 9
 Anycast: 11
 Unknown country: 1
 
 Топ стран:
   🌐 Anycast: 11
-  Germany: 7
   Russia: 6
+  Germany: 2
+  Poland: 1
   Unknown: 1
 
 Топ SNI:
-  test-cdn-vk-d.cdn.cachefleet.com: 10
-  89.19.223.136: 6
-  cdn3-85.cdn-vkvideo.com: 5
-  194.87.69.207: 1
+  test-cdn-vk-d.cdn.cachefleet.com: 5
+  russia.cendora.ru: 5
+  89.19.223.136: 5
+  135.106.195.75: 1
+  46.17.40.234: 1
+  195.133.23.200: 1
   althys.superbuba.top: 1
   althys2.superbuba.top: 1
   quic.tyr-agentstvo.tech: 1
 
 Топ портов:
-  443: 23
-  20998: 1
+  443: 17
+  10666: 2
+  701: 1
   8443: 1
 
 Топ схем:
-  vless: 21
+  vless: 16
   hysteria2: 3
-  ss: 1
+  ss: 2
 
 Топ transport:
-  tcp: 15
-  httpupgrade: 10
+  tcp: 16
+  httpupgrade: 5
 
 Топ security:
-  tls: 10
-  none: 10
+  none: 11
+  tls: 5
   reality: 5
 
 ────────────────────────────────────────────────────────────────────
@@ -170,95 +179,104 @@ FINAL GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 13
-Уникальных строк: 13
-Уникальных host:port: 13
-Уникальных backend: 10
-Anycast: 3
+Всего конфигов: 15
+Уникальных строк: 15
+Уникальных host:port: 15
+Уникальных backend: 12
+Anycast: 4
 Unknown country: 1
 
 Топ стран:
-  Russia: 6
-  Germany: 3
-  🌐 Anycast: 3
+  Russia: 7
+  🌐 Anycast: 4
+  Germany: 2
+  Poland: 1
   Unknown: 1
 
 Топ SNI:
-  api-maps.yandex.ru: 4
-  test-cdn-vk-d.cdn.cachefleet.com: 2
-  cdn3-85.cdn-vkvideo.com: 1
-  quic.tyr-agentstvo.tech: 1
-  ru-i-2.monkeyisland.xyz: 1
-  194.87.69.207: 1
+  api-maps.yandex.ru: 5
+  135.106.195.75: 1
+  live.ok.ru: 1
+  russia.cendora.ru: 1
   89.19.223.136: 1
+  test-cdn-vk-d.cdn.cachefleet.com: 1
+  195.133.23.200: 1
+  46.17.40.234: 1
   althys2.superbuba.top: 1
-  althys.superbuba.top: 1
+  quic.tyr-agentstvo.tech: 1
 
 Топ портов:
-  443: 7
-  9002: 2
+  443: 5
+  9002: 3
   9001: 2
+  10666: 2
+  701: 1
+  4100: 1
   8443: 1
-  20998: 1
 
 Топ схем:
-  vless: 8
-  hysteria2: 4
-  ss: 1
+  vless: 10
+  hysteria2: 3
+  ss: 2
 
 Топ transport:
-  tcp: 7
-  grpc: 4
-  httpupgrade: 2
+  tcp: 8
+  grpc: 5
+  ws: 1
+  httpupgrade: 1
 
 Топ security:
-  reality: 5
-  none: 5
-  tls: 3
+  none: 8
+  reality: 6
+  tls: 1
 
 ────────────────────────────────────────────────────────────────────
 📊 white_vless
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 8
-Уникальных строк: 8
-Уникальных host:port: 8
-Уникальных backend: 7
+Всего конфигов: 9
+Уникальных строк: 9
+Уникальных host:port: 9
+Уникальных backend: 9
 Anycast: 3
 Unknown country: 1
 
 Топ стран:
-  Germany: 3
   🌐 Anycast: 3
-  Russia: 1
+  Russia: 2
+  Germany: 2
+  Poland: 1
   Unknown: 1
 
 Топ SNI:
-  test-cdn-vk-d.cdn.cachefleet.com: 2
-  89.19.223.136: 1
-  cdn3-85.cdn-vkvideo.com: 1
-  194.87.69.207: 1
+  135.106.195.75: 1
+  195.133.23.200: 1
+  russia.cendora.ru: 1
+  test-cdn-vk-d.cdn.cachefleet.com: 1
+  46.17.40.234: 1
   althys.superbuba.top: 1
-  althys2.superbuba.top: 1
   quic.tyr-agentstvo.tech: 1
+  89.19.223.136: 1
+  althys2.superbuba.top: 1
 
 Топ портов:
-  443: 6
-  20998: 1
+  443: 5
+  10666: 2
+  701: 1
   8443: 1
 
 Топ схем:
   vless: 4
   hysteria2: 3
-  ss: 1
+  ss: 2
 
 Топ transport:
-  tcp: 6
-  httpupgrade: 2
+  tcp: 8
+  httpupgrade: 1
 
 Топ security:
-  none: 5
-  tls: 2
+  none: 7
   reality: 1
+  tls: 1
 
 ────────────────────────────────────────────────────────────────────
 📊 black_all
@@ -286,11 +304,11 @@ Unknown country: 30
   www.cloudflare.com: 4
   google.com: 3
   auto.cendora.ru: 3
-  eu-west.cendora.ru: 2
-  eu-central.cendora.ru: 2
   de.monkora.org: 2
+  eu-west.cendora.ru: 2
   id.pervye.ru: 2
   yahoo.com: 2
+  eu-central.cendora.ru: 2
   hk.monkora.org: 2
   css.rbxcdn.com: 2
 
@@ -301,10 +319,10 @@ Unknown country: 30
   8080: 3
   3443: 2
   1935: 2
-  2053: 1
   10131: 1
+  2053: 1
   709: 1
-  17833: 1
+  80: 1
 
 Топ схем:
   vless: 38
@@ -327,10 +345,10 @@ Unknown country: 30
 ────────────────────────────────────────────────────────────────────
 📊 pool
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 83
-Уникальных строк: 83
-Уникальных host:port: 72
-Уникальных backend: 65
+Всего конфигов: 85
+Уникальных строк: 85
+Уникальных host:port: 73
+Уникальных backend: 68
 Anycast: 23
 Unknown country: 31
 
@@ -338,63 +356,63 @@ Unknown country: 31
   Unknown: 31
   🌐 Anycast: 23
   Germany: 9
-  Russia: 6
+  Russia: 7
   Netherlands: 4
   India: 3
+  Poland: 2
   United States: 2
-  Kazakhstan: 1
-  Czechia: 1
   Austria: 1
+  Kazakhstan: 1
 
 Топ SNI:
   api-maps.yandex.ru: 4
-  google.com: 3
   www.cloudflare.com: 3
-  test-cdn-vk-d.cdn.cachefleet.com: 2
-  hk.monkora.org: 2
-  eu-central.cendora.ru: 2
-  id.pervye.ru: 2
-  de.monkora.org: 2
+  althys2.superbuba.top: 2
+  auto.cendora.ru: 2
   grape-turbo-fr.roxa.org: 2
+  yahoo.com: 2
   eu-west.cendora.ru: 2
+  google.com: 2
+  bing.com: 2
+  id.pervye.ru: 2
 
 Топ портов:
-  443: 45
+  443: 44
   8443: 4
   8080: 3
   9002: 2
   9001: 2
-  3443: 2
+  10666: 2
   13443: 2
   1935: 2
-  20998: 1
-  2053: 1
+  3443: 2
+  701: 1
 
 Топ схем:
-  vless: 43
-  hysteria2: 24
+  vless: 44
+  hysteria2: 25
   vmess: 11
-  trojan: 4
-  ss: 1
+  trojan: 3
+  ss: 2
 
 Топ transport:
-  tcp: 63
+  tcp: 66
   ws: 8
   grpc: 6
-  httpupgrade: 3
   xhttp: 3
+  httpupgrade: 2
 
 Топ security:
-  none: 37
+  none: 41
   reality: 31
-  tls: 15
+  tls: 13
 
 ────────────────────────────────────────────────────────────────────
 📊 mixed
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 39
-Уникальных строк: 39
-Уникальных host:port: 39
+Всего конфигов: 38
+Уникальных строк: 38
+Уникальных host:port: 38
 Уникальных backend: 28
 Anycast: 13
 Unknown country: 10
@@ -402,27 +420,27 @@ Unknown country: 10
 Топ стран:
   🌐 Anycast: 13
   Unknown: 10
-  Germany: 6
+  Germany: 5
   Russia: 4
-  United States: 2
   India: 2
+  United States: 2
   Netherlands: 1
   Kazakhstan: 1
 
 Топ SNI:
   api-maps.yandex.ru: 4
-  test-cdn-vk-d.cdn.cachefleet.com: 2
-  eu-west.cendora.ru: 2
-  eu-central.cendora.ru: 2
-  www.cloudflare.com: 2
-  auto.cendora.ru: 2
-  yahoo.com: 2
-  hk.monkora.org: 2
   de.monkora.org: 2
+  auto.cendora.ru: 2
+  www.cloudflare.com: 2
   id.pervye.ru: 2
+  yahoo.com: 2
+  eu-central.cendora.ru: 2
+  hk.monkora.org: 2
+  eu-west.cendora.ru: 2
+  test-cdn-vk-d.cdn.cachefleet.com: 1
 
 Топ портов:
-  443: 28
+  443: 27
   9001: 2
   9002: 2
   13443: 2
@@ -432,18 +450,18 @@ Unknown country: 10
   2053: 1
 
 Топ схем:
-  vless: 39
+  vless: 38
 
 Топ transport:
   tcp: 24
   grpc: 6
-  httpupgrade: 3
   xhttp: 3
   ws: 3
+  httpupgrade: 2
 
 Топ security:
   reality: 30
-  tls: 9
+  tls: 8
 
 ────────────────────────────────────────────────────────────────────
 📊 lte
@@ -451,14 +469,14 @@ Unknown country: 10
 Всего конфигов: 25
 Уникальных строк: 25
 Уникальных host:port: 25
-Уникальных backend: 19
-Anycast: 7
+Уникальных backend: 20
+Anycast: 8
 Unknown country: 2
 
 Топ стран:
-  🌐 Anycast: 7
+  🌐 Anycast: 8
   Russia: 5
-  Germany: 5
+  Germany: 4
   United States: 2
   India: 2
   Unknown: 2
@@ -468,21 +486,21 @@ Unknown country: 2
 Топ SNI:
   api-maps.yandex.ru: 4
   de.monkora.org: 2
-  id.pervye.ru: 2
   www.cloudflare.com: 2
   google.com: 2
-  nl7.gracefultun.xyz: 1
   production-ae0f.up.railway.app: 1
+  nl7.gracefultun.xyz: 1
+  cloudflare.vhub.pro: 1
   music1000.melobitmusic1.ir: 1
   usa1.razkur.dev: 1
-  nordic.cendora.ru: 1
+  id.pervye.ru: 1
 
 Топ портов:
-  443: 18
-  9001: 2
+  443: 19
   9002: 2
-  3443: 2
+  9001: 2
   2053: 1
+  3443: 1
 
 Топ схем:
   vless: 21
@@ -491,87 +509,87 @@ Unknown country: 2
 
 Топ transport:
   tcp: 11
-  grpc: 6
-  ws: 5
+  ws: 6
+  grpc: 5
   xhttp: 3
 
 Топ security:
-  reality: 16
-  tls: 9
+  reality: 15
+  tls: 10
 
 ====================================================================
 🌍 GLOBAL SUMMARY
 ====================================================================
-Всего конфигов: 244
-Уникальных строк: 89
-Уникальных host:port: 74
-Уникальных backend: 65
-Anycast: 70
+Всего конфигов: 248
+Уникальных строк: 91
+Уникальных host:port: 77
+Уникальных backend: 68
+Anycast: 72
 Unknown country: 75
 
 Топ стран:
   Unknown: 75
-  🌐 Anycast: 70
-  Germany: 34
-  Russia: 24
+  🌐 Anycast: 72
+  Germany: 30
+  Russia: 27
   India: 11
   Netherlands: 10
   United States: 8
+  Poland: 5
   Kazakhstan: 4
   Czechia: 2
-  Poland: 2
   Japan: 2
   Austria: 2
 
 Топ SNI:
-  api-maps.yandex.ru: 16
+  api-maps.yandex.ru: 17
   www.cloudflare.com: 11
-  test-cdn-vk-d.cdn.cachefleet.com: 8
   de.monkora.org: 8
-  id.pervye.ru: 8
-  google.com: 8
   eu-west.cendora.ru: 7
-  eu-central.cendora.ru: 7
+  id.pervye.ru: 7
   yahoo.com: 7
+  eu-central.cendora.ru: 7
+  google.com: 7
   auto.cendora.ru: 7
   hk.monkora.org: 6
-  cdn3-85.cdn-vkvideo.com: 5
-  ru-i-2.monkeyisland.xyz: 4
+  althys2.superbuba.top: 5
+  russia.cendora.ru: 4
   89.19.223.136: 4
-  althys2.superbuba.top: 4
+  test-cdn-vk-d.cdn.cachefleet.com: 4
+  althys.superbuba.top: 4
 
 Топ портов:
-  443: 147
+  443: 143
+  9002: 9
   8443: 9
-  9002: 8
   9001: 8
-  3443: 8
+  3443: 7
   13443: 7
+  10666: 6
   8080: 6
   2053: 4
   1935: 4
-  20998: 3
+  701: 3
   709: 3
   17833: 3
+  4100: 2
   10131: 2
-  80: 2
-  32135: 2
 
 Топ схем:
-  vless: 153
+  vless: 155
   hysteria2: 55
   vmess: 22
-  trojan: 11
-  ss: 3
+  trojan: 10
+  ss: 6
 
 Топ transport:
-  tcp: 173
+  tcp: 179
+  ws: 26
   grpc: 24
-  ws: 24
   xhttp: 12
-  httpupgrade: 11
+  httpupgrade: 7
 
 Топ security:
   reality: 111
-  none: 82
-  tls: 51
+  none: 91
+  tls: 46
