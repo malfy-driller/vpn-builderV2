@@ -1,5 +1,5 @@
 VPN Builder stats summary
-Generated at: 2026-08-21 19:03:32 MSK
+Generated at: 2026-08-21 19:56:17 MSK
 
 ====================================================================
 RAW GROUPS
@@ -111,61 +111,67 @@ Unknown country: 10
 ────────────────────────────────────────────────────────────────────
 📊 RAW black_all
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 279
-Уникальных строк: 193
-Уникальных host:port: 47
-Уникальных backend: 45
-Anycast: 89
-Unknown country: 96
+Всего конфигов: 399
+Уникальных строк: 254
+Уникальных host:port: 110
+Уникальных backend: 101
+Anycast: 69
+Unknown country: 107
 
 Топ стран:
-  Unknown: 96
-  🌐 Anycast: 89
-  United States: 34
-  Russia: 26
-  Japan: 16
-  Netherlands: 14
-  Germany: 4
+  Unknown: 107
+  United States: 74
+  🌐 Anycast: 69
+  Netherlands: 61
+  Germany: 21
+  France: 14
+  Finland: 13
+  Kazakhstan: 12
+  Russia: 11
+  Bulgaria: 6
 
 Топ SNI:
-  docs.aws.amazon.com: 36
-  www.apple.com: 24
-  vip-us-6.hkd4fwmg.xyz: 22
-  89.19.223.136: 14
-  vip-nl-1.hkd4fwmg.vip: 13
-  auto.cendora.ru: 12
-  www.hp.com: 12
-  vip-ca-1.hkd4fwmg.xyz: 12
-  za12kl3.bingnet.online: 12
-  d2e1v87ko56lyw.cloudfront.net:assets.opensignal.com: 12
+  download.nvidia.com: 62
+  cdn.steamstatic.com: 31
+  docs.aws.amazon.com: 16
+  amp-api-edge.apps.apple.com: 14
+  dl.dell.com: 12
+  www.amd.com: 12
+  www.bing.com: 11
+  cf.udpid.org: 10
+  vip-us-6.hkd4fwmg.xyz: 10
+  vip-sg-1.hkd4fwmg.vip: 9
 
 Топ портов:
-  443: 93
-  80: 16
-  31883: 12
-  13443: 12
-  10026: 12
-  44547: 12
-  2053: 12
-  53113: 12
-  6897: 12
-  64294: 12
+  443: 185
+  8443: 95
+  8444: 22
+  17780: 14
+  80: 8
+  21802: 7
+  13758: 7
+  6897: 6
+  15884: 6
+  8080: 6
 
 Топ схем:
-  vless: 210
-  hysteria2: 47
-  trojan: 20
-  vmess: 2
+  vless: 316
+  hysteria2: 49
+  trojan: 29
+  vmess: 5
 
 Топ transport:
-  tcp: 215
-  ws: 52
-  xhttp: 12
+  tcp: 181
+  xhttp: 111
+  grpc: 80
+  ws: 25
+  raw: 2
 
 Топ security:
-  reality: 108
-  none: 90
-  tls: 81
+  reality: 281
+  none: 59
+  tls: 56
+  false: 3
 
 ====================================================================
 FINAL GROUPS
@@ -196,14 +202,14 @@ Unknown country: 0
   s3.x10groupserver.top: 1
   benz.ink: 1
   test-cdn-vk-d.cdn.cachefleet.com: 1
-  stats.vk-portal.net: 1
   ya.ru: 1
   www.bing.com: 1
+  stats.vk-portal.net: 1
 
 Топ портов:
   443: 9
-  8443: 3
   9001: 3
+  8443: 3
   9002: 3
   14407: 1
   2200: 1
@@ -237,18 +243,18 @@ Unknown country: 0
   Russia: 4
   🌐 Anycast: 3
   Kazakhstan: 2
-  Germany: 1
   Netherlands: 1
+  Germany: 1
 
 Топ SNI:
   dl.dell.com: 2
   russianum1.tcpshield.fun: 2
   res.cdn.office.net: 2
+  s3.x10groupserver.top: 1
   benz.ink: 1
   test-cdn-vk-d.cdn.cachefleet.com: 1
-  s3.x10groupserver.top: 1
-  rzd.ru: 1
   www.bing.com: 1
+  rzd.ru: 1
 
 Топ портов:
   443: 7
@@ -261,8 +267,8 @@ Unknown country: 0
 Топ transport:
   grpc: 3
   xhttp: 3
-  ws: 2
   tcp: 2
+  ws: 2
   httpupgrade: 1
 
 Топ security:
@@ -273,181 +279,192 @@ Unknown country: 0
 ────────────────────────────────────────────────────────────────────
 📊 black_all
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 48
-Уникальных строк: 48
-Уникальных host:port: 47
-Уникальных backend: 42
-Anycast: 18
-Unknown country: 16
+Всего конфигов: 108
+Уникальных строк: 108
+Уникальных host:port: 105
+Уникальных backend: 77
+Anycast: 23
+Unknown country: 27
 
 Топ стран:
-  🌐 Anycast: 18
-  Unknown: 16
-  Japan: 4
-  United States: 3
-  Netherlands: 3
-  Russia: 2
-  Germany: 2
+  Unknown: 27
+  🌐 Anycast: 23
+  United States: 16
+  Netherlands: 11
+  Germany: 8
+  Russia: 5
+  France: 4
+  Poland: 3
+  Bulgaria: 3
+  Finland: 3
 
 Топ SNI:
-  docs.aws.amazon.com: 3
+  download.nvidia.com: 10
+  cdn.steamstatic.com: 4
+  amp-api-edge.apps.apple.com: 4
+  cf.udpid.org: 4
+  docs.aws.amazon.com: 4
+  www.bing.com: 3
   vip-sg-1.hkd4fwmg.vip: 3
-  www.apple.com: 2
-  vip-us-6.hkd4fwmg.xyz: 2
-  vip-nl-1.hkd4fwmg.vip: 2
-  vip-jp-4.hkd4fwmg.vip: 2
-  bing.com: 2
-  89.19.223.136: 1
-  russianum1.tcpshield.fun: 1
-  ghosts-spasm.quick-cdn.net: 1
+  127.0.0.1: 3
+  dl.dell.com: 2
+  dl.kaspersky.com: 2
 
 Топ портов:
-  443: 15
-  2056: 4
+  443: 54
+  8443: 19
+  17780: 4
+  8080: 3
+  8444: 2
   80: 2
   32135: 2
-  8443: 2
-  1935: 2
   12645: 2
-  13758: 1
-  2053: 1
-  6897: 1
+  110: 1
+  38609: 1
 
 Топ схем:
+  vless: 72
   hysteria2: 27
-  vless: 18
-  trojan: 2
-  vmess: 1
+  trojan: 6
+  vmess: 3
 
 Топ transport:
-  tcp: 42
-  ws: 5
-  xhttp: 1
+  tcp: 70
+  xhttp: 17
+  grpc: 12
+  ws: 8
+  raw: 1
 
 Топ security:
+  reality: 58
   none: 32
-  reality: 9
-  tls: 7
+  tls: 18
 
 ────────────────────────────────────────────────────────────────────
 📊 pool
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 64
-Уникальных строк: 64
-Уникальных host:port: 63
-Уникальных backend: 53
-Anycast: 23
-Unknown country: 15
+Всего конфигов: 122
+Уникальных строк: 122
+Уникальных host:port: 115
+Уникальных backend: 86
+Anycast: 28
+Unknown country: 27
 
 Топ стран:
-  🌐 Anycast: 23
-  Unknown: 15
-  Russia: 10
-  Netherlands: 4
-  Japan: 4
-  Germany: 3
-  United States: 3
-  Kazakhstan: 2
+  🌐 Anycast: 28
+  Unknown: 27
+  United States: 15
+  Russia: 12
+  Netherlands: 12
+  Germany: 9
+  France: 4
+  Kazakhstan: 3
+  Bulgaria: 3
+  Finland: 3
 
 Топ SNI:
+  download.nvidia.com: 10
+  russianum1.tcpshield.fun: 4
   api-maps.yandex.ru: 4
-  docs.aws.amazon.com: 3
-  dl.dell.com: 2
-  russianum1.tcpshield.fun: 2
-  res.cdn.office.net: 2
-  rzd.ru: 2
-  www.apple.com: 2
-  vip-us-6.hkd4fwmg.xyz: 2
-  vip-jp-4.hkd4fwmg.vip: 2
-  bing.com: 2
+  www.bing.com: 4
+  cdn.steamstatic.com: 4
+  docs.aws.amazon.com: 4
+  amp-api-edge.apps.apple.com: 4
+  dl.dell.com: 3
+  127.0.0.1: 3
+  cf.udpid.org: 3
 
 Топ портов:
-  443: 23
-  8443: 5
-  2056: 4
+  443: 60
+  8443: 21
+  17780: 4
+  8080: 3
   9002: 2
   9001: 2
-  2200: 2
-  32135: 2
-  1935: 2
   80: 2
-  14407: 1
+  32135: 2
+  8444: 2
+  12645: 2
 
 Топ схем:
-  vless: 35
-  hysteria2: 26
-  trojan: 2
-  vmess: 1
+  vless: 86
+  hysteria2: 27
+  trojan: 6
+  vmess: 3
 
 Топ transport:
-  tcp: 45
-  grpc: 7
-  ws: 7
-  xhttp: 4
+  tcp: 74
+  xhttp: 19
+  grpc: 18
+  ws: 9
   httpupgrade: 1
+  raw: 1
 
 Топ security:
-  none: 32
-  reality: 23
-  tls: 9
+  reality: 70
+  none: 33
+  tls: 19
 
 ────────────────────────────────────────────────────────────────────
 📊 mixed
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 30
-Уникальных строк: 30
-Уникальных host:port: 30
-Уникальных backend: 25
-Anycast: 8
-Unknown country: 5
+Всего конфигов: 57
+Уникальных строк: 57
+Уникальных host:port: 56
+Уникальных backend: 45
+Anycast: 14
+Unknown country: 7
 
 Топ стран:
-  Russia: 9
-  🌐 Anycast: 8
-  Unknown: 5
+  🌐 Anycast: 14
+  Russia: 10
+  United States: 8
+  Netherlands: 7
+  Unknown: 7
+  Germany: 3
   Kazakhstan: 2
-  Netherlands: 2
-  United States: 2
-  Germany: 1
-  Japan: 1
+  France: 2
+  Bulgaria: 1
+  Finland: 1
 
 Топ SNI:
+  download.nvidia.com: 7
   api-maps.yandex.ru: 4
-  docs.aws.amazon.com: 3
-  res.cdn.office.net: 2
+  cdn.steamstatic.com: 3
   russianum1.tcpshield.fun: 2
+  www.bing.com: 2
+  stats.vk-portal.net: 2
+  res.cdn.office.net: 2
   dl.dell.com: 2
-  www.apple.com: 2
-  ya.ru: 1
-  vk.ru: 1
-  test-cdn-vk-d.cdn.cachefleet.com: 1
-  s3.x10groupserver.top: 1
+  amp-api-edge.apps.apple.com: 2
+  usa-select.savesafe.cc: 2
 
 Топ портов:
-  443: 13
-  8443: 3
-  9001: 2
+  443: 33
+  8443: 11
   9002: 2
+  9001: 2
+  17780: 2
   14407: 1
-  13443: 1
-  53113: 1
-  10026: 1
+  15884: 1
   44547: 1
+  38609: 1
   6897: 1
 
 Топ схем:
-  vless: 30
+  vless: 57
 
 Топ transport:
-  tcp: 15
-  grpc: 7
-  xhttp: 4
-  ws: 3
+  tcp: 26
+  grpc: 14
+  xhttp: 11
+  ws: 4
   httpupgrade: 1
+  raw: 1
 
 Топ security:
-  reality: 23
-  tls: 7
+  reality: 49
+  tls: 8
 
 ────────────────────────────────────────────────────────────────────
 📊 lte
@@ -455,127 +472,126 @@ Unknown country: 5
 Всего конфигов: 25
 Уникальных строк: 25
 Уникальных host:port: 25
-Уникальных backend: 19
-Anycast: 6
-Unknown country: 2
+Уникальных backend: 18
+Anycast: 1
+Unknown country: 0
 
 Топ стран:
-  Russia: 9
-  🌐 Anycast: 6
-  United States: 3
-  Kazakhstan: 2
-  Unknown: 2
-  Japan: 1
+  United States: 10
+  Russia: 6
+  Netherlands: 3
   Germany: 1
-  Netherlands: 1
+  Kazakhstan: 1
+  Finland: 1
+  France: 1
+  Poland: 1
+  🌐 Anycast: 1
 
 Топ SNI:
+  download.nvidia.com: 5
   api-maps.yandex.ru: 4
-  www.apple.com: 2
-  res.cdn.office.net: 2
-  dl.dell.com: 2
-  russianum1.tcpshield.fun: 2
-  vip-us-6.hkd4fwmg.xyz: 2
-  ghosts-spasm.quick-cdn.net: 1
+  cf.udpid.org: 2
+  download.autodesk.com: 2
+  dl.kaspersky.com: 2
+  usa-select.savesafe.cc: 2
+  cdn.steamstatic.com: 2
   benz.ink: 1
-  za12kl3.bingnet.online: 1
-  ya.ru: 1
+  russianum1.tcpshield.fun: 1
+  dl.dell.com: 1
 
 Топ портов:
-  443: 12
-  8443: 3
-  9001: 2
+  443: 16
+  8443: 4
   9002: 2
-  2053: 1
-  38609: 1
-  13758: 1
-  14407: 1
-  53113: 1
-  44547: 1
+  9001: 2
+  8444: 1
 
 Топ схем:
-  vless: 24
-  trojan: 1
+  vless: 25
 
 Топ transport:
-  tcp: 10
+  xhttp: 14
   grpc: 7
-  xhttp: 4
-  ws: 3
-  httpupgrade: 1
+  ws: 4
 
 Топ security:
-  reality: 18
-  tls: 7
+  reality: 21
+  tls: 4
 
 ====================================================================
 🌍 GLOBAL SUMMARY
 ====================================================================
-Всего конфигов: 198
-Уникальных строк: 69
-Уникальных host:port: 66
-Уникальных backend: 53
-Anycast: 64
-Unknown country: 38
+Всего конфигов: 343
+Уникальных строк: 129
+Уникальных host:port: 118
+Уникальных backend: 86
+Anycast: 75
+Unknown country: 61
 
 Топ стран:
-  🌐 Anycast: 64
-  Russia: 44
-  Unknown: 38
-  Netherlands: 12
-  United States: 11
-  Kazakhstan: 10
-  Japan: 10
-  Germany: 9
+  🌐 Anycast: 75
+  Unknown: 61
+  United States: 49
+  Russia: 47
+  Netherlands: 35
+  Germany: 23
+  Kazakhstan: 12
+  France: 11
+  Poland: 8
+  Finland: 8
+  Bulgaria: 7
+  Japan: 4
+  Switzerland: 3
 
 Топ SNI:
+  download.nvidia.com: 32
   api-maps.yandex.ru: 18
-  russianum1.tcpshield.fun: 11
-  dl.dell.com: 10
-  res.cdn.office.net: 10
+  russianum1.tcpshield.fun: 13
+  cdn.steamstatic.com: 13
+  dl.dell.com: 12
+  res.cdn.office.net: 11
+  www.bing.com: 11
+  amp-api-edge.apps.apple.com: 10
+  cf.udpid.org: 10
   docs.aws.amazon.com: 10
-  www.apple.com: 8
-  vip-us-6.hkd4fwmg.xyz: 7
-  s3.x10groupserver.top: 5
-  benz.ink: 5
-  test-cdn-vk-d.cdn.cachefleet.com: 5
-  www.bing.com: 5
-  rzd.ru: 5
-  vip-nl-1.hkd4fwmg.vip: 5
-  vip-sg-1.hkd4fwmg.vip: 5
-  stats.vk-portal.net: 4
+  usa-select.savesafe.cc: 8
+  dl.kaspersky.com: 7
+  stats.vk-portal.net: 6
+  download.autodesk.com: 6
+  www.amd.com: 6
 
 Топ портов:
-  443: 79
-  8443: 19
+  443: 179
+  8443: 61
+  17780: 10
   9001: 9
   9002: 9
-  2056: 8
-  2200: 5
-  14407: 4
-  2053: 4
-  44547: 4
-  38609: 4
+  8444: 6
+  8080: 6
   80: 4
-  53113: 4
   32135: 4
-  1935: 4
-  13758: 3
+  12645: 4
+  14407: 3
+  2200: 3
+  38609: 3
+  44547: 3
+  15884: 3
 
 Топ схем:
-  vless: 138
-  hysteria2: 53
-  trojan: 5
-  vmess: 2
+  vless: 271
+  hysteria2: 54
+  trojan: 12
+  vmess: 6
 
 Топ transport:
-  tcp: 118
-  grpc: 33
-  ws: 22
-  xhttp: 20
-  httpupgrade: 5
+  tcp: 176
+  xhttp: 68
+  grpc: 63
+  ws: 29
+  httpupgrade: 4
+  raw: 3
 
 Топ security:
-  reality: 98
-  none: 66
-  tls: 34
+  reality: 223
+  none: 67
+  tls: 53
