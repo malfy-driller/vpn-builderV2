@@ -1,5 +1,5 @@
 VPN Builder stats summary
-Generated at: 2026-08-21 09:34:19 MSK
+Generated at: 2026-08-21 10:29:26 MSK
 
 ====================================================================
 RAW GROUPS
@@ -8,110 +8,111 @@ RAW GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 87
-Уникальных строк: 85
-Уникальных host:port: 20
-Уникальных backend: 13
-Anycast: 23
-Unknown country: 0
+Всего конфигов: 107
+Уникальных строк: 95
+Уникальных host:port: 24
+Уникальных backend: 14
+Anycast: 35
+Unknown country: 6
 
 Топ стран:
-  Russia: 43
-  🌐 Anycast: 23
-  Netherlands: 6
-  France: 5
-  Germany: 5
+  🌐 Anycast: 35
+  Russia: 35
+  Germany: 25
+  Unknown: 6
   Japan: 5
+  Netherlands: 1
 
 Топ SNI:
-  api-maps.yandex.ru: 25
+  api-maps.yandex.ru: 30
+  api.yandex-cloud.org: 25
+  www.ray-balance.space: 20
   russianum1.tcpshield.fun: 10
-  89.19.223.136: 8
-  live.ok.ru: 6
-  rzd.ru: 6
-  194.26.229.225: 6
   quic.tyr-agentstvo.tech: 5
-  host.pushbyte.cc: 5
-  api.stream.telemetryapi.uk: 5
+  89.19.223.136: 5
   cdn.byteark.com: 5
+  els1.mangshe.xyz: 2
+  live.ok.ru: 1
+  robon.mashhad1market.ir: 1
 
 Топ портов:
-  443: 29
+  443: 56
+  9002: 15
   9001: 15
-  2200: 12
   8443: 10
-  9002: 10
-  4100: 6
   8444: 5
+  2056: 4
+  4100: 1
+  1080: 1
 
 Топ схем:
-  vless: 81
-  hysteria2: 6
+  vless: 96
+  hysteria2: 10
+  ss: 1
 
 Топ transport:
+  tcp: 61
   grpc: 35
-  ws: 23
-  tcp: 14
-  xhttp: 10
   raw: 5
+  xhttp: 5
+  ws: 1
 
 Топ security:
-  reality: 45
-  none: 32
-  tls: 10
+  reality: 90
+  none: 16
+  tls: 1
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_vless
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 59
-Уникальных строк: 59
-Уникальных host:port: 14
-Уникальных backend: 11
-Anycast: 20
-Unknown country: 0
+Всего конфигов: 61
+Уникальных строк: 61
+Уникальных host:port: 17
+Уникальных backend: 9
+Anycast: 14
+Unknown country: 6
 
 Топ стран:
-  🌐 Anycast: 20
-  Russia: 18
-  Netherlands: 6
-  France: 5
-  Germany: 5
+  Germany: 25
+  🌐 Anycast: 14
+  Russia: 10
+  Unknown: 6
   Japan: 5
+  Netherlands: 1
 
 Топ SNI:
+  api.yandex-cloud.org: 25
+  www.ray-balance.space: 10
   russianum1.tcpshield.fun: 10
-  89.19.223.136: 8
-  rzd.ru: 6
-  194.26.229.225: 6
-  host.pushbyte.cc: 5
-  api.stream.telemetryapi.uk: 5
+  89.19.223.136: 5
   cdn.byteark.com: 5
-  m1.vk.ru: 5
-  live.ok.ru: 5
   quic.tyr-agentstvo.tech: 3
+  live.ok.ru: 1
+  robon.mashhad1market.ir: 1
+  hy222.routeon.pro: 1
 
 Топ портов:
-  443: 29
-  2200: 12
+  443: 46
   8443: 8
   8444: 5
-  4100: 5
+  4100: 1
+  1080: 1
 
 Топ схем:
-  vless: 55
+  vless: 56
   hysteria2: 4
+  ss: 1
 
 Топ transport:
-  ws: 22
-  tcp: 12
-  xhttp: 10
-  grpc: 10
+  tcp: 45
   raw: 5
+  xhttp: 5
+  grpc: 5
+  ws: 1
 
 Топ security:
-  none: 29
-  reality: 20
-  tls: 10
+  reality: 50
+  none: 11
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW black_all
@@ -186,110 +187,110 @@ FINAL GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 20
-Уникальных строк: 20
-Уникальных host:port: 20
-Уникальных backend: 12
-Anycast: 7
-Unknown country: 0
+Всего конфигов: 23
+Уникальных строк: 23
+Уникальных host:port: 23
+Уникальных backend: 13
+Anycast: 9
+Unknown country: 2
 
 Топ стран:
-  Russia: 8
-  🌐 Anycast: 7
-  Netherlands: 2
-  France: 1
-  Germany: 1
+  🌐 Anycast: 9
+  Russia: 6
+  Germany: 4
+  Unknown: 2
   Japan: 1
+  Netherlands: 1
 
 Топ SNI:
   api-maps.yandex.ru: 5
+  api.yandex-cloud.org: 4
   quic.tyr-agentstvo.tech: 3
-  live.ok.ru: 2
   russianum1.tcpshield.fun: 2
-  rzd.ru: 2
-  host.pushbyte.cc: 1
-  api.stream.telemetryapi.uk: 1
-  cdn.byteark.com: 1
-  m1.vk.ru: 1
+  www.ray-balance.space: 2
   89.19.223.136: 1
+  live.ok.ru: 1
+  cdn.byteark.com: 1
+  hy222.routeon.pro: 1
+  robon.mashhad1market.ir: 1
 
 Топ портов:
-  443: 6
+  443: 9
   8443: 4
   9001: 3
   9002: 2
-  4100: 2
-  2200: 2
+  2056: 2
+  4100: 1
   8444: 1
+  1080: 1
 
 Топ схем:
   vless: 16
-  hysteria2: 4
+  hysteria2: 6
+  ss: 1
 
 Топ transport:
-  grpc: 7
-  ws: 5
-  tcp: 5
-  xhttp: 2
+  tcp: 14
+  grpc: 6
+  xhttp: 1
+  ws: 1
   raw: 1
 
 Топ security:
-  reality: 9
+  reality: 14
   none: 9
-  tls: 2
 
 ────────────────────────────────────────────────────────────────────
 📊 white_vless
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 14
-Уникальных строк: 14
-Уникальных host:port: 14
-Уникальных backend: 10
+Всего конфигов: 16
+Уникальных строк: 16
+Уникальных host:port: 16
+Уникальных backend: 9
 Anycast: 6
-Unknown country: 0
+Unknown country: 2
 
 Топ стран:
   🌐 Anycast: 6
-  Russia: 3
-  Netherlands: 2
-  France: 1
-  Germany: 1
+  Germany: 4
+  Russia: 2
+  Unknown: 2
   Japan: 1
+  Netherlands: 1
 
 Топ SNI:
+  api.yandex-cloud.org: 4
   quic.tyr-agentstvo.tech: 3
   russianum1.tcpshield.fun: 2
-  rzd.ru: 2
-  host.pushbyte.cc: 1
-  api.stream.telemetryapi.uk: 1
+  www.ray-balance.space: 2
   89.19.223.136: 1
-  cdn.byteark.com: 1
-  m1.vk.ru: 1
   live.ok.ru: 1
+  cdn.byteark.com: 1
   hy222.routeon.pro: 1
+  robon.mashhad1market.ir: 1
 
 Топ портов:
-  443: 6
+  443: 9
   8443: 4
-  2200: 2
-  8444: 1
   4100: 1
+  8444: 1
+  1080: 1
 
 Топ схем:
-  vless: 10
+  vless: 11
   hysteria2: 4
+  ss: 1
 
 Топ transport:
-  tcp: 5
-  ws: 4
-  xhttp: 2
-  grpc: 2
+  tcp: 12
+  xhttp: 1
+  grpc: 1
+  ws: 1
   raw: 1
 
 Топ security:
-  none: 8
-  reality: 4
-  tls: 2
+  reality: 9
+  none: 7
 
 ────────────────────────────────────────────────────────────────────
 📊 black_all
@@ -311,7 +312,7 @@ Unknown country: 41
   Japan: 3
   India: 1
   Kazakhstan: 1
-  Belarus: 1
+  Russia: 1
 
 Топ SNI:
   strapi.io: 4
@@ -323,7 +324,7 @@ Unknown country: 41
   ads.x5.ru: 2
   de4.convert-cloud.guru: 2
   is1-ssl.mzstatic.com: 2
-  eu-west.cendora.ru: 2
+  uk.convert-cloud.guru: 2
 
 Топ портов:
   443: 65
@@ -358,36 +359,36 @@ Unknown country: 41
 ────────────────────────────────────────────────────────────────────
 📊 pool
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 144
-Уникальных строк: 144
-Уникальных host:port: 141
-Уникальных backend: 111
-Anycast: 48
-Unknown country: 41
+Всего конфигов: 145
+Уникальных строк: 145
+Уникальных host:port: 143
+Уникальных backend: 113
+Anycast: 50
+Unknown country: 43
 
 Топ стран:
-  🌐 Anycast: 48
-  Unknown: 41
-  Netherlands: 14
-  Germany: 11
-  Russia: 8
+  🌐 Anycast: 50
+  Unknown: 43
+  Netherlands: 13
+  Germany: 12
   United States: 8
+  Russia: 6
   Japan: 4
   Estonia: 3
-  France: 2
-  India: 1
+  Belarus: 1
+  Austria: 1
 
 Топ SNI:
   api-maps.yandex.ru: 4
   strapi.io: 4
-  rzd.ru: 3
   live.ok.ru: 3
   nordic.cendora.ru: 3
-  eu-central.cendora.ru: 3
   google.com: 3
-  grape-honk.yyuyy.com: 3
   auto.cendora.ru: 3
-  quic.tyr-agentstvo.tech: 2
+  eu-central.cendora.ru: 3
+  grape-honk.yyuyy.com: 3
+  www.ray-balance.space: 2
+  api.yandex-cloud.org: 2
 
 Топ портов:
   443: 71
@@ -397,88 +398,87 @@ Unknown country: 41
   8880: 5
   4100: 4
   8080: 4
-  2200: 3
+  9001: 3
+  2056: 3
   36723: 3
-  13443: 3
 
 Топ схем:
-  vless: 100
-  hysteria2: 36
+  vless: 98
+  hysteria2: 38
   trojan: 6
   vmess: 2
+  ss: 1
 
 Топ transport:
-  tcp: 88
-  ws: 34
-  xhttp: 10
-  grpc: 9
+  tcp: 94
+  ws: 31
+  xhttp: 9
+  grpc: 8
   httpupgrade: 2
   raw: 1
 
 Топ security:
-  reality: 59
+  reality: 62
   none: 58
-  tls: 27
+  tls: 25
 
 ────────────────────────────────────────────────────────────────────
 📊 mixed
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 58
-Уникальных строк: 58
-Уникальных host:port: 58
+Всего конфигов: 59
+Уникальных строк: 59
+Уникальных host:port: 59
 Уникальных backend: 48
-Anycast: 13
-Unknown country: 17
+Anycast: 15
+Unknown country: 16
 
 Топ стран:
-  Unknown: 17
-  🌐 Anycast: 13
-  Netherlands: 8
+  Unknown: 16
+  🌐 Anycast: 15
+  Netherlands: 7
+  United States: 7
   Russia: 6
-  United States: 5
+  Germany: 3
   Estonia: 3
-  Germany: 2
-  France: 1
   Japan: 1
-  Belarus: 1
+  Kazakhstan: 1
 
 Топ SNI:
   api-maps.yandex.ru: 4
   russianum1.tcpshield.fun: 2
-  cdn.byteark.com: 2
+  www.ray-balance.space: 2
+  api.yandex-cloud.org: 2
+  eu-west.cendora.ru: 2
   nordic.cendora.ru: 2
-  uk.convert-cloud.guru: 2
-  auto.cendora.ru: 2
-  strapi.io: 2
-  eu-central.cendora.ru: 2
-  bridge.meshbeat.online: 2
   yahoo.com: 2
+  strapi.io: 2
+  auto.cendora.ru: 2
+  ads.x5.ru: 2
 
 Топ портов:
-  443: 37
-  8444: 5
-  8443: 3
-  9001: 2
-  9002: 2
+  443: 41
+  8444: 4
+  8443: 4
+  9001: 3
   2053: 2
   13443: 2
-  8082: 1
+  9002: 1
   10694: 1
   17833: 1
 
 Топ схем:
-  vless: 58
+  vless: 59
 
 Топ transport:
-  tcp: 31
-  grpc: 8
-  xhttp: 8
-  ws: 8
+  tcp: 37
+  ws: 7
+  grpc: 6
+  xhttp: 6
   httpupgrade: 2
   raw: 1
 
 Топ security:
-  reality: 43
+  reality: 44
   tls: 15
 
 ────────────────────────────────────────────────────────────────────
@@ -488,125 +488,127 @@ Unknown country: 17
 Уникальных строк: 25
 Уникальных host:port: 25
 Уникальных backend: 21
-Anycast: 4
+Anycast: 7
 Unknown country: 0
 
 Топ стран:
-  Netherlands: 8
+  🌐 Anycast: 7
   Russia: 6
-  United States: 4
-  🌐 Anycast: 4
-  Germany: 2
-  France: 1
+  Netherlands: 6
+  United States: 5
+  Germany: 1
 
 Топ SNI:
   api-maps.yandex.ru: 4
   russianum1.tcpshield.fun: 2
   is1-ssl.mzstatic.com: 2
   nl7.gracefultun.xyz: 1
-  host.pushbyte.cc: 1
-  3xui-production-6601.up.railway.app: 1
   nl5.gracefultun.xyz: 1
+  3xui-production-6601.up.railway.app: 1
   aparat-production-ffef.up.railway.app: 1
-  cloudflare.vhub.pro: 1
-  api.stream.telemetryapi.uk: 1
+  639222734213747055.forester-homaxe.info: 1
+  music1000.melobitmusic1.ir: 1
+  www.samsung.com: 1
 
 Топ портов:
-  443: 16
-  9001: 2
-  9002: 2
+  443: 12
+  9001: 3
   13456: 2
+  2053: 2
   8443: 2
-  2053: 1
+  8444: 2
+  9002: 1
+  10694: 1
 
 Топ схем:
   vless: 25
 
 Топ transport:
-  xhttp: 8
-  grpc: 7
+  xhttp: 7
+  grpc: 6
   ws: 6
-  tcp: 4
+  tcp: 6
 
 Топ security:
-  reality: 15
-  tls: 10
+  reality: 17
+  tls: 8
 
 ====================================================================
 🌍 GLOBAL SUMMARY
 ====================================================================
-Всего конфигов: 388
-Уникальных строк: 147
-Уникальных host:port: 144
-Уникальных backend: 111
-Anycast: 121
-Unknown country: 99
+Всего конфигов: 395
+Уникальных строк: 150
+Уникальных host:port: 147
+Уникальных backend: 113
+Anycast: 130
+Unknown country: 104
 
 Топ стран:
-  🌐 Anycast: 121
-  Unknown: 99
-  Netherlands: 46
-  Russia: 32
-  Germany: 27
-  United States: 25
+  🌐 Anycast: 130
+  Unknown: 104
+  Netherlands: 40
+  Germany: 34
+  United States: 28
+  Russia: 27
   Japan: 10
   Estonia: 9
-  France: 7
-  India: 3
-  Belarus: 3
-  Kazakhstan: 2
+  Kazakhstan: 3
+  India: 2
+  Belarus: 2
+  France: 2
   Finland: 2
   Austria: 2
 
 Топ SNI:
   api-maps.yandex.ru: 17
+  api.yandex-cloud.org: 12
   russianum1.tcpshield.fun: 10
   strapi.io: 10
-  live.ok.ru: 8
-  rzd.ru: 8
+  www.ray-balance.space: 8
   quic.tyr-agentstvo.tech: 8
   nordic.cendora.ru: 8
-  eu-central.cendora.ru: 8
   auto.cendora.ru: 8
-  cdn.byteark.com: 7
-  is1-ssl.mzstatic.com: 7
-  uk.convert-cloud.guru: 6
-  google.com: 6
-  bridge.meshbeat.online: 6
+  live.ok.ru: 7
+  eu-central.cendora.ru: 7
+  relay.meshbeat.online: 7
+  cdn.byteark.com: 6
+  ads.x5.ru: 6
+  is1-ssl.mzstatic.com: 6
   yahoo.com: 6
 
 Топ портов:
-  443: 201
-  8443: 36
-  8444: 18
+  443: 207
+  8443: 37
+  8444: 19
+  9001: 12
   80: 12
-  4100: 10
   8880: 10
-  9001: 9
-  9002: 8
-  2200: 8
+  4100: 9
+  2053: 8
   13443: 8
   8080: 8
-  2053: 7
-  13456: 7
+  2056: 6
+  13456: 6
   36723: 6
-  4243: 5
+  9002: 5
+  10694: 4
 
 Топ схем:
   vless: 295
-  hysteria2: 77
+  hysteria2: 81
   trojan: 12
   vmess: 4
+  ss: 3
 
 Топ transport:
-  tcp: 217
-  ws: 87
-  xhttp: 38
-  grpc: 36
+  tcp: 247
+  ws: 76
+  xhttp: 32
+  grpc: 30
   httpupgrade: 6
   raw: 4
 
 Топ security:
-  reality: 181
-  none: 126
-  tls: 81
+  reality: 197
+  none: 125
+  tls: 73
