@@ -1,5 +1,5 @@
 VPN Builder stats summary
-Generated at: 2026-08-21 04:38:01 MSK
+Generated at: 2026-08-21 05:49:43 MSK
 
 ====================================================================
 RAW GROUPS
@@ -8,106 +8,102 @@ RAW GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 152
-Уникальных строк: 141
-Уникальных host:port: 34
-Уникальных backend: 20
-Anycast: 40
-Unknown country: 3
+Всего конфигов: 160
+Уникальных строк: 148
+Уникальных host:port: 32
+Уникальных backend: 22
+Anycast: 52
+Unknown country: 4
 
 Топ стран:
-  Russia: 51
-  🌐 Anycast: 40
-  Netherlands: 25
-  Germany: 13
-  Japan: 9
-  Finland: 5
-  Lithuania: 4
-  Unknown: 3
-  Estonia: 2
+  🌐 Anycast: 52
+  Russia: 45
+  Netherlands: 30
+  Germany: 17
+  Japan: 8
+  Unknown: 4
+  Finland: 4
 
 Топ SNI:
-  ads.x5.ru: 27
-  api-maps.yandex.ru: 27
-  test-cdn-vk-d.cdn.cachefleet.com: 20
-  cdn.byteark.com: 15
-  skys3.greatecloud.com: 14
+  api-maps.yandex.ru: 31
+  cdn.byteark.com: 24
+  ads.x5.ru: 20
+  skys3.greatecloud.com: 16
+  live.ok.ru: 15
   storage.yandex.net: 8
-  vk.ru: 7
-  89.19.223.136: 7
-  russia.cendora.ru: 6
-  deepl.com: 6
+  89.19.223.136: 8
+  deepl.com: 8
+  api.stream.telemetryapi.uk: 5
+  dl.google.com: 4
 
 Топ портов:
-  443: 68
-  8443: 22
-  8444: 15
-  9001: 15
-  9002: 12
+  443: 50
+  8444: 24
+  9002: 17
+  4100: 16
+  9001: 14
+  8443: 13
+  2200: 9
   2027: 8
-  20443: 4
-  2200: 4
-  27443: 3
-  8880: 1
+  9880: 4
+  52006: 4
 
 Топ схем:
-  vless: 150
+  vless: 158
   hysteria2: 2
 
 Топ transport:
-  tcp: 60
-  grpc: 30
-  raw: 26
-  httpupgrade: 20
-  ws: 10
-  xhttp: 6
+  tcp: 54
+  grpc: 39
+  ws: 31
+  raw: 28
+  xhttp: 8
 
 Топ security:
   reality: 99
-  tls: 39
-  none: 14
+  none: 36
+  tls: 25
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_vless
 ────────────────────────────────────────────────────────────────────
 Всего конфигов: 90
 Уникальных строк: 90
-Уникальных host:port: 21
-Уникальных backend: 16
-Anycast: 33
-Unknown country: 3
+Уникальных host:port: 20
+Уникальных backend: 17
+Anycast: 27
+Unknown country: 4
 
 Топ стран:
-  🌐 Anycast: 33
-  Netherlands: 18
-  Germany: 9
-  Japan: 9
-  Russia: 7
-  Finland: 5
-  Lithuania: 4
-  Unknown: 3
-  Estonia: 2
+  🌐 Anycast: 27
+  Netherlands: 22
+  Germany: 13
+  Russia: 12
+  Japan: 8
+  Unknown: 4
+  Finland: 4
 
 Топ SNI:
-  test-cdn-vk-d.cdn.cachefleet.com: 20
-  cdn.byteark.com: 15
-  vk.ru: 7
-  skys3.greatecloud.com: 7
-  89.19.223.136: 7
-  russia.cendora.ru: 6
-  ads.x5.ru: 6
-  deepl.com: 6
+  cdn.byteark.com: 24
+  ads.x5.ru: 8
+  skys3.greatecloud.com: 8
+  89.19.223.136: 8
+  deepl.com: 8
   api.stream.telemetryapi.uk: 5
+  dl.google.com: 4
   storage.yandex.net: 4
+  m1.vk.ru: 4
+  sliver-vimri-nahui-daun.fastaichat.ru: 4
 
 Топ портов:
-  443: 61
-  8444: 15
+  443: 42
+  8444: 24
+  2200: 9
+  9880: 4
   2027: 4
-  20443: 4
-  27443: 3
+  52006: 4
   8880: 1
-  2200: 1
+  4100: 1
   8443: 1
 
 Топ схем:
@@ -115,42 +111,41 @@ Unknown country: 3
   hysteria2: 2
 
 Топ transport:
-  tcp: 35
-  httpupgrade: 20
-  raw: 19
-  ws: 7
-  xhttp: 6
-  grpc: 3
+  tcp: 38
+  raw: 20
+  ws: 16
+  grpc: 8
+  xhttp: 8
 
 Топ security:
-  reality: 47
-  tls: 32
-  none: 11
+  reality: 52
+  none: 21
+  tls: 17
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW black_all
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 368
-Уникальных строк: 264
-Уникальных host:port: 80
-Уникальных backend: 92
-Anycast: 119
-Unknown country: 165
+Всего конфигов: 359
+Уникальных строк: 277
+Уникальных host:port: 90
+Уникальных backend: 97
+Anycast: 120
+Unknown country: 143
 
 Топ стран:
-  Unknown: 165
-  🌐 Anycast: 119
-  Netherlands: 22
-  Germany: 18
-  United States: 10
+  Unknown: 143
+  🌐 Anycast: 120
+  Netherlands: 25
+  Germany: 21
+  United States: 12
+  Japan: 8
   Russia: 8
   Finland: 7
-  Japan: 6
   Kazakhstan: 6
   Belarus: 5
 
 Топ SNI:
-  google.com: 19
+  google.com: 17
   nordic.cendora.ru: 16
   d2e1v87ko56lyw.cloudfront.net:assets.opensignal.com: 16
   auto.cendora.ru: 15
@@ -162,7 +157,7 @@ Unknown country: 165
   eu-central.cendora.ru: 10
 
 Топ портов:
-  443: 212
+  443: 217
   8444: 17
   80: 16
   13443: 15
@@ -170,25 +165,25 @@ Unknown country: 165
   709: 7
   17833: 7
   2053: 6
+  8080: 6
   2087: 5
-  8080: 5
 
 Топ схем:
   vless: 244
-  hysteria2: 58
-  vmess: 39
-  trojan: 27
+  hysteria2: 69
+  trojan: 26
+  vmess: 20
 
 Топ transport:
-  tcp: 237
-  ws: 75
+  tcp: 230
+  ws: 73
   xhttp: 40
   httpupgrade: 16
 
 Топ security:
   reality: 127
-  none: 121
-  tls: 113
+  tls: 114
+  none: 111
   false: 7
 
 ====================================================================
@@ -198,312 +193,302 @@ FINAL GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 34
-Уникальных строк: 34
-Уникальных host:port: 34
-Уникальных backend: 20
-Anycast: 8
+Всего конфигов: 32
+Уникальных строк: 32
+Уникальных host:port: 32
+Уникальных backend: 21
+Anycast: 13
 Unknown country: 1
 
 Топ стран:
-  Russia: 12
-  🌐 Anycast: 8
+  🌐 Anycast: 13
+  Russia: 9
   Netherlands: 6
-  Germany: 2
-  Finland: 2
-  Lithuania: 1
-  Japan: 1
-  Estonia: 1
+  Germany: 3
   Unknown: 1
 
 Топ SNI:
-  ads.x5.ru: 8
   api-maps.yandex.ru: 6
+  ads.x5.ru: 5
   cdn.byteark.com: 3
-  vk.ru: 2
-  test-cdn-vk-d.cdn.cachefleet.com: 2
+  live.ok.ru: 3
   deepl.com: 2
-  rzd.ru: 2
-  api.stream.telemetryapi.uk: 1
-  cnd.netherlands.myfilecdn.com: 1
   m1.vk.ru: 1
+  api.stream.telemetryapi.uk: 1
+  skys3.greatecloud.com: 1
+  rzd.ru: 1
+  dl.google.com: 1
 
 Топ портов:
-  443: 12
-  8443: 7
+  443: 9
+  8443: 4
+  4100: 4
   9002: 3
   9001: 3
   8444: 3
   2200: 2
-  20443: 1
-  8880: 1
+  9880: 1
   2027: 1
-  27443: 1
+  52006: 1
 
 Топ схем:
-  vless: 32
+  vless: 30
   hysteria2: 2
 
 Топ transport:
-  tcp: 14
-  grpc: 7
-  raw: 5
-  ws: 4
-  httpupgrade: 2
+  tcp: 10
+  grpc: 8
+  ws: 8
+  raw: 4
   xhttp: 2
 
 Топ security:
-  reality: 24
-  none: 6
-  tls: 4
+  reality: 19
+  none: 10
+  tls: 3
 
 ────────────────────────────────────────────────────────────────────
 📊 white_vless
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 21
-Уникальных строк: 21
-Уникальных host:port: 21
+Всего конфигов: 20
+Уникальных строк: 20
+Уникальных host:port: 20
 Уникальных backend: 16
-Anycast: 6
+Anycast: 8
 Unknown country: 1
 
 Топ стран:
+  🌐 Anycast: 8
   Netherlands: 6
-  🌐 Anycast: 6
-  Germany: 2
-  Finland: 2
-  Russia: 1
-  Estonia: 1
-  Japan: 1
-  Lithuania: 1
+  Germany: 3
+  Russia: 2
   Unknown: 1
 
 Топ SNI:
   cdn.byteark.com: 3
   ads.x5.ru: 2
-  vk.ru: 2
-  test-cdn-vk-d.cdn.cachefleet.com: 2
   deepl.com: 2
-  api.stream.telemetryapi.uk: 1
+  skys3.greatecloud.com: 1
   89.19.223.136: 1
+  storage.yandex.net: 1
   m1.vk.ru: 1
-  rzd.ru: 1
-  russia.cendora.ru: 1
+  dl.google.com: 1
+  api.stream.telemetryapi.uk: 1
+  quic.tyr-agentstvo.tech: 1
 
 Топ портов:
-  443: 12
+  443: 9
   8444: 3
-  27443: 1
-  20443: 1
-  2200: 1
+  2200: 2
   2027: 1
-  8880: 1
+  9880: 1
   8443: 1
+  52006: 1
+  8880: 1
+  4100: 1
 
 Топ схем:
-  vless: 19
+  vless: 18
   hysteria2: 2
 
 Топ transport:
-  tcp: 8
-  raw: 5
-  ws: 3
-  httpupgrade: 2
+  tcp: 7
+  ws: 5
+  raw: 4
+  grpc: 2
   xhttp: 2
-  grpc: 1
 
 Топ security:
-  reality: 12
-  none: 5
-  tls: 4
+  reality: 10
+  none: 7
+  tls: 3
 
 ────────────────────────────────────────────────────────────────────
 📊 black_all
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 101
-Уникальных строк: 101
-Уникальных host:port: 80
-Уникальных backend: 85
-Anycast: 28
-Unknown country: 48
+Всего конфигов: 110
+Уникальных строк: 110
+Уникальных host:port: 90
+Уникальных backend: 88
+Anycast: 29
+Unknown country: 49
 
 Топ стран:
-  Unknown: 48
-  🌐 Anycast: 28
-  Germany: 8
-  Netherlands: 5
-  United States: 3
-  Japan: 3
+  Unknown: 49
+  🌐 Anycast: 29
+  Germany: 10
+  Netherlands: 6
+  Japan: 4
+  United States: 4
   Finland: 2
   Russia: 1
   Kazakhstan: 1
-  Belarus: 1
+  Estonia: 1
 
 Топ SNI:
+  grape-honk.yyuyy.com: 4
   nordic.cendora.ru: 3
   auto.cendora.ru: 3
   google.com: 3
-  fin.themesh.site: 2
-  eu-central.cendora.ru: 2
   aparat-production-ffef.up.railway.app: 2
   strapi.io: 2
+  yahoo.com: 2
+  eu-central.cendora.ru: 2
   eu-west.cendora.ru: 2
   cdn7-83.cdn-vkvideo.com: 2
-  yahoo.com: 2
 
 Топ портов:
-  443: 43
-  8443: 7
+  443: 47
+  8443: 8
+  8080: 5
   8444: 4
   13443: 3
-  8080: 3
-  36723: 2
-  4433: 2
+  36723: 3
+  32135: 2
+  9080: 2
   2053: 1
   709: 1
-  2087: 1
 
 Топ схем:
   vless: 44
-  hysteria2: 30
-  vmess: 21
+  hysteria2: 40
+  vmess: 20
   trojan: 6
 
 Топ transport:
-  tcp: 79
+  tcp: 88
   ws: 15
   xhttp: 4
   httpupgrade: 3
 
 Топ security:
-  none: 56
+  none: 66
   reality: 25
-  tls: 20
+  tls: 19
 
 ────────────────────────────────────────────────────────────────────
 📊 pool
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 129
-Уникальных строк: 129
-Уникальных host:port: 107
-Уникальных backend: 102
-Anycast: 35
+Всего конфигов: 136
+Уникальных строк: 136
+Уникальных host:port: 115
+Уникальных backend: 106
+Anycast: 39
 Unknown country: 49
 
 Топ стран:
   Unknown: 49
-  🌐 Anycast: 35
-  Netherlands: 11
-  Germany: 10
-  Russia: 9
-  Finland: 4
-  Japan: 3
-  United States: 3
+  🌐 Anycast: 39
+  Germany: 13
+  Netherlands: 12
+  Russia: 8
+  United States: 4
+  Japan: 4
+  Finland: 2
+  Belarus: 1
   Estonia: 1
-  Lithuania: 1
 
 Топ SNI:
-  ads.x5.ru: 6
+  ads.x5.ru: 5
   api-maps.yandex.ru: 4
-  cdn.byteark.com: 3
+  grape-honk.yyuyy.com: 4
   auto.cendora.ru: 3
-  nordic.cendora.ru: 3
   google.com: 3
-  test-cdn-vk-d.cdn.cachefleet.com: 2
-  vk.ru: 2
-  rzd.ru: 2
+  nordic.cendora.ru: 3
+  89.19.223.136: 2
+  cdn.byteark.com: 2
+  live.ok.ru: 2
   deepl.com: 2
 
 Топ портов:
-  443: 54
+  443: 56
   8443: 12
-  8444: 6
+  8444: 5
+  8080: 5
+  4100: 3
   13443: 3
-  8080: 3
+  36723: 3
   2200: 2
   9002: 2
   9001: 2
-  36723: 2
-  4433: 2
 
 Топ схем:
-  vless: 70
-  hysteria2: 32
-  vmess: 21
+  vless: 68
+  hysteria2: 42
+  vmess: 20
   trojan: 6
 
 Топ transport:
-  tcp: 91
-  ws: 19
+  tcp: 96
+  ws: 21
+  grpc: 6
   xhttp: 6
-  grpc: 5
-  httpupgrade: 4
-  raw: 4
-
-Топ security:
-  none: 62
-  reality: 44
-  tls: 23
-
-────────────────────────────────────────────────────────────────────
-📊 mixed
-────────────────────────────────────────────────────────────────────
-Всего конфигов: 57
-Уникальных строк: 57
-Уникальных host:port: 57
-Уникальных backend: 40
-Anycast: 16
-Unknown country: 15
-
-Топ стран:
-  🌐 Anycast: 16
-  Unknown: 15
-  Russia: 7
-  Netherlands: 6
-  Germany: 4
-  Finland: 3
-  United States: 2
-  Lithuania: 1
-  Estonia: 1
-  Japan: 1
-
-Топ SNI:
-  ads.x5.ru: 6
-  api-maps.yandex.ru: 4
-  vk.ru: 2
-  cdn.byteark.com: 2
-  test-cdn-vk-d.cdn.cachefleet.com: 2
-  deepl.com: 2
-  eu-west.cendora.ru: 2
-  cdn7-83.cdn-vkvideo.com: 2
-  nordic.cendora.ru: 2
-  relay.meshbeat.online: 2
-
-Топ портов:
-  443: 35
-  8444: 5
-  8443: 4
-  9001: 2
-  9002: 2
-  13443: 2
-  27443: 1
-  2027: 1
-  20443: 1
-  709: 1
-
-Топ схем:
-  vless: 57
-
-Топ transport:
-  tcp: 31
-  ws: 8
-  xhttp: 6
-  grpc: 5
   raw: 4
   httpupgrade: 3
 
 Топ security:
-  reality: 41
+  none: 74
+  reality: 40
+  tls: 22
+
+────────────────────────────────────────────────────────────────────
+📊 mixed
+────────────────────────────────────────────────────────────────────
+Всего конфигов: 54
+Уникальных строк: 54
+Уникальных host:port: 54
+Уникальных backend: 39
+Anycast: 19
+Unknown country: 13
+
+Топ стран:
+  🌐 Anycast: 19
+  Unknown: 13
+  Russia: 6
+  Netherlands: 6
+  Germany: 5
+  United States: 2
+  Belarus: 1
+  Finland: 1
+  Japan: 1
+
+Топ SNI:
+  ads.x5.ru: 5
+  api-maps.yandex.ru: 4
+  deepl.com: 2
+  cdn.byteark.com: 2
+  relay.meshbeat.online: 2
+  eu-west.cendora.ru: 2
+  fin.themesh.site: 2
+  eu-central.cendora.ru: 2
+  nordic.cendora.ru: 2
+  strapi.io: 2
+
+Топ портов:
+  443: 33
+  8444: 5
+  8443: 3
+  9002: 2
+  9001: 2
+  13443: 2
+  9880: 1
+  52006: 1
+  2027: 1
+  709: 1
+
+Топ схем:
+  vless: 54
+
+Топ transport:
+  tcp: 28
+  ws: 8
+  grpc: 6
+  xhttp: 6
+  raw: 4
+  httpupgrade: 2
+
+Топ security:
+  reality: 38
   tls: 16
 
 ────────────────────────────────────────────────────────────────────
@@ -512,128 +497,130 @@ Unknown country: 15
 Всего конфигов: 25
 Уникальных строк: 25
 Уникальных host:port: 25
-Уникальных backend: 18
-Anycast: 6
+Уникальных backend: 19
+Anycast: 8
 Unknown country: 0
 
 Топ стран:
-  Russia: 7
-  🌐 Anycast: 6
-  Netherlands: 5
+  🌐 Anycast: 8
+  Netherlands: 6
+  Russia: 4
   Germany: 3
   United States: 2
-  Finland: 1
   Japan: 1
+  Finland: 1
 
 Топ SNI:
-  ads.x5.ru: 5
   api-maps.yandex.ru: 4
+  ads.x5.ru: 3
   aparat-production-ffef.up.railway.app: 2
-  relay.meshbeat.online: 2
   deepl.com: 2
-  nl5.gracefultun.xyz: 1
+  relay.meshbeat.online: 2
   nl7.gracefultun.xyz: 1
+  nl5.gracefultun.xyz: 1
   api.stream.telemetryapi.uk: 1
   music1000.melobitmusic1.ir: 1
   node2.onepanel123.ru: 1
 
 Топ портов:
-  443: 13
-  8443: 3
+  443: 14
   8444: 3
   9002: 2
   9001: 2
+  8443: 1
   2053: 1
   2087: 1
+  9880: 1
 
 Топ схем:
-  vless: 25
+  vless: 24
+  trojan: 1
 
 Топ transport:
-  ws: 8
-  tcp: 6
-  grpc: 5
+  ws: 9
+  grpc: 6
+  tcp: 4
   xhttp: 4
   raw: 2
 
 Топ security:
-  reality: 15
-  tls: 10
+  reality: 13
+  tls: 12
 
 ====================================================================
 🌍 GLOBAL SUMMARY
 ====================================================================
-Всего конфигов: 367
-Уникальных строк: 135
-Уникальных host:port: 112
-Уникальных backend: 102
-Anycast: 99
-Unknown country: 114
+Всего конфигов: 377
+Уникальных строк: 145
+Уникальных host:port: 120
+Уникальных backend: 106
+Anycast: 116
+Unknown country: 113
 
 Топ стран:
-  Unknown: 114
-  🌐 Anycast: 99
-  Netherlands: 39
-  Russia: 37
-  Germany: 29
-  Finland: 14
+  🌐 Anycast: 116
+  Unknown: 113
+  Netherlands: 42
+  Germany: 37
+  Russia: 30
+  United States: 12
   Japan: 10
-  United States: 10
-  Lithuania: 4
-  Estonia: 4
+  Finland: 6
   Belarus: 3
   Kazakhstan: 2
+  Estonia: 2
   France: 2
+  Austria: 2
 
 Топ SNI:
-  ads.x5.ru: 27
+  ads.x5.ru: 20
   api-maps.yandex.ru: 18
-  cdn.byteark.com: 12
+  cdn.byteark.com: 11
   deepl.com: 10
-  test-cdn-vk-d.cdn.cachefleet.com: 9
-  vk.ru: 8
   nordic.cendora.ru: 8
   aparat-production-ffef.up.railway.app: 8
   auto.cendora.ru: 8
   relay.meshbeat.online: 8
+  grape-honk.yyuyy.com: 8
   fin.themesh.site: 7
-  eu-central.cendora.ru: 6
+  live.ok.ru: 6
   strapi.io: 6
+  yahoo.com: 6
+  eu-central.cendora.ru: 6
   eu-west.cendora.ru: 6
-  cdn7-83.cdn-vkvideo.com: 6
 
 Топ портов:
-  443: 169
-  8443: 34
-  8444: 24
+  443: 168
+  8443: 29
+  8444: 23
+  8080: 10
   9002: 9
   9001: 9
+  4100: 9
   13443: 8
-  8080: 6
-  2200: 5
-  20443: 4
+  2200: 6
+  36723: 6
+  9880: 5
   2027: 4
-  27443: 4
+  52006: 4
   2053: 4
   2087: 4
-  36723: 4
-  4433: 4
 
 Топ схем:
-  vless: 247
-  hysteria2: 66
-  vmess: 42
-  trojan: 12
+  vless: 238
+  hysteria2: 86
+  vmess: 40
+  trojan: 13
 
 Топ transport:
-  tcp: 229
-  ws: 57
+  tcp: 233
+  ws: 66
+  grpc: 28
   xhttp: 24
-  grpc: 23
-  raw: 20
-  httpupgrade: 14
+  raw: 18
+  httpupgrade: 8
 
 Топ security:
-  reality: 161
-  none: 129
-  tls: 77
+  none: 157
+  reality: 145
+  tls: 75
