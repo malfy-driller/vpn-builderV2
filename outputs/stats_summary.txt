@@ -1,5 +1,5 @@
 VPN Builder stats summary
-Generated at: 2026-08-22 20:00:27 MSK
+Generated at: 2026-08-22 20:25:41 MSK
 
 ====================================================================
 RAW GROUPS
@@ -8,102 +8,116 @@ RAW GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 137
-Уникальных строк: 122
-Уникальных host:port: 21
-Уникальных backend: 21
-Anycast: 57
-Unknown country: 0
+Всего конфигов: 210
+Уникальных строк: 204
+Уникальных host:port: 55
+Уникальных backend: 25
+Anycast: 123
+Unknown country: 27
 
 Топ стран:
-  Russia: 60
-  🌐 Anycast: 57
-  Netherlands: 15
-  Germany: 5
+  🌐 Anycast: 123
+  Switzerland: 30
+  Unknown: 27
+  Russia: 21
+  France: 3
+  Germany: 3
+  Netherlands: 3
 
 Топ SNI:
-  api-maps.yandex.ru: 20
-  travel.yandex.ru: 20
-  d3-pl.cloud-cdn.xyz: 15
-  d3cdn9.cloud-cdn.xyz: 10
-  d3-de1.cloud-cdn.xyz: 10
-  st.ozone.ru: 10
-  ya.ru: 10
-  d3cdn11-1.cloud-cdn.xyz: 5
-  d3cdn8.cloud-cdn.xyz: 5
-  d3cdn1.cloud-cdn.xyz: 5
+  pool-c.pools.netcenter-cdn.com: 114
+  st.ozone.ru: 51
+  www.ray-balance.space: 12
+  api-maps.yandex.ru: 6
+  vyh.kakadurov.com: 3
+  www.cloudflare.com: 3
+  s1163sas.storage.yandex.net: 3
+  fast_s89.slopllex.app: 3
+  fast97.slopllex.app: 3
+  ru.srv.anti-zapret.com: 3
 
 Топ портов:
-  443: 95
-  9002: 15
-  8643: 10
-  8093: 5
-  8091: 5
-  9001: 5
-  8443: 1
-  2200: 1
+  443: 78
+  44003: 30
+  44002: 30
+  44001: 27
+  44005: 15
+  44006: 12
+  11592: 6
+  9443: 3
+  9002: 3
+  9001: 3
 
 Топ схем:
-  vless: 137
+  vless: 203
+  hysteria2: 7
 
 Топ transport:
-  tcp: 101
-  grpc: 20
-  xhttp: 15
-  ws: 1
+  tcp: 199
+  grpc: 6
+  xhttp: 3
+  ws: 2
 
 Топ security:
-  reality: 135
-  none: 2
+  reality: 195
+  tls: 12
+  none: 3
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_vless
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 87
-Уникальных строк: 87
-Уникальных host:port: 15
-Уникальных backend: 16
-Anycast: 32
-Unknown country: 0
+Всего конфигов: 150
+Уникальных строк: 150
+Уникальных host:port: 49
+Уникальных backend: 19
+Anycast: 83
+Unknown country: 22
 
 Топ стран:
-  Russia: 40
-  🌐 Anycast: 32
-  Netherlands: 10
-  Germany: 5
+  🌐 Anycast: 83
+  Switzerland: 29
+  Unknown: 22
+  Russia: 8
+  France: 3
+  Germany: 3
+  Netherlands: 2
 
 Топ SNI:
-  travel.yandex.ru: 20
-  d3-de1.cloud-cdn.xyz: 10
-  d3-pl.cloud-cdn.xyz: 10
-  api-maps.yandex.ru: 5
-  google.com: 5
-  d3cdn11-1.cloud-cdn.xyz: 5
-  d3cdn8.cloud-cdn.xyz: 5
-  d3cdn1.cloud-cdn.xyz: 5
-  d3cdn2.cloud-cdn.xyz: 5
-  d3cdn3.cloud-cdn.xyz: 5
+  pool-c.pools.netcenter-cdn.com: 99
+  st.ozone.ru: 30
+  vyh.kakadurov.com: 3
+  www.cloudflare.com: 3
+  s1163sas.storage.yandex.net: 3
+  www.ray-balance.space: 3
+  fast_s89.slopllex.app: 2
+  fast97.slopllex.app: 2
+  ru.srv.anti-zapret.com: 2
+  80.93.52.15: 1
 
 Топ портов:
-  443: 60
-  8643: 10
-  8093: 5
-  9002: 5
-  8091: 5
-  8443: 1
+  443: 45
+  44003: 30
+  44002: 29
+  44001: 18
+  44006: 12
+  44005: 10
+  9443: 3
+  11592: 2
   2200: 1
 
 Топ схем:
-  vless: 87
+  vless: 148
+  hysteria2: 2
 
 Топ transport:
-  tcp: 81
-  grpc: 5
+  tcp: 146
+  xhttp: 3
   ws: 1
 
 Топ security:
-  reality: 85
-  none: 2
+  reality: 143
+  tls: 6
+  none: 1
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW black_all
@@ -173,102 +187,116 @@ FINAL GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 21
-Уникальных строк: 21
-Уникальных host:port: 21
-Уникальных backend: 17
-Anycast: 11
-Unknown country: 0
+Всего конфигов: 40
+Уникальных строк: 40
+Уникальных host:port: 40
+Уникальных backend: 21
+Anycast: 18
+Unknown country: 8
 
 Топ стран:
-  🌐 Anycast: 11
+  🌐 Anycast: 18
+  Unknown: 8
   Russia: 7
-  Netherlands: 2
+  Switzerland: 4
   Germany: 1
+  France: 1
+  Netherlands: 1
 
 Топ SNI:
-  travel.yandex.ru: 4
-  api-maps.yandex.ru: 3
-  d3-de1.cloud-cdn.xyz: 2
-  d3-pl.cloud-cdn.xyz: 2
-  st.ozone.ru: 2
-  max.ru: 1
-  d3cdn4.cloud-cdn.xyz: 1
-  d3cdn2.cloud-cdn.xyz: 1
-  d3cdn11-1.cloud-cdn.xyz: 1
-  ya.ru: 1
+  pool-c.pools.netcenter-cdn.com: 20
+  st.ozone.ru: 6
+  api-maps.yandex.ru: 2
+  www.cloudflare.com: 1
+  vyh.kakadurov.com: 1
+  fast_s89.slopllex.app: 1
+  ru.srv.anti-zapret.com: 1
+  www.ray-balance.space: 1
+  s1163sas.storage.yandex.net: 1
+  fast97.slopllex.app: 1
 
 Топ портов:
   443: 12
-  8643: 2
-  9002: 2
-  8093: 1
-  9001: 1
-  8091: 1
-  8443: 1
-  2200: 1
+  44002: 4
+  44005: 4
+  44006: 4
+  44003: 4
+  44001: 4
+  2200: 2
+  11592: 2
+  9443: 1
+  9002: 1
 
 Топ схем:
-  vless: 21
+  vless: 37
+  hysteria2: 3
 
 Топ transport:
-  tcp: 15
-  grpc: 3
-  xhttp: 2
-  ws: 1
+  tcp: 35
+  grpc: 2
+  ws: 2
+  xhttp: 1
 
 Топ security:
-  reality: 19
+  reality: 33
+  tls: 5
   none: 2
 
 ────────────────────────────────────────────────────────────────────
 📊 white_vless
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 15
-Уникальных строк: 15
-Уникальных host:port: 15
-Уникальных backend: 12
-Anycast: 8
-Unknown country: 0
+Всего конфигов: 34
+Уникальных строк: 34
+Уникальных host:port: 34
+Уникальных backend: 16
+Anycast: 14
+Unknown country: 8
 
 Топ стран:
-  🌐 Anycast: 8
-  Russia: 4
-  Netherlands: 2
+  🌐 Anycast: 14
+  Unknown: 8
+  Russia: 5
+  Switzerland: 4
+  France: 1
   Germany: 1
+  Netherlands: 1
 
 Топ SNI:
-  travel.yandex.ru: 4
-  d3-pl.cloud-cdn.xyz: 2
-  d3-de1.cloud-cdn.xyz: 2
-  api-maps.yandex.ru: 1
-  d3cdn4.cloud-cdn.xyz: 1
-  d3cdn2.cloud-cdn.xyz: 1
-  d3cdn11-1.cloud-cdn.xyz: 1
-  rzd.ru: 1
-  89.19.223.252: 1
-  google.com: 1
+  pool-c.pools.netcenter-cdn.com: 20
+  st.ozone.ru: 4
+  vyh.kakadurov.com: 1
+  www.cloudflare.com: 1
+  fast_s89.slopllex.app: 1
+  www.ray-balance.space: 1
+  ru.srv.anti-zapret.com: 1
+  s1163sas.storage.yandex.net: 1
+  fast97.slopllex.app: 1
+  80.93.52.15: 1
 
 Топ портов:
-  443: 8
-  8643: 2
-  8093: 1
-  9002: 1
-  8091: 1
+  443: 10
+  44002: 4
+  44006: 4
+  44003: 4
+  44001: 4
+  44005: 4
+  11592: 2
+  9443: 1
   2200: 1
-  8443: 1
 
 Топ схем:
-  vless: 15
+  vless: 32
+  hysteria2: 2
 
 Топ transport:
-  tcp: 13
-  grpc: 1
+  tcp: 32
+  xhttp: 1
   ws: 1
 
 Топ security:
-  reality: 13
-  none: 2
+  reality: 29
+  tls: 4
+  none: 1
 
 ────────────────────────────────────────────────────────────────────
 📊 black_all
@@ -287,8 +315,8 @@ Unknown country: 22
   Netherlands: 3
   Germany: 2
   Estonia: 1
-  Poland: 1
   Kazakhstan: 1
+  Poland: 1
   Russia: 1
 
 Топ SNI:
@@ -299,9 +327,9 @@ Unknown country: 22
   127.0.0.1: 2
   sg2.xiaoliyu.cyou: 2
   estonia.milas.click: 1
-  wikipedia.org: 1
   kuzya.api.dznn.net: 1
   germany.whiteconnect.lol: 1
+  ukk.milas.click: 1
 
 Топ портов:
   443: 27
@@ -311,9 +339,9 @@ Unknown country: 22
   1935: 2
   59385: 1
   4100: 1
-  54657: 1
-  14078: 1
   27732: 1
+  14078: 1
+  54657: 1
 
 Топ схем:
   hysteria2: 19
@@ -334,117 +362,124 @@ Unknown country: 22
 ────────────────────────────────────────────────────────────────────
 📊 pool
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 74
-Уникальных строк: 74
-Уникальных host:port: 63
-Уникальных backend: 66
-Anycast: 28
-Unknown country: 22
+Всего конфигов: 82
+Уникальных строк: 82
+Уникальных host:port: 71
+Уникальных backend: 69
+Anycast: 31
+Unknown country: 26
 
 Топ стран:
-  🌐 Anycast: 28
-  Unknown: 22
-  Russia: 8
+  🌐 Anycast: 31
+  Unknown: 26
+  Russia: 6
   United States: 6
   Netherlands: 4
   Germany: 3
+  Switzerland: 2
+  France: 1
   Poland: 1
   Kazakhstan: 1
-  Estonia: 1
 
 Топ SNI:
-  api-maps.yandex.ru: 3
-  google.com: 3
-  d3-pl.cloud-cdn.xyz: 2
-  travel.yandex.ru: 2
-  d3-de1.cloud-cdn.xyz: 2
-  st.ozone.ru: 2
+  pool-c.pools.netcenter-cdn.com: 10
+  st.ozone.ru: 4
+  api-maps.yandex.ru: 2
   127.0.0.1: 2
   usa2.razkur.dev: 2
+  google.com: 2
   www.microsoft.com: 2
   usa3.razkur.dev: 2
+  sg2.xiaoliyu.cyou: 2
+  fast_s89.slopllex.app: 1
 
 Топ портов:
-  443: 39
-  8443: 3
-  2056: 3
-  9002: 2
-  8643: 2
-  11592: 2
-  1935: 2
-  2200: 1
-  9001: 1
-  4100: 1
+  443: 37
+  2056: 4
+  11592: 3
+  44001: 2
+  44003: 2
+  44002: 2
+  44006: 2
+  44005: 2
+  2200: 2
+  8443: 2
 
 Топ схем:
-  vless: 35
-  hysteria2: 19
+  vless: 41
+  hysteria2: 21
   vmess: 11
   trojan: 9
 
 Топ transport:
-  tcp: 57
-  ws: 10
-  grpc: 5
-  xhttp: 2
+  tcp: 66
+  ws: 11
+  grpc: 4
+  xhttp: 1
 
 Топ security:
-  none: 33
-  reality: 30
-  tls: 11
+  reality: 34
+  none: 32
+  tls: 16
 
 ────────────────────────────────────────────────────────────────────
 📊 mixed
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 31
-Уникальных строк: 31
-Уникальных host:port: 31
-Уникальных backend: 27
-Anycast: 11
-Unknown country: 2
+Всего конфигов: 37
+Уникальных строк: 37
+Уникальных host:port: 37
+Уникальных backend: 28
+Anycast: 13
+Unknown country: 6
 
 Топ стран:
-  🌐 Anycast: 11
-  Russia: 7
+  🌐 Anycast: 13
+  Unknown: 6
+  Russia: 4
   United States: 4
-  Netherlands: 2
   Germany: 2
-  Unknown: 2
+  Netherlands: 2
+  Switzerland: 2
+  France: 1
   Poland: 1
   Kazakhstan: 1
-  Estonia: 1
 
 Топ SNI:
-  api-maps.yandex.ru: 3
-  d3-de1.cloud-cdn.xyz: 2
-  d3-pl.cloud-cdn.xyz: 2
-  st.ozone.ru: 2
-  travel.yandex.ru: 2
+  pool-c.pools.netcenter-cdn.com: 10
+  st.ozone.ru: 4
+  api-maps.yandex.ru: 2
   usa2.razkur.dev: 2
   usa3.razkur.dev: 2
-  google.com: 1
-  d3cdn11-1.cloud-cdn.xyz: 1
-  d3cdn2.cloud-cdn.xyz: 1
+  www.cloudflare.com: 1
+  fast97.slopllex.app: 1
+  vyh.kakadurov.com: 1
+  www.ray-balance.space: 1
+  ru.srv.anti-zapret.com: 1
 
 Топ портов:
-  443: 25
-  9002: 2
-  8643: 2
+  443: 23
+  44005: 2
+  44001: 2
+  44003: 2
+  44006: 2
+  44002: 2
+  9443: 1
   9001: 1
+  9002: 1
   8443: 1
 
 Топ схем:
-  vless: 31
+  vless: 37
 
 Топ transport:
-  tcp: 24
-  grpc: 4
-  xhttp: 2
+  tcp: 32
+  grpc: 3
+  xhttp: 1
   ws: 1
 
 Топ security:
-  reality: 30
-  tls: 1
+  reality: 34
+  tls: 3
 
 ────────────────────────────────────────────────────────────────────
 📊 lte
@@ -452,120 +487,125 @@ Unknown country: 2
 Всего конфигов: 25
 Уникальных строк: 25
 Уникальных host:port: 25
-Уникальных backend: 20
-Anycast: 9
+Уникальных backend: 21
+Anycast: 8
 Unknown country: 0
 
 Топ стран:
-  🌐 Anycast: 9
-  Russia: 6
-  United States: 5
+  🌐 Anycast: 8
+  Russia: 4
+  United States: 4
   Germany: 2
+  Switzerland: 2
   Netherlands: 1
+  France: 1
+  Estonia: 1
   Poland: 1
   Kazakhstan: 1
 
 Топ SNI:
-  api-maps.yandex.ru: 3
-  google.com: 3
-  travel.yandex.ru: 2
+  api-maps.yandex.ru: 2
   usa2.razkur.dev: 2
   usa3.razkur.dev: 2
-  max.ru: 1
+  google.com: 2
+  pool-c.pools.netcenter-cdn.com: 2
+  fast_s89.slopllex.app: 1
+  s1163sas.storage.yandex.net: 1
+  vyh.kakadurov.com: 1
   germany.whiteconnect.lol: 1
-  wikipedia.org: 1
-  d3cdn4.cloud-cdn.xyz: 1
-  d3cdn2.cloud-cdn.xyz: 1
+  estonia.milas.click: 1
 
 Топ портов:
-  443: 19
-  9002: 2
-  8643: 2
+  443: 20
+  44002: 2
   9001: 1
-  27732: 1
+  9002: 1
+  9443: 1
 
 Топ схем:
-  vless: 19
-  trojan: 6
+  vless: 20
+  trojan: 5
 
 Топ transport:
-  tcp: 16
+  tcp: 17
   ws: 5
-  grpc: 3
+  grpc: 2
   xhttp: 1
 
 Топ security:
-  reality: 19
-  tls: 6
+  reality: 18
+  tls: 7
 
 ====================================================================
 🌍 GLOBAL SUMMARY
 ====================================================================
-Всего конфигов: 222
-Уникальных строк: 78
-Уникальных host:port: 66
-Уникальных backend: 66
-Anycast: 85
-Unknown country: 46
+Всего конфигов: 274
+Уникальных строк: 104
+Уникальных host:port: 84
+Уникальных backend: 69
+Anycast: 102
+Unknown country: 70
 
 Топ стран:
-  🌐 Anycast: 85
-  Unknown: 46
-  Russia: 33
-  United States: 22
-  Netherlands: 14
+  🌐 Anycast: 102
+  Unknown: 70
+  Russia: 27
+  United States: 21
+  Switzerland: 14
+  Netherlands: 12
   Germany: 11
-  Poland: 4
+  France: 5
+  Estonia: 4
   Kazakhstan: 4
-  Estonia: 3
+  Poland: 4
 
 Топ SNI:
-  travel.yandex.ru: 14
-  api-maps.yandex.ru: 13
-  google.com: 11
-  d3-de1.cloud-cdn.xyz: 9
-  d3-pl.cloud-cdn.xyz: 8
+  pool-c.pools.netcenter-cdn.com: 62
+  st.ozone.ru: 19
+  api-maps.yandex.ru: 8
   usa2.razkur.dev: 8
   usa3.razkur.dev: 8
-  st.ozone.ru: 6
-  www.microsoft.com: 6
-  d3cdn4.cloud-cdn.xyz: 5
-  d3cdn2.cloud-cdn.xyz: 5
-  d3cdn11-1.cloud-cdn.xyz: 5
-  max.ru: 4
-  wikipedia.org: 4
-  kuzya.api.dznn.net: 4
+  google.com: 6
+  www.cloudflare.com: 5
+  vyh.kakadurov.com: 5
+  fast_s89.slopllex.app: 5
+  ru.srv.anti-zapret.com: 5
+  s1163sas.storage.yandex.net: 5
+  fast97.slopllex.app: 5
+  www.microsoft.com: 5
+  www.ray-balance.space: 4
+  srv-17e124.21freedom.net: 4
 
 Топ портов:
-  443: 130
-  8643: 10
-  9002: 9
-  8443: 8
-  2056: 6
+  443: 129
+  44002: 14
+  44005: 12
+  44006: 12
+  44003: 12
+  44001: 12
+  11592: 9
+  2056: 8
+  9443: 5
+  2200: 5
+  8443: 5
+  9002: 4
   9001: 4
-  11592: 4
   1935: 4
-  2200: 3
-  27732: 3
-  8093: 2
-  8091: 2
   4100: 2
-  54657: 2
-  14078: 2
 
 Топ схем:
-  vless: 137
-  hysteria2: 38
-  trojan: 25
+  vless: 183
+  hysteria2: 45
+  trojan: 24
   vmess: 22
 
 Топ transport:
-  tcp: 170
-  ws: 27
-  grpc: 18
-  xhttp: 7
+  tcp: 227
+  ws: 29
+  grpc: 13
+  xhttp: 5
 
 Топ security:
-  reality: 124
-  none: 68
-  tls: 30
+  reality: 161
+  none: 66
+  tls: 47
