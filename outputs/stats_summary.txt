@@ -1,5 +1,5 @@
 VPN Builder stats summary
-Generated at: 2026-08-22 05:30:49 MSK
+Generated at: 2026-08-22 06:26:05 MSK
 
 ====================================================================
 RAW GROUPS
@@ -8,111 +8,115 @@ RAW GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 117
-Уникальных строк: 107
-Уникальных host:port: 28
-Уникальных backend: 16
-Anycast: 48
-Unknown country: 2
+Всего конфигов: 91
+Уникальных строк: 81
+Уникальных host:port: 16
+Уникальных backend: 12
+Anycast: 32
+Unknown country: 3
 
 Топ стран:
-  🌐 Anycast: 48
-  Russia: 47
-  Netherlands: 10
-  Germany: 5
-  Poland: 5
-  Unknown: 2
+  Russia: 42
+  🌐 Anycast: 32
+  France: 6
+  Netherlands: 5
+  Unknown: 3
+  Poland: 2
+  Germany: 1
 
 Топ SNI:
   api-maps.yandex.ru: 41
-  live.ok.ru: 14
   www.ray-balance.space: 10
-  vk.ru: 10
-  ads.x5.ru: 10
-  focus.de: 5
-  deepl.com: 5
-  dl.google.com: 5
-  gitlab.com: 5
-  ya.ru: 5
+  deepl.com: 10
+  live.ok.ru: 6
+  dl.google.com: 6
+  vk.ru: 5
+  194.26.229.225: 5
+  rzd.ru: 5
+  cnd.netherlands.myfilecdn.com: 1
+  46.17.40.234: 1
 
 Топ портов:
-  443: 40
   9002: 30
-  4100: 16
+  443: 26
   9001: 11
-  40012: 5
+  2200: 10
+  4100: 6
   14405: 5
-  14406: 5
-  2200: 4
-  1080: 1
+  8880: 1
+  20199: 1
+  9443: 1
 
 Топ схем:
-  vless: 116
+  vless: 89
   ss: 1
+  hysteria2: 1
 
 Топ transport:
   grpc: 41
-  tcp: 36
-  ws: 20
-  xhttp: 20
+  tcp: 17
+  ws: 17
+  xhttp: 16
 
 Топ security:
-  reality: 96
-  none: 21
+  reality: 72
+  none: 19
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_vless
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 49
-Уникальных строк: 49
-Уникальных host:port: 16
-Уникальных backend: 12
-Anycast: 27
-Unknown country: 2
+Всего конфигов: 44
+Уникальных строк: 44
+Уникальных host:port: 10
+Уникальных backend: 10
+Anycast: 26
+Unknown country: 3
 
 Топ стран:
-  🌐 Anycast: 27
-  Germany: 5
-  Poland: 5
-  Netherlands: 5
-  Russia: 5
-  Unknown: 2
+  🌐 Anycast: 26
+  Russia: 6
+  Unknown: 3
+  France: 3
+  Netherlands: 3
+  Poland: 2
+  Germany: 1
 
 Топ SNI:
-  vk.ru: 10
-  ads.x5.ru: 10
-  focus.de: 5
+  deepl.com: 10
+  live.ok.ru: 6
+  vk.ru: 5
   api-maps.yandex.ru: 5
   www.ray-balance.space: 5
-  deepl.com: 5
-  rzd.ru: 3
-  live.ok.ru: 2
-  87.249.54.48: 2
-  178.72.147.249: 1
+  194.26.229.225: 5
+  rzd.ru: 5
+  cnd.netherlands.myfilecdn.com: 1
+  46.17.40.234: 1
+  cns.dodostarscoffee.ru: 1
 
 Топ портов:
-  443: 20
-  40012: 5
+  443: 15
+  2200: 10
+  4100: 6
   14405: 5
   9002: 5
-  14406: 5
-  2200: 4
-  4100: 4
-  1080: 1
+  8880: 1
+  20199: 1
+  9443: 1
 
 Топ схем:
-  vless: 48
+  vless: 42
   ss: 1
+  hysteria2: 1
 
 Топ transport:
-  tcp: 31
-  ws: 8
+  ws: 17
+  tcp: 12
+  xhttp: 10
   grpc: 5
-  xhttp: 5
 
 Топ security:
-  reality: 40
-  none: 9
+  reality: 25
+  none: 19
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW black_all
@@ -186,111 +190,112 @@ FINAL GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 26
-Уникальных строк: 26
-Уникальных host:port: 26
-Уникальных backend: 16
-Anycast: 12
-Unknown country: 2
+Всего конфигов: 16
+Уникальных строк: 16
+Уникальных host:port: 16
+Уникальных backend: 11
+Anycast: 4
+Unknown country: 1
 
 Топ стран:
-  🌐 Anycast: 12
-  Russia: 9
-  Unknown: 2
+  Russia: 8
+  🌐 Anycast: 4
+  France: 1
   Netherlands: 1
+  Unknown: 1
   Germany: 1
-  Poland: 1
 
 Топ SNI:
   api-maps.yandex.ru: 6
-  live.ok.ru: 4
-  rzd.ru: 3
-  ads.x5.ru: 2
-  vk.ru: 2
-  focus.de: 1
+  deepl.com: 2
   dl.google.com: 1
-  gitlab.com: 1
-  87.249.54.48: 1
-  deepl.com: 1
+  cnd.netherlands.myfilecdn.com: 1
+  live.ok.ru: 1
+  www.ray-balance.space: 1
+  vk.ru: 1
+  194.26.229.225: 1
+  46.17.40.234: 1
+  cns.dodostarscoffee.ru: 1
 
 Топ портов:
-  443: 7
-  4100: 6
   9002: 4
-  2200: 3
+  443: 4
   9001: 2
-  40012: 1
+  8880: 1
+  4100: 1
   14405: 1
-  14406: 1
-  1080: 1
+  2200: 1
+  20199: 1
+  9443: 1
 
 Топ схем:
-  vless: 25
+  vless: 14
   ss: 1
+  hysteria2: 1
 
 Топ transport:
-  ws: 9
-  tcp: 7
   grpc: 6
-  xhttp: 4
+  tcp: 4
+  xhttp: 3
+  ws: 3
 
 Топ security:
-  reality: 16
-  none: 10
+  reality: 11
+  none: 5
 
 ────────────────────────────────────────────────────────────────────
 📊 white_vless
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 16
-Уникальных строк: 16
-Уникальных host:port: 16
-Уникальных backend: 12
-Anycast: 10
-Unknown country: 2
+Всего конфигов: 10
+Уникальных строк: 10
+Уникальных host:port: 10
+Уникальных backend: 9
+Anycast: 4
+Unknown country: 1
 
 Топ стран:
-  🌐 Anycast: 10
-  Unknown: 2
-  Russia: 1
+  🌐 Anycast: 4
+  Russia: 2
+  France: 1
   Netherlands: 1
+  Unknown: 1
   Germany: 1
-  Poland: 1
 
 Топ SNI:
-  rzd.ru: 3
-  ads.x5.ru: 2
-  vk.ru: 2
-  live.ok.ru: 2
+  deepl.com: 2
   api-maps.yandex.ru: 1
-  focus.de: 1
-  deepl.com: 1
+  cnd.netherlands.myfilecdn.com: 1
+  live.ok.ru: 1
+  46.17.40.234: 1
   www.ray-balance.space: 1
-  178.72.147.249: 1
-  87.249.54.48: 1
+  vk.ru: 1
+  194.26.229.225: 1
+  cns.dodostarscoffee.ru: 1
 
 Топ портов:
-  443: 4
-  4100: 4
-  2200: 3
+  443: 3
   9002: 1
-  40012: 1
+  8880: 1
+  4100: 1
+  20199: 1
   14405: 1
-  14406: 1
-  1080: 1
+  2200: 1
+  9443: 1
 
 Топ схем:
-  vless: 15
+  vless: 8
   ss: 1
+  hysteria2: 1
 
 Топ transport:
-  tcp: 7
-  ws: 7
+  tcp: 4
+  ws: 3
+  xhttp: 2
   grpc: 1
-  xhttp: 1
 
 Топ security:
-  reality: 8
-  none: 8
+  reality: 5
+  none: 5
 
 ────────────────────────────────────────────────────────────────────
 📊 black_all
@@ -359,126 +364,126 @@ Unknown country: 32
 ────────────────────────────────────────────────────────────────────
 📊 pool
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 120
-Уникальных строк: 120
-Уникальных host:port: 117
-Уникальных backend: 86
-Anycast: 31
-Unknown country: 34
+Всего конфигов: 113
+Уникальных строк: 113
+Уникальных host:port: 110
+Уникальных backend: 83
+Anycast: 27
+Unknown country: 31
 
 Топ стран:
-  Unknown: 34
-  🌐 Anycast: 31
+  Unknown: 31
+  🌐 Anycast: 27
   Netherlands: 14
   Germany: 11
   United States: 10
-  Russia: 8
-  Poland: 4
+  Russia: 9
   Japan: 3
-  Estonia: 2
+  Poland: 3
   France: 2
+  Estonia: 2
 
 Топ SNI:
   www.rumedia-cdn.com: 7
   api-maps.yandex.ru: 4
   cf.udpid.org: 4
   www.bing.com: 4
-  vip-sg-2.hkd4fwmg.vip: 4
-  hopp-germany-new.ddnsguru.com: 4
+  deepl.com: 3
   live.ok.ru: 3
   net.savesafe.run: 3
-  www.amd.com: 3
+  vip-sg-2.hkd4fwmg.vip: 3
   grape-honk.yyuyy.com: 3
+  hopp-germany-new.ddnsguru.com: 3
 
 Топ портов:
-  443: 50
-  8443: 16
-  4100: 6
+  443: 47
+  8443: 15
+  4100: 4
   8080: 4
-  36723: 3
+  9002: 3
   80: 3
-  9002: 2
-  9001: 2
+  36723: 3
+  9443: 2
   2200: 2
   32135: 2
 
 Топ схем:
-  vless: 71
+  vless: 64
   hysteria2: 39
   trojan: 6
   vmess: 3
   ss: 1
 
 Топ transport:
-  tcp: 80
-  ws: 19
-  xhttp: 12
+  tcp: 75
+  ws: 18
+  xhttp: 11
   grpc: 8
   raw: 1
 
 Топ security:
-  none: 54
-  reality: 48
-  tls: 18
+  none: 53
+  reality: 43
+  tls: 17
 
 ────────────────────────────────────────────────────────────────────
 📊 mixed
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 55
-Уникальных строк: 55
-Уникальных host:port: 55
-Уникальных backend: 40
-Anycast: 15
+Всего конфигов: 49
+Уникальных строк: 49
+Уникальных host:port: 49
+Уникальных backend: 36
+Anycast: 13
 Unknown country: 9
 
 Топ стран:
-  🌐 Anycast: 15
+  🌐 Anycast: 13
   Unknown: 9
-  Russia: 8
-  Netherlands: 8
+  Russia: 7
+  Netherlands: 7
   United States: 5
-  Germany: 4
-  Poland: 3
+  Germany: 3
   Estonia: 2
+  Poland: 2
   France: 1
 
 Топ SNI:
   www.rumedia-cdn.com: 7
   api-maps.yandex.ru: 4
+  deepl.com: 3
   www.bing.com: 3
-  dl.google.com: 2
-  vk.ru: 2
-  ads.x5.ru: 2
   www.ray-balance.space: 2
-  ya.ru: 2
-  deepl.com: 2
+  dl.google.com: 2
   www.amd.com: 2
+  pl94.mechvpn.online: 2
+  ee.dealfre.xyz: 2
+  de137.mechvpn.online: 2
 
 Топ портов:
-  443: 33
+  443: 29
   8443: 4
-  9002: 2
-  9001: 2
-  42110: 2
-  14406: 1
+  9002: 3
+  8444: 2
   14405: 1
-  40012: 1
-  40443: 1
+  9001: 1
   2083: 1
+  2053: 1
+  15884: 1
+  40443: 1
 
 Топ схем:
-  vless: 55
+  vless: 49
 
 Топ transport:
-  tcp: 35
+  tcp: 29
   xhttp: 9
   grpc: 7
   ws: 3
   raw: 1
 
 Топ security:
-  reality: 46
-  tls: 9
+  reality: 41
+  tls: 8
 
 ────────────────────────────────────────────────────────────────────
 📊 lte
@@ -486,123 +491,123 @@ Unknown country: 9
 Всего конфигов: 25
 Уникальных строк: 25
 Уникальных host:port: 25
-Уникальных backend: 19
+Уникальных backend: 17
 Anycast: 3
 Unknown country: 0
 
 Топ стран:
-  Russia: 8
-  Netherlands: 5
+  Russia: 7
+  Netherlands: 6
   United States: 4
+  Germany: 3
   🌐 Anycast: 3
-  Germany: 2
-  Estonia: 2
+  Estonia: 1
   Poland: 1
 
 Топ SNI:
   api-maps.yandex.ru: 4
-  ads.x5.ru: 2
   cf.udpid.org: 2
   net.savesafe.run: 2
-  dl.google.com: 2
   russianum1.tcpshield.fun: 2
-  ee.dealfre.xyz: 2
+  dl.google.com: 2
+  www.amd.com: 2
+  de137.mechvpn.online: 2
   www.bing.com: 2
+  deepl.com: 2
   cloudflare.vhub.pro: 1
-  gitlab.com: 1
 
 Топ портов:
   443: 16
+  9002: 3
   8443: 3
-  9002: 2
-  9001: 2
   8444: 2
+  9001: 1
 
 Топ схем:
   vless: 25
 
 Топ transport:
   xhttp: 9
-  grpc: 7
-  tcp: 6
+  tcp: 7
+  grpc: 6
   ws: 3
 
 Топ security:
-  reality: 21
-  tls: 4
+  reality: 20
+  tls: 5
 
 ====================================================================
 🌍 GLOBAL SUMMARY
 ====================================================================
-Всего конфигов: 344
-Уникальных строк: 128
-Уникальных host:port: 125
-Уникальных backend: 86
-Anycast: 94
-Unknown country: 79
+Всего конфигов: 315
+Уникальных строк: 118
+Уникальных host:port: 115
+Уникальных backend: 83
+Anycast: 74
+Unknown country: 74
 
 Топ стран:
-  🌐 Anycast: 94
-  Unknown: 79
+  🌐 Anycast: 74
+  Unknown: 74
   Netherlands: 42
-  Russia: 36
+  Russia: 35
   United States: 30
   Germany: 29
-  Poland: 13
-  Estonia: 8
+  Poland: 9
+  France: 7
+  Estonia: 7
   Japan: 6
-  France: 5
   Bulgaria: 2
 
 Топ SNI:
   www.rumedia-cdn.com: 21
   api-maps.yandex.ru: 19
+  deepl.com: 13
   www.bing.com: 13
   cf.udpid.org: 12
-  live.ok.ru: 11
   net.savesafe.run: 11
-  ads.x5.ru: 10
-  vip-sg-2.hkd4fwmg.vip: 10
-  rzd.ru: 9
-  www.amd.com: 9
+  www.amd.com: 10
   dl.google.com: 8
-  vk.ru: 8
-  deepl.com: 8
-  ee.dealfre.xyz: 8
   russianum1.tcpshield.fun: 8
+  de137.mechvpn.online: 8
+  vip-sg-2.hkd4fwmg.vip: 8
+  live.ok.ru: 7
+  www.ray-balance.space: 7
+  732.stream-host.site: 7
+  ee.dealfre.xyz: 7
 
 Топ портов:
-  443: 154
-  8443: 39
-  4100: 19
-  9002: 11
-  2200: 9
-  9001: 8
+  443: 143
+  8443: 38
+  9002: 14
+  4100: 9
+  8444: 8
   8080: 8
-  8444: 7
   80: 6
-  42110: 6
   36723: 6
-  40012: 4
+  9001: 5
+  2200: 5
+  9443: 5
   14405: 4
-  14406: 4
+  42110: 4
   32135: 4
+  9080: 4
 
 Топ схем:
-  vless: 245
-  hysteria2: 78
+  vless: 214
+  hysteria2: 80
   trojan: 12
   vmess: 6
   ss: 3
 
 Топ transport:
-  tcp: 208
-  ws: 56
-  xhttp: 44
-  grpc: 33
+  tcp: 192
+  ws: 45
+  xhttp: 43
+  grpc: 32
   raw: 3
 
 Топ security:
-  reality: 174
-  none: 121
-  tls: 49
+  reality: 155
+  none: 112
+  tls: 48
