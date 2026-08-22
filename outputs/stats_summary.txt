@@ -1,5 +1,5 @@
 VPN Builder stats summary
-Generated at: 2026-08-22 17:42:08 MSK
+Generated at: 2026-08-22 17:58:02 MSK
 
 ====================================================================
 RAW GROUPS
@@ -8,88 +8,72 @@ RAW GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 82
-Уникальных строк: 72
-Уникальных host:port: 10
-Уникальных backend: 8
-Anycast: 31
-Unknown country: 30
+Всего конфигов: 26
+Уникальных строк: 26
+Уникальных host:port: 5
+Уникальных backend: 5
+Anycast: 10
+Unknown country: 1
 
 Топ стран:
-  🌐 Anycast: 31
-  Unknown: 30
-  Russia: 11
-  Netherlands: 10
+  Russia: 15
+  🌐 Anycast: 10
+  Unknown: 1
 
 Топ SNI:
-  dl.google.com: 30
-  api-maps.yandex.ru: 20
-  www.ray-balance.space: 10
-  rub01.nwncd.com: 10
-  live.ok.ru: 6
-  max.ru: 5
-  rzd.ru: 1
+  api-maps.yandex.ru: 10
+  ya.ru: 10
+  rzd.ru: 5
+  147.45.211.243: 1
 
 Топ портов:
-  443: 45
-  9002: 15
-  489: 10
-  4100: 6
+  443: 10
+  9002: 5
+  2200: 5
   9001: 5
-  2200: 1
+  1080: 1
 
 Топ схем:
-  vless: 72
-  trojan: 10
+  vless: 25
+  ss: 1
 
 Топ transport:
-  grpc: 60
-  tcp: 10
-  ws: 7
-  xhttp: 5
+  grpc: 10
+  xhttp: 10
+  ws: 5
+  tcp: 1
 
 Топ security:
-  reality: 65
-  tls: 10
-  none: 7
+  reality: 20
+  none: 6
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_vless
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 45
-Уникальных строк: 45
-Уникальных host:port: 4
-Уникальных backend: 4
-Anycast: 10
-Unknown country: 30
+Всего конфигов: 1
+Уникальных строк: 1
+Уникальных host:port: 1
+Уникальных backend: 1
+Anycast: 0
+Unknown country: 1
 
 Топ стран:
-  Unknown: 30
-  🌐 Anycast: 10
-  Netherlands: 5
+  Unknown: 1
 
 Топ SNI:
-  dl.google.com: 30
-  api-maps.yandex.ru: 5
-  www.ray-balance.space: 5
-  rub01.nwncd.com: 5
+  147.45.211.243: 1
 
 Топ портов:
-  443: 35
-  9002: 5
-  489: 5
+  1080: 1
 
 Топ схем:
-  vless: 40
-  trojan: 5
+  ss: 1
 
 Топ transport:
-  grpc: 40
-  tcp: 5
+  tcp: 1
 
 Топ security:
-  reality: 40
-  tls: 5
+  none: 1
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW black_all
@@ -159,88 +143,72 @@ FINAL GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 10
-Уникальных строк: 10
-Уникальных host:port: 10
-Уникальных backend: 8
-Anycast: 5
+Всего конфигов: 5
+Уникальных строк: 5
+Уникальных host:port: 5
+Уникальных backend: 5
+Anycast: 1
 Unknown country: 1
 
 Топ стран:
-  🌐 Anycast: 5
   Russia: 3
-  Netherlands: 1
+  🌐 Anycast: 1
   Unknown: 1
 
 Топ SNI:
-  api-maps.yandex.ru: 3
-  live.ok.ru: 2
-  max.ru: 1
-  dl.google.com: 1
-  www.ray-balance.space: 1
+  api-maps.yandex.ru: 2
+  ya.ru: 1
   rzd.ru: 1
-  rub01.nwncd.com: 1
+  147.45.211.243: 1
 
 Топ портов:
-  443: 3
-  9002: 2
-  4100: 2
   9001: 1
-  2200: 1
-  489: 1
-
-Топ схем:
-  vless: 9
-  trojan: 1
-
-Топ transport:
-  grpc: 5
-  ws: 3
-  xhttp: 1
-  tcp: 1
-
-Топ security:
-  reality: 6
-  none: 3
-  tls: 1
-
-────────────────────────────────────────────────────────────────────
-📊 white_vless
-────────────────────────────────────────────────────────────────────
-Всего конфигов: 4
-Уникальных строк: 4
-Уникальных host:port: 4
-Уникальных backend: 4
-Anycast: 2
-Unknown country: 1
-
-Топ стран:
-  🌐 Anycast: 2
-  Netherlands: 1
-  Unknown: 1
-
-Топ SNI:
-  api-maps.yandex.ru: 1
-  dl.google.com: 1
-  www.ray-balance.space: 1
-  rub01.nwncd.com: 1
-
-Топ портов:
-  443: 2
   9002: 1
-  489: 1
+  443: 1
+  2200: 1
+  1080: 1
 
 Топ схем:
-  vless: 3
-  trojan: 1
+  vless: 4
+  ss: 1
 
 Топ transport:
-  grpc: 3
+  grpc: 2
+  xhttp: 1
+  ws: 1
   tcp: 1
 
 Топ security:
   reality: 3
-  tls: 1
+  none: 2
+
+────────────────────────────────────────────────────────────────────
+📊 white_vless
+────────────────────────────────────────────────────────────────────
+Всего конфигов: 1
+Уникальных строк: 1
+Уникальных host:port: 1
+Уникальных backend: 1
+Anycast: 0
+Unknown country: 1
+
+Топ стран:
+  Unknown: 1
+
+Топ SNI:
+  147.45.211.243: 1
+
+Топ портов:
+  1080: 1
+
+Топ схем:
+  ss: 1
+
+Топ transport:
+  tcp: 1
+
+Топ security:
+  none: 1
 
 ────────────────────────────────────────────────────────────────────
 📊 black_all
@@ -282,8 +250,8 @@ Unknown country: 22
   11592: 2
   1935: 2
   489: 1
-  54657: 1
   4100: 1
+  54657: 1
   27732: 1
   59385: 1
 
@@ -306,115 +274,116 @@ Unknown country: 22
 ────────────────────────────────────────────────────────────────────
 📊 pool
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 63
-Уникальных строк: 63
-Уникальных host:port: 52
-Уникальных backend: 55
-Anycast: 22
-Unknown country: 22
+Всего конфигов: 60
+Уникальных строк: 60
+Уникальных host:port: 49
+Уникальных backend: 54
+Anycast: 19
+Unknown country: 23
 
 Топ стран:
-  🌐 Anycast: 22
-  Unknown: 22
+  Unknown: 23
+  🌐 Anycast: 19
   United States: 6
   Russia: 4
-  Netherlands: 4
+  Netherlands: 3
   Germany: 2
   Kazakhstan: 1
   Estonia: 1
   Poland: 1
 
 Топ SNI:
-  api-maps.yandex.ru: 3
-  live.ok.ru: 2
+  api-maps.yandex.ru: 2
   sg2.xiaoliyu.cyou: 2
   google.com: 2
   www.microsoft.com: 2
   usa3.razkur.dev: 2
   usa2.razkur.dev: 2
   127.0.0.1: 2
+  ya.ru: 1
   rzd.ru: 1
-  dl.google.com: 1
+  147.45.211.243: 1
 
 Топ портов:
-  443: 30
+  443: 28
   2056: 3
-  4100: 2
-  9002: 2
   11592: 2
   1935: 2
   8443: 2
   2200: 1
-  489: 1
+  9002: 1
+  1080: 1
   9001: 1
+  4433: 1
 
 Топ схем:
-  vless: 24
+  vless: 20
   hysteria2: 19
   vmess: 11
   trojan: 9
+  ss: 1
 
 Топ transport:
   tcp: 45
-  ws: 11
-  grpc: 6
+  ws: 10
+  grpc: 4
   xhttp: 1
 
 Топ security:
   none: 33
-  reality: 19
+  reality: 16
   tls: 11
 
 ────────────────────────────────────────────────────────────────────
 📊 mixed
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 20
-Уникальных строк: 20
-Уникальных host:port: 20
-Уникальных backend: 17
-Anycast: 5
-Unknown country: 3
+Всего конфигов: 17
+Уникальных строк: 17
+Уникальных host:port: 17
+Уникальных backend: 15
+Anycast: 3
+Unknown country: 2
 
 Топ стран:
-  🌐 Anycast: 5
   United States: 4
-  Unknown: 3
-  Russia: 2
-  Netherlands: 2
+  Russia: 3
+  🌐 Anycast: 3
+  Unknown: 2
   Estonia: 1
   Kazakhstan: 1
   Poland: 1
   Germany: 1
+  Netherlands: 1
 
 Топ SNI:
-  api-maps.yandex.ru: 3
+  api-maps.yandex.ru: 2
   usa3.razkur.dev: 2
   usa2.razkur.dev: 2
-  dl.google.com: 1
-  www.ray-balance.space: 1
-  max.ru: 1
+  ya.ru: 1
   es.ultraspeed.top: 1
   estonia.milas.click: 1
   sw.zapret-tg.ru: 1
   cdn.steamstatic.com: 1
+  kuzya.api.dznn.net: 1
+  wikipedia.org: 1
 
 Топ портов:
-  443: 16
-  9002: 2
+  443: 14
   9001: 1
+  9002: 1
   8443: 1
 
 Топ схем:
-  vless: 20
+  vless: 17
 
 Топ transport:
-  tcp: 13
-  grpc: 5
+  tcp: 12
+  grpc: 3
   xhttp: 1
   ws: 1
 
 Топ security:
-  reality: 19
+  reality: 16
   tls: 1
 
 ────────────────────────────────────────────────────────────────────
@@ -423,44 +392,45 @@ Unknown country: 3
 Всего конфигов: 25
 Уникальных строк: 25
 Уникальных host:port: 25
-Уникальных backend: 20
-Anycast: 10
-Unknown country: 1
+Уникальных backend: 21
+Anycast: 9
+Unknown country: 2
 
 Топ стран:
-  🌐 Anycast: 10
+  🌐 Anycast: 9
   United States: 6
-  Russia: 2
-  Netherlands: 2
-  Poland: 1
+  Russia: 3
+  Unknown: 2
+  Netherlands: 1
   Germany: 1
   Estonia: 1
+  Poland: 1
   Kazakhstan: 1
-  Unknown: 1
 
 Топ SNI:
-  api-maps.yandex.ru: 3
+  api-maps.yandex.ru: 2
   usa2.razkur.dev: 2
   usa3.razkur.dev: 2
   google.com: 2
   www.microsoft.com: 2
-  max.ru: 1
   loft-cayhana.tolkun-tv.ru: 1
-  wikipedia.org: 1
+  ya.ru: 1
   germany.whiteconnect.lol: 1
   estonia.milas.click: 1
+  wikipedia.org: 1
 
 Топ портов:
   443: 19
-  9002: 2
   9001: 1
+  9002: 1
   27732: 1
   54657: 1
   8443: 1
+  489: 1
 
 Топ схем:
-  vless: 17
-  trojan: 7
+  vless: 16
+  trojan: 8
   hysteria2: 1
 
 Топ transport:
@@ -470,77 +440,78 @@ Unknown country: 1
   xhttp: 1
 
 Топ security:
-  reality: 16
-  tls: 9
+  reality: 15
+  tls: 10
 
 ====================================================================
 🌍 GLOBAL SUMMARY
 ====================================================================
-Всего конфигов: 178
-Уникальных строк: 67
-Уникальных host:port: 53
-Уникальных backend: 56
-Anycast: 62
-Unknown country: 50
+Всего конфигов: 164
+Уникальных строк: 61
+Уникальных host:port: 50
+Уникальных backend: 54
+Anycast: 50
+Unknown country: 51
 
 Топ стран:
-  🌐 Anycast: 62
-  Unknown: 50
+  Unknown: 51
+  🌐 Anycast: 50
   United States: 23
-  Netherlands: 13
-  Russia: 12
+  Russia: 14
+  Netherlands: 8
   Germany: 6
   Poland: 4
   Estonia: 4
   Kazakhstan: 4
 
 Топ SNI:
-  api-maps.yandex.ru: 13
+  api-maps.yandex.ru: 8
   usa3.razkur.dev: 8
   usa2.razkur.dev: 8
   www.microsoft.com: 7
   google.com: 6
-  www.ray-balance.space: 5
-  max.ru: 4
-  live.ok.ru: 4
-  dl.google.com: 4
-  rub01.nwncd.com: 4
+  ya.ru: 4
   germany.whiteconnect.lol: 4
   wikipedia.org: 4
   estonia.milas.click: 4
   kuzya.api.dznn.net: 4
+  ukk.milas.click: 4
+  cdn.steamstatic.com: 4
+  loft-cayhana.tolkun-tv.ru: 4
   us.ultraspeed.top: 4
+  es.ultraspeed.top: 4
 
 Топ портов:
-  443: 97
-  9002: 9
+  443: 89
   8443: 6
   2056: 6
-  4100: 5
   9001: 4
-  489: 4
+  9002: 4
   11592: 4
   1935: 4
+  1080: 3
+  489: 3
   54657: 3
   27732: 3
   2200: 2
+  4100: 2
   14078: 2
   36723: 2
-  4433: 2
 
 Топ схем:
-  vless: 89
+  vless: 73
   hysteria2: 39
-  trojan: 28
+  trojan: 27
   vmess: 22
+  ss: 3
 
 Топ transport:
-  tcp: 119
-  ws: 30
-  grpc: 25
+  tcp: 118
+  ws: 27
+  grpc: 15
   xhttp: 4
 
 Топ security:
-  reality: 76
   none: 67
-  tls: 35
+  reality: 63
+  tls: 34
