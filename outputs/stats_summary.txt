@@ -1,5 +1,5 @@
 VPN Builder stats summary
-Generated at: 2026-08-22 20:25:41 MSK
+Generated at: 2026-08-22 20:57:37 MSK
 
 ====================================================================
 RAW GROUPS
@@ -122,63 +122,65 @@ Unknown country: 22
 ────────────────────────────────────────────────────────────────────
 📊 RAW black_all
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 291
-Уникальных строк: 201
-Уникальных host:port: 45
-Уникальных backend: 53
-Anycast: 105
-Unknown country: 65
+Всего конфигов: 328
+Уникальных строк: 220
+Уникальных host:port: 52
+Уникальных backend: 61
+Anycast: 103
+Unknown country: 102
 
 Топ стран:
-  🌐 Anycast: 105
-  Unknown: 65
-  United States: 54
-  Netherlands: 15
-  Germany: 14
+  🌐 Anycast: 103
+  Unknown: 102
+  Netherlands: 38
+  Germany: 26
+  United States: 23
   Estonia: 12
-  Kazakhstan: 12
-  Poland: 12
-  Russia: 2
+  France: 12
+  Kazakhstan: 11
+  Japan: 1
 
 Топ SNI:
-  usa3.razkur.dev: 24
-  usa2.razkur.dev: 24
-  82929473-mitivpn--mitivpn------mitivpn.mitivpn-s.lifestyle: 22
-  66-mitivpn--mitivpn------mitivpn.mitivpn-s.lifestyle: 18
-  estonia.milas.click: 12
-  es.ultraspeed.top: 12
-  germany.whiteconnect.lol: 12
-  kuzya.api.dznn.net: 12
-  wikipedia.org: 12
-  cdn.steamstatic.com: 12
+  m2r.speedtestmark.com: 12
+  www.hp.com: 12
+  jobs.vkimages.io: 12
+  yahoo.com: 12
+  amp-api-edge.apps.apple.com: 12
+  www.microsoft.com: 12
+  germany.whiteconnect.lol: 11
+  de3.prformula.cfd: 11
+  m7r.speedtestmark.com: 11
+  dev.vkimages.io: 11
 
 Топ портов:
-  443: 231
-  8443: 14
-  11592: 4
-  2056: 4
-  4100: 2
-  14078: 2
-  60111: 2
-  1935: 2
-  27732: 2
-  54657: 2
+  443: 167
+  8443: 24
+  6443: 23
+  10050: 12
+  1152: 12
+  32855: 12
+  9443: 11
+  10047: 11
+  80: 11
+  2056: 6
 
 Топ схем:
-  vless: 172
-  trojan: 63
-  hysteria2: 36
-  vmess: 20
+  vless: 252
+  hysteria2: 38
+  trojan: 21
+  vmess: 17
 
 Топ transport:
-  tcp: 206
-  ws: 71
-  grpc: 14
+  tcp: 203
+  ws: 69
+  xhttp: 34
+  grpc: 22
 
 Топ security:
-  reality: 156
-  tls: 78
-  none: 57
+  reality: 181
+  tls: 80
+  none: 56
+  false: 11
 
 ====================================================================
 FINAL GROUPS
@@ -224,8 +226,8 @@ Unknown country: 8
   44001: 4
   2200: 2
   11592: 2
-  9443: 1
   9002: 1
+  9443: 1
 
 Топ схем:
   vless: 37
@@ -276,9 +278,9 @@ Unknown country: 8
 Топ портов:
   443: 10
   44002: 4
-  44006: 4
   44003: 4
   44001: 4
+  44006: 4
   44005: 4
   11592: 2
   9443: 1
@@ -301,185 +303,188 @@ Unknown country: 8
 ────────────────────────────────────────────────────────────────────
 📊 black_all
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 56
-Уникальных строк: 56
-Уникальных host:port: 45
-Уникальных backend: 49
-Anycast: 18
+Всего конфигов: 61
+Уникальных строк: 61
+Уникальных host:port: 52
+Уникальных backend: 54
+Anycast: 20
 Unknown country: 22
 
 Топ стран:
   Unknown: 22
-  🌐 Anycast: 18
-  United States: 7
-  Netherlands: 3
-  Germany: 2
-  Estonia: 1
+  🌐 Anycast: 20
+  Netherlands: 6
+  United States: 5
+  Germany: 4
   Kazakhstan: 1
-  Poland: 1
-  Russia: 1
+  Estonia: 1
+  France: 1
+  Japan: 1
 
 Топ SNI:
-  www.microsoft.com: 3
-  usa2.razkur.dev: 2
-  usa3.razkur.dev: 2
+  www.microsoft.com: 4
+  css.rbxcdn.com: 3
   google.com: 2
   127.0.0.1: 2
-  sg2.xiaoliyu.cyou: 2
-  estonia.milas.click: 1
   kuzya.api.dznn.net: 1
+  amp-api-edge.apps.apple.com: 1
+  static.vkimages.io: 1
+  jobs.vkimages.io: 1
+  yahoo.com: 1
   germany.whiteconnect.lol: 1
-  ukk.milas.click: 1
 
 Топ портов:
-  443: 27
-  2056: 3
-  8443: 2
-  11592: 2
-  1935: 2
+  443: 25
+  2056: 5
+  8443: 3
+  6443: 2
+  32855: 1
+  9443: 1
+  1152: 1
   59385: 1
-  4100: 1
-  27732: 1
-  14078: 1
-  54657: 1
+  8446: 1
+  10047: 1
 
 Топ схем:
-  hysteria2: 19
-  vless: 16
-  vmess: 11
-  trojan: 10
+  vless: 25
+  hysteria2: 21
+  vmess: 9
+  trojan: 6
 
 Топ transport:
-  tcp: 45
-  ws: 9
+  tcp: 46
+  ws: 10
+  xhttp: 3
   grpc: 2
 
 Топ security:
-  none: 31
-  reality: 13
-  tls: 12
+  none: 30
+  reality: 16
+  tls: 14
+  false: 1
 
 ────────────────────────────────────────────────────────────────────
 📊 pool
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 82
-Уникальных строк: 82
-Уникальных host:port: 71
-Уникальных backend: 69
+Всего конфигов: 85
+Уникальных строк: 85
+Уникальных host:port: 76
+Уникальных backend: 74
 Anycast: 31
 Unknown country: 26
 
 Топ стран:
   🌐 Anycast: 31
   Unknown: 26
+  Netherlands: 7
   Russia: 6
-  United States: 6
-  Netherlands: 4
-  Germany: 3
+  Germany: 5
+  United States: 3
   Switzerland: 2
-  France: 1
-  Poland: 1
+  France: 2
+  Japan: 1
   Kazakhstan: 1
 
 Топ SNI:
   pool-c.pools.netcenter-cdn.com: 10
   st.ozone.ru: 4
   api-maps.yandex.ru: 2
-  127.0.0.1: 2
-  usa2.razkur.dev: 2
-  google.com: 2
+  css.rbxcdn.com: 2
   www.microsoft.com: 2
-  usa3.razkur.dev: 2
-  sg2.xiaoliyu.cyou: 2
+  google.com: 2
+  127.0.0.1: 2
   fast_s89.slopllex.app: 1
+  ru.srv.anti-zapret.com: 1
+  s1163sas.storage.yandex.net: 1
 
 Топ портов:
-  443: 37
-  2056: 4
-  11592: 3
+  443: 34
+  2056: 5
+  2200: 3
+  8443: 3
   44001: 2
   44003: 2
   44002: 2
   44006: 2
   44005: 2
-  2200: 2
-  8443: 2
+  9443: 2
 
 Топ схем:
-  vless: 41
-  hysteria2: 21
-  vmess: 11
-  trojan: 9
+  vless: 50
+  hysteria2: 22
+  vmess: 9
+  trojan: 4
 
 Топ transport:
-  tcp: 66
-  ws: 11
+  tcp: 65
+  ws: 12
+  xhttp: 4
   grpc: 4
-  xhttp: 1
 
 Топ security:
-  reality: 34
-  none: 32
+  reality: 37
+  none: 31
   tls: 16
+  false: 1
 
 ────────────────────────────────────────────────────────────────────
 📊 mixed
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 37
-Уникальных строк: 37
-Уникальных host:port: 37
-Уникальных backend: 28
-Anycast: 13
-Unknown country: 6
+Всего конфигов: 44
+Уникальных строк: 44
+Уникальных host:port: 44
+Уникальных backend: 37
+Anycast: 17
+Unknown country: 9
 
 Топ стран:
-  🌐 Anycast: 13
-  Unknown: 6
+  🌐 Anycast: 17
+  Unknown: 9
   Russia: 4
-  United States: 4
-  Germany: 2
-  Netherlands: 2
+  Netherlands: 4
+  Germany: 3
   Switzerland: 2
-  France: 1
-  Poland: 1
+  France: 2
+  United States: 1
+  Estonia: 1
   Kazakhstan: 1
 
 Топ SNI:
   pool-c.pools.netcenter-cdn.com: 10
   st.ozone.ru: 4
   api-maps.yandex.ru: 2
-  usa2.razkur.dev: 2
-  usa3.razkur.dev: 2
-  www.cloudflare.com: 1
   fast97.slopllex.app: 1
-  vyh.kakadurov.com: 1
   www.ray-balance.space: 1
+  www.cloudflare.com: 1
+  fast_s89.slopllex.app: 1
+  vyh.kakadurov.com: 1
+  s1163sas.storage.yandex.net: 1
   ru.srv.anti-zapret.com: 1
 
 Топ портов:
-  443: 23
-  44005: 2
-  44001: 2
+  443: 22
+  9443: 2
+  44002: 2
   44003: 2
   44006: 2
-  44002: 2
-  9443: 1
-  9001: 1
+  44001: 2
+  44005: 2
+  6443: 2
+  8443: 2
   9002: 1
-  8443: 1
 
 Топ схем:
-  vless: 37
+  vless: 44
 
 Топ transport:
   tcp: 32
-  grpc: 3
-  xhttp: 1
-  ws: 1
+  xhttp: 4
+  grpc: 4
+  ws: 4
 
 Топ security:
-  reality: 34
-  tls: 3
+  reality: 37
+  tls: 7
 
 ────────────────────────────────────────────────────────────────────
 📊 lte
@@ -487,125 +492,127 @@ Unknown country: 6
 Всего конфигов: 25
 Уникальных строк: 25
 Уникальных host:port: 25
-Уникальных backend: 21
-Anycast: 8
+Уникальных backend: 22
+Anycast: 9
 Unknown country: 0
 
 Топ стран:
-  🌐 Anycast: 8
+  🌐 Anycast: 9
   Russia: 4
-  United States: 4
+  Netherlands: 4
   Germany: 2
   Switzerland: 2
-  Netherlands: 1
-  France: 1
+  United States: 1
   Estonia: 1
-  Poland: 1
   Kazakhstan: 1
+  France: 1
 
 Топ SNI:
+  st.ozone.ru: 3
   api-maps.yandex.ru: 2
-  usa2.razkur.dev: 2
-  usa3.razkur.dev: 2
   google.com: 2
   pool-c.pools.netcenter-cdn.com: 2
-  fast_s89.slopllex.app: 1
-  s1163sas.storage.yandex.net: 1
-  vyh.kakadurov.com: 1
-  germany.whiteconnect.lol: 1
-  estonia.milas.click: 1
+  llo-production-f821.up.railway.app: 1
+  stan-production-a4c9.up.railway.app: 1
+  grimness-backlogs.cdn-content.com: 1
+  ker-production-e399.up.railway.app: 1
+  accounts.fastly.com: 1
+  amp-api-edge.apps.apple.com: 1
 
 Топ портов:
-  443: 20
+  443: 18
   44002: 2
-  9001: 1
   9002: 1
-  9443: 1
+  32855: 1
+  6443: 1
+  9001: 1
+  8443: 1
 
 Топ схем:
-  vless: 20
-  trojan: 5
+  vless: 23
+  trojan: 2
 
 Топ transport:
-  tcp: 17
-  ws: 5
-  grpc: 2
-  xhttp: 1
+  tcp: 13
+  ws: 6
+  grpc: 3
+  xhttp: 3
 
 Топ security:
-  reality: 18
-  tls: 7
+  reality: 16
+  tls: 9
 
 ====================================================================
 🌍 GLOBAL SUMMARY
 ====================================================================
-Всего конфигов: 274
-Уникальных строк: 104
-Уникальных host:port: 84
-Уникальных backend: 69
-Anycast: 102
-Unknown country: 70
+Всего конфигов: 289
+Уникальных строк: 109
+Уникальных host:port: 91
+Уникальных backend: 74
+Anycast: 109
+Unknown country: 73
 
 Топ стран:
-  🌐 Anycast: 102
-  Unknown: 70
-  Russia: 27
-  United States: 21
+  🌐 Anycast: 109
+  Unknown: 73
+  Russia: 26
+  Netherlands: 23
+  Germany: 16
   Switzerland: 14
-  Netherlands: 12
-  Germany: 11
-  France: 5
-  Estonia: 4
+  United States: 10
+  France: 8
   Kazakhstan: 4
-  Poland: 4
+  Estonia: 4
+  Japan: 2
 
 Топ SNI:
   pool-c.pools.netcenter-cdn.com: 62
-  st.ozone.ru: 19
+  st.ozone.ru: 21
   api-maps.yandex.ru: 8
-  usa2.razkur.dev: 8
-  usa3.razkur.dev: 8
+  www.microsoft.com: 6
   google.com: 6
-  www.cloudflare.com: 5
   vyh.kakadurov.com: 5
   fast_s89.slopllex.app: 5
   ru.srv.anti-zapret.com: 5
   s1163sas.storage.yandex.net: 5
   fast97.slopllex.app: 5
-  www.microsoft.com: 5
+  css.rbxcdn.com: 5
+  www.cloudflare.com: 4
   www.ray-balance.space: 4
-  srv-17e124.21freedom.net: 4
+  kuzya.api.dznn.net: 4
+  amp-api-edge.apps.apple.com: 4
 
 Топ портов:
-  443: 129
+  443: 121
   44002: 14
   44005: 12
   44006: 12
   44003: 12
   44001: 12
-  11592: 9
-  2056: 8
-  9443: 5
-  2200: 5
-  8443: 5
+  2056: 11
+  8443: 9
+  9443: 7
+  2200: 7
+  6443: 7
+  11592: 6
   9002: 4
   9001: 4
-  1935: 4
-  4100: 2
+  32855: 4
 
 Топ схем:
-  vless: 183
-  hysteria2: 45
-  trojan: 24
-  vmess: 22
+  vless: 211
+  hysteria2: 48
+  vmess: 18
+  trojan: 12
 
 Топ transport:
-  tcp: 227
-  ws: 29
-  grpc: 13
-  xhttp: 5
+  tcp: 223
+  ws: 35
+  xhttp: 16
+  grpc: 15
 
 Топ security:
-  reality: 161
-  none: 66
-  tls: 47
+  reality: 168
+  none: 64
+  tls: 55
+  false: 2
