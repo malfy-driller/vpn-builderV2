@@ -1,5 +1,5 @@
 VPN Builder stats summary
-Generated at: 2026-08-23 16:49:02 MSK
+Generated at: 2026-08-23 17:16:28 MSK
 
 ====================================================================
 RAW GROUPS
@@ -8,102 +8,105 @@ RAW GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 86
-Уникальных строк: 78
-Уникальных host:port: 21
-Уникальных backend: 16
-Anycast: 17
-Unknown country: 23
+Всего конфигов: 81
+Уникальных строк: 73
+Уникальных host:port: 19
+Уникальных backend: 13
+Anycast: 23
+Unknown country: 10
 
 Топ стран:
-  Germany: 25
-  Unknown: 23
+  Germany: 24
+  🌐 Anycast: 23
   Russia: 20
-  🌐 Anycast: 17
-  Estonia: 1
+  Unknown: 10
+  United States: 4
 
 Топ SNI:
   www.ray-balance.space: 16
   google.com: 16
-  medicine.repaironline.biz: 9
-  dl.google.com: 8
-  chat.cloud.v1.telemetryapi.uk: 5
-  yandex.ru: 5
-  maps.apple.com: 4
-  line.repaironline.biz: 4
+  dl.google.com: 9
+  maps.apple.com: 8
+  line.repaironline.biz: 8
+  chat.cloud.v1.telemetryapi.uk: 4
+  lv2-pautina.unlimited-access.ru: 4
+  de-pautina.unlimited-access.ru: 4
   srv-17e124.21freedom.net: 4
   api-maps.yandex.ru: 4
 
 Топ портов:
-  443: 62
-  11592: 8
-  6443: 4
+  443: 57
+  11592: 7
   7444: 4
-  2056: 4
+  6443: 4
+  8443: 4
   9002: 4
+  2056: 1
 
 Топ схем:
-  vless: 71
-  hysteria2: 15
+  vless: 73
+  hysteria2: 8
 
 Топ transport:
-  tcp: 60
-  grpc: 21
-  ws: 5
+  tcp: 40
+  grpc: 29
+  raw: 8
+  ws: 4
 
 Топ security:
   reality: 53
   tls: 26
-  none: 7
+  none: 2
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_vless
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 65
-Уникальных строк: 65
+Всего конфигов: 66
+Уникальных строк: 66
 Уникальных host:port: 17
-Уникальных backend: 11
-Anycast: 8
-Unknown country: 18
+Уникальных backend: 10
+Anycast: 15
+Unknown country: 9
 
 Топ стран:
-  Germany: 25
-  Unknown: 18
-  Russia: 13
-  🌐 Anycast: 8
-  Estonia: 1
+  Germany: 24
+  🌐 Anycast: 15
+  Russia: 14
+  Unknown: 9
+  United States: 4
 
 Топ SNI:
   google.com: 16
-  medicine.repaironline.biz: 9
+  dl.google.com: 9
+  maps.apple.com: 8
   www.ray-balance.space: 8
-  dl.google.com: 8
-  chat.cloud.v1.telemetryapi.uk: 5
-  yandex.ru: 5
-  maps.apple.com: 4
-  line.repaironline.biz: 4
+  line.repaironline.biz: 8
+  chat.cloud.v1.telemetryapi.uk: 4
+  lv2-pautina.unlimited-access.ru: 4
+  de-pautina.unlimited-access.ru: 4
   srv-17e124.21freedom.net: 3
   srv-0dc9de.21freedom.net: 2
 
 Топ портов:
-  443: 52
+  443: 49
   11592: 5
-  6443: 4
   7444: 4
+  6443: 4
+  8443: 4
 
 Топ схем:
-  vless: 59
-  hysteria2: 6
+  vless: 61
+  hysteria2: 5
 
 Топ transport:
-  tcp: 43
-  grpc: 17
-  ws: 5
+  tcp: 33
+  grpc: 25
+  ws: 4
+  raw: 4
 
 Топ security:
   reality: 41
-  tls: 23
-  none: 1
+  tls: 25
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW black_all
@@ -170,53 +173,55 @@ FINAL GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 21
-Уникальных строк: 21
-Уникальных host:port: 21
-Уникальных backend: 15
+Всего конфигов: 19
+Уникальных строк: 19
+Уникальных host:port: 19
+Уникальных backend: 12
 Anycast: 4
-Unknown country: 5
+Unknown country: 3
 
 Топ стран:
   Germany: 6
   Russia: 5
-  Unknown: 5
   🌐 Anycast: 4
-  Estonia: 1
+  Unknown: 3
+  United States: 1
 
 Топ SNI:
   google.com: 4
-  www.ray-balance.space: 2
+  maps.apple.com: 2
   dl.google.com: 2
-  medicine.repaironline.biz: 2
-  maps.apple.com: 1
+  line.repaironline.biz: 2
+  www.ray-balance.space: 2
   api-maps.yandex.ru: 1
-  yandex.ru: 1
+  lv2-pautina.unlimited-access.ru: 1
   chat.cloud.v1.telemetryapi.uk: 1
-  line.repaironline.biz: 1
-  cabinet.wwwinternetvideo.click: 1
+  de-pautina.unlimited-access.ru: 1
+  srv-17e124.21freedom.net: 1
 
 Топ портов:
-  443: 14
+  443: 12
   11592: 2
-  2056: 2
-  6443: 1
   9002: 1
+  8443: 1
+  6443: 1
   7444: 1
+  2056: 1
 
 Топ схем:
-  vless: 15
-  hysteria2: 6
+  vless: 16
+  hysteria2: 3
 
 Топ transport:
-  tcp: 15
-  grpc: 5
+  tcp: 10
+  grpc: 7
   ws: 1
+  raw: 1
 
 Топ security:
   reality: 11
-  tls: 6
-  none: 4
+  tls: 7
+  none: 1
 
 ────────────────────────────────────────────────────────────────────
 📊 white_vless
@@ -224,48 +229,49 @@ Unknown country: 5
 Всего конфигов: 17
 Уникальных строк: 17
 Уникальных host:port: 17
-Уникальных backend: 11
-Anycast: 1
-Unknown country: 5
+Уникальных backend: 10
+Anycast: 3
+Unknown country: 3
 
 Топ стран:
   Germany: 6
-  Unknown: 5
   Russia: 4
-  🌐 Anycast: 1
-  Estonia: 1
+  🌐 Anycast: 3
+  Unknown: 3
+  United States: 1
 
 Топ SNI:
   google.com: 4
+  maps.apple.com: 2
   www.ray-balance.space: 2
   dl.google.com: 2
-  medicine.repaironline.biz: 2
-  yandex.ru: 1
-  maps.apple.com: 1
+  line.repaironline.biz: 2
   chat.cloud.v1.telemetryapi.uk: 1
-  line.repaironline.biz: 1
-  cabinet.wwwinternetvideo.click: 1
+  lv2-pautina.unlimited-access.ru: 1
+  de-pautina.unlimited-access.ru: 1
   srv-0dc9de.21freedom.net: 1
+  srv-17e124.21freedom.net: 1
 
 Топ портов:
-  443: 13
+  443: 12
   11592: 2
+  8443: 1
   6443: 1
   7444: 1
 
 Топ схем:
-  vless: 14
-  hysteria2: 3
+  vless: 15
+  hysteria2: 2
 
 Топ transport:
-  tcp: 12
-  grpc: 4
+  tcp: 9
+  grpc: 6
   ws: 1
+  raw: 1
 
 Топ security:
   reality: 10
-  tls: 6
-  none: 1
+  tls: 7
 
 ────────────────────────────────────────────────────────────────────
 📊 black_all
@@ -283,17 +289,17 @@ Unknown country: 16
   Netherlands: 5
   United States: 3
   Russia: 2
-  Estonia: 1
   France: 1
+  Estonia: 1
 
 Топ SNI:
   getsavesafe.net: 4
-  docs.aws.amazon.com: 3
   google.com: 3
+  docs.aws.amazon.com: 3
   127.0.0.1: 3
   grape-honk.yyuyy.com: 3
-  hopp-us.yyuyy.com: 2
   hopp-romania-new.roxa.org: 2
+  hopp-us.yyuyy.com: 2
   t.me: 2
   www.apple.com: 1
   yandex.ru: 1
@@ -306,9 +312,9 @@ Unknown country: 16
   11592: 2
   1935: 2
   20040: 1
-  53113: 1
-  4100: 1
+  6897: 1
   80: 1
+  4100: 1
 
 Топ схем:
   hysteria2: 30
@@ -328,114 +334,117 @@ Unknown country: 16
 ────────────────────────────────────────────────────────────────────
 📊 pool
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 57
-Уникальных строк: 57
-Уникальных host:port: 54
+Всего конфигов: 58
+Уникальных строк: 58
+Уникальных host:port: 55
 Уникальных backend: 46
-Anycast: 21
-Unknown country: 19
+Anycast: 22
+Unknown country: 18
 
 Топ стран:
-  🌐 Anycast: 21
-  Unknown: 19
+  🌐 Anycast: 22
+  Unknown: 18
   Russia: 5
   Germany: 4
+  United States: 4
   Netherlands: 3
-  United States: 3
-  Estonia: 1
   France: 1
+  Estonia: 1
 
 Топ SNI:
   google.com: 4
   docs.aws.amazon.com: 3
-  medicine.repaironline.biz: 2
   www.ray-balance.space: 2
   dl.google.com: 2
-  yandex.ru: 2
-  grape-honk.yyuyy.com: 2
-  hopp-romania-new.roxa.org: 2
+  maps.apple.com: 2
+  line.repaironline.biz: 2
   127.0.0.1: 2
-  t.me: 2
+  hopp-us.yyuyy.com: 2
+  getsavesafe.net: 2
+  hopp-romania-new.roxa.org: 2
 
 Топ портов:
   443: 26
   2056: 4
-  8080: 3
-  8443: 3
+  8443: 4
+  8080: 4
   11592: 2
-  1935: 2
+  7444: 1
   6443: 1
   9002: 1
-  80: 1
   64294: 1
+  4100: 1
 
 Топ схем:
   hysteria2: 28
-  vless: 24
+  vless: 25
   vmess: 3
   trojan: 2
 
 Топ transport:
-  tcp: 47
+  tcp: 45
+  grpc: 7
   ws: 5
-  grpc: 5
+  raw: 1
 
 Топ security:
   none: 30
   reality: 17
-  tls: 10
+  tls: 11
 
 ────────────────────────────────────────────────────────────────────
 📊 mixed
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 22
-Уникальных строк: 22
-Уникальных host:port: 22
+Всего конфигов: 23
+Уникальных строк: 23
+Уникальных host:port: 23
 Уникальных backend: 17
-Anycast: 4
-Unknown country: 8
+Anycast: 6
+Unknown country: 6
 
 Топ стран:
-  Unknown: 8
+  🌐 Anycast: 6
+  Unknown: 6
   Germany: 4
-  🌐 Anycast: 4
   Russia: 3
-  United States: 2
+  United States: 3
   Netherlands: 1
 
 Топ SNI:
   docs.aws.amazon.com: 3
-  www.ray-balance.space: 2
   dl.google.com: 2
-  medicine.repaironline.biz: 2
-  yandex.ru: 2
+  www.ray-balance.space: 2
   google.com: 2
+  maps.apple.com: 2
+  line.repaironline.biz: 2
   getsavesafe.net: 2
-  line.repaironline.biz: 1
-  chat.cloud.v1.telemetryapi.uk: 1
   api-maps.yandex.ru: 1
+  de-pautina.unlimited-access.ru: 1
+  lv2-pautina.unlimited-access.ru: 1
 
 Топ портов:
-  443: 15
+  443: 14
+  8443: 2
   9002: 1
+  7444: 1
   6443: 1
   20040: 1
+  53113: 1
   64294: 1
   6897: 1
-  53113: 1
-  8443: 1
 
 Топ схем:
-  vless: 22
+  vless: 23
 
 Топ transport:
-  tcp: 16
-  grpc: 5
+  tcp: 14
+  grpc: 7
+  raw: 1
   ws: 1
 
 Топ security:
   reality: 17
-  tls: 5
+  tls: 6
 
 ────────────────────────────────────────────────────────────────────
 📊 lte
@@ -444,48 +453,51 @@ Unknown country: 8
 Уникальных строк: 25
 Уникальных host:port: 25
 Уникальных backend: 19
-Anycast: 6
-Unknown country: 8
+Anycast: 8
+Unknown country: 4
 
 Топ стран:
-  Unknown: 8
-  🌐 Anycast: 6
+  🌐 Anycast: 8
+  Russia: 4
   Germany: 4
-  Russia: 3
-  United States: 2
+  Unknown: 4
+  United States: 3
   Netherlands: 2
 
 Топ SNI:
   google.com: 4
   docs.aws.amazon.com: 3
-  yandex.ru: 2
+  maps.apple.com: 2
   dl.google.com: 2
   getsavesafe.net: 2
-  medicine.repaironline.biz: 2
   www.ray-balance.space: 2
   www.apple.com: 1
-  maps.apple.com: 1
   api-maps.yandex.ru: 1
+  chat.cloud.v1.telemetryapi.uk: 1
+  yandex.ru: 1
 
 Топ портов:
-  443: 18
-  6443: 1
+  443: 15
+  8443: 2
   9002: 1
+  6443: 1
   20040: 1
-  53113: 1
-  8443: 1
+  7444: 1
   6897: 1
+  53113: 1
   64294: 1
+  11592: 1
 
 Топ схем:
-  vless: 22
+  vless: 21
   trojan: 2
-  hysteria2: 1
+  hysteria2: 2
 
 Топ transport:
-  tcp: 17
-  grpc: 5
+  tcp: 14
+  grpc: 7
   ws: 3
+  raw: 1
 
 Топ security:
   reality: 17
@@ -495,68 +507,69 @@ Unknown country: 8
 🌍 GLOBAL SUMMARY
 ====================================================================
 Всего конфигов: 192
-Уникальных строк: 74
-Уникальных host:port: 61
+Уникальных строк: 71
+Уникальных host:port: 62
 Уникальных backend: 46
-Anycast: 58
-Unknown country: 61
+Anycast: 65
+Unknown country: 50
 
 Топ стран:
-  Unknown: 61
-  🌐 Anycast: 58
+  🌐 Anycast: 65
+  Unknown: 50
   Germany: 24
-  Russia: 22
+  Russia: 23
+  United States: 15
   Netherlands: 11
-  United States: 10
-  Estonia: 4
   France: 2
+  Estonia: 2
 
 Топ SNI:
   google.com: 21
   docs.aws.amazon.com: 12
   www.ray-balance.space: 11
+  maps.apple.com: 10
   dl.google.com: 10
-  medicine.repaironline.biz: 10
   getsavesafe.net: 10
-  yandex.ru: 9
-  maps.apple.com: 5
+  line.repaironline.biz: 8
+  lv2-pautina.unlimited-access.ru: 5
   chat.cloud.v1.telemetryapi.uk: 5
-  line.repaironline.biz: 5
+  de-pautina.unlimited-access.ru: 5
+  srv-0dc9de.21freedom.net: 5
   127.0.0.1: 5
   grape-honk.yyuyy.com: 5
   api-maps.yandex.ru: 4
-  cabinet.wwwinternetvideo.click: 4
   srv-17e124.21freedom.net: 4
 
 Топ портов:
-  443: 106
-  2056: 10
-  11592: 8
-  8443: 8
-  8080: 7
+  443: 99
+  8443: 13
+  11592: 9
+  2056: 9
+  8080: 8
   6443: 5
+  7444: 5
   9002: 4
   20040: 4
-  53113: 4
-  64294: 4
   6897: 4
-  1935: 4
-  7444: 2
-  4100: 2
+  64294: 4
+  53113: 4
+  1935: 3
   80: 2
+  4100: 2
 
 Топ схем:
-  vless: 111
-  hysteria2: 68
+  vless: 114
+  hysteria2: 65
   trojan: 7
   vmess: 6
 
 Топ transport:
-  tcp: 152
-  grpc: 24
+  tcp: 137
+  grpc: 34
   ws: 16
+  raw: 5
 
 Топ security:
   reality: 83
-  none: 67
-  tls: 42
+  none: 63
+  tls: 46
