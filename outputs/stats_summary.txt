@@ -1,5 +1,5 @@
 VPN Builder stats summary
-Generated at: 2026-08-23 10:07:37 MSK
+Generated at: 2026-08-23 10:51:50 MSK
 
 ====================================================================
 RAW GROUPS
@@ -8,118 +8,94 @@ RAW GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 179
-Уникальных строк: 162
-Уникальных host:port: 38
-Уникальных backend: 19
-Anycast: 74
-Unknown country: 26
+Всего конфигов: 67
+Уникальных строк: 61
+Уникальных host:port: 13
+Уникальных backend: 10
+Anycast: 29
+Unknown country: 24
 
 Топ стран:
-  🌐 Anycast: 74
-  Unknown: 26
-  Netherlands: 20
-  United States: 20
-  Russia: 18
-  Germany: 16
-  France: 5
+  🌐 Anycast: 29
+  Unknown: 24
+  Russia: 14
 
 Топ SNI:
-  pool-b.pools.netcenter-cdn.com: 76
-  api-maps.yandex.ru: 18
-  storage.yandex.net: 16
-  rutube.ru: 12
-  rzd.ru: 12
-  www.ray-balance.space: 10
-  dunlix.norvexa.online: 8
-  deepl.com: 8
-  skimio.orbvia.online: 4
-  cnd.netherlands.myfilecdn.com: 4
+  pool-b.pools.netcenter-cdn.com: 30
+  www.ray-balance.space: 12
+  api-maps.yandex.ru: 10
+  dunlix.norvexa.online: 5
+  rzd.ru: 5
+  srv-0dc9de.21freedom.net: 4
+  live.ok.ru: 1
 
 Топ портов:
-  443: 38
-  44006: 20
-  44004: 20
-  44001: 20
-  2027: 16
-  44003: 16
-  9002: 12
-  2200: 12
-  9001: 6
-  16443: 4
+  443: 17
+  44003: 15
+  44001: 10
+  44004: 5
+  2200: 5
+  9002: 5
+  9001: 5
+  11592: 4
+  4100: 1
 
 Топ схем:
-  vless: 176
-  hysteria2: 3
+  vless: 63
+  hysteria2: 4
 
 Топ transport:
-  tcp: 105
-  raw: 28
-  grpc: 18
-  ws: 16
-  xhttp: 12
+  tcp: 51
+  grpc: 10
+  ws: 6
 
 Топ security:
-  reality: 160
-  none: 18
-  tls: 1
+  reality: 57
+  none: 7
+  tls: 3
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_vless
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 141
-Уникальных строк: 141
-Уникальных host:port: 34
-Уникальных backend: 16
-Anycast: 58
-Unknown country: 26
+Всего конфигов: 49
+Уникальных строк: 49
+Уникальных host:port: 10
+Уникальных backend: 7
+Anycast: 22
+Unknown country: 24
 
 Топ стран:
-  🌐 Anycast: 58
-  Unknown: 26
-  United States: 20
-  Netherlands: 16
-  Germany: 8
-  Russia: 8
-  France: 5
+  Unknown: 24
+  🌐 Anycast: 22
+  Russia: 3
 
 Топ SNI:
-  pool-b.pools.netcenter-cdn.com: 76
-  rutube.ru: 12
-  dunlix.norvexa.online: 8
-  storage.yandex.net: 8
-  deepl.com: 8
-  www.ray-balance.space: 5
-  skimio.orbvia.online: 4
-  cnd.netherlands.myfilecdn.com: 4
-  api-maps.yandex.ru: 4
-  r.windconnect.pro: 4
+  pool-b.pools.netcenter-cdn.com: 30
+  www.ray-balance.space: 6
+  dunlix.norvexa.online: 5
+  rzd.ru: 5
+  srv-0dc9de.21freedom.net: 3
 
 Топ портов:
-  443: 33
-  44006: 20
-  44004: 20
-  44001: 20
-  44003: 16
-  2027: 8
-  16443: 4
-  8880: 4
-  59443: 4
-  63443: 4
+  44003: 15
+  443: 11
+  44001: 10
+  44004: 5
+  2200: 5
+  11592: 3
 
 Топ схем:
-  vless: 141
+  vless: 46
+  hysteria2: 3
 
 Топ transport:
-  tcp: 93
-  raw: 24
-  xhttp: 12
-  ws: 8
-  grpc: 4
+  tcp: 44
+  ws: 5
 
 Топ security:
-  reality: 133
-  none: 8
+  reality: 41
+  none: 6
+  tls: 2
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW black_all
@@ -193,117 +169,94 @@ FINAL GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 35
-Уникальных строк: 35
-Уникальных host:port: 35
-Уникальных backend: 17
-Anycast: 15
-Unknown country: 6
+Всего конфигов: 13
+Уникальных строк: 13
+Уникальных host:port: 13
+Уникальных backend: 10
+Anycast: 5
+Unknown country: 5
 
 Топ стран:
-  🌐 Anycast: 15
-  Unknown: 6
-  Russia: 4
-  Netherlands: 4
-  United States: 4
-  France: 1
-  Germany: 1
+  🌐 Anycast: 5
+  Unknown: 5
+  Russia: 3
 
 Топ SNI:
-  pool-b.pools.netcenter-cdn.com: 16
-  api-maps.yandex.ru: 3
-  rutube.ru: 3
-  dunlix.norvexa.online: 2
-  deepl.com: 2
-  rzd.ru: 2
-  storage.yandex.net: 1
-  cnd.netherlands.myfilecdn.com: 1
-  www.kaspersky.ru: 1
+  pool-b.pools.netcenter-cdn.com: 6
+  api-maps.yandex.ru: 2
+  dunlix.norvexa.online: 1
   www.ray-balance.space: 1
+  live.ok.ru: 1
+  rzd.ru: 1
+  srv-0dc9de.21freedom.net: 1
 
 Топ портов:
-  443: 8
-  44004: 4
-  44003: 4
-  44001: 4
-  44006: 4
-  9002: 2
-  2200: 2
-  59443: 1
-  63443: 1
-  2027: 1
+  44003: 3
+  44001: 2
+  443: 2
+  9002: 1
+  9001: 1
+  44004: 1
+  4100: 1
+  2200: 1
+  11592: 1
 
 Топ схем:
-  vless: 34
+  vless: 12
   hysteria2: 1
 
 Топ transport:
-  tcp: 22
-  raw: 4
-  grpc: 3
-  ws: 3
-  xhttp: 3
+  tcp: 9
+  grpc: 2
+  ws: 2
 
 Топ security:
-  reality: 31
-  none: 4
+  reality: 10
+  none: 2
+  tls: 1
 
 ────────────────────────────────────────────────────────────────────
 📊 white_vless
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 31
-Уникальных строк: 31
-Уникальных host:port: 31
-Уникальных backend: 15
-Anycast: 13
-Unknown country: 6
+Всего конфигов: 10
+Уникальных строк: 10
+Уникальных host:port: 10
+Уникальных backend: 7
+Anycast: 4
+Unknown country: 5
 
 Топ стран:
-  🌐 Anycast: 13
-  Unknown: 6
-  Netherlands: 4
-  United States: 4
-  Russia: 2
-  Germany: 1
-  France: 1
+  Unknown: 5
+  🌐 Anycast: 4
+  Russia: 1
 
 Топ SNI:
-  pool-b.pools.netcenter-cdn.com: 16
-  rutube.ru: 3
-  dunlix.norvexa.online: 2
-  deepl.com: 2
-  api-maps.yandex.ru: 1
-  storage.yandex.net: 1
-  rzd.ru: 1
-  www.kaspersky.ru: 1
+  pool-b.pools.netcenter-cdn.com: 6
   www.ray-balance.space: 1
-  r.windconnect.pro: 1
+  dunlix.norvexa.online: 1
+  rzd.ru: 1
+  srv-0dc9de.21freedom.net: 1
 
 Топ портов:
-  443: 8
-  44001: 4
-  44004: 4
-  44003: 4
-  44006: 4
-  63443: 1
-  9002: 1
-  59443: 1
-  2027: 1
-  16443: 1
+  44003: 3
+  443: 2
+  44001: 2
+  44004: 1
+  2200: 1
+  11592: 1
 
 Топ схем:
-  vless: 31
+  vless: 9
+  hysteria2: 1
 
 Топ transport:
-  tcp: 20
-  raw: 5
-  xhttp: 3
-  ws: 2
-  grpc: 1
+  tcp: 9
+  ws: 1
 
 Топ security:
-  reality: 29
-  none: 2
+  reality: 8
+  none: 1
+  tls: 1
 
 ────────────────────────────────────────────────────────────────────
 📊 black_all
@@ -311,13 +264,13 @@ Unknown country: 6
 Всего конфигов: 140
 Уникальных строк: 140
 Уникальных host:port: 140
-Уникальных backend: 98
-Anycast: 30
-Unknown country: 27
+Уникальных backend: 95
+Anycast: 36
+Unknown country: 21
 
 Топ стран:
-  🌐 Anycast: 30
-  Unknown: 27
+  🌐 Anycast: 36
+  Unknown: 21
   France: 19
   United States: 18
   Germany: 16
@@ -335,19 +288,19 @@ Unknown country: 27
   pol.pinkmoon.pro: 3
   lapa5.api3-max.ru: 2
   wok9.api3-max.ru: 2
-  lapa8.api3-max.ru: 2
   lapa1.api3-max.ru: 2
   lapa6.api3-max.ru: 2
+  lapa4.api3-max.ru: 2
 
 Топ портов:
-  443: 108
+  443: 106
   8443: 8
   9443: 6
   17780: 4
-  8880: 3
+  8880: 4
   80: 2
+  2053: 2
   2087: 1
-  2053: 1
   40443: 1
   6443: 1
 
@@ -357,62 +310,62 @@ Unknown country: 27
   trojan: 2
 
 Топ transport:
-  tcp: 119
-  ws: 11
-  xhttp: 6
+  tcp: 116
+  ws: 13
+  xhttp: 7
   grpc: 3
   raw: 1
 
 Топ security:
-  reality: 77
+  reality: 74
   tls: 48
-  none: 15
+  none: 18
 
 ────────────────────────────────────────────────────────────────────
 📊 pool
 ────────────────────────────────────────────────────────────────────
 Всего конфигов: 150
 Уникальных строк: 150
-Уникальных host:port: 148
-Уникальных backend: 106
-Anycast: 36
-Unknown country: 30
+Уникальных host:port: 149
+Уникальных backend: 102
+Anycast: 40
+Unknown country: 25
 
 Топ стран:
-  🌐 Anycast: 36
-  Unknown: 30
-  France: 18
-  United States: 16
+  🌐 Anycast: 40
+  Unknown: 25
+  France: 19
+  United States: 18
   Germany: 16
-  Netherlands: 13
-  Poland: 9
-  Russia: 4
+  Poland: 12
+  Netherlands: 9
+  Russia: 3
   Finland: 3
   Lithuania: 2
 
 Топ SNI:
-  pool-b.pools.netcenter-cdn.com: 8
   static.vkimages.io: 6
   cdnjs.com: 6
-  api-maps.yandex.ru: 3
+  pool-b.pools.netcenter-cdn.com: 5
+  s3.storage.anti-zapret.com: 4
+  amp-api-edge.apps.apple.com: 4
   dunlix.norvexa.online: 3
-  deepl.com: 3
-  s3.storage.anti-zapret.com: 3
   pol.pinkmoon.pro: 3
-  amp-api-edge.apps.apple.com: 3
-  skimio.orbvia.online: 2
+  www.ray-balance.space: 2
+  api-maps.yandex.ru: 2
+  lapa5.api3-max.ru: 2
 
 Топ портов:
-  443: 104
+  443: 108
   8443: 8
   9443: 5
-  8880: 3
-  17780: 3
-  44006: 2
-  44001: 2
-  9002: 2
+  8880: 4
+  17780: 4
   44003: 2
-  2200: 2
+  44001: 2
+  80: 2
+  2053: 2
+  9001: 1
 
 Топ схем:
   vless: 138
@@ -420,75 +373,74 @@ Unknown country: 30
   trojan: 2
 
 Топ transport:
-  tcp: 117
-  ws: 13
-  xhttp: 9
-  grpc: 6
-  raw: 5
+  tcp: 122
+  ws: 15
+  xhttp: 7
+  grpc: 5
+  raw: 1
 
 Топ security:
-  reality: 91
-  tls: 42
-  none: 17
+  reality: 82
+  tls: 49
+  none: 19
 
 ────────────────────────────────────────────────────────────────────
 📊 mixed
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 60
-Уникальных строк: 60
-Уникальных host:port: 59
+Всего конфигов: 59
+Уникальных строк: 59
+Уникальных host:port: 58
 Уникальных backend: 45
-Anycast: 17
-Unknown country: 17
+Anycast: 11
+Unknown country: 12
 
 Топ стран:
-  🌐 Anycast: 17
-  Unknown: 17
-  Germany: 6
-  United States: 6
-  France: 4
-  Netherlands: 4
-  Russia: 3
-  Poland: 2
+  Unknown: 12
+  🌐 Anycast: 11
+  United States: 10
+  Germany: 7
+  France: 6
+  Poland: 5
+  Russia: 2
+  Netherlands: 2
+  Lithuania: 2
   Finland: 1
 
 Топ SNI:
-  pool-b.pools.netcenter-cdn.com: 8
-  static.vkimages.io: 4
-  api-maps.yandex.ru: 3
-  deepl.com: 2
+  pool-b.pools.netcenter-cdn.com: 5
+  api-maps.yandex.ru: 2
   dunlix.norvexa.online: 2
-  rutube.ru: 2
-  skimio.orbvia.online: 2
-  ang.freeinternat.com: 2
-  pol.pinkmoon.pro: 2
+  pol4.freeinternat.com: 2
+  germ3.freeinternat.com: 2
   s3.storage.anti-zapret.com: 2
+  lapa7.api3-max.ru: 2
+  lapa4.api3-max.ru: 2
+  skimio.orbvia.online: 2
+  us.srv.anti-zapret.com: 2
 
 Топ портов:
-  443: 34
-  8443: 3
-  9443: 3
+  443: 46
   44001: 2
   44003: 2
-  44006: 2
-  44004: 2
-  9002: 2
-  17780: 2
-  2027: 1
+  44004: 1
+  9001: 1
+  9002: 1
+  8443: 1
+  9443: 1
+  13779: 1
+  6443: 1
 
 Топ схем:
-  vless: 60
+  vless: 59
 
 Топ transport:
-  tcp: 43
-  xhttp: 6
-  grpc: 6
-  raw: 4
-  ws: 1
+  tcp: 54
+  grpc: 3
+  xhttp: 2
 
 Топ security:
-  reality: 49
-  tls: 11
+  reality: 41
+  tls: 18
 
 ────────────────────────────────────────────────────────────────────
 📊 lte
@@ -496,118 +448,110 @@ Unknown country: 17
 Всего конфигов: 25
 Уникальных строк: 25
 Уникальных host:port: 25
-Уникальных backend: 18
+Уникальных backend: 16
 Anycast: 0
 Unknown country: 0
 
 Топ стран:
   France: 14
-  United States: 7
-  Netherlands: 2
-  Finland: 1
-  Russia: 1
+  United States: 10
+  Poland: 1
 
 Топ SNI:
-  wok8.api3-max.ru: 2
-  lapa10.api3-max.ru: 2
-  lapa9.api3-max.ru: 2
-  lapa5.api3-max.ru: 2
+  lapa8.api3-max.ru: 2
+  lapa4.api3-max.ru: 2
+  lapa1.api3-max.ru: 2
   lapa3.api3-max.ru: 2
+  wok6.api3-max.ru: 2
+  wok9.api3-max.ru: 2
+  wok2.api3-max.ru: 2
   lapa6.api3-max.ru: 2
-  api-maps.yandex.ru: 2
-  wok4.api3-max.ru: 1
-  lapa4.api3-max.ru: 1
-  wok10.api3-max.ru: 1
+  wok8.api3-max.ru: 2
+  lapa2.api3-max.ru: 1
 
 Топ портов:
-  443: 21
-  9002: 2
-  2087: 1
-  63443: 1
+  443: 25
 
 Топ схем:
   vless: 25
 
 Топ transport:
-  tcp: 22
-  grpc: 2
-  xhttp: 1
+  tcp: 25
 
 Топ security:
-  tls: 22
-  reality: 3
+  tls: 25
 
 ====================================================================
 🌍 GLOBAL SUMMARY
 ====================================================================
-Всего конфигов: 441
-Уникальных строк: 176
-Уникальных host:port: 172
-Уникальных backend: 112
-Anycast: 111
-Unknown country: 86
+Всего конфигов: 397
+Уникальных строк: 154
+Уникальных host:port: 152
+Уникальных backend: 103
+Anycast: 96
+Unknown country: 68
 
 Топ стран:
-  🌐 Anycast: 111
-  Unknown: 86
-  France: 57
-  United States: 55
-  Germany: 40
-  Netherlands: 37
-  Poland: 23
-  Russia: 14
-  Finland: 8
-  Lithuania: 4
-  India: 4
+  🌐 Anycast: 96
+  Unknown: 68
+  France: 58
+  United States: 56
+  Germany: 39
+  Poland: 30
+  Netherlands: 21
+  Russia: 9
+  Finland: 7
+  Lithuania: 6
+  India: 5
   Estonia: 2
 
 Топ SNI:
-  pool-b.pools.netcenter-cdn.com: 48
-  static.vkimages.io: 17
-  cdnjs.com: 13
-  api-maps.yandex.ru: 12
-  rutube.ru: 11
-  dunlix.norvexa.online: 11
-  deepl.com: 10
-  s3.storage.anti-zapret.com: 9
+  pool-b.pools.netcenter-cdn.com: 22
+  cdnjs.com: 14
+  static.vkimages.io: 14
+  s3.storage.anti-zapret.com: 10
+  dunlix.norvexa.online: 9
   amp-api-edge.apps.apple.com: 9
-  pol.pinkmoon.pro: 8
-  skimio.orbvia.online: 7
-  lapa5.api3-max.ru: 7
-  wok8.api3-max.ru: 7
+  lapa4.api3-max.ru: 8
+  wok8.api3-max.ru: 8
+  wok9.api3-max.ru: 7
+  lapa7.api3-max.ru: 7
+  lapa8.api3-max.ru: 7
+  wok6.api3-max.ru: 7
   lapa3.api3-max.ru: 7
-  www.ray-balance.space: 6
+  wok2.api3-max.ru: 7
+  api-maps.yandex.ru: 6
 
 Топ портов:
-  443: 283
-  8443: 19
-  9443: 14
-  44004: 12
-  44003: 12
-  44001: 12
-  44006: 12
-  9002: 9
+  443: 289
+  8443: 17
+  9443: 12
+  44003: 10
   17780: 9
+  44001: 8
   8880: 8
-  63443: 5
-  2200: 5
-  59443: 4
-  2027: 4
-  2087: 4
+  44004: 4
+  80: 4
+  2053: 4
+  9002: 3
+  9001: 3
+  2200: 3
+  11592: 3
+  6443: 3
 
 Топ схем:
-  vless: 417
-  hysteria2: 20
+  vless: 372
+  hysteria2: 21
   trojan: 4
 
 Топ transport:
-  tcp: 343
-  ws: 30
-  xhttp: 28
-  grpc: 21
-  raw: 19
+  tcp: 335
+  ws: 31
+  xhttp: 16
+  grpc: 13
+  raw: 2
 
 Топ security:
-  reality: 280
-  tls: 123
-  none: 38
+  reality: 215
+  tls: 142
+  none: 40
