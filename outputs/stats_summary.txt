@@ -1,5 +1,5 @@
 VPN Builder stats summary
-Generated at: 2026-08-23 20:39:59 MSK
+Generated at: 2026-08-23 20:56:51 MSK
 
 ====================================================================
 RAW GROUPS
@@ -197,13 +197,13 @@ Unknown country: 1
   google.com: 2
   www.ray-balance.space: 2
   maps.apple.com: 1
-  api.yandex-api.org: 1
+  api-maps.yandex.ru: 1
+  de-pautina.unlimited-access.ru: 1
   aispir.ru: 1
   dl.google.com: 1
   gb.sellflow.org: 1
+  api.yandex-api.org: 1
   ads.yandex-cloud.org: 1
-  api.yandex-dev.com: 1
-  api-maps.yandex.ru: 1
 
 Топ портов:
   443: 11
@@ -252,10 +252,10 @@ Unknown country: 1
   dl.google.com: 1
   gb.sellflow.org: 1
   aispir.ru: 1
-  ads.yandex-cloud.org: 1
   api.yandex-dev.com: 1
-  api.yandex-api.org: 1
   lv2-pautina.unlimited-access.ru: 1
+  de-pautina.unlimited-access.ru: 1
+  api.yandex-api.org: 1
 
 Топ портов:
   443: 11
@@ -292,22 +292,22 @@ Unknown country: 49
   Netherlands: 11
   United States: 6
   Germany: 3
-  Belarus: 2
   Japan: 2
   France: 2
+  Belarus: 2
   Russia: 2
   Finland: 1
 
 Топ SNI:
   www.hp.com: 8
-  www.adobe.com: 4
   docs.aws.amazon.com: 4
+  www.adobe.com: 4
   www.sap.com: 4
   getsavesafe.net: 3
   google.com: 3
-  by01.botovod.space: 2
   nt02.hirbilon.net: 2
   www.sony.com: 2
+  by01.botovod.space: 2
   176.65.151.52: 2
 
 Топ портов:
@@ -318,9 +318,9 @@ Unknown country: 49
   11592: 2
   50160: 2
   10014: 1
+  2101: 1
   32866: 1
   10002: 1
-  2101: 1
 
 Топ схем:
   vless: 45
@@ -468,40 +468,40 @@ Unknown country: 9
 Уникальных строк: 25
 Уникальных host:port: 25
 Уникальных backend: 22
-Anycast: 6
+Anycast: 7
 Unknown country: 0
 
 Топ стран:
-  🌐 Anycast: 6
+  🌐 Anycast: 7
   Netherlands: 5
-  United States: 4
-  Germany: 2
-  Belarus: 2
-  Russia: 2
+  Germany: 3
+  Russia: 3
+  United States: 2
   Finland: 2
+  Belarus: 1
   France: 1
   Japan: 1
 
 Топ SNI:
-  google.com: 3
-  by01.botovod.space: 2
+  google.com: 4
   nt02.hirbilon.net: 2
   maps.apple.com: 1
+  api-maps.yandex.ru: 1
+  by01.botovod.space: 1
   inetchnl-production-5246.up.railway.app: 1
   esu-production.up.railway.app: 1
   aispir.ru: 1
   www.apple.com: 1
   dl.google.com: 1
-  getsavesafe.net: 1
 
 Топ портов:
   443: 19
   6443: 1
+  9001: 1
   2101: 1
   32866: 1
-  10005: 1
-  10002: 1
   10014: 1
+  7444: 1
 
 Топ схем:
   vless: 23
@@ -509,13 +509,13 @@ Unknown country: 0
 
 Топ transport:
   tcp: 13
-  grpc: 5
+  grpc: 6
   ws: 4
-  xhttp: 3
+  xhttp: 2
 
 Топ security:
-  reality: 15
-  tls: 10
+  reality: 16
+  tls: 9
 
 ====================================================================
 🌍 GLOBAL SUMMARY
@@ -524,37 +524,37 @@ Unknown country: 0
 Уникальных строк: 133
 Уникальных host:port: 104
 Уникальных backend: 113
-Anycast: 116
+Anycast: 117
 Unknown country: 110
 
 Топ стран:
-  🌐 Anycast: 116
+  🌐 Anycast: 117
   Unknown: 110
   Netherlands: 32
-  Russia: 22
-  Germany: 20
-  United States: 20
+  Russia: 23
+  Germany: 21
+  United States: 18
   Finland: 9
   France: 9
-  Belarus: 8
+  Belarus: 7
   Japan: 6
 
 Топ SNI:
   www.hp.com: 24
-  google.com: 17
-  www.adobe.com: 12
+  google.com: 18
   docs.aws.amazon.com: 12
+  www.adobe.com: 12
   www.sap.com: 12
   getsavesafe.net: 9
   www.ray-balance.space: 8
-  by01.botovod.space: 8
   nt02.hirbilon.net: 8
   www.sony.com: 7
+  by01.botovod.space: 7
   maps.apple.com: 5
-  api.yandex-api.org: 5
+  de-pautina.unlimited-access.ru: 5
   aispir.ru: 5
   dl.google.com: 5
-  ads.yandex-cloud.org: 5
+  gb.sellflow.org: 5
 
 Топ портов:
   443: 151
@@ -563,15 +563,15 @@ Unknown country: 110
   8443: 6
   10019: 6
   6443: 5
-  7444: 4
+  7444: 5
+  9001: 4
   10014: 4
-  32866: 4
-  10002: 4
   2101: 4
-  10005: 4
+  32866: 4
   50160: 4
-  9001: 3
-  10025: 3
+  10002: 3
+  53113: 3
+  10053: 3
 
 Топ схем:
   vless: 207
@@ -581,11 +581,11 @@ Unknown country: 110
 
 Топ transport:
   tcp: 292
-  grpc: 27
+  grpc: 28
   ws: 20
-  xhttp: 13
+  xhttp: 12
 
 Топ security:
-  reality: 163
+  reality: 164
   none: 136
-  tls: 53
+  tls: 52
