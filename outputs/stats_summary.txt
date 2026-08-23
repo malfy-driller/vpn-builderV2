@@ -1,5 +1,5 @@
 VPN Builder stats summary
-Generated at: 2026-08-23 02:57:55 MSK
+Generated at: 2026-08-23 04:05:00 MSK
 
 ====================================================================
 RAW GROUPS
@@ -8,163 +8,154 @@ RAW GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 161
-Уникальных строк: 131
-Уникальных host:port: 30
-Уникальных backend: 11
-Anycast: 78
-Unknown country: 28
+Всего конфигов: 73
+Уникальных строк: 68
+Уникальных host:port: 13
+Уникальных backend: 9
+Anycast: 38
+Unknown country: 5
 
 Топ стран:
-  🌐 Anycast: 78
-  Russia: 47
-  Unknown: 28
-  France: 8
+  🌐 Anycast: 38
+  Russia: 25
+  Unknown: 5
+  Germany: 5
 
 Топ SNI:
-  st.ozone.ru: 52
-  api-maps.yandex.ru: 31
-  www.oracle.com: 24
-  res.chick-team.ru: 16
-  www.ray-balance.space: 12
-  rzd.ru: 9
-  live.ok.ru: 8
-  ru.srv.anti-zapret.com: 4
-  rf3.freeinternat.com: 4
-  5.42.106.111: 1
+  st.ozone.ru: 20
+  api-maps.yandex.ru: 20
+  www.ray-balance.space: 10
+  rzd.ru: 6
+  live.ok.ru: 6
+  cloud.tvss-911.com: 5
+  max.ru: 5
+  91.222.237.55: 1
 
 Топ портов:
-  443: 88
-  9002: 21
-  6448: 16
-  2200: 10
+  443: 40
+  9002: 10
   9001: 10
-  6447: 8
-  4100: 8
+  2200: 7
+  4100: 6
 
 Топ схем:
-  vless: 161
+  vless: 73
 
 Топ transport:
-  tcp: 100
-  grpc: 31
-  ws: 18
-  raw: 12
+  raw: 20
+  grpc: 20
+  tcp: 15
+  ws: 13
+  xhttp: 5
 
 Топ security:
-  reality: 143
-  none: 18
+  reality: 55
+  none: 13
+  tls: 5
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_vless
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 100
-Уникальных строк: 100
-Уникальных host:port: 24
-Уникальных backend: 9
-Anycast: 60
-Unknown country: 15
+Всего конфигов: 37
+Уникальных строк: 37
+Уникальных host:port: 7
+Уникальных backend: 5
+Anycast: 22
+Unknown country: 5
 
 Топ стран:
-  🌐 Anycast: 60
-  Russia: 21
-  Unknown: 15
-  France: 4
+  🌐 Anycast: 22
+  Unknown: 5
+  Germany: 5
+  Russia: 5
 
 Топ SNI:
-  st.ozone.ru: 52
-  www.oracle.com: 12
-  rzd.ru: 9
-  res.chick-team.ru: 8
-  www.ray-balance.space: 6
-  api-maps.yandex.ru: 4
-  ru.srv.anti-zapret.com: 4
-  rf3.freeinternat.com: 4
-  5.42.106.111: 1
+  st.ozone.ru: 20
+  rzd.ru: 6
+  cloud.tvss-911.com: 5
+  www.ray-balance.space: 5
+  91.222.237.55: 1
 
 Топ портов:
-  443: 74
-  2200: 10
-  6448: 8
-  6447: 4
-  9002: 4
+  443: 30
+  2200: 7
 
 Топ схем:
-  vless: 100
+  vless: 37
 
 Топ transport:
-  tcp: 74
-  raw: 12
-  ws: 10
-  grpc: 4
+  raw: 20
+  tcp: 10
+  ws: 7
 
 Топ security:
-  reality: 90
-  none: 10
+  reality: 25
+  none: 7
+  tls: 5
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW black_all
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 425
-Уникальных строк: 299
-Уникальных host:port: 125
-Уникальных backend: 111
+Всего конфигов: 442
+Уникальных строк: 292
+Уникальных host:port: 167
+Уникальных backend: 132
 Anycast: 100
-Unknown country: 141
+Unknown country: 132
 
 Топ стран:
-  Unknown: 141
+  Unknown: 132
   🌐 Anycast: 100
-  United States: 41
-  Netherlands: 32
-  France: 20
-  Poland: 17
-  Germany: 14
-  Bulgaria: 12
-  Estonia: 12
-  India: 6
+  United States: 59
+  France: 38
+  Netherlands: 30
+  Germany: 28
+  Poland: 21
+  India: 10
+  Lithuania: 8
+  Russia: 7
 
 Топ SNI:
-  cdnjs.com: 21
-  ee2.janusgate.org: 16
-  fr2.janusgate.org: 16
-  bg.janusgate.org: 12
-  s3.storage.anti-zapret.com: 12
-  www.microsoft.com: 11
-  google.com: 10
-  www.sony.com: 9
-  nl2.janusgate.org: 9
+  cdnjs.com: 31
+  learn.microsoft.com: 18
+  s3.storage.anti-zapret.com: 13
+  www.microsoft.com: 13
+  nl1.panel11.ru: 10
+  kibi-institut.de: 10
+  kz.freeinternat.com: 9
   foodnetwork.com: 9
+  alban2.freeinternat.com: 8
+  lit3.freeinternat.com: 8
 
 Топ портов:
-  443: 280
-  8080: 14
-  2053: 9
+  443: 321
+  8443: 17
+  65535: 9
+  8080: 9
+  80: 8
+  2053: 7
   2056: 7
-  9443: 6
-  10014: 6
-  65535: 6
-  10007: 6
-  8443: 6
-  10026: 4
+  11592: 7
+  40443: 6
+  6443: 6
 
 Топ схем:
-  vless: 302
-  hysteria2: 60
-  vmess: 43
-  trojan: 20
+  vless: 344
+  hysteria2: 67
+  trojan: 19
+  vmess: 12
 
 Топ transport:
-  tcp: 385
-  ws: 29
-  xhttp: 8
-  raw: 3
+  tcp: 395
+  ws: 25
+  xhttp: 18
+  grpc: 4
 
 Топ security:
-  reality: 267
-  none: 108
-  tls: 47
-  false: 3
+  reality: 246
+  tls: 110
+  none: 82
+  false: 4
 
 ====================================================================
 FINAL GROUPS
@@ -173,285 +164,270 @@ FINAL GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 21
-Уникальных строк: 21
-Уникальных host:port: 21
-Уникальных backend: 10
-Anycast: 7
-Unknown country: 5
+Всего конфигов: 13
+Уникальных строк: 13
+Уникальных host:port: 13
+Уникальных backend: 8
+Anycast: 6
+Unknown country: 1
 
 Топ стран:
-  Russia: 8
-  🌐 Anycast: 7
-  Unknown: 5
-  France: 1
+  🌐 Anycast: 6
+  Russia: 5
+  Unknown: 1
+  Germany: 1
 
 Топ SNI:
-  api-maps.yandex.ru: 6
+  api-maps.yandex.ru: 4
   st.ozone.ru: 4
-  www.oracle.com: 3
-  res.chick-team.ru: 2
-  rzd.ru: 2
-  ru.srv.anti-zapret.com: 1
-  rf3.freeinternat.com: 1
-  www.ray-balance.space: 1
+  max.ru: 1
   live.ok.ru: 1
+  www.ray-balance.space: 1
+  rzd.ru: 1
+  cloud.tvss-911.com: 1
 
 Топ портов:
-  443: 9
-  9002: 4
+  443: 7
+  9002: 2
   9001: 2
-  6448: 2
-  2200: 2
   4100: 1
-  6447: 1
+  2200: 1
 
 Топ схем:
-  vless: 21
+  vless: 13
 
 Топ transport:
-  tcp: 11
-  grpc: 6
-  ws: 3
-  raw: 1
+  grpc: 4
+  raw: 4
+  ws: 2
+  tcp: 2
+  xhttp: 1
 
 Топ security:
-  reality: 18
-  none: 3
+  reality: 10
+  none: 2
+  tls: 1
 
 ────────────────────────────────────────────────────────────────────
 📊 white_vless
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 15
-Уникальных строк: 15
-Уникальных host:port: 15
-Уникальных backend: 8
-Anycast: 5
-Unknown country: 5
+Всего конфигов: 7
+Уникальных строк: 7
+Уникальных host:port: 7
+Уникальных backend: 4
+Anycast: 4
+Unknown country: 1
 
 Топ стран:
-  🌐 Anycast: 5
-  Unknown: 5
-  Russia: 4
-  France: 1
+  🌐 Anycast: 4
+  Russia: 1
+  Unknown: 1
+  Germany: 1
 
 Топ SNI:
   st.ozone.ru: 4
-  www.oracle.com: 3
-  res.chick-team.ru: 2
-  rzd.ru: 2
-  api-maps.yandex.ru: 1
+  rzd.ru: 1
   www.ray-balance.space: 1
-  ru.srv.anti-zapret.com: 1
-  rf3.freeinternat.com: 1
+  cloud.tvss-911.com: 1
 
 Топ портов:
-  443: 9
-  2200: 2
-  6448: 2
-  9002: 1
-  6447: 1
+  443: 6
+  2200: 1
 
 Топ схем:
-  vless: 15
+  vless: 7
 
 Топ transport:
-  tcp: 11
-  ws: 2
-  grpc: 1
-  raw: 1
+  raw: 4
+  tcp: 2
+  ws: 1
 
 Топ security:
-  reality: 13
-  none: 2
+  reality: 5
+  none: 1
+  tls: 1
 
 ────────────────────────────────────────────────────────────────────
 📊 black_all
 ────────────────────────────────────────────────────────────────────
 Всего конфигов: 140
 Уникальных строк: 140
-Уникальных host:port: 118
-Уникальных backend: 100
-Anycast: 32
-Unknown country: 49
+Уникальных host:port: 140
+Уникальных backend: 96
+Anycast: 26
+Unknown country: 32
 
 Топ стран:
-  Unknown: 49
-  🌐 Anycast: 32
-  United States: 13
-  Netherlands: 11
-  France: 6
-  Poland: 6
-  Germany: 5
-  Estonia: 3
-  Bulgaria: 3
+  Unknown: 32
+  🌐 Anycast: 26
+  United States: 22
+  France: 20
+  Germany: 13
+  Poland: 8
+  Netherlands: 8
+  Estonia: 4
   Lithuania: 2
+  India: 2
 
 Топ SNI:
   cdnjs.com: 6
-  fr2.janusgate.org: 4
-  s3.storage.anti-zapret.com: 4
   www.microsoft.com: 4
-  ee2.janusgate.org: 4
-  bg.janusgate.org: 3
-  nl2.janusgate.org: 3
+  s3.storage.anti-zapret.com: 4
+  pol.pinkmoon.pro: 3
   google.com: 3
-  www.sony.com: 3
-  est3.freeinternat.com: 2
+  lapa1.api3-max.ru: 2
+  lapa3.api3-max.ru: 2
+  lapa8.api3-max.ru: 2
+  lapa6.api3-max.ru: 2
+  lapa10.api3-max.ru: 2
 
 Топ портов:
-  443: 82
-  8080: 5
-  8443: 3
-  2056: 3
-  2053: 2
-  9443: 2
+  443: 112
+  8443: 8
+  2200: 2
   10007: 2
-  10014: 2
-  27732: 1
-  65535: 1
+  2053: 2
+  11592: 2
+  59385: 1
+  40443: 1
+  10005: 1
+  8446: 1
 
 Топ схем:
-  vless: 87
-  hysteria2: 24
-  vmess: 22
+  vless: 122
+  hysteria2: 11
   trojan: 7
 
 Топ transport:
-  tcp: 129
-  ws: 8
-  xhttp: 2
-  raw: 1
+  tcp: 123
+  ws: 10
+  xhttp: 5
+  grpc: 2
 
 Топ security:
-  reality: 78
-  none: 48
-  tls: 13
-  false: 1
+  reality: 75
+  tls: 51
+  none: 14
 
 ────────────────────────────────────────────────────────────────────
 📊 pool
 ────────────────────────────────────────────────────────────────────
 Всего конфигов: 150
 Уникальных строк: 150
-Уникальных host:port: 127
-Уникальных backend: 101
-Anycast: 37
-Unknown country: 50
+Уникальных host:port: 150
+Уникальных backend: 102
+Anycast: 31
+Unknown country: 33
 
 Топ стран:
-  Unknown: 50
-  🌐 Anycast: 37
-  United States: 13
-  Netherlands: 11
-  Russia: 7
-  Poland: 6
-  France: 6
-  Germany: 5
-  Estonia: 3
-  Bulgaria: 2
+  Unknown: 33
+  🌐 Anycast: 31
+  United States: 22
+  France: 20
+  Germany: 14
+  Poland: 8
+  Netherlands: 8
+  Russia: 5
+  Estonia: 4
+  Lithuania: 2
 
 Топ SNI:
   cdnjs.com: 6
-  api-maps.yandex.ru: 4
-  ee2.janusgate.org: 4
-  fr2.janusgate.org: 4
   s3.storage.anti-zapret.com: 4
   www.microsoft.com: 4
-  st.ozone.ru: 3
-  www.oracle.com: 3
-  res.chick-team.ru: 3
-  rf3.freeinternat.com: 3
+  api-maps.yandex.ru: 3
+  google.com: 3
+  pol.pinkmoon.pro: 3
+  st.ozone.ru: 2
+  max.ru: 2
+  www.ray-balance.space: 2
+  ang.freeinternat.com: 2
 
 Топ портов:
-  443: 85
-  8080: 4
-  9002: 3
-  2056: 3
-  8443: 3
-  2200: 2
-  6448: 2
-  10007: 2
-  9443: 2
+  443: 117
+  8443: 8
+  2200: 3
+  9002: 2
   2053: 2
+  10007: 2
+  11592: 2
+  9001: 1
+  4100: 1
+  59385: 1
 
 Топ схем:
-  vless: 101
-  hysteria2: 22
-  vmess: 21
-  trojan: 6
+  vless: 132
+  hysteria2: 11
+  trojan: 7
 
 Топ transport:
-  tcp: 133
-  ws: 10
-  grpc: 4
-  xhttp: 2
-  raw: 1
+  tcp: 124
+  ws: 12
+  xhttp: 6
+  grpc: 5
+  raw: 3
 
 Топ security:
-  reality: 89
-  none: 48
-  tls: 12
-  false: 1
+  reality: 82
+  tls: 52
+  none: 16
 
 ────────────────────────────────────────────────────────────────────
 📊 mixed
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 55
-Уникальных строк: 55
-Уникальных host:port: 55
-Уникальных backend: 40
-Anycast: 15
-Unknown country: 14
+Всего конфигов: 60
+Уникальных строк: 60
+Уникальных host:port: 60
+Уникальных backend: 49
+Anycast: 13
+Unknown country: 13
 
 Топ стран:
-  🌐 Anycast: 15
-  Unknown: 14
-  United States: 7
-  Russia: 5
-  France: 2
-  Switzerland: 2
-  Poland: 2
+  🌐 Anycast: 13
+  Unknown: 13
+  United States: 10
+  France: 7
+  Germany: 4
+  Poland: 4
+  Russia: 3
+  Lithuania: 2
   Estonia: 2
-  Netherlands: 2
-  India: 2
+  Netherlands: 1
 
 Топ SNI:
-  api-maps.yandex.ru: 4
-  cdnjs.com: 3
+  api-maps.yandex.ru: 3
   www.ray-balance.space: 2
+  max.ru: 2
   st.ozone.ru: 2
-  res.chick-team.ru: 2
-  www.oracle.com: 2
-  rf3.freeinternat.com: 2
-  learn.microsoft.com: 2
-  fr2.janusgate.org: 2
-  chr.janusgate.org: 2
+  kz.freeinternat.com: 2
+  s3.storage.anti-zapret.com: 2
+  pol.pinkmoon.pro: 2
+  nl3.murhost.network: 2
+  lit3.freeinternat.com: 2
+  wok4.api3-max.ru: 2
 
 Топ портов:
-  443: 43
-  9002: 3
+  443: 52
+  9002: 2
+  8443: 2
   9001: 1
-  6447: 1
-  6448: 1
-  65535: 1
-  10038: 1
-  10015: 1
-  10026: 1
-  10007: 1
+  40443: 1
+  10005: 1
+  6443: 1
 
 Топ схем:
-  vless: 55
+  vless: 60
 
 Топ transport:
-  tcp: 48
+  tcp: 47
+  xhttp: 4
   grpc: 4
-  xhttp: 2
-  ws: 1
+  raw: 3
+  ws: 2
 
 Топ security:
-  reality: 52
-  tls: 3
+  reality: 42
+  tls: 18
 
 ────────────────────────────────────────────────────────────────────
 📊 lte
@@ -459,130 +435,113 @@ Unknown country: 14
 Всего конфигов: 25
 Уникальных строк: 25
 Уникальных host:port: 25
-Уникальных backend: 21
+Уникальных backend: 17
 Anycast: 2
 Unknown country: 0
 
 Топ стран:
+  France: 16
   United States: 6
-  Russia: 5
-  Germany: 3
-  Netherlands: 3
   🌐 Anycast: 2
-  Poland: 2
-  Finland: 1
-  Belarus: 1
-  Bulgaria: 1
-  Lithuania: 1
+  Poland: 1
 
 Топ SNI:
-  api-maps.yandex.ru: 4
-  us.janusgate.org: 2
-  us.srv.anti-zapret.com: 2
-  de.24outlook.space: 1
-  kotakbla.b-cdn.net: 1
-  by01.botovod.space: 1
-  bounded-crammed.video-streams.org: 1
-  ab-v1.bosx.net: 1
-  www.bing.com: 1
-  static.vkimages.io: 1
+  lapa6.api3-max.ru: 2
+  lapa3.api3-max.ru: 2
+  lapa4.api3-max.ru: 2
+  lapa1.api3-max.ru: 2
+  lapa10.api3-max.ru: 2
+  lapa8.api3-max.ru: 2
+  lapa5.api3-max.ru: 2
+  max.ru: 2
+  wok9.api3-max.ru: 1
+  wok6.api3-max.ru: 1
 
 Топ портов:
-  443: 19
-  9002: 3
-  2053: 1
-  9001: 1
-  9443: 1
+  443: 25
 
 Топ схем:
   vless: 25
 
 Топ transport:
-  tcp: 16
-  grpc: 4
-  ws: 3
+  tcp: 23
   xhttp: 2
 
 Топ security:
-  reality: 20
-  tls: 5
+  tls: 23
+  reality: 2
 
 ====================================================================
 🌍 GLOBAL SUMMARY
 ====================================================================
-Всего конфигов: 406
-Уникальных строк: 161
-Уникальных host:port: 136
-Уникальных backend: 104
-Anycast: 98
-Unknown country: 123
+Всего конфигов: 395
+Уникальных строк: 153
+Уникальных host:port: 153
+Уникальных backend: 102
+Anycast: 82
+Unknown country: 80
 
 Топ стран:
-  Unknown: 123
-  🌐 Anycast: 98
-  United States: 39
-  Russia: 31
-  Netherlands: 27
-  France: 16
-  Poland: 16
-  Germany: 14
-  Estonia: 8
-  Switzerland: 6
-  India: 6
-  Bulgaria: 6
-  Lithuania: 5
-  Belarus: 4
-  Japan: 4
+  🌐 Anycast: 82
+  Unknown: 80
+  France: 63
+  United States: 60
+  Germany: 33
+  Poland: 21
+  Netherlands: 17
+  Russia: 16
+  Estonia: 10
+  Lithuania: 6
+  India: 4
+  Finland: 3
 
 Топ SNI:
-  api-maps.yandex.ru: 19
-  cdnjs.com: 16
-  st.ozone.ru: 14
-  www.oracle.com: 12
-  res.chick-team.ru: 11
-  s3.storage.anti-zapret.com: 11
-  fr2.janusgate.org: 10
-  ee2.janusgate.org: 10
-  rf3.freeinternat.com: 9
-  us.srv.anti-zapret.com: 8
+  cdnjs.com: 13
+  st.ozone.ru: 12
+  api-maps.yandex.ru: 10
+  s3.storage.anti-zapret.com: 10
+  max.ru: 8
+  pol.pinkmoon.pro: 8
   www.microsoft.com: 8
-  us.janusgate.org: 8
-  nl2.janusgate.org: 8
-  ru.srv.anti-zapret.com: 7
   www.ray-balance.space: 7
+  lapa3.api3-max.ru: 7
+  lapa8.api3-max.ru: 7
+  lapa6.api3-max.ru: 7
+  wok4.api3-max.ru: 7
+  lapa4.api3-max.ru: 7
+  lapa5.api3-max.ru: 7
+  lapa1.api3-max.ru: 6
 
 Топ портов:
-  443: 247
-  9002: 14
-  8080: 9
-  6448: 8
-  2200: 6
-  2053: 6
-  8443: 6
-  2056: 6
-  9001: 5
-  9443: 5
-  10007: 5
-  6447: 4
-  10014: 4
-  65535: 3
-  10015: 3
+  443: 319
+  8443: 18
+  2200: 7
+  9002: 6
+  9001: 4
+  10007: 4
+  2053: 4
+  11592: 4
+  40443: 3
+  10005: 3
+  6443: 3
+  4100: 2
+  59385: 2
+  8446: 2
+  9443: 2
 
 Топ схем:
-  vless: 304
-  hysteria2: 46
-  vmess: 43
-  trojan: 13
+  vless: 359
+  hysteria2: 22
+  trojan: 14
 
 Топ transport:
-  tcp: 348
+  tcp: 321
   ws: 27
-  grpc: 19
-  xhttp: 8
-  raw: 4
+  xhttp: 18
+  grpc: 15
+  raw: 14
 
 Топ security:
-  reality: 270
-  none: 101
-  tls: 33
-  false: 2
+  reality: 216
+  tls: 146
+  none: 33
