@@ -1,5 +1,5 @@
 VPN Builder stats summary
-Generated at: 2026-08-26 00:48:58 MSK
+Generated at: 2026-08-26 01:19:21 MSK
 
 ====================================================================
 RAW GROUPS
@@ -8,61 +8,62 @@ RAW GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 178
-Уникальных строк: 140
-Уникальных host:port: 53
-Уникальных backend: 23
-Anycast: 103
-Unknown country: 14
+Всего конфигов: 205
+Уникальных строк: 182
+Уникальных host:port: 60
+Уникальных backend: 35
+Anycast: 128
+Unknown country: 13
 
 Топ стран:
-  🌐 Anycast: 103
-  Russia: 34
+  🌐 Anycast: 128
+  Russia: 25
   Finland: 17
-  Unknown: 14
-  Netherlands: 6
-  Bulgaria: 4
+  Unknown: 13
+  Netherlands: 11
+  France: 6
+  Bulgaria: 5
 
 Топ SNI:
-  www.ray-balance.space: 72
-  api-maps.yandex.ru: 21
-  id.vk.com: 21
+  www.ray-balance.space: 68
+  id.vk.com: 28
+  api-maps.yandex.ru: 27
   api-v2-6a8d949a.alpheratzz.org: 17
-  vk.com: 13
-  top168787416.mwscdn.ru: 6
-  dl.google.com: 5
+  top168787416.mwscdn.ru: 11
+  max.ru: 8
   ya.ru: 4
-  alfastat.ru: 4
-  www.gosuslugi.ru: 2
+  fr.esimpson.org: 3
+  8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr: 3
+  vk.com: 3
 
 Топ портов:
-  443: 142
-  9002: 11
-  9001: 10
-  9872: 3
+  443: 157
+  9001: 12
+  9002: 9
+  4449: 6
+  40443: 4
   4433: 3
-  9881: 2
-  140: 1
-  10889: 1
-  831: 1
-  65443: 1
+  9872: 2
+  2083: 2
+  10889: 2
+  2056: 2
 
 Топ схем:
-  vless: 158
-  hysteria2: 17
-  ss: 3
+  vless: 192
+  hysteria2: 9
+  ss: 4
 
 Топ transport:
-  tcp: 93
-  grpc: 49
-  xhttp: 25
-  ws: 9
-  raw: 2
+  tcp: 98
+  grpc: 57
+  xhttp: 27
+  ws: 18
+  raw: 5
 
 Топ security:
-  reality: 131
-  tls: 25
-  none: 22
+  reality: 148
+  tls: 41
+  none: 16
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_vless
@@ -191,61 +192,62 @@ FINAL GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 38
-Уникальных строк: 38
-Уникальных host:port: 38
-Уникальных backend: 22
-Anycast: 16
-Unknown country: 4
+Всего конфигов: 53
+Уникальных строк: 53
+Уникальных host:port: 53
+Уникальных backend: 34
+Anycast: 25
+Unknown country: 6
 
 Топ стран:
-  🌐 Anycast: 16
-  Russia: 11
-  Unknown: 4
+  🌐 Anycast: 25
+  Russia: 12
+  Unknown: 6
   Finland: 4
+  France: 3
   Netherlands: 2
   Bulgaria: 1
 
 Топ SNI:
-  api-maps.yandex.ru: 7
+  api-maps.yandex.ru: 9
   id.vk.com: 4
-  vk.com: 4
+  max.ru: 4
   api-v2-6a8d949a.alpheratzz.org: 4
+  vk.com: 3
   top168787416.mwscdn.ru: 2
   www.ray-balance.space: 2
-  dl.google.com: 2
-  alfastat.ru: 1
-  ya.ru: 1
+  api1.madapp.cc: 1
   dogs.abvphelp.cc: 1
+  stepik.org: 1
 
 Топ портов:
-  443: 20
-  9002: 4
+  443: 28
   9001: 3
+  9002: 3
+  4449: 3
+  40443: 2
+  10889: 2
+  2056: 2
   4433: 2
-  9881: 1
-  4100: 1
-  65443: 1
-  140: 1
+  2083: 1
   9872: 1
-  10889: 1
 
 Топ схем:
-  vless: 28
-  hysteria2: 7
-  ss: 3
+  vless: 41
+  hysteria2: 8
+  ss: 4
 
 Топ transport:
+  tcp: 23
   grpc: 14
-  tcp: 13
-  xhttp: 6
-  ws: 4
-  raw: 1
+  xhttp: 8
+  ws: 6
+  raw: 2
 
 Топ security:
-  reality: 19
-  none: 12
-  tls: 7
+  reality: 26
+  none: 15
+  tls: 12
 
 ────────────────────────────────────────────────────────────────────
 📊 white_vless
@@ -273,17 +275,17 @@ Unknown country: 4
   dl.google.com: 2
   api-maps.yandex.ru: 1
   alfastat.ru: 1
-  ya.ru: 1
   dogs.abvphelp.cc: 1
+  ya.ru: 1
   www.gosuslugi.ru: 1
 
 Топ портов:
   443: 17
   9002: 1
-  9881: 1
+  9872: 1
   140: 1
   65443: 1
-  9872: 1
+  9881: 1
   10889: 1
   831: 1
 
@@ -321,20 +323,20 @@ Unknown country: 58
   France: 5
   Finland: 5
   United States: 5
-  Germany: 3
   Poland: 3
+  Germany: 3
   Lithuania: 2
 
 Топ SNI:
   jobinvest.ru: 5
   sentry.allepal.ee: 4
-  8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr: 4
   s8.media.anti-zapret.com: 4
+  8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr: 4
   api-v2-6a8d949a.alpheratzz.org: 4
   css.rbxcdn.com: 4
   speedtest.tinkoff.ru: 4
-  ar.jobinvest.ru: 3
   ai.jobinvest.ru: 3
+  ar.jobinvest.ru: 3
   lit4.freeinternat.com: 2
 
 Топ портов:
@@ -369,127 +371,127 @@ Unknown country: 58
 ────────────────────────────────────────────────────────────────────
 📊 pool
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 141
-Уникальных строк: 141
-Уникальных host:port: 112
-Уникальных backend: 103
-Anycast: 36
+Всего конфигов: 150
+Уникальных строк: 150
+Уникальных host:port: 121
+Уникальных backend: 113
+Anycast: 41
 Unknown country: 62
 
 Топ стран:
   Unknown: 62
-  🌐 Anycast: 36
-  Netherlands: 9
-  Russia: 7
+  🌐 Anycast: 41
+  Russia: 11
+  Netherlands: 8
+  France: 7
   Finland: 5
   Estonia: 5
-  United States: 5
-  France: 4
-  Germany: 3
-  Lithuania: 2
+  United States: 4
+  Poland: 2
+  Germany: 2
 
 Топ SNI:
+  api-maps.yandex.ru: 7
   8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr: 5
-  api-maps.yandex.ru: 4
   api-v2-6a8d949a.alpheratzz.org: 4
   jobinvest.ru: 4
-  speedtest.tinkoff.ru: 4
-  css.rbxcdn.com: 4
   sentry.allepal.ee: 4
+  css.rbxcdn.com: 4
   vk.com: 3
-  ar.jobinvest.ru: 3
+  s8.media.anti-zapret.com: 3
+  speedtest.tinkoff.ru: 3
   ai.jobinvest.ru: 3
 
 Топ портов:
-  443: 71
-  8443: 6
+  443: 74
+  8443: 5
   4433: 4
-  8080: 4
   9002: 3
+  8080: 3
+  10889: 2
+  2056: 2
+  9001: 2
   4100: 2
-  8113: 2
-  831: 1
-  10889: 1
-  9001: 1
+  60111: 2
 
 Топ схем:
-  vless: 70
-  hysteria2: 38
+  vless: 78
+  hysteria2: 37
   vmess: 27
-  ss: 3
+  ss: 5
   trojan: 3
 
 Топ transport:
-  tcp: 103
-  ws: 13
-  grpc: 12
-  xhttp: 12
-  raw: 1
+  tcp: 104
+  xhttp: 15
+  grpc: 15
+  ws: 14
+  raw: 2
 
 Топ security:
-  none: 70
-  reality: 49
-  tls: 22
+  none: 72
+  reality: 52
+  tls: 26
 
 ────────────────────────────────────────────────────────────────────
 📊 mixed
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 52
-Уникальных строк: 52
-Уникальных host:port: 52
-Уникальных backend: 39
+Всего конфигов: 55
+Уникальных строк: 55
+Уникальных host:port: 55
+Уникальных backend: 42
 Anycast: 17
-Unknown country: 10
+Unknown country: 13
 
 Топ стран:
   🌐 Anycast: 17
-  Unknown: 10
-  Netherlands: 6
-  Russia: 4
+  Unknown: 13
+  Russia: 7
+  Netherlands: 4
+  France: 4
   Finland: 3
-  United States: 3
-  Estonia: 2
-  Germany: 2
-  Lithuania: 2
-  Bulgaria: 1
+  Estonia: 3
+  United States: 2
+  Lithuania: 1
+  Germany: 1
 
 Топ SNI:
-  api-maps.yandex.ru: 4
-  jobinvest.ru: 3
-  dl.google.com: 2
-  id.vk.com: 2
+  api-maps.yandex.ru: 6
   top168787416.mwscdn.ru: 2
-  www.ray-balance.space: 2
   8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr: 2
   api-v2-6a8d949a.alpheratzz.org: 2
+  max.ru: 2
+  www.ray-balance.space: 2
+  id.vk.com: 2
+  dl.google.com: 2
+  s8.media.anti-zapret.com: 2
   sentry.allepal.ee: 2
-  ar.jobinvest.ru: 2
 
 Топ портов:
-  443: 38
-  9002: 3
+  443: 40
+  9002: 2
+  9001: 2
   8113: 2
-  8443: 2
+  4449: 1
+  2083: 1
+  40443: 1
   9872: 1
   9881: 1
-  9001: 1
-  20725: 1
-  446: 1
   50051: 1
 
 Топ схем:
-  vless: 52
+  vless: 55
 
 Топ transport:
-  tcp: 25
-  grpc: 12
-  xhttp: 7
-  ws: 7
-  raw: 1
+  tcp: 23
+  grpc: 14
+  xhttp: 11
+  ws: 5
+  raw: 2
 
 Топ security:
   reality: 41
-  tls: 11
+  tls: 14
 
 ────────────────────────────────────────────────────────────────────
 📊 lte
@@ -497,128 +499,126 @@ Unknown country: 10
 Всего конфигов: 25
 Уникальных строк: 25
 Уникальных host:port: 25
-Уникальных backend: 19
-Anycast: 5
+Уникальных backend: 18
+Anycast: 7
 Unknown country: 0
 
 Топ стран:
-  Netherlands: 6
-  🌐 Anycast: 5
-  Russia: 4
+  Russia: 7
+  🌐 Anycast: 7
+  Netherlands: 4
+  France: 3
   Estonia: 3
-  Germany: 2
-  Bulgaria: 1
-  France: 1
-  Lithuania: 1
-  Finland: 1
-  United States: 1
+  Japan: 1
 
 Топ SNI:
-  api-maps.yandex.ru: 4
+  api-maps.yandex.ru: 5
   id.vk.com: 2
   sentry.allepal.ee: 2
   top168787416.mwscdn.ru: 2
+  max.ru: 2
   8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr: 2
+  host.pushbyte.cc: 1
+  api1.madapp.cc: 1
   app-6a8d949a.adhil.uk: 1
-  wsnl24.wba-pn.ru: 1
-  3a90bf69.ferrin.uk: 1
-  alfastat.ru: 1
-  file-6a8d949a.alpheratzz.org: 1
+  api.madapp.cc: 1
 
 Топ портов:
-  443: 18
-  9002: 3
-  8443: 2
-  9001: 1
-  8113: 1
+  443: 17
+  9001: 2
+  9002: 2
+  20725: 1
+  40443: 1
+  4449: 1
+  2083: 1
 
 Топ схем:
   vless: 25
 
 Топ transport:
+  xhttp: 8
   grpc: 7
-  xhttp: 6
-  ws: 6
-  tcp: 6
+  tcp: 5
+  ws: 5
 
 Топ security:
-  reality: 16
-  tls: 9
+  reality: 14
+  tls: 11
 
 ====================================================================
 🌍 GLOBAL SUMMARY
 ====================================================================
-Всего конфигов: 399
-Уникальных строк: 158
-Уникальных host:port: 121
-Уникальных backend: 104
-Anycast: 110
-Unknown country: 138
+Всего конфигов: 426
+Уникальных строк: 185
+Уникальных host:port: 143
+Уникальных backend: 118
+Anycast: 126
+Unknown country: 143
 
 Топ стран:
-  Unknown: 138
-  🌐 Anycast: 110
-  Netherlands: 32
-  Russia: 28
-  Finland: 22
-  Estonia: 15
-  United States: 14
-  France: 11
-  Germany: 10
-  Lithuania: 7
-  Bulgaria: 5
-  Poland: 4
+  Unknown: 143
+  🌐 Anycast: 126
+  Russia: 39
+  Netherlands: 27
+  France: 22
+  Finland: 21
+  Estonia: 16
+  United States: 11
+  Germany: 6
+  Poland: 5
+  Lithuania: 4
+  Bulgaria: 3
   Japan: 3
 
 Топ SNI:
-  api-maps.yandex.ru: 20
+  api-maps.yandex.ru: 28
   api-v2-6a8d949a.alpheratzz.org: 18
   8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr: 15
   id.vk.com: 14
-  jobinvest.ru: 13
   sentry.allepal.ee: 12
+  jobinvest.ru: 11
+  max.ru: 10
   top168787416.mwscdn.ru: 10
-  ar.jobinvest.ru: 9
-  ai.jobinvest.ru: 9
+  s8.media.anti-zapret.com: 9
   www.ray-balance.space: 8
-  vk.com: 8
-  dl.google.com: 8
+  ai.jobinvest.ru: 8
   css.rbxcdn.com: 8
-  speedtest.tinkoff.ru: 8
-  lit4.freeinternat.com: 7
+  dl.google.com: 7
+  vk.com: 7
+  ar.jobinvest.ru: 7
 
 Топ портов:
-  443: 226
-  8443: 16
-  9002: 14
+  443: 238
+  8443: 12
+  9002: 11
+  9001: 9
   4433: 8
-  8080: 8
-  8113: 7
-  9001: 6
-  9881: 4
-  4100: 4
+  8080: 7
+  4449: 6
+  8113: 6
+  40443: 5
+  10889: 5
+  2083: 4
   9872: 4
-  65443: 3
-  140: 3
-  10889: 3
-  831: 3
-  20725: 3
+  4100: 4
+  60111: 4
+  2056: 4
 
 Топ схем:
-  vless: 251
+  vless: 275
   hysteria2: 79
   vmess: 54
-  ss: 9
+  ss: 12
   trojan: 6
 
 Топ transport:
-  tcp: 249
-  grpc: 56
-  xhttp: 48
+  tcp: 257
+  grpc: 61
+  xhttp: 59
   ws: 42
-  raw: 4
+  raw: 7
 
 Топ security:
-  reality: 177
-  none: 147
-  tls: 75
+  reality: 185
+  none: 152
+  tls: 89
