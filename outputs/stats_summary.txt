@@ -1,5 +1,5 @@
 VPN Builder stats summary
-Generated at: 2026-08-26 23:11:28 MSK
+Generated at: 2026-08-27 02:43:56 MSK
 
 ====================================================================
 RAW GROUPS
@@ -8,164 +8,173 @@ RAW GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 72
-Уникальных строк: 72
-Уникальных host:port: 13
-Уникальных backend: 11
-Anycast: 11
-Unknown country: 5
+Всего конфигов: 116
+Уникальных строк: 96
+Уникальных host:port: 22
+Уникальных backend: 16
+Anycast: 47
+Unknown country: 8
 
 Топ стран:
-  Netherlands: 20
-  Russia: 16
-  🌐 Anycast: 11
-  France: 10
-  Unknown: 5
-  Poland: 5
-  Switzerland: 5
+  🌐 Anycast: 47
+  Russia: 29
+  Germany: 12
+  Unknown: 8
+  United States: 8
+  Czechia: 4
+  Finland: 4
+  Lithuania: 4
 
 Топ SNI:
-  top249441535.mwscdn.ru: 20
-  cloud.mail.ru: 15
-  dl.google.com: 10
-  ya.ru: 10
-  host.pushbyte.cc: 5
-  api.datapull.cc: 5
-  api-maps.yandex.ru: 5
+  www.ray-balance.space: 40
+  5post-gate.x5.ru: 32
+  api-maps.yandex.ru: 19
+  ya.ru: 9
+  www.cloudflare.com: 8
+  live.ok.ru: 4
+  87.249.54.103: 1
+  els.mangshe.xyz: 1
   els1.mangshe.xyz: 1
   vk.com: 1
 
 Топ портов:
-  443: 51
-  8080: 5
-  9894: 5
-  9882: 5
-  9001: 5
-  2056: 1
+  443: 50
+  9001: 11
+  22109: 8
+  9002: 8
+  4100: 5
+  60443: 4
+  56443: 4
+  17443: 4
+  65443: 4
+  57443: 4
 
 Топ схем:
-  vless: 70
-  hysteria2: 2
+  vless: 113
+  hysteria2: 3
 
 Топ transport:
-  tcp: 22
-  ws: 20
-  xhttp: 15
-  grpc: 15
+  tcp: 64
+  grpc: 47
+  ws: 5
 
 Топ security:
-  reality: 40
-  tls: 30
-  none: 2
+  reality: 108
+  none: 7
+  tls: 1
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_vless
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 65
-Уникальных строк: 65
-Уникальных host:port: 10
-Уникальных backend: 8
-Anycast: 10
-Unknown country: 5
+Всего конфигов: 70
+Уникальных строк: 70
+Уникальных host:port: 14
+Уникальных backend: 10
+Anycast: 21
+Unknown country: 8
 
 Топ стран:
-  Netherlands: 20
-  France: 10
-  🌐 Anycast: 10
-  Russia: 10
-  Unknown: 5
-  Poland: 5
-  Switzerland: 5
+  🌐 Anycast: 21
+  Germany: 12
+  Russia: 9
+  Unknown: 8
+  United States: 8
+  Czechia: 4
+  Finland: 4
+  Lithuania: 4
 
 Топ SNI:
-  top249441535.mwscdn.ru: 20
-  cloud.mail.ru: 15
-  dl.google.com: 10
-  ya.ru: 10
-  host.pushbyte.cc: 5
-  api.datapull.cc: 5
+  5post-gate.x5.ru: 32
+  www.ray-balance.space: 20
+  ya.ru: 9
+  www.cloudflare.com: 8
+  87.249.54.103: 1
 
 Топ портов:
-  443: 50
-  8080: 5
-  9894: 5
-  9882: 5
+  443: 29
+  22109: 8
+  60443: 4
+  56443: 4
+  17443: 4
+  65443: 4
+  57443: 4
+  18443: 4
+  20443: 4
+  21443: 4
 
 Топ схем:
-  vless: 65
+  vless: 70
 
 Топ transport:
-  tcp: 20
-  ws: 20
-  xhttp: 15
-  grpc: 10
+  tcp: 41
+  grpc: 28
+  ws: 1
 
 Топ security:
-  reality: 35
-  tls: 30
+  reality: 69
+  none: 1
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW black_all
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 179
-Уникальных строк: 130
-Уникальных host:port: 34
-Уникальных backend: 45
-Anycast: 40
-Unknown country: 93
+Всего конфигов: 433
+Уникальных строк: 322
+Уникальных host:port: 77
+Уникальных backend: 88
+Anycast: 77
+Unknown country: 212
 
 Топ стран:
-  Unknown: 93
-  🌐 Anycast: 40
-  Switzerland: 24
-  Russia: 5
-  Germany: 5
+  Unknown: 212
+  🌐 Anycast: 77
+  Germany: 55
+  Netherlands: 25
+  Kazakhstan: 21
+  Poland: 20
+  Austria: 14
   United States: 4
   France: 4
-  Poland: 2
-  Japan: 2
+  Japan: 1
 
 Топ SNI:
-  dl.google.com: 36
-  d2e1v87ko56lyw.cloudfront.net:assets.opensignal.com: 26
-  www.cloudflare.com: 14
-  yahoo.com: 12
-  css.rbxcdn.com: 8
-  speedtest.tinkoff.ru: 7
-  t.me: 6
-  www.kinopoisk.ru: 5
-  google.com: 5
-  93.123.85.218: 4
+  suetinklerartglass.co.uk: 35
+  czechia.metricpipe.space: 24
+  4b9ibss6tuv6.bosfiles.net: 24
+  zvukipro.com: 21
+  kzhy2.metricpipe.space: 21
+  pol.freeinternat.com: 18
+  ukhy2.metricpipe.space: 18
+  lvhy2.metricpipe.space: 15
+  swenhy2.metricpipe.space: 15
+  ezjb4e6x5ug0.bosfiles.net: 14
 
 Топ портов:
-  443: 38
-  80: 28
-  9882: 24
-  34156: 12
-  9871: 12
-  50159: 12
-  36723: 5
+  443: 281
+  8443: 37
+  9443: 12
+  4100: 9
+  80: 8
+  13443: 7
+  36723: 7
+  7444: 6
+  50160: 6
   1105: 4
-  50160: 3
-  56: 2
 
 Топ схем:
-  vless: 98
-  hysteria2: 41
-  vmess: 33
-  trojan: 7
+  vless: 303
+  hysteria2: 65
+  vmess: 42
+  trojan: 23
 
 Топ transport:
-  tcp: 109
-  grpc: 36
-  ws: 29
-  raw: 5
+  tcp: 320
+  grpc: 87
+  ws: 26
 
 Топ security:
-  none: 93
-  reality: 65
-  false: 12
-  tls: 9
+  reality: 200
+  none: 127
+  tls: 106
 
 ====================================================================
 FINAL GROUPS
@@ -174,410 +183,424 @@ FINAL GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 13
-Уникальных строк: 13
-Уникальных host:port: 13
-Уникальных backend: 11
-Anycast: 3
-Unknown country: 1
+Всего конфигов: 22
+Уникальных строк: 22
+Уникальных host:port: 22
+Уникальных backend: 16
+Anycast: 6
+Unknown country: 2
 
 Топ стран:
-  Russia: 3
-  🌐 Anycast: 3
-  France: 2
-  Netherlands: 2
-  Poland: 1
-  Switzerland: 1
-  Unknown: 1
+  Russia: 6
+  🌐 Anycast: 6
+  Germany: 3
+  United States: 2
+  Unknown: 2
+  Finland: 1
+  Lithuania: 1
+  Czechia: 1
 
 Топ SNI:
-  cloud.mail.ru: 3
-  top249441535.mwscdn.ru: 2
-  dl.google.com: 2
-  api-maps.yandex.ru: 1
-  host.pushbyte.cc: 1
+  5post-gate.x5.ru: 8
+  api-maps.yandex.ru: 4
+  www.cloudflare.com: 2
+  www.ray-balance.space: 2
   ya.ru: 1
-  api.datapull.cc: 1
+  live.ok.ru: 1
+  87.249.54.103: 1
   vk.com: 1
+  els.mangshe.xyz: 1
   els1.mangshe.xyz: 1
 
 Топ портов:
-  443: 8
-  9001: 1
-  9894: 1
-  8080: 1
-  9882: 1
-  2056: 1
+  443: 4
+  9002: 2
+  22109: 2
+  9001: 2
+  4100: 2
+  2056: 2
+  18443: 1
+  17443: 1
+  20443: 1
+  56443: 1
 
 Топ схем:
-  vless: 11
-  hysteria2: 2
+  vless: 19
+  hysteria2: 3
 
 Топ transport:
-  tcp: 5
-  grpc: 3
-  xhttp: 3
+  grpc: 11
+  tcp: 9
   ws: 2
 
 Топ security:
-  reality: 7
-  tls: 4
-  none: 2
+  reality: 17
+  none: 4
+  tls: 1
 
 ────────────────────────────────────────────────────────────────────
 📊 white_vless
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 10
-Уникальных строк: 10
-Уникальных host:port: 10
-Уникальных backend: 8
-Anycast: 2
-Unknown country: 1
+Всего конфигов: 14
+Уникальных строк: 14
+Уникальных host:port: 14
+Уникальных backend: 10
+Anycast: 3
+Unknown country: 2
 
 Топ стран:
-  Netherlands: 2
-  France: 2
-  🌐 Anycast: 2
+  Germany: 3
+  🌐 Anycast: 3
+  United States: 2
+  Unknown: 2
   Russia: 1
-  Poland: 1
-  Switzerland: 1
-  Unknown: 1
+  Finland: 1
+  Czechia: 1
+  Lithuania: 1
 
 Топ SNI:
-  cloud.mail.ru: 3
-  top249441535.mwscdn.ru: 2
-  dl.google.com: 2
+  5post-gate.x5.ru: 8
+  www.cloudflare.com: 2
+  www.ray-balance.space: 2
   ya.ru: 1
-  host.pushbyte.cc: 1
-  api.datapull.cc: 1
+  87.249.54.103: 1
 
 Топ портов:
-  443: 7
-  9894: 1
-  9882: 1
-  8080: 1
+  443: 3
+  22109: 2
+  18443: 1
+  17443: 1
+  56443: 1
+  20443: 1
+  65443: 1
+  57443: 1
+  60443: 1
+  21443: 1
 
 Топ схем:
-  vless: 10
+  vless: 14
 
 Топ transport:
-  tcp: 3
-  xhttp: 3
-  ws: 2
-  grpc: 2
+  grpc: 7
+  tcp: 6
+  ws: 1
 
 Топ security:
-  reality: 6
-  tls: 4
+  reality: 13
+  none: 1
 
 ────────────────────────────────────────────────────────────────────
 📊 black_all
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 48
-Уникальных строк: 48
-Уникальных host:port: 30
-Уникальных backend: 42
-Anycast: 10
-Unknown country: 29
+Всего конфигов: 97
+Уникальных строк: 97
+Уникальных host:port: 74
+Уникальных backend: 77
+Anycast: 19
+Unknown country: 53
 
 Топ стран:
-  Unknown: 29
-  🌐 Anycast: 10
-  Switzerland: 2
-  Germany: 2
-  Russia: 1
-  Poland: 1
+  Unknown: 53
+  🌐 Anycast: 19
+  Germany: 9
+  Netherlands: 5
+  Kazakhstan: 4
+  Poland: 3
+  Austria: 1
+  France: 1
   Japan: 1
   United States: 1
-  France: 1
 
 Топ SNI:
+  kzhy2.metricpipe.space: 4
+  czechia.metricpipe.space: 4
   css.rbxcdn.com: 4
-  dl.google.com: 3
-  www.cloudflare.com: 3
-  93.123.85.218: 2
-  google.com: 2
-  www.kinopoisk.ru: 1
-  sijifoxx.global.ssl.fastly.net: 1
-  yahoo.com: 1
-  moltbot.doctoroyy.net: 1
-  201.24.49.19: 1
+  swenhy2.metricpipe.space: 3
+  ukhy2.metricpipe.space: 3
+  lvhy2.metricpipe.space: 3
+  speedtest.tinkoff.ru: 3
+  www.bing.com: 3
+  fihy2.metricpipe.space: 2
+  nl3.freeinternat.com: 2
 
 Топ портов:
-  443: 13
+  443: 43
+  8443: 6
+  9443: 4
+  4100: 3
+  36723: 3
+  50160: 3
   80: 2
-  9882: 2
-  36723: 2
   2056: 2
-  34156: 1
-  52: 1
-  2200: 1
-  50159: 1
-  9871: 1
+  7444: 1
+  442: 1
 
 Топ схем:
-  vmess: 18
-  hysteria2: 17
-  vless: 11
-  trojan: 2
+  vless: 40
+  hysteria2: 27
+  vmess: 23
+  trojan: 7
 
 Топ transport:
-  tcp: 41
-  ws: 3
-  grpc: 3
-  raw: 1
+  tcp: 80
+  grpc: 10
+  ws: 7
 
 Топ security:
-  none: 40
-  reality: 6
-  tls: 2
+  none: 56
+  reality: 24
+  tls: 17
 
 ────────────────────────────────────────────────────────────────────
 📊 pool
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 58
-Уникальных строк: 58
-Уникальных host:port: 40
-Уникальных backend: 52
-Anycast: 12
-Unknown country: 29
+Всего конфигов: 118
+Уникальных строк: 118
+Уникальных host:port: 94
+Уникальных backend: 92
+Anycast: 25
+Unknown country: 55
 
 Топ стран:
-  Unknown: 29
-  🌐 Anycast: 12
-  Russia: 4
-  France: 3
-  Netherlands: 2
-  Poland: 2
-  Switzerland: 2
-  Germany: 2
-  United States: 1
-  Japan: 1
+  Unknown: 55
+  🌐 Anycast: 25
+  Germany: 12
+  Russia: 5
+  Netherlands: 5
+  Kazakhstan: 4
+  United States: 3
+  Poland: 3
+  Lithuania: 1
+  Finland: 1
 
 Топ SNI:
-  dl.google.com: 4
-  cloud.mail.ru: 3
-  www.cloudflare.com: 3
-  top249441535.mwscdn.ru: 2
-  css.rbxcdn.com: 2
-  google.com: 2
-  93.123.85.218: 2
-  vk.com: 1
-  ya.ru: 1
-  els1.mangshe.xyz: 1
+  5post-gate.x5.ru: 8
+  www.cloudflare.com: 4
+  czechia.metricpipe.space: 4
+  css.rbxcdn.com: 4
+  kzhy2.metricpipe.space: 4
+  api-maps.yandex.ru: 3
+  ukhy2.metricpipe.space: 3
+  speedtest.tinkoff.ru: 3
+  swenhy2.metricpipe.space: 3
+  www.bing.com: 3
 
 Топ портов:
-  443: 19
-  2056: 3
-  9882: 2
-  36723: 2
+  443: 47
+  8443: 6
+  4100: 5
+  2056: 4
+  9443: 4
+  36723: 3
+  50160: 3
+  9002: 2
+  22109: 2
   80: 2
-  9894: 1
-  8080: 1
-  9001: 1
-  1105: 1
-  2200: 1
 
 Топ схем:
-  vless: 21
-  vmess: 18
-  hysteria2: 17
-  trojan: 2
+  vless: 58
+  hysteria2: 30
+  vmess: 23
+  trojan: 7
 
 Топ transport:
-  tcp: 44
-  ws: 5
-  grpc: 5
-  xhttp: 3
-  raw: 1
+  tcp: 89
+  grpc: 20
+  ws: 9
 
 Топ security:
-  none: 40
-  reality: 12
-  tls: 6
+  none: 60
+  reality: 40
+  tls: 18
 
 ────────────────────────────────────────────────────────────────────
 📊 mixed
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 16
-Уникальных строк: 16
-Уникальных host:port: 16
-Уникальных backend: 14
-Anycast: 4
-Unknown country: 2
+Всего конфигов: 49
+Уникальных строк: 49
+Уникальных host:port: 49
+Уникальных backend: 37
+Anycast: 9
+Unknown country: 15
 
 Топ стран:
-  🌐 Anycast: 4
-  Russia: 3
-  Netherlands: 2
-  Unknown: 2
-  France: 2
-  Switzerland: 2
-  Poland: 1
+  Unknown: 15
+  🌐 Anycast: 9
+  Germany: 6
+  Russia: 4
+  Netherlands: 4
+  Kazakhstan: 3
+  United States: 2
+  Poland: 2
+  Lithuania: 1
+  Czechia: 1
 
 Топ SNI:
-  dl.google.com: 4
-  cloud.mail.ru: 3
-  top249441535.mwscdn.ru: 2
-  ya.ru: 1
-  host.pushbyte.cc: 1
-  api.datapull.cc: 1
-  api-maps.yandex.ru: 1
-  www.cloudflare.com: 1
-  yahoo.com: 1
-  www.kinopoisk.ru: 1
+  5post-gate.x5.ru: 8
+  api-maps.yandex.ru: 3
+  ukhy2.metricpipe.space: 3
+  czechia.metricpipe.space: 3
+  kzhy2.metricpipe.space: 3
+  www.cloudflare.com: 2
+  www.ray-balance.space: 2
+  nl3.freeinternat.com: 2
+  slashdot.org: 2
+  fihy2.metricpipe.space: 2
 
 Топ портов:
-  443: 8
-  9882: 2
-  9894: 1
-  8080: 1
+  443: 28
+  8443: 6
+  22109: 2
+  9002: 2
+  20443: 1
+  21443: 1
+  60443: 1
   9001: 1
-  50159: 1
-  34156: 1
-  9871: 1
+  65443: 1
+  56443: 1
 
 Топ схем:
-  vless: 16
+  vless: 49
 
 Топ transport:
-  tcp: 5
-  grpc: 5
-  xhttp: 3
-  ws: 2
-  raw: 1
+  tcp: 28
+  grpc: 20
+  ws: 1
 
 Топ security:
-  reality: 12
-  tls: 4
+  reality: 40
+  tls: 9
 
 ────────────────────────────────────────────────────────────────────
 📊 lte
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 18
-Уникальных строк: 18
-Уникальных host:port: 18
-Уникальных backend: 16
-Anycast: 4
-Unknown country: 3
+Всего конфигов: 25
+Уникальных строк: 25
+Уникальных host:port: 25
+Уникальных backend: 20
+Anycast: 1
+Unknown country: 0
 
 Топ стран:
-  🌐 Anycast: 4
-  Russia: 3
-  France: 3
-  Unknown: 3
-  Netherlands: 2
-  Switzerland: 2
-  Poland: 1
+  Germany: 6
+  Russia: 4
+  Netherlands: 4
+  Kazakhstan: 2
+  Poland: 2
+  United States: 2
+  Austria: 1
+  Czechia: 1
+  Lithuania: 1
+  Finland: 1
 
 Топ SNI:
-  dl.google.com: 4
-  cloud.mail.ru: 3
-  top249441535.mwscdn.ru: 2
-  api-maps.yandex.ru: 1
-  api.datapull.cc: 1
-  host.pushbyte.cc: 1
-  ya.ru: 1
-  www.kinopoisk.ru: 1
-  www.cloudflare.com: 1
-  moltbot.doctoroyy.net: 1
+  5post-gate.x5.ru: 6
+  api-maps.yandex.ru: 3
+  kzhy2.metricpipe.space: 2
+  nl3.freeinternat.com: 2
+  pol.freeinternat.com: 2
+  www.cloudflare.com: 2
+  hys42.wba-pn.ru: 1
+  4b9ibss6tuv6.bosfiles.net: 1
+  ezjb4e6x5ug0.bosfiles.net: 1
+  32ukc4l1gq6h.bosfiles.net: 1
 
 Топ портов:
-  443: 9
-  9882: 2
+  443: 11
+  9002: 2
+  8443: 2
+  22109: 2
   9001: 1
-  9894: 1
-  8080: 1
-  50159: 1
-  34156: 1
-  9871: 1
-  1105: 1
+  56443: 1
+  20443: 1
+  7444: 1
+  57443: 1
+  18443: 1
 
 Топ схем:
-  vless: 16
-  trojan: 2
+  vless: 25
 
 Топ transport:
-  tcp: 7
-  grpc: 5
-  xhttp: 3
-  ws: 2
-  raw: 1
+  grpc: 14
+  tcp: 10
+  ws: 1
 
 Топ security:
-  reality: 12
+  reality: 19
   tls: 6
 
 ====================================================================
 🌍 GLOBAL SUMMARY
 ====================================================================
-Всего конфигов: 163
-Уникальных строк: 62
-Уникальных host:port: 42
-Уникальных backend: 52
-Anycast: 35
-Unknown country: 65
+Всего конфигов: 325
+Уникальных строк: 119
+Уникальных host:port: 95
+Уникальных backend: 92
+Anycast: 63
+Unknown country: 127
 
 Топ стран:
-  Unknown: 65
-  🌐 Anycast: 35
-  Russia: 15
-  France: 13
-  Netherlands: 10
-  Switzerland: 10
-  Poland: 7
-  Germany: 4
+  Unknown: 127
+  🌐 Anycast: 63
+  Germany: 39
+  Russia: 20
+  Netherlands: 18
+  Kazakhstan: 13
+  United States: 12
+  Poland: 10
+  Finland: 5
+  Lithuania: 5
+  Czechia: 5
+  Austria: 4
+  France: 2
   Japan: 2
-  United States: 2
 
 Топ SNI:
-  dl.google.com: 19
-  cloud.mail.ru: 15
-  top249441535.mwscdn.ru: 10
-  www.cloudflare.com: 8
-  css.rbxcdn.com: 6
-  host.pushbyte.cc: 5
-  ya.ru: 5
-  api.datapull.cc: 5
-  api-maps.yandex.ru: 4
-  www.kinopoisk.ru: 4
-  yahoo.com: 4
-  93.123.85.218: 4
-  google.com: 4
-  moltbot.doctoroyy.net: 3
-  194.9.172.236: 3
+  5post-gate.x5.ru: 38
+  www.cloudflare.com: 14
+  api-maps.yandex.ru: 13
+  kzhy2.metricpipe.space: 13
+  czechia.metricpipe.space: 12
+  ukhy2.metricpipe.space: 9
+  www.ray-balance.space: 8
+  nl3.freeinternat.com: 8
+  pol.freeinternat.com: 8
+  swenhy2.metricpipe.space: 8
+  lvhy2.metricpipe.space: 8
+  css.rbxcdn.com: 8
+  fihy2.metricpipe.space: 6
+  slashdot.org: 6
+  speedtest.tinkoff.ru: 6
 
 Топ портов:
-  443: 64
-  9882: 10
-  2056: 6
-  9894: 5
-  8080: 5
-  9001: 4
-  80: 4
-  34156: 4
-  50159: 4
-  9871: 4
-  36723: 4
-  1105: 3
-  52: 2
-  2200: 2
-  56: 2
+  443: 136
+  8443: 20
+  4100: 11
+  22109: 10
+  9002: 8
+  2056: 8
+  9443: 8
+  36723: 6
+  50160: 6
+  18443: 5
+  9001: 5
+  17443: 5
+  20443: 5
+  56443: 5
+  57443: 5
 
 Топ схем:
-  vless: 85
-  hysteria2: 36
-  vmess: 36
-  trojan: 6
+  vless: 205
+  hysteria2: 60
+  vmess: 46
+  trojan: 14
 
 Топ transport:
-  tcp: 105
-  grpc: 23
-  ws: 16
-  xhttp: 15
-  raw: 4
+  tcp: 222
+  grpc: 82
+  ws: 21
 
 Топ security:
-  none: 82
-  reality: 55
-  tls: 26
+  reality: 153
+  none: 121
+  tls: 51
