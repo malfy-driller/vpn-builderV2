@@ -1,5 +1,5 @@
 VPN Builder stats summary
-Generated at: 2026-08-27 02:43:56 MSK
+Generated at: 2026-08-27 08:04:48 MSK
 
 ====================================================================
 RAW GROUPS
@@ -8,111 +8,108 @@ RAW GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 116
-Уникальных строк: 96
-Уникальных host:port: 22
-Уникальных backend: 16
-Anycast: 47
-Unknown country: 8
+Всего конфигов: 124
+Уникальных строк: 103
+Уникальных host:port: 25
+Уникальных backend: 15
+Anycast: 94
+Unknown country: 7
 
 Топ стран:
-  🌐 Anycast: 47
-  Russia: 29
-  Germany: 12
-  Unknown: 8
-  United States: 8
-  Czechia: 4
-  Finland: 4
-  Lithuania: 4
+  🌐 Anycast: 94
+  Russia: 17
+  Unknown: 7
+  Poland: 5
+  Estonia: 1
 
 Топ SNI:
-  www.ray-balance.space: 40
-  5post-gate.x5.ru: 32
-  api-maps.yandex.ru: 19
-  ya.ru: 9
-  www.cloudflare.com: 8
-  live.ok.ru: 4
-  87.249.54.103: 1
-  els.mangshe.xyz: 1
-  els1.mangshe.xyz: 1
-  vk.com: 1
+  www.ray-balance.space: 42
+  yt-tv.xtrustnet.sbs: 20
+  rzd.ru: 16
+  live.ok.ru: 13
+  api-maps.yandex.ru: 10
+  dl.google.com: 5
+  ru01.tuna-transfer.xyz: 5
+  russia.cendora.ru: 5
+  vk.com: 2
+  91.243.86.88: 1
 
 Топ портов:
-  443: 50
-  9001: 11
-  22109: 8
-  9002: 8
-  4100: 5
-  60443: 4
-  56443: 4
-  17443: 4
-  65443: 4
-  57443: 4
+  443: 74
+  2200: 16
+  4100: 13
+  9001: 10
+  9892: 5
+  8880: 2
+  2053: 1
+  16560: 1
+  65443: 1
+  2056: 1
 
 Топ схем:
-  vless: 113
+  vless: 120
   hysteria2: 3
+  ss: 1
 
 Топ transport:
-  tcp: 64
-  grpc: 47
-  ws: 5
+  tcp: 78
+  ws: 31
+  grpc: 15
 
 Топ security:
-  reality: 108
-  none: 7
+  reality: 87
+  none: 36
   tls: 1
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_vless
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 70
-Уникальных строк: 70
+Всего конфигов: 61
+Уникальных строк: 61
 Уникальных host:port: 14
 Уникальных backend: 10
-Anycast: 21
-Unknown country: 8
+Anycast: 42
+Unknown country: 6
 
 Топ стран:
-  🌐 Anycast: 21
-  Germany: 12
-  Russia: 9
-  Unknown: 8
-  United States: 8
-  Czechia: 4
-  Finland: 4
-  Lithuania: 4
+  🌐 Anycast: 42
+  Russia: 7
+  Unknown: 6
+  Poland: 5
+  Estonia: 1
 
 Топ SNI:
-  5post-gate.x5.ru: 32
-  www.ray-balance.space: 20
-  ya.ru: 9
-  www.cloudflare.com: 8
-  87.249.54.103: 1
+  www.ray-balance.space: 21
+  yt-tv.xtrustnet.sbs: 20
+  dl.google.com: 5
+  ru01.tuna-transfer.xyz: 5
+  russia.cendora.ru: 5
+  91.243.86.88: 1
+  185.46.11.61: 1
+  31.128.37.67: 1
+  89.104.74.45: 1
+  194.38.11.86: 1
 
 Топ портов:
-  443: 29
-  22109: 8
-  60443: 4
-  56443: 4
-  17443: 4
-  65443: 4
-  57443: 4
-  18443: 4
-  20443: 4
-  21443: 4
+  443: 51
+  9892: 5
+  8880: 2
+  2053: 1
+  16560: 1
+  65443: 1
 
 Топ схем:
-  vless: 70
+  vless: 60
+  ss: 1
 
 Топ transport:
-  tcp: 41
-  grpc: 28
-  ws: 1
+  tcp: 54
+  grpc: 5
+  ws: 2
 
 Топ security:
-  reality: 69
-  none: 1
+  reality: 56
+  none: 5
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW black_all
@@ -183,59 +180,57 @@ FINAL GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 22
-Уникальных строк: 22
-Уникальных host:port: 22
-Уникальных backend: 16
-Anycast: 6
+Всего конфигов: 25
+Уникальных строк: 25
+Уникальных host:port: 25
+Уникальных backend: 15
+Anycast: 14
 Unknown country: 2
 
 Топ стран:
-  Russia: 6
-  🌐 Anycast: 6
-  Germany: 3
-  United States: 2
+  🌐 Anycast: 14
+  Russia: 7
   Unknown: 2
-  Finland: 1
-  Lithuania: 1
-  Czechia: 1
+  Poland: 1
+  Estonia: 1
 
 Топ SNI:
-  5post-gate.x5.ru: 8
-  api-maps.yandex.ru: 4
-  www.cloudflare.com: 2
+  live.ok.ru: 4
+  yt-tv.xtrustnet.sbs: 4
+  api-maps.yandex.ru: 2
+  vk.com: 2
   www.ray-balance.space: 2
-  ya.ru: 1
-  live.ok.ru: 1
-  87.249.54.103: 1
-  vk.com: 1
-  els.mangshe.xyz: 1
-  els1.mangshe.xyz: 1
+  rzd.ru: 2
+  dl.google.com: 1
+  91.243.86.88: 1
+  ru01.tuna-transfer.xyz: 1
+  194.38.11.86: 1
 
 Топ портов:
-  443: 4
-  9002: 2
-  22109: 2
+  443: 10
+  4100: 4
   9001: 2
-  4100: 2
-  2056: 2
-  18443: 1
-  17443: 1
-  20443: 1
-  56443: 1
+  8880: 2
+  2200: 2
+  9892: 1
+  2053: 1
+  65443: 1
+  16560: 1
+  2056: 1
 
 Топ схем:
-  vless: 19
+  vless: 21
   hysteria2: 3
+  ss: 1
 
 Топ transport:
-  grpc: 11
-  tcp: 9
-  ws: 2
+  tcp: 14
+  ws: 8
+  grpc: 3
 
 Топ security:
-  reality: 17
-  none: 4
+  none: 13
+  reality: 11
   tls: 1
 
 ────────────────────────────────────────────────────────────────────
@@ -245,49 +240,48 @@ Unknown country: 2
 Уникальных строк: 14
 Уникальных host:port: 14
 Уникальных backend: 10
-Anycast: 3
+Anycast: 7
 Unknown country: 2
 
 Топ стран:
-  Germany: 3
-  🌐 Anycast: 3
-  United States: 2
+  🌐 Anycast: 7
+  Russia: 3
   Unknown: 2
-  Russia: 1
-  Finland: 1
-  Czechia: 1
-  Lithuania: 1
+  Poland: 1
+  Estonia: 1
 
 Топ SNI:
-  5post-gate.x5.ru: 8
-  www.cloudflare.com: 2
+  yt-tv.xtrustnet.sbs: 4
   www.ray-balance.space: 2
-  ya.ru: 1
-  87.249.54.103: 1
+  dl.google.com: 1
+  91.243.86.88: 1
+  31.128.37.67: 1
+  ru01.tuna-transfer.xyz: 1
+  russia.cendora.ru: 1
+  194.38.11.86: 1
+  185.46.11.61: 1
+  89.104.74.45: 1
 
 Топ портов:
-  443: 3
-  22109: 2
-  18443: 1
-  17443: 1
-  56443: 1
-  20443: 1
+  443: 8
+  8880: 2
+  9892: 1
+  2053: 1
+  16560: 1
   65443: 1
-  57443: 1
-  60443: 1
-  21443: 1
 
 Топ схем:
-  vless: 14
+  vless: 13
+  ss: 1
 
 Топ transport:
-  grpc: 7
-  tcp: 6
-  ws: 1
+  tcp: 11
+  ws: 2
+  grpc: 1
 
 Топ security:
-  reality: 13
-  none: 1
+  reality: 9
+  none: 5
 
 ────────────────────────────────────────────────────────────────────
 📊 black_all
@@ -315,12 +309,12 @@ Unknown country: 53
   kzhy2.metricpipe.space: 4
   czechia.metricpipe.space: 4
   css.rbxcdn.com: 4
-  swenhy2.metricpipe.space: 3
   ukhy2.metricpipe.space: 3
   lvhy2.metricpipe.space: 3
+  swenhy2.metricpipe.space: 3
   speedtest.tinkoff.ru: 3
   www.bing.com: 3
-  fihy2.metricpipe.space: 2
+  pol.freeinternat.com: 2
   nl3.freeinternat.com: 2
 
 Топ портов:
@@ -332,8 +326,8 @@ Unknown country: 53
   50160: 3
   80: 2
   2056: 2
+  1105: 1
   7444: 1
-  442: 1
 
 Топ схем:
   vless: 40
@@ -354,121 +348,116 @@ Unknown country: 53
 ────────────────────────────────────────────────────────────────────
 📊 pool
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 118
-Уникальных строк: 118
-Уникальных host:port: 94
-Уникальных backend: 92
-Anycast: 25
+Всего конфигов: 117
+Уникальных строк: 117
+Уникальных host:port: 93
+Уникальных backend: 90
+Anycast: 29
 Unknown country: 55
 
 Топ стран:
   Unknown: 55
-  🌐 Anycast: 25
-  Germany: 12
-  Russia: 5
+  🌐 Anycast: 29
+  Germany: 9
+  Russia: 6
   Netherlands: 5
+  Poland: 4
   Kazakhstan: 4
-  United States: 3
-  Poland: 3
-  Lithuania: 1
-  Finland: 1
+  Estonia: 1
+  United States: 1
+  Japan: 1
 
 Топ SNI:
-  5post-gate.x5.ru: 8
-  www.cloudflare.com: 4
   czechia.metricpipe.space: 4
-  css.rbxcdn.com: 4
   kzhy2.metricpipe.space: 4
-  api-maps.yandex.ru: 3
-  ukhy2.metricpipe.space: 3
+  css.rbxcdn.com: 4
+  live.ok.ru: 3
   speedtest.tinkoff.ru: 3
+  ukhy2.metricpipe.space: 3
   swenhy2.metricpipe.space: 3
+  lvhy2.metricpipe.space: 3
   www.bing.com: 3
+  www.ray-balance.space: 2
 
 Топ портов:
-  443: 47
+  443: 50
   8443: 6
   4100: 5
-  2056: 4
   9443: 4
+  2200: 3
+  2056: 3
   36723: 3
   50160: 3
-  9002: 2
-  22109: 2
-  80: 2
+  8880: 2
+  2053: 2
 
 Топ схем:
-  vless: 58
-  hysteria2: 30
+  vless: 57
+  hysteria2: 29
   vmess: 23
   trojan: 7
+  ss: 1
 
 Топ transport:
-  tcp: 89
-  grpc: 20
-  ws: 9
+  tcp: 91
+  ws: 13
+  grpc: 13
 
 Топ security:
-  none: 60
-  reality: 40
+  none: 66
+  reality: 33
   tls: 18
 
 ────────────────────────────────────────────────────────────────────
 📊 mixed
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 49
-Уникальных строк: 49
-Уникальных host:port: 49
-Уникальных backend: 37
-Anycast: 9
+Всего конфигов: 42
+Уникальных строк: 42
+Уникальных host:port: 42
+Уникальных backend: 32
+Anycast: 10
 Unknown country: 15
 
 Топ стран:
   Unknown: 15
-  🌐 Anycast: 9
-  Germany: 6
-  Russia: 4
+  🌐 Anycast: 10
   Netherlands: 4
+  Russia: 3
+  Poland: 3
   Kazakhstan: 3
-  United States: 2
-  Poland: 2
-  Lithuania: 1
-  Czechia: 1
+  Germany: 3
+  Austria: 1
 
 Топ SNI:
-  5post-gate.x5.ru: 8
-  api-maps.yandex.ru: 3
   ukhy2.metricpipe.space: 3
-  czechia.metricpipe.space: 3
   kzhy2.metricpipe.space: 3
-  www.cloudflare.com: 2
+  czechia.metricpipe.space: 3
+  api-maps.yandex.ru: 2
   www.ray-balance.space: 2
+  yt-tv.xtrustnet.sbs: 2
   nl3.freeinternat.com: 2
+  pol.freeinternat.com: 2
   slashdot.org: 2
-  fihy2.metricpipe.space: 2
+  lvhy2.metricpipe.space: 2
 
 Топ портов:
-  443: 28
+  443: 31
   8443: 6
-  22109: 2
-  9002: 2
-  20443: 1
-  21443: 1
-  60443: 1
-  9001: 1
-  65443: 1
-  56443: 1
+  9001: 2
+  9892: 1
+  7444: 1
+  13443: 1
 
 Топ схем:
-  vless: 49
+  vless: 42
 
 Топ transport:
   tcp: 28
-  grpc: 20
+  grpc: 13
   ws: 1
 
 Топ security:
-  reality: 40
+  reality: 33
   tls: 9
 
 ────────────────────────────────────────────────────────────────────
@@ -478,129 +467,124 @@ Unknown country: 15
 Уникальных строк: 25
 Уникальных host:port: 25
 Уникальных backend: 20
-Anycast: 1
+Anycast: 7
 Unknown country: 0
 
 Топ стран:
-  Germany: 6
-  Russia: 4
+  🌐 Anycast: 7
   Netherlands: 4
-  Kazakhstan: 2
-  Poland: 2
-  United States: 2
+  Russia: 3
+  Germany: 3
+  Kazakhstan: 3
+  Poland: 3
   Austria: 1
-  Czechia: 1
-  Lithuania: 1
-  Finland: 1
+  France: 1
 
 Топ SNI:
-  5post-gate.x5.ru: 6
-  api-maps.yandex.ru: 3
-  kzhy2.metricpipe.space: 2
+  kzhy2.metricpipe.space: 3
+  czechia.metricpipe.space: 3
+  api-maps.yandex.ru: 2
   nl3.freeinternat.com: 2
   pol.freeinternat.com: 2
-  www.cloudflare.com: 2
-  hys42.wba-pn.ru: 1
-  4b9ibss6tuv6.bosfiles.net: 1
   ezjb4e6x5ug0.bosfiles.net: 1
+  hys42.wba-pn.ru: 1
   32ukc4l1gq6h.bosfiles.net: 1
+  4b9ibss6tuv6.bosfiles.net: 1
+  ams1.stream-pop.net: 1
 
 Топ портов:
-  443: 11
-  9002: 2
-  8443: 2
-  22109: 2
-  9001: 1
-  56443: 1
-  20443: 1
+  443: 16
+  8443: 3
+  9001: 2
   7444: 1
-  57443: 1
-  18443: 1
+  9892: 1
+  2053: 1
+  1105: 1
 
 Топ схем:
-  vless: 25
+  vless: 23
+  trojan: 2
 
 Топ transport:
-  grpc: 14
-  tcp: 10
+  tcp: 14
+  grpc: 10
   ws: 1
 
 Топ security:
-  reality: 19
-  tls: 6
+  reality: 17
+  tls: 8
 
 ====================================================================
 🌍 GLOBAL SUMMARY
 ====================================================================
-Всего конфигов: 325
-Уникальных строк: 119
-Уникальных host:port: 95
-Уникальных backend: 92
-Anycast: 63
+Всего конфигов: 320
+Уникальных строк: 125
+Уникальных host:port: 97
+Уникальных backend: 91
+Anycast: 86
 Unknown country: 127
 
 Топ стран:
   Unknown: 127
-  🌐 Anycast: 63
-  Germany: 39
-  Russia: 20
+  🌐 Anycast: 86
+  Germany: 24
+  Russia: 22
   Netherlands: 18
-  Kazakhstan: 13
-  United States: 12
-  Poland: 10
-  Finland: 5
-  Lithuania: 5
-  Czechia: 5
+  Poland: 15
+  Kazakhstan: 14
   Austria: 4
-  France: 2
+  Estonia: 3
+  France: 3
   Japan: 2
+  United States: 2
 
 Топ SNI:
-  5post-gate.x5.ru: 38
-  www.cloudflare.com: 14
-  api-maps.yandex.ru: 13
-  kzhy2.metricpipe.space: 13
-  czechia.metricpipe.space: 12
+  kzhy2.metricpipe.space: 14
+  czechia.metricpipe.space: 14
+  yt-tv.xtrustnet.sbs: 13
+  www.ray-balance.space: 9
   ukhy2.metricpipe.space: 9
-  www.ray-balance.space: 8
-  nl3.freeinternat.com: 8
+  api-maps.yandex.ru: 8
+  live.ok.ru: 8
   pol.freeinternat.com: 8
-  swenhy2.metricpipe.space: 8
+  nl3.freeinternat.com: 8
   lvhy2.metricpipe.space: 8
+  swenhy2.metricpipe.space: 8
   css.rbxcdn.com: 8
-  fihy2.metricpipe.space: 6
   slashdot.org: 6
   speedtest.tinkoff.ru: 6
+  fihy2.metricpipe.space: 6
 
 Топ портов:
-  443: 136
-  8443: 20
-  4100: 11
-  22109: 10
-  9002: 8
-  2056: 8
+  443: 158
+  8443: 21
+  4100: 12
+  9001: 8
   9443: 8
+  2053: 6
+  8880: 6
+  2200: 6
+  2056: 6
   36723: 6
   50160: 6
-  18443: 5
-  9001: 5
-  17443: 5
-  20443: 5
-  56443: 5
-  57443: 5
+  9892: 5
+  7444: 4
+  80: 4
+  65443: 3
 
 Топ схем:
-  vless: 205
-  hysteria2: 60
+  vless: 196
+  hysteria2: 59
   vmess: 46
-  trojan: 14
+  trojan: 16
+  ss: 3
 
 Топ transport:
-  tcp: 222
-  grpc: 82
-  ws: 21
+  tcp: 238
+  grpc: 50
+  ws: 32
 
 Топ security:
-  reality: 153
-  none: 121
-  tls: 51
+  none: 140
+  reality: 127
+  tls: 53
