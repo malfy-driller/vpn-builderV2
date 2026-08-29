@@ -1,5 +1,5 @@
 VPN Builder stats summary
-Generated at: 2026-08-29 21:52:03 MSK
+Generated at: 2026-08-30 00:27:13 MSK
 
 ====================================================================
 RAW GROUPS
@@ -8,91 +8,105 @@ RAW GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 88
-Уникальных строк: 78
-Уникальных host:port: 20
-Уникальных backend: 11
-Anycast: 15
-Unknown country: 5
+Всего конфигов: 66
+Уникальных строк: 56
+Уникальных host:port: 16
+Уникальных backend: 16
+Anycast: 17
+Unknown country: 7
 
 Топ стран:
-  Russia: 68
-  🌐 Anycast: 15
-  Unknown: 5
+  Russia: 27
+  🌐 Anycast: 17
+  Germany: 15
+  Unknown: 7
 
 Топ SNI:
-  ads.x5.ru: 50
+  5post-gate.x5.ru: 20
   api-maps.yandex.ru: 12
-  live.ok.ru: 6
-  rzd.ru: 6
-  hotcoals.aeternavpn.space: 5
+  vkc7.secured-by-tenzo.sbs: 10
+  fr.aeternavpn.space: 5
+  aws.amazon.com: 5
   max.ru: 5
-  194.38.11.86: 1
+  live.ok.ru: 2
+  rzd.ru: 2
   els.mangshe.xyz: 1
   els1.mangshe.xyz: 1
-  els2.mangshe.xyz: 1
 
 Топ портов:
-  10443: 35
-  8443: 15
-  9001: 12
-  4100: 6
-  2200: 6
-  443: 5
-  5001: 5
+  443: 15
+  2053: 10
+  2223: 10
+  9001: 7
+  40000: 5
+  9002: 5
+  5000: 5
   2056: 3
-  65443: 1
+  4100: 2
+  2200: 2
 
 Топ схем:
-  vless: 84
+  vless: 51
+  trojan: 10
   hysteria2: 3
-  ss: 1
+  vmess: 2
 
 Топ transport:
-  tcp: 64
-  ws: 12
-  grpc: 12
+  tcp: 35
+  grpc: 22
+  xhttp: 5
+  ws: 4
 
 Топ security:
-  reality: 72
-  none: 15
-  tls: 1
+  reality: 47
+  tls: 11
+  none: 8
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_vless
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 31
-Уникальных строк: 31
+Всего конфигов: 29
+Уникальных строк: 29
 Уникальных host:port: 7
-Уникальных backend: 4
-Anycast: 0
-Unknown country: 5
+Уникальных backend: 9
+Anycast: 2
+Unknown country: 7
 
 Топ стран:
-  Russia: 26
-  Unknown: 5
+  Germany: 10
+  Russia: 10
+  Unknown: 7
+  🌐 Anycast: 2
 
 Топ SNI:
-  ads.x5.ru: 25
-  hotcoals.aeternavpn.space: 5
-  194.38.11.86: 1
+  5post-gate.x5.ru: 15
+  fr.aeternavpn.space: 5
+  aws.amazon.com: 5
+  live.ok.ru: 1
+  rzd.ru: 1
+  eyjhzgqioijyzw5kzxjlci1zdhjlyw0tmi02mi5taxjyys5ub3cilcjhawqioiiwiiwiywxwbii6iiisimzwijoiiiwiag9zdci6injlbmrlcmvylxn0cmvhbs0yltyylm1pcnjhlm5vdyisimlkijoizgi1mgeymgutn2zmns00ztcwltk0ogytmtdjyzljytdjmtu0iiwiaw5zzwn1cmuioiiwiiwibmv0ijoid3milcjwyxroijoil2fwas92ms9nchutc3ryzwftl3nvy2tldcisinbjcyi6iiisinbvcnqioii0ndmilcjwcyi6ivcfh6nwn4eqiedlcm1hbnkgfcbbkknjrfjdiiwic2n5ijoiyxv0byisinnuasi6injlbmrlcmvylxn0cmvhbs0yltyylm1pcnjhlm5vdyisinrscyi6inrscyisinr5cguioijub25liiwidii6ijiilcj2y24ioiiifq==: 1
+  eyjhzgqioijyzw5kzxjlci1zdhjlyw0tmi02mi5taxjyys5ub3cilcjhawqioiiwiiwiywxwbii6iiisimzwijoiy2hyb21liiwiag9zdci6injlbmrlcmvylxn0cmvhbs0yltyylm1pcnjhlm5vdyisimlkijoizgi1mgeymgutn2zmns00ztcwltk0ogytmtdjyzljytdjmtu0iiwiaw5zzwn1cmuioiiwiiwibmv0ijoid3milcjwyxroijoil2fwas92ms9nchutc3ryzwftl3nvy2tldcisinbvcnqioii0ndmilcjwcyi6ivcfh6nwn4eqiedlcm1hbnkgfcbbkknjrfjdiiwic2n5ijoiyxv0byisinnuasi6injlbmrlcmvylxn0cmvhbs0yltyylm1pcnjhlm5vdyisinrscyi6inrscyisinr5cguioiitls0ilcj2ijoimij9: 1
 
 Топ портов:
-  8443: 15
-  10443: 10
-  443: 5
-  65443: 1
+  443: 15
+  2053: 5
+  40000: 5
+  4100: 1
+  2200: 1
 
 Топ схем:
-  vless: 30
-  ss: 1
+  vless: 27
+  vmess: 2
 
 Топ transport:
-  tcp: 31
+  tcp: 17
+  grpc: 5
+  xhttp: 5
+  ws: 2
 
 Топ security:
-  reality: 30
-  none: 1
+  reality: 25
+  none: 4
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW black_all
@@ -161,91 +175,105 @@ FINAL GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 19
-Уникальных строк: 19
-Уникальных host:port: 19
-Уникальных backend: 11
-Anycast: 7
-Unknown country: 1
+Всего конфигов: 18
+Уникальных строк: 18
+Уникальных host:port: 16
+Уникальных backend: 16
+Anycast: 8
+Unknown country: 3
 
 Топ стран:
-  Russia: 11
-  🌐 Anycast: 7
-  Unknown: 1
+  🌐 Anycast: 8
+  Russia: 5
+  Unknown: 3
+  Germany: 2
 
 Топ SNI:
-  ads.x5.ru: 7
+  5post-gate.x5.ru: 3
   api-maps.yandex.ru: 2
-  rzd.ru: 2
   live.ok.ru: 2
+  rzd.ru: 2
+  fr.aeternavpn.space: 1
+  aws.amazon.com: 1
   max.ru: 1
-  hotcoals.aeternavpn.space: 1
-  194.38.11.86: 1
-  els.mangshe.xyz: 1
+  vkc7.secured-by-tenzo.sbs: 1
   els2.mangshe.xyz: 1
-  els1.mangshe.xyz: 1
+  eyjhzgqioijyzw5kzxjlci1zdhjlyw0tmi02mi5taxjyys5ub3cilcjhawqioiiwiiwiywxwbii6iiisimzwijoiy2hyb21liiwiag9zdci6injlbmrlcmvylxn0cmvhbs0yltyylm1pcnjhlm5vdyisimlkijoizgi1mgeymgutn2zmns00ztcwltk0ogytmtdjyzljytdjmtu0iiwiaw5zzwn1cmuioiiwiiwibmv0ijoid3milcjwyxroijoil2fwas92ms9nchutc3ryzwftl3nvy2tldcisinbvcnqioii0ndmilcjwcyi6ivcfh6nwn4eqiedlcm1hbnkgfcbbkknjrfjdiiwic2n5ijoiyxv0byisinnuasi6injlbmrlcmvylxn0cmvhbs0yltyylm1pcnjhlm5vdyisinrscyi6inrscyisinr5cguioiitls0ilcj2ijoimij9: 1
 
 Топ портов:
-  10443: 4
-  8443: 3
+  443: 3
   2056: 3
-  9001: 2
-  2200: 2
   4100: 2
-  5001: 1
-  443: 1
-  65443: 1
+  2200: 2
+  9001: 1
+  9002: 1
+  40000: 1
+  5000: 1
+  2053: 1
+  2223: 1
 
 Топ схем:
-  vless: 15
+  vless: 12
   hysteria2: 3
-  ss: 1
+  vmess: 2
+  trojan: 1
 
 Топ transport:
-  tcp: 13
+  tcp: 10
   ws: 4
-  grpc: 2
+  grpc: 3
+  xhttp: 1
 
 Топ security:
-  reality: 11
-  none: 7
-  tls: 1
+  reality: 8
+  none: 8
+  tls: 2
 
 ────────────────────────────────────────────────────────────────────
 📊 white_vless
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 7
-Уникальных строк: 7
+Всего конфигов: 9
+Уникальных строк: 9
 Уникальных host:port: 7
-Уникальных backend: 4
-Anycast: 0
-Unknown country: 1
+Уникальных backend: 9
+Anycast: 2
+Unknown country: 3
 
 Топ стран:
-  Russia: 6
-  Unknown: 1
+  Unknown: 3
+  Germany: 2
+  Russia: 2
+  🌐 Anycast: 2
 
 Топ SNI:
-  ads.x5.ru: 5
-  hotcoals.aeternavpn.space: 1
-  194.38.11.86: 1
+  5post-gate.x5.ru: 3
+  aws.amazon.com: 1
+  live.ok.ru: 1
+  fr.aeternavpn.space: 1
+  rzd.ru: 1
+  eyjhzgqioijyzw5kzxjlci1zdhjlyw0tmi02mi5taxjyys5ub3cilcjhawqioiiwiiwiywxwbii6iiisimzwijoiiiwiag9zdci6injlbmrlcmvylxn0cmvhbs0yltyylm1pcnjhlm5vdyisimlkijoizgi1mgeymgutn2zmns00ztcwltk0ogytmtdjyzljytdjmtu0iiwiaw5zzwn1cmuioiiwiiwibmv0ijoid3milcjwyxroijoil2fwas92ms9nchutc3ryzwftl3nvy2tldcisinbjcyi6iiisinbvcnqioii0ndmilcjwcyi6ivcfh6nwn4eqiedlcm1hbnkgfcbbkknjrfjdiiwic2n5ijoiyxv0byisinnuasi6injlbmrlcmvylxn0cmvhbs0yltyylm1pcnjhlm5vdyisinrscyi6inrscyisinr5cguioijub25liiwidii6ijiilcj2y24ioiiifq==: 1
+  eyjhzgqioijyzw5kzxjlci1zdhjlyw0tmi02mi5taxjyys5ub3cilcjhawqioiiwiiwiywxwbii6iiisimzwijoiy2hyb21liiwiag9zdci6injlbmrlcmvylxn0cmvhbs0yltyylm1pcnjhlm5vdyisimlkijoizgi1mgeymgutn2zmns00ztcwltk0ogytmtdjyzljytdjmtu0iiwiaw5zzwn1cmuioiiwiiwibmv0ijoid3milcjwyxroijoil2fwas92ms9nchutc3ryzwftl3nvy2tldcisinbvcnqioii0ndmilcjwcyi6ivcfh6nwn4eqiedlcm1hbnkgfcbbkknjrfjdiiwic2n5ijoiyxv0byisinnuasi6injlbmrlcmvylxn0cmvhbs0yltyylm1pcnjhlm5vdyisinrscyi6inrscyisinr5cguioiitls0ilcj2ijoimij9: 1
 
 Топ портов:
-  8443: 3
-  10443: 2
-  443: 1
-  65443: 1
+  443: 3
+  2053: 1
+  40000: 1
+  4100: 1
+  2200: 1
 
 Топ схем:
-  vless: 6
-  ss: 1
+  vless: 7
+  vmess: 2
 
 Топ transport:
-  tcp: 7
+  tcp: 5
+  ws: 2
+  grpc: 1
+  xhttp: 1
 
 Топ security:
-  reality: 6
-  none: 1
+  reality: 5
+  none: 4
 
 ────────────────────────────────────────────────────────────────────
 📊 black_all
@@ -268,26 +296,26 @@ Unknown country: 26
 Топ SNI:
   amp-api-edge.apps.apple.com: 3
   www.sony.com: 3
-  note.savesafe.run: 2
-  www.amd.com: 2
   d.tranzit-net.ru: 2
+  note.savesafe.run: 2
+  www.tesla.com: 2
   yf2.yifangg.de5.net: 2
   www.nvidia.com: 2
-  www.tesla.com: 2
+  www.amd.com: 2
   www.bing.com: 2
-  cedar-canyon-d90a-production.up.railway.app: 1
+  www.apple.com: 1
 
 Топ портов:
   443: 11
   50160: 2
-  2054: 1
   38218: 1
+  2054: 1
   2020: 1
   8443: 1
-  58416: 1
   5000: 1
-  23147: 1
   1105: 1
+  20414: 1
+  21776: 1
 
 Топ схем:
   vless: 26
@@ -310,117 +338,117 @@ Unknown country: 26
 ────────────────────────────────────────────────────────────────────
 📊 pool
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 69
-Уникальных строк: 69
-Уникальных host:port: 50
-Уникальных backend: 60
-Anycast: 26
-Unknown country: 27
+Всего конфигов: 70
+Уникальных строк: 70
+Уникальных host:port: 49
+Уникальных backend: 63
+Anycast: 27
+Unknown country: 28
 
 Топ стран:
-  Unknown: 27
-  🌐 Anycast: 26
-  Russia: 8
+  Unknown: 28
+  🌐 Anycast: 27
+  Russia: 5
   United States: 4
+  Germany: 3
   Netherlands: 2
-  Germany: 1
   France: 1
 
 Топ SNI:
-  ads.x5.ru: 4
-  amp-api-edge.apps.apple.com: 3
+  5post-gate.x5.ru: 3
   www.sony.com: 3
-  max.ru: 2
-  api-maps.yandex.ru: 2
+  amp-api-edge.apps.apple.com: 3
   live.ok.ru: 2
+  api-maps.yandex.ru: 2
+  fr.aeternavpn.space: 2
   rzd.ru: 2
-  yf2.yifangg.de5.net: 2
   www.bing.com: 2
-  note.savesafe.run: 2
+  yf2.yifangg.de5.net: 2
+  www.tesla.com: 2
 
 Топ портов:
-  443: 12
+  443: 14
   2056: 3
-  8443: 3
-  10443: 2
-  9001: 2
   4100: 2
   2200: 2
   50160: 2
-  5001: 1
-  65443: 1
+  2053: 1
+  5000: 1
+  40000: 1
+  9001: 1
+  9002: 1
 
 Топ схем:
-  vless: 38
-  vmess: 19
+  vless: 37
+  vmess: 21
   hysteria2: 9
-  ss: 2
-  trojan: 1
+  trojan: 2
+  ss: 1
 
 Топ transport:
-  tcp: 56
+  tcp: 55
   ws: 8
-  grpc: 3
-  xhttp: 2
+  grpc: 4
+  xhttp: 3
 
 Топ security:
-  none: 33
-  reality: 29
-  tls: 7
+  none: 34
+  reality: 28
+  tls: 8
 
 ────────────────────────────────────────────────────────────────────
 📊 mixed
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 33
-Уникальных строк: 33
-Уникальных host:port: 33
-Уникальных backend: 27
+Всего конфигов: 32
+Уникальных строк: 32
+Уникальных host:port: 32
+Уникальных backend: 28
 Anycast: 12
-Unknown country: 7
+Unknown country: 6
 
 Топ стран:
   🌐 Anycast: 12
-  Russia: 7
-  Unknown: 7
+  Unknown: 6
+  Russia: 5
   United States: 4
+  Germany: 3
   Netherlands: 2
-  Germany: 1
 
 Топ SNI:
-  ads.x5.ru: 4
-  www.sony.com: 3
+  5post-gate.x5.ru: 3
   amp-api-edge.apps.apple.com: 3
-  max.ru: 2
+  www.sony.com: 3
   api-maps.yandex.ru: 2
-  yf2.yifangg.de5.net: 2
-  d.tranzit-net.ru: 2
+  fr.aeternavpn.space: 2
   www.nvidia.com: 2
   note.savesafe.run: 2
-  www.amd.com: 2
+  yf2.yifangg.de5.net: 2
+  www.tesla.com: 2
+  d.tranzit-net.ru: 2
 
 Топ портов:
-  443: 11
-  8443: 3
-  10443: 2
-  9001: 2
-  5001: 1
-  2054: 1
-  18442: 1
-  23147: 1
-  20414: 1
+  443: 13
+  40000: 1
+  9001: 1
+  9002: 1
   5000: 1
+  2053: 1
+  18442: 1
+  2020: 1
+  38218: 1
+  21776: 1
 
 Топ схем:
-  vless: 33
+  vless: 32
 
 Топ transport:
-  tcp: 24
+  tcp: 21
+  grpc: 4
   ws: 4
-  grpc: 3
-  xhttp: 2
+  xhttp: 3
 
 Топ security:
-  reality: 29
+  reality: 28
   tls: 4
 
 ────────────────────────────────────────────────────────────────────
@@ -429,122 +457,124 @@ Unknown country: 7
 Всего конфигов: 25
 Уникальных строк: 25
 Уникальных host:port: 25
-Уникальных backend: 19
+Уникальных backend: 22
 Anycast: 9
-Unknown country: 2
+Unknown country: 1
 
 Топ стран:
   🌐 Anycast: 9
-  Russia: 7
+  Russia: 5
   United States: 4
+  Germany: 3
   Netherlands: 2
-  Unknown: 2
-  Germany: 1
+  Unknown: 1
+  France: 1
 
 Топ SNI:
-  ads.x5.ru: 4
-  amp-api-edge.apps.apple.com: 2
+  5post-gate.x5.ru: 3
   api-maps.yandex.ru: 2
+  amp-api-edge.apps.apple.com: 2
   note.savesafe.run: 2
-  max.ru: 2
   yf2.yifangg.de5.net: 2
   d.tranzit-net.ru: 2
   coral-ember-99ed-production.up.railway.app: 1
   cedar-canyon-d90a-production.up.railway.app: 1
+  max.ru: 1
   www.apple.com: 1
 
 Топ портов:
-  443: 10
-  8443: 3
-  9001: 2
-  10443: 2
-  5001: 1
+  443: 12
+  9001: 1
+  9002: 1
+  5000: 1
   38218: 1
   2020: 1
   2054: 1
-  5000: 1
-  32396: 1
+  40000: 1
+  2053: 1
+  8443: 1
 
 Топ схем:
-  vless: 25
+  vless: 23
+  trojan: 2
 
 Топ transport:
-  tcp: 16
+  tcp: 14
+  grpc: 4
   ws: 4
-  grpc: 3
-  xhttp: 2
+  xhttp: 3
 
 Топ security:
-  reality: 21
-  tls: 4
+  reality: 19
+  tls: 6
 
 ====================================================================
 🌍 GLOBAL SUMMARY
 ====================================================================
-Всего конфигов: 206
-Уникальных строк: 72
-Уникальных host:port: 53
-Уникальных backend: 60
-Anycast: 73
-Unknown country: 64
+Всего конфигов: 207
+Уникальных строк: 71
+Уникальных host:port: 49
+Уникальных backend: 63
+Anycast: 77
+Unknown country: 67
 
 Топ стран:
-  🌐 Anycast: 73
-  Unknown: 64
-  Russia: 39
+  🌐 Anycast: 77
+  Unknown: 67
+  Russia: 22
   United States: 16
+  Germany: 14
   Netherlands: 8
-  Germany: 4
-  France: 2
+  France: 3
 
 Топ SNI:
-  ads.x5.ru: 24
+  5post-gate.x5.ru: 15
   amp-api-edge.apps.apple.com: 11
   www.sony.com: 10
   api-maps.yandex.ru: 8
-  max.ru: 8
-  note.savesafe.run: 8
+  fr.aeternavpn.space: 8
   d.tranzit-net.ru: 8
+  note.savesafe.run: 8
   yf2.yifangg.de5.net: 8
-  www.amd.com: 7
-  www.nvidia.com: 7
-  www.tesla.com: 6
-  hotcoals.aeternavpn.space: 4
-  rzd.ru: 4
-  live.ok.ru: 4
-  cedar-canyon-d90a-production.up.railway.app: 4
+  www.tesla.com: 7
+  www.nvidia.com: 6
+  www.amd.com: 6
+  live.ok.ru: 5
+  aws.amazon.com: 5
+  max.ru: 5
+  rzd.ru: 5
 
 Топ портов:
-  443: 46
-  8443: 16
-  10443: 12
-  9001: 8
+  443: 56
   2056: 6
-  5001: 4
-  2200: 4
-  4100: 4
-  2054: 4
+  4100: 5
+  40000: 5
+  5000: 5
+  2053: 5
+  2200: 5
+  9001: 4
+  9002: 4
   38218: 4
+  2054: 4
   2020: 4
-  5000: 4
-  23147: 4
-  18442: 4
-  32396: 4
+  8443: 4
+  20414: 4
+  41159: 4
 
 Топ схем:
-  vless: 143
-  vmess: 38
+  vless: 137
+  vmess: 44
   hysteria2: 18
-  ss: 5
-  trojan: 2
+  trojan: 6
+  ss: 2
 
 Топ transport:
-  tcp: 162
-  ws: 24
-  grpc: 12
-  xhttp: 8
+  tcp: 151
+  ws: 26
+  grpc: 17
+  xhttp: 13
 
 Топ security:
-  reality: 117
-  none: 67
-  tls: 22
+  reality: 109
+  none: 72
+  tls: 26
