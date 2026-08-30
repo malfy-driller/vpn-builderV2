@@ -1,5 +1,5 @@
 VPN Builder stats summary
-Generated at: 2026-08-30 02:35:58 MSK
+Generated at: 2026-08-30 04:39:52 MSK
 
 ====================================================================
 RAW GROUPS
@@ -8,95 +8,106 @@ RAW GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 42
-Уникальных строк: 42
-Уникальных host:port: 12
-Уникальных backend: 11
-Anycast: 20
-Unknown country: 5
+Всего конфигов: 105
+Уникальных строк: 100
+Уникальных host:port: 25
+Уникальных backend: 21
+Anycast: 51
+Unknown country: 19
 
 Топ стран:
-  🌐 Anycast: 20
-  Russia: 12
+  🌐 Anycast: 51
+  Russia: 20
+  Unknown: 19
+  Germany: 10
   France: 5
-  Unknown: 5
 
 Топ SNI:
-  api-maps.yandex.ru: 17
-  smartcaptcha.yandexcloud.net: 5
-  fr.aeternavpn.space: 5
+  der.moktana.app: 25
+  5post-gate.x5.ru: 20
+  ser.moktana.app: 15
+  api-maps.yandex.ru: 14
+  fr.aeternavpn.space: 10
   hotcoals.aeternavpn.space: 5
-  rzd.ru: 5
+  live.ok.ru: 5
+  81.200.144.27: 1
+  87.228.122.108: 1
   194.38.11.86: 1
-  els.mangshe.xyz: 1
-  els1.mangshe.xyz: 1
-  els2.mangshe.xyz: 1
-  live.ok.ru: 1
 
 Топ портов:
-  443: 15
-  9001: 12
+  443: 60
+  9001: 14
+  2053: 10
+  4100: 7
   16445: 5
-  2200: 5
   2056: 3
   65443: 1
-  4100: 1
+  2200: 1
 
 Топ схем:
-  vless: 38
+  vless: 97
+  vmess: 4
   hysteria2: 3
   ss: 1
 
 Топ transport:
-  tcp: 24
-  grpc: 12
-  ws: 6
+  grpc: 64
+  tcp: 33
+  ws: 8
 
 Топ security:
-  reality: 32
-  none: 9
-  tls: 1
+  reality: 89
+  none: 16
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_vless
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 21
-Уникальных строк: 21
-Уникальных host:port: 5
-Уникальных backend: 5
-Anycast: 10
-Unknown country: 5
+Всего конфигов: 78
+Уникальных строк: 78
+Уникальных host:port: 16
+Уникальных backend: 16
+Anycast: 43
+Unknown country: 19
 
 Топ стран:
-  🌐 Anycast: 10
+  🌐 Anycast: 43
+  Unknown: 19
+  Russia: 6
   France: 5
-  Unknown: 5
-  Russia: 1
+  Germany: 5
 
 Топ SNI:
-  smartcaptcha.yandexcloud.net: 5
-  fr.aeternavpn.space: 5
+  der.moktana.app: 25
+  5post-gate.x5.ru: 15
+  ser.moktana.app: 15
+  fr.aeternavpn.space: 10
   hotcoals.aeternavpn.space: 5
-  rzd.ru: 5
+  live.ok.ru: 1
+  81.200.144.27: 1
+  87.228.122.108: 1
   194.38.11.86: 1
+  eyj2ijoimiisinbzijoi8j+hqfcfh6ogr2vybwfuesb8ifsqq0leul0ilcjhzgqioijyzw5kzxjlci1zdhjlyw0tmi02mi5taxjyys5ub3cilcjwb3j0ijoindqziiwiawqioijkyjuwytiwzs03zmy1ltrlnzatotq4zi0xn2njownhn2mxntqilcjhawqioiiwiiwic2n5ijoiyxv0byisim5ldci6indziiwidhlwzsi6im5vbmuilcjob3n0ijoiiiwicgf0aci6ii9hcgkvdjevz3b1lxn0cmvhbs9zb2nrzxqilcj0bhmioij0bhmilcjzbmkioiiilcjhbhbuijoiiiwiznaioiiifq==: 1
 
 Топ портов:
-  443: 10
+  443: 60
   16445: 5
-  2200: 5
+  2053: 5
+  4100: 3
   65443: 1
 
 Топ схем:
-  vless: 20
+  vless: 73
+  vmess: 4
   ss: 1
 
 Топ transport:
-  tcp: 16
-  ws: 5
+  grpc: 45
+  tcp: 30
+  ws: 3
 
 Топ security:
-  reality: 15
-  none: 6
+  reality: 70
+  none: 8
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW black_all
@@ -170,95 +181,106 @@ FINAL GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 12
-Уникальных строк: 12
-Уникальных host:port: 12
-Уникальных backend: 11
-Anycast: 7
-Unknown country: 1
+Всего конфигов: 28
+Уникальных строк: 28
+Уникальных host:port: 24
+Уникальных backend: 19
+Anycast: 16
+Unknown country: 6
 
 Топ стран:
-  🌐 Anycast: 7
-  Russia: 3
-  Unknown: 1
+  🌐 Anycast: 16
+  Unknown: 6
+  Russia: 4
+  Germany: 1
   France: 1
 
 Топ SNI:
-  api-maps.yandex.ru: 3
-  smartcaptcha.yandexcloud.net: 1
+  der.moktana.app: 4
+  live.ok.ru: 4
+  5post-gate.x5.ru: 3
+  ser.moktana.app: 3
+  api-maps.yandex.ru: 2
   hotcoals.aeternavpn.space: 1
-  fr.aeternavpn.space: 1
   rzd.ru: 1
-  live.ok.ru: 1
+  87.228.122.108: 1
+  fr.aeternavpn.space: 1
   194.38.11.86: 1
-  els.mangshe.xyz: 1
-  els2.mangshe.xyz: 1
-  els1.mangshe.xyz: 1
 
 Топ портов:
-  443: 3
+  443: 10
+  4100: 5
   2056: 3
   9001: 2
-  16445: 1
+  2053: 1
   2200: 1
-  4100: 1
+  16445: 1
   65443: 1
 
 Топ схем:
-  vless: 8
+  vless: 20
+  vmess: 4
   hysteria2: 3
   ss: 1
 
 Топ transport:
-  tcp: 8
-  grpc: 2
-  ws: 2
+  tcp: 12
+  grpc: 10
+  ws: 6
 
 Топ security:
-  reality: 6
-  none: 5
-  tls: 1
+  reality: 14
+  none: 14
 
 ────────────────────────────────────────────────────────────────────
 📊 white_vless
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 5
-Уникальных строк: 5
-Уникальных host:port: 5
-Уникальных backend: 5
-Anycast: 2
-Unknown country: 1
+Всего конфигов: 19
+Уникальных строк: 19
+Уникальных host:port: 15
+Уникальных backend: 14
+Anycast: 9
+Unknown country: 6
 
 Топ стран:
-  🌐 Anycast: 2
-  Unknown: 1
-  Russia: 1
+  🌐 Anycast: 9
+  Unknown: 6
+  Russia: 2
+  Germany: 1
   France: 1
 
 Топ SNI:
+  der.moktana.app: 4
+  5post-gate.x5.ru: 3
+  ser.moktana.app: 3
   hotcoals.aeternavpn.space: 1
   194.38.11.86: 1
-  rzd.ru: 1
-  smartcaptcha.yandexcloud.net: 1
+  live.ok.ru: 1
+  87.228.122.108: 1
   fr.aeternavpn.space: 1
+  eyjhzgqioijyzw5kzxjlci1zdhjlyw0tmi02mi5taxjyys5ub3cilcjhawqioiiwiiwiywxwbii6iiisimzwijoiiiwiag9zdci6injlbmrlcmvylxn0cmvhbs0yltyylm1pcnjhlm5vdyisimlkijoizgi1mgeymgutn2zmns00ztcwltk0ogytmtdjyzljytdjmtu0iiwibmv0ijoid3milcjwyxroijoil2fwas92ms9nchutc3ryzwftl3nvy2tldcisinbvcnqioii0ndmilcjwcyi6ivcfh6nwn4eqiedlcm1hbnkgfcbbkknjrfjdiiwic2n5ijoiyxv0byisinnly3vyaxr5ijoiyxv0byisinnraxaty2vydc12zxjpznkionrydwusinnuasi6iiisinrscyi6inrscyisinr5cguioijhdxrviiwidii6ijiifq==: 1
+  eyj2ijoimiisinbzijoi8j+hqfcfh6ogr2vybwfuesb8ifsqq0leul0ilcjhzgqioijyzw5kzxjlci1zdhjlyw0tmi02mi5taxjyys5ub3cilcjwb3j0ijoindqziiwiawqioijkyjuwytiwzs03zmy1ltrlnzatotq4zi0xn2njownhn2mxntqilcjhawqioiiwiiwic2n5ijoiyxv0byisim5ldci6indziiwidhlwzsi6imf1dg8ilcjwyxroijoil2fwas92ms9nchutc3ryzwftl3nvy2tldcisinrscyi6inrscyisimhvc3qioiiilcjzbmkioiiilcjhbhbuijoiiiwiznaioiiifq==: 1
 
 Топ портов:
-  443: 2
+  443: 10
+  4100: 2
+  2053: 1
   65443: 1
-  2200: 1
   16445: 1
 
 Топ схем:
-  vless: 4
+  vless: 14
+  vmess: 4
   ss: 1
 
 Топ transport:
-  tcp: 4
-  ws: 1
+  tcp: 9
+  grpc: 8
+  ws: 2
 
 Топ security:
-  reality: 3
-  none: 2
+  reality: 12
+  none: 7
 
 ────────────────────────────────────────────────────────────────────
 📊 black_all
@@ -277,32 +299,32 @@ Unknown country: 53
   Japan: 4
   Netherlands: 4
   Poland: 2
-  Germany: 1
   Finland: 1
+  Germany: 1
   India: 1
   France: 1
 
 Топ SNI:
   s3.savesafe.run: 4
   www.apple.com: 3
-  twitch.tv: 3
   note.savesafe.run: 3
-  auth-3.savesafe.run: 3
+  twitch.tv: 3
   www.sony.com: 3
+  auth-3.savesafe.run: 3
   www.bing.com: 3
   max.ru: 2
-  www.intel.com: 2
   api-v2.savesafe.run: 2
+  www.intel.com: 2
 
 Топ портов:
   443: 34
   50160: 3
   5000: 1
   10583: 1
-  19645: 1
-  5001: 1
-  18007: 1
   3443: 1
+  18007: 1
+  19645: 1
+  40379: 1
   41478: 1
   1105: 1
 
@@ -327,124 +349,124 @@ Unknown country: 53
 ────────────────────────────────────────────────────────────────────
 📊 pool
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 98
-Уникальных строк: 98
-Уникальных host:port: 65
-Уникальных backend: 85
-Anycast: 20
-Unknown country: 54
+Всего конфигов: 109
+Уникальных строк: 109
+Уникальных host:port: 72
+Уникальных backend: 93
+Anycast: 24
+Unknown country: 58
 
 Топ стран:
-  Unknown: 54
-  🌐 Anycast: 20
-  United States: 6
-  Japan: 4
+  Unknown: 58
+  🌐 Anycast: 24
+  United States: 7
+  Russia: 4
   Netherlands: 4
-  Russia: 3
+  Japan: 4
   France: 2
+  Germany: 2
   Poland: 2
   India: 1
-  Finland: 1
 
 Топ SNI:
   s3.savesafe.run: 4
-  api-maps.yandex.ru: 3
+  5post-gate.x5.ru: 3
   www.apple.com: 3
   www.sony.com: 3
+  note.savesafe.run: 3
   twitch.tv: 3
   auth-3.savesafe.run: 3
-  www.bing.com: 3
-  note.savesafe.run: 2
-  max.ru: 2
-  www.intel.com: 2
+  ser.moktana.app: 2
+  api-maps.yandex.ru: 2
+  der.moktana.app: 2
 
 Топ портов:
-  443: 36
+  443: 41
   2056: 3
-  50160: 3
+  4100: 3
   9001: 2
-  65443: 1
+  50160: 2
   16445: 1
+  2053: 1
   2200: 1
-  4100: 1
-  3443: 1
-  18007: 1
+  65443: 1
+  5001: 1
 
 Топ схем:
-  vless: 50
-  vmess: 33
-  hysteria2: 12
+  vless: 58
+  vmess: 37
+  hysteria2: 11
   ss: 2
   trojan: 1
 
 Топ transport:
-  tcp: 71
-  xhttp: 17
-  ws: 6
-  grpc: 4
+  tcp: 74
+  xhttp: 18
+  grpc: 9
+  ws: 8
 
 Топ security:
-  none: 50
-  reality: 41
-  tls: 7
+  none: 56
+  reality: 47
+  tls: 6
 
 ────────────────────────────────────────────────────────────────────
 📊 mixed
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 42
-Уникальных строк: 42
-Уникальных host:port: 42
-Уникальных backend: 35
-Anycast: 9
-Unknown country: 16
+Всего конфигов: 47
+Уникальных строк: 47
+Уникальных host:port: 47
+Уникальных backend: 38
+Anycast: 11
+Unknown country: 17
 
 Топ стран:
-  Unknown: 16
-  🌐 Anycast: 9
+  Unknown: 17
+  🌐 Anycast: 11
   United States: 6
+  Russia: 3
   Japan: 3
-  Russia: 2
+  Germany: 2
   Netherlands: 2
   France: 1
-  Germany: 1
-  Finland: 1
   India: 1
+  Finland: 1
 
 Топ SNI:
-  api-maps.yandex.ru: 3
-  www.sony.com: 3
+  5post-gate.x5.ru: 3
   twitch.tv: 3
-  www.intel.com: 2
-  www.apple.com: 2
-  auth-3.savesafe.run: 2
-  s3.savesafe.run: 2
+  www.sony.com: 3
+  api-maps.yandex.ru: 2
+  der.moktana.app: 2
+  ser.moktana.app: 2
   max.ru: 2
-  api-v2.savesafe.run: 2
+  s3.savesafe.run: 2
   note.savesafe.run: 2
+  auth-3.savesafe.run: 2
 
 Топ портов:
-  443: 27
+  443: 31
   9001: 2
   16445: 1
-  41478: 1
-  40800: 1
+  2053: 1
+  5001: 1
+  47085: 1
+  40379: 1
+  3443: 1
   19645: 1
   35190: 1
-  30837: 1
-  18442: 1
-  5000: 1
 
 Топ схем:
-  vless: 42
+  vless: 47
 
 Топ transport:
   tcp: 21
   xhttp: 14
-  grpc: 4
+  grpc: 9
   ws: 3
 
 Топ security:
-  reality: 37
+  reality: 42
   tls: 5
 
 ────────────────────────────────────────────────────────────────────
@@ -453,51 +475,50 @@ Unknown country: 16
 Всего конфигов: 25
 Уникальных строк: 25
 Уникальных host:port: 25
-Уникальных backend: 21
-Anycast: 6
-Unknown country: 3
+Уникальных backend: 19
+Anycast: 7
+Unknown country: 0
 
 Топ стран:
+  🌐 Anycast: 7
   United States: 6
-  🌐 Anycast: 6
+  Russia: 3
   Japan: 3
-  Unknown: 3
-  Russia: 2
+  Germany: 2
   Netherlands: 2
   Finland: 1
-  Germany: 1
   India: 1
 
 Топ SNI:
-  api-maps.yandex.ru: 3
-  www.apple.com: 2
-  max.ru: 2
-  twitch.tv: 2
+  api-maps.yandex.ru: 2
   note.savesafe.run: 2
-  coral-ember-99ed-production.up.railway.app: 1
-  cedar-canyon-d90a-production.up.railway.app: 1
+  www.apple.com: 2
+  twitch.tv: 2
+  5post-gate.x5.ru: 2
+  der.moktana.app: 2
+  ser.moktana.app: 2
+  max.ru: 1
   willow-voyager-5a0a-production.up.railway.app: 1
-  www.wired.com: 1
   amp-api-edge.apps.apple.com: 1
 
 Топ портов:
   443: 17
   9001: 2
-  19645: 1
-  18007: 1
   5000: 1
-  41478: 1
+  18007: 1
+  19645: 1
   3443: 1
-  5001: 1
+  2053: 1
+  41478: 1
 
 Топ схем:
   vless: 25
 
 Топ transport:
-  tcp: 11
-  xhttp: 9
+  tcp: 8
+  grpc: 7
+  xhttp: 7
   ws: 3
-  grpc: 2
 
 Топ security:
   reality: 22
@@ -506,74 +527,74 @@ Unknown country: 3
 ====================================================================
 🌍 GLOBAL SUMMARY
 ====================================================================
-Всего конфигов: 270
-Уникальных строк: 100
-Уникальных host:port: 66
-Уникальных backend: 85
-Anycast: 58
-Unknown country: 128
+Всего конфигов: 316
+Уникальных строк: 116
+Уникальных host:port: 78
+Уникальных backend: 93
+Anycast: 81
+Unknown country: 140
 
 Топ стран:
-  Unknown: 128
-  🌐 Anycast: 58
-  United States: 25
+  Unknown: 140
+  🌐 Anycast: 81
+  United States: 26
+  Russia: 16
   Japan: 14
   Netherlands: 12
-  Russia: 11
+  Germany: 9
   France: 6
-  Germany: 4
   Finland: 4
   India: 4
   Poland: 4
 
 Топ SNI:
-  api-maps.yandex.ru: 12
+  5post-gate.x5.ru: 14
+  der.moktana.app: 14
+  ser.moktana.app: 12
   twitch.tv: 11
-  s3.savesafe.run: 11
   www.apple.com: 10
-  note.savesafe.run: 9
+  note.savesafe.run: 10
+  s3.savesafe.run: 10
   www.sony.com: 9
-  max.ru: 8
+  api-maps.yandex.ru: 8
   auth-3.savesafe.run: 8
+  live.ok.ru: 7
+  max.ru: 7
   www.intel.com: 7
-  api-v2.savesafe.run: 7
-  www.bing.com: 6
-  smartcaptcha.yandexcloud.net: 5
-  hotcoals.aeternavpn.space: 4
-  fr.aeternavpn.space: 4
-  amp-api-edge.apps.apple.com: 4
+  api-v2.savesafe.run: 6
+  www.bing.com: 5
 
 Топ портов:
-  443: 119
+  443: 143
+  4100: 10
   9001: 8
   2056: 7
-  50160: 6
+  2053: 5
+  50160: 5
   16445: 4
   5000: 4
-  19645: 4
-  5001: 4
-  18007: 4
   3443: 4
+  19645: 4
   41478: 4
-  2200: 3
   65443: 3
-  18442: 3
-  47085: 3
+  10583: 3
+  18007: 3
+  40379: 3
 
 Топ схем:
-  vless: 172
-  vmess: 66
-  hysteria2: 25
+  vless: 207
+  vmess: 78
+  hysteria2: 24
   ss: 5
   trojan: 2
 
 Топ transport:
-  tcp: 179
-  xhttp: 58
-  ws: 19
-  grpc: 14
+  tcp: 188
+  xhttp: 57
+  grpc: 45
+  ws: 26
 
 Топ security:
-  reality: 145
-  none: 103
-  tls: 22
+  reality: 173
+  none: 123
+  tls: 20
