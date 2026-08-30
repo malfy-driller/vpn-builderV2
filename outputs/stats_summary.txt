@@ -1,5 +1,5 @@
 VPN Builder stats summary
-Generated at: 2026-08-30 23:01:54 MSK
+Generated at: 2026-08-31 01:49:25 MSK
 
 ====================================================================
 RAW GROUPS
@@ -8,76 +8,119 @@ RAW GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 34
-Уникальных строк: 24
-Уникальных host:port: 6
-Уникальных backend: 6
-Anycast: 4
-Unknown country: 1
+Всего конфигов: 114
+Уникальных строк: 99
+Уникальных host:port: 26
+Уникальных backend: 28
+Anycast: 22
+Unknown country: 10
 
 Топ стран:
-  Germany: 20
-  Russia: 9
-  🌐 Anycast: 4
-  Unknown: 1
+  Russia: 32
+  Germany: 25
+  🌐 Anycast: 22
+  France: 10
+  Unknown: 10
+  Austria: 5
+  Czechia: 5
+  Netherlands: 5
 
 Топ SNI:
   5post-gate.x5.ru: 20
-  api-maps.yandex.ru: 11
-  els.mangshe.xyz: 1
-  els1.mangshe.xyz: 1
-  eyjhzgqioijyzw5kzxjlci1zdhjlyw0tmi02mi5taxjyys5ub3cilcjhawqioiiwiiwiywxwbii6iiisimzwijoiy2hyb21liiwiag9zdci6injlbmrlcmvylxn0cmvhbs0yltyylm1pcnjhlm5vdyisimlkijoizgi1mgeymgutn2zmns00ztcwltk0ogytmtdjyzljytdjmtu0iiwiaw5zzwn1cmuioiiwiiwibmv0ijoid3milcjwyxroijoil2fwas92ms9nchutc3ryzwftl3nvy2tldcisinbvcnqioii0ndmilcjwcyi6ivcfh6nwn4eqiedlcm1hbnkgfcbbkknjrfjdiiwic2n5ijoiyxv0byisinnuasi6injlbmrlcmvylxn0cmvhbs0yltyylm1pcnjhlm5vdyisinrscyi6inrscyisinr5cguioiitls0ilcj2ijoimij9: 1
+  api-maps.yandex.ru: 17
+  akashi.vk-portal.net: 10
+  ads.x5.ru: 10
+  api.yandex-dev.online: 5
+  api.yandex-developer.org: 5
+  fr.aeternavpn.space: 5
+  deepl.com: 5
+  ads.yandex-developer.org: 5
+  api.yandex-dev.org: 5
 
 Топ портов:
+  443: 40
   2053: 20
-  9001: 11
-  2056: 2
+  9001: 12
+  8449: 10
+  16445: 5
+  40000: 5
+  9002: 5
+  4100: 4
+  2200: 4
+  2056: 3
 
 Топ схем:
-  vless: 31
-  hysteria2: 2
-  vmess: 1
+  vless: 105
+  vmess: 5
+  hysteria2: 4
 
 Топ transport:
-  grpc: 31
-  tcp: 3
+  tcp: 54
+  grpc: 37
+  raw: 10
+  ws: 8
+  xhttp: 5
 
 Топ security:
-  reality: 31
-  none: 3
+  reality: 97
+  none: 16
+  tls: 1
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_vless
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 11
-Уникальных строк: 11
-Уникальных host:port: 2
-Уникальных backend: 3
-Anycast: 0
-Unknown country: 1
+Всего конфигов: 64
+Уникальных строк: 64
+Уникальных host:port: 14
+Уникальных backend: 19
+Anycast: 9
+Unknown country: 10
 
 Топ стран:
-  Germany: 10
-  Unknown: 1
+  Germany: 15
+  France: 10
+  Unknown: 10
+  🌐 Anycast: 9
+  Austria: 5
+  Czechia: 5
+  Netherlands: 5
+  Russia: 5
 
 Топ SNI:
   5post-gate.x5.ru: 10
-  eyjhzgqioijyzw5kzxjlci1zdhjlyw0tmi02mi5taxjyys5ub3cilcjhawqioiiwiiwiywxwbii6iiisimzwijoiy2hyb21liiwiag9zdci6injlbmrlcmvylxn0cmvhbs0yltyylm1pcnjhlm5vdyisimlkijoizgi1mgeymgutn2zmns00ztcwltk0ogytmtdjyzljytdjmtu0iiwiaw5zzwn1cmuioiiwiiwibmv0ijoid3milcjwyxroijoil2fwas92ms9nchutc3ryzwftl3nvy2tldcisinbvcnqioii0ndmilcjwcyi6ivcfh6nwn4eqiedlcm1hbnkgfcbbkknjrfjdiiwic2n5ijoiyxv0byisinnuasi6injlbmrlcmvylxn0cmvhbs0yltyylm1pcnjhlm5vdyisinrscyi6inrscyisinr5cguioiitls0ilcj2ijoimij9: 1
+  api.yandex-dev.online: 5
+  api.yandex-developer.org: 5
+  fr.aeternavpn.space: 5
+  deepl.com: 5
+  ads.yandex-developer.org: 5
+  api.yandex-dev.org: 5
+  ads.yandex-dev.com: 5
+  akashi.vk-portal.net: 5
+  aws.amazon.com: 5
 
 Топ портов:
+  443: 30
   2053: 10
+  16445: 5
+  8449: 5
+  40000: 5
+  4100: 3
+  2200: 1
 
 Топ схем:
-  vless: 10
-  vmess: 1
+  vless: 59
+  vmess: 5
 
 Топ transport:
+  tcp: 40
   grpc: 10
-  tcp: 1
+  raw: 5
+  xhttp: 5
+  ws: 4
 
 Топ security:
-  reality: 10
-  none: 1
+  reality: 55
+  none: 9
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW black_all
@@ -145,76 +188,119 @@ FINAL GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 7
-Уникальных строк: 7
-Уникальных host:port: 6
-Уникальных backend: 6
-Anycast: 2
-Unknown country: 1
+Всего конфигов: 31
+Уникальных строк: 31
+Уникальных host:port: 26
+Уникальных backend: 27
+Anycast: 11
+Unknown country: 6
 
 Топ стран:
-  Russia: 2
-  Germany: 2
-  🌐 Anycast: 2
-  Unknown: 1
+  🌐 Anycast: 11
+  Russia: 6
+  Unknown: 6
+  Germany: 3
+  France: 2
+  Netherlands: 1
+  Austria: 1
+  Czechia: 1
 
 Топ SNI:
-  api-maps.yandex.ru: 2
+  api-maps.yandex.ru: 3
+  live.ok.ru: 3
+  ads.x5.ru: 2
   5post-gate.x5.ru: 2
-  els.mangshe.xyz: 1
-  eyjhzgqioijyzw5kzxjlci1zdhjlyw0tmi02mi5taxjyys5ub3cilcjhawqioiiwiiwiywxwbii6iiisimzwijoiy2hyb21liiwiag9zdci6injlbmrlcmvylxn0cmvhbs0yltyylm1pcnjhlm5vdyisimlkijoizgi1mgeymgutn2zmns00ztcwltk0ogytmtdjyzljytdjmtu0iiwiaw5zzwn1cmuioiiwiiwibmv0ijoid3milcjwyxroijoil2fwas92ms9nchutc3ryzwftl3nvy2tldcisinbvcnqioii0ndmilcjwcyi6ivcfh6nwn4eqiedlcm1hbnkgfcbbkknjrfjdiiwic2n5ijoiyxv0byisinnuasi6injlbmrlcmvylxn0cmvhbs0yltyylm1pcnjhlm5vdyisinrscyi6inrscyisinr5cguioiitls0ilcj2ijoimij9: 1
-  els1.mangshe.xyz: 1
+  rzd.ru: 2
+  ads.yandex-developer.org: 1
+  api.yandex-dev.org: 1
+  fr.aeternavpn.space: 1
+  api.yandex-dev.online: 1
+  api.yandex-developer.org: 1
 
 Топ портов:
+  443: 8
+  2200: 3
+  4100: 3
+  2056: 3
   9001: 2
   2053: 2
-  2056: 2
+  9002: 1
+  16445: 1
+  40000: 1
+  8449: 1
 
 Топ схем:
-  vless: 4
-  hysteria2: 2
-  vmess: 1
+  vless: 22
+  vmess: 5
+  hysteria2: 4
 
 Топ transport:
-  grpc: 4
-  tcp: 3
+  tcp: 18
+  ws: 6
+  grpc: 5
+  xhttp: 1
+  raw: 1
 
 Топ security:
-  reality: 4
-  none: 3
+  reality: 16
+  none: 14
+  tls: 1
 
 ────────────────────────────────────────────────────────────────────
 📊 white_vless
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 3
-Уникальных строк: 3
-Уникальных host:port: 2
-Уникальных backend: 3
-Anycast: 0
-Unknown country: 1
+Всего конфигов: 19
+Уникальных строк: 19
+Уникальных host:port: 14
+Уникальных backend: 18
+Anycast: 4
+Unknown country: 6
 
 Топ стран:
-  Germany: 2
-  Unknown: 1
+  Unknown: 6
+  🌐 Anycast: 4
+  Germany: 3
+  France: 2
+  Netherlands: 1
+  Czechia: 1
+  Austria: 1
+  Russia: 1
 
 Топ SNI:
   5post-gate.x5.ru: 2
-  eyjhzgqioijyzw5kzxjlci1zdhjlyw0tmi02mi5taxjyys5ub3cilcjhawqioiiwiiwiywxwbii6iiisimzwijoiy2hyb21liiwiag9zdci6injlbmrlcmvylxn0cmvhbs0yltyylm1pcnjhlm5vdyisimlkijoizgi1mgeymgutn2zmns00ztcwltk0ogytmtdjyzljytdjmtu0iiwiaw5zzwn1cmuioiiwiiwibmv0ijoid3milcjwyxroijoil2fwas92ms9nchutc3ryzwftl3nvy2tldcisinbvcnqioii0ndmilcjwcyi6ivcfh6nwn4eqiedlcm1hbnkgfcbbkknjrfjdiiwic2n5ijoiyxv0byisinnuasi6injlbmrlcmvylxn0cmvhbs0yltyylm1pcnjhlm5vdyisinrscyi6inrscyisinr5cguioiitls0ilcj2ijoimij9: 1
+  live.ok.ru: 2
+  api.yandex-dev.org: 1
+  api.yandex-developer.org: 1
+  api.yandex-dev.online: 1
+  fr.aeternavpn.space: 1
+  aws.amazon.com: 1
+  ads.yandex-developer.org: 1
+  deepl.com: 1
+  ads.yandex-dev.com: 1
 
 Топ портов:
+  443: 6
   2053: 2
+  4100: 2
+  16445: 1
+  40000: 1
+  8449: 1
+  2200: 1
 
 Топ схем:
-  vless: 2
-  vmess: 1
+  vless: 14
+  vmess: 5
 
 Топ transport:
+  tcp: 12
+  ws: 3
   grpc: 2
-  tcp: 1
+  xhttp: 1
+  raw: 1
 
 Топ security:
-  reality: 2
-  none: 1
+  reality: 11
+  none: 8
 
 ────────────────────────────────────────────────────────────────────
 📊 black_all
@@ -238,13 +324,13 @@ Unknown country: 19
   tesla.com: 4
   www.apple.com: 3
   www.sony.com: 3
-  amp-api-edge.apps.apple.com: 1
   sulgx-panel-production-2b90.up.railway.app: 1
-  accounts.fastly.com: 1
-  frantax.my3cx.de: 1
-  auto.cendora.ru: 1
-  css.rbxcdn.com: 1
+  amp-api-edge.apps.apple.com: 1
   kibi-institut.de: 1
+  frantax.my3cx.de: 1
+  accounts.fastly.com: 1
+  auto.cendora.ru: 1
+  eu-west.cendora.ru: 1
 
 Топ портов:
   443: 6
@@ -252,11 +338,11 @@ Unknown country: 19
   8443: 2
   35991: 1
   1105: 1
-  30837: 1
   50740: 1
+  20414: 1
   41159: 1
-  8406: 1
   32396: 1
+  8686: 1
 
 Топ схем:
   vless: 17
@@ -278,245 +364,255 @@ Unknown country: 19
 ────────────────────────────────────────────────────────────────────
 📊 pool
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 49
-Уникальных строк: 49
-Уникальных host:port: 38
-Уникальных backend: 48
-Anycast: 17
-Unknown country: 20
+Всего конфигов: 71
+Уникальных строк: 71
+Уникальных host:port: 56
+Уникальных backend: 68
+Anycast: 24
+Unknown country: 25
 
 Топ стран:
-  Unknown: 20
-  🌐 Anycast: 17
-  Netherlands: 3
-  Russia: 2
-  Germany: 2
+  Unknown: 25
+  🌐 Anycast: 24
+  Russia: 6
+  Netherlands: 4
+  Germany: 3
+  France: 3
   United States: 2
   Japan: 2
-  France: 1
+  Austria: 1
+  Czechia: 1
 
 Топ SNI:
   tesla.com: 4
+  api-maps.yandex.ru: 3
   www.sony.com: 3
   www.apple.com: 3
-  api-maps.yandex.ru: 2
+  live.ok.ru: 2
+  ads.x5.ru: 2
   5post-gate.x5.ru: 2
-  els.mangshe.xyz: 1
-  els1.mangshe.xyz: 1
-  eyjhzgqioijyzw5kzxjlci1zdhjlyw0tmi02mi5taxjyys5ub3cilcjhawqioiiwiiwiywxwbii6iiisimzwijoiy2hyb21liiwiag9zdci6injlbmrlcmvylxn0cmvhbs0yltyylm1pcnjhlm5vdyisimlkijoizgi1mgeymgutn2zmns00ztcwltk0ogytmtdjyzljytdjmtu0iiwiaw5zzwn1cmuioiiwiiwibmv0ijoid3milcjwyxroijoil2fwas92ms9nchutc3ryzwftl3nvy2tldcisinbvcnqioii0ndmilcjwcyi6ivcfh6nwn4eqiedlcm1hbnkgfcbbkknjrfjdiiwic2n5ijoiyxv0byisinnuasi6injlbmrlcmvylxn0cmvhbs0yltyylm1pcnjhlm5vdyisinrscyi6inrscyisinr5cguioiitls0ilcj2ijoimij9: 1
-  www.tesla.com: 1
-  eyj2ijoimiisinbzijoi8j+hrfcfh7agsg9uzyblb25nlcbib25nietvbmcgfcbbqkxdiiwiywrkijoiy2uwz2vkchh3b3u2y3fvbi52ljnkbnmudmlwiiwicg9ydci6ijq0myisimlkijoizjizymi0mjdjmwy5ndm3mzg3nmmyzjqzztlmnzkwzjmilcjhawqioiiwiiwic2n5ijoiyxv0byisim5ldci6indziiwidhlwzsi6im5vbmuilcjob3n0ijoiy0uwz2vkufh3t1u2y3fvti52ljnkbnmudmlwiiwicgf0aci6ii93cy12bwvzcyisinrscyi6inrscyisinnuasi6iiisimfscg4ioiiilcjmcci6iij9: 1
+  rzd.ru: 2
+  ads.yandex-developer.org: 1
+  els2.mangshe.xyz: 1
 
 Топ портов:
-  443: 6
+  443: 14
+  2056: 4
   8444: 4
-  2056: 3
+  2200: 3
+  4100: 2
   9001: 2
   2053: 2
   8443: 2
-  41159: 1
-  8882: 1
-  32396: 1
-  20414: 1
+  40000: 1
+  8449: 1
 
 Топ схем:
-  vless: 21
-  hysteria2: 11
-  vmess: 11
+  vless: 38
+  vmess: 15
+  hysteria2: 12
   ss: 4
   trojan: 2
 
 Топ transport:
-  tcp: 43
-  grpc: 4
-  xhttp: 1
-  ws: 1
+  tcp: 57
+  ws: 6
+  grpc: 5
+  xhttp: 2
+  raw: 1
 
 Топ security:
-  none: 25
-  reality: 19
-  tls: 5
+  none: 34
+  reality: 31
+  tls: 6
 
 ────────────────────────────────────────────────────────────────────
 📊 mixed
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 21
-Уникальных строк: 21
-Уникальных host:port: 21
-Уникальных backend: 20
-Anycast: 9
-Unknown country: 6
+Всего конфигов: 33
+Уникальных строк: 33
+Уникальных host:port: 33
+Уникальных backend: 32
+Anycast: 10
+Unknown country: 7
 
 Топ стран:
-  🌐 Anycast: 9
-  Unknown: 6
-  Russia: 2
-  Germany: 2
-  Netherlands: 2
+  🌐 Anycast: 10
+  Unknown: 7
+  Russia: 6
+  Germany: 3
+  Netherlands: 3
+  France: 2
+  Austria: 1
+  Czechia: 1
 
 Топ SNI:
   tesla.com: 4
+  api-maps.yandex.ru: 3
   www.sony.com: 3
-  api-maps.yandex.ru: 2
   5post-gate.x5.ru: 2
+  ads.x5.ru: 2
   www.apple.com: 2
-  kibi-institut.de: 1
-  sulgx-panel-production-2b90.up.railway.app: 1
-  auto.cendora.ru: 1
-  frantax.my3cx.de: 1
-  amp-api-edge.apps.apple.com: 1
+  api.yandex-dev.online: 1
+  fr.aeternavpn.space: 1
+  api.yandex-dev.org: 1
+  ads.yandex-dev.com: 1
 
 Топ портов:
-  443: 5
+  443: 13
   8444: 4
-  9001: 2
   2053: 2
+  9001: 2
   8443: 2
-  20414: 1
-  8686: 1
-  32396: 1
-  41159: 1
-  30837: 1
+  16445: 1
+  9002: 1
+  8449: 1
+  40000: 1
+  35991: 1
 
 Топ схем:
-  vless: 21
+  vless: 33
 
 Топ transport:
-  tcp: 15
-  grpc: 4
+  tcp: 24
+  grpc: 5
+  xhttp: 2
+  raw: 1
   ws: 1
-  xhttp: 1
 
 Топ security:
-  reality: 19
+  reality: 31
   tls: 2
 
 ────────────────────────────────────────────────────────────────────
 📊 lte
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 24
-Уникальных строк: 24
-Уникальных host:port: 24
-Уникальных backend: 23
-Anycast: 9
-Unknown country: 7
+Всего конфигов: 25
+Уникальных строк: 25
+Уникальных host:port: 25
+Уникальных backend: 24
+Anycast: 7
+Unknown country: 0
 
 Топ стран:
-  🌐 Anycast: 9
-  Unknown: 7
-  Russia: 2
-  Netherlands: 2
-  Germany: 2
+  🌐 Anycast: 7
+  Russia: 6
+  Netherlands: 3
+  Germany: 3
+  France: 3
+  Austria: 1
   United States: 1
-  France: 1
+  Czechia: 1
 
 Топ SNI:
-  tesla.com: 4
-  www.sony.com: 3
-  api-maps.yandex.ru: 2
-  www.apple.com: 2
+  api-maps.yandex.ru: 3
+  tesla.com: 3
+  ads.x5.ru: 2
   5post-gate.x5.ru: 2
   accounts.fastly.com: 1
   sulgx-panel-production-2b90.up.railway.app: 1
   amp-api-edge.apps.apple.com: 1
-  14.1.28.76: 1
-  eu-west.cendora.ru: 1
+  www.apple.com: 1
+  aws.amazon.com: 1
+  api.yandex-dev.org: 1
 
 Топ портов:
-  443: 5
-  8444: 4
+  443: 10
+  8444: 3
   9001: 2
-  8443: 2
   2053: 2
+  9002: 1
+  8443: 1
   35991: 1
+  40000: 1
+  16445: 1
   50740: 1
-  41159: 1
-  20414: 1
-  1105: 1
 
 Топ схем:
-  vless: 21
+  vless: 23
   trojan: 2
-  hysteria2: 1
 
 Топ transport:
-  tcp: 18
-  grpc: 4
-  xhttp: 1
+  tcp: 17
+  grpc: 5
+  xhttp: 2
   ws: 1
 
 Топ security:
-  reality: 19
-  tls: 5
+  reality: 21
+  tls: 4
 
 ====================================================================
 🌍 GLOBAL SUMMARY
 ====================================================================
-Всего конфигов: 146
-Уникальных строк: 49
-Уникальных host:port: 38
-Уникальных backend: 48
-Anycast: 52
-Unknown country: 54
+Всего конфигов: 221
+Уникальных строк: 73
+Уникальных host:port: 57
+Уникальных backend: 69
+Anycast: 71
+Unknown country: 63
 
 Топ стран:
-  Unknown: 54
-  🌐 Anycast: 52
-  Germany: 10
-  Netherlands: 10
-  Russia: 8
+  🌐 Anycast: 71
+  Unknown: 63
+  Russia: 25
+  Germany: 15
+  Netherlands: 15
+  France: 13
+  Austria: 5
+  Czechia: 5
   United States: 5
   Japan: 4
-  France: 3
 
 Топ SNI:
-  tesla.com: 16
-  www.sony.com: 12
+  tesla.com: 15
+  api-maps.yandex.ru: 12
   5post-gate.x5.ru: 10
-  www.apple.com: 10
-  api-maps.yandex.ru: 8
-  amp-api-edge.apps.apple.com: 4
-  sulgx-panel-production-2b90.up.railway.app: 4
-  accounts.fastly.com: 4
-  frantax.my3cx.de: 4
-  auto.cendora.ru: 4
-  kibi-institut.de: 4
-  eu-west.cendora.ru: 4
-  www.tesla.com: 4
-  eyjhzgqioijyzw5kzxjlci1zdhjlyw0tmi02mi5taxjyys5ub3cilcjhawqioiiwiiwiywxwbii6iiisimzwijoiy2hyb21liiwiag9zdci6injlbmrlcmvylxn0cmvhbs0yltyylm1pcnjhlm5vdyisimlkijoizgi1mgeymgutn2zmns00ztcwltk0ogytmtdjyzljytdjmtu0iiwiaw5zzwn1cmuioiiwiiwibmv0ijoid3milcjwyxroijoil2fwas92ms9nchutc3ryzwftl3nvy2tldcisinbvcnqioii0ndmilcjwcyi6ivcfh6nwn4eqiedlcm1hbnkgfcbbkknjrfjdiiwic2n5ijoiyxv0byisinnuasi6injlbmrlcmvylxn0cmvhbs0yltyylm1pcnjhlm5vdyisinrscyi6inrscyisinr5cguioiitls0ilcj2ijoimij9: 3
-  194.9.172.236: 3
+  www.sony.com: 10
+  www.apple.com: 9
+  ads.x5.ru: 8
+  live.ok.ru: 7
+  ads.yandex-developer.org: 5
+  api.yandex-dev.org: 5
+  fr.aeternavpn.space: 5
+  api.yandex-dev.online: 5
+  api.yandex-developer.org: 5
+  aws.amazon.com: 5
+  deepl.com: 5
+  ads.yandex-dev.com: 4
 
 Топ портов:
-  443: 22
-  8444: 16
+  443: 57
+  8444: 15
   2053: 10
   9001: 8
-  8443: 8
-  2056: 6
+  2056: 8
+  2200: 7
+  4100: 7
+  8443: 7
+  16445: 5
+  40000: 5
+  9002: 4
+  8449: 4
   35991: 4
-  30837: 4
-  41159: 4
-  32396: 4
   20414: 4
-  8686: 4
-  1105: 3
-  50740: 3
-  2060: 3
+  50160: 3
 
 Топ схем:
-  vless: 86
-  hysteria2: 23
-  vmess: 23
+  vless: 147
+  vmess: 35
+  hysteria2: 25
   ss: 8
   trojan: 6
 
 Топ transport:
-  tcp: 120
-  grpc: 18
-  ws: 4
-  xhttp: 4
+  tcp: 168
+  grpc: 22
+  ws: 18
+  xhttp: 9
+  raw: 4
 
 Топ security:
-  reality: 78
-  none: 51
-  tls: 17
+  reality: 125
+  none: 78
+  tls: 18
