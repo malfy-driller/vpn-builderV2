@@ -1,5 +1,5 @@
 VPN Builder stats summary
-Generated at: 2026-09-04 20:51:01 MSK
+Generated at: 2026-09-04 23:07:10 MSK
 
 ====================================================================
 RAW GROUPS
@@ -8,148 +8,170 @@ RAW GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 32
-Уникальных строк: 32
-Уникальных host:port: 6
-Уникальных backend: 7
-Anycast: 11
-Unknown country: 1
+Всего конфигов: 86
+Уникальных строк: 81
+Уникальных host:port: 11
+Уникальных backend: 12
+Anycast: 15
+Unknown country: 5
 
 Топ стран:
-  🌐 Anycast: 11
-  Germany: 10
+  Poland: 25
+  Austria: 20
+  🌐 Anycast: 15
+  Russia: 6
   Czechia: 5
-  Poland: 5
-  Unknown: 1
+  Germany: 5
+  Unknown: 5
+  Netherlands: 5
 
 Топ SNI:
-  dl.google.com: 15
-  cdn.okko.tv: 10
-  id.vk.com: 5
-  ru1.xiaoliyu.cyou: 1
-  eyjhzgqioijyzw5kzxjlci1zdhjlyw0tmi02mi5taxjyys5ub3cilcjhawqioiiwiiwiywxwbii6iiisimzwijoiiiwiag9zdci6iiisimlkijoizgi1mgeymgutn2zmns00ztcwltk0ogytmtdjyzljytdjmtu0iiwibmv0ijoid3milcjwyxroijoil2fwas92ms9nchutc3ryzwftl3nvy2tldcisinbvcnqioii0ndmilcjwcyi6ivcfh6nwn4eqiedlcm1hbnkgfcbbkknjrfjdiiwic2n5ijoiyxv0byisinnuasi6iiisinrscyi6inrscyisinr5cguioijub25liiwidii6ijiifq==: 1
+  dl.google.com: 50
+  www.google.com: 10
+  id.vk.com: 10
+  api-maps.yandex.ru: 10
+  u643766u53fe439es2358.gogocs.xyz: 5
+  194.38.11.86: 1
 
 Топ портов:
-  443: 15
+  9830: 20
+  443: 20
+  9895: 15
+  33743: 10
+  9871: 10
   9891: 5
-  9871: 5
-  9895: 5
-  4433: 1
+  8443: 5
+  65443: 1
 
 Топ схем:
-  vless: 30
-  hysteria2: 1
-  vmess: 1
+  vless: 85
+  ss: 1
 
 Топ transport:
-  grpc: 30
-  tcp: 2
+  grpc: 70
+  raw: 10
+  tcp: 6
 
 Топ security:
-  reality: 30
-  none: 2
+  reality: 80
+  tls: 5
+  none: 1
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_vless
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 31
-Уникальных строк: 31
-Уникальных host:port: 5
-Уникальных backend: 6
+Всего конфигов: 76
+Уникальных строк: 76
+Уникальных host:port: 10
+Уникальных backend: 12
 Anycast: 10
-Unknown country: 1
+Unknown country: 5
 
 Топ стран:
-  Germany: 10
+  Austria: 20
+  Poland: 20
   🌐 Anycast: 10
+  Russia: 6
   Czechia: 5
-  Poland: 5
-  Unknown: 1
+  Germany: 5
+  Unknown: 5
+  Netherlands: 5
 
 Топ SNI:
-  dl.google.com: 15
-  cdn.okko.tv: 10
+  dl.google.com: 50
+  api-maps.yandex.ru: 10
   id.vk.com: 5
-  eyjhzgqioijyzw5kzxjlci1zdhjlyw0tmi02mi5taxjyys5ub3cilcjhawqioiiwiiwiywxwbii6iiisimzwijoiiiwiag9zdci6iiisimlkijoizgi1mgeymgutn2zmns00ztcwltk0ogytmtdjyzljytdjmtu0iiwibmv0ijoid3milcjwyxroijoil2fwas92ms9nchutc3ryzwftl3nvy2tldcisinbvcnqioii0ndmilcjwcyi6ivcfh6nwn4eqiedlcm1hbnkgfcbbkknjrfjdiiwic2n5ijoiyxv0byisinnuasi6iiisinrscyi6inrscyisinr5cguioijub25liiwidii6ijiifq==: 1
+  www.google.com: 5
+  u643766u53fe439es2358.gogocs.xyz: 5
+  194.38.11.86: 1
 
 Топ портов:
+  9830: 20
   443: 15
+  9895: 15
+  9871: 10
   9891: 5
-  9871: 5
-  9895: 5
+  33743: 5
+  8443: 5
+  65443: 1
 
 Топ схем:
-  vless: 30
-  vmess: 1
+  vless: 75
+  ss: 1
 
 Топ transport:
-  grpc: 30
-  tcp: 1
+  grpc: 60
+  raw: 10
+  tcp: 6
 
 Топ security:
-  reality: 30
+  reality: 70
+  tls: 5
   none: 1
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW black_all
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 288
-Уникальных строк: 184
-Уникальных host:port: 39
-Уникальных backend: 35
-Anycast: 40
-Unknown country: 116
+Всего конфигов: 355
+Уникальных строк: 238
+Уникальных host:port: 45
+Уникальных backend: 70
+Anycast: 46
+Unknown country: 126
 
 Топ стран:
-  Unknown: 116
-  France: 84
-  🌐 Anycast: 40
-  United States: 25
-  Finland: 14
-  Germany: 6
-  India: 1
-  Japan: 1
-  Netherlands: 1
+  Unknown: 126
+  France: 67
+  🌐 Anycast: 46
+  Germany: 28
+  Japan: 19
+  Netherlands: 19
+  United States: 19
+  Switzerland: 10
+  Czechia: 9
+  Poland: 9
 
 Топ SNI:
-  kamaz1.api3-max.ru: 24
-  kamaz4.api3-max.ru: 24
-  kamaz03.api3-max.ru: 24
-  parta3.api3-max.ru: 24
-  parta1.api3-max.ru: 24
-  parta2.api3-max.ru: 24
-  kombo.api3-max.ru: 24
-  hello.repaironline.biz: 12
-  kamaz02.api3-max.ru: 12
-  www.apple.com: 12
+  japan.melissachen.top: 18
+  kamaz1.api3-max.ru: 18
+  kamaz03.api3-max.ru: 18
+  kamaz02.api3-max.ru: 18
+  d2e1v87ko56lyw.cloudfront.net:assets.opensignal.com: 18
+  kombo.api3-max.ru: 18
+  pus.mmdaqaorg2.ir: 11
+  dl.google.com: 9
+  s3.netavex.com: 9
+  kamaz4.api3-max.ru: 9
 
 Топ портов:
-  443: 227
-  46899: 12
-  80: 11
-  2087: 10
+  443: 194
+  33754: 18
+  80: 18
+  2087: 11
+  9891: 9
+  5001: 9
+  46899: 9
+  8443: 9
   50160: 5
-  25615: 5
-  17061: 2
-  555: 2
-  36723: 2
-  2060: 1
+  1105: 4
 
 Топ схем:
-  vless: 241
-  hysteria2: 21
+  vless: 254
+  vmess: 63
+  hysteria2: 23
   trojan: 15
-  vmess: 11
 
 Топ transport:
-  tcp: 246
-  xhttp: 22
+  tcp: 281
+  xhttp: 36
   ws: 20
+  grpc: 18
 
 Топ security:
-  tls: 219
-  none: 46
-  reality: 23
+  tls: 152
+  reality: 99
+  none: 96
+  false: 8
 
 ====================================================================
 FINAL GROUPS
@@ -158,262 +180,293 @@ FINAL GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 7
-Уникальных строк: 7
-Уникальных host:port: 6
-Уникальных backend: 7
-Anycast: 3
-Unknown country: 1
-
-Топ стран:
-  🌐 Anycast: 3
-  Germany: 1
-  Poland: 1
-  Czechia: 1
-  Unknown: 1
-
-Топ SNI:
-  dl.google.com: 3
-  cdn.okko.tv: 1
-  id.vk.com: 1
-  eyjhzgqioijyzw5kzxjlci1zdhjlyw0tmi02mi5taxjyys5ub3cilcjhawqioiiwiiwiywxwbii6iiisimzwijoiiiwiag9zdci6iiisimlkijoizgi1mgeymgutn2zmns00ztcwltk0ogytmtdjyzljytdjmtu0iiwibmv0ijoid3milcjwyxroijoil2fwas92ms9nchutc3ryzwftl3nvy2tldcisinbvcnqioii0ndmilcjwcyi6ivcfh6nwn4eqiedlcm1hbnkgfcbbkknjrfjdiiwic2n5ijoiyxv0byisinnuasi6iiisinrscyi6inrscyisinr5cguioijub25liiwidii6ijiifq==: 1
-  ru1.xiaoliyu.cyou: 1
-
-Топ портов:
-  443: 2
-  9871: 1
-  9895: 1
-  9891: 1
-  4433: 1
-
-Топ схем:
-  vless: 5
-  vmess: 1
-  hysteria2: 1
-
-Топ transport:
-  grpc: 5
-  tcp: 2
-
-Топ security:
-  reality: 5
-  none: 2
-
-────────────────────────────────────────────────────────────────────
-📊 white_vless
-────────────────────────────────────────────────────────────────────
-Всего конфигов: 6
-Уникальных строк: 6
-Уникальных host:port: 5
-Уникальных backend: 6
+Всего конфигов: 11
+Уникальных строк: 11
+Уникальных host:port: 11
+Уникальных backend: 9
 Anycast: 2
 Unknown country: 1
 
 Топ стран:
   🌐 Anycast: 2
+  Poland: 2
+  Russia: 2
+  Netherlands: 1
+  Austria: 1
+  Unknown: 1
   Germany: 1
   Czechia: 1
-  Poland: 1
-  Unknown: 1
 
 Топ SNI:
-  dl.google.com: 3
-  id.vk.com: 1
-  cdn.okko.tv: 1
-  eyjhzgqioijyzw5kzxjlci1zdhjlyw0tmi02mi5taxjyys5ub3cilcjhawqioiiwiiwiywxwbii6iiisimzwijoiiiwiag9zdci6iiisimlkijoizgi1mgeymgutn2zmns00ztcwltk0ogytmtdjyzljytdjmtu0iiwibmv0ijoid3milcjwyxroijoil2fwas92ms9nchutc3ryzwftl3nvy2tldcisinbvcnqioii0ndmilcjwcyi6ivcfh6nwn4eqiedlcm1hbnkgfcbbkknjrfjdiiwic2n5ijoiyxv0byisinnuasi6iiisinrscyi6inrscyisinr5cguioijub25liiwidii6ijiifq==: 1
+  dl.google.com: 4
+  id.vk.com: 2
+  api-maps.yandex.ru: 2
+  www.google.com: 1
+  u643766u53fe439es2358.gogocs.xyz: 1
+  194.38.11.86: 1
 
 Топ портов:
-  443: 2
+  443: 4
+  8443: 1
+  9830: 1
+  33743: 1
   9871: 1
   9891: 1
   9895: 1
+  65443: 1
 
 Топ схем:
-  vless: 5
-  vmess: 1
+  vless: 10
+  ss: 1
 
 Топ transport:
-  grpc: 5
-  tcp: 1
+  grpc: 7
+  tcp: 2
+  raw: 2
 
 Топ security:
-  reality: 5
+  reality: 9
+  tls: 1
+  none: 1
+
+────────────────────────────────────────────────────────────────────
+📊 white_vless
+────────────────────────────────────────────────────────────────────
+Всего конфигов: 10
+Уникальных строк: 10
+Уникальных host:port: 10
+Уникальных backend: 9
+Anycast: 1
+Unknown country: 1
+
+Топ стран:
+  Poland: 2
+  Russia: 2
+  🌐 Anycast: 1
+  Czechia: 1
+  Netherlands: 1
+  Unknown: 1
+  Austria: 1
+  Germany: 1
+
+Топ SNI:
+  dl.google.com: 4
+  api-maps.yandex.ru: 2
+  id.vk.com: 1
+  www.google.com: 1
+  u643766u53fe439es2358.gogocs.xyz: 1
+  194.38.11.86: 1
+
+Топ портов:
+  443: 3
+  9891: 1
+  33743: 1
+  8443: 1
+  9830: 1
+  9871: 1
+  9895: 1
+  65443: 1
+
+Топ схем:
+  vless: 9
+  ss: 1
+
+Топ transport:
+  grpc: 6
+  tcp: 2
+  raw: 2
+
+Топ security:
+  reality: 8
+  tls: 1
   none: 1
 
 ────────────────────────────────────────────────────────────────────
 📊 black_all
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 46
-Уникальных строк: 46
-Уникальных host:port: 39
-Уникальных backend: 33
-Anycast: 7
-Unknown country: 22
+Всего конфигов: 79
+Уникальных строк: 79
+Уникальных host:port: 45
+Уникальных backend: 69
+Anycast: 9
+Unknown country: 44
 
 Топ стран:
-  Unknown: 22
-  France: 7
-  🌐 Anycast: 7
+  Unknown: 44
+  🌐 Anycast: 9
+  France: 8
+  Germany: 4
   United States: 3
-  Germany: 2
-  Finland: 2
-  India: 1
-  Netherlands: 1
-  Japan: 1
+  Japan: 3
+  Netherlands: 3
+  Poland: 1
+  Switzerland: 1
+  Czechia: 1
 
 Топ SNI:
-  www.bing.com: 3
-  speedtest.tinkoff.ru: 3
-  kombo.api3-max.ru: 2
+  www.bing.com: 4
+  css.rbxcdn.com: 3
   kamaz03.api3-max.ru: 2
-  kamaz4.api3-max.ru: 2
+  kombo.api3-max.ru: 2
+  kamaz02.api3-max.ru: 2
   kamaz1.api3-max.ru: 2
-  parta3.api3-max.ru: 2
-  parta1.api3-max.ru: 2
-  parta2.api3-max.ru: 2
-  127.0.0.1: 2
+  speedtest.tinkoff.ru: 2
+  pl-2.kihsuyhf8jkiugsxb.cfd: 1
+  jp-1.kihsuyhf8jkiugsxb.cfd: 1
+  ch-1.kihsuyhf8jkiugsxb.cfd: 1
 
 Топ портов:
-  443: 27
+  443: 29
   50160: 4
+  9891: 1
   46899: 1
+  5001: 1
   2087: 1
-  25615: 1
-  17061: 1
+  1105: 1
+  33754: 1
   80: 1
-  555: 1
-  36723: 1
-  2060: 1
+  17061: 1
 
 Топ схем:
-  vless: 22
-  hysteria2: 15
-  vmess: 7
+  vmess: 34
+  vless: 27
+  hysteria2: 16
   trojan: 2
 
 Топ transport:
-  tcp: 40
-  ws: 4
-  xhttp: 2
+  tcp: 71
+  xhttp: 4
+  grpc: 2
+  ws: 2
 
 Топ security:
-  none: 25
-  tls: 19
-  reality: 2
+  none: 50
+  tls: 18
+  reality: 11
 
 ────────────────────────────────────────────────────────────────────
 📊 pool
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 51
-Уникальных строк: 51
-Уникальных host:port: 43
-Уникальных backend: 40
-Anycast: 10
-Unknown country: 22
+Всего конфигов: 88
+Уникальных строк: 88
+Уникальных host:port: 53
+Уникальных backend: 77
+Anycast: 11
+Unknown country: 44
 
 Топ стран:
-  Unknown: 22
-  🌐 Anycast: 10
-  France: 7
-  Germany: 3
+  Unknown: 44
+  🌐 Anycast: 11
+  France: 8
+  Germany: 5
+  Netherlands: 4
+  Poland: 3
   United States: 3
-  Finland: 2
-  Poland: 1
-  Czechia: 1
-  India: 1
-  Netherlands: 1
+  Czechia: 2
+  Russia: 2
+  Japan: 2
 
 Топ SNI:
-  dl.google.com: 3
+  dl.google.com: 5
+  css.rbxcdn.com: 3
+  api-maps.yandex.ru: 2
+  id.vk.com: 2
+  kamaz03.api3-max.ru: 2
+  www.bing.com: 2
   speedtest.tinkoff.ru: 2
   kamaz1.api3-max.ru: 2
-  kamaz4.api3-max.ru: 2
-  css.rbxcdn.com: 2
-  kamaz03.api3-max.ru: 2
-  parta1.api3-max.ru: 2
-  127.0.0.1: 2
-  parta2.api3-max.ru: 2
-  www.bing.com: 2
+  kombo.api3-max.ru: 2
+  kamaz02.api3-max.ru: 2
 
 Топ портов:
-  443: 28
-  50160: 3
+  443: 33
+  9891: 2
+  8443: 2
+  50160: 2
   9871: 1
-  4433: 1
   9895: 1
-  9891: 1
-  46899: 1
-  80: 1
-  17061: 1
-  25615: 1
+  65443: 1
+  9830: 1
+  33743: 1
+  2060: 1
 
 Топ схем:
-  vless: 27
+  vless: 37
+  vmess: 34
   hysteria2: 14
-  vmess: 8
   trojan: 2
+  ss: 1
 
 Топ transport:
-  tcp: 40
-  grpc: 5
-  ws: 4
-  xhttp: 2
+  tcp: 71
+  grpc: 9
+  xhttp: 4
+  raw: 2
+  ws: 2
 
 Топ security:
-  none: 25
+  none: 49
+  reality: 20
   tls: 19
-  reality: 7
 
 ────────────────────────────────────────────────────────────────────
 📊 mixed
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 24
-Уникальных строк: 24
-Уникальных host:port: 24
-Уникальных backend: 17
-Anycast: 4
-Unknown country: 7
+Всего конфигов: 35
+Уникальных строк: 35
+Уникальных host:port: 34
+Уникальных backend: 28
+Anycast: 5
+Unknown country: 4
 
 Топ стран:
   France: 7
-  Unknown: 7
-  🌐 Anycast: 4
+  🌐 Anycast: 5
+  Unknown: 4
+  Germany: 4
+  Poland: 3
+  Netherlands: 3
+  Czechia: 2
   United States: 2
-  Poland: 1
-  Germany: 1
-  Czechia: 1
-  Finland: 1
+  Japan: 2
+  Austria: 1
 
 Топ SNI:
-  dl.google.com: 3
-  kamaz03.api3-max.ru: 2
-  parta2.api3-max.ru: 2
+  dl.google.com: 5
+  api-maps.yandex.ru: 2
+  id.vk.com: 2
   kombo.api3-max.ru: 2
+  kamaz02.api3-max.ru: 2
   kamaz1.api3-max.ru: 2
-  parta3.api3-max.ru: 2
-  kamaz4.api3-max.ru: 2
-  parta1.api3-max.ru: 2
-  cdn.okko.tv: 1
-  id.vk.com: 1
+  kamaz03.api3-max.ru: 2
+  www.google.com: 1
+  u643766u53fe439es2358.gogocs.xyz: 1
+  deu683.lackerdeu.org: 1
 
 Топ портов:
-  443: 20
+  443: 24
+  8443: 2
+  9891: 2
+  33743: 1
+  9830: 1
   9895: 1
-  9891: 1
   9871: 1
+  33754: 1
+  5001: 1
   46899: 1
 
 Топ схем:
-  vless: 24
+  vless: 35
 
 Топ transport:
-  tcp: 17
-  grpc: 5
-  xhttp: 2
+  tcp: 20
+  grpc: 9
+  xhttp: 4
+  raw: 2
 
 Топ security:
-  tls: 17
-  reality: 7
+  reality: 20
+  tls: 15
 
 ────────────────────────────────────────────────────────────────────
 📊 lte
@@ -421,124 +474,130 @@ Unknown country: 7
 Всего конфигов: 25
 Уникальных строк: 25
 Уникальных host:port: 25
-Уникальных backend: 19
-Anycast: 5
-Unknown country: 6
+Уникальных backend: 20
+Anycast: 4
+Unknown country: 0
 
 Топ стран:
   France: 7
-  Unknown: 6
-  🌐 Anycast: 5
+  🌐 Anycast: 4
+  Germany: 3
+  Poland: 3
   United States: 2
-  Germany: 2
+  Netherlands: 2
+  Japan: 1
   Czechia: 1
-  Poland: 1
-  Finland: 1
+  Switzerland: 1
+  Austria: 1
 
 Топ SNI:
-  dl.google.com: 3
-  kombo.api3-max.ru: 2
-  kamaz4.api3-max.ru: 2
+  dl.google.com: 4
   kamaz1.api3-max.ru: 2
+  kombo.api3-max.ru: 2
   kamaz03.api3-max.ru: 2
-  parta3.api3-max.ru: 2
-  parta2.api3-max.ru: 2
-  kamaz02.api3-max.ru: 1
-  id.vk.com: 1
+  kamaz02.api3-max.ru: 2
+  id.vk.com: 2
+  kamaz4.api3-max.ru: 1
+  api-maps.yandex.ru: 1
   webproduction.niceworktodo.dpdns.org: 1
+  deu683.lackerdeu.org: 1
 
 Топ портов:
   443: 19
-  9891: 1
-  9895: 1
-  25615: 1
-  46899: 1
+  8443: 1
   9871: 1
-  2087: 1
+  9895: 1
+  9891: 1
+  33743: 1
+  9830: 1
 
 Топ схем:
-  vless: 23
-  trojan: 2
+  vless: 25
 
 Топ transport:
-  tcp: 17
-  grpc: 5
-  xhttp: 2
-  ws: 1
+  tcp: 13
+  grpc: 8
+  xhttp: 4
 
 Топ security:
-  tls: 18
-  reality: 7
+  reality: 13
+  tls: 12
 
 ====================================================================
 🌍 GLOBAL SUMMARY
 ====================================================================
-Всего конфигов: 159
-Уникальных строк: 54
-Уникальных host:port: 45
-Уникальных backend: 40
-Anycast: 31
-Unknown country: 59
+Всего конфигов: 248
+Уникальных строк: 91
+Уникальных host:port: 55
+Уникальных backend: 77
+Anycast: 32
+Unknown country: 94
 
 Топ стран:
-  Unknown: 59
-  🌐 Anycast: 31
-  France: 28
-  Germany: 10
+  Unknown: 94
+  🌐 Anycast: 32
+  France: 30
+  Germany: 18
+  Netherlands: 14
+  Poland: 14
   United States: 10
-  Finland: 6
-  Poland: 5
-  Czechia: 5
+  Czechia: 8
+  Japan: 8
+  Russia: 7
+  Austria: 5
+  Switzerland: 4
   India: 2
-  Netherlands: 2
-  Japan: 1
+  Finland: 2
 
 Топ SNI:
-  dl.google.com: 15
-  kombo.api3-max.ru: 8
+  dl.google.com: 23
+  id.vk.com: 9
+  api-maps.yandex.ru: 9
   kamaz03.api3-max.ru: 8
-  kamaz4.api3-max.ru: 8
+  kombo.api3-max.ru: 8
+  kamaz02.api3-max.ru: 8
   kamaz1.api3-max.ru: 8
-  parta3.api3-max.ru: 8
-  parta2.api3-max.ru: 8
-  parta1.api3-max.ru: 7
-  cdn.okko.tv: 5
-  id.vk.com: 5
-  www.bing.com: 5
-  speedtest.tinkoff.ru: 5
-  kamaz02.api3-max.ru: 4
-  www.apple.com: 4
-  webproduction.niceworktodo.dpdns.org: 4
+  css.rbxcdn.com: 6
+  www.bing.com: 6
+  www.google.com: 5
+  u643766u53fe439es2358.gogocs.xyz: 4
+  pl-2.kihsuyhf8jkiugsxb.cfd: 4
+  ch-1.kihsuyhf8jkiugsxb.cfd: 4
+  kamaz4.api3-max.ru: 4
+  nl-4.kihsuyhf8jkiugsxb.cfd: 4
 
 Топ портов:
-  443: 98
-  50160: 7
+  443: 112
+  8443: 8
+  9891: 8
+  50160: 6
+  9830: 5
+  33743: 5
   9871: 5
   9895: 5
-  9891: 5
-  46899: 4
-  2087: 3
-  25615: 3
-  4433: 2
-  17061: 2
+  65443: 3
+  46899: 3
+  5001: 3
+  33754: 3
+  2087: 2
+  1105: 2
   80: 2
-  555: 2
-  36723: 2
-  2060: 2
 
 Топ схем:
-  vless: 106
+  vless: 143
+  vmess: 68
   hysteria2: 30
-  vmess: 17
-  trojan: 6
+  trojan: 4
+  ss: 3
 
 Топ transport:
-  tcp: 117
-  grpc: 25
-  ws: 9
-  xhttp: 8
+  tcp: 179
+  grpc: 41
+  xhttp: 16
+  raw: 8
+  ws: 4
 
 Топ security:
-  tls: 73
-  none: 53
-  reality: 33
+  none: 101
+  reality: 81
+  tls: 66
