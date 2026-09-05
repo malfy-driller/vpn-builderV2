@@ -1,5 +1,5 @@
 VPN Builder stats summary
-Generated at: 2026-09-05 22:30:21 MSK
+Generated at: 2026-09-06 00:42:38 MSK
 
 ====================================================================
 RAW GROUPS
@@ -8,150 +8,170 @@ RAW GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 35
-Уникальных строк: 35
-Уникальных host:port: 10
-Уникальных backend: 9
-Anycast: 11
-Unknown country: 1
+Всего конфигов: 114
+Уникальных строк: 102
+Уникальных host:port: 17
+Уникальных backend: 13
+Anycast: 67
+Unknown country: 8
 
 Топ стран:
-  🌐 Anycast: 11
-  Germany: 10
-  Russia: 8
-  Netherlands: 5
-  Unknown: 1
+  🌐 Anycast: 67
+  Russia: 23
+  Netherlands: 12
+  Unknown: 8
+  France: 4
 
 Топ SNI:
-  cdn.okko.tv: 10
-  id.vk.com: 10
-  dl.google.com: 5
-  yandex.net: 5
-  46.17.40.234: 1
-  cdncache.pleiades.codes: 1
-  ru1.xiaoliyu.cyou: 1
-  www.kinopoisk.ru: 1
-  www.vk.com: 1
+  cdnjs.com: 16
+  host10.pushbyte.cc: 16
+  api10.datapull.cc: 16
+  api1.madapp.cc: 16
+  id.vk.com: 14
+  unpkg.com: 8
+  cache.datapull.cc: 8
+  pr-media.pepro.site: 8
+  dl.google.com: 4
+  crypt-obhod-15.mystatic-cdn.ru: 4
 
 Топ портов:
-  443: 22
-  8443: 6
-  9894: 5
-  50102: 1
+  443: 76
+  1035: 16
+  1034: 8
+  14443: 8
+  9894: 4
+  8443: 1
   4433: 1
 
 Топ схем:
-  vless: 30
+  vless: 110
   hysteria2: 4
-  ss: 1
 
 Топ transport:
-  grpc: 25
-  tcp: 10
+  xhttp: 56
+  grpc: 18
+  raw: 16
+  tcp: 16
+  ws: 8
 
 Топ security:
-  reality: 30
-  tls: 3
+  tls: 70
+  reality: 42
   none: 2
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_vless
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 26
-Уникальных строк: 26
-Уникальных host:port: 5
-Уникальных backend: 4
-Anycast: 10
-Unknown country: 1
+Всего конфигов: 98
+Уникальных строк: 98
+Уникальных host:port: 14
+Уникальных backend: 10
+Anycast: 66
+Unknown country: 4
 
 Топ стран:
-  Germany: 10
-  🌐 Anycast: 10
-  Netherlands: 5
-  Unknown: 1
+  🌐 Anycast: 66
+  Netherlands: 12
+  Russia: 12
+  Unknown: 4
+  France: 4
 
 Топ SNI:
-  cdn.okko.tv: 10
-  id.vk.com: 10
-  dl.google.com: 5
-  46.17.40.234: 1
+  host10.pushbyte.cc: 16
+  api10.datapull.cc: 16
+  api1.madapp.cc: 16
+  id.vk.com: 14
+  cache.datapull.cc: 8
+  pr-media.pepro.site: 8
+  cdnjs.com: 8
+  unpkg.com: 4
+  dl.google.com: 4
+  crypt-obhod-15.mystatic-cdn.ru: 4
 
 Топ портов:
-  443: 20
-  9894: 5
-  50102: 1
+  443: 74
+  14443: 8
+  1035: 8
+  1034: 4
+  9894: 4
 
 Топ схем:
-  vless: 25
-  ss: 1
+  vless: 98
 
 Топ transport:
-  grpc: 25
-  tcp: 1
+  xhttp: 56
+  grpc: 18
+  raw: 8
+  ws: 8
+  tcp: 8
 
 Топ security:
-  reality: 25
-  none: 1
+  tls: 68
+  reality: 30
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW black_all
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 194
-Уникальных строк: 138
-Уникальных host:port: 29
-Уникальных backend: 45
-Anycast: 32
-Unknown country: 87
+Всего конфигов: 330
+Уникальных строк: 219
+Уникальных host:port: 42
+Уникальных backend: 79
+Anycast: 53
+Unknown country: 150
 
 Топ стран:
-  Unknown: 87
-  🌐 Anycast: 32
-  Finland: 27
-  Germany: 18
-  Netherlands: 13
-  France: 10
-  United States: 6
+  Unknown: 150
+  🌐 Anycast: 53
+  Poland: 40
+  Finland: 23
+  Germany: 20
+  United States: 18
+  Lithuania: 11
+  Netherlands: 11
+  France: 2
   India: 1
 
 Топ SNI:
-  eu-north-fi-1.hanvpn.biz: 24
-  d2e1v87ko56lyw.cloudfront.net:assets.opensignal.com: 14
-  195-162-69-203.sslip.io: 12
-  cdnmin.esmahdi9.com: 12
-  accaunt.fastly.com: 12
-  hotcoals.aeternavpn.space: 12
-  www.booking.com: 12
-  amp-api-edge.apps.apple.com: 12
-  194.9.172.236: 10
-  www.bing.com: 5
+  www.sciencedirect.com: 31
+  github.com: 22
+  it.superbuba.top: 22
+  eu-central-pl-1.hanvpn.biz: 20
+  d2e1v87ko56lyw.cloudfront.net:assets.opensignal.com: 20
+  fi.aeternavpn.space: 11
+  eu-north-fi-1.hanvpn.biz: 11
+  cdn-edge-static-assets-delivery-node-a7f2c9e4b1d8.esmahdi9.com: 11
+  cdnmin.esmahdi9.com: 11
+  accaunt.fastly.com: 11
 
 Топ портов:
-  443: 75
-  80: 14
-  8443: 12
-  2087: 12
-  9443: 12
-  1105: 10
-  50160: 9
-  25615: 5
-  8444: 5
-  36723: 3
+  443: 93
+  8443: 44
+  444: 22
+  2087: 22
+  80: 20
+  9443: 10
+  40573: 10
+  50160: 10
+  25615: 6
+  8444: 6
 
 Топ схем:
-  vless: 110
-  vmess: 36
-  hysteria2: 28
-  trojan: 20
+  vless: 200
+  vmess: 79
+  hysteria2: 30
+  trojan: 21
 
 Топ transport:
-  tcp: 151
-  xhttp: 24
-  ws: 19
+  tcp: 255
+  ws: 36
+  xhttp: 33
+  raw: 6
 
 Топ security:
-  none: 77
-  reality: 60
-  tls: 57
+  reality: 137
+  none: 117
+  tls: 66
+  false: 10
 
 ====================================================================
 FINAL GROUPS
@@ -160,389 +180,425 @@ FINAL GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 10
-Уникальных строк: 10
-Уникальных host:port: 10
-Уникальных backend: 9
-Anycast: 3
+Всего конфигов: 17
+Уникальных строк: 17
+Уникальных host:port: 17
+Уникальных backend: 13
+Anycast: 7
 Unknown country: 1
 
 Топ стран:
-  Russia: 4
-  🌐 Anycast: 3
-  Netherlands: 1
-  Germany: 1
+  🌐 Anycast: 7
+  Russia: 5
+  Netherlands: 3
+  France: 1
   Unknown: 1
 
 Топ SNI:
-  id.vk.com: 2
+  id.vk.com: 3
+  pr-media.pepro.site: 2
+  cdnjs.com: 2
   www.vk.com: 1
+  cache.datapull.cc: 1
+  api10.datapull.cc: 1
+  crypt-obhod-15.mystatic-cdn.ru: 1
   dl.google.com: 1
-  yandex.net: 1
-  www.kinopoisk.ru: 1
-  cdn.okko.tv: 1
-  cdncache.pleiades.codes: 1
-  46.17.40.234: 1
-  ru1.xiaoliyu.cyou: 1
+  api1.madapp.cc: 1
+  host10.pushbyte.cc: 1
 
 Топ портов:
-  443: 5
-  8443: 2
+  443: 9
+  14443: 2
+  1035: 2
   9894: 1
-  50102: 1
+  8443: 1
+  1034: 1
   4433: 1
 
 Топ схем:
-  vless: 5
-  hysteria2: 4
-  ss: 1
+  vless: 14
+  hysteria2: 3
 
 Топ transport:
-  tcp: 6
+  tcp: 5
+  xhttp: 4
   grpc: 4
+  ws: 2
+  raw: 2
 
 Топ security:
-  reality: 5
-  tls: 3
-  none: 2
+  tls: 9
+  reality: 7
+  none: 1
 
 ────────────────────────────────────────────────────────────────────
 📊 white_vless
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 5
-Уникальных строк: 5
-Уникальных host:port: 5
-Уникальных backend: 4
-Anycast: 2
+Всего конфигов: 14
+Уникальных строк: 14
+Уникальных host:port: 14
+Уникальных backend: 10
+Anycast: 6
 Unknown country: 1
 
 Топ стран:
-  🌐 Anycast: 2
-  Netherlands: 1
-  Germany: 1
+  🌐 Anycast: 6
+  Russia: 3
+  Netherlands: 3
+  France: 1
   Unknown: 1
 
 Топ SNI:
-  id.vk.com: 2
+  id.vk.com: 3
+  cdnjs.com: 2
+  pr-media.pepro.site: 2
+  crypt-obhod-15.mystatic-cdn.ru: 1
+  cache.datapull.cc: 1
   dl.google.com: 1
-  cdn.okko.tv: 1
-  46.17.40.234: 1
+  api1.madapp.cc: 1
+  api10.datapull.cc: 1
+  host10.pushbyte.cc: 1
+  unpkg.com: 1
 
 Топ портов:
-  443: 3
+  443: 8
+  1035: 2
+  14443: 2
   9894: 1
-  50102: 1
+  1034: 1
 
 Топ схем:
-  vless: 4
-  ss: 1
+  vless: 14
 
 Топ transport:
+  xhttp: 4
   grpc: 4
-  tcp: 1
+  tcp: 2
+  raw: 2
+  ws: 2
 
 Топ security:
-  reality: 4
-  none: 1
+  tls: 7
+  reality: 7
 
 ────────────────────────────────────────────────────────────────────
 📊 black_all
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 50
-Уникальных строк: 50
-Уникальных host:port: 29
-Уникальных backend: 43
-Anycast: 6
-Unknown country: 32
+Всего конфигов: 86
+Уникальных строк: 86
+Уникальных host:port: 40
+Уникальных backend: 76
+Anycast: 7
+Unknown country: 59
 
 Топ стран:
-  Unknown: 32
-  🌐 Anycast: 6
+  Unknown: 59
+  🌐 Anycast: 7
+  Poland: 4
+  Germany: 4
   Finland: 3
-  Germany: 3
+  United States: 3
   Netherlands: 2
-  United States: 2
+  Lithuania: 1
   France: 1
   India: 1
 
 Топ SNI:
   www.bing.com: 4
-  css.rbxcdn.com: 4
-  eu-north-fi-1.hanvpn.biz: 2
-  accaunt.fastly.com: 1
+  www.sciencedirect.com: 3
+  css.rbxcdn.com: 3
+  eu-central-pl-1.hanvpn.biz: 2
+  github.com: 2
+  it.superbuba.top: 2
+  eu-north-fi-1.hanvpn.biz: 1
+  www.tesla.com: 1
+  fi.aeternavpn.space: 1
   194.9.172.236: 1
-  www.booking.com: 1
-  hotcoals.aeternavpn.space: 1
-  cdnmin.esmahdi9.com: 1
-  195-162-69-203.sslip.io: 1
-  amp-api-edge.apps.apple.com: 1
 
 Топ портов:
-  443: 14
-  50160: 6
+  443: 16
+  8443: 5
+  50160: 5
+  444: 2
+  2056: 2
+  40573: 1
   1105: 1
   9443: 1
   2087: 1
-  8443: 1
   25615: 1
-  8444: 1
-  80: 1
-  36723: 1
 
 Топ схем:
-  vmess: 21
-  hysteria2: 17
-  vless: 9
-  trojan: 3
+  vmess: 46
+  hysteria2: 19
+  vless: 17
+  trojan: 4
 
 Топ transport:
-  tcp: 46
+  tcp: 80
+  ws: 3
   xhttp: 2
-  ws: 2
+  raw: 1
 
 Топ security:
-  none: 39
-  tls: 6
-  reality: 5
+  none: 65
+  reality: 13
+  tls: 8
 
 ────────────────────────────────────────────────────────────────────
 📊 pool
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 56
-Уникальных строк: 56
-Уникальных host:port: 35
-Уникальных backend: 52
-Anycast: 7
-Unknown country: 31
+Всего конфигов: 102
+Уникальных строк: 102
+Уникальных host:port: 56
+Уникальных backend: 89
+Anycast: 13
+Unknown country: 60
 
 Топ стран:
-  Unknown: 31
-  🌐 Anycast: 7
+  Unknown: 60
+  🌐 Anycast: 13
+  Russia: 5
+  Netherlands: 5
+  Poland: 4
   Germany: 4
-  Russia: 4
-  Netherlands: 3
   Finland: 3
-  United States: 2
-  India: 1
-  France: 1
+  United States: 3
+  France: 2
+  Japan: 1
 
 Топ SNI:
+  www.bing.com: 4
+  www.sciencedirect.com: 3
+  css.rbxcdn.com: 3
+  cdnjs.com: 2
   id.vk.com: 2
-  eu-north-fi-1.hanvpn.biz: 2
-  css.rbxcdn.com: 2
-  www.bing.com: 2
-  dl.google.com: 1
-  cdn.okko.tv: 1
-  ru1.xiaoliyu.cyou: 1
-  46.17.40.234: 1
-  www.kinopoisk.ru: 1
+  pr-media.pepro.site: 2
+  eu-central-pl-1.hanvpn.biz: 2
+  github.com: 2
+  it.superbuba.top: 2
   cdncache.pleiades.codes: 1
 
 Топ портов:
-  443: 18
-  8443: 3
-  50160: 3
-  9894: 1
+  443: 24
+  8443: 6
+  50160: 5
+  1035: 2
+  14443: 2
+  444: 2
+  2056: 2
   4433: 1
-  50102: 1
-  36723: 1
-  8444: 1
-  1105: 1
-  80: 1
+  9894: 1
+  1034: 1
 
 Топ схем:
-  vmess: 21
-  hysteria2: 17
-  vless: 14
-  trojan: 3
-  ss: 1
+  vmess: 46
+  vless: 30
+  hysteria2: 22
+  trojan: 4
 
 Топ transport:
-  tcp: 48
-  grpc: 4
-  xhttp: 2
-  ws: 2
+  tcp: 85
+  xhttp: 6
+  ws: 5
+  raw: 3
+  grpc: 3
 
 Топ security:
-  none: 37
-  reality: 10
-  tls: 9
+  none: 66
+  reality: 19
+  tls: 17
 
 ────────────────────────────────────────────────────────────────────
 📊 mixed
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 13
-Уникальных строк: 13
-Уникальных host:port: 13
-Уникальных backend: 11
-Anycast: 4
-Unknown country: 2
+Всего конфигов: 28
+Уникальных строк: 28
+Уникальных host:port: 28
+Уникальных backend: 21
+Anycast: 8
+Unknown country: 4
 
 Топ стран:
-  🌐 Anycast: 4
-  Germany: 2
-  Netherlands: 2
+  🌐 Anycast: 8
+  Netherlands: 4
+  Unknown: 4
+  Poland: 4
+  Russia: 3
   Finland: 2
-  Unknown: 2
-  Russia: 1
+  France: 1
+  Germany: 1
+  United States: 1
 
 Топ SNI:
+  pr-media.pepro.site: 2
+  cdnjs.com: 2
   id.vk.com: 2
-  eu-north-fi-1.hanvpn.biz: 2
-  yandex.net: 1
-  cdn.okko.tv: 1
+  it.superbuba.top: 2
+  eu-central-pl-1.hanvpn.biz: 2
+  www.sciencedirect.com: 2
+  github.com: 2
+  api1.madapp.cc: 1
+  cache.datapull.cc: 1
   dl.google.com: 1
-  www.booking.com: 1
-  cdnmin.esmahdi9.com: 1
-  amp-api-edge.apps.apple.com: 1
-  195-162-69-203.sslip.io: 1
-  hotcoals.aeternavpn.space: 1
 
 Топ портов:
-  443: 8
-  8443: 2
+  443: 14
+  8443: 3
+  14443: 2
+  1035: 2
+  444: 2
   9894: 1
+  1034: 1
   2087: 1
   9443: 1
+  40573: 1
 
 Топ схем:
-  vless: 13
+  vless: 28
 
 Топ transport:
-  tcp: 7
-  grpc: 4
-  xhttp: 2
+  tcp: 14
+  xhttp: 6
+  ws: 3
+  grpc: 3
+  raw: 2
 
 Топ security:
-  reality: 10
-  tls: 3
+  reality: 18
+  tls: 10
 
 ────────────────────────────────────────────────────────────────────
 📊 lte
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 19
-Уникальных строк: 19
-Уникальных host:port: 19
-Уникальных backend: 17
-Anycast: 5
-Unknown country: 2
+Всего конфигов: 25
+Уникальных строк: 25
+Уникальных host:port: 25
+Уникальных backend: 21
+Anycast: 7
+Unknown country: 0
 
 Топ стран:
-  🌐 Anycast: 5
-  Germany: 3
-  Russia: 3
+  🌐 Anycast: 7
+  Netherlands: 4
+  Russia: 4
+  Poland: 3
+  Germany: 2
+  France: 2
   Finland: 2
-  Netherlands: 2
-  Unknown: 2
   United States: 1
-  France: 1
 
 Топ SNI:
   id.vk.com: 2
-  eu-north-fi-1.hanvpn.biz: 2
+  pr-media.pepro.site: 2
+  www.sciencedirect.com: 2
+  cdnjs.com: 2
   accaunt.fastly.com: 1
+  silent-ember-4448-production.up.railway.app: 1
+  cache.datapull.cc: 1
   www.vk.com: 1
-  cdnmin.esmahdi9.com: 1
-  yandex.net: 1
-  op-1.firecone.eu: 1
-  www.booking.com: 1
-  dl.google.com: 1
-  www.kinopoisk.ru: 1
+  api10.datapull.cc: 1
+  cdn-edge-static-assets-delivery-node-a7f2c9e4b1d8.esmahdi9.com: 1
 
 Топ портов:
-  443: 10
-  8443: 2
+  443: 12
+  8443: 3
+  14443: 2
+  1035: 2
   2087: 1
   25615: 1
   9894: 1
-  8444: 1
+  40573: 1
+  444: 1
   1105: 1
-  9443: 1
-  4433: 1
 
 Топ схем:
-  vless: 13
-  hysteria2: 3
-  trojan: 3
+  vless: 22
+  trojan: 2
+  hysteria2: 1
 
 Топ transport:
-  tcp: 12
-  grpc: 4
-  xhttp: 2
-  ws: 1
+  tcp: 11
+  xhttp: 6
+  ws: 4
+  grpc: 3
+  raw: 1
 
 Топ security:
-  reality: 10
-  tls: 9
+  tls: 13
+  reality: 12
 
 ====================================================================
 🌍 GLOBAL SUMMARY
 ====================================================================
-Всего конфигов: 153
-Уникальных строк: 61
-Уникальных host:port: 39
-Уникальных backend: 52
-Anycast: 27
-Unknown country: 69
+Всего конфигов: 272
+Уникальных строк: 104
+Уникальных host:port: 57
+Уникальных backend: 89
+Anycast: 48
+Unknown country: 125
 
 Топ стран:
-  Unknown: 69
-  🌐 Anycast: 27
-  Germany: 14
-  Russia: 12
-  Netherlands: 11
+  Unknown: 125
+  🌐 Anycast: 48
+  Netherlands: 21
+  Russia: 20
+  Poland: 15
+  Germany: 11
   Finland: 10
-  United States: 5
-  France: 3
+  France: 8
+  United States: 8
+  Lithuania: 2
   India: 2
+  Japan: 2
 
 Топ SNI:
-  id.vk.com: 10
-  eu-north-fi-1.hanvpn.biz: 8
-  www.bing.com: 6
+  id.vk.com: 12
+  pr-media.pepro.site: 10
+  cdnjs.com: 10
+  www.sciencedirect.com: 10
+  www.bing.com: 8
+  eu-central-pl-1.hanvpn.biz: 7
+  github.com: 7
+  it.superbuba.top: 6
   css.rbxcdn.com: 6
+  cache.datapull.cc: 5
+  api10.datapull.cc: 5
+  crypt-obhod-15.mystatic-cdn.ru: 5
   dl.google.com: 5
-  cdn.okko.tv: 5
-  yandex.net: 4
-  accaunt.fastly.com: 4
-  www.booking.com: 4
-  hotcoals.aeternavpn.space: 4
-  cdnmin.esmahdi9.com: 4
-  195-162-69-203.sslip.io: 4
-  amp-api-edge.apps.apple.com: 4
-  www.vk.com: 3
-  www.kinopoisk.ru: 3
+  api1.madapp.cc: 5
+  host10.pushbyte.cc: 5
 
 Топ портов:
-  443: 58
-  8443: 10
-  50160: 9
+  443: 83
+  8443: 18
+  14443: 10
+  1035: 10
+  50160: 10
+  444: 7
   9894: 5
-  9443: 4
+  1034: 4
+  40573: 4
   2087: 4
-  50102: 3
-  4433: 3
+  2056: 4
   1105: 3
+  9443: 3
   25615: 3
-  8444: 3
-  80: 2
-  36723: 2
-  2060: 2
+  4433: 2
 
 Топ схем:
-  vless: 58
-  vmess: 42
-  hysteria2: 41
-  trojan: 9
-  ss: 3
+  vless: 125
+  vmess: 92
+  hysteria2: 45
+  trojan: 10
 
 Топ transport:
-  tcp: 120
-  grpc: 20
-  xhttp: 8
-  ws: 5
+  tcp: 197
+  xhttp: 28
+  ws: 19
+  grpc: 17
+  raw: 11
 
 Топ security:
-  none: 79
-  reality: 44
-  tls: 30
+  none: 132
+  reality: 76
+  tls: 64
