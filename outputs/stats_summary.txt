@@ -1,5 +1,5 @@
 VPN Builder stats summary
-Generated at: 2026-09-06 02:19:37 MSK
+Generated at: 2026-09-06 04:04:17 MSK
 
 ====================================================================
 RAW GROUPS
@@ -8,151 +8,170 @@ RAW GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 18
-Уникальных строк: 18
-Уникальных host:port: 5
-Уникальных backend: 6
-Anycast: 6
-Unknown country: 1
+Всего конфигов: 64
+Уникальных строк: 59
+Уникальных host:port: 10
+Уникальных backend: 16
+Anycast: 11
+Unknown country: 12
 
 Топ стран:
-  Russia: 6
-  🌐 Anycast: 6
+  Russia: 21
+  Unknown: 12
+  🌐 Anycast: 11
+  Finland: 10
   Netherlands: 5
-  Unknown: 1
+  Estonia: 5
 
 Топ SNI:
+  ru-i.monkeyisland.xyz: 15
+  edge-pull-m4.malina24.xyz: 10
+  crypt-obhod-15.mystatic-cdn.ru: 10
+  d2-de.cloud-s3.xyz: 5
   dl.google.com: 5
-  crypt-obhod-15.mystatic-cdn.ru: 5
+  ice.velox-network.org: 5
   id.vk.com: 5
   cdncache.pleiades.codes: 1
   ru1.xiaoliyu.cyou: 1
-  eyj2ijoimiisinbzijoi8j+hqfcfh6ogr2vybwfuesb8ifsqq0leul0ilcjhzgqioijyzw5kzxjlci1zdhjlyw0tmi02mi5taxjyys5ub3cilcjwb3j0ijoindqziiwidhlwzsi6ii0tlsisimlkijoizgi1mgeymgutn2zmns00ztcwltk0ogytmtdjyzljytdjmtu0iiwiywlkijoimcisim5ldci6indziiwicgf0aci6ii9hcgkvdjevz3b1lxn0cmvhbs9zb2nrzxqilcjob3n0ijoicmvuzgvyzxitc3ryzwftltitnjiubwlycmeubm93iiwidgxzijoidgxziiwic2tpcc1jzxj0lxzlcmlmesi6dhj1zswic2n5ijoiyxv0byisinnuasi6iiisimfscg4ioiiilcjmcci6iij9: 1
+  eyj2ijoimiisinbzijoi8j+hqfcfh6ogr2vybwfuesbbkknjrfjdiiwiywrkijoicmvuzgvyzxitc3ryzwftltitnjiubwlycmeubm93iiwicg9ydci6ijq0myisimlkijoizgi1mgeymgutn2zmns00ztcwltk0ogytmtdjyzljytdjmtu0iiwiywlkijoimcisinnjesi6imf1dg8ilcjuzxqioij3cyisinr5cguioijub25liiwiag9zdci6injlbmrlcmvylxn0cmvhbs0yltyylm1pcnjhlm5vdyisinbhdggioiivyxbpl3yxl2dwds1zdhjlyw0vc29ja2v0iiwidgxzijoidgxziiwic25pijoiiiwiywxwbii6iiisimzwijoiin0=: 1
 
 Топ портов:
-  443: 10
+  443: 45
   9894: 5
+  6443: 5
   8443: 1
   4433: 1
 
 Топ схем:
-  vless: 15
+  vless: 50
+  vmess: 7
+  trojan: 5
   hysteria2: 2
-  vmess: 1
 
 Топ transport:
+  tcp: 34
+  raw: 20
   grpc: 10
-  tcp: 8
 
 Топ security:
-  reality: 10
-  tls: 6
-  none: 2
+  tls: 31
+  reality: 25
+  none: 8
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_vless
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 12
-Уникальных строк: 12
-Уникальных host:port: 3
-Уникальных backend: 4
-Anycast: 0
-Unknown country: 1
+Всего конфигов: 53
+Уникальных строк: 53
+Уникальных host:port: 8
+Уникальных backend: 14
+Anycast: 5
+Unknown country: 12
 
 Топ стран:
-  Russia: 6
+  Russia: 21
+  Unknown: 12
+  Finland: 5
+  🌐 Anycast: 5
   Netherlands: 5
-  Unknown: 1
+  Estonia: 5
 
 Топ SNI:
+  ru-i.monkeyisland.xyz: 15
+  crypt-obhod-15.mystatic-cdn.ru: 10
+  edge-pull-m4.malina24.xyz: 5
+  d2-de.cloud-s3.xyz: 5
   dl.google.com: 5
-  crypt-obhod-15.mystatic-cdn.ru: 5
+  ice.velox-network.org: 5
   cdncache.pleiades.codes: 1
-  eyj2ijoimiisinbzijoi8j+hqfcfh6ogr2vybwfuesb8ifsqq0leul0ilcjhzgqioijyzw5kzxjlci1zdhjlyw0tmi02mi5taxjyys5ub3cilcjwb3j0ijoindqziiwidhlwzsi6ii0tlsisimlkijoizgi1mgeymgutn2zmns00ztcwltk0ogytmtdjyzljytdjmtu0iiwiywlkijoimcisim5ldci6indziiwicgf0aci6ii9hcgkvdjevz3b1lxn0cmvhbs9zb2nrzxqilcjob3n0ijoicmvuzgvyzxitc3ryzwftltitnjiubwlycmeubm93iiwidgxzijoidgxziiwic2tpcc1jzxj0lxzlcmlmesi6dhj1zswic2n5ijoiyxv0byisinnuasi6iiisimfscg4ioiiilcjmcci6iij9: 1
+  eyj2ijoimiisinbzijoi8j+hqfcfh6ogr2vybwfuesbbkknjrfjdiiwiywrkijoicmvuzgvyzxitc3ryzwftltitnjiubwlycmeubm93iiwicg9ydci6ijq0myisimlkijoizgi1mgeymgutn2zmns00ztcwltk0ogytmtdjyzljytdjmtu0iiwiywlkijoimcisinnjesi6imf1dg8ilcjuzxqioij3cyisinr5cguioijub25liiwiag9zdci6injlbmrlcmvylxn0cmvhbs0yltyylm1pcnjhlm5vdyisinbhdggioiivyxbpl3yxl2dwds1zdhjlyw0vc29ja2v0iiwidgxzijoidgxziiwic25pijoiiiwiywxwbii6iiisimzwijoiin0=: 1
+  eyj2ijoimiisinbzijoi8j+hqfcfh6ogr2vybwfuesbbkknjrfjdiiwiywrkijoicmvuzgvyzxitc3ryzwftltitnjiubwlycmeubm93iiwicg9ydci6ijq0myisimlkijoizgi1mgeymgutn2zmns00ztcwltk0ogytmtdjyzljytdjmtu0iiwiywlkijoimcisinnjesi6imf1dg8ilcjuzxqioij3cyisinr5cguioijub25liiwidgxzijoidgxziiwiywxwbii6iiisinnuasi6injlbmrlcmvylxn0cmvhbs0yltyylm1pcnjhlm5vdyisinbhdggioiivyxbpl3yxl2dwds1zdhjlyw0vc29ja2v0iiwiag9zdci6iiisimzwijoiin0=: 1
+  eyj2ijoimiisinbzijoi8j+hqfcfh6ogr2vybwfuesbbkknjrfjdiiwiywrkijoicmvuzgvyzxitc3ryzwftltitnjiubwlycmeubm93iiwicg9ydci6ijq0myisinr5cguioiitls0ilcjpzci6imrintbhmjblltdmzjutngu3mc05ndhmlte3y2m5y2e3yze1ncisimfpzci6ijailcjuzxqioij3cyisinbhdggioiivyxbpl3yxl2dwds1zdhjlyw0vc29ja2v0iiwiag9zdci6injlbmrlcmvylxn0cmvhbs0yltyylm1pcnjhlm5vdyisinrscyi6inrscyisinnraxaty2vydc12zxjpznkionrydwusinnjesi6imf1dg8ilcjzbmkioiiilcjhbhbuijoiiiwiznaioiiifq==: 1
 
 Топ портов:
+  443: 35
   9894: 5
-  443: 5
+  6443: 5
   8443: 1
 
 Топ схем:
-  vless: 10
+  vless: 40
+  vmess: 7
+  trojan: 5
   hysteria2: 1
-  vmess: 1
 
 Топ transport:
-  tcp: 7
+  tcp: 33
+  raw: 15
   grpc: 5
 
 Топ security:
-  reality: 5
-  tls: 5
-  none: 2
+  tls: 30
+  reality: 15
+  none: 8
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW black_all
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 338
-Уникальных строк: 242
-Уникальных host:port: 46
-Уникальных backend: 64
-Anycast: 90
-Unknown country: 122
+Всего конфигов: 285
+Уникальных строк: 201
+Уникальных host:port: 42
+Уникальных backend: 62
+Anycast: 97
+Unknown country: 109
 
 Топ стран:
-  Unknown: 122
-  🌐 Anycast: 90
-  Netherlands: 41
-  Finland: 21
-  Germany: 16
+  Unknown: 109
+  🌐 Anycast: 97
+  Germany: 34
+  Netherlands: 23
   France: 11
-  United States: 10
-  Estonia: 9
-  Japan: 9
-  Poland: 8
+  United States: 6
+  Finland: 3
+  India: 1
+  Japan: 1
 
 Топ SNI:
-  it.superbuba.top: 32
-  185.204.169.127: 28
-  sulgx-panel-production-63ee.up.railway.app: 24
-  d2e1v87ko56lyw.cloudfront.net:assets.opensignal.com: 21
-  itunes.apple.com: 17
-  194.9.172.236: 11
-  195-162-69-203.sslip.io: 9
-  edge-ee.mystatic-cdn.ru: 9
-  fi.aeternavpn.space: 9
-  eu-north-fi-1.hanvpn.biz: 9
+  185.204.169.127: 34
+  d2e1v87ko56lyw.cloudfront.net:assets.opensignal.com: 29
+  sstats.vk-portal.net: 22
+  special.aeternavpn.space: 13
+  accaunt.fastly.com: 12
+  cdn-edge-static-assets-delivery-node-a7f2c9e4b1d8.esmahdi9.com: 11
+  edge-se.mystatic-cdn.ru: 11
+  aparat.com: 11
+  www.booking.com: 11
+  amp-api-edge.apps.apple.com: 11
 
 Топ портов:
-  443: 125
-  1819: 28
-  80: 23
-  8443: 18
-  2087: 18
-  22001: 17
+  443: 79
+  1819: 34
+  80: 31
+  3443: 13
+  2087: 11
+  1039: 11
+  7164: 11
   1105: 11
-  50160: 10
-  3443: 9
-  9443: 8
+  1080: 8
+  50160: 8
 
 Топ схем:
-  vless: 251
-  vmess: 42
-  hysteria2: 28
-  trojan: 17
+  vless: 175
+  vmess: 51
+  hysteria2: 31
+  trojan: 28
 
 Топ transport:
-  tcp: 207
-  ws: 61
-  xhttp: 34
-  httpupgrade: 28
-  grpc: 8
+  tcp: 158
+  xhttp: 56
+  ws: 37
+  httpupgrade: 34
 
 Топ security:
-  reality: 141
-  tls: 106
-  none: 82
-  false: 9
+  none: 98
+  reality: 95
+  tls: 79
+  false: 13
 
 ====================================================================
 FINAL GROUPS
@@ -161,273 +180,287 @@ FINAL GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 6
-Уникальных строк: 6
-Уникальных host:port: 5
-Уникальных backend: 6
-Anycast: 2
-Unknown country: 1
+Всего конфигов: 17
+Уникальных строк: 17
+Уникальных host:port: 10
+Уникальных backend: 16
+Anycast: 3
+Unknown country: 8
 
 Топ стран:
-  🌐 Anycast: 2
-  Russia: 2
+  Unknown: 8
+  🌐 Anycast: 3
+  Russia: 3
   Netherlands: 1
-  Unknown: 1
+  Finland: 1
+  Estonia: 1
 
 Топ SNI:
+  ru-i.monkeyisland.xyz: 2
   id.vk.com: 1
   dl.google.com: 1
-  cdncache.pleiades.codes: 1
+  edge-pull-m4.malina24.xyz: 1
   crypt-obhod-15.mystatic-cdn.ru: 1
+  ice.velox-network.org: 1
+  d2-de.cloud-s3.xyz: 1
+  cdncache.pleiades.codes: 1
   ru1.xiaoliyu.cyou: 1
-  eyj2ijoimiisinbzijoi8j+hqfcfh6ogr2vybwfuesb8ifsqq0leul0ilcjhzgqioijyzw5kzxjlci1zdhjlyw0tmi02mi5taxjyys5ub3cilcjwb3j0ijoindqziiwidhlwzsi6ii0tlsisimlkijoizgi1mgeymgutn2zmns00ztcwltk0ogytmtdjyzljytdjmtu0iiwiywlkijoimcisim5ldci6indziiwicgf0aci6ii9hcgkvdjevz3b1lxn0cmvhbs9zb2nrzxqilcjob3n0ijoicmvuzgvyzxitc3ryzwftltitnjiubwlycmeubm93iiwidgxzijoidgxziiwic2tpcc1jzxj0lxzlcmlmesi6dhj1zswic2n5ijoiyxv0byisinnuasi6iiisimfscg4ioiiilcjmcci6iij9: 1
+  eyj2ijoimiisinbzijoi8j+hqfcfh6ogr2vybwfuesbbkknjrfjdiiwiywrkijoicmvuzgvyzxitc3ryzwftltitnjiubwlycmeubm93iiwicg9ydci6ijq0myisinr5cguioiitls0ilcjpzci6imrintbhmjblltdmzjutngu3mc05ndhmlte3y2m5y2e3yze1ncisimfpzci6ijailcjuzxqioij3cyisinbhdggioiivyxbpl3yxl2dwds1zdhjlyw0vc29ja2v0iiwiag9zdci6injlbmrlcmvylxn0cmvhbs0yltyylm1pcnjhlm5vdyisinrscyi6inrscyisinnraxaty2vydc12zxjpznkionrydwusinnjesi6imf1dg8ilcjzbmkioiiilcjhbhbuijoiiiwiznaioiiifq==: 1
 
 Топ портов:
-  443: 2
+  443: 6
   9894: 1
+  6443: 1
   8443: 1
   4433: 1
 
 Топ схем:
-  vless: 3
+  vless: 7
+  vmess: 7
   hysteria2: 2
-  vmess: 1
+  trojan: 1
 
 Топ transport:
-  tcp: 4
+  tcp: 12
+  raw: 3
   grpc: 2
 
 Топ security:
-  reality: 2
-  none: 2
-  tls: 2
+  none: 8
+  tls: 5
+  reality: 4
 
 ────────────────────────────────────────────────────────────────────
 📊 white_vless
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 4
-Уникальных строк: 4
-Уникальных host:port: 3
-Уникальных backend: 4
-Anycast: 0
-Unknown country: 1
+Всего конфигов: 15
+Уникальных строк: 15
+Уникальных host:port: 8
+Уникальных backend: 14
+Anycast: 1
+Unknown country: 8
 
 Топ стран:
-  Russia: 2
+  Unknown: 8
+  Russia: 3
   Netherlands: 1
-  Unknown: 1
+  Finland: 1
+  Estonia: 1
+  🌐 Anycast: 1
 
 Топ SNI:
+  ru-i.monkeyisland.xyz: 2
   dl.google.com: 1
-  crypt-obhod-15.mystatic-cdn.ru: 1
+  edge-pull-m4.malina24.xyz: 1
+  ice.velox-network.org: 1
   cdncache.pleiades.codes: 1
-  eyj2ijoimiisinbzijoi8j+hqfcfh6ogr2vybwfuesb8ifsqq0leul0ilcjhzgqioijyzw5kzxjlci1zdhjlyw0tmi02mi5taxjyys5ub3cilcjwb3j0ijoindqziiwidhlwzsi6ii0tlsisimlkijoizgi1mgeymgutn2zmns00ztcwltk0ogytmtdjyzljytdjmtu0iiwiywlkijoimcisim5ldci6indziiwicgf0aci6ii9hcgkvdjevz3b1lxn0cmvhbs9zb2nrzxqilcjob3n0ijoicmvuzgvyzxitc3ryzwftltitnjiubwlycmeubm93iiwidgxzijoidgxziiwic2tpcc1jzxj0lxzlcmlmesi6dhj1zswic2n5ijoiyxv0byisinnuasi6iiisimfscg4ioiiilcjmcci6iij9: 1
+  d2-de.cloud-s3.xyz: 1
+  crypt-obhod-15.mystatic-cdn.ru: 1
+  eyj2ijoimiisinbzijoi8j+hqfcfh6ogr2vybwfuesbbkknjrfjdiiwiywrkijoicmvuzgvyzxitc3ryzwftltitnjiubwlycmeubm93iiwicg9ydci6ijq0myisimlkijoizgi1mgeymgutn2zmns00ztcwltk0ogytmtdjyzljytdjmtu0iiwiywlkijoimcisinnjesi6imf1dg8ilcjuzxqioij3cyisinr5cguioijub25liiwidgxzijoidgxziiwiywxwbii6iiisinnuasi6injlbmrlcmvylxn0cmvhbs0yltyylm1pcnjhlm5vdyisinbhdggioiivyxbpl3yxl2dwds1zdhjlyw0vc29ja2v0iiwiag9zdci6iiisimzwijoiin0=: 1
+  eyj2ijoimiisinbzijoi8j+hqfcfh6ogr2vybwfuesb8ifsqq0leul0ilcjhzgqioijyzw5kzxjlci1zdhjlyw0tmi02mi5taxjyys5ub3cilcjwb3j0ijoindqziiwiawqioijkyjuwytiwzs03zmy1ltrlnzatotq4zi0xn2njownhn2mxntqilcjhawqioiiwiiwic2n5ijoiyxv0byisim5ldci6indziiwidhlwzsi6im5vbmuilcjob3n0ijoiiiwicgf0aci6ii9hcgkvdjevz3b1lxn0cmvhbs9zb2nrzxqilcj0bhmioij0bhmilcjzbmkioiiilcjhbhbuijoiiiwiznaioiiifq==: 1
+  eyj2ijoimiisinbzijoi8j+hqfcfh6ogr2vybwfuesbbkknjrfjdiiwiywrkijoicmvuzgvyzxitc3ryzwftltitnjiubwlycmeubm93iiwicg9ydci6ijq0myisinr5cguioiitls0ilcjpzci6imrintbhmjblltdmzjutngu3mc05ndhmlte3y2m5y2e3yze1ncisimfpzci6ijailcjuzxqioij3cyisinbhdggioiivyxbpl3yxl2dwds1zdhjlyw0vc29ja2v0iiwiag9zdci6injlbmrlcmvylxn0cmvhbs0yltyylm1pcnjhlm5vdyisinrscyi6inrscyisinnraxaty2vydc12zxjpznkionrydwusinnjesi6imf1dg8ilcjzbmkioiiilcjhbhbuijoiiiwiznaioiiifq==: 1
 
 Топ портов:
+  443: 5
   9894: 1
-  443: 1
+  6443: 1
   8443: 1
 
 Топ схем:
-  vless: 2
+  vmess: 7
+  vless: 6
+  trojan: 1
   hysteria2: 1
-  vmess: 1
 
 Топ transport:
-  tcp: 3
+  tcp: 11
+  raw: 3
   grpc: 1
 
 Топ security:
-  none: 2
-  reality: 1
-  tls: 1
+  none: 8
+  tls: 4
+  reality: 3
 
 ────────────────────────────────────────────────────────────────────
 📊 black_all
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 72
-Уникальных строк: 72
-Уникальных host:port: 44
-Уникальных backend: 61
-Anycast: 11
-Unknown country: 41
+Всего конфигов: 68
+Уникальных строк: 68
+Уникальных host:port: 40
+Уникальных backend: 60
+Anycast: 12
+Unknown country: 38
 
 Топ стран:
-  Unknown: 41
-  🌐 Anycast: 11
-  Netherlands: 5
-  Finland: 3
-  United States: 3
-  Germany: 3
-  Japan: 2
-  Estonia: 1
-  Poland: 1
+  Unknown: 38
+  🌐 Anycast: 12
+  Germany: 6
+  United States: 5
+  Netherlands: 3
   France: 1
+  India: 1
+  Finland: 1
+  Japan: 1
 
 Топ SNI:
-  it.superbuba.top: 4
   www.bing.com: 4
   css.rbxcdn.com: 3
-  itunes.apple.com: 2
-  sulgx-panel-production-63ee.up.railway.app: 2
+  sstats.vk-portal.net: 2
+  bing.com: 2
   eyj2ijoimiisinbzijoi8j+hs: 2
-  edge-ee.mystatic-cdn.ru: 1
-  eu-central-pl-1.hanvpn.biz: 1
+  amp-api-edge.apps.apple.com: 1
   www.booking.com: 1
-  edge-jp2.mystatic-cdn.ru: 1
+  updates.cdn-apple.com: 1
+  edge-ee.mystatic-cdn.ru: 1
+  edge-se.mystatic-cdn.ru: 1
 
 Топ портов:
-  443: 20
+  443: 17
   50160: 5
-  22001: 2
-  8443: 2
   80: 2
+  2056: 2
+  7164: 1
+  1080: 1
   1105: 1
-  9443: 1
-  9894: 1
+  3443: 1
   2087: 1
   25615: 1
 
 Топ схем:
   vmess: 28
-  vless: 25
-  hysteria2: 17
-  trojan: 2
+  hysteria2: 21
+  vless: 14
+  trojan: 5
 
 Топ transport:
-  tcp: 61
-  ws: 6
-  xhttp: 3
-  grpc: 1
+  tcp: 59
+  xhttp: 5
+  ws: 3
   httpupgrade: 1
 
 Топ security:
-  none: 46
-  reality: 17
-  tls: 9
+  none: 50
+  reality: 10
+  tls: 8
 
 ────────────────────────────────────────────────────────────────────
 📊 pool
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 76
-Уникальных строк: 76
-Уникальных host:port: 46
-Уникальных backend: 66
-Anycast: 13
-Unknown country: 41
+Всего конфигов: 83
+Уникальных строк: 83
+Уникальных host:port: 48
+Уникальных backend: 76
+Anycast: 14
+Unknown country: 45
 
 Топ стран:
-  Unknown: 41
-  🌐 Anycast: 13
-  Netherlands: 6
-  United States: 3
-  Germany: 3
-  Finland: 3
-  Russia: 2
-  France: 1
+  Unknown: 45
+  🌐 Anycast: 14
+  Germany: 6
+  United States: 5
+  Netherlands: 4
+  Russia: 3
+  Finland: 2
   Estonia: 1
-  Poland: 1
+  Japan: 1
+  India: 1
 
 Топ SNI:
-  www.bing.com: 3
-  it.superbuba.top: 3
   css.rbxcdn.com: 3
-  dl.google.com: 2
+  ru-i.monkeyisland.xyz: 2
+  www.bing.com: 2
   eyj2ijoimiisinbzijoi8j+hs: 2
-  itunes.apple.com: 2
-  sulgx-panel-production-63ee.up.railway.app: 2
-  eyj2ijoimiisinbzijoi8j+hqfcfh6ogr2vybwfuesb8ifsqq0leul0ilcjhzgqioijyzw5kzxjlci1zdhjlyw0tmi02mi5taxjyys5ub3cilcjwb3j0ijoindqziiwidhlwzsi6ii0tlsisimlkijoizgi1mgeymgutn2zmns00ztcwltk0ogytmtdjyzljytdjmtu0iiwiywlkijoimcisim5ldci6indziiwicgf0aci6ii9hcgkvdjevz3b1lxn0cmvhbs9zb2nrzxqilcjob3n0ijoicmvuzgvyzxitc3ryzwftltitnjiubwlycmeubm93iiwidgxzijoidgxziiwic2tpcc1jzxj0lxzlcmlmesi6dhj1zswic2n5ijoiyxv0byisinnuasi6iiisimfscg4ioiiilcjmcci6iij9: 1
-  ru1.xiaoliyu.cyou: 1
-  id.vk.com: 1
+  bing.com: 2
+  sstats.vk-portal.net: 2
+  cdncache.pleiades.codes: 1
+  eyj2ijoimiisinbzijoi8j+hqfcfh6ogr2vybwfuesb8ifsqq0leul0ilcjhzgqioijyzw5kzxjlci1zdhjlyw0tmi02mi5taxjyys5ub3cilcjwb3j0ijoindqziiwiawqioijkyjuwytiwzs03zmy1ltrlnzatotq4zi0xn2njownhn2mxntqilcjhawqioiiwiiwic2n5ijoiyxv0byisim5ldci6indziiwidhlwzsi6im5vbmuilcjob3n0ijoiiiwicgf0aci6ii9hcgkvdjevz3b1lxn0cmvhbs9zb2nrzxqilcj0bhmioij0bhmilcjzbmkioiiilcjhbhbuijoiiiwiznaioiiifq==: 1
+  ice.velox-network.org: 1
+  d2-de.cloud-s3.xyz: 1
 
 Топ портов:
-  443: 21
-  50160: 4
-  8443: 3
-  9894: 2
-  22001: 2
+  443: 23
+  50160: 3
+  8443: 2
   80: 2
+  2056: 2
+  6443: 1
+  9894: 1
   4433: 1
-  1819: 1
-  3443: 1
-  47831: 1
+  1080: 1
+  11100: 1
 
 Топ схем:
-  vmess: 29
-  vless: 27
-  hysteria2: 18
-  trojan: 2
+  vmess: 35
+  hysteria2: 21
+  vless: 21
+  trojan: 6
 
 Топ transport:
-  tcp: 63
-  ws: 6
-  grpc: 3
-  xhttp: 3
+  tcp: 69
+  xhttp: 5
+  raw: 3
+  ws: 3
+  grpc: 2
   httpupgrade: 1
 
 Топ security:
-  none: 47
-  reality: 18
-  tls: 11
+  none: 56
+  reality: 14
+  tls: 13
 
 ────────────────────────────────────────────────────────────────────
 📊 mixed
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 24
-Уникальных строк: 24
-Уникальных host:port: 23
-Уникальных backend: 20
-Anycast: 7
-Unknown country: 4
+Всего конфигов: 19
+Уникальных строк: 19
+Уникальных host:port: 19
+Уникальных backend: 17
+Anycast: 9
+Unknown country: 2
 
 Топ стран:
-  🌐 Anycast: 7
-  Netherlands: 5
-  Unknown: 4
-  Finland: 2
-  Russia: 1
-  Japan: 1
-  Poland: 1
-  Estonia: 1
-  United States: 1
-  Germany: 1
+  🌐 Anycast: 9
+  Netherlands: 3
+  Russia: 2
+  Unknown: 2
+  Germany: 2
+  Finland: 1
 
 Топ SNI:
-  dl.google.com: 2
-  sulgx-panel-production-63ee.up.railway.app: 2
-  itunes.apple.com: 2
-  it.superbuba.top: 2
-  id.vk.com: 1
+  ru-i.monkeyisland.xyz: 2
+  sstats.vk-portal.net: 2
+  edge-pull-m4.malina24.xyz: 1
+  d2-de.cloud-s3.xyz: 1
   crypt-obhod-15.mystatic-cdn.ru: 1
-  195-162-69-203.sslip.io: 1
-  eu-north-fi-1.hanvpn.biz: 1
-  cdn-edge-static-assets-delivery-node-a7f2c9e4b1d8.esmahdi9.com: 1
-  edge-jp2.mystatic-cdn.ru: 1
+  id.vk.com: 1
+  dl.google.com: 1
+  185.204.169.127: 1
+  special.aeternavpn.space: 1
+  www.booking.com: 1
 
 Топ портов:
   443: 13
-  9894: 2
-  8443: 2
-  22001: 2
-  2087: 1
-  9443: 1
+  9894: 1
   1819: 1
-  1039: 1
   3443: 1
+  2087: 1
+  7164: 1
+  1039: 1
 
 Топ схем:
-  vless: 24
+  vless: 19
 
 Топ transport:
-  tcp: 14
-  grpc: 3
-  ws: 3
-  xhttp: 3
+  tcp: 8
+  xhttp: 5
+  raw: 3
+  grpc: 2
   httpupgrade: 1
 
 Топ security:
-  reality: 17
-  tls: 7
+  reality: 13
+  tls: 6
 
 ────────────────────────────────────────────────────────────────────
 📊 lte
@@ -435,133 +468,133 @@ Unknown country: 4
 Всего конфигов: 25
 Уникальных строк: 25
 Уникальных host:port: 25
-Уникальных backend: 22
-Anycast: 7
-Unknown country: 4
+Уникальных backend: 23
+Anycast: 9
+Unknown country: 3
 
 Топ стран:
-  🌐 Anycast: 7
-  Netherlands: 4
-  Unknown: 4
-  Germany: 2
-  Finland: 2
-  United States: 1
-  Russia: 1
-  Poland: 1
+  🌐 Anycast: 9
+  Germany: 3
+  Netherlands: 3
+  Unknown: 3
+  Russia: 2
+  United States: 2
   Estonia: 1
-  Japan: 1
+  Finland: 1
+  France: 1
 
 Топ SNI:
-  sulgx-panel-production-63ee.up.railway.app: 2
-  itunes.apple.com: 2
-  it.superbuba.top: 2
+  sstats.vk-portal.net: 2
+  ru-i.monkeyisland.xyz: 2
+  accaunt.fastly.com: 1
   id.vk.com: 1
-  1-m20.c79324d6-7c42-4d44-be57-c3e1debe6c59.kdns.fr: 1
+  amp-api-edge.apps.apple.com: 1
   cdn-edge-static-assets-delivery-node-a7f2c9e4b1d8.esmahdi9.com: 1
   crypt-obhod-15.mystatic-cdn.ru: 1
-  eu-central-pl-1.hanvpn.biz: 1
-  edge-ee.mystatic-cdn.ru: 1
+  dl.google.com: 1
   www.booking.com: 1
+  op-1.firecone.eu: 1
 
 Топ портов:
-  443: 13
-  22001: 2
-  8443: 2
+  443: 15
+  7164: 1
   2087: 1
   9894: 1
   25615: 1
   3443: 1
   1039: 1
+  6443: 1
   1105: 1
-  9443: 1
+  1819: 1
 
 Топ схем:
-  vless: 23
-  trojan: 2
+  vless: 19
+  trojan: 6
 
 Топ transport:
-  tcp: 15
-  ws: 4
-  xhttp: 3
+  tcp: 13
+  xhttp: 5
+  raw: 3
   grpc: 2
+  ws: 1
   httpupgrade: 1
 
 Топ security:
-  reality: 16
-  tls: 9
+  reality: 14
+  tls: 11
 
 ====================================================================
 🌍 GLOBAL SUMMARY
 ====================================================================
-Всего конфигов: 207
-Уникальных строк: 78
-Уникальных host:port: 48
-Уникальных backend: 66
-Anycast: 40
-Unknown country: 92
+Всего конфигов: 227
+Уникальных строк: 86
+Уникальных host:port: 50
+Уникальных backend: 76
+Anycast: 48
+Unknown country: 104
 
 Топ стран:
-  Unknown: 92
-  🌐 Anycast: 40
-  Netherlands: 22
-  Finland: 10
-  Germany: 9
-  Russia: 8
-  United States: 8
-  Japan: 5
+  Unknown: 104
+  🌐 Anycast: 48
+  Germany: 17
+  Netherlands: 15
+  Russia: 13
+  United States: 12
+  Finland: 7
   Estonia: 4
-  Poland: 4
   France: 3
   India: 2
+  Japan: 2
 
 Топ SNI:
-  it.superbuba.top: 11
-  dl.google.com: 8
-  itunes.apple.com: 8
-  sulgx-panel-production-63ee.up.railway.app: 8
-  www.bing.com: 7
+  ru-i.monkeyisland.xyz: 10
+  sstats.vk-portal.net: 8
+  www.bing.com: 6
   css.rbxcdn.com: 6
+  dl.google.com: 5
+  edge-pull-m4.malina24.xyz: 5
   crypt-obhod-15.mystatic-cdn.ru: 5
+  d2-de.cloud-s3.xyz: 5
   id.vk.com: 4
-  edge-ee.mystatic-cdn.ru: 4
-  eu-central-pl-1.hanvpn.biz: 4
+  ice.velox-network.org: 4
+  amp-api-edge.apps.apple.com: 4
   www.booking.com: 4
-  edge-jp2.mystatic-cdn.ru: 4
-  fi.aeternavpn.space: 4
-  eu-north-fi-1.hanvpn.biz: 4
-  hotcoals.aeternavpn.space: 4
+  edge-ee.mystatic-cdn.ru: 4
+  edge-se.mystatic-cdn.ru: 4
+  accaunt.fastly.com: 4
 
 Топ портов:
-  443: 70
-  8443: 11
-  50160: 9
-  9894: 8
-  22001: 8
-  9443: 4
+  443: 79
+  50160: 8
+  9894: 5
+  8443: 5
+  6443: 4
+  7164: 4
+  3443: 4
   2087: 4
   1039: 4
   80: 4
-  3443: 4
   1819: 4
+  2056: 4
+  1080: 3
   1105: 3
   25615: 3
-  4433: 2
-  36723: 2
 
 Топ схем:
-  vless: 104
-  vmess: 59
-  hysteria2: 38
-  trojan: 6
+  vless: 86
+  vmess: 77
+  hysteria2: 45
+  trojan: 19
 
 Топ transport:
-  tcp: 160
-  ws: 19
-  grpc: 12
-  xhttp: 12
+  tcp: 172
+  xhttp: 20
+  raw: 15
+  grpc: 9
+  ws: 7
   httpupgrade: 4
 
 Топ security:
-  none: 97
-  reality: 71
-  tls: 39
+  none: 122
+  reality: 58
+  tls: 47
