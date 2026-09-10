@@ -1,5 +1,5 @@
 VPN Builder stats summary
-Generated at: 2026-09-11 00:12:24 MSK
+Generated at: 2026-09-11 02:14:10 MSK
 
 ====================================================================
 RAW GROUPS
@@ -8,175 +8,176 @@ RAW GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 115
-Уникальных строк: 103
-Уникальных host:port: 25
-Уникальных backend: 27
-Anycast: 26
-Unknown country: 13
+Всего конфигов: 109
+Уникальных строк: 93
+Уникальных host:port: 21
+Уникальных backend: 19
+Anycast: 24
+Unknown country: 20
 
 Топ стран:
-  Russia: 54
-  🌐 Anycast: 26
-  Unknown: 13
+  Russia: 44
+  🌐 Anycast: 24
+  Unknown: 20
   Germany: 12
-  Netherlands: 5
+  Netherlands: 4
   Poland: 3
   Estonia: 2
 
 Топ SNI:
-  ok.ru: 24
-  dl.google.com: 23
-  www.vk.com: 18
-  www.yandex.ru: 8
+  ok.ru: 32
+  dl.google.com: 25
+  www.vk.com: 9
+  www.yandex.ru: 9
+  www.cloudflare.com: 6
   donatov.net: 4
   git.xpkg.ru: 4
-  mc.yandex.tr: 4
   git.medrocket.ru: 4
   hy.quattro-tech.ru: 4
-  www.google.com: 3
+  alfastat.ru: 3
 
 Топ портов:
-  443: 65
+  443: 73
   9892: 12
-  1932: 9
-  9894: 5
-  31443: 3
+  9889: 6
+  33443: 6
+  9894: 4
   9844: 3
-  9889: 3
-  8443: 3
   59448: 2
   22443: 2
+  4433: 1
 
 Топ схем:
-  vless: 98
+  vless: 102
   hysteria2: 7
-  vmess: 7
-  trojan: 3
 
 Топ transport:
-  xhttp: 54
-  tcp: 38
-  grpc: 23
+  xhttp: 62
+  grpc: 25
+  tcp: 22
 
 Топ security:
-  reality: 101
-  none: 12
+  reality: 102
+  none: 5
   tls: 2
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_vless
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 73
-Уникальных строк: 73
+Всего конфигов: 74
+Уникальных строк: 74
 Уникальных host:port: 15
-Уникальных backend: 23
-Anycast: 2
+Уникальных backend: 16
+Anycast: 8
 Unknown country: 13
 
 Топ стран:
-  Russia: 36
+  Russia: 32
   Unknown: 13
   Germany: 12
-  Netherlands: 5
+  🌐 Anycast: 8
+  Netherlands: 4
   Poland: 3
   Estonia: 2
-  🌐 Anycast: 2
 
 Топ SNI:
-  dl.google.com: 23
-  ok.ru: 12
+  dl.google.com: 25
+  ok.ru: 16
+  www.cloudflare.com: 6
   donatov.net: 4
   git.xpkg.ru: 4
-  mc.yandex.tr: 4
   git.medrocket.ru: 4
   hy.quattro-tech.ru: 4
-  www.google.com: 3
   alfastat.ru: 3
+  mc.yandex.tr: 3
   mm.melbicom.net: 3
 
 Топ портов:
-  443: 36
+  443: 39
   9892: 12
-  9894: 5
-  31443: 3
+  9889: 6
+  33443: 6
+  9894: 4
   9844: 3
-  9889: 3
   59448: 2
   22443: 2
 
 Топ схем:
-  vless: 60
-  vmess: 7
+  vless: 68
   hysteria2: 6
 
 Топ transport:
-  xhttp: 34
-  grpc: 23
-  tcp: 16
+  xhttp: 37
+  grpc: 25
+  tcp: 12
 
 Топ security:
-  reality: 60
-  none: 11
+  reality: 68
+  none: 4
   tls: 2
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW black_all
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 328
-Уникальных строк: 275
-Уникальных host:port: 29
-Уникальных backend: 129
-Anycast: 127
-Unknown country: 186
+Всего конфигов: 307
+Уникальных строк: 245
+Уникальных host:port: 45
+Уникальных backend: 120
+Anycast: 112
+Unknown country: 151
 
 Топ стран:
-  Unknown: 186
-  🌐 Anycast: 127
-  France: 8
+  Unknown: 151
+  🌐 Anycast: 112
+  Netherlands: 15
+  France: 12
+  Germany: 4
+  Czechia: 3
+  Switzerland: 3
   Finland: 3
-  Netherlands: 2
-  Germany: 1
-  Japan: 1
+  United States: 2
+  Israel: 1
 
 Топ SNI:
-  accounts.fastly.com: 66
-  www.vk.com: 24
-  www.yandex.ru: 12
-  w-mebel.pro: 11
-  194.9.172.236: 8
-  www.bing.com: 7
-  www.paypal.com: 6
-  cdn6-72.taobao.com: 6
-  cdn7-39.taobao.com: 6
-  s3.netavex.com: 6
+  accounts.fastly.com: 60
+  w-mebel.pro: 13
+  194.9.172.236: 12
+  www.yandex.ru: 10
+  www.vk.com: 9
+  s3.netavex.com: 9
+  www.bing.com: 8
+  www.paypal.com: 7
+  aws.amazon.com: 6
+  dl.google.com: 6
 
 Топ портов:
-  443: 131
-  1932: 12
-  1105: 8
-  50160: 7
-  28708: 6
-  36723: 3
-  2056: 2
-  11100: 1
-  2060: 1
-  2053: 1
+  443: 113
+  1105: 12
+  1932: 9
+  50160: 8
+  8443: 7
+  30521: 6
+  9894: 6
+  8444: 4
+  23974: 3
+  28708: 3
 
 Топ схем:
-  vmess: 156
-  vless: 137
-  hysteria2: 23
-  trojan: 12
+  vless: 144
+  vmess: 118
+  hysteria2: 29
+  trojan: 16
 
 Топ transport:
-  tcp: 239
-  xhttp: 89
+  tcp: 203
+  xhttp: 97
+  grpc: 6
+  ws: 1
 
 Топ security:
-  none: 179
-  tls: 78
-  reality: 71
+  none: 147
+  tls: 93
+  reality: 67
 
 ====================================================================
 FINAL GROUPS
@@ -185,288 +186,294 @@ FINAL GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 30
-Уникальных строк: 30
-Уникальных host:port: 23
-Уникальных backend: 25
+Всего конфигов: 21
+Уникальных строк: 21
+Уникальных host:port: 21
+Уникальных backend: 17
 Anycast: 7
-Unknown country: 9
+Unknown country: 2
 
 Топ стран:
-  Russia: 10
-  Unknown: 9
+  Russia: 8
   🌐 Anycast: 7
+  Unknown: 2
   Netherlands: 1
-  Germany: 1
   Poland: 1
+  Germany: 1
   Estonia: 1
 
 Топ SNI:
-  www.vk.com: 4
   dl.google.com: 4
+  www.vk.com: 3
   www.yandex.ru: 2
   hy.quattro-tech.ru: 2
-  alfastat.ru: 1
-  git.xpkg.ru: 1
-  mm.melbicom.net: 1
-  mc.yandex.tr: 1
+  www.cloudflare.com: 1
   donatov.net: 1
-  eh.vk.ru: 1
+  mc.yandex.tr: 1
+  git.medrocket.ru: 1
+  alfastat.ru: 1
+  mm.melbicom.net: 1
 
 Топ портов:
-  443: 12
-  1932: 2
+  443: 13
   9894: 1
-  9892: 1
-  8443: 1
+  33443: 1
   9844: 1
+  9892: 1
   9889: 1
-  31443: 1
-  4433: 1
   59448: 1
+  4433: 1
+  22443: 1
 
 Топ схем:
-  vless: 18
-  vmess: 7
+  vless: 17
   hysteria2: 4
-  trojan: 1
 
 Топ transport:
-  tcp: 17
   xhttp: 9
+  tcp: 8
   grpc: 4
 
 Топ security:
-  reality: 19
-  none: 9
-  tls: 2
+  reality: 17
+  none: 3
+  tls: 1
 
 ────────────────────────────────────────────────────────────────────
 📊 white_vless
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 22
-Уникальных строк: 22
+Всего конфигов: 15
+Уникальных строк: 15
 Уникальных host:port: 15
-Уникальных backend: 21
-Anycast: 1
-Unknown country: 9
+Уникальных backend: 14
+Anycast: 2
+Unknown country: 2
 
 Топ стран:
-  Unknown: 9
-  Russia: 8
+  Russia: 7
+  Unknown: 2
+  🌐 Anycast: 2
   Germany: 1
-  Netherlands: 1
   Poland: 1
+  Netherlands: 1
   Estonia: 1
-  🌐 Anycast: 1
 
 Топ SNI:
   dl.google.com: 4
   hy.quattro-tech.ru: 2
-  donatov.net: 1
   alfastat.ru: 1
   mc.yandex.tr: 1
-  git.xpkg.ru: 1
-  mm.melbicom.net: 1
   git.medrocket.ru: 1
-  www.google.com: 1
-  ok.ru: 1
+  mm.melbicom.net: 1
+  git.xpkg.ru: 1
+  donatov.net: 1
+  www.cloudflare.com: 1
+  msk.frkn.org: 1
 
 Топ портов:
   443: 8
   9892: 1
-  9894: 1
   9844: 1
-  31443: 1
+  9894: 1
   9889: 1
+  33443: 1
   59448: 1
   22443: 1
 
 Топ схем:
   vless: 12
-  vmess: 7
   hysteria2: 3
 
 Топ transport:
-  tcp: 11
   xhttp: 7
   grpc: 4
+  tcp: 4
 
 Топ security:
   reality: 12
-  none: 8
-  tls: 2
+  none: 2
+  tls: 1
 
 ────────────────────────────────────────────────────────────────────
 📊 black_all
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 135
-Уникальных строк: 135
-Уникальных host:port: 27
-Уникальных backend: 125
-Anycast: 13
-Unknown country: 117
+Всего конфигов: 128
+Уникальных строк: 128
+Уникальных host:port: 42
+Уникальных backend: 117
+Anycast: 16
+Unknown country: 99
 
 Топ стран:
-  Unknown: 117
-  🌐 Anycast: 13
+  Unknown: 99
+  🌐 Anycast: 16
+  Netherlands: 4
+  Germany: 2
+  Switzerland: 1
+  Czechia: 1
   France: 1
-  Netherlands: 1
-  Germany: 1
   Finland: 1
+  United States: 1
   Japan: 1
 
 Топ SNI:
-  www.vk.com: 4
   www.bing.com: 4
+  www.vk.com: 3
+  www.paypal.com: 3
+  w-mebel.pro: 3
   eyj2ijoimiisinbzijoi8j+hs: 3
   www.yandex.ru: 2
-  w-mebel.pro: 2
+  s3.netavex.com: 2
+  bing.com: 2
   css.rbxcdn.com: 2
-  cdn6-72.taobao.com: 1
-  accounts.fastly.com: 1
-  194.9.172.236: 1
-  www.paypal.com: 1
+  ned-stor.letsgodance.site: 1
 
 Топ портов:
-  443: 13
+  443: 15
   50160: 4
-  1932: 2
-  2056: 2
-  1105: 1
+  1932: 3
+  8443: 3
   28708: 1
-  36723: 1
-  2053: 1
-  2060: 1
-  11100: 1
+  1105: 1
+  9894: 1
+  30521: 1
+  41923: 1
+  23974: 1
 
 Топ схем:
-  vmess: 108
-  hysteria2: 13
-  vless: 12
+  vmess: 86
+  vless: 25
+  hysteria2: 15
   trojan: 2
 
 Топ transport:
-  tcp: 130
-  xhttp: 5
+  tcp: 116
+  xhttp: 10
+  grpc: 1
+  ws: 1
 
 Топ security:
-  none: 121
-  reality: 11
-  tls: 3
+  none: 102
+  reality: 18
+  tls: 8
 
 ────────────────────────────────────────────────────────────────────
 📊 pool
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 150
-Уникальных строк: 150
-Уникальных host:port: 40
-Уникальных backend: 138
-Anycast: 17
-Unknown country: 116
+Всего конфигов: 147
+Уникальных строк: 147
+Уникальных host:port: 57
+Уникальных backend: 129
+Anycast: 21
+Unknown country: 101
 
 Топ стран:
-  Unknown: 116
-  🌐 Anycast: 17
-  Russia: 9
-  Netherlands: 2
-  Germany: 2
+  Unknown: 101
+  🌐 Anycast: 21
+  Russia: 8
+  Netherlands: 5
+  Germany: 3
   Estonia: 1
   Poland: 1
   France: 1
-  Finland: 1
+  Japan: 1
+  Czechia: 1
 
 Топ SNI:
+  dl.google.com: 5
   www.vk.com: 5
-  dl.google.com: 4
-  www.yandex.ru: 4
+  www.bing.com: 4
+  www.yandex.ru: 3
+  w-mebel.pro: 3
   eyj2ijoimiisinbzijoi8j+hs: 3
+  www.paypal.com: 3
   hy.quattro-tech.ru: 2
-  w-mebel.pro: 2
-  www.bing.com: 2
-  css.rbxcdn.com: 2
-  eyj2ijoimiisinbzijoi8j+hqfcfh6ogr2vybwfuesb8ifsqq0leul0ilcjhzgqioijyzw5kzxjlci1zdhjlyw0tmi02mi5taxjyys5ub3cilcjwb3j0ijoindqziiwidhlwzsi6ii0tlsisimlkijoizgi1mgeymgutn2zmns00ztcwltk0ogytmtdjyzljytdjmtu0iiwiywlkijoimcisim5ldci6indziiwicgf0aci6ii9hcgkvdjevz3b1lxn0cmvhbs9zb2nrzxqilcjob3n0ijoicmvuzgvyzxitc3ryzwftltitnjiubwlycmeubm93iiwidgxzijoidgxziiwic2tpcc1jzxj0lxzlcmlmesi6dhj1zswic2n5ijoiyxv0byisinnuasi6iiisimfscg4ioiiilcjmcci6iij9: 1
-  git.xpkg.ru: 1
+  msk.frkn.org: 2
+  ru1.xiaoliyu.cyou: 2
 
 Топ портов:
-  443: 21
-  1932: 4
-  2056: 2
-  50160: 2
-  9889: 1
+  443: 26
+  50160: 4
+  8443: 3
+  1932: 3
+  4433: 2
+  9894: 2
+  33443: 1
   59448: 1
-  9894: 1
   9844: 1
-  4433: 1
-  22443: 1
+  9889: 1
 
 Топ схем:
-  vmess: 106
-  vless: 27
-  hysteria2: 14
-  trojan: 3
+  vmess: 86
+  vless: 40
+  hysteria2: 19
+  trojan: 2
 
 Топ transport:
-  tcp: 132
-  xhttp: 14
-  grpc: 4
+  tcp: 123
+  xhttp: 18
+  grpc: 5
+  ws: 1
 
 Топ security:
-  none: 118
-  reality: 27
-  tls: 5
+  none: 105
+  reality: 33
+  tls: 9
 
 ────────────────────────────────────────────────────────────────────
 📊 mixed
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 22
-Уникальных строк: 22
-Уникальных host:port: 22
-Уникальных backend: 20
-Anycast: 7
-Unknown country: 5
+Всего конфигов: 35
+Уникальных строк: 35
+Уникальных host:port: 34
+Уникальных backend: 31
+Anycast: 13
+Unknown country: 7
 
 Топ стран:
+  🌐 Anycast: 13
   Russia: 7
-  🌐 Anycast: 7
-  Unknown: 5
-  Germany: 1
+  Unknown: 7
+  Netherlands: 4
+  Germany: 2
   Poland: 1
-  Netherlands: 1
+  Switzerland: 1
 
 Топ SNI:
-  dl.google.com: 4
+  dl.google.com: 5
+  w-mebel.pro: 3
+  www.paypal.com: 3
   www.vk.com: 2
   www.yandex.ru: 2
-  w-mebel.pro: 2
-  www.google.com: 1
-  git.medrocket.ru: 1
-  git.xpkg.ru: 1
-  donatov.net: 1
-  mc.yandex.tr: 1
+  s3.netavex.com: 2
+  alfastat.ru: 1
   mm.melbicom.net: 1
+  mc.yandex.tr: 1
+  git.xpkg.ru: 1
 
 Топ портов:
-  443: 14
-  1932: 2
-  31443: 1
-  9892: 1
+  443: 19
+  9894: 2
+  8443: 2
   9844: 1
-  9894: 1
+  9892: 1
   9889: 1
-  28708: 1
+  33443: 1
+  8444: 1
+  41923: 1
+  30521: 1
 
 Топ схем:
-  vless: 22
+  vless: 35
 
 Топ transport:
-  xhttp: 12
-  tcp: 6
-  grpc: 4
+  xhttp: 17
+  tcp: 13
+  grpc: 5
 
 Топ security:
-  reality: 21
-  tls: 1
+  reality: 29
+  tls: 6
 
 ────────────────────────────────────────────────────────────────────
 📊 lte
@@ -475,123 +482,125 @@ Unknown country: 5
 Уникальных строк: 25
 Уникальных host:port: 25
 Уникальных backend: 23
-Anycast: 7
-Unknown country: 6
+Anycast: 9
+Unknown country: 2
 
 Топ стран:
-  Russia: 8
-  🌐 Anycast: 7
-  Unknown: 6
-  Netherlands: 1
-  Germany: 1
+  🌐 Anycast: 9
+  Russia: 7
+  Netherlands: 3
+  Germany: 2
+  Unknown: 2
+  Switzerland: 1
   Poland: 1
-  France: 1
 
 Топ SNI:
-  dl.google.com: 4
+  dl.google.com: 3
   www.yandex.ru: 2
   www.vk.com: 2
-  w-mebel.pro: 2
+  s3.netavex.com: 2
+  ned-stor.letsgodance.site: 1
+  ned-best.letsgodance.site: 1
   accounts.fastly.com: 1
-  mc.yandex.tr: 1
-  git.xpkg.ru: 1
   alfastat.ru: 1
-  donatov.net: 1
-  mm.melbicom.net: 1
+  git.medrocket.ru: 1
+  git.xpkg.ru: 1
 
 Топ портов:
-  443: 15
-  1932: 2
-  9894: 1
+  443: 17
+  8443: 2
   9892: 1
+  9894: 1
   9844: 1
-  8443: 1
+  33443: 1
+  30521: 1
   28708: 1
-  1105: 1
-  9889: 1
-  31443: 1
 
 Топ схем:
-  vless: 22
-  trojan: 3
+  vless: 25
 
 Топ transport:
-  xhttp: 12
-  tcp: 9
-  grpc: 4
+  xhttp: 17
+  tcp: 5
+  grpc: 3
 
 Топ security:
-  reality: 22
-  tls: 3
+  reality: 20
+  tls: 5
 
 ====================================================================
 🌍 GLOBAL SUMMARY
 ====================================================================
-Всего конфигов: 384
-Уникальных строк: 166
-Уникальных host:port: 45
-Уникальных backend: 148
-Anycast: 52
-Unknown country: 262
+Всего конфигов: 371
+Уникальных строк: 149
+Уникальных host:port: 58
+Уникальных backend: 129
+Anycast: 68
+Unknown country: 213
 
 Топ стран:
-  Unknown: 262
-  🌐 Anycast: 52
-  Russia: 42
-  Netherlands: 7
-  Germany: 7
+  Unknown: 213
+  🌐 Anycast: 68
+  Russia: 37
+  Netherlands: 18
+  Germany: 11
   Poland: 5
+  Switzerland: 4
   Estonia: 3
-  France: 3
+  Czechia: 2
+  France: 2
   Finland: 2
-  Japan: 1
+  United States: 2
+  Japan: 2
+  Israel: 2
 
 Топ SNI:
-  dl.google.com: 20
-  www.vk.com: 17
-  www.yandex.ru: 12
-  w-mebel.pro: 8
+  dl.google.com: 22
+  www.vk.com: 15
+  www.yandex.ru: 11
+  www.paypal.com: 10
+  w-mebel.pro: 10
+  s3.netavex.com: 8
+  www.bing.com: 8
   hy.quattro-tech.ru: 6
-  www.bing.com: 6
   eyj2ijoimiisinbzijoi8j+hs: 6
-  alfastat.ru: 5
-  git.xpkg.ru: 5
-  mm.melbicom.net: 5
-  mc.yandex.tr: 5
+  www.cloudflare.com: 5
   donatov.net: 5
+  mc.yandex.tr: 5
   git.medrocket.ru: 5
-  www.google.com: 5
-  ok.ru: 5
+  alfastat.ru: 5
+  mm.melbicom.net: 5
 
 Топ портов:
-  443: 83
-  1932: 12
-  50160: 6
-  9894: 5
-  9892: 5
+  443: 98
+  8443: 10
+  9894: 8
+  50160: 8
+  1932: 6
+  33443: 5
   9844: 5
-  9889: 5
-  31443: 5
+  9892: 5
+  9889: 4
+  4433: 4
   28708: 4
-  2056: 4
-  8443: 3
+  30521: 4
   59448: 3
   22443: 3
-  1105: 3
-  4433: 2
+  41923: 3
 
 Топ схем:
-  vmess: 228
-  vless: 113
-  hysteria2: 34
-  trojan: 9
+  vmess: 172
+  vless: 154
+  hysteria2: 41
+  trojan: 4
 
 Топ transport:
-  tcp: 305
-  xhttp: 59
-  grpc: 20
+  tcp: 269
+  xhttp: 78
+  grpc: 22
+  ws: 2
 
 Топ security:
-  none: 256
-  reality: 112
-  tls: 16
+  none: 212
+  reality: 129
+  tls: 30
