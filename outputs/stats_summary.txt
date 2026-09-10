@@ -1,5 +1,5 @@
 VPN Builder stats summary
-Generated at: 2026-09-10 21:40:58 MSK
+Generated at: 2026-09-11 00:12:24 MSK
 
 ====================================================================
 RAW GROUPS
@@ -8,161 +8,175 @@ RAW GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 174
-Уникальных строк: 164
-Уникальных host:port: 28
-Уникальных backend: 30
-Anycast: 25
-Unknown country: 10
+Всего конфигов: 115
+Уникальных строк: 103
+Уникальных host:port: 25
+Уникальных backend: 27
+Anycast: 26
+Unknown country: 13
 
 Топ стран:
-  Russia: 99
-  Germany: 35
-  🌐 Anycast: 25
-  Unknown: 10
+  Russia: 54
+  🌐 Anycast: 26
+  Unknown: 13
+  Germany: 12
   Netherlands: 5
+  Poland: 3
+  Estonia: 2
 
 Топ SNI:
-  start.ru: 70
-  dl.google.com: 40
-  www.vk.com: 25
-  ok.ru: 20
-  id.vk.ru: 5
-  www.start.ru: 5
-  msk.frkn.org: 2
-  hy.quattro-tech.ru: 1
-  ru1.xiaoliyu.cyou: 1
-  eyj2ijoimiisinbzijoilvcwpzqg3yegy5bwtpcfm7jgvitllskwlib8ifsqq0leul0ilcjhzgqioii1lje4oc4yni44nsisinbvcnqioii0ndmilcjpzci6imrintbhmjblltdmzjutngu3mc05ndhmlte3y2m5y2e3yze1ncisimfpzci6ijailcjuzxqioij3cyisinr5cguioijub25liiwiag9zdci6injlbmrlcmvylxn0cmvhbs0yltyylm1pcnjhlm5vdyisinbhdggioiivyxbpl3yxl2dwds1zdhjlyw0vc29ja2v0iiwidgxzijoidgxziiwic2n5ijoiyxv0byisinnuasi6iiisimfscg4ioiiilcjmcci6iij9: 1
+  ok.ru: 24
+  dl.google.com: 23
+  www.vk.com: 18
+  www.yandex.ru: 8
+  donatov.net: 4
+  git.xpkg.ru: 4
+  mc.yandex.tr: 4
+  git.medrocket.ru: 4
+  hy.quattro-tech.ru: 4
+  www.google.com: 3
 
 Топ портов:
-  443: 117
-  9892: 30
-  1932: 10
-  9889: 5
+  443: 65
+  9892: 12
+  1932: 9
   9894: 5
-  22443: 1
-  4433: 1
+  31443: 3
+  9844: 3
+  9889: 3
+  8443: 3
+  59448: 2
+  22443: 2
 
 Топ схем:
-  vless: 165
-  vmess: 5
-  hysteria2: 4
+  vless: 98
+  hysteria2: 7
+  vmess: 7
+  trojan: 3
 
 Топ transport:
-  tcp: 114
-  grpc: 40
-  xhttp: 20
+  xhttp: 54
+  tcp: 38
+  grpc: 23
 
 Топ security:
-  reality: 165
-  none: 9
+  reality: 101
+  none: 12
+  tls: 2
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_vless
 ────────────────────────────────────────────────────────────────────
 Всего конфигов: 73
 Уникальных строк: 73
-Уникальных host:port: 9
-Уникальных backend: 16
-Anycast: 7
-Unknown country: 10
+Уникальных host:port: 15
+Уникальных backend: 23
+Anycast: 2
+Unknown country: 13
 
 Топ стран:
-  Germany: 35
-  Russia: 16
-  Unknown: 10
-  🌐 Anycast: 7
+  Russia: 36
+  Unknown: 13
+  Germany: 12
   Netherlands: 5
+  Poland: 3
+  Estonia: 2
+  🌐 Anycast: 2
 
 Топ SNI:
-  dl.google.com: 40
-  ok.ru: 10
-  start.ru: 5
-  id.vk.ru: 5
-  www.start.ru: 5
-  msk.frkn.org: 2
-  hy.quattro-tech.ru: 1
-  eyj2ijoimiisinbzijoilvcwpzqg3yegy5bwtpcfm7jgvitllskwlib8ifsqq0leul0ilcjhzgqioii1lje4oc4yni44nsisinbvcnqioii0ndmilcjpzci6imrintbhmjblltdmzjutngu3mc05ndhmlte3y2m5y2e3yze1ncisimfpzci6ijailcjuzxqioij3cyisinr5cguioijub25liiwiag9zdci6injlbmrlcmvylxn0cmvhbs0yltyylm1pcnjhlm5vdyisinbhdggioiivyxbpl3yxl2dwds1zdhjlyw0vc29ja2v0iiwidgxzijoidgxziiwic2n5ijoiyxv0byisinnuasi6iiisimfscg4ioiiilcjmcci6iij9: 1
-  eyj2ijoimiisinbzijoilvcwpzqg3yegy5bwtpcfm7jgvitllskwlib8ifsqq0leul0ilcjhzgqioiiylji3lju0ljezmiisinbvcnqioii0ndmilcj0exblijoibm9uzsisimlkijoizgi1mgeymgutn2zmns00ztcwltk0ogytmtdjyzljytdjmtu0iiwiywlkijoimcisim5ldci6indziiwicgf0aci6ii9hcgkvdjevz3b1lxn0cmvhbs9zb2nrzxqilcjob3n0ijoicmvuzgvyzxitc3ryzwftltitnjiubwlycmeubm93iiwidgxzijoidgxziiwic2n5ijoiyxv0byisinnuasi6iiisimfscg4ioiiilcjmcci6iij9: 1
-  eyjhzgqioijyzw5kzxjlci1zdhjlyw0tmi02mi5taxjyys5ub3cilcjhawqioiiwiiwiywxwbii6iiisimzwijoiy2hyb21liiwiag9zdci6iiisimlkijoizgi1mgeymgutn2zmns00ztcwltk0ogytmtdjyzljytdjmtu0iiwiaw5zzwn1cmuioiiwiiwibmv0ijoid3milcjwyxroijoil2fwas92ms9nchutc3ryzwftl3nvy2tldcisinbjcyi6iiisinbvcnqioii0ndmilcjwcyi6ii7wlqwuin2bimuw1rtwn5u44lyey5bcsc4gfcbbkknjrfjdiiwic2n5ijoiyxv0byisinnuasi6injlbmrlcmvylxn0cmvhbs0yltyylm1pcnjhlm5vdyisinrscyi6inrscyisinr5cguioiitls0ilcj2ijoimiisinzjbii6iiisinnraxaty2vydc12zxjpznkionrydwv9: 1
+  dl.google.com: 23
+  ok.ru: 12
+  donatov.net: 4
+  git.xpkg.ru: 4
+  mc.yandex.tr: 4
+  git.medrocket.ru: 4
+  hy.quattro-tech.ru: 4
+  www.google.com: 3
+  alfastat.ru: 3
+  mm.melbicom.net: 3
 
 Топ портов:
-  9892: 30
-  443: 27
-  9889: 5
+  443: 36
+  9892: 12
   9894: 5
-  22443: 1
+  31443: 3
+  9844: 3
+  9889: 3
+  59448: 2
+  22443: 2
 
 Топ схем:
-  vless: 65
-  vmess: 5
-  hysteria2: 3
+  vless: 60
+  vmess: 7
+  hysteria2: 6
 
 Топ transport:
-  grpc: 40
-  tcp: 23
-  xhttp: 10
+  xhttp: 34
+  grpc: 23
+  tcp: 16
 
 Топ security:
-  reality: 65
-  none: 8
+  reality: 60
+  none: 11
+  tls: 2
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW black_all
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 395
-Уникальных строк: 276
-Уникальных host:port: 38
-Уникальных backend: 75
-Anycast: 232
-Unknown country: 143
+Всего конфигов: 328
+Уникальных строк: 275
+Уникальных host:port: 29
+Уникальных backend: 129
+Anycast: 127
+Unknown country: 186
 
 Топ стран:
-  🌐 Anycast: 232
-  Unknown: 143
-  Netherlands: 18
+  Unknown: 186
+  🌐 Anycast: 127
+  France: 8
+  Finland: 3
+  Netherlands: 2
+  Germany: 1
   Japan: 1
-  France: 1
 
 Топ SNI:
-  accounts.fastly.com: 80
-  www.vk.com: 40
-  www.hp.com: 32
-  www.yandex.ru: 16
-  www.paypal.com: 16
-  dash.cloudflare.com: 16
-  aws.amazon.com: 16
-  web-production-711a78.up.railway.app: 16
-  www.nvidia.com: 9
-  www.sap.com: 8
+  accounts.fastly.com: 66
+  www.vk.com: 24
+  www.yandex.ru: 12
+  w-mebel.pro: 11
+  194.9.172.236: 8
+  www.bing.com: 7
+  www.paypal.com: 6
+  cdn6-72.taobao.com: 6
+  cdn7-39.taobao.com: 6
+  s3.netavex.com: 6
 
 Топ портов:
-  443: 164
-  1932: 24
-  64136: 16
-  30521: 16
-  50715: 9
-  50160: 9
-  10016: 8
-  10031: 8
-  10050: 8
-  10766: 8
+  443: 131
+  1932: 12
+  1105: 8
+  50160: 7
+  28708: 6
+  36723: 3
+  2056: 2
+  11100: 1
+  2060: 1
+  2053: 1
 
 Топ схем:
-  vless: 289
-  vmess: 79
-  hysteria2: 18
-  trojan: 9
+  vmess: 156
+  vless: 137
+  hysteria2: 23
+  trojan: 12
 
 Топ transport:
-  tcp: 255
-  xhttp: 120
-  ws: 20
+  tcp: 239
+  xhttp: 89
 
 Топ security:
-  reality: 193
-  tls: 105
-  none: 97
+  none: 179
+  tls: 78
+  reality: 71
 
 ====================================================================
 FINAL GROUPS
@@ -171,275 +185,288 @@ FINAL GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 32
-Уникальных строк: 32
-Уникальных host:port: 27
-Уникальных backend: 28
-Anycast: 5
-Unknown country: 6
+Всего конфигов: 30
+Уникальных строк: 30
+Уникальных host:port: 23
+Уникальных backend: 25
+Anycast: 7
+Unknown country: 9
 
 Топ стран:
-  Russia: 18
-  Unknown: 6
-  🌐 Anycast: 5
-  Germany: 2
+  Russia: 10
+  Unknown: 9
+  🌐 Anycast: 7
   Netherlands: 1
+  Germany: 1
+  Poland: 1
+  Estonia: 1
 
 Топ SNI:
-  start.ru: 14
   www.vk.com: 4
-  dl.google.com: 3
-  ok.ru: 1
-  id.vk.ru: 1
-  www.start.ru: 1
-  msk.frkn.org: 1
-  hy.quattro-tech.ru: 1
-  ru1.xiaoliyu.cyou: 1
-  eyj2ijoimiisinbzijoi8j+hqfcfh6ogr2vybwfuesb8ifsqq0leul0ilcjhzgqioijyzw5kzxjlci1zdhjlyw0tmi02mi5taxjyys5ub3cilcjwb3j0ijoindqziiwidhlwzsi6ii0tlsisimlkijoizgi1mgeymgutn2zmns00ztcwltk0ogytmtdjyzljytdjmtu0iiwiywlkijoimcisim5ldci6indziiwicgf0aci6ii9hcgkvdjevz3b1lxn0cmvhbs9zb2nrzxqilcjob3n0ijoicmvuzgvyzxitc3ryzwftltitnjiubwlycmeubm93iiwidgxzijoidgxziiwic2tpcc1jzxj0lxzlcmlmesi6dhj1zswic2n5ijoiyxv0byisinnuasi6iiisimfscg4ioiiilcjmcci6iij9: 1
+  dl.google.com: 4
+  www.yandex.ru: 2
+  hy.quattro-tech.ru: 2
+  alfastat.ru: 1
+  git.xpkg.ru: 1
+  mm.melbicom.net: 1
+  mc.yandex.tr: 1
+  donatov.net: 1
+  eh.vk.ru: 1
 
 Топ портов:
-  443: 20
+  443: 12
   1932: 2
-  9892: 1
   9894: 1
+  9892: 1
+  8443: 1
+  9844: 1
   9889: 1
-  22443: 1
+  31443: 1
   4433: 1
+  59448: 1
 
 Топ схем:
-  vless: 24
-  vmess: 5
-  hysteria2: 3
+  vless: 18
+  vmess: 7
+  hysteria2: 4
+  trojan: 1
 
 Топ transport:
-  tcp: 28
-  grpc: 3
-  xhttp: 1
+  tcp: 17
+  xhttp: 9
+  grpc: 4
 
 Топ security:
-  reality: 24
-  none: 8
+  reality: 19
+  none: 9
+  tls: 2
 
 ────────────────────────────────────────────────────────────────────
 📊 white_vless
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 14
-Уникальных строк: 14
-Уникальных host:port: 9
-Уникальных backend: 14
-Anycast: 2
-Unknown country: 6
+Всего конфигов: 22
+Уникальных строк: 22
+Уникальных host:port: 15
+Уникальных backend: 21
+Anycast: 1
+Unknown country: 9
 
 Топ стран:
-  Unknown: 6
-  Russia: 3
-  Germany: 2
-  🌐 Anycast: 2
+  Unknown: 9
+  Russia: 8
+  Germany: 1
   Netherlands: 1
+  Poland: 1
+  Estonia: 1
+  🌐 Anycast: 1
 
 Топ SNI:
-  dl.google.com: 3
-  start.ru: 1
-  id.vk.ru: 1
-  www.start.ru: 1
+  dl.google.com: 4
+  hy.quattro-tech.ru: 2
+  donatov.net: 1
+  alfastat.ru: 1
+  mc.yandex.tr: 1
+  git.xpkg.ru: 1
+  mm.melbicom.net: 1
+  git.medrocket.ru: 1
+  www.google.com: 1
   ok.ru: 1
-  hy.quattro-tech.ru: 1
-  msk.frkn.org: 1
-  eyj2ijoimiisinbzijoilvcwpzqg3yegy5bwtpcfm7jgvitllskwlib8ifsqq0leul0ilcjhzgqioiiylji3lju0ljezmiisinbvcnqioii0ndmilcj0exblijoibm9uzsisimlkijoizgi1mgeymgutn2zmns00ztcwltk0ogytmtdjyzljytdjmtu0iiwiywlkijoimcisim5ldci6indziiwicgf0aci6ii9hcgkvdjevz3b1lxn0cmvhbs9zb2nrzxqilcjob3n0ijoicmvuzgvyzxitc3ryzwftltitnjiubwlycmeubm93iiwidgxzijoidgxziiwic2n5ijoiyxv0byisinnuasi6iiisimfscg4ioiiilcjmcci6iij9: 1
-  eyjhzgqioijyzw5kzxjlci1zdhjlyw0tmi02mi5taxjyys5ub3cilcjhawqioiiwiiwiywxwbii6imgylgh0dhavms4xiiwiznaioijjahjvbwuilcjob3n0ijoicmvuzgvyzxitc3ryzwftltitnjiubwlycmeubm93iiwiawqioijkyjuwytiwzs03zmy1ltrlnzatotq4zi0xn2njownhn2mxntqilcjuzxqioij3cyisinbhdggioiivyxbpl3yxl2dwds1zdhjlyw0vc29ja2v0iiwicg9ydci6ijq0myisinbzijoi8j+hqfcfh6ogr2vybwfuesb8ifsqq0leul0ilcjzy3kioijhdxrviiwic25pijoicmvuzgvyzxitc3ryzwftltitnjiubwlycmeubm93iiwidgxzijoidgxziiwidhlwzsi6im5vbmuilcj2ijoimij9: 1
-  eyjhzgqioijyzw5kzxjlci1zdhjlyw0tmi02mi5taxjyys5ub3cilcjhawqioiiwiiwiywxwbii6iiisimzwijoiy2hyb21liiwiag9zdci6iiisimlkijoizgi1mgeymgutn2zmns00ztcwltk0ogytmtdjyzljytdjmtu0iiwiaw5zzwn1cmuioiiwiiwibmv0ijoid3milcjwyxroijoil2fwas92ms9nchutc3ryzwftl3nvy2tldcisinbjcyi6iiisinbvcnqioii0ndmilcjwcyi6ii7wlqwuin2bimuw1rtwn5u44lyey5bcsc4gfcbbkknjrfjdiiwic2n5ijoiyxv0byisinnuasi6injlbmrlcmvylxn0cmvhbs0yltyylm1pcnjhlm5vdyisinrscyi6inrscyisinr5cguioiitls0ilcj2ijoimiisinzjbii6iiisinnraxaty2vydc12zxjpznkionrydwv9: 1
 
 Топ портов:
-  443: 5
-  9894: 1
+  443: 8
   9892: 1
+  9894: 1
+  9844: 1
+  31443: 1
   9889: 1
+  59448: 1
   22443: 1
 
 Топ схем:
-  vless: 7
-  vmess: 5
-  hysteria2: 2
+  vless: 12
+  vmess: 7
+  hysteria2: 3
 
 Топ transport:
-  tcp: 10
-  grpc: 3
-  xhttp: 1
+  tcp: 11
+  xhttp: 7
+  grpc: 4
 
 Топ security:
-  reality: 7
-  none: 7
+  reality: 12
+  none: 8
+  tls: 2
 
 ────────────────────────────────────────────────────────────────────
 📊 black_all
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 84
-Уникальных строк: 84
-Уникальных host:port: 37
-Уникальных backend: 73
-Anycast: 20
-Unknown country: 59
+Всего конфигов: 135
+Уникальных строк: 135
+Уникальных host:port: 27
+Уникальных backend: 125
+Anycast: 13
+Unknown country: 117
 
 Топ стран:
-  Unknown: 59
-  🌐 Anycast: 20
-  Netherlands: 3
+  Unknown: 117
+  🌐 Anycast: 13
   France: 1
+  Netherlands: 1
+  Germany: 1
+  Finland: 1
   Japan: 1
 
 Топ SNI:
   www.vk.com: 4
-  www.hp.com: 4
   www.bing.com: 4
-  css.rbxcdn.com: 3
+  eyj2ijoimiisinbzijoi8j+hs: 3
   www.yandex.ru: 2
-  web-production-711a78.up.railway.app: 2
-  www.paypal.com: 2
-  eyj2ijoimiisinbzijoi8j+hs: 2
-  dash.cloudflare.com: 1
-  w-mebel.pro: 1
+  w-mebel.pro: 2
+  css.rbxcdn.com: 2
+  cdn6-72.taobao.com: 1
+  accounts.fastly.com: 1
+  194.9.172.236: 1
+  www.paypal.com: 1
 
 Топ портов:
-  443: 14
-  50160: 6
+  443: 13
+  50160: 4
   1932: 2
-  64136: 1
+  2056: 2
   1105: 1
-  57305: 1
-  10016: 1
-  10033: 1
-  30521: 1
+  28708: 1
+  36723: 1
   2053: 1
+  2060: 1
+  11100: 1
 
 Топ схем:
-  vmess: 47
-  vless: 24
-  hysteria2: 10
-  trojan: 3
+  vmess: 108
+  hysteria2: 13
+  vless: 12
+  trojan: 2
 
 Топ transport:
-  tcp: 75
-  xhttp: 6
-  ws: 3
+  tcp: 130
+  xhttp: 5
 
 Топ security:
-  none: 57
-  reality: 21
-  tls: 6
+  none: 121
+  reality: 11
+  tls: 3
 
 ────────────────────────────────────────────────────────────────────
 📊 pool
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 113
-Уникальных строк: 113
-Уникальных host:port: 58
-Уникальных backend: 100
-Anycast: 23
-Unknown country: 66
+Всего конфигов: 150
+Уникальных строк: 150
+Уникальных host:port: 40
+Уникальных backend: 138
+Anycast: 17
+Unknown country: 116
 
 Топ стран:
-  Unknown: 66
-  🌐 Anycast: 23
-  Russia: 16
-  Netherlands: 4
+  Unknown: 116
+  🌐 Anycast: 17
+  Russia: 9
+  Netherlands: 2
   Germany: 2
-  Japan: 1
+  Estonia: 1
+  Poland: 1
   France: 1
+  Finland: 1
 
 Топ SNI:
-  start.ru: 14
-  www.vk.com: 4
-  www.hp.com: 4
-  www.bing.com: 4
-  dl.google.com: 3
-  css.rbxcdn.com: 3
-  msk.frkn.org: 2
-  www.paypal.com: 2
-  eyj2ijoimiisinbzijoi8j+hs: 2
-  www.yandex.ru: 2
+  www.vk.com: 5
+  dl.google.com: 4
+  www.yandex.ru: 4
+  eyj2ijoimiisinbzijoi8j+hs: 3
+  hy.quattro-tech.ru: 2
+  w-mebel.pro: 2
+  www.bing.com: 2
+  css.rbxcdn.com: 2
+  eyj2ijoimiisinbzijoi8j+hqfcfh6ogr2vybwfuesb8ifsqq0leul0ilcjhzgqioijyzw5kzxjlci1zdhjlyw0tmi02mi5taxjyys5ub3cilcjwb3j0ijoindqziiwidhlwzsi6ii0tlsisimlkijoizgi1mgeymgutn2zmns00ztcwltk0ogytmtdjyzljytdjmtu0iiwiywlkijoimcisim5ldci6indziiwicgf0aci6ii9hcgkvdjevz3b1lxn0cmvhbs9zb2nrzxqilcjob3n0ijoicmvuzgvyzxitc3ryzwftltitnjiubwlycmeubm93iiwidgxzijoidgxziiwic2tpcc1jzxj0lxzlcmlmesi6dhj1zswic2n5ijoiyxv0byisinnuasi6iiisimfscg4ioiiilcjmcci6iij9: 1
+  git.xpkg.ru: 1
 
 Топ портов:
-  443: 32
-  50160: 6
-  1932: 2
-  4433: 1
-  9894: 1
-  9892: 1
-  22443: 1
+  443: 21
+  1932: 4
+  2056: 2
+  50160: 2
   9889: 1
-  10032: 1
-  10766: 1
+  59448: 1
+  9894: 1
+  9844: 1
+  4433: 1
+  22443: 1
 
 Топ схем:
-  vmess: 53
-  vless: 44
-  hysteria2: 13
+  vmess: 106
+  vless: 27
+  hysteria2: 14
   trojan: 3
 
 Топ transport:
-  tcp: 100
-  xhttp: 7
-  grpc: 3
-  ws: 3
+  tcp: 132
+  xhttp: 14
+  grpc: 4
 
 Топ security:
-  none: 66
-  reality: 41
-  tls: 6
+  none: 118
+  reality: 27
+  tls: 5
 
 ────────────────────────────────────────────────────────────────────
 📊 mixed
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 42
-Уникальных строк: 42
-Уникальных host:port: 42
-Уникальных backend: 38
-Anycast: 15
-Unknown country: 7
+Всего конфигов: 22
+Уникальных строк: 22
+Уникальных host:port: 22
+Уникальных backend: 20
+Anycast: 7
+Unknown country: 5
 
 Топ стран:
-  Russia: 15
-  🌐 Anycast: 15
-  Unknown: 7
-  Netherlands: 3
-  Germany: 2
+  Russia: 7
+  🌐 Anycast: 7
+  Unknown: 5
+  Germany: 1
+  Poland: 1
+  Netherlands: 1
 
 Топ SNI:
-  start.ru: 14
-  www.hp.com: 4
-  dl.google.com: 3
+  dl.google.com: 4
   www.vk.com: 2
-  www.paypal.com: 2
   www.yandex.ru: 2
-  web-production-711a78.up.railway.app: 2
-  www.start.ru: 1
-  ok.ru: 1
-  id.vk.ru: 1
+  w-mebel.pro: 2
+  www.google.com: 1
+  git.medrocket.ru: 1
+  git.xpkg.ru: 1
+  donatov.net: 1
+  mc.yandex.tr: 1
+  mm.melbicom.net: 1
 
 Топ портов:
-  443: 26
-  9894: 1
+  443: 14
+  1932: 2
+  31443: 1
   9892: 1
-  1932: 1
+  9844: 1
+  9894: 1
   9889: 1
-  64136: 1
-  57305: 1
-  10766: 1
-  30521: 1
-  10031: 1
+  28708: 1
 
 Топ схем:
-  vless: 42
+  vless: 22
 
 Топ transport:
-  tcp: 30
-  xhttp: 7
-  grpc: 3
-  ws: 2
+  xhttp: 12
+  tcp: 6
+  grpc: 4
 
 Топ security:
-  reality: 39
-  tls: 3
+  reality: 21
+  tls: 1
 
 ────────────────────────────────────────────────────────────────────
 📊 lte
@@ -447,42 +474,51 @@ Unknown country: 7
 Всего конфигов: 25
 Уникальных строк: 25
 Уникальных host:port: 25
-Уникальных backend: 21
+Уникальных backend: 23
 Anycast: 7
-Unknown country: 0
+Unknown country: 6
 
 Топ стран:
-  Russia: 14
+  Russia: 8
   🌐 Anycast: 7
-  Netherlands: 2
-  Germany: 2
+  Unknown: 6
+  Netherlands: 1
+  Germany: 1
+  Poland: 1
+  France: 1
 
 Топ SNI:
-  start.ru: 13
+  dl.google.com: 4
   www.yandex.ru: 2
-  web-production-711a78.up.railway.app: 2
   www.vk.com: 2
-  ok.ru: 1
+  w-mebel.pro: 2
   accounts.fastly.com: 1
-  w-mebel.pro: 1
-  google-analytics.com: 1
-  www.start.ru: 1
-  dl.google.com: 1
+  mc.yandex.tr: 1
+  git.xpkg.ru: 1
+  alfastat.ru: 1
+  donatov.net: 1
+  mm.melbicom.net: 1
 
 Топ портов:
-  443: 22
-  1932: 1
-  57305: 1
+  443: 15
+  1932: 2
+  9894: 1
   9892: 1
+  9844: 1
+  8443: 1
+  28708: 1
+  1105: 1
+  9889: 1
+  31443: 1
 
 Топ схем:
-  vless: 25
+  vless: 22
+  trojan: 3
 
 Топ transport:
-  tcp: 16
-  xhttp: 6
-  ws: 2
-  grpc: 1
+  xhttp: 12
+  tcp: 9
+  grpc: 4
 
 Топ security:
   reality: 22
@@ -491,69 +527,71 @@ Unknown country: 0
 ====================================================================
 🌍 GLOBAL SUMMARY
 ====================================================================
-Всего конфигов: 310
-Уникальных строк: 118
-Уникальных host:port: 60
-Уникальных backend: 100
-Anycast: 72
-Unknown country: 144
+Всего конфигов: 384
+Уникальных строк: 166
+Уникальных host:port: 45
+Уникальных backend: 148
+Anycast: 52
+Unknown country: 262
 
 Топ стран:
-  Unknown: 144
-  🌐 Anycast: 72
-  Russia: 66
-  Netherlands: 14
-  Germany: 10
-  France: 2
-  Japan: 2
+  Unknown: 262
+  🌐 Anycast: 52
+  Russia: 42
+  Netherlands: 7
+  Germany: 7
+  Poland: 5
+  Estonia: 3
+  France: 3
+  Finland: 2
+  Japan: 1
 
 Топ SNI:
-  start.ru: 56
-  www.vk.com: 16
-  dl.google.com: 13
-  www.hp.com: 12
-  www.yandex.ru: 8
-  web-production-711a78.up.railway.app: 8
-  www.bing.com: 8
-  www.paypal.com: 6
-  css.rbxcdn.com: 6
+  dl.google.com: 20
+  www.vk.com: 17
+  www.yandex.ru: 12
+  w-mebel.pro: 8
+  hy.quattro-tech.ru: 6
+  www.bing.com: 6
+  eyj2ijoimiisinbzijoi8j+hs: 6
+  alfastat.ru: 5
+  git.xpkg.ru: 5
+  mm.melbicom.net: 5
+  mc.yandex.tr: 5
+  donatov.net: 5
+  git.medrocket.ru: 5
+  www.google.com: 5
   ok.ru: 5
-  www.start.ru: 5
-  msk.frkn.org: 5
-  id.vk.ru: 4
-  w-mebel.pro: 4
-  google-analytics.com: 4
 
 Топ портов:
-  443: 119
-  50160: 12
-  1932: 8
+  443: 83
+  1932: 12
+  50160: 6
+  9894: 5
   9892: 5
-  9894: 4
-  9889: 4
-  57305: 4
+  9844: 5
+  9889: 5
+  31443: 5
+  28708: 4
+  2056: 4
+  8443: 3
+  59448: 3
   22443: 3
-  64136: 3
-  10016: 3
-  10033: 3
-  30521: 3
-  40514: 3
-  23974: 3
-  50715: 3
+  1105: 3
+  4433: 2
 
 Топ схем:
-  vless: 166
-  vmess: 110
-  hysteria2: 28
-  trojan: 6
+  vmess: 228
+  vless: 113
+  hysteria2: 34
+  trojan: 9
 
 Топ transport:
-  tcp: 259
-  xhttp: 28
-  grpc: 13
-  ws: 10
+  tcp: 305
+  xhttp: 59
+  grpc: 20
 
 Топ security:
-  reality: 154
-  none: 138
-  tls: 18
+  none: 256
+  reality: 112
+  tls: 16
