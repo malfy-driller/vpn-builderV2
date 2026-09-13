@@ -1,5 +1,5 @@
 VPN Builder stats summary
-Generated at: 2026-09-13 01:50:27 MSK
+Generated at: 2026-09-13 03:31:49 MSK
 
 ====================================================================
 RAW GROUPS
@@ -8,172 +8,174 @@ RAW GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 95
-Уникальных строк: 82
-Уникальных host:port: 13
-Уникальных backend: 26
-Anycast: 4
-Unknown country: 27
+Всего конфигов: 121
+Уникальных строк: 100
+Уникальных host:port: 15
+Уникальных backend: 27
+Anycast: 3
+Unknown country: 42
 
 Топ стран:
-  Unknown: 27
-  Russia: 26
+  Unknown: 42
+  Russia: 36
   Czechia: 15
-  Germany: 9
-  Switzerland: 9
+  Switzerland: 11
+  Germany: 10
   Kazakhstan: 4
-  🌐 Anycast: 4
-  Finland: 1
+  🌐 Anycast: 3
 
 Топ SNI:
-  ok.ru: 26
-  dl.google.com: 21
-  static-basket-01.wbbasket.ru: 9
+  ok.ru: 42
+  dl.google.com: 26
+  static-basket-01.wbbasket.ru: 10
+  download.nvidia.com: 7
   dl.dell.com: 4
-  download.nvidia.com: 4
+  posa6.api3-max.ru: 3
   posa7.api3-max.ru: 3
+  posa8.api3-max.ru: 3
   posa9.api3-max.ru: 3
-  vk.ru: 3
-  fin.sdssh-vid.online: 3
-  posa6.api3-max.ru: 2
+  fin.sdssh-vid.online: 2
 
 Топ портов:
-  443: 54
-  9891: 12
-  9882: 9
-  8443: 4
-  8446: 3
+  443: 72
+  9891: 15
+  9882: 11
+  8443: 8
+  24443: 1
+  22443: 1
 
 Топ схем:
-  vless: 80
+  vless: 105
   vmess: 13
-  hysteria2: 2
+  hysteria2: 3
 
 Топ transport:
-  grpc: 37
-  xhttp: 33
-  tcp: 25
+  xhttp: 49
+  grpc: 42
+  tcp: 28
+  raw: 2
 
 Топ security:
-  reality: 67
-  none: 15
-  tls: 13
+  reality: 91
+  none: 16
+  tls: 14
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_vless
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 82
-Уникальных строк: 82
-Уникальных host:port: 13
+Всего конфигов: 98
+Уникальных строк: 98
+Уникальных host:port: 14
 Уникальных backend: 26
-Anycast: 4
-Unknown country: 27
+Anycast: 3
+Unknown country: 37
 
 Топ стран:
-  Unknown: 27
+  Unknown: 37
+  Russia: 18
   Czechia: 15
-  Russia: 13
-  Germany: 9
-  Switzerland: 9
+  Switzerland: 11
+  Germany: 10
   Kazakhstan: 4
-  🌐 Anycast: 4
-  Finland: 1
+  🌐 Anycast: 3
 
 Топ SNI:
-  dl.google.com: 21
-  ok.ru: 13
-  static-basket-01.wbbasket.ru: 9
+  dl.google.com: 26
+  ok.ru: 21
+  static-basket-01.wbbasket.ru: 10
+  download.nvidia.com: 7
   dl.dell.com: 4
-  download.nvidia.com: 4
+  posa6.api3-max.ru: 3
   posa7.api3-max.ru: 3
+  posa8.api3-max.ru: 3
   posa9.api3-max.ru: 3
-  vk.ru: 3
-  fin.sdssh-vid.online: 3
-  posa6.api3-max.ru: 2
+  fin.sdssh-vid.online: 2
 
 Топ портов:
-  443: 41
-  9891: 12
-  9882: 9
-  8443: 4
-  8446: 3
+  443: 51
+  9891: 15
+  9882: 11
+  8443: 6
+  24443: 1
+  22443: 1
 
 Топ схем:
-  vless: 67
+  vless: 82
   vmess: 13
-  hysteria2: 2
+  hysteria2: 3
 
 Топ transport:
-  grpc: 37
-  tcp: 25
-  xhttp: 20
+  grpc: 42
+  tcp: 28
+  xhttp: 28
 
 Топ security:
-  reality: 54
-  none: 15
-  tls: 13
+  reality: 68
+  none: 16
+  tls: 14
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW black_all
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 441
-Уникальных строк: 299
-Уникальных host:port: 80
-Уникальных backend: 163
-Anycast: 105
-Unknown country: 211
+Всего конфигов: 454
+Уникальных строк: 310
+Уникальных host:port: 88
+Уникальных backend: 147
+Anycast: 128
+Unknown country: 187
 
 Топ стран:
-  Unknown: 211
-  🌐 Anycast: 105
-  United States: 67
-  Finland: 10
-  Poland: 10
-  Germany: 9
-  Netherlands: 7
-  Estonia: 6
-  Russia: 6
+  Unknown: 187
+  🌐 Anycast: 128
+  United States: 71
+  Germany: 16
+  Netherlands: 13
+  Finland: 11
+  Poland: 8
+  Russia: 5
+  Estonia: 4
   France: 4
 
 Топ SNI:
-  download.nvidia.com: 42
-  www.tesla.com: 38
-  www.intel.com: 27
-  dl.kaspersky.com: 22
+  download.nvidia.com: 46
+  www.tesla.com: 39
+  www.intel.com: 31
+  dl.kaspersky.com: 24
   www.epson.com: 21
   yidio.com: 20
-  www.sony.com: 14
-  roma2.moritech.net: 10
-  www.hp.com: 8
-  www.canon.com: 8
+  www.sony.com: 19
+  roma2.moritech.net: 14
+  www.hp.com: 10
+  pol2.pinkmoon.pro: 8
 
 Топ портов:
-  443: 154
-  8443: 69
+  443: 175
+  8443: 77
+  53734: 12
   32833: 10
-  53734: 10
   42942: 10
-  41688: 8
-  50160: 8
-  6443: 7
-  53271: 7
-  24146: 7
+  43840: 9
+  22746: 8
+  41688: 7
+  50160: 7
+  28573: 6
 
 Топ схем:
-  vless: 312
-  vmess: 105
-  hysteria2: 24
+  vless: 363
+  vmess: 70
+  hysteria2: 21
 
 Топ transport:
-  tcp: 313
-  grpc: 62
-  xhttp: 61
-  raw: 5
+  tcp: 294
+  xhttp: 74
+  grpc: 72
+  raw: 8
+  ws: 6
 
 Топ security:
-  reality: 254
-  none: 129
-  tls: 58
+  reality: 292
+  none: 92
+  tls: 70
 
 ====================================================================
 FINAL GROUPS
@@ -182,109 +184,110 @@ FINAL GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 26
-Уникальных строк: 26
-Уникальных host:port: 13
-Уникальных backend: 26
-Anycast: 1
-Unknown country: 18
+Всего конфигов: 28
+Уникальных строк: 28
+Уникальных host:port: 15
+Уникальных backend: 27
+Anycast: 2
+Unknown country: 20
 
 Топ стран:
-  Unknown: 18
-  Czechia: 2
-  Kazakhstan: 1
+  Unknown: 20
+  Russia: 2
+  🌐 Anycast: 2
   Germany: 1
-  Russia: 1
+  Kazakhstan: 1
   Switzerland: 1
-  Finland: 1
-  🌐 Anycast: 1
+  Czechia: 1
 
 Топ SNI:
   dl.google.com: 2
-  dl.dell.com: 1
+  hy.quattro-tech.ru: 2
   static-basket-01.wbbasket.ru: 1
-  ok.ru: 1
-  fin.sdssh-vid.online: 1
-  vk.ru: 1
-  posa8.api3-max.ru: 1
-  posa6.api3-max.ru: 1
-  posa9.api3-max.ru: 1
+  dl.dell.com: 1
   posa7.api3-max.ru: 1
+  posa9.api3-max.ru: 1
+  posa6.api3-max.ru: 1
+  posa8.api3-max.ru: 1
+  download.nvidia.com: 1
+  ok.ru: 1
 
 Топ портов:
   443: 9
-  8443: 1
+  8443: 2
   9882: 1
-  8446: 1
   9891: 1
+  22443: 1
+  24443: 1
 
 Топ схем:
   vmess: 13
   vless: 12
-  hysteria2: 1
+  hysteria2: 3
 
 Топ transport:
-  tcp: 18
-  grpc: 5
+  tcp: 20
+  grpc: 4
   xhttp: 3
+  raw: 1
 
 Топ security:
-  none: 14
+  none: 16
   reality: 7
   tls: 5
 
 ────────────────────────────────────────────────────────────────────
 📊 white_vless
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 26
-Уникальных строк: 26
-Уникальных host:port: 13
+Всего конфигов: 27
+Уникальных строк: 27
+Уникальных host:port: 14
 Уникальных backend: 26
-Anycast: 1
-Unknown country: 18
+Anycast: 2
+Unknown country: 20
 
 Топ стран:
-  Unknown: 18
-  Czechia: 2
-  Kazakhstan: 1
+  Unknown: 20
+  🌐 Anycast: 2
   Germany: 1
-  Finland: 1
+  Kazakhstan: 1
   Switzerland: 1
+  Czechia: 1
   Russia: 1
-  🌐 Anycast: 1
 
 Топ SNI:
   dl.google.com: 2
-  dl.dell.com: 1
+  hy.quattro-tech.ru: 2
   static-basket-01.wbbasket.ru: 1
-  fin.sdssh-vid.online: 1
+  dl.dell.com: 1
   posa7.api3-max.ru: 1
-  posa9.api3-max.ru: 1
   posa8.api3-max.ru: 1
+  posa9.api3-max.ru: 1
   posa6.api3-max.ru: 1
-  vk.ru: 1
+  ok.ru: 1
   download.nvidia.com: 1
 
 Топ портов:
   443: 9
   8443: 1
-  9891: 1
   9882: 1
-  8446: 1
+  9891: 1
+  22443: 1
+  24443: 1
 
 Топ схем:
   vmess: 13
-  vless: 12
-  hysteria2: 1
+  vless: 11
+  hysteria2: 3
 
 Топ transport:
-  tcp: 18
-  grpc: 5
+  tcp: 20
+  grpc: 4
   xhttp: 3
 
 Топ security:
-  none: 14
-  reality: 7
+  none: 16
+  reality: 6
   tls: 5
 
 ────────────────────────────────────────────────────────────────────
@@ -292,124 +295,126 @@ Unknown country: 18
 ────────────────────────────────────────────────────────────────────
 Всего конфигов: 140
 Уникальных строк: 140
-Уникальных host:port: 75
-Уникальных backend: 138
-Anycast: 23
-Unknown country: 87
+Уникальных host:port: 83
+Уникальных backend: 133
+Anycast: 28
+Unknown country: 84
 
 Топ стран:
-  Unknown: 87
-  🌐 Anycast: 23
+  Unknown: 84
+  🌐 Anycast: 28
+  Germany: 6
   United States: 6
-  Netherlands: 4
-  Germany: 4
+  Netherlands: 5
   Finland: 4
-  Russia: 2
-  France: 2
-  Estonia: 2
-  Poland: 2
+  France: 1
+  Russia: 1
+  Kazakhstan: 1
+  Estonia: 1
 
 Топ SNI:
-  download.nvidia.com: 7
+  download.nvidia.com: 9
   www.tesla.com: 6
   www.intel.com: 4
   www.sony.com: 3
+  pol2.pinkmoon.pro: 3
   apple.com: 2
-  www.epson.com: 2
-  apitw3.goonars.com: 2
+  sstats.vk-portal.net: 2
   aws.amazon.com: 2
   www.bing.com: 2
-  posa8.api3-max.ru: 1
+  roma1.moritech.net: 2
 
 Топ портов:
-  443: 35
-  8443: 11
-  50160: 2
-  2056: 2
+  443: 39
+  8443: 12
+  50160: 3
+  4443: 1
   32132: 1
   43580: 1
-  2095: 1
+  18493: 1
   6543: 1
-  51847: 1
-  32833: 1
+  42942: 1
+  45292: 1
 
 Топ схем:
-  vmess: 65
-  vless: 64
-  hysteria2: 11
+  vless: 74
+  vmess: 57
+  hysteria2: 9
 
 Топ transport:
-  tcp: 120
-  xhttp: 12
-  grpc: 7
+  tcp: 112
+  xhttp: 16
+  grpc: 9
+  ws: 2
   raw: 1
 
 Топ security:
-  none: 76
-  reality: 46
-  tls: 18
+  none: 67
+  reality: 52
+  tls: 21
 
 ────────────────────────────────────────────────────────────────────
 📊 pool
 ────────────────────────────────────────────────────────────────────
 Всего конфигов: 150
 Уникальных строк: 150
-Уникальных host:port: 79
-Уникальных backend: 146
-Anycast: 20
+Уникальных host:port: 85
+Уникальных backend: 142
+Anycast: 25
 Unknown country: 96
 
 Топ стран:
   Unknown: 96
-  🌐 Anycast: 20
-  Germany: 5
-  Finland: 5
-  United States: 5
-  Netherlands: 3
-  Czechia: 2
-  Russia: 2
+  🌐 Anycast: 25
+  Germany: 7
+  United States: 6
+  Netherlands: 4
+  Russia: 3
   Kazakhstan: 2
-  France: 2
+  Switzerland: 1
+  Czechia: 1
+  Poland: 1
 
 Топ SNI:
-  download.nvidia.com: 8
-  www.tesla.com: 6
-  www.intel.com: 3
+  download.nvidia.com: 9
+  www.tesla.com: 4
+  www.intel.com: 4
+  dl.google.com: 3
   www.sony.com: 3
-  dl.google.com: 2
   dl.dell.com: 2
-  apple.com: 2
-  apitw3.goonars.com: 2
-  aws.amazon.com: 2
-  www.epson.com: 2
+  hy.quattro-tech.ru: 2
+  xn--80ajghhoc2aj1c8b.xn--p1ai: 2
+  roma1.moritech.net: 2
+  www.bing.com: 2
 
 Топ портов:
-  443: 40
-  8443: 12
-  2056: 2
-  50160: 2
-  8446: 1
-  9891: 1
+  443: 41
+  8443: 14
+  50160: 3
   9882: 1
-  32132: 1
-  24146: 1
-  44848: 1
+  24443: 1
+  9891: 1
+  22443: 1
+  6443: 1
+  2053: 1
+  56109: 1
 
 Топ схем:
-  vless: 70
-  vmess: 69
+  vless: 76
+  vmess: 63
   hysteria2: 11
 
 Топ transport:
-  tcp: 123
-  xhttp: 14
-  grpc: 12
-  raw: 1
+  tcp: 118
+  xhttp: 15
+  grpc: 13
+  raw: 2
+  ws: 2
 
 Топ security:
-  none: 80
+  none: 75
   reality: 50
-  tls: 20
+  tls: 25
 
 ────────────────────────────────────────────────────────────────────
 📊 mixed
@@ -417,57 +422,59 @@ Unknown country: 96
 Всего конфигов: 60
 Уникальных строк: 60
 Уникальных host:port: 58
-Уникальных backend: 57
-Anycast: 13
-Unknown country: 23
+Уникальных backend: 56
+Anycast: 17
+Unknown country: 21
 
 Топ стран:
-  Unknown: 23
-  🌐 Anycast: 13
-  Finland: 3
-  Germany: 3
-  United States: 3
-  Czechia: 2
-  Russia: 2
+  Unknown: 21
+  🌐 Anycast: 17
+  Germany: 7
+  United States: 4
+  Netherlands: 3
   Kazakhstan: 2
-  Netherlands: 2
-  Poland: 2
+  Czechia: 1
+  Russia: 1
+  Switzerland: 1
+  Poland: 1
 
 Топ SNI:
   download.nvidia.com: 7
-  www.intel.com: 3
-  www.sony.com: 3
-  www.tesla.com: 3
-  dl.google.com: 2
+  www.tesla.com: 4
+  dl.google.com: 3
+  xn--80ajghhoc2aj1c8b.xn--p1ai: 2
   dl.dell.com: 2
-  www.epson.com: 2
-  apitw3.goonars.com: 2
-  posa6.api3-max.ru: 1
-  ok.ru: 1
+  apple.com: 2
+  pol2.pinkmoon.pro: 2
+  www.sony.com: 2
+  www.intel.com: 2
+  roma1.moritech.net: 2
 
 Топ портов:
-  443: 36
+  443: 34
   8443: 9
   9891: 1
   9882: 1
-  8446: 1
+  25809: 1
+  43580: 1
+  43840: 1
+  44848: 1
+  11690: 1
   32833: 1
-  24146: 1
-  28573: 1
-  6443: 1
-  6543: 1
 
 Топ схем:
   vless: 60
 
 Топ transport:
-  tcp: 35
-  xhttp: 14
-  grpc: 11
+  tcp: 33
+  xhttp: 13
+  grpc: 10
+  raw: 2
+  ws: 2
 
 Топ security:
-  reality: 41
-  tls: 19
+  reality: 39
+  tls: 21
 
 ────────────────────────────────────────────────────────────────────
 📊 lte
@@ -475,125 +482,130 @@ Unknown country: 23
 Всего конфигов: 25
 Уникальных строк: 25
 Уникальных host:port: 25
-Уникальных backend: 25
-Anycast: 3
-Unknown country: 1
+Уникальных backend: 24
+Anycast: 5
+Unknown country: 3
 
 Топ стран:
+  Germany: 6
+  🌐 Anycast: 5
   United States: 4
-  Germany: 3
-  🌐 Anycast: 3
   Netherlands: 3
-  France: 2
-  Finland: 2
-  Poland: 2
-  Estonia: 2
-  Unknown: 1
+  Unknown: 3
+  Poland: 1
   Russia: 1
+  Kazakhstan: 1
+  Switzerland: 1
 
 Топ SNI:
+  download.nvidia.com: 3
   apple.com: 2
-  download.nvidia.com: 2
-  www.epson.com: 2
-  kama1.api3-max.ru: 1
-  kama4.api3-max.ru: 1
+  dl.google.com: 2
+  ned-01.letsgodance.site: 1
   ger-02.letsgodance.site: 1
-  fin.sdssh-vid.online: 1
+  et-ger.letsgodance.site: 1
+  maps.apple.com: 1
   www.sony.com: 1
-  sstats.vk-portal.net: 1
-  uk-01.letsgodance.site: 1
+  accounts.fastly.com: 1
+  nl-1.lunoa.ru: 1
 
 Топ портов:
-  443: 18
+  443: 14
   8443: 5
   43580: 1
   32132: 1
+  4443: 1
+  25809: 1
+  9882: 1
+  2000: 1
 
 Топ схем:
   vless: 25
 
 Топ transport:
-  tcp: 11
-  xhttp: 10
-  grpc: 4
+  xhttp: 11
+  grpc: 7
+  tcp: 5
+  ws: 2
 
 Топ security:
-  reality: 16
-  tls: 9
+  tls: 13
+  reality: 12
 
 ====================================================================
 🌍 GLOBAL SUMMARY
 ====================================================================
-Всего конфигов: 427
-Уникальных строк: 168
-Уникальных host:port: 84
-Уникальных backend: 161
-Anycast: 61
-Unknown country: 243
+Всего конфигов: 430
+Уникальных строк: 170
+Уникальных host:port: 94
+Уникальных backend: 157
+Anycast: 79
+Unknown country: 244
 
 Топ стран:
-  Unknown: 243
-  🌐 Anycast: 61
-  United States: 18
-  Germany: 17
-  Finland: 16
-  Netherlands: 12
+  Unknown: 244
+  🌐 Anycast: 79
+  Germany: 28
+  United States: 20
+  Netherlands: 15
   Russia: 9
   Kazakhstan: 8
-  Czechia: 8
-  France: 8
-  Estonia: 8
-  Poland: 8
-  Switzerland: 4
+  Switzerland: 5
+  Finland: 5
+  Czechia: 4
+  Poland: 4
+  Estonia: 3
   Lithuania: 3
-  Israel: 2
+  Japan: 2
+  France: 1
 
 Топ SNI:
-  download.nvidia.com: 26
-  www.tesla.com: 15
-  www.sony.com: 10
+  download.nvidia.com: 30
+  www.tesla.com: 14
+  dl.google.com: 13
   www.intel.com: 10
+  www.sony.com: 9
   dl.dell.com: 8
-  dl.google.com: 8
-  www.epson.com: 8
-  apple.com: 7
-  posa8.api3-max.ru: 6
-  apitw3.goonars.com: 6
+  apple.com: 8
+  pol2.pinkmoon.pro: 7
+  xn--80ajghhoc2aj1c8b.xn--p1ai: 6
+  hy.quattro-tech.ru: 6
+  roma1.moritech.net: 6
   static-basket-01.wbbasket.ru: 5
+  posa7.api3-max.ru: 5
+  posa9.api3-max.ru: 5
   fin.sdssh-vid.online: 5
-  aws.amazon.com: 5
-  ok.ru: 4
-  vk.ru: 4
 
 Топ портов:
-  443: 147
-  8443: 39
-  9882: 4
-  8446: 4
+  443: 146
+  8443: 43
+  50160: 6
+  9882: 5
   9891: 4
+  4443: 4
   32132: 4
-  50160: 4
-  2056: 4
-  43580: 3
-  6543: 3
-  51847: 3
-  32833: 3
-  6443: 3
-  28573: 3
+  43580: 4
+  25809: 4
+  2000: 4
+  22443: 3
+  24443: 3
+  18493: 3
   42942: 3
+  32833: 3
 
 Топ схем:
-  vless: 243
-  vmess: 160
-  hysteria2: 24
+  vless: 258
+  vmess: 146
+  hysteria2: 26
 
 Топ transport:
-  tcp: 325
-  xhttp: 56
-  grpc: 44
-  raw: 2
+  tcp: 308
+  xhttp: 61
+  grpc: 47
+  ws: 8
+  raw: 6
 
 Топ security:
-  none: 184
-  reality: 167
-  tls: 76
+  none: 174
+  reality: 166
+  tls: 90
