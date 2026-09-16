@@ -1,5 +1,5 @@
 VPN Builder stats summary
-Generated at: 2026-09-16 09:08:48 MSK
+Generated at: 2026-09-16 14:47:28 MSK
 
 ====================================================================
 RAW GROUPS
@@ -8,169 +8,170 @@ RAW GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 65
-Уникальных строк: 65
-Уникальных host:port: 15
-Уникальных backend: 18
-Anycast: 30
-Unknown country: 8
+Всего конфигов: 90
+Уникальных строк: 86
+Уникальных host:port: 22
+Уникальных backend: 26
+Anycast: 63
+Unknown country: 18
 
 Топ стран:
-  🌐 Anycast: 30
-  Russia: 12
-  Lithuania: 10
-  Unknown: 8
-  Netherlands: 5
+  🌐 Anycast: 63
+  Unknown: 18
+  Switzerland: 4
+  Russia: 4
+  Netherlands: 1
 
 Топ SNI:
-  max.ru: 10
-  lt26.cdnfern.org: 10
-  cdn.dachniy-vopros.org: 10
-  rutube.ru: 10
-  dailycanvas.sysopnova.art: 5
-  ru4.lebedvpn.cc: 5
-  hy.quattro-tech.ru: 3
-  queuev4.vk.com: 2
-  ru1.xiaoliyu.cyou: 1
-  els1.mangshe.xyz: 1
+  id.vk.com: 17
+  fuckyourmather.ookcdn.ru: 9
+  max.ru: 8
+  idinah1.ookcdn.ru: 8
+  cdns9.ookcdn.ru: 5
+  cdn-tw-msk-mishka.attention-game.ru: 4
+  dl.google.com: 4
+  ru4.lebedvpn.cc: 4
+  ultimate.warriorofblacksun.run: 4
+  donatov.net: 4
 
 Топ портов:
-  443: 36
-  8443: 15
-  22443: 2
-  8088: 2
-  24443: 1
+  443: 55
+  448: 14
+  9882: 4
+  2053: 4
+  22443: 3
+  2056: 2
   4433: 1
-  2056: 1
+  24443: 1
 
 Топ схем:
-  vless: 52
-  vmess: 7
-  hysteria2: 6
+  vless: 61
+  trojan: 14
+  hysteria2: 9
+  vmess: 6
 
 Топ transport:
-  xhttp: 35
-  tcp: 18
-  ws: 12
+  grpc: 43
+  xhttp: 28
+  tcp: 19
 
 Топ security:
-  tls: 26
-  reality: 25
+  reality: 57
+  tls: 19
   none: 14
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_vless
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 51
-Уникальных строк: 51
-Уникальных host:port: 10
-Уникальных backend: 14
-Anycast: 26
-Unknown country: 8
+Всего конфигов: 78
+Уникальных строк: 78
+Уникальных host:port: 19
+Уникальных backend: 21
+Anycast: 59
+Unknown country: 14
 
 Топ стран:
-  🌐 Anycast: 26
-  Lithuania: 10
-  Unknown: 8
-  Netherlands: 5
-  Russia: 2
+  🌐 Anycast: 59
+  Unknown: 14
+  Switzerland: 4
+  Netherlands: 1
 
 Топ SNI:
-  max.ru: 10
-  lt26.cdnfern.org: 10
-  cdn.dachniy-vopros.org: 10
-  dailycanvas.sysopnova.art: 5
-  ru4.lebedvpn.cc: 5
-  hy.quattro-tech.ru: 3
-  msk.frkn.org: 1
-  eyjhzgqioii1lje4oc4yni44nsisimfpzci6ijailcjob3n0ijoicmvuzgvyzxitc3ryzwftltitnjiubwlycmeubm93iiwiawqioijkyjuwytiwzs03zmy1ltrlnzatotq4zi0xn2njownhn2mxntqilcjuzxqioij3cyisinbhdggioiivyxbpl3yxl2dwds1zdhjlyw0vc29ja2v0iiwicg9ydci6ijq0myisinbzijoi8j+hqfcfh6ogr2vybwfuesbbkknjrfjdiiwic2vjdxjpdhkioijhdxrviiwic2tpcc1jzxj0lxzlcmlmesi6dhj1zswic25pijoiiiwidgxzijoidgxziiwidhlwzsi6imf1dg8ilcj2ijoimiisinnjesi6imf1dg8ilcjhbhbuijoiiiwiznaioiiifq==: 1
-  eyjhzgqioii1lje4oc4yni44nsisimfpzci6ijailcjob3n0ijoicmvuzgvyzxitc3ryzwftltitnjiubwlycmeubm93iiwiawqioijkyjuwytiwzs03zmy1ltrlnzatotq4zi0xn2njownhn2mxntqilcjuzxqioij3cyisinbhdggioiivyxbpl3yxl2dwds1zdhjlyw0vc29ja2v0iiwicg9ydci6ijq0myisinbzijoi8j+hqfcfh6ogr2vybwfuesbbkknjrfjdiiwidgxzijoidgxziiwidhlwzsi6imf1dg8ilcjzzwn1cml0esi6imf1dg8ilcjza2lwlwnlcnqtdmvyawz5ijpmywxzzswic25pijoicmvuzgvyzxitc3ryzwftltitnjiubwlycmeubm93iiwidii6ijiilcjzy3kioijhdxrviiwiywxwbii6iiisimzwijoiin0=: 1
-  eyjhzgqioijyzw5kzxjlci1zdhjlyw0tmi02mi5taxjyys5ub3cilcjhawqioiiwiiwiywxwbii6iiisimzwijoiiiwiag9zdci6injlbmrlcmvylxn0cmvhbs0yltyylm1pcnjhlm5vdyisimlkijoizgi1mgeymgutn2zmns00ztcwltk0ogytmtdjyzljytdjmtu0iiwiaw5zzwn1cmuioiiwiiwibmv0ijoid3milcjwyxroijoil2fwas92ms9nchutc3ryzwftl3nvy2tldcisinbjcyi6iiisinbvcnqioii0ndmilcjwcyi6ivcfh6nwn4eqiedlcm1hbnkgwypdsursxsisinnjesi6imf1dg8ilcjzbmkioiiilcj0bhmioij0bhmilcj0exblijoils0tiiwidii6ijiilcj2y24ioiiifq==: 1
+  id.vk.com: 17
+  fuckyourmather.ookcdn.ru: 9
+  idinah1.ookcdn.ru: 8
+  cdns9.ookcdn.ru: 5
+  max.ru: 4
+  cdn-tw-msk-mishka.attention-game.ru: 4
+  dl.google.com: 4
+  ru4.lebedvpn.cc: 4
+  ultimate.warriorofblacksun.run: 4
+  donatov.net: 4
 
 Топ портов:
-  443: 36
-  8443: 5
+  443: 47
+  448: 14
+  9882: 4
+  2053: 4
   22443: 2
   24443: 1
 
 Топ схем:
-  vless: 40
-  vmess: 7
-  hysteria2: 4
+  vless: 53
+  trojan: 14
+  vmess: 6
+  hysteria2: 5
 
 Топ transport:
-  xhttp: 25
-  tcp: 16
-  ws: 10
+  grpc: 43
+  xhttp: 24
+  tcp: 11
 
 Топ security:
-  tls: 26
-  reality: 15
+  reality: 49
+  tls: 19
   none: 10
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW black_all
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 539
-Уникальных строк: 405
-Уникальных host:port: 74
-Уникальных backend: 152
-Anycast: 371
-Unknown country: 110
+Всего конфигов: 427
+Уникальных строк: 288
+Уникальных host:port: 43
+Уникальных backend: 69
+Anycast: 318
+Unknown country: 73
 
 Топ стран:
-  🌐 Anycast: 371
-  Unknown: 110
-  United States: 22
-  Netherlands: 16
-  Germany: 8
-  Lithuania: 5
-  Finland: 3
-  Bulgaria: 2
-  France: 1
+  🌐 Anycast: 318
+  Unknown: 73
+  Japan: 23
+  United States: 5
+  Germany: 4
+  Finland: 2
   Israel: 1
+  Netherlands: 1
 
 Топ SNI:
-  www.yahoo.com: 266
-  www.intel.com: 23
-  askuhgfdsg.space.coupons: 15
-  www.tesla.com: 15
-  www.sony.com: 10
-  cdn.steamstatic.com: 9
-  www.bing.com: 8
-  accounts.fastly.com: 6
-  sync-01.omarchyguidline.cyou: 6
-  www.philips.com: 6
+  www.yahoo.com: 291
+  www.tesla.com: 38
+  www.intel.com: 9
+  www.cloudflare.com: 5
+  www.bing.com: 5
+  pl-dedic-2.failspace.top: 4
+  t.me/ripaojiedian: 4
+  www.logitech.com: 3
+  maps.apple.com: 2
+  accounts.fastly.com: 2
 
 Топ портов:
-  20270: 245
-  443: 66
-  44370: 21
-  8090: 15
-  42942: 13
-  32833: 12
-  50160: 12
-  8443: 10
-  8880: 6
-  43840: 6
+  20270: 252
+  44370: 39
+  443: 29
+  53734: 20
+  42942: 14
+  50160: 7
+  32833: 5
+  8443: 4
+  41688: 4
+  53271: 3
 
 Топ схем:
-  vless: 390
-  vmess: 99
-  trojan: 28
-  hysteria2: 22
+  vless: 324
+  trojan: 43
+  vmess: 41
+  hysteria2: 19
 
 Топ transport:
-  tcp: 451
-  xhttp: 40
-  ws: 30
-  grpc: 14
-  raw: 4
+  tcp: 416
+  xhttp: 7
+  grpc: 2
+  raw: 2
 
 Топ security:
-  reality: 364
-  none: 134
-  tls: 41
+  reality: 354
+  none: 60
+  tls: 13
 
 ====================================================================
 FINAL GROUPS
@@ -179,291 +180,288 @@ FINAL GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 22
-Уникальных строк: 22
-Уникальных host:port: 15
-Уникальных backend: 18
-Anycast: 9
+Всего конфигов: 28
+Уникальных строк: 28
+Уникальных host:port: 22
+Уникальных backend: 25
+Anycast: 17
 Unknown country: 8
 
 Топ стран:
-  🌐 Anycast: 9
+  🌐 Anycast: 17
   Unknown: 8
-  Russia: 2
-  Lithuania: 2
+  Russia: 1
+  Switzerland: 1
   Netherlands: 1
 
 Топ SNI:
-  queuev4.vk.com: 2
-  lt26.cdnfern.org: 2
-  max.ru: 2
-  hy.quattro-tech.ru: 2
-  rutube.ru: 1
+  id.vk.com: 4
+  idinah1.ookcdn.ru: 2
+  fuckyourmather.ookcdn.ru: 2
+  travel.yandex.ru: 1
+  vk.com: 1
+  dl.google.com: 1
   ru4.lebedvpn.cc: 1
-  cdn.dachniy-vopros.org: 1
-  dailycanvas.sysopnova.art: 1
-  msk.frkn.org: 1
-  eyjhzgqioiixotqumji2lje0mi4xmjailcjhawqioiiwiiwiag9zdci6injlbmrlcmvylxn0cmvhbs0yltyylm1pcnjhlm5vdyisimlkijoizgi1mgeymgutn2zmns00ztcwltk0ogytmtdjyzljytdjmtu0iiwibmv0ijoid3milcjwyxroijoil2fwas92ms9nchutc3ryzwftl3nvy2tldcisinbvcnqioii0ndmilcjwcyi6ivcfjjagqw55y2fzdc1jucb8ipcfh6nwn4eqipcfh7jwn4eqihwgwypdsursxsisinnly3vyaxr5ijoiyxv0byisinnraxaty2vydc12zxjpznkionrydwusinnuasi6iiisinrscyi6inrscyisinr5cguioijhdxrviiwidii6ijiilcjzy3kioijhdxrviiwiywxwbii6iiisimzwijoiin0=: 1
+  cdn-tw-msk-mishka.attention-game.ru: 1
+  donatov.net: 1
+  ultimate.warriorofblacksun.run: 1
 
 Топ портов:
-  443: 7
-  8443: 2
-  8088: 2
-  22443: 1
-  2056: 1
+  443: 13
+  448: 3
+  2053: 1
+  9882: 1
   4433: 1
   24443: 1
+  22443: 1
+  2056: 1
 
 Топ схем:
-  vless: 10
-  vmess: 7
+  vless: 14
+  vmess: 6
   hysteria2: 5
+  trojan: 3
 
 Топ transport:
-  tcp: 13
+  tcp: 12
+  grpc: 10
   xhttp: 6
-  ws: 3
 
 Топ security:
-  none: 13
-  tls: 5
-  reality: 4
+  reality: 13
+  none: 11
+  tls: 4
 
 ────────────────────────────────────────────────────────────────────
 📊 white_vless
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 17
-Уникальных строк: 17
-Уникальных host:port: 10
-Уникальных backend: 14
-Anycast: 5
+Всего конфигов: 25
+Уникальных строк: 25
+Уникальных host:port: 19
+Уникальных backend: 21
+Anycast: 15
 Unknown country: 8
 
 Топ стран:
+  🌐 Anycast: 15
   Unknown: 8
-  🌐 Anycast: 5
-  Lithuania: 2
   Netherlands: 1
-  Russia: 1
+  Switzerland: 1
 
 Топ SNI:
-  lt26.cdnfern.org: 2
-  max.ru: 2
+  id.vk.com: 4
+  fuckyourmather.ookcdn.ru: 2
+  idinah1.ookcdn.ru: 2
   hy.quattro-tech.ru: 2
+  vk.com: 1
+  donatov.net: 1
   ru4.lebedvpn.cc: 1
-  cdn.dachniy-vopros.org: 1
-  dailycanvas.sysopnova.art: 1
-  msk.frkn.org: 1
-  eyjhzgqioiixotqumji2lje0mi4xmjailcjhawqioiiwiiwiag9zdci6injlbmrlcmvylxn0cmvhbs0yltyylm1pcnjhlm5vdyisimlkijoizgi1mgeymgutn2zmns00ztcwltk0ogytmtdjyzljytdjmtu0iiwibmv0ijoid3milcjwyxroijoil2fwas92ms9nchutc3ryzwftl3nvy2tldcisinbvcnqioii0ndmilcjwcyi6ivcfjjagqw55y2fzdc1jucb8ipcfh6nwn4eqipcfh7jwn4eqihwgwypdsursxsisinnly3vyaxr5ijoiyxv0byisinnraxaty2vydc12zxjpznkionrydwusinnuasi6iiisinrscyi6inrscyisinr5cguioijhdxrviiwidii6ijiilcjzy3kioijhdxrviiwiywxwbii6iiisimzwijoiin0=: 1
-  eyjhzgqioijyzw5kzxjlci1zdhjlyw0tmi02mi5taxjyys5ub3cilcjhawqioiiwiiwiawqioijkyjuwytiwzs03zmy1ltrlnzatotq4zi0xn2njownhn2mxntqilcjuzxqioij3cyisinbhdggioiivyxbpl3yxl2dwds1zdhjlyw0vc29ja2v0iiwicg9ydci6ijq0myisinbzijoi8j+hqfcfh6ogr2vybwfuesb8ifsqq0leul0ilcjzzwn1cml0esi6imf1dg8ilcj0bhmioij0bhmilcj2ijoimiisinr5cguioijub25liiwic2n5ijoiyxv0byisimhvc3qioiiilcjzbmkioiiilcjhbhbuijoiiiwiznaioiiifq==: 1
-  eyjhzgqioijyzw5kzxjlci1zdhjlyw0tmi02mi5taxjyys5ub3cilcjhawqioiiwiiwiywxwbii6iiisimzwijoiiiwiag9zdci6injlbmrlcmvylxn0cmvhbs0yltyylm1pcnjhlm5vdyisimlkijoizgi1mgeymgutn2zmns00ztcwltk0ogytmtdjyzljytdjmtu0iiwiaw5zzwn1cmuioiiwiiwibmv0ijoid3milcjwyxroijoil2fwas92ms9nchutc3ryzwftl3nvy2tldcisinbjcyi6iiisinbvcnqioii0ndmilcjwcyi6ivcfh6nwn4eqiedlcm1hbnkgwypdsursxsisinnjesi6imf1dg8ilcjzbmkioiiilcj0bhmioij0bhmilcj0exblijoils0tiiwidii6ijiilcj2y24ioiiifq==: 1
+  dl.google.com: 1
+  cdn-tw-msk-mishka.attention-game.ru: 1
+  ultimate.warriorofblacksun.run: 1
 
 Топ портов:
-  443: 7
-  8443: 1
-  22443: 1
+  443: 12
+  448: 3
+  2053: 1
+  9882: 1
   24443: 1
+  22443: 1
 
 Топ схем:
-  vless: 7
-  vmess: 7
+  vless: 13
+  vmess: 6
+  trojan: 3
   hysteria2: 3
 
 Топ transport:
-  tcp: 11
-  xhttp: 5
-  ws: 1
+  grpc: 10
+  tcp: 9
+  xhttp: 6
 
 Топ security:
+  reality: 12
   none: 9
-  tls: 5
-  reality: 3
+  tls: 4
 
 ────────────────────────────────────────────────────────────────────
 📊 black_all
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 140
-Уникальных строк: 140
-Уникальных host:port: 68
-Уникальных backend: 130
-Anycast: 39
-Unknown country: 78
+Всего конфигов: 75
+Уникальных строк: 75
+Уникальных host:port: 43
+Уникальных backend: 67
+Anycast: 22
+Unknown country: 43
 
 Топ стран:
-  Unknown: 78
-  🌐 Anycast: 39
-  Netherlands: 7
-  United States: 5
-  Germany: 5
-  Lithuania: 2
-  Bulgaria: 1
-  France: 1
+  Unknown: 43
+  🌐 Anycast: 22
+  United States: 3
+  Germany: 2
+  Japan: 2
   Finland: 1
+  Netherlands: 1
   Israel: 1
 
 Топ SNI:
   www.yahoo.com: 9
-  askuhgfdsg.space.coupons: 4
-  cdn.steamstatic.com: 3
-  www.intel.com: 3
-  queuev4.vk.com: 2
-  usa.superbuba.top: 2
-  lt26.cdnfern.org: 2
-  www.cloudflare.com: 2
-  www.sony.com: 2
-  www.tesla.com: 2
+  www.tesla.com: 4
+  www.bing.com: 4
+  www.cloudflare.com: 3
+  www.intel.com: 2
+  www.logitech.com: 2
+  127.0.0.1: 2
+  css.rbxcdn.com: 2
+  maps.apple.com: 1
+  s3.netavex.com: 1
 
 Топ портов:
-  443: 23
+  443: 16
   20270: 7
-  8880: 5
-  8081: 4
-  8090: 4
-  8443: 3
-  50160: 3
-  8088: 2
+  50160: 5
+  8443: 2
   44370: 2
-  52006: 1
+  8446: 1
+  28573: 1
+  53271: 1
+  41688: 1
+  42942: 1
 
 Топ схем:
-  vmess: 72
-  vless: 55
-  hysteria2: 8
-  trojan: 5
+  vmess: 32
+  vless: 26
+  hysteria2: 14
+  trojan: 3
 
 Топ transport:
-  tcp: 105
-  ws: 17
-  xhttp: 12
-  grpc: 5
-  raw: 1
+  tcp: 70
+  xhttp: 4
+  grpc: 1
 
 Топ security:
-  none: 92
-  reality: 34
-  tls: 14
+  none: 46
+  reality: 24
+  tls: 5
 
 ────────────────────────────────────────────────────────────────────
 📊 pool
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 150
-Уникальных строк: 150
-Уникальных host:port: 75
-Уникальных backend: 138
-Anycast: 44
-Unknown country: 80
+Всего конфигов: 99
+Уникальных строк: 99
+Уникальных host:port: 61
+Уникальных backend: 91
+Anycast: 35
+Unknown country: 51
 
 Топ стран:
-  Unknown: 80
-  🌐 Anycast: 44
-  Netherlands: 8
-  United States: 5
-  Germany: 4
-  Lithuania: 3
-  Russia: 2
+  Unknown: 51
+  🌐 Anycast: 35
+  United States: 3
+  Netherlands: 2
+  Japan: 2
+  Germany: 2
+  Russia: 1
+  Switzerland: 1
   Israel: 1
-  Bulgaria: 1
-  France: 1
+  Finland: 1
 
 Топ SNI:
   www.yahoo.com: 9
-  queuev4.vk.com: 3
-  lt26.cdnfern.org: 3
-  www.intel.com: 3
-  cdn.steamstatic.com: 3
-  max.ru: 2
-  hy.quattro-tech.ru: 2
-  www.cloudflare.com: 2
-  www.bing.com: 2
-  askuhgfdsg.space.coupons: 2
+  www.tesla.com: 4
+  www.bing.com: 3
+  www.cloudflare.com: 3
+  id.vk.com: 2
+  idinah1.ookcdn.ru: 2
+  fuckyourmather.ookcdn.ru: 2
+  www.intel.com: 2
+  127.0.0.1: 2
+  css.rbxcdn.com: 2
 
 Топ портов:
-  443: 28
+  443: 26
   20270: 7
-  8443: 5
-  8081: 4
-  8880: 4
-  8088: 3
-  50160: 3
-  8090: 2
+  50160: 4
+  448: 3
+  2053: 2
   44370: 2
+  8443: 2
   22443: 1
+  2056: 1
+  24443: 1
 
 Топ схем:
-  vmess: 73
-  vless: 60
-  hysteria2: 12
-  trojan: 5
+  vless: 38
+  vmess: 38
+  hysteria2: 17
+  trojan: 6
 
 Топ transport:
-  tcp: 111
-  xhttp: 17
-  ws: 16
-  grpc: 5
-  raw: 1
+  tcp: 80
+  xhttp: 10
+  grpc: 9
 
 Топ security:
-  none: 96
-  reality: 38
-  tls: 16
+  none: 55
+  reality: 35
+  tls: 9
 
 ────────────────────────────────────────────────────────────────────
 📊 mixed
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 47
-Уникальных строк: 47
-Уникальных host:port: 47
-Уникальных backend: 41
-Anycast: 28
-Unknown country: 3
+Всего конфигов: 38
+Уникальных строк: 38
+Уникальных host:port: 38
+Уникальных backend: 35
+Anycast: 21
+Unknown country: 6
 
 Топ стран:
-  🌐 Anycast: 28
-  Netherlands: 5
-  United States: 4
-  Unknown: 3
-  Germany: 3
-  Lithuania: 2
+  🌐 Anycast: 21
+  Unknown: 6
+  United States: 3
+  Japan: 2
+  Germany: 2
+  Netherlands: 1
   Russia: 1
-  Bulgaria: 1
+  Switzerland: 1
+  Finland: 1
 
 Топ SNI:
   www.yahoo.com: 7
-  www.intel.com: 3
-  cdn.steamstatic.com: 3
-  lt26.cdnfern.org: 2
-  max.ru: 2
-  www.cloudflare.com: 2
-  usa.superbuba.top: 2
-  www.sony.com: 2
-  www.tesla.com: 2
-  askuhgfdsg.space.coupons: 2
+  www.tesla.com: 4
+  www.cloudflare.com: 3
+  id.vk.com: 2
+  www.intel.com: 2
+  www.logitech.com: 2
+  cdn-tw-msk-mishka.attention-game.ru: 1
+  vk.com: 1
+  max.ru: 1
+  idinah1.ookcdn.ru: 1
 
 Топ портов:
-  443: 23
+  443: 19
   20270: 7
-  8443: 5
-  8090: 2
+  8443: 2
+  2053: 1
+  9882: 1
   32833: 1
-  43840: 1
+  8446: 1
   28573: 1
-  10000: 1
   53271: 1
-  9462: 1
+  11690: 1
 
 Топ схем:
-  vless: 47
+  vless: 38
 
 Топ transport:
-  tcp: 21
-  xhttp: 15
-  ws: 5
-  grpc: 5
-  raw: 1
+  tcp: 22
+  xhttp: 10
+  grpc: 6
 
 Топ security:
-  reality: 35
-  tls: 12
+  reality: 33
+  tls: 5
 
 ────────────────────────────────────────────────────────────────────
 📊 lte
@@ -472,119 +470,121 @@ Unknown country: 3
 Уникальных строк: 25
 Уникальных host:port: 25
 Уникальных backend: 22
-Anycast: 12
-Unknown country: 0
+Anycast: 13
+Unknown country: 1
 
 Топ стран:
-  🌐 Anycast: 12
-  Netherlands: 5
+  🌐 Anycast: 13
+  United States: 3
   Germany: 2
-  Lithuania: 2
-  United States: 2
+  Japan: 2
+  Finland: 1
+  Netherlands: 1
   Russia: 1
-  Bulgaria: 1
+  Switzerland: 1
+  Unknown: 1
 
 Топ SNI:
-  cdn.steamstatic.com: 3
-  lt26.cdnfern.org: 2
-  usa.superbuba.top: 2
-  askuhgfdsg.space.coupons: 2
-  rutube.ru: 1
-  max.ru: 1
-  nl2.lebedvpn.cc: 1
-  accaunt.fastly.com: 1
+  www.yahoo.com: 4
+  id.vk.com: 2
+  www.cloudflare.com: 2
+  us.lebedvpn.cc: 1
+  accounts.fastly.com: 1
+  maps.apple.com: 1
   ru4.lebedvpn.cc: 1
-  minecraft.blackbigdog.com: 1
+  vk.com: 1
+  travel.yandex.ru: 1
+  s3.netavex.com: 1
 
 Топ портов:
-  443: 19
-  8443: 4
-  8090: 2
+  443: 15
+  20270: 4
+  8443: 2
+  8446: 1
+  2053: 1
+  9882: 1
+  42942: 1
 
 Топ схем:
   vless: 25
 
 Топ transport:
-  xhttp: 14
-  ws: 5
-  grpc: 4
-  tcp: 2
+  tcp: 10
+  xhttp: 9
+  grpc: 6
 
 Топ security:
-  reality: 13
-  tls: 12
+  reality: 20
+  tls: 5
 
 ====================================================================
 🌍 GLOBAL SUMMARY
 ====================================================================
-Всего конфигов: 401
-Уникальных строк: 163
-Уникальных host:port: 78
-Уникальных backend: 146
-Anycast: 137
-Unknown country: 177
+Всего конфигов: 290
+Уникальных строк: 104
+Уникальных host:port: 64
+Уникальных backend: 91
+Anycast: 123
+Unknown country: 117
 
 Топ стран:
-  Unknown: 177
-  🌐 Anycast: 137
-  Netherlands: 27
-  United States: 16
-  Germany: 14
-  Lithuania: 13
-  Russia: 7
-  Bulgaria: 4
-  France: 2
-  Finland: 2
+  🌐 Anycast: 123
+  Unknown: 117
+  United States: 12
+  Germany: 8
+  Japan: 8
+  Netherlands: 7
+  Switzerland: 5
+  Russia: 4
+  Finland: 4
   Israel: 2
 
 Топ SNI:
-  www.yahoo.com: 25
-  lt26.cdnfern.org: 13
-  cdn.steamstatic.com: 12
-  askuhgfdsg.space.coupons: 10
-  max.ru: 9
-  www.intel.com: 9
-  usa.superbuba.top: 8
-  queuev4.vk.com: 7
-  hy.quattro-tech.ru: 6
-  www.cloudflare.com: 6
-  www.sony.com: 6
-  www.tesla.com: 6
+  www.yahoo.com: 29
+  id.vk.com: 14
+  www.tesla.com: 13
+  www.cloudflare.com: 11
+  idinah1.ookcdn.ru: 8
+  fuckyourmather.ookcdn.ru: 8
+  www.bing.com: 7
+  www.intel.com: 6
+  www.logitech.com: 6
+  vk.com: 5
+  dl.google.com: 5
   ru4.lebedvpn.cc: 5
-  cdn.dachniy-vopros.org: 5
-  rutube.ru: 4
+  cdn-tw-msk-mishka.attention-game.ru: 5
+  donatov.net: 5
+  ultimate.warriorofblacksun.run: 5
 
 Топ портов:
-  443: 107
-  20270: 21
-  8443: 20
-  8090: 10
-  8880: 9
-  8081: 8
-  8088: 7
-  50160: 6
+  443: 101
+  20270: 25
+  448: 9
+  50160: 9
+  8443: 8
+  2053: 7
+  9882: 5
+  8446: 4
   44370: 4
-  22443: 3
+  42942: 4
   24443: 3
-  52006: 3
-  10000: 3
-  9462: 3
+  22443: 3
   28573: 3
+  53271: 3
+  41688: 3
 
 Топ схем:
-  vless: 204
-  vmess: 159
-  hysteria2: 28
-  trojan: 10
+  vless: 154
+  vmess: 82
+  hysteria2: 39
+  trojan: 15
 
 Топ transport:
-  tcp: 263
-  xhttp: 69
-  ws: 47
-  grpc: 19
-  raw: 3
+  tcp: 203
+  xhttp: 45
+  grpc: 42
 
 Топ security:
-  none: 210
-  reality: 127
-  tls: 64
+  reality: 137
+  none: 121
+  tls: 32
