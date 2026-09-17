@@ -1,5 +1,5 @@
 VPN Builder stats summary
-Generated at: 2026-09-17 01:13:50 MSK
+Generated at: 2026-09-17 03:38:28 MSK
 
 ====================================================================
 RAW GROUPS
@@ -8,157 +8,166 @@ RAW GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 53
-Уникальных строк: 53
-Уникальных host:port: 12
-Уникальных backend: 16
-Anycast: 41
-Unknown country: 12
+Всего конфигов: 76
+Уникальных строк: 76
+Уникальных host:port: 18
+Уникальных backend: 26
+Anycast: 21
+Unknown country: 22
 
 Топ стран:
-  🌐 Anycast: 41
-  Unknown: 12
+  Unknown: 22
+  🌐 Anycast: 21
+  Estonia: 12
+  Poland: 12
+  Netherlands: 6
+  Russia: 3
 
 Топ SNI:
-  id.vk.com: 23
-  ru4.lebedvpn.cc: 7
-  cdn-tw-msk-mishka.attention-game.ru: 4
+  www.cloudflare.com: 24
+  id.vk.com: 6
+  ru4.lebedvpn.cc: 6
+  cdn-tw-msk-mishka.attention-game.ru: 5
+  tr.static-assets.space: 4
+  openwrt.lan: 4
   ads.x5.ru: 4
   hy.quattro-tech.ru: 3
-  msk.frkn.org: 2
-  els1.mangshe.xyz: 1
-  91.240.86.70: 1
-  eyj2ijoimiisinbzijoi8j+hqfcfh6ogr2vybwfuesbbkknjrfjdiiwiywrkijoimtk0ljiyni4xndiumtiwiiwicg9ydci6ijq0myisinr5cguioijub25liiwiawqioijkyjuwytiwzs03zmy1ltrlnzatotq4zi0xn2njownhn2mxntqilcjhawqioiiwiiwibmv0ijoid3milcjwyxroijoil2fwas92ms9nchutc3ryzwftl3nvy2tldcisimhvc3qioijyzw5kzxjlci1zdhjlyw0tmi02mi5taxjyys5ub3cilcj0bhmioij0bhmilcjzy3kioijhdxrviiwic25pijoiiiwiywxwbii6iiisimzwijoiin0=: 1
-  eyj2ijoimiisinbzijoi8j+hqfcfh6ogr2vybwfuesb8ifsqq0leul0ilcjhzgqioii1lje4oc4yni44nsisinbvcnqioii0ndmilcjpzci6imrintbhmjblltdmzjutngu3mc05ndhmlte3y2m5y2e3yze1ncisimfpzci6ijailcjuzxqioij3cyisinr5cguioijub25liiwiag9zdci6injlbmrlcmvylxn0cmvhbs0yltyylm1pcnjhlm5vdyisinbhdggioiivyxbpl3yxl2dwds1zdhjlyw0vc29ja2v0iiwidgxzijoidgxziiwic25pijoicmvuzgvyzxitc3ryzwftltitnjiubwlycmeubm93iiwic2n5ijoiyxv0byisimfscg4ioiiilcjmcci6iij9: 1
+  msk.frkn.org: 3
+  els1.mangshe.xyz: 2
 
 Топ портов:
-  443: 40
-  22443: 3
-  2056: 1
-  24443: 1
+  443: 32
+  22443: 15
+  24443: 13
+  4433: 2
+  2056: 2
 
 Топ схем:
-  vless: 38
-  vmess: 8
-  hysteria2: 7
+  vless: 53
+  vmess: 12
+  hysteria2: 11
 
 Топ transport:
-  grpc: 23
-  tcp: 19
+  tcp: 35
+  grpc: 30
   xhttp: 11
 
 Топ security:
-  reality: 31
-  none: 14
-  tls: 8
+  reality: 47
+  none: 22
+  tls: 7
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_vless
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 46
-Уникальных строк: 46
-Уникальных host:port: 10
-Уникальных backend: 13
-Anycast: 34
-Unknown country: 12
+Всего конфигов: 66
+Уникальных строк: 66
+Уникальных host:port: 14
+Уникальных backend: 21
+Anycast: 12
+Unknown country: 22
 
 Топ стран:
-  🌐 Anycast: 34
-  Unknown: 12
+  Unknown: 22
+  Estonia: 12
+  🌐 Anycast: 12
+  Poland: 12
+  Netherlands: 6
+  Russia: 2
 
 Топ SNI:
-  id.vk.com: 23
-  ru4.lebedvpn.cc: 7
-  cdn-tw-msk-mishka.attention-game.ru: 4
+  www.cloudflare.com: 24
+  id.vk.com: 6
+  ru4.lebedvpn.cc: 6
+  cdn-tw-msk-mishka.attention-game.ru: 5
+  tr.static-assets.space: 4
+  openwrt.lan: 4
+  hy.quattro-tech.ru: 3
   msk.frkn.org: 2
-  hy.quattro-tech.ru: 2
-  eyj2ijoimiisinbzijoi8j+hqfcfh6ogr2vybwfuesbbkknjrfjdiiwiywrkijoimtk0ljiyni4xndiumtiwiiwicg9ydci6ijq0myisinr5cguioijub25liiwiawqioijkyjuwytiwzs03zmy1ltrlnzatotq4zi0xn2njownhn2mxntqilcjhawqioiiwiiwibmv0ijoid3milcjwyxroijoil2fwas92ms9nchutc3ryzwftl3nvy2tldcisimhvc3qioijyzw5kzxjlci1zdhjlyw0tmi02mi5taxjyys5ub3cilcj0bhmioij0bhmilcjzy3kioijhdxrviiwic25pijoiiiwiywxwbii6iiisimzwijoiin0=: 1
-  eyj2ijoimiisinbzijoi8j+hqfcfh6ogr2vybwfuesb8ifsqq0leul0ilcjhzgqioii1lje4oc4yni44nsisinbvcnqioii0ndmilcjpzci6imrintbhmjblltdmzjutngu3mc05ndhmlte3y2m5y2e3yze1ncisimfpzci6ijailcjuzxqioij3cyisinr5cguioijub25liiwiag9zdci6injlbmrlcmvylxn0cmvhbs0yltyylm1pcnjhlm5vdyisinbhdggioiivyxbpl3yxl2dwds1zdhjlyw0vc29ja2v0iiwidgxzijoidgxziiwic25pijoicmvuzgvyzxitc3ryzwftltitnjiubwlycmeubm93iiwic2n5ijoiyxv0byisimfscg4ioiiilcjmcci6iij9: 1
-  eyj2ijoimiisinbzijoi8j+hqfcfh6ogr2vybwfuesb8ifsqq0leul0ilcjhzgqioiixotuumtkumjauodailcjwb3j0ijoindqziiwiawqioijkyjuwytiwzs03zmy1ltrlnzatotq4zi0xn2njownhn2mxntqilcjhawqioiiwiiwic2n5ijoiyxv0byisim5ldci6indziiwidhlwzsi6im5vbmuilcjob3n0ijoicmvuzgvyzxitc3ryzwftltitnjiubwlycmeubm93iiwicgf0aci6ii9hcgkvdjevz3b1lxn0cmvhbs9zb2nrzxqilcj0bhmioij0bhmilcjzbmkioijyzw5kzxjlci1zdhjlyw0tmi02mi5taxjyys5ub3cilcjhbhbuijoiiiwiznaioiiifq==: 1
-  eyj2ijoimiisinbzijoi8j+hqfcfh6ogr2vybwfuesb8ifsqq0leul0ilcjhzgqioiiylji3lju0ljezmiisinbvcnqioii0ndmilcj0exblijoibm9uzsisimlkijoizgi1mgeymgutn2zmns00ztcwltk0ogytmtdjyzljytdjmtu0iiwiywlkijoimcisim5ldci6indziiwicgf0aci6ii9hcgkvdjevz3b1lxn0cmvhbs9zb2nrzxqilcjob3n0ijoicmvuzgvyzxitc3ryzwftltitnjiubwlycmeubm93iiwidgxzijoidgxziiwic2n5ijoiyxv0byisinnuasi6iiisimfscg4ioiiilcjmcci6iij9: 1
-  eyj2ijoimiisinbzijoi8j+hqfcfh6ogr2vybwfuesb8ifsqq0leul0ilcjhzgqioijyzw5kzxjlci1zdhjlyw0tmi02mi5taxjyys5ub3cilcjwb3j0ijoindqziiwiawqioijkyjuwytiwzs03zmy1ltrlnzatotq4zi0xn2njownhn2mxntqilcjhawqioiiwiiwic2n5ijoiyxv0byisim5ldci6indziiwidhlwzsi6ii0tlsisimhvc3qioijyzw5kzxjlci1zdhjlyw0tmi02mi5taxjyys5ub3cilcjwyxroijoil2fwas92ms9nchutc3ryzwftl3nvy2tldcisinrscyi6inrscyisinnuasi6injlbmrlcmvylxn0cmvhbs0yltyylm1pcnjhlm5vdyisimfscg4ioiiilcjmcci6iij9: 1
+  eyj2ijoimiisinbzijoi8j+hqfcfh6ogr2vybwfuesbbkknjrfjdiiwiywrkijoicmvuzgvyzxitc3ryzwftltitnjiubwlycmeubm93iiwicg9ydci6ijq0myisimlkijoizgi1mgeymgutn2zmns00ztcwltk0ogytmtdjyzljytdjmtu0iiwiywlkijoimcisinnjesi6imf1dg8ilcjuzxqioij3cyisinr5cguioiitls0ilcjob3n0ijoicmvuzgvyzxitc3ryzwftltitnjiubwlycmeubm93iiwicgf0aci6ii9hcgkvdjevz3b1lxn0cmvhbs9zb2nrzxqilcj0bhmioij0bhmilcjzbmkioijyzw5kzxjlci1zdhjlyw0tmi02mi5taxjyys5ub3cilcjhbhbuijoiiiwiznaioiiifq==: 1
+  eyjhzgqioii1lje4oc4yni44nsisimfpzci6ijailcjob3n0ijoicmvuzgvyzxitc3ryzwftltitnjiubwlycmeubm93iiwiawqioijkyjuwytiwzs03zmy1ltrlnzatotq4zi0xn2njownhn2mxntqilcjuzxqioij3cyisinbhdggioiivyxbpl3yxl2dwds1zdhjlyw0vc29ja2v0iiwicg9ydci6ijq0myisinbzijoi8j+hqfcfh6ogr2vybwfuesbbkknjrfjdiiwic2vjdxjpdhkioijhdxrviiwidgxzijoidgxziiwidii6ijiilcj0exblijoibm9uzsisinnjesi6imf1dg8ilcjzbmkioiiilcjhbhbuijoiiiwiznaioiiifq==: 1
 
 Топ портов:
-  443: 36
-  24443: 1
-  22443: 1
+  443: 27
+  22443: 14
+  24443: 13
 
 Топ схем:
-  vless: 34
-  vmess: 8
-  hysteria2: 4
+  vless: 49
+  vmess: 12
+  hysteria2: 5
 
 Топ transport:
-  grpc: 23
-  tcp: 12
+  grpc: 30
+  tcp: 25
   xhttp: 11
 
 Топ security:
-  reality: 27
-  none: 11
-  tls: 8
+  reality: 43
+  none: 16
+  tls: 7
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW black_all
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 357
-Уникальных строк: 289
-Уникальных host:port: 40
-Уникальных backend: 154
-Anycast: 120
-Unknown country: 205
+Всего конфигов: 412
+Уникальных строк: 274
+Уникальных host:port: 59
+Уникальных backend: 159
+Anycast: 225
+Unknown country: 167
 
 Топ стран:
-  Unknown: 205
-  🌐 Anycast: 120
-  France: 7
-  Netherlands: 6
-  Germany: 5
-  Japan: 5
-  Austria: 4
-  United States: 3
-  Czechia: 1
-  Israel: 1
+  🌐 Anycast: 225
+  Unknown: 167
+  France: 4
+  Germany: 4
+  Netherlands: 4
+  Japan: 2
+  Switzerland: 2
+  Finland: 2
+  United States: 2
 
 Топ SNI:
-  www.tesla.com: 40
-  www.yahoo.com: 33
-  www.intel.com: 26
-  mother-earth.fyi: 11
-  www.sony.com: 10
-  www.cloudflare.com: 8
-  ir-new.failspace.top: 8
+  www.yahoo.com: 70
+  www.tesla.com: 38
+  mother-earth.fyi: 28
+  www.cloudflare.com: 18
+  www.intel.com: 17
+  www.sony.com: 13
+  us.lebedvpn.cc: 12
+  dns.refprov.online: 10
   www.bing.com: 5
   t.me/ripaojiedian: 5
-  at-dedic-2.failspace.top: 4
 
 Топ портов:
-  443: 62
-  53734: 23
-  20270: 21
-  44370: 12
-  22746: 11
-  28573: 10
-  42942: 9
-  32833: 8
-  41688: 7
+  443: 95
+  20270: 52
+  53734: 24
+  44370: 18
+  22746: 10
+  8443: 10
+  43840: 8
+  11690: 7
   50160: 7
+  24146: 5
 
 Топ схем:
-  vmess: 167
-  vless: 154
-  trojan: 18
-  hysteria2: 18
+  vless: 222
+  vmess: 138
+  trojan: 28
+  hysteria2: 24
 
 Топ transport:
-  tcp: 344
-  xhttp: 12
-  grpc: 1
+  tcp: 383
+  xhttp: 26
+  ws: 2
+  raw: 1
 
 Топ security:
-  none: 188
-  reality: 128
-  tls: 41
+  reality: 212
+  none: 163
+  tls: 37
 
 ====================================================================
 FINAL GROUPS
@@ -167,94 +176,103 @@ FINAL GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 19
-Уникальных строк: 19
-Уникальных host:port: 11
-Уникальных backend: 16
-Anycast: 10
-Unknown country: 9
+Всего конфигов: 30
+Уникальных строк: 30
+Уникальных host:port: 18
+Уникальных backend: 26
+Anycast: 7
+Unknown country: 15
 
 Топ стран:
-  🌐 Anycast: 10
-  Unknown: 9
+  Unknown: 15
+  🌐 Anycast: 7
+  Estonia: 3
+  Poland: 3
+  Netherlands: 1
+  Russia: 1
 
 Топ SNI:
-  id.vk.com: 4
+  www.cloudflare.com: 6
   ads.x5.ru: 1
-  cdn-tw-msk-mishka.attention-game.ru: 1
+  id.vk.com: 1
   ru4.lebedvpn.cc: 1
+  cdn-tw-msk-mishka.attention-game.ru: 1
+  openwrt.lan: 1
+  tr.static-assets.space: 1
+  91.240.86.70: 1
+  ru1.xiaoliyu.cyou: 1
   msk.frkn.org: 1
-  eyj2ijoimiisinbzijoi8j+hqfcfh6ogr2vybwfuesb8ifsqq0leul0ilcjhzgqioijyzw5kzxjlci1zdhjlyw0tmi02mi5taxjyys5ub3cilcjwb3j0ijoindqziiwiawqioijkyjuwytiwzs03zmy1ltrlnzatotq4zi0xn2njownhn2mxntqilcjhawqioiiwiiwic2n5ijoiyxv0byisim5ldci6indziiwidhlwzsi6im5vbmuilcjob3n0ijoiiiwicgf0aci6ii9hcgkvdjevz3b1lxn0cmvhbs9zb2nrzxqilcj0bhmioij0bhmilcjzbmkioiiilcjhbhbuijoiiiwiznaioiiifq==: 1
-  eyj2ijoimiisinbzijoi8j+hqfcfh6ogr2vybwfuesb8ifsqq0leul0ilcjhzgqioiiylji3lju0ljezmiisinbvcnqioii0ndmilcj0exblijoibm9uzsisimlkijoizgi1mgeymgutn2zmns00ztcwltk0ogytmtdjyzljytdjmtu0iiwiywlkijoimcisim5ldci6indziiwicgf0aci6ii9hcgkvdjevz3b1lxn0cmvhbs9zb2nrzxqilcjob3n0ijoicmvuzgvyzxitc3ryzwftltitnjiubwlycmeubm93iiwidgxzijoidgxziiwic2n5ijoiyxv0byisinnuasi6iiisimfscg4ioiiilcjmcci6iij9: 1
-  eyj2ijoimiisinbzijoi8j+hqfcfh6ogr2vybwfuesb8ifsqq0leul0ilcjhzgqioijyzw5kzxjlci1zdhjlyw0tmi02mi5taxjyys5ub3cilcjwb3j0ijoindqziiwiawqioijkyjuwytiwzs03zmy1ltrlnzatotq4zi0xn2njownhn2mxntqilcjhawqioiiwiiwic2n5ijoiyxv0byisim5ldci6indziiwidhlwzsi6ii0tlsisimhvc3qioijyzw5kzxjlci1zdhjlyw0tmi02mi5taxjyys5ub3cilcjwyxroijoil2fwas92ms9nchutc3ryzwftl3nvy2tldcisinrscyi6inrscyisinnuasi6injlbmrlcmvylxn0cmvhbs0yltyylm1pcnjhlm5vdyisimfscg4ioiiilcjmcci6iij9: 1
-  eyjhzgqioii1lje4oc4yni44nsisimfpzci6ijailcjob3n0ijoicmvuzgvyzxitc3ryzwftltitnjiubwlycmeubm93iiwiawqioijkyjuwytiwzs03zmy1ltrlnzatotq4zi0xn2njownhn2mxntqilcjuzxqioij3cyisinbhdggioiivyxbpl3yxl2dwds1zdhjlyw0vc29ja2v0iiwicg9ydci6ijq0myisinbzijoi8j+hqfcfh6ogr2vybwfuesb8ifsqq0leul0ilcjzzwn1cml0esi6imf1dg8ilcj0bhmioij0bhmilcj2ijoimiisinr5cguioijub25liiwic2n5ijoiyxv0byisinnuasi6iiisimfscg4ioiiilcjmcci6iij9: 1
-  eyjpzci6imrintbhmjblltdmzjutngu3mc05ndhmlte3y2m5y2e3yze1ncisinnjesi6imf1dg8ilcjwcyi6ivcfh6nwn4eqiedlcm1hbnkgfcbbkknjrfjdiiwiywrkijoicmvuzgvyzxitc3ryzwftltitnjiubwlycmeubm93iiwic25pijoicmvuzgvyzxitc3ryzwftltitnjiubwlycmeubm93iiwicgf0aci6ii9hcgkvdjevz3b1lxn0cmvhbs9zb2nrzxqilcjmcci6imnocm9tzsisimhvc3qioijyzw5kzxjlci1zdhjlyw0tmi02mi5taxjyys5ub3cilcjly2hmcsi6im5vbmuilcjhbgxvd0luc2vjdxjlijowlcjuzxqioij3cyisinrscyi6inrscyisinyioiiyiiwicg9ydci6ijq0myisimfpzci6ijailcj0exblijoibm9uzsisimfscg4ioiiifq==: 1
 
 Топ портов:
-  443: 8
-  22443: 1
-  24443: 1
+  443: 7
+  24443: 4
+  22443: 4
+  4433: 2
   2056: 1
 
 Топ схем:
-  vmess: 8
-  vless: 7
-  hysteria2: 4
+  vless: 12
+  vmess: 12
+  hysteria2: 6
 
 Топ transport:
-  tcp: 13
-  grpc: 4
+  tcp: 21
+  grpc: 7
   xhttp: 2
 
 Топ security:
-  none: 12
-  reality: 6
+  none: 18
+  reality: 11
   tls: 1
 
 ────────────────────────────────────────────────────────────────────
 📊 white_vless
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 17
-Уникальных строк: 17
-Уникальных host:port: 9
-Уникальных backend: 13
-Anycast: 8
-Unknown country: 9
+Всего конфигов: 26
+Уникальных строк: 26
+Уникальных host:port: 14
+Уникальных backend: 21
+Anycast: 3
+Unknown country: 15
 
 Топ стран:
-  Unknown: 9
-  🌐 Anycast: 8
+  Unknown: 15
+  🌐 Anycast: 3
+  Poland: 3
+  Estonia: 3
+  Netherlands: 1
+  Russia: 1
 
 Топ SNI:
-  id.vk.com: 4
+  www.cloudflare.com: 6
   hy.quattro-tech.ru: 2
-  cdn-tw-msk-mishka.attention-game.ru: 1
+  id.vk.com: 1
+  openwrt.lan: 1
   ru4.lebedvpn.cc: 1
+  tr.static-assets.space: 1
+  cdn-tw-msk-mishka.attention-game.ru: 1
   msk.frkn.org: 1
-  eyj2ijoimiisinbzijoi8j+hqfcfh6ogr2vybwfuesb8ifsqq0leul0ilcjhzgqioijyzw5kzxjlci1zdhjlyw0tmi02mi5taxjyys5ub3cilcjwb3j0ijoindqziiwiawqioijkyjuwytiwzs03zmy1ltrlnzatotq4zi0xn2njownhn2mxntqilcjhawqioiiwiiwic2n5ijoiyxv0byisim5ldci6indziiwidhlwzsi6ii0tlsisimhvc3qioijyzw5kzxjlci1zdhjlyw0tmi02mi5taxjyys5ub3cilcjwyxroijoil2fwas92ms9nchutc3ryzwftl3nvy2tldcisinrscyi6inrscyisinnuasi6injlbmrlcmvylxn0cmvhbs0yltyylm1pcnjhlm5vdyisimfscg4ioiiilcjmcci6iij9: 1
-  eyj2ijoimiisinbzijoi8j+hqfcfh6ogr2vybwfuesb8ifsqq0leul0ilcjhzgqioii1lje4oc4yni44nsisinbvcnqioii0ndmilcjpzci6imrintbhmjblltdmzjutngu3mc05ndhmlte3y2m5y2e3yze1ncisimfpzci6ijailcjuzxqioij3cyisinr5cguioijub25liiwiag9zdci6injlbmrlcmvylxn0cmvhbs0yltyylm1pcnjhlm5vdyisinbhdggioiivyxbpl3yxl2dwds1zdhjlyw0vc29ja2v0iiwidgxzijoidgxziiwic25pijoicmvuzgvyzxitc3ryzwftltitnjiubwlycmeubm93iiwic2n5ijoiyxv0byisimfscg4ioiiilcjmcci6iij9: 1
-  eyj2ijoimiisinbzijoi8j+hqfcfh6ogr2vybwfuesb8ifsqq0leul0ilcjhzgqioiiylji3lju0ljezmiisinbvcnqioii0ndmilcj0exblijoibm9uzsisimlkijoizgi1mgeymgutn2zmns00ztcwltk0ogytmtdjyzljytdjmtu0iiwiywlkijoimcisim5ldci6indziiwicgf0aci6ii9hcgkvdjevz3b1lxn0cmvhbs9zb2nrzxqilcjob3n0ijoicmvuzgvyzxitc3ryzwftltitnjiubwlycmeubm93iiwidgxzijoidgxziiwic2n5ijoiyxv0byisinnuasi6iiisimfscg4ioiiilcjmcci6iij9: 1
-  eyj2ijoimiisinbzijoi8j+hqfcfh6ogr2vybwfuesb8ifsqq0leul0ilcjhzgqioijyzw5kzxjlci1zdhjlyw0tmi02mi5taxjyys5ub3cilcjwb3j0ijoindqziiwiawqioijkyjuwytiwzs03zmy1ltrlnzatotq4zi0xn2njownhn2mxntqilcjhawqioiiwiiwic2n5ijoiyxv0byisim5ldci6indziiwidhlwzsi6im5vbmuilcjob3n0ijoiiiwicgf0aci6ii9hcgkvdjevz3b1lxn0cmvhbs9zb2nrzxqilcj0bhmioij0bhmilcjzbmkioiiilcjhbhbuijoiiiwiznaioiiifq==: 1
-  eyjpzci6imrintbhmjblltdmzjutngu3mc05ndhmlte3y2m5y2e3yze1ncisinnjesi6imf1dg8ilcjwcyi6ivcfh6nwn4eqiedlcm1hbnkgfcbbkknjrfjdiiwiywrkijoicmvuzgvyzxitc3ryzwftltitnjiubwlycmeubm93iiwic25pijoicmvuzgvyzxitc3ryzwftltitnjiubwlycmeubm93iiwicgf0aci6ii9hcgkvdjevz3b1lxn0cmvhbs9zb2nrzxqilcjmcci6imnocm9tzsisimhvc3qioijyzw5kzxjlci1zdhjlyw0tmi02mi5taxjyys5ub3cilcjly2hmcsi6im5vbmuilcjhbgxvd0luc2vjdxjlijowlcjuzxqioij3cyisinrscyi6inrscyisinyioiiyiiwicg9ydci6ijq0myisimfpzci6ijailcj0exblijoibm9uzsisimfscg4ioiiifq==: 1
+  eyjhzgqioiixotqumji2lje0mi4xmjailcjhawqioiiwiiwiag9zdci6injlbmrlcmvylxn0cmvhbs0yltyylm1pcnjhlm5vdyisimlkijoizgi1mgeymgutn2zmns00ztcwltk0ogytmtdjyzljytdjmtu0iiwibmv0ijoid3milcjwyxroijoil2fwas92ms9nchutc3ryzwftl3nvy2tldcisinbvcnqioii0ndmilcjwcyi6ivcfh6nwn4eqiedlcm1hbnkgfcbbkknjrfjdiiwic2vjdxjpdhkioijhdxrviiwic2tpcc1jzxj0lxzlcmlmesi6dhj1zswic25pijoiiiwidgxzijoidgxziiwidhlwzsi6imf1dg8ilcj2ijoimiisinnjesi6imf1dg8ilcjhbhbuijoiiiwiznaioiiifq==: 1
+  eyj2ijoimiisinbzijoi8j+mkcbbbnljyxn0lulqihwg8j+hqfcfh6og8j+hupcfh6ogfcbbkknjrfjdiiwiywrkijoicmvuzgvyzxitc3ryzwftltitnjiubwlycmeubm93iiwicg9ydci6ijq0myisimlkijoizgi1mgeymgutn2zmns00ztcwltk0ogytmtdjyzljytdjmtu0iiwiywlkijoimcisinnjesi6imf1dg8ilcjuzxqioij3cyisinr5cguioiitls0ilcjwyxroijoil2fwas92ms9nchutc3ryzwftl3nvy2tldcisinrscyi6inrscyisimhvc3qioiiilcjzbmkioiiilcjhbhbuijoiiiwiznaioiiifq==: 1
 
 Топ портов:
-  443: 7
-  22443: 1
-  24443: 1
+  443: 6
+  22443: 4
+  24443: 4
 
 Топ схем:
-  vmess: 8
-  vless: 6
+  vmess: 12
+  vless: 11
   hysteria2: 3
 
 Топ transport:
-  tcp: 11
-  grpc: 4
+  tcp: 17
+  grpc: 7
   xhttp: 2
 
 Топ security:
-  none: 10
-  reality: 5
+  none: 14
+  reality: 10
   tls: 2
 
 ────────────────────────────────────────────────────────────────────
@@ -262,180 +280,181 @@ Unknown country: 9
 ────────────────────────────────────────────────────────────────────
 Всего конфигов: 140
 Уникальных строк: 140
-Уникальных host:port: 35
-Уникальных backend: 137
-Anycast: 14
-Unknown country: 114
+Уникальных host:port: 53
+Уникальных backend: 136
+Anycast: 32
+Unknown country: 99
 
 Топ стран:
-  Unknown: 114
-  🌐 Anycast: 14
-  Germany: 2
-  France: 2
-  United States: 2
+  Unknown: 99
+  🌐 Anycast: 32
   Netherlands: 2
-  Czechia: 1
+  Germany: 2
+  United States: 2
   Japan: 1
-  Austria: 1
-  Israel: 1
+  Switzerland: 1
+  France: 1
 
 Топ SNI:
+  www.yahoo.com: 5
+  mother-earth.fyi: 4
   www.tesla.com: 4
-  mother-earth.fyi: 3
   www.intel.com: 3
-  www.yahoo.com: 2
   www.cloudflare.com: 2
-  127.0.0.1: 2
-  accounts.fastly.com: 1
-  153.76.185.186: 1
-  at-dedic-2.failspace.top: 1
-  us.lebedvpn.cc: 1
+  canalnotes.site: 2
+  www.sony.com: 2
+  ads.x5.ru: 1
+  addons.mozilla.org: 1
+  nether.failspace.top: 1
 
 Топ портов:
-  443: 16
+  443: 22
+  20270: 3
+  4433: 2
+  44370: 2
   50160: 2
-  3090: 1
-  20270: 1
-  8443: 1
-  28573: 1
-  51847: 1
-  32833: 1
-  52683: 1
-  22746: 1
+  8881: 1
+  25720: 1
+  8880: 1
+  2083: 1
+  11690: 1
 
 Топ схем:
-  vmess: 105
-  vless: 24
-  hysteria2: 8
-  trojan: 3
+  vmess: 87
+  vless: 36
+  hysteria2: 11
+  trojan: 6
 
 Топ transport:
-  tcp: 136
-  xhttp: 3
-  grpc: 1
+  tcp: 135
+  xhttp: 4
+  ws: 1
 
 Топ security:
-  none: 116
-  reality: 15
-  tls: 9
+  none: 99
+  reality: 33
+  tls: 8
 
 ────────────────────────────────────────────────────────────────────
 📊 pool
 ────────────────────────────────────────────────────────────────────
 Всего конфигов: 150
 Уникальных строк: 150
-Уникальных host:port: 41
-Уникальных backend: 145
-Anycast: 22
-Unknown country: 116
+Уникальных host:port: 62
+Уникальных backend: 143
+Anycast: 35
+Unknown country: 101
 
 Топ стран:
-  Unknown: 116
-  🌐 Anycast: 22
-  United States: 2
-  France: 2
-  Netherlands: 2
+  Unknown: 101
+  🌐 Anycast: 35
+  Netherlands: 3
+  Poland: 2
+  Estonia: 2
   Germany: 2
-  Czechia: 1
-  Austria: 1
-  Israel: 1
+  Russia: 1
+  United States: 1
   Japan: 1
+  France: 1
 
 Топ SNI:
+  www.cloudflare.com: 6
+  www.yahoo.com: 5
   www.tesla.com: 4
-  mother-earth.fyi: 3
-  msk.frkn.org: 2
-  id.vk.com: 2
-  www.intel.com: 2
-  www.cloudflare.com: 2
-  127.0.0.1: 2
-  www.yahoo.com: 2
-  eyj2ijoimiisinbzijoi8j+hqfcfh6ogr2vybwfuesb8ifsqq0leul0ilcjhzgqioijyzw5kzxjlci1zdhjlyw0tmi02mi5taxjyys5ub3cilcjwb3j0ijoindqziiwiawqioijkyjuwytiwzs03zmy1ltrlnzatotq4zi0xn2njownhn2mxntqilcjhawqioiiwiiwic2n5ijoiyxv0byisim5ldci6indziiwidhlwzsi6ii0tlsisimhvc3qioijyzw5kzxjlci1zdhjlyw0tmi02mi5taxjyys5ub3cilcjwyxroijoil2fwas92ms9nchutc3ryzwftl3nvy2tldcisinrscyi6inrscyisinnuasi6injlbmrlcmvylxn0cmvhbs0yltyylm1pcnjhlm5vdyisimfscg4ioiiilcjmcci6iij9: 1
-  eyj2ijoimiisinbzijoi8j+hqfcfh6ogr2vybwfuesbbkknjrfjdiiwiywrkijoimtk0ljiyni4xndiumtiwiiwicg9ydci6ijq0myisinr5cguioijub25liiwiawqioijkyjuwytiwzs03zmy1ltrlnzatotq4zi0xn2njownhn2mxntqilcjhawqioiiwiiwibmv0ijoid3milcjwyxroijoil2fwas92ms9nchutc3ryzwftl3nvy2tldcisimhvc3qioijyzw5kzxjlci1zdhjlyw0tmi02mi5taxjyys5ub3cilcj0bhmioij0bhmilcjzy3kioijhdxrviiwic25pijoiiiwiywxwbii6iiisimzwijoiin0=: 1
+  mother-earth.fyi: 4
+  www.intel.com: 3
+  ads.x5.ru: 2
+  www.sony.com: 2
+  canalnotes.site: 2
+  91.240.86.70: 1
+  hy.quattro-tech.ru: 1
 
 Топ портов:
-  443: 22
-  2056: 2
+  443: 26
+  22443: 3
+  24443: 3
+  20270: 3
+  4433: 2
+  44370: 2
   50160: 2
-  22443: 1
-  24443: 1
-  32833: 1
-  3090: 1
-  42942: 1
-  28573: 1
-  53734: 1
+  2056: 1
+  43840: 1
+  24146: 1
 
 Топ схем:
-  vmess: 108
-  vless: 28
-  hysteria2: 11
-  trojan: 3
+  vmess: 87
+  vless: 44
+  hysteria2: 13
+  trojan: 6
 
 Топ transport:
-  tcp: 142
-  xhttp: 5
-  grpc: 3
+  tcp: 138
+  xhttp: 6
+  grpc: 5
+  ws: 1
 
 Топ security:
-  none: 122
-  reality: 18
-  tls: 10
+  none: 101
+  reality: 41
+  tls: 8
 
 ────────────────────────────────────────────────────────────────────
 📊 mixed
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 25
-Уникальных строк: 25
-Уникальных host:port: 25
-Уникальных backend: 23
-Anycast: 13
-Unknown country: 5
+Всего конфигов: 42
+Уникальных строк: 42
+Уникальных host:port: 41
+Уникальных backend: 38
+Anycast: 24
+Unknown country: 7
 
 Топ стран:
-  🌐 Anycast: 13
-  Unknown: 5
-  France: 2
-  United States: 1
+  🌐 Anycast: 24
+  Unknown: 7
+  Netherlands: 3
+  Poland: 2
+  Estonia: 2
+  France: 1
+  Switzerland: 1
   Germany: 1
-  Austria: 1
   Japan: 1
-  Netherlands: 1
 
 Топ SNI:
+  www.cloudflare.com: 6
   www.tesla.com: 4
-  id.vk.com: 2
+  www.yahoo.com: 3
+  www.intel.com: 3
+  ads.x5.ru: 2
   mother-earth.fyi: 2
-  www.intel.com: 2
-  www.cloudflare.com: 2
-  cdn-tw-msk-mishka.attention-game.ru: 1
+  www.sony.com: 2
   ru4.lebedvpn.cc: 1
-  ads.x5.ru: 1
-  www.sony.com: 1
-  dns.refprov.online: 1
+  tr.static-assets.space: 1
+  cdn-tw-msk-mishka.attention-game.ru: 1
 
 Топ портов:
-  443: 16
-  53271: 1
-  42942: 1
-  28573: 1
-  32833: 1
-  51847: 1
-  8443: 1
-  53734: 1
-  20270: 1
+  443: 21
+  20270: 3
+  22443: 2
+  24443: 2
+  11690: 1
   22746: 1
+  8443: 1
+  25720: 1
+  2083: 1
+  28573: 1
 
 Топ схем:
-  vless: 25
+  vless: 42
 
 Топ transport:
-  tcp: 18
+  tcp: 31
   xhttp: 5
-  grpc: 2
+  grpc: 5
+  ws: 1
 
 Топ security:
-  reality: 16
-  tls: 9
+  reality: 36
+  tls: 6
 
 ────────────────────────────────────────────────────────────────────
 📊 lte
@@ -443,124 +462,128 @@ Unknown country: 5
 Всего конфигов: 25
 Уникальных строк: 25
 Уникальных host:port: 25
-Уникальных backend: 23
-Anycast: 14
-Unknown country: 6
+Уникальных backend: 22
+Anycast: 13
+Unknown country: 0
 
 Топ стран:
-  🌐 Anycast: 14
-  Unknown: 6
-  Germany: 1
-  Austria: 1
+  🌐 Anycast: 13
+  Netherlands: 3
+  Poland: 2
+  Estonia: 2
+  Germany: 2
   France: 1
-  Netherlands: 1
   Japan: 1
+  Switzerland: 1
 
 Топ SNI:
-  www.tesla.com: 3
+  www.cloudflare.com: 6
   mother-earth.fyi: 2
-  www.intel.com: 2
-  www.yahoo.com: 2
-  id.vk.com: 2
-  www.cloudflare.com: 2
-  accounts.fastly.com: 1
-  us.lebedvpn.cc: 1
+  id.vk.com: 1
   ru4.lebedvpn.cc: 1
-  at-dedic-2.failspace.top: 1
+  us.lebedvpn.cc: 1
+  dns.refprov.online: 1
+  nether.failspace.top: 1
+  www.icloud.com: 1
+  node3.gleb.space: 1
+  gang.gayvibe.dpdns.org: 1
 
 Топ портов:
-  443: 16
+  443: 13
+  22443: 2
+  24443: 2
   8443: 1
-  22746: 1
-  20270: 1
+  25809: 1
+  8881: 1
+  25720: 1
+  2083: 1
   53734: 1
-  32833: 1
-  28573: 1
-  53271: 1
-  51847: 1
-  44370: 1
+  8880: 1
 
 Топ схем:
-  vless: 24
-  trojan: 1
+  vless: 23
+  trojan: 2
 
 Топ transport:
-  tcp: 18
+  tcp: 14
+  grpc: 5
   xhttp: 5
-  grpc: 2
+  ws: 1
 
 Топ security:
-  reality: 16
-  tls: 9
+  reality: 19
+  tls: 6
 
 ====================================================================
 🌍 GLOBAL SUMMARY
 ====================================================================
-Всего конфигов: 376
-Уникальных строк: 160
-Уникальных host:port: 45
-Уникальных backend: 152
-Anycast: 81
-Unknown country: 259
+Всего конфигов: 413
+Уникальных строк: 172
+Уникальных host:port: 68
+Уникальных backend: 160
+Anycast: 114
+Unknown country: 237
 
 Топ стран:
-  Unknown: 259
-  🌐 Anycast: 81
-  France: 7
-  Germany: 6
-  Netherlands: 6
-  United States: 5
+  Unknown: 237
+  🌐 Anycast: 114
+  Netherlands: 13
+  Estonia: 12
+  Poland: 12
+  Germany: 7
   Japan: 4
-  Austria: 4
-  Czechia: 2
-  Israel: 2
+  Switzerland: 4
+  France: 4
+  Russia: 3
+  United States: 3
 
 Топ SNI:
-  www.tesla.com: 15
-  id.vk.com: 14
-  mother-earth.fyi: 10
+  www.cloudflare.com: 32
+  www.yahoo.com: 14
+  www.tesla.com: 13
+  mother-earth.fyi: 12
   www.intel.com: 9
-  www.cloudflare.com: 8
-  www.yahoo.com: 7
-  cdn-tw-msk-mishka.attention-game.ru: 5
+  ads.x5.ru: 6
+  canalnotes.site: 6
+  www.sony.com: 6
+  id.vk.com: 5
   ru4.lebedvpn.cc: 5
-  msk.frkn.org: 5
-  ads.x5.ru: 4
+  cdn-tw-msk-mishka.attention-game.ru: 4
+  openwrt.lan: 4
+  tr.static-assets.space: 4
+  msk.frkn.org: 4
   hy.quattro-tech.ru: 4
-  accounts.fastly.com: 4
-  at-dedic-2.failspace.top: 4
-  us.lebedvpn.cc: 4
-  dns.refprov.online: 4
 
 Топ портов:
-  443: 85
-  2056: 4
-  20270: 4
+  443: 95
+  24443: 15
+  22443: 15
+  20270: 10
+  4433: 6
+  8881: 4
+  25720: 4
+  2083: 4
   8443: 4
-  28573: 4
-  51847: 4
-  32833: 4
-  22746: 4
   53734: 4
-  53271: 4
+  25809: 4
+  44370: 4
   50160: 4
-  22443: 3
-  24443: 3
-  44370: 3
-  42942: 3
+  8880: 3
+  11690: 3
 
 Топ схем:
-  vmess: 229
-  vless: 114
-  hysteria2: 26
-  trojan: 7
+  vmess: 198
+  vless: 168
+  hysteria2: 33
+  trojan: 14
 
 Топ transport:
-  tcp: 338
-  xhttp: 22
-  grpc: 16
+  tcp: 356
+  grpc: 29
+  xhttp: 24
+  ws: 4
 
 Топ security:
-  none: 260
-  reality: 76
-  tls: 40
+  none: 232
+  reality: 150
+  tls: 31
