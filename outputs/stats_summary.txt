@@ -1,5 +1,5 @@
 VPN Builder stats summary
-Generated at: 2026-09-19 01:21:35 MSK
+Generated at: 2026-09-19 03:25:36 MSK
 
 ====================================================================
 RAW GROUPS
@@ -8,167 +8,174 @@ RAW GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 103
-Уникальных строк: 92
-Уникальных host:port: 15
-Уникальных backend: 35
-Anycast: 50
-Unknown country: 23
+Всего конфигов: 99
+Уникальных строк: 84
+Уникальных host:port: 17
+Уникальных backend: 23
+Anycast: 63
+Unknown country: 12
 
 Топ стран:
-  🌐 Anycast: 50
-  Netherlands: 26
-  Unknown: 23
+  🌐 Anycast: 63
+  Unknown: 12
+  Netherlands: 8
+  India: 6
+  Russia: 6
   Kazakhstan: 4
 
 Топ SNI:
-  max.ru: 22
-  id.vk.com: 17
-  cdn.callibri.ru: 12
-  cdn.steamstatic.com: 7
+  id.vk.com: 20
+  max.ru: 18
+  www.google.com: 6
+  j8dvb.guardora.pro: 6
   dl.dell.com: 6
+  cdn.steamstatic.com: 6
+  www.vk.com: 6
   download.nvidia.com: 4
-  dailycanvas.sysopnova.art: 3
-  api.setevoybereg.cc: 3
-  msk.frkn.org: 3
-  hy.quattro-tech.ru: 3
+  msk.frkn.org: 4
+  bl3fk52.sysopnova.art: 3
 
 Топ портов:
-  443: 70
-  8443: 7
+  443: 67
+  24443: 7
+  8444: 6
+  8443: 6
   22443: 4
-  730: 1
   2056: 1
-  24443: 1
 
 Топ схем:
-  vless: 75
-  vmess: 19
-  hysteria2: 9
+  vless: 81
+  hysteria2: 10
+  vmess: 8
 
 Топ transport:
-  tcp: 44
-  xhttp: 35
-  grpc: 24
+  grpc: 35
+  xhttp: 31
+  tcp: 24
+  ws: 6
+  raw: 3
 
 Топ security:
-  reality: 74
-  none: 28
-  tls: 1
+  reality: 72
+  none: 16
+  tls: 11
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_vless
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 87
-Уникальных строк: 87
-Уникальных host:port: 14
-Уникальных backend: 32
-Anycast: 46
-Unknown country: 22
+Всего конфигов: 74
+Уникальных строк: 74
+Уникальных host:port: 15
+Уникальных backend: 20
+Anycast: 48
+Unknown country: 12
 
 Топ стран:
-  🌐 Anycast: 46
-  Unknown: 22
-  Netherlands: 15
+  🌐 Anycast: 48
+  Unknown: 12
+  Netherlands: 5
   Kazakhstan: 4
+  India: 3
+  Russia: 2
 
 Топ SNI:
-  id.vk.com: 17
-  cdn.callibri.ru: 12
-  max.ru: 11
-  cdn.steamstatic.com: 7
+  id.vk.com: 20
+  max.ru: 9
   dl.dell.com: 6
+  cdn.steamstatic.com: 6
   download.nvidia.com: 4
-  dailycanvas.sysopnova.art: 3
-  api.setevoybereg.cc: 3
-  hy.quattro-tech.ru: 3
-  msk.frkn.org: 2
+  www.google.com: 3
+  bl3fk52.sysopnova.art: 3
+  Ads.x5.ru: 3
+  j8dvb.guardora.pro: 3
+  xssite.webredirect.org: 3
 
 Топ портов:
-  443: 58
-  8443: 7
+  443: 54
+  8443: 6
+  8444: 3
   22443: 2
-  730: 1
   24443: 1
 
 Топ схем:
-  vless: 64
-  vmess: 18
-  hysteria2: 5
+  vless: 60
+  vmess: 8
+  hysteria2: 6
 
 Топ transport:
-  tcp: 39
-  xhttp: 24
-  grpc: 24
+  grpc: 32
+  xhttp: 22
+  tcp: 14
+  raw: 3
+  ws: 3
 
 Топ security:
-  reality: 63
-  none: 23
-  tls: 1
+  reality: 54
+  none: 12
+  tls: 8
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW black_all
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 425
-Уникальных строк: 353
-Уникальных host:port: 65
-Уникальных backend: 184
-Anycast: 132
-Unknown country: 230
+Всего конфигов: 410
+Уникальных строк: 279
+Уникальных host:port: 63
+Уникальных backend: 177
+Anycast: 185
+Unknown country: 176
 
 Топ стран:
-  Unknown: 230
-  🌐 Anycast: 132
-  Poland: 14
-  United States: 14
-  Netherlands: 13
+  🌐 Anycast: 185
+  Unknown: 176
+  Netherlands: 19
+  Bulgaria: 8
   Japan: 7
   Finland: 5
-  Switzerland: 3
-  Bulgaria: 3
-  France: 2
+  France: 4
+  United States: 4
+  Poland: 2
 
 Топ SNI:
-  www.cloudflare.com: 50
-  www.intel.com: 37
-  www.tesla.com: 33
-  orenburg.gosgenarchive.com: 15
-  www.spotify.com: 15
-  download.nvidia.com: 9
-  cdn.steamstatic.com: 9
+  www.tesla.com: 59
+  www.intel.com: 44
+  www.cloudflare.com: 37
+  www.logitech.com: 16
+  orenburg.gosgenarchive.com: 16
+  www.sony.com: 13
+  sheetpeek.com: 8
   rusbid.de: 8
-  sheetpeek.com: 7
-  www.tidal.com: 6
+  download.nvidia.com: 6
+  cdn.steamstatic.com: 6
 
 Топ портов:
-  443: 130
-  41688: 22
-  53734: 18
-  32833: 13
-  42942: 13
+  443: 121
+  53734: 24
+  32833: 14
+  42942: 14
+  41688: 13
+  43840: 13
+  22746: 12
+  11690: 11
+  51847: 10
   2063: 8
-  8443: 8
-  50160: 7
-  12887: 4
-  28573: 4
 
 Топ схем:
-  vless: 235
-  vmess: 167
+  vless: 241
+  vmess: 145
   hysteria2: 17
-  trojan: 6
+  trojan: 7
 
 Топ transport:
-  tcp: 381
-  xhttp: 33
-  grpc: 8
-  raw: 2
-  ws: 1
+  tcp: 365
+  xhttp: 30
+  raw: 7
+  grpc: 5
+  ws: 3
 
 Топ security:
-  reality: 213
-  none: 186
-  tls: 26
+  reality: 222
+  none: 164
+  tls: 24
 
 ====================================================================
 FINAL GROUPS
@@ -177,284 +184,297 @@ FINAL GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 34
-Уникальных строк: 34
-Уникальных host:port: 15
-Уникальных backend: 30
-Anycast: 9
-Unknown country: 21
+Всего конфигов: 25
+Уникальных строк: 25
+Уникальных host:port: 17
+Уникальных backend: 20
+Anycast: 10
+Unknown country: 9
 
 Топ стран:
-  Unknown: 21
-  🌐 Anycast: 9
-  Netherlands: 2
+  🌐 Anycast: 10
+  Unknown: 9
   Kazakhstan: 2
-
-Топ SNI:
-  id.vk.com: 4
-  dl.dell.com: 2
-  api.setevoybereg.cc: 1
-  dailycanvas.sysopnova.art: 1
-  cdn.callibri.ru: 1
-  max.ru: 1
-  201.24.122.22: 1
-  msk.frkn.org: 1
-  eyjhzgqioijyzw5kzxjlci1zdhjlyw0tmi02mi5taxjyys5ub3cilcjhawqioiiwiiwiywxwbii6iiisimzwijoiy2hyb21liiwiag9zdci6iiisimlkijoizgi1mgeymgutn2zmns00ztcwltk0ogytmtdjyzljytdjmtu0iiwiaw5zzwn1cmuioiiwiiwibmv0ijoid3milcjwyxroijoil2fwas92ms9nchutc3ryzwftl3nvy2tldcisinbjcyi6iiisinbvcnqioii0ndmilcjwcyi6ivcfjjagqw55y2fzdc1jucb8ipcfh6nwn4eqipcfh7jwn4eqihwgwypdsursxsisinnjesi6imf1dg8ilcjzbmkioijyzw5kzxjlci1zdhjlyw0tmi02mi5taxjyys5ub3cilcj0bhmioij0bhmilcj0exblijoils0tiiwidii6ijiilcj2y24ioiiifq==: 1
-  els.mangshe.xyz: 1
-
-Топ портов:
-  443: 10
-  8443: 1
-  730: 1
-  2056: 1
-  24443: 1
-  22443: 1
-
-Топ схем:
-  vmess: 19
-  vless: 11
-  hysteria2: 4
-
-Топ transport:
-  tcp: 26
-  grpc: 5
-  xhttp: 3
-
-Топ security:
-  none: 24
-  reality: 10
-
-────────────────────────────────────────────────────────────────────
-📊 white_vless
-────────────────────────────────────────────────────────────────────
-Всего конфигов: 32
-Уникальных строк: 32
-Уникальных host:port: 14
-Уникальных backend: 27
-Anycast: 8
-Unknown country: 20
-
-Топ стран:
-  Unknown: 20
-  🌐 Anycast: 8
-  Kazakhstan: 2
-  Netherlands: 2
+  Russia: 2
+  Netherlands: 1
+  India: 1
 
 Топ SNI:
   id.vk.com: 4
   dl.dell.com: 2
   hy.quattro-tech.ru: 2
   max.ru: 1
-  api.setevoybereg.cc: 1
-  cdn.callibri.ru: 1
-  dailycanvas.sysopnova.art: 1
-  201.24.122.22: 1
-  msk.frkn.org: 1
-  eyjhzgqioii1lje4oc4yni44nsisimfpzci6ijailcjob3n0ijoicmvuzgvyzxitc3ryzwftltitnjiubwlycmeubm93iiwiawqioijkyjuwytiwzs03zmy1ltrlnzatotq4zi0xn2njownhn2mxntqilcjuzxqioij3cyisinbhdggioiivyxbpl3yxl2dwds1zdhjlyw0vc29ja2v0iiwicg9ydci6ijq0myisinbzijoi8j+hqfcfh6ogr2vybwfuesb8ifsqq0leul0ilcjzzwn1cml0esi6imf1dg8ilcj0bhmioij0bhmilcj2ijoimiisinr5cguioijub25liiwic2n5ijoiyxv0byisinnuasi6iiisimfscg4ioiiilcjmcci6iij9: 1
+  www.google.com: 1
+  xssite.webredirect.org: 1
+  bl3fk52.sysopnova.art: 1
+  j8dvb.guardora.pro: 1
+  www.vk.com: 1
+  Ads.x5.ru: 1
 
 Топ портов:
-  443: 10
+  443: 11
+  24443: 2
   8443: 1
-  730: 1
+  8444: 1
+  2056: 1
+  22443: 1
+
+Топ схем:
+  vless: 13
+  vmess: 8
+  hysteria2: 4
+
+Топ transport:
+  tcp: 13
+  grpc: 7
+  xhttp: 3
+  ws: 1
+  raw: 1
+
+Топ security:
+  none: 12
+  reality: 11
+  tls: 2
+
+────────────────────────────────────────────────────────────────────
+📊 white_vless
+────────────────────────────────────────────────────────────────────
+Всего конфигов: 23
+Уникальных строк: 23
+Уникальных host:port: 15
+Уникальных backend: 18
+Anycast: 9
+Unknown country: 9
+
+Топ стран:
+  🌐 Anycast: 9
+  Unknown: 9
+  Kazakhstan: 2
+  Netherlands: 1
+  India: 1
+  Russia: 1
+
+Топ SNI:
+  id.vk.com: 4
+  dl.dell.com: 2
+  hy.quattro-tech.ru: 2
+  max.ru: 1
+  Ads.x5.ru: 1
+  www.google.com: 1
+  xssite.webredirect.org: 1
+  bl3fk52.sysopnova.art: 1
+  j8dvb.guardora.pro: 1
+  msk.frkn.org: 1
+
+Топ портов:
+  443: 11
+  8443: 1
+  8444: 1
   24443: 1
   22443: 1
 
 Топ схем:
-  vmess: 18
-  vless: 11
+  vless: 12
+  vmess: 8
   hysteria2: 3
 
 Топ transport:
-  tcp: 24
-  grpc: 5
+  tcp: 11
+  grpc: 7
   xhttp: 3
+  raw: 1
+  ws: 1
 
 Топ security:
-  none: 21
+  none: 11
   reality: 10
-  tls: 1
+  tls: 2
 
 ────────────────────────────────────────────────────────────────────
 📊 black_all
 ────────────────────────────────────────────────────────────────────
 Всего конфигов: 140
 Уникальных строк: 140
-Уникальных host:port: 60
-Уникальных backend: 139
-Anycast: 19
-Unknown country: 101
+Уникальных host:port: 61
+Уникальных backend: 138
+Anycast: 32
+Unknown country: 95
 
 Топ стран:
-  Unknown: 101
-  🌐 Anycast: 19
-  United States: 5
+  Unknown: 95
+  🌐 Anycast: 32
   Netherlands: 4
-  Poland: 3
-  Japan: 3
+  United States: 2
+  France: 2
   Finland: 2
-  Russia: 1
-  France: 1
-  Switzerland: 1
+  Bulgaria: 1
+  Poland: 1
+  Japan: 1
 
 Топ SNI:
-  www.cloudflare.com: 18
-  www.spotify.com: 4
-  www.tesla.com: 3
-  www.intel.com: 3
-  pl-new-dedic.failspace.top: 2
+  www.cloudflare.com: 19
+  www.intel.com: 4
+  www.tesla.com: 4
   download.nvidia.com: 2
-  www.sony.com: 2
-  www.tidal.com: 2
-  api.videobereg.cc: 1
-  www.epson.com: 1
+  pl-new-dedic.failspace.top: 2
+  www.logitech.com: 2
+  www.bing.com: 2
+  sheetpeek.com: 1
+  yigfdsgfuo88-production.up.railway.app: 1
+  sperma.mervi.icu: 1
 
 Топ портов:
-  443: 36
+  443: 40
+  50160: 3
   8443: 2
-  42942: 1
-  2063: 1
-  32833: 1
-  28573: 1
+  22746: 1
   53734: 1
+  2063: 1
+  43840: 1
+  36723: 1
   8081: 1
   51847: 1
-  43840: 1
 
 Топ схем:
-  vmess: 80
-  vless: 51
-  hysteria2: 7
+  vmess: 79
+  vless: 50
+  hysteria2: 9
   trojan: 2
 
 Топ transport:
-  tcp: 132
-  xhttp: 5
+  tcp: 130
+  xhttp: 6
+  ws: 2
   grpc: 2
-  ws: 1
 
 Топ security:
-  none: 89
-  reality: 44
-  tls: 7
+  none: 90
+  reality: 41
+  tls: 9
 
 ────────────────────────────────────────────────────────────────────
 📊 pool
 ────────────────────────────────────────────────────────────────────
 Всего конфигов: 150
 Уникальных строк: 150
-Уникальных host:port: 61
-Уникальных backend: 147
-Anycast: 22
-Unknown country: 107
+Уникальных host:port: 73
+Уникальных backend: 143
+Anycast: 40
+Unknown country: 92
 
 Топ стран:
-  Unknown: 107
-  🌐 Anycast: 22
-  Netherlands: 6
-  United States: 4
-  Poland: 3
-  Japan: 3
+  Unknown: 92
+  🌐 Anycast: 40
+  Netherlands: 4
+  Russia: 2
   Kazakhstan: 2
+  United States: 2
   Finland: 2
-  France: 1
+  France: 2
+  India: 1
+  Bulgaria: 1
 
 Топ SNI:
-  www.cloudflare.com: 14
-  www.spotify.com: 4
-  dl.dell.com: 2
+  www.cloudflare.com: 19
+  www.tesla.com: 4
+  www.intel.com: 4
   id.vk.com: 2
+  els.mangshe.xyz: 2
+  hy.quattro-tech.ru: 2
+  dl.dell.com: 2
+  msk.frkn.org: 2
+  www.logitech.com: 2
   pl-new-dedic.failspace.top: 2
-  www.sony.com: 2
-  www.intel.com: 2
-  www.tesla.com: 2
-  eyj2ijoimiisinbzijoi8j+hqfcfh6ogr2vybwfuesb8ifsqq0leul0ilcjhzgqioiixotquodcunzeumtqxiiwicg9ydci6ijq0myisimlkijoizgi1mgeymgutn2zmns00ztcwltk0ogytmtdjyzljytdjmtu0iiwiywlkijoimcisim5ldci6indziiwidhlwzsi6im5vbmuilcjob3n0ijoicmvuzgvyzxitc3ryzwftltitnjiubwlycmeubm93iiwicgf0aci6ii9hcgkvdjevz3b1lxn0cmvhbs9zb2nrzxqilcj0bhmioij0bhmilcjzy3kioijhdxrviiwic25pijoiiiwiywxwbii6iiisimzwijoiin0=: 1
-  eyj2ijoimiisinbzijoi8j+hqfcfh6ogr2vybwfuesb8ifsqq0leul0ilcjhzgqioiixotqumji2lje0mi4xmjailcjwb3j0ijoindqziiwiawqioijkyjuwytiwzs03zmy1ltrlnzatotq4zi0xn2njownhn2mxntqilcjhawqioiiwiiwic2n5ijoiyxv0byisim5ldci6indziiwidhlwzsi6im5vbmuilcjob3n0ijoicmvuzgvyzxitc3ryzwftltitnjiubwlycmeubm93iiwicgf0aci6ii9hcgkvdjevz3b1lxn0cmvhbs9zb2nrzxqilcj0bhmioij0bhmilcjzbmkioijyzw5kzxjlci1zdhjlyw0tmi02mi5taxjyys5ub3cilcjwywnrzxrfbmnvzgluzyi6inh1zhailcjhbhbuijoiiiwiznaioiiifq==: 1
 
 Топ портов:
-  443: 37
-  8443: 2
+  443: 48
+  8443: 3
+  50160: 3
   2056: 2
+  24443: 2
+  8444: 1
   22443: 1
-  24443: 1
-  730: 1
-  12885: 1
-  12887: 1
-  28573: 1
   8081: 1
+  53734: 1
+  11690: 1
 
 Топ схем:
-  vmess: 89
-  vless: 49
-  hysteria2: 10
+  vmess: 75
+  vless: 60
+  hysteria2: 13
   trojan: 2
 
 Топ transport:
-  tcp: 138
-  xhttp: 7
-  grpc: 4
-  ws: 1
+  tcp: 130
+  xhttp: 9
+  grpc: 7
+  ws: 3
+  raw: 1
 
 Топ security:
-  none: 102
-  reality: 41
-  tls: 7
+  none: 90
+  reality: 50
+  tls: 10
 
 ────────────────────────────────────────────────────────────────────
 📊 mixed
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 47
-Уникальных строк: 47
-Уникальных host:port: 47
-Уникальных backend: 44
-Anycast: 14
-Unknown country: 15
+Всего конфигов: 59
+Уникальных строк: 59
+Уникальных host:port: 59
+Уникальных backend: 56
+Anycast: 30
+Unknown country: 14
 
 Топ стран:
-  Unknown: 15
-  🌐 Anycast: 14
-  Netherlands: 5
-  United States: 4
-  Poland: 3
+  🌐 Anycast: 30
+  Unknown: 14
+  Netherlands: 3
+  Russia: 2
   Kazakhstan: 2
-  Japan: 2
-  France: 1
+  France: 2
+  United States: 2
+  India: 1
   Finland: 1
+  Bulgaria: 1
 
 Топ SNI:
-  www.cloudflare.com: 14
-  www.spotify.com: 4
+  www.cloudflare.com: 19
+  www.intel.com: 4
+  www.tesla.com: 4
   dl.dell.com: 2
   id.vk.com: 2
+  download.nvidia.com: 2
   pl-new-dedic.failspace.top: 2
-  www.sony.com: 2
-  www.tesla.com: 2
-  www.intel.com: 2
-  cdn.callibri.ru: 1
-  dailycanvas.sysopnova.art: 1
+  www.logitech.com: 2
+  www.vk.com: 1
+  xssite.webredirect.org: 1
 
 Топ портов:
-  443: 34
-  8443: 2
-  12878: 1
+  443: 44
+  8443: 3
+  24443: 1
+  8444: 1
   43840: 1
-  12887: 1
-  51847: 1
-  12884: 1
-  28573: 1
-  24146: 1
+  32833: 1
+  11690: 1
+  22746: 1
   42942: 1
+  2063: 1
 
 Топ схем:
-  vless: 47
+  vless: 59
 
 Топ transport:
-  tcp: 36
-  xhttp: 7
-  grpc: 4
+  tcp: 40
+  xhttp: 9
+  grpc: 7
+  ws: 2
+  raw: 1
 
 Топ security:
-  reality: 41
-  tls: 6
+  reality: 50
+  tls: 9
 
 ────────────────────────────────────────────────────────────────────
 📊 lte
@@ -463,119 +483,123 @@ Unknown country: 15
 Уникальных строк: 25
 Уникальных host:port: 25
 Уникальных backend: 22
-Anycast: 7
-Unknown country: 2
+Anycast: 12
+Unknown country: 0
 
 Топ стран:
-  🌐 Anycast: 7
-  Netherlands: 5
-  United States: 4
-  Poland: 3
+  🌐 Anycast: 12
+  Netherlands: 2
+  United States: 2
   Kazakhstan: 2
-  Unknown: 2
-  France: 1
+  France: 2
+  Poland: 1
+  Russia: 1
   Finland: 1
+  Bulgaria: 1
+  India: 1
 
 Топ SNI:
-  www.cloudflare.com: 6
+  www.cloudflare.com: 5
   id.vk.com: 2
   dl.dell.com: 2
+  download.nvidia.com: 2
   pl-new-dedic.failspace.top: 2
-  solipanel-production-20b6.up.railway.app: 1
-  nl-dedic-mori.failspace.top: 1
-  01fra.hello-there.ru: 1
   max.ru: 1
-  cdn.steamstatic.com: 1
-  api.videobereg.cc: 1
+  yigfdsgfuo88-production.up.railway.app: 1
+  01nl.hello-there.ru: 1
+  01fra.hello-there.ru: 1
+  01au.hello-there.ru: 1
 
 Топ портов:
-  443: 22
-  8443: 1
-  42942: 1
-  2063: 1
+  443: 21
+  8443: 3
+  8444: 1
 
 Топ схем:
   vless: 25
 
 Топ transport:
-  tcp: 16
-  xhttp: 6
-  grpc: 3
+  xhttp: 8
+  tcp: 8
+  grpc: 7
+  ws: 2
 
 Топ security:
-  reality: 19
-  tls: 6
+  reality: 17
+  tls: 8
 
 ====================================================================
 🌍 GLOBAL SUMMARY
 ====================================================================
-Всего конфигов: 428
-Уникальных строк: 176
-Уникальных host:port: 74
-Уникальных backend: 168
-Anycast: 79
-Unknown country: 266
+Всего конфигов: 422
+Уникальных строк: 166
+Уникальных host:port: 76
+Уникальных backend: 156
+Anycast: 133
+Unknown country: 219
 
 Топ стран:
-  Unknown: 266
-  🌐 Anycast: 79
-  Netherlands: 24
-  United States: 17
-  Poland: 12
+  Unknown: 219
+  🌐 Anycast: 133
+  Netherlands: 15
   Kazakhstan: 10
-  Japan: 8
+  Russia: 8
+  United States: 8
+  France: 8
   Finland: 6
-  France: 4
-  Russia: 1
-  Switzerland: 1
+  India: 5
+  Bulgaria: 4
+  Poland: 4
+  Japan: 2
 
 Топ SNI:
-  www.cloudflare.com: 52
+  www.cloudflare.com: 62
   id.vk.com: 14
-  www.spotify.com: 12
+  www.intel.com: 12
+  www.tesla.com: 12
   dl.dell.com: 10
+  download.nvidia.com: 8
   pl-new-dedic.failspace.top: 8
-  www.tesla.com: 8
-  www.intel.com: 7
-  www.sony.com: 6
-  api.setevoybereg.cc: 5
-  dailycanvas.sysopnova.art: 5
-  cdn.callibri.ru: 5
+  hy.quattro-tech.ru: 6
+  www.logitech.com: 6
   max.ru: 5
-  msk.frkn.org: 4
-  hy.quattro-tech.ru: 4
-  api.videobereg.cc: 4
+  www.google.com: 5
+  xssite.webredirect.org: 5
+  bl3fk52.sysopnova.art: 5
+  j8dvb.guardora.pro: 5
+  msk.frkn.org: 5
 
 Топ портов:
-  443: 149
-  8443: 9
+  443: 175
+  8443: 13
+  24443: 6
+  50160: 6
+  8444: 5
   2056: 4
-  42942: 4
-  2063: 4
-  730: 3
-  24443: 3
   22443: 3
-  32833: 3
-  28573: 3
-  51847: 3
+  22746: 3
+  53734: 3
+  2063: 3
   43840: 3
-  24146: 3
-  12885: 3
-  12887: 3
+  51847: 3
+  32833: 3
+  42942: 3
+  11690: 3
 
 Топ схем:
-  vmess: 206
-  vless: 194
-  hysteria2: 24
+  vless: 219
+  vmess: 170
+  hysteria2: 29
   trojan: 4
 
 Топ transport:
-  tcp: 372
-  xhttp: 31
-  grpc: 23
-  ws: 2
+  tcp: 332
+  xhttp: 38
+  grpc: 37
+  ws: 11
+  raw: 4
 
 Топ security:
-  none: 236
-  reality: 165
-  tls: 27
+  none: 203
+  reality: 179
+  tls: 40
