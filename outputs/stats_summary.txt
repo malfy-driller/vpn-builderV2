@@ -1,5 +1,5 @@
 VPN Builder stats summary
-Generated at: 2026-09-20 00:29:42 MSK
+Generated at: 2026-09-20 02:33:53 MSK
 
 ====================================================================
 RAW GROUPS
@@ -8,160 +8,167 @@ RAW GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 59
-Уникальных строк: 59
-Уникальных host:port: 14
-Уникальных backend: 12
-Anycast: 33
-Unknown country: 1
+Всего конфигов: 62
+Уникальных строк: 60
+Уникальных host:port: 18
+Уникальных backend: 14
+Anycast: 32
+Unknown country: 12
 
 Топ стран:
-  🌐 Anycast: 33
-  Finland: 15
-  Russia: 10
-  Unknown: 1
+  🌐 Anycast: 32
+  Unknown: 12
+  Russia: 11
+  Finland: 5
+  Germany: 2
 
 Топ SNI:
   6a32736d.ferrin.uk: 20
-  ru-kitchen.ru: 5
+  dzen.ru: 10
+  absolute-disaster.org: 5
   wiki.solarinfra.net: 5
-  avito.st: 5
-  dzen.ru: 5
-  yandex.ru: 5
+  ru2.h.smartaisupport.ru: 4
+  disk.api-yandex.net: 4
   msk.frkn.org: 4
-  disk.api-yandex.net: 3
   hy.quattro-tech.ru: 3
   91.240.86.70: 2
+  edge.blacksailcdn.com: 1
 
 Топ портов:
-  443: 44
+  443: 45
   22443: 7
-  4143: 5
-  23443: 1
+  1935: 4
+  23443: 2
+  2056: 1
   4433: 1
   24443: 1
+  50160: 1
 
 Топ схем:
-  vless: 45
-  hysteria2: 14
+  vless: 40
+  hysteria2: 22
 
 Топ transport:
-  tcp: 24
+  tcp: 37
   xhttp: 20
-  grpc: 10
   ws: 5
 
 Топ security:
   tls: 26
-  reality: 20
-  none: 13
+  none: 21
+  reality: 15
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_vless
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 39
-Уникальных строк: 39
-Уникальных host:port: 10
-Уникальных backend: 7
-Anycast: 24
-Unknown country: 0
+Всего конфигов: 43
+Уникальных строк: 43
+Уникальных host:port: 13
+Уникальных backend: 9
+Anycast: 25
+Unknown country: 12
 
 Топ стран:
-  🌐 Anycast: 24
-  Finland: 15
+  🌐 Anycast: 25
+  Unknown: 12
+  Finland: 5
+  Germany: 1
 
 Топ SNI:
   6a32736d.ferrin.uk: 20
-  ru-kitchen.ru: 5
+  absolute-disaster.org: 5
   wiki.solarinfra.net: 5
-  disk.api-yandex.net: 3
+  disk.api-yandex.net: 4
   msk.frkn.org: 3
+  ru2.h.smartaisupport.ru: 2
   hy.quattro-tech.ru: 2
+  edge.blacksailcdn.com: 1
   itsallproxy.quattro-tech.ru: 1
 
 Топ портов:
-  443: 33
+  443: 34
   22443: 4
-  23443: 1
+  1935: 2
+  23443: 2
   24443: 1
 
 Топ схем:
   vless: 30
-  hysteria2: 9
+  hysteria2: 13
 
 Топ transport:
   xhttp: 20
-  tcp: 9
-  grpc: 5
+  tcp: 18
   ws: 5
 
 Топ security:
   tls: 26
-  none: 8
+  none: 12
   reality: 5
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW black_all
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 377
-Уникальных строк: 241
-Уникальных host:port: 93
-Уникальных backend: 94
-Anycast: 221
-Unknown country: 98
+Всего конфигов: 418
+Уникальных строк: 281
+Уникальных host:port: 99
+Уникальных backend: 102
+Anycast: 255
+Unknown country: 114
 
 Топ стран:
-  🌐 Anycast: 221
-  Unknown: 98
-  Finland: 26
-  Estonia: 10
-  Poland: 8
-  Netherlands: 8
-  Germany: 2
+  🌐 Anycast: 255
+  Unknown: 114
+  Finland: 20
+  Estonia: 7
+  United States: 6
+  France: 5
+  Netherlands: 5
+  Germany: 4
   Bulgaria: 1
   Switzerland: 1
-  United States: 1
 
 Топ SNI:
-  www.intel.com: 49
-  www.tesla.com: 27
-  6a32736d.ferrin.uk: 19
-  rusbid.de: 14
+  www.tesla.com: 47
+  www.intel.com: 44
+  6a32736d.ferrin.uk: 24
+  www.sony.com: 19
   14ang88.snusoed.baby: 14
+  rusbid.de: 14
   onecloudstream.com: 14
-  vera.kyras.pw: 12
+  www.cloudflare.com: 10
+  cloud.figmafound.org: 10
   estomin1.vodniki.monster: 9
-  www.cloudflare.com: 9
-  app-6aae70d4.adhil.uk: 8
 
 Топ портов:
-  443: 178
-  53734: 24
-  41688: 17
-  2063: 14
+  443: 197
+  53734: 22
+  42942: 16
   32833: 14
   22746: 14
+  2063: 14
+  43840: 14
   9443: 14
-  50160: 11
-  8443: 8
-  8081: 5
+  50160: 13
+  41688: 11
 
 Топ схем:
-  vless: 260
-  hysteria2: 48
-  vmess: 46
-  trojan: 23
+  vless: 302
+  hysteria2: 52
+  vmess: 43
+  trojan: 21
 
 Топ transport:
-  tcp: 309
-  xhttp: 35
-  ws: 24
-  raw: 9
+  tcp: 337
+  xhttp: 45
+  ws: 26
+  raw: 7
+  grpc: 3
 
 Топ security:
-  reality: 200
-  none: 100
-  tls: 77
+  reality: 230
+  none: 97
+  tls: 91
 
 ====================================================================
 FINAL GROUPS
@@ -170,282 +177,287 @@ FINAL GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 14
-Уникальных строк: 14
-Уникальных host:port: 14
-Уникальных backend: 11
-Anycast: 8
-Unknown country: 1
+Всего конфигов: 18
+Уникальных строк: 18
+Уникальных host:port: 18
+Уникальных backend: 13
+Anycast: 9
+Unknown country: 3
 
 Топ стран:
-  🌐 Anycast: 8
-  Finland: 3
-  Russia: 2
-  Unknown: 1
+  🌐 Anycast: 9
+  Russia: 3
+  Unknown: 3
+  Finland: 2
+  Germany: 1
 
 Топ SNI:
   6a32736d.ferrin.uk: 3
+  dzen.ru: 2
+  ru2.h.smartaisupport.ru: 2
   disk.api-yandex.net: 2
-  dzen.ru: 1
-  yandex.ru: 1
-  avito.st: 1
-  ru-kitchen.ru: 1
+  absolute-disaster.org: 1
   wiki.solarinfra.net: 1
+  edge.blacksailcdn.com: 1
+  vk.com: 1
   msk.frkn.org: 1
   hy.quattro-tech.ru: 1
-  ru.xiaoliyu.cyou: 1
 
 Топ портов:
-  443: 8
+  443: 9
+  1935: 2
   22443: 2
-  4143: 1
-  23443: 1
+  50160: 1
   24443: 1
   4433: 1
+  23443: 1
+  2056: 1
 
 Топ схем:
-  vless: 8
-  hysteria2: 6
+  hysteria2: 11
+  vless: 7
 
 Топ transport:
-  tcp: 8
+  tcp: 14
   xhttp: 3
-  grpc: 2
   ws: 1
 
 Топ security:
-  none: 6
-  reality: 4
+  none: 11
   tls: 4
+  reality: 3
 
 ────────────────────────────────────────────────────────────────────
 📊 white_vless
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 10
-Уникальных строк: 10
-Уникальных host:port: 10
-Уникальных backend: 6
+Всего конфигов: 13
+Уникальных строк: 13
+Уникальных host:port: 13
+Уникальных backend: 9
 Anycast: 7
-Unknown country: 0
+Unknown country: 3
 
 Топ стран:
   🌐 Anycast: 7
-  Finland: 3
+  Unknown: 3
+  Finland: 2
+  Germany: 1
 
 Топ SNI:
   6a32736d.ferrin.uk: 3
+  ru2.h.smartaisupport.ru: 2
   disk.api-yandex.net: 2
-  hy.quattro-tech.ru: 2
-  ru-kitchen.ru: 1
+  absolute-disaster.org: 1
   wiki.solarinfra.net: 1
+  edge.blacksailcdn.com: 1
+  hy.quattro-tech.ru: 1
   msk.frkn.org: 1
+  itsallproxy.quattro-tech.ru: 1
 
 Топ портов:
-  443: 6
+  443: 7
+  1935: 2
   22443: 2
   24443: 1
   23443: 1
 
 Топ схем:
+  hysteria2: 8
   vless: 5
-  hysteria2: 5
 
 Топ transport:
-  tcp: 5
+  tcp: 9
   xhttp: 3
-  grpc: 1
   ws: 1
 
 Топ security:
-  none: 5
+  none: 8
   tls: 4
   reality: 1
 
 ────────────────────────────────────────────────────────────────────
 📊 black_all
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 115
-Уникальных строк: 115
-Уникальных host:port: 87
-Уникальных backend: 90
-Anycast: 43
-Unknown country: 49
+Всего конфигов: 125
+Уникальных строк: 125
+Уникальных host:port: 94
+Уникальных backend: 100
+Anycast: 47
+Unknown country: 56
 
 Топ стран:
-  Unknown: 49
-  🌐 Anycast: 43
-  Finland: 9
-  Netherlands: 5
-  Poland: 2
+  Unknown: 56
+  🌐 Anycast: 47
+  Finland: 6
+  United States: 3
+  Germany: 3
+  France: 3
+  Netherlands: 3
   Estonia: 2
-  United States: 1
-  Germany: 1
-  Bulgaria: 1
   Switzerland: 1
+  Bulgaria: 1
 
 Топ SNI:
   6a32736d.ferrin.uk: 4
-  www.bing.com: 4
   www.intel.com: 4
+  www.tesla.com: 4
+  www.bing.com: 4
   onecloudstream.com: 4
   www.cloudflare.com: 3
+  hyhhuh.mervi.icu: 2
   jujujuj.mervi.icu: 2
-  rusbid.de: 2
-  vera.kyras.pw: 2
-  finkafsb.finiki.lol: 2
-  14ang88.snusoed.baby: 2
+  estomin1.vodniki.monster: 2
+  assets-fi.pleiades.codes: 2
 
 Топ портов:
-  443: 51
+  443: 56
+  50160: 6
   8081: 5
-  50160: 5
   9443: 4
   8443: 3
-  8080: 3
   2063: 2
+  2056: 2
+  32833: 1
   53734: 1
   43840: 1
-  1443: 1
 
 Топ схем:
-  vless: 63
-  vmess: 28
-  hysteria2: 20
+  vless: 66
+  vmess: 31
+  hysteria2: 24
   trojan: 4
 
 Топ transport:
-  tcp: 93
-  ws: 14
-  xhttp: 7
-  raw: 1
+  tcp: 102
+  ws: 13
+  xhttp: 8
+  grpc: 2
 
 Топ security:
-  none: 55
-  reality: 42
-  tls: 18
+  none: 59
+  reality: 43
+  tls: 23
 
 ────────────────────────────────────────────────────────────────────
 📊 pool
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 124
-Уникальных строк: 124
-Уникальных host:port: 96
-Уникальных backend: 99
-Anycast: 50
-Unknown country: 50
+Всего конфигов: 141
+Уникальных строк: 141
+Уникальных host:port: 105
+Уникальных backend: 110
+Anycast: 56
+Unknown country: 58
 
 Топ стран:
-  🌐 Anycast: 50
-  Unknown: 50
-  Finland: 8
-  Netherlands: 5
-  Russia: 2
+  Unknown: 58
+  🌐 Anycast: 56
+  Finland: 7
+  Germany: 4
+  Russia: 3
+  Netherlands: 3
+  United States: 3
+  France: 3
   Estonia: 2
-  Poland: 2
-  United States: 1
-  Japan: 1
-  Germany: 1
+  Switzerland: 1
 
 Топ SNI:
+  6a32736d.ferrin.uk: 6
   onecloudstream.com: 4
+  www.tesla.com: 4
   www.intel.com: 4
-  www.bing.com: 4
-  6a32736d.ferrin.uk: 3
+  www.bing.com: 3
   www.cloudflare.com: 3
+  els.mangshe.xyz: 2
   disk.api-yandex.net: 2
-  app-6aae6dbf.adhil.uk: 2
-  jujujuj.mervi.icu: 2
-  latisha.loozerp.wiki: 2
-  127.0.0.1: 2
+  ru2.h.smartaisupport.ru: 2
+  msk.frkn.org: 2
 
 Топ портов:
-  443: 54
+  443: 64
+  50160: 6
   8081: 5
-  50160: 5
   9443: 4
-  8080: 3
+  2056: 3
   8443: 3
   22443: 2
+  1935: 2
   2063: 2
-  4143: 1
   23443: 1
 
 Топ схем:
-  vless: 67
-  vmess: 28
-  hysteria2: 25
+  vless: 72
+  hysteria2: 34
+  vmess: 31
   trojan: 4
 
 Топ transport:
-  tcp: 100
-  ws: 15
-  xhttp: 6
+  tcp: 115
+  ws: 14
+  xhttp: 10
   grpc: 2
-  raw: 1
 
 Топ security:
-  none: 60
+  none: 69
   reality: 46
-  tls: 18
+  tls: 26
 
 ────────────────────────────────────────────────────────────────────
 📊 mixed
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 58
-Уникальных строк: 58
-Уникальных host:port: 58
-Уникальных backend: 42
-Anycast: 27
-Unknown country: 16
+Всего конфигов: 56
+Уникальных строк: 56
+Уникальных host:port: 56
+Уникальных backend: 41
+Anycast: 26
+Unknown country: 17
 
 Топ стран:
-  🌐 Anycast: 27
-  Unknown: 16
-  Finland: 7
+  🌐 Anycast: 26
+  Unknown: 17
+  Finland: 3
+  France: 3
   Russia: 2
-  Poland: 2
-  Germany: 1
+  United States: 2
   Netherlands: 1
   Estonia: 1
-  United States: 1
+  Germany: 1
 
 Топ SNI:
-  www.intel.com: 4
-  www.cloudflare.com: 3
+  www.intel.com: 3
+  www.tesla.com: 3
+  dzen.ru: 2
   6a32736d.ferrin.uk: 2
-  hk.sepporated.com: 2
-  14ang88.snusoed.baby: 2
-  www.tesla.com: 2
-  jujujuj.mervi.icu: 2
   latisha.loozerp.wiki: 2
-  rusbid.de: 2
+  assets-fi.pleiades.codes: 2
+  svvedko.nxxzxaw.beer: 2
+  jujujuj.mervi.icu: 2
   finkafsb.finiki.lol: 2
+  www.cloudflare.com: 2
 
 Топ портов:
-  443: 48
-  2063: 2
-  4143: 1
-  53734: 1
-  41688: 1
-  51847: 1
+  443: 47
   24146: 1
+  53734: 1
+  51847: 1
+  11690: 1
   32833: 1
+  28573: 1
+  41688: 1
   43840: 1
-  22746: 1
+  2063: 1
 
 Топ схем:
-  vless: 58
+  vless: 56
 
 Топ transport:
-  tcp: 44
-  ws: 6
+  tcp: 41
+  ws: 8
   xhttp: 5
   grpc: 2
-  raw: 1
 
 Топ security:
-  reality: 46
-  tls: 12
+  reality: 40
+  tls: 16
 
 ────────────────────────────────────────────────────────────────────
 📊 lte
@@ -453,124 +465,120 @@ Unknown country: 16
 Всего конфигов: 25
 Уникальных строк: 25
 Уникальных host:port: 25
-Уникальных backend: 20
-Anycast: 12
-Unknown country: 0
+Уникальных backend: 19
+Anycast: 9
+Unknown country: 2
 
 Топ стран:
-  🌐 Anycast: 12
-  Finland: 6
-  Poland: 2
-  Germany: 1
+  🌐 Anycast: 9
+  France: 3
+  United States: 3
+  Germany: 2
+  Finland: 2
+  Russia: 2
+  Unknown: 2
   Estonia: 1
   Netherlands: 1
-  Russia: 1
-  United States: 1
 
 Топ SNI:
-  app-6aae6dbf.adhil.uk: 2
   6a32736d.ferrin.uk: 2
+  assets-fi.pleiades.codes: 2
   cnmfangbinxingnmsl.asshole.us.ci: 2
-  vera.kyras.pw: 2
-  finkafsb.finiki.lol: 2
+  hk.sepporated.com: 2
+  hyhhuh.mervi.icu: 2
+  dzen.ru: 2
   accounts.fastly.com: 1
-  ahbpanel-production-1919.up.railway.app: 1
-  yandex.ru: 1
-  wiki.solarinfra.net: 1
-  avito.st: 1
+  app-6aae6dbf.adhil.uk: 1
+  mrs.sepporated.com: 1
+  ams.sepporated.com: 1
 
 Топ портов:
-  443: 22
-  4143: 1
-  2063: 1
-  25040: 1
+  443: 25
 
 Топ схем:
   vless: 24
   trojan: 1
 
 Топ transport:
-  tcp: 13
+  tcp: 10
+  ws: 8
   xhttp: 5
-  ws: 5
   grpc: 2
 
 Топ security:
-  reality: 15
-  tls: 10
+  tls: 16
+  reality: 9
 
 ====================================================================
 🌍 GLOBAL SUMMARY
 ====================================================================
-Всего конфигов: 346
-Уникальных строк: 130
-Уникальных host:port: 98
-Уникальных backend: 99
-Anycast: 147
-Unknown country: 116
+Всего конфигов: 378
+Уникальных строк: 144
+Уникальных host:port: 107
+Уникальных backend: 111
+Anycast: 154
+Unknown country: 139
 
 Топ стран:
-  🌐 Anycast: 147
-  Unknown: 116
-  Finland: 36
-  Netherlands: 12
-  Poland: 8
-  Russia: 7
+  🌐 Anycast: 154
+  Unknown: 139
+  Finland: 22
+  Germany: 12
+  France: 12
+  United States: 11
+  Russia: 10
+  Netherlands: 8
   Estonia: 6
-  United States: 4
-  Germany: 4
-  Bulgaria: 2
   Switzerland: 2
-  Japan: 2
+  Bulgaria: 2
 
 Топ SNI:
-  6a32736d.ferrin.uk: 17
-  www.intel.com: 12
-  www.cloudflare.com: 10
-  vera.kyras.pw: 8
-  finkafsb.finiki.lol: 8
+  6a32736d.ferrin.uk: 20
+  www.intel.com: 11
+  www.tesla.com: 11
+  dzen.ru: 8
+  hyhhuh.mervi.icu: 8
+  assets-fi.pleiades.codes: 8
+  www.cloudflare.com: 8
+  hk.sepporated.com: 8
   cnmfangbinxingnmsl.asshole.us.ci: 8
-  app-6aae6dbf.adhil.uk: 8
-  www.bing.com: 8
   onecloudstream.com: 8
-  rusbid.de: 7
+  jujujuj.mervi.icu: 7
   14ang88.snusoed.baby: 7
-  disk.api-yandex.net: 6
-  jujujuj.mervi.icu: 6
-  latisha.loozerp.wiki: 6
-  auth.figmafound.org: 6
+  finkafsb.finiki.lol: 7
+  www.bing.com: 7
+  ru2.h.smartaisupport.ru: 6
 
 Топ портов:
-  443: 189
+  443: 208
+  50160: 13
   8081: 10
-  50160: 10
   9443: 8
-  2063: 7
+  1935: 6
   22443: 6
+  2056: 6
   8443: 6
-  8080: 6
-  4143: 4
-  23443: 3
+  2063: 5
   24443: 3
+  23443: 3
+  32833: 3
   53734: 3
   43840: 3
-  22746: 3
   51847: 3
 
 Топ схем:
-  vless: 225
-  hysteria2: 56
-  vmess: 56
+  vless: 230
+  hysteria2: 77
+  vmess: 62
   trojan: 9
 
 Топ transport:
-  tcp: 263
-  ws: 42
-  xhttp: 29
-  grpc: 9
-  raw: 3
+  tcp: 291
+  ws: 45
+  xhttp: 34
+  grpc: 8
 
 Топ security:
-  reality: 154
-  none: 126
-  tls: 66
+  none: 147
+  reality: 142
+  tls: 89
