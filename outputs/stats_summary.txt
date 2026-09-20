@@ -1,5 +1,5 @@
 VPN Builder stats summary
-Generated at: 2026-09-20 22:03:49 MSK
+Generated at: 2026-09-21 00:38:31 MSK
 
 ====================================================================
 RAW GROUPS
@@ -8,160 +8,167 @@ RAW GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 33
-Уникальных строк: 30
-Уникальных host:port: 9
-Уникальных backend: 8
-Anycast: 14
-Unknown country: 3
+Всего конфигов: 45
+Уникальных строк: 42
+Уникальных host:port: 11
+Уникальных backend: 10
+Anycast: 16
+Unknown country: 8
 
 Топ стран:
-  🌐 Anycast: 14
+  🌐 Anycast: 16
+  Netherlands: 10
+  Unknown: 8
   Germany: 6
-  Netherlands: 5
   Russia: 5
-  Unknown: 3
 
 Топ SNI:
-  tt.sonyabibboop.com: 10
+  nld.centermass.net: 10
   ru2.h.smartaisupport.ru: 6
-  nld.centermass.net: 5
+  posa6.api3-max.ru: 5
+  wiki.solarinfra.net: 5
+  rus.centermass.net: 5
+  disk.api-yandex.net: 4
   msk.frkn.org: 4
-  disk.api-yandex.net: 3
+  hy.quattro-tech.ru: 3
   91.240.86.70: 2
-  hy.quattro-tech.ru: 2
   itsallproxy.quattro-tech.ru: 1
 
 Топ портов:
-  443: 9
+  443: 14
+  6443: 10
   22443: 7
   1935: 6
-  2055: 5
-  6443: 5
-  23443: 1
+  5001: 5
+  23443: 2
+  24443: 1
 
 Топ схем:
-  hysteria2: 18
-  vless: 15
+  vless: 25
+  hysteria2: 20
 
 Топ transport:
-  tcp: 23
-  grpc: 10
+  tcp: 25
+  grpc: 15
+  ws: 5
 
 Топ security:
-  none: 17
-  reality: 10
-  tls: 6
+  tls: 26
+  none: 19
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_vless
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 25
-Уникальных строк: 25
-Уникальных host:port: 9
-Уникальных backend: 7
-Anycast: 13
-Unknown country: 3
+Всего конфигов: 37
+Уникальных строк: 37
+Уникальных host:port: 11
+Уникальных backend: 9
+Anycast: 15
+Unknown country: 8
 
 Топ стран:
-  🌐 Anycast: 13
-  Netherlands: 5
-  Unknown: 3
+  🌐 Anycast: 15
+  Netherlands: 10
+  Unknown: 8
   Germany: 2
   Russia: 2
 
 Топ SNI:
-  tt.sonyabibboop.com: 10
-  nld.centermass.net: 5
-  disk.api-yandex.net: 3
+  nld.centermass.net: 10
+  posa6.api3-max.ru: 5
+  wiki.solarinfra.net: 5
+  rus.centermass.net: 5
+  disk.api-yandex.net: 4
   msk.frkn.org: 3
   ru2.h.smartaisupport.ru: 2
-  hy.quattro-tech.ru: 1
+  hy.quattro-tech.ru: 2
   itsallproxy.quattro-tech.ru: 1
 
 Топ портов:
-  443: 8
-  2055: 5
-  6443: 5
+  443: 13
+  6443: 10
+  5001: 5
   22443: 4
   1935: 2
-  23443: 1
+  23443: 2
+  24443: 1
 
 Топ схем:
-  vless: 15
-  hysteria2: 10
+  vless: 25
+  hysteria2: 12
 
 Топ transport:
-  tcp: 15
-  grpc: 10
+  tcp: 17
+  grpc: 15
+  ws: 5
 
 Топ security:
-  reality: 10
-  none: 9
-  tls: 6
+  tls: 26
+  none: 11
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW black_all
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 352
-Уникальных строк: 242
-Уникальных host:port: 72
-Уникальных backend: 96
-Anycast: 97
-Unknown country: 162
+Всего конфигов: 384
+Уникальных строк: 276
+Уникальных host:port: 91
+Уникальных backend: 161
+Anycast: 75
+Unknown country: 171
 
 Топ стран:
-  Unknown: 162
-  🌐 Anycast: 97
-  Netherlands: 31
-  Finland: 18
-  Germany: 16
-  United States: 12
-  Czechia: 4
-  Switzerland: 4
-  Estonia: 4
-  France: 2
+  Unknown: 171
+  🌐 Anycast: 75
+  United States: 54
+  Netherlands: 43
+  Germany: 13
+  Finland: 12
+  Japan: 5
+  France: 4
+  Czechia: 2
+  Austria: 2
 
 Топ SNI:
-  www.sony.com: 20
-  estomin1.vodniki.monster: 17
-  finkafsb.finiki.lol: 16
-  www.intel.com: 12
-  latisha.loozerp.wiki: 12
-  svvedko.nxxzxaw.beer: 12
-  es.cache-4d8a.com: 12
-  primevideo.com: 9
-  www.numpy.org: 9
-  ch.cache-4d8a.com: 8
+  www.tesla.com: 43
+  www.intel.com: 29
+  us.cache-4d8a.com: 10
+  estomin1.vodniki.monster: 8
+  finkafsb.finiki.lol: 8
+  es.cache-4d8a.com: 8
+  nl.node-edge09.com: 8
+  /gay-anal: 7
+  www.numpy.org: 6
+  www.sony.com: 6
 
 Топ портов:
-  443: 157
-  50160: 13
-  28573: 12
-  32833: 8
-  3090: 8
-  43840: 8
-  8443: 8
+  443: 97
+  53734: 24
+  42942: 16
+  32833: 14
+  22746: 14
+  50160: 10
+  8443: 7
   25040: 7
-  18334: 5
-  2900: 5
+  30443: 6
+  2900: 4
 
 Топ схем:
-  vless: 231
-  vmess: 65
-  hysteria2: 36
-  trojan: 20
+  vless: 197
+  vmess: 124
+  hysteria2: 42
+  trojan: 21
 
 Топ transport:
-  tcp: 293
-  grpc: 32
-  xhttp: 20
+  tcp: 340
+  grpc: 26
   ws: 7
+  raw: 6
+  xhttp: 5
 
 Топ security:
-  reality: 207
-  none: 112
-  tls: 33
+  reality: 186
+  none: 169
+  tls: 29
 
 ====================================================================
 FINAL GROUPS
@@ -170,275 +177,287 @@ FINAL GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 9
-Уникальных строк: 9
-Уникальных host:port: 9
-Уникальных backend: 6
-Anycast: 3
-Unknown country: 2
+Всего конфигов: 11
+Уникальных строк: 11
+Уникальных host:port: 11
+Уникальных backend: 9
+Anycast: 4
+Unknown country: 3
 
 Топ стран:
-  🌐 Anycast: 3
+  🌐 Anycast: 4
+  Unknown: 3
   Germany: 2
-  Unknown: 2
   Netherlands: 1
   Russia: 1
 
 Топ SNI:
-  tt.sonyabibboop.com: 2
   ru2.h.smartaisupport.ru: 2
   disk.api-yandex.net: 2
+  posa6.api3-max.ru: 1
   nld.centermass.net: 1
+  wiki.solarinfra.net: 1
+  rus.centermass.net: 1
   msk.frkn.org: 1
   91.240.86.70: 1
+  hy.quattro-tech.ru: 1
 
 Топ портов:
-  443: 2
+  443: 3
   1935: 2
   22443: 2
   6443: 1
-  2055: 1
+  5001: 1
   23443: 1
+  24443: 1
 
 Топ схем:
-  hysteria2: 6
-  vless: 3
+  hysteria2: 7
+  vless: 4
 
 Топ transport:
-  tcp: 7
+  tcp: 8
   grpc: 2
+  ws: 1
 
 Топ security:
-  none: 6
-  reality: 2
-  tls: 1
+  none: 7
+  tls: 4
 
 ────────────────────────────────────────────────────────────────────
 📊 white_vless
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 9
-Уникальных строк: 9
-Уникальных host:port: 9
-Уникальных backend: 6
-Anycast: 3
-Unknown country: 2
+Всего конфигов: 11
+Уникальных строк: 11
+Уникальных host:port: 11
+Уникальных backend: 8
+Anycast: 4
+Unknown country: 3
 
 Топ стран:
-  🌐 Anycast: 3
+  🌐 Anycast: 4
+  Unknown: 3
   Germany: 2
-  Unknown: 2
   Netherlands: 1
   Russia: 1
 
 Топ SNI:
-  tt.sonyabibboop.com: 2
   ru2.h.smartaisupport.ru: 2
   disk.api-yandex.net: 2
+  hy.quattro-tech.ru: 2
+  posa6.api3-max.ru: 1
   nld.centermass.net: 1
-  hy.quattro-tech.ru: 1
+  wiki.solarinfra.net: 1
+  rus.centermass.net: 1
   msk.frkn.org: 1
 
 Топ портов:
-  443: 2
-  22443: 2
+  443: 3
   1935: 2
+  22443: 2
   6443: 1
-  2055: 1
+  5001: 1
   23443: 1
+  24443: 1
 
 Топ схем:
-  hysteria2: 6
-  vless: 3
+  hysteria2: 7
+  vless: 4
 
 Топ transport:
-  tcp: 7
+  tcp: 8
   grpc: 2
+  ws: 1
 
 Топ security:
-  none: 6
-  reality: 2
-  tls: 1
+  none: 7
+  tls: 4
 
 ────────────────────────────────────────────────────────────────────
 📊 black_all
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 110
-Уникальных строк: 110
-Уникальных host:port: 72
-Уникальных backend: 92
-Anycast: 22
-Unknown country: 63
+Всего конфигов: 140
+Уникальных строк: 140
+Уникальных host:port: 86
+Уникальных backend: 123
+Anycast: 27
+Unknown country: 76
 
 Топ стран:
-  Unknown: 63
-  🌐 Anycast: 22
-  Netherlands: 9
-  Germany: 3
-  United States: 3
+  Unknown: 76
+  🌐 Anycast: 27
+  Netherlands: 13
+  United States: 6
+  Germany: 5
   Finland: 3
+  France: 3
   Czechia: 2
-  Switzerland: 1
-  France: 1
+  Japan: 2
   Estonia: 1
 
 Топ SNI:
-  www.bing.com: 4
+  www.tesla.com: 4
   es.cache-4d8a.com: 3
-  ge.sarky.ru: 2
-  ch.cache-4d8a.com: 2
+  www.intel.com: 3
+  www.amazon.com: 3
+  www.numpy.org: 3
+  filesconvert.org: 3
   us.cache-4d8a.com: 2
   finkafsb.finiki.lol: 2
+  www.paypal.com: 2
   nl.node-edge09.com: 2
-  estomin1.vodniki.monster: 2
-  svvedko.nxxzxaw.beer: 2
-  latisha.loozerp.wiki: 2
 
 Топ портов:
-  443: 31
-  50160: 7
-  3090: 4
-  8443: 3
-  2060: 3
-  81: 2
-  2056: 2
-  42942: 1
-  30963: 1
-  1443: 1
+  443: 35
+  8443: 4
+  50160: 3
+  30443: 3
+  3090: 2
+  4660: 2
+  25535: 2
+  44811: 2
+  2900: 2
+  8305: 1
 
 Топ схем:
-  vless: 49
-  vmess: 38
-  hysteria2: 20
+  vless: 65
+  vmess: 54
+  hysteria2: 18
   trojan: 3
 
 Топ transport:
-  tcp: 95
-  grpc: 10
-  xhttp: 4
+  tcp: 125
+  grpc: 11
+  xhttp: 2
+  raw: 1
   ws: 1
 
 Топ security:
-  none: 64
-  reality: 41
-  tls: 5
+  none: 76
+  reality: 57
+  tls: 7
 
 ────────────────────────────────────────────────────────────────────
 📊 pool
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 118
-Уникальных строк: 118
-Уникальных host:port: 80
-Уникальных backend: 97
-Anycast: 24
-Unknown country: 65
+Всего конфигов: 150
+Уникальных строк: 150
+Уникальных host:port: 95
+Уникальных backend: 131
+Anycast: 31
+Unknown country: 78
 
 Топ стран:
-  Unknown: 65
-  🌐 Anycast: 24
-  Netherlands: 10
-  Germany: 5
-  United States: 3
+  Unknown: 78
+  🌐 Anycast: 31
+  Netherlands: 14
+  Germany: 7
+  United States: 6
+  France: 3
   Finland: 3
+  Japan: 2
   Czechia: 2
   Russia: 1
-  Estonia: 1
-  Japan: 1
 
 Топ SNI:
-  www.bing.com: 4
+  www.tesla.com: 4
+  www.numpy.org: 3
+  www.amazon.com: 3
+  www.intel.com: 3
   es.cache-4d8a.com: 3
-  tt.sonyabibboop.com: 2
-  disk.api-yandex.net: 2
+  filesconvert.org: 3
   ru2.h.smartaisupport.ru: 2
-  latisha.loozerp.wiki: 2
-  us.1905vpn.ru: 2
-  us.cache-4d8a.com: 2
-  svvedko.nxxzxaw.beer: 2
-  ge.sarky.ru: 2
+  msk.frkn.org: 2
+  disk.api-yandex.net: 2
+  www.microsoft.com: 2
 
 Топ портов:
-  443: 32
-  50160: 7
-  3090: 4
-  2060: 3
-  8443: 3
-  22443: 2
+  443: 38
+  8443: 4
+  50160: 3
+  30443: 3
   1935: 2
-  81: 2
-  2056: 2
-  23443: 1
+  22443: 2
+  25535: 2
+  2900: 2
+  4660: 2
+  3090: 2
 
 Топ схем:
-  vless: 52
-  vmess: 38
+  vless: 68
+  vmess: 54
   hysteria2: 25
   trojan: 3
 
 Топ transport:
-  tcp: 101
-  grpc: 12
-  xhttp: 4
-  ws: 1
+  tcp: 132
+  grpc: 13
+  ws: 2
+  xhttp: 2
+  raw: 1
 
 Топ security:
-  none: 69
-  reality: 43
-  tls: 6
+  none: 83
+  reality: 56
+  tls: 11
 
 ────────────────────────────────────────────────────────────────────
 📊 mixed
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 45
-Уникальных строк: 45
-Уникальных host:port: 45
-Уникальных backend: 32
-Anycast: 16
-Unknown country: 13
+Всего конфигов: 59
+Уникальных строк: 59
+Уникальных host:port: 59
+Уникальных backend: 48
+Anycast: 22
+Unknown country: 16
 
 Топ стран:
-  🌐 Anycast: 16
-  Unknown: 13
-  Netherlands: 7
-  United States: 3
+  🌐 Anycast: 22
+  Unknown: 16
+  Netherlands: 9
+  United States: 5
   Germany: 3
-  Finland: 2
-  Switzerland: 1
+  France: 2
+  Finland: 1
+  Japan: 1
 
 Топ SNI:
-  tt.sonyabibboop.com: 2
-  svvedko.nxxzxaw.beer: 2
-  www.intel.com: 2
-  www.reuters.com: 2
-  finkafsb.finiki.lol: 2
-  ch.cache-4d8a.com: 2
-  us.cache-4d8a.com: 2
-  www.numpy.org: 2
-  es.cache-4d8a.com: 2
+  www.tesla.com: 3
+  www.numpy.org: 3
+  aws.amazon.com: 2
+  ge.sarky.ru: 2
+  primevideo.com: 2
+  latisha.loozerp.wiki: 2
   www.sony.com: 2
+  estomin1.vodniki.monster: 2
+  www.amazon.com: 2
+  es.cache-4d8a.com: 2
 
 Топ портов:
-  443: 28
+  443: 31
+  4660: 2
+  2900: 2
+  25535: 2
   6443: 1
-  2055: 1
-  41688: 1
-  5063: 1
-  7443: 1
-  2900: 1
+  5001: 1
+  11690: 1
+  45838: 1
+  3139: 1
   28573: 1
-  8290: 1
-  4660: 1
 
 Топ схем:
-  vless: 45
+  vless: 59
 
 Топ transport:
-  tcp: 34
-  grpc: 7
-  xhttp: 4
+  tcp: 46
+  grpc: 9
+  xhttp: 2
+  ws: 1
+  raw: 1
 
 Топ security:
-  reality: 42
-  tls: 3
+  reality: 51
+  tls: 8
 
 ────────────────────────────────────────────────────────────────────
 📊 lte
@@ -446,127 +465,129 @@ Unknown country: 13
 Всего конфигов: 25
 Уникальных строк: 25
 Уникальных host:port: 25
-Уникальных backend: 18
-Anycast: 12
-Unknown country: 0
+Уникальных backend: 21
+Anycast: 3
+Unknown country: 1
 
 Топ стран:
-  🌐 Anycast: 12
-  Netherlands: 6
-  United States: 3
+  Netherlands: 8
+  United States: 6
+  🌐 Anycast: 3
+  Germany: 2
+  France: 2
   Finland: 2
-  Germany: 1
-  Switzerland: 1
+  Unknown: 1
+  Japan: 1
 
 Топ SNI:
-  www.reuters.com: 2
+  es.cache-4d8a.com: 2
   nl.node-edge09.com: 2
   us.cache-4d8a.com: 2
   finkafsb.finiki.lol: 2
-  us.1905vpn.ru: 2
-  tt.sonyabibboop.com: 2
-  estomin1.vodniki.monster: 2
+  www.tesla.com: 2
   accounts.fastly.com: 1
-  es.cache-4d8a.com: 1
   gitlab.io: 1
+  assets-frnl.pleiades.codes: 1
+  assets-fra.pleiades.codes: 1
+  wiki.solarinfra.net: 1
 
 Топ портов:
-  443: 17
-  5059: 1
+  443: 18
   6443: 1
+  53734: 1
   42942: 1
-  30963: 1
-  5063: 1
+  5001: 1
   4660: 1
-  25040: 1
-  2055: 1
+  22746: 1
+  2900: 1
 
 Топ схем:
-  vless: 24
-  trojan: 1
+  vless: 25
 
 Топ transport:
-  tcp: 14
-  grpc: 6
-  xhttp: 4
+  tcp: 13
+  grpc: 8
+  xhttp: 2
   ws: 1
+  raw: 1
 
 Топ security:
-  reality: 22
-  tls: 3
+  reality: 18
+  tls: 7
 
 ====================================================================
 🌍 GLOBAL SUMMARY
 ====================================================================
-Всего конфигов: 316
-Уникальных строк: 121
-Уникальных host:port: 80
-Уникальных backend: 98
-Anycast: 80
-Unknown country: 145
+Всего конфигов: 396
+Уникальных строк: 153
+Уникальных host:port: 96
+Уникальных backend: 131
+Anycast: 91
+Unknown country: 177
 
 Топ стран:
-  Unknown: 145
-  🌐 Anycast: 80
-  Netherlands: 34
-  Germany: 16
-  United States: 12
-  Finland: 10
-  Switzerland: 4
+  Unknown: 177
+  🌐 Anycast: 91
+  Netherlands: 46
+  United States: 23
+  Germany: 21
+  France: 10
+  Finland: 9
+  Japan: 6
   Czechia: 4
   Russia: 3
-  France: 2
   Estonia: 2
   Israel: 2
-  Japan: 2
+  Austria: 2
 
 Топ SNI:
-  tt.sonyabibboop.com: 10
-  es.cache-4d8a.com: 9
+  www.tesla.com: 13
+  es.cache-4d8a.com: 10
+  www.numpy.org: 10
+  www.intel.com: 9
   us.cache-4d8a.com: 8
-  finkafsb.finiki.lol: 8
   nl.node-edge09.com: 8
-  estomin1.vodniki.monster: 8
-  www.reuters.com: 8
-  us.1905vpn.ru: 8
-  www.bing.com: 8
-  ch.cache-4d8a.com: 7
-  alda1.thewalkingded.life: 7
+  www.amazon.com: 8
+  finkafsb.finiki.lol: 7
   primevideo.com: 7
+  us.1905vpn.ru: 7
   ru2.h.smartaisupport.ru: 6
   disk.api-yandex.net: 6
-  ge.sarky.ru: 6
+  www.paypal.com: 6
+  latisha.loozerp.wiki: 6
+  alda1.thewalkingded.life: 6
 
 Топ портов:
-  443: 112
-  50160: 14
-  3090: 8
+  443: 128
+  8443: 8
+  4660: 7
+  2900: 7
   1935: 6
   22443: 6
-  8443: 6
-  2060: 6
+  25535: 6
+  50160: 6
+  30443: 6
   6443: 5
-  2055: 5
-  42942: 4
-  30963: 4
-  5059: 4
-  4660: 4
-  5063: 4
-  81: 4
+  5001: 5
+  3090: 4
+  53734: 4
+  44811: 4
+  22746: 4
 
 Топ схем:
-  vless: 176
-  vmess: 76
+  vless: 225
+  vmess: 108
   hysteria2: 57
-  trojan: 7
+  trojan: 6
 
 Топ transport:
-  tcp: 258
-  grpc: 39
-  xhttp: 16
-  ws: 3
+  tcp: 332
+  grpc: 45
+  xhttp: 8
+  ws: 7
+  raw: 4
 
 Топ security:
-  reality: 152
-  none: 145
-  tls: 19
+  reality: 182
+  none: 173
+  tls: 41
