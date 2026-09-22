@@ -1,5 +1,5 @@
 VPN Builder stats summary
-Generated at: 2026-09-22 14:52:30 MSK
+Generated at: 2026-09-22 19:03:05 MSK
 
 ====================================================================
 RAW GROUPS
@@ -8,140 +8,161 @@ RAW GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 16
-Уникальных строк: 16
-Уникальных host:port: 4
-Уникальных backend: 5
-Anycast: 3
-Unknown country: 2
+Всего конфигов: 81
+Уникальных строк: 66
+Уникальных host:port: 14
+Уникальных backend: 11
+Anycast: 4
+Unknown country: 12
 
 Топ стран:
-  Russia: 6
-  France: 5
-  🌐 Anycast: 3
-  Unknown: 2
+  Netherlands: 25
+  Russia: 20
+  Unknown: 12
+  Czechia: 10
+  Estonia: 10
+  🌐 Anycast: 4
 
 Топ SNI:
-  cdn.mafioznik.xyz: 5
+  vdss.lavivas.org: 20
+  3deb05.relay-edge.net: 10
+  331456.relay-edge.net: 10
+  419ec9.relay-edge.net: 10
+  ms1.pg.fastlanehosting.ru: 10
+  api.vk.ru: 5
+  vkvd519.okcdn.ru: 5
   hy.quattro-tech.ru: 4
   msk.frkn.org: 4
   91.240.86.70: 2
-  itsallproxy.quattro-tech.ru: 1
 
 Топ портов:
-  443: 9
+  2096: 20
+  2110: 10
+  2099: 10
+  2104: 10
+  8080: 10
+  7777: 5
+  6666: 5
   22443: 5
+  443: 4
   24443: 2
 
 Топ схем:
+  vless: 70
   hysteria2: 11
-  vless: 5
 
 Топ transport:
-  tcp: 11
-  grpc: 5
+  tcp: 61
+  grpc: 20
 
 Топ security:
-  none: 10
-  reality: 5
-  tls: 1
+  reality: 40
+  tls: 32
+  none: 9
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_vless
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 11
-Уникальных строк: 11
-Уникальных host:port: 4
-Уникальных backend: 4
+Всего конфигов: 61
+Уникальных строк: 61
+Уникальных host:port: 14
+Уникальных backend: 10
 Anycast: 3
-Unknown country: 1
+Unknown country: 6
 
 Топ стран:
-  France: 5
+  Netherlands: 25
+  Russia: 17
+  Unknown: 6
+  Czechia: 5
+  Estonia: 5
   🌐 Anycast: 3
-  Russia: 2
-  Unknown: 1
 
 Топ SNI:
-  cdn.mafioznik.xyz: 5
+  vdss.lavivas.org: 20
+  ms1.pg.fastlanehosting.ru: 10
+  3deb05.relay-edge.net: 5
+  331456.relay-edge.net: 5
+  419ec9.relay-edge.net: 5
+  api.vk.ru: 5
+  vkvd519.okcdn.ru: 5
   msk.frkn.org: 3
   hy.quattro-tech.ru: 2
   itsallproxy.quattro-tech.ru: 1
 
 Топ портов:
-  443: 8
+  2096: 20
+  8080: 10
+  2110: 5
+  2099: 5
+  2104: 5
+  7777: 5
+  6666: 5
+  443: 3
   22443: 2
   24443: 1
 
 Топ схем:
+  vless: 55
   hysteria2: 6
-  vless: 5
 
 Топ transport:
-  tcp: 6
-  grpc: 5
+  tcp: 41
+  grpc: 20
 
 Топ security:
-  reality: 5
-  none: 5
-  tls: 1
+  tls: 32
+  reality: 25
+  none: 4
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW black_all
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 278
-Уникальных строк: 176
-Уникальных host:port: 26
-Уникальных backend: 27
-Anycast: 148
-Unknown country: 57
+Всего конфигов: 181
+Уникальных строк: 119
+Уникальных host:port: 11
+Уникальных backend: 89
+Anycast: 16
+Unknown country: 147
 
 Топ стран:
-  🌐 Anycast: 148
-  Unknown: 57
-  Netherlands: 37
-  Germany: 24
-  France: 12
+  Unknown: 147
+  🌐 Anycast: 16
+  Kazakhstan: 12
+  United States: 4
+  Netherlands: 2
 
 Топ SNI:
-  e34bq.oa9r.zl3.hh.vavava.kdns.fr: 48
-  unpkg.com: 36
-  www.amazon.com: 24
-  newyork22-production.up.railway.app: 24
-  dl.google.com: 23
-  kerbal.mafioznik.xyz: 12
-  www.google.com: 12
-  www.siemens.com: 12
-  fl-api.bachidze.com: 12
-  file-6ab1f52d.adhil.uk: 12
+  zoom.us: 12
+  gag.fl2.iki-servers.com: 12
+  supbober.mafioznik.xyz: 12
+  brd-398.convix-kino.com: 12
+  sg-proxy.local: 4
+  msk.frkn.org: 3
+  eyj2ijoimiisinbzijoi8j+hrfcfh7agsg9uzyblb25nlcbib25nietvbmcgfcbbqkxdiiwiywrkijoiatjwc20za25vzjvxamppec52ljnkbnmudmlwiiwicg9ydci6ijq0myisimlkijoizjizymi0mjdjmwy5ndm3mzg3nmmyzjqzztlmnzkwzjmilcjhawqioiiwiiwic2n5ijoiyxv0byisim5ldci6indziiwidhlwzsi6im5vbmuilcjob3n0ijoiiiwicgf0aci6ii93cy12bwvzcyisinrscyi6inrscyisinnuasi6imkychntm2tub2y1cwpqaxgudi4zzg5zlnzpccisinrlc3rfbmftzsi6ikhlmtmilcjhbhbuijoiiiwiznaioiiifq==: 2
+  eyj2ijoimiisinbzijoi8j+hrfcfh7agsg9uzyblb25nlcbib25nietvbmcgfcbbqkxdiiwiywrkijoiatjwc20za25vzjvxamppec52ljnkbnmudmlwiiwicg9ydci6ijq0myisimlkijoizjizymi0mjdjmwy5ndm3mzg3nmmyzjqzztlmnzkwzjmilcjhawqioiiwiiwic2n5ijoiyxv0byisim5ldci6indziiwidhlwzsi6im5vbmuilcjob3n0ijoiiiwiywxwbii6iiisinbhdggioiivd3mtdm1lc3milcj0bhmioij0bhmilcjzbmkioiiilcjmcci6iiisim5hbwuioijisydwn4et8j+hscb8iebsyxlkawthbhggfcayqjvfqzailcjza2lwlwnlcnqtdmvyawz5ijp0cnvlfq==: 2
+  eyj2ijoimiisinbzijoi8j+hrfcfh7agsg9uzyblb25nlcbib25nietvbmcgfcbbqkxdiiwiywrkijoiatjwc20za25vzjvxamppec52ljnkbnmudmlwiiwicg9ydci6ijq0myisimlkijoizjizymi0mjdjmwy5ndm3mzg3nmmyzjqzztlmnzkwzjmilcjhawqioiiwiiwic2n5ijoiyxv0byisim5ldci6indziiwidhlwzsi6im5vbmuilcjob3n0ijoistjqu20zs25vzjvxamppec52ljnkbnmudmlwiiwiywxwbii6iiisinbhdggioiivd3mtdm1lc3milcj0bhmioij0bhmilcjzbmkioiiilcjmcci6iiisim5hbwuioijisydwn4et8j+hscb8iebsyxlkawthbhggfcazotewmdyifq==: 2
+  eyj2ijoimiisinbzijoi8j+hrfcfh7agsg9uzyblb25nlcbib25nietvbmcgfcbbqkxdiiwiywrkijoicxrrzhi4anhlm3dlznhqbs52ljnkbnmudmlwiiwicg9ydci6ijq0myisimlkijoizjizymi0mjdjmwy5ndm3mzg3nmmyzjqzztlmnzkwzjmilcjhawqioiiwiiwic2n5ijoiyxv0byisim5ldci6indziiwidhlwzsi6im5vbmuilcjob3n0ijoicvrlrfi4alhfm3dfrnhkts52ljnkbnmudmlwiiwiywxwbii6iiisinbhdggioiivd3mtdm1lc3milcj0bhmioij0bhmilcjzbmkioijxveteujhqweuzd0vgeepnlnyum2rucy52axailcjmcci6iij9: 2
 
 Топ портов:
-  443: 131
-  8443: 48
-  27948: 24
-  2096: 24
-  1443: 12
-  8444: 12
-  51595: 12
-  25040: 4
+  443: 46
+  10000: 12
   2060: 3
 
 Топ схем:
-  vless: 251
-  trojan: 14
-  vmess: 8
-  hysteria2: 5
+  vmess: 120
+  vless: 48
+  hysteria2: 9
+  trojan: 4
 
 Топ transport:
-  tcp: 143
-  ws: 88
-  grpc: 24
-  xhttp: 23
+  tcp: 169
+  grpc: 12
 
 Топ security:
-  reality: 143
-  tls: 122
-  none: 13
+  none: 127
+  reality: 48
+  tls: 6
 
 ====================================================================
 FINAL GROUPS
@@ -150,361 +171,391 @@ FINAL GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 4
-Уникальных строк: 4
-Уникальных host:port: 4
-Уникальных backend: 4
-Anycast: 0
-Unknown country: 1
+Всего конфигов: 14
+Уникальных строк: 14
+Уникальных host:port: 14
+Уникальных backend: 10
+Anycast: 1
+Unknown country: 2
 
 Топ стран:
-  Russia: 2
-  France: 1
-  Unknown: 1
+  Netherlands: 5
+  Russia: 4
+  Unknown: 2
+  Czechia: 1
+  Estonia: 1
+  🌐 Anycast: 1
 
 Топ SNI:
-  cdn.mafioznik.xyz: 1
-  itsallproxy.quattro-tech.ru: 1
+  vdss.lavivas.org: 4
+  ms1.pg.fastlanehosting.ru: 2
+  api.vk.ru: 1
+  331456.relay-edge.net: 1
+  419ec9.relay-edge.net: 1
   msk.frkn.org: 1
+  vkvd519.okcdn.ru: 1
+  3deb05.relay-edge.net: 1
+  itsallproxy.quattro-tech.ru: 1
   hy.quattro-tech.ru: 1
 
 Топ портов:
-  443: 2
+  2096: 4
+  8080: 2
+  7777: 1
+  2099: 1
+  2104: 1
+  443: 1
+  6666: 1
+  2110: 1
   22443: 1
   24443: 1
 
 Топ схем:
+  vless: 11
   hysteria2: 3
-  vless: 1
 
 Топ transport:
-  tcp: 3
-  grpc: 1
+  tcp: 10
+  grpc: 4
 
 Топ security:
+  tls: 6
+  reality: 5
   none: 3
-  reality: 1
 
 ────────────────────────────────────────────────────────────────────
 📊 white_vless
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 4
-Уникальных строк: 4
-Уникальных host:port: 4
-Уникальных backend: 4
+Всего конфигов: 14
+Уникальных строк: 14
+Уникальных host:port: 14
+Уникальных backend: 10
 Anycast: 1
-Unknown country: 1
+Unknown country: 2
 
 Топ стран:
-  France: 1
-  Russia: 1
+  Netherlands: 5
+  Russia: 4
+  Unknown: 2
+  Estonia: 1
+  Czechia: 1
   🌐 Anycast: 1
-  Unknown: 1
 
 Топ SNI:
-  cdn.mafioznik.xyz: 1
-  itsallproxy.quattro-tech.ru: 1
+  vdss.lavivas.org: 4
+  ms1.pg.fastlanehosting.ru: 2
+  vkvd519.okcdn.ru: 1
+  419ec9.relay-edge.net: 1
+  331456.relay-edge.net: 1
   msk.frkn.org: 1
+  api.vk.ru: 1
+  3deb05.relay-edge.net: 1
+  itsallproxy.quattro-tech.ru: 1
   hy.quattro-tech.ru: 1
 
 Топ портов:
-  443: 2
+  2096: 4
+  8080: 2
+  6666: 1
+  2104: 1
+  2099: 1
+  443: 1
+  7777: 1
+  2110: 1
   22443: 1
   24443: 1
 
 Топ схем:
+  vless: 11
   hysteria2: 3
-  vless: 1
 
 Топ transport:
-  tcp: 3
-  grpc: 1
+  tcp: 10
+  grpc: 4
 
 Топ security:
+  tls: 6
+  reality: 5
   none: 3
-  reality: 1
 
 ────────────────────────────────────────────────────────────────────
 📊 black_all
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 31
-Уникальных строк: 31
-Уникальных host:port: 26
-Уникальных backend: 26
-Anycast: 13
-Unknown country: 12
+Всего конфигов: 89
+Уникальных строк: 89
+Уникальных host:port: 11
+Уникальных backend: 89
+Anycast: 3
+Unknown country: 83
 
 Топ стран:
-  🌐 Anycast: 13
-  Unknown: 12
-  Netherlands: 3
-  Germany: 2
-  France: 1
+  Unknown: 83
+  🌐 Anycast: 3
+  Kazakhstan: 1
+  United States: 1
+  Netherlands: 1
 
 Топ SNI:
-  e34bq.oa9r.zl3.hh.vavava.kdns.fr: 4
-  unpkg.com: 3
-  dl.google.com: 2
-  eyj2ijoimiisinbzijoi8j+hs: 2
-  www.siemens.com: 1
-  file-6ab1f52d.adhil.uk: 1
-  newyork22-production.up.railway.app: 1
-  fl-api.bachidze.com: 1
-  ads.aparat.com: 1
-  fangbinxingnmsl.cnmfangbinxing.us.ci: 1
+  brd-398.convix-kino.com: 1
+  sg-proxy.local: 1
+  gag.fl2.iki-servers.com: 1
+  supbober.mafioznik.xyz: 1
+  zoom.us: 1
+  127.0.0.1: 1
+  25188aad-tm3mo0-unh4sc-xm0q.los.hyhuawei.com: 1
+  msk.frkn.org: 1
+  eyjhzgqioijledfvz3q3m256chfrywmylnyum2rucy52axailcjpzci6imyym2jindi3yzfmotqznzm4nzzjmmy0m2u5zjc5mgyziiwicg9ydci6ijq0myisinnjesi6imf1dg8ilcj2ijoimiisim5ldci6indziiwiag9zdci6iiisinbhdggioiivd3mtdm1lc3milcj0bhmioij0bhmilcjhbhbuijoiiiwiznaioiiilcjzbmkioiiilcjwcyi6ivcfh63wn4ewiehvbmcgs29uzywgsg9uzyblb25nihwgw0jmxsisimfpzci6ijailcj0exblijoibm9uzsj9: 1
+  eyjhzgqioiiymc4ymzuumjiwlje4osisimfpzci6ijailcjob3n0ijoinkpedkfyyxpnvtnxuvi2us52ljnkbnmudmlwiiwiawqioijmmjniyjqyn2mxzjk0mzczodc2yzjmndnlowy3otbmmyisim5ldci6indziiwicgf0aci6ii93cy12bwvzcyisinbvcnqioii0ndmilcjwcyi6ivcfh63wn4ewiehvbmcgs29uzywgsg9uzyblb25nihwgw0jmxsisinnjesi6imf1dg8ilcjzzxj2awnltmftzsi6iiisinnuasi6ijzkrhzbcmf6z1uzcvfsnleudi4zzg5zlnzpccisinrscyi6inrscyisinyioiiyiiwic2tpcc1jzxj0lxzlcmlmesi6dhj1zswidhlwzsi6im5vbmuilcjhbhbuijoiiiwiznaioiiifq==: 1
 
 Топ портов:
-  443: 12
-  8443: 4
+  443: 7
   2060: 3
-  2096: 2
-  51595: 1
-  25040: 1
-  8444: 1
-  1443: 1
-  27948: 1
+  10000: 1
 
 Топ схем:
-  vless: 19
-  hysteria2: 5
-  vmess: 5
-  trojan: 2
+  vmess: 78
+  hysteria2: 6
+  vless: 4
+  trojan: 1
 
 Топ transport:
-  tcp: 20
-  ws: 7
-  grpc: 2
-  xhttp: 2
+  tcp: 88
+  grpc: 1
 
 Топ security:
-  reality: 11
-  tls: 10
-  none: 10
+  none: 84
+  reality: 4
+  tls: 1
 
 ────────────────────────────────────────────────────────────────────
 📊 pool
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 32
-Уникальных строк: 32
-Уникальных host:port: 27
-Уникальных backend: 29
-Anycast: 10
-Unknown country: 13
+Всего конфигов: 101
+Уникальных строк: 101
+Уникальных host:port: 22
+Уникальных backend: 98
+Anycast: 4
+Unknown country: 85
 
 Топ стран:
-  Unknown: 13
-  🌐 Anycast: 10
-  Netherlands: 3
-  France: 2
-  Russia: 2
-  Germany: 2
+  Unknown: 85
+  Netherlands: 4
+  Russia: 4
+  🌐 Anycast: 4
+  Estonia: 1
+  Czechia: 1
+  United States: 1
+  Kazakhstan: 1
 
 Топ SNI:
-  unpkg.com: 3
-  dl.google.com: 2
-  eyj2ijoimiisinbzijoi8j+hs: 2
-  e34bq.oa9r.zl3.hh.vavava.kdns.fr: 2
-  cdn.mafioznik.xyz: 1
+  vdss.lavivas.org: 2
+  ms1.pg.fastlanehosting.ru: 2
+  msk.frkn.org: 2
+  3deb05.relay-edge.net: 1
   itsallproxy.quattro-tech.ru: 1
-  msk.frkn.org: 1
   hy.quattro-tech.ru: 1
-  127.0.0.1: 1
-  mlxy1.mangshe.xyz: 1
+  419ec9.relay-edge.net: 1
+  api.vk.ru: 1
+  331456.relay-edge.net: 1
+  vkvd519.okcdn.ru: 1
 
 Топ портов:
-  443: 12
-  8443: 3
+  443: 8
+  2096: 3
   2060: 3
-  2096: 2
+  8080: 1
+  2110: 1
   22443: 1
   24443: 1
-  27948: 1
-  25040: 1
-  1443: 1
-  51595: 1
+  2104: 1
+  7777: 1
+  2099: 1
 
 Топ схем:
-  vless: 18
-  hysteria2: 7
-  vmess: 5
-  trojan: 2
+  vmess: 78
+  vless: 13
+  hysteria2: 9
+  trojan: 1
 
 Топ transport:
-  tcp: 22
-  ws: 5
+  tcp: 98
   grpc: 3
-  xhttp: 2
 
 Топ security:
-  reality: 12
-  none: 12
-  tls: 8
+  none: 87
+  reality: 9
+  tls: 5
 
 ────────────────────────────────────────────────────────────────────
 📊 mixed
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 18
-Уникальных строк: 18
-Уникальных host:port: 18
-Уникальных backend: 16
-Anycast: 9
+Всего конфигов: 13
+Уникальных строк: 13
+Уникальных host:port: 13
+Уникальных backend: 11
+Anycast: 1
 Unknown country: 3
 
 Топ стран:
-  🌐 Anycast: 9
   Unknown: 3
-  France: 2
-  Netherlands: 2
-  Germany: 2
+  Netherlands: 3
+  Russia: 3
+  Estonia: 1
+  Czechia: 1
+  🌐 Anycast: 1
+  Kazakhstan: 1
 
 Топ SNI:
-  unpkg.com: 3
-  e34bq.oa9r.zl3.hh.vavava.kdns.fr: 2
-  dl.google.com: 2
-  cdn.mafioznik.xyz: 1
-  fl-api.bachidze.com: 1
-  www.amazon.com: 1
-  newyork22-production.up.railway.app: 1
-  www.siemens.com: 1
-  kerbal.mafioznik.xyz: 1
-  us.netease.uz: 1
+  vdss.lavivas.org: 2
+  ms1.pg.fastlanehosting.ru: 2
+  3deb05.relay-edge.net: 1
+  api.vk.ru: 1
+  419ec9.relay-edge.net: 1
+  vkvd519.okcdn.ru: 1
+  331456.relay-edge.net: 1
+  supbober.mafioznik.xyz: 1
+  brd-398.convix-kino.com: 1
+  zoom.us: 1
 
 Топ портов:
-  443: 9
-  8443: 3
-  2096: 2
-  27948: 1
-  8444: 1
-  51595: 1
-  1443: 1
+  2096: 3
+  443: 3
+  2110: 1
+  8080: 1
+  7777: 1
+  2104: 1
+  6666: 1
+  2099: 1
+  10000: 1
 
 Топ схем:
-  vless: 18
+  vless: 13
 
 Топ transport:
-  tcp: 9
-  ws: 4
+  tcp: 10
   grpc: 3
-  xhttp: 2
 
 Топ security:
-  reality: 12
-  tls: 6
+  reality: 9
+  tls: 4
 
 ────────────────────────────────────────────────────────────────────
 📊 lte
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 20
-Уникальных строк: 20
-Уникальных host:port: 20
-Уникальных backend: 18
-Anycast: 10
-Unknown country: 4
+Всего конфигов: 14
+Уникальных строк: 14
+Уникальных host:port: 14
+Уникальных backend: 12
+Anycast: 1
+Unknown country: 3
 
 Топ стран:
-  🌐 Anycast: 10
-  Unknown: 4
-  Netherlands: 2
-  France: 2
-  Germany: 2
+  Russia: 3
+  Netherlands: 3
+  Unknown: 3
+  Kazakhstan: 1
+  United States: 1
+  🌐 Anycast: 1
+  Estonia: 1
+  Czechia: 1
 
 Топ SNI:
-  unpkg.com: 3
-  e34bq.oa9r.zl3.hh.vavava.kdns.fr: 2
-  dl.google.com: 2
-  newyork22-production.up.railway.app: 1
-  file-6ab1f52d.adhil.uk: 1
-  fangbinxingnmsl.cnmfangbinxing.us.ci: 1
-  cdn.mafioznik.xyz: 1
-  www.siemens.com: 1
-  /gay-anal: 1
-  fl-api.bachidze.com: 1
+  ms1.pg.fastlanehosting.ru: 2
+  vdss.lavivas.org: 2
+  brd-398.convix-kino.com: 1
+  sg-proxy.local: 1
+  supbober.mafioznik.xyz: 1
+  gag.fl2.iki-servers.com: 1
+  zoom.us: 1
+  419ec9.relay-edge.net: 1
+  vkvd519.okcdn.ru: 1
+  331456.relay-edge.net: 1
 
 Топ портов:
-  443: 10
-  8443: 3
-  2096: 2
-  25040: 1
-  51595: 1
-  8444: 1
-  1443: 1
-  27948: 1
+  443: 4
+  2096: 3
+  8080: 1
+  10000: 1
+  2104: 1
+  6666: 1
+  2099: 1
+  7777: 1
+  2110: 1
 
 Топ схем:
-  vless: 18
-  trojan: 2
+  vless: 13
+  trojan: 1
 
 Топ transport:
-  tcp: 10
-  ws: 5
+  tcp: 11
   grpc: 3
-  xhttp: 2
 
 Топ security:
-  reality: 12
-  tls: 8
+  reality: 9
+  tls: 5
 
 ====================================================================
 🌍 GLOBAL SUMMARY
 ====================================================================
-Всего конфигов: 109
-Уникальных строк: 37
-Уникальных host:port: 29
-Уникальных backend: 29
-Anycast: 43
-Unknown country: 34
+Всего конфигов: 245
+Уникальных строк: 105
+Уникальных host:port: 24
+Уникальных backend: 98
+Anycast: 11
+Unknown country: 178
 
 Топ стран:
-  🌐 Anycast: 43
-  Unknown: 34
-  Netherlands: 10
-  France: 9
-  Germany: 8
-  Russia: 5
+  Unknown: 178
+  Netherlands: 21
+  Russia: 18
+  🌐 Anycast: 11
+  Czechia: 5
+  Estonia: 5
+  Kazakhstan: 4
+  United States: 3
 
 Топ SNI:
-  unpkg.com: 12
-  e34bq.oa9r.zl3.hh.vavava.kdns.fr: 10
-  dl.google.com: 8
-  cdn.mafioznik.xyz: 5
-  msk.frkn.org: 4
-  www.siemens.com: 4
-  file-6ab1f52d.adhil.uk: 4
-  newyork22-production.up.railway.app: 4
-  fl-api.bachidze.com: 4
-  ads.aparat.com: 4
-  fangbinxingnmsl.cnmfangbinxing.us.ci: 4
-  kerbal.mafioznik.xyz: 4
-  us.netease.uz: 4
-  www.google.com: 4
-  www.amazon.com: 4
+  vdss.lavivas.org: 14
+  ms1.pg.fastlanehosting.ru: 10
+  api.vk.ru: 5
+  331456.relay-edge.net: 5
+  419ec9.relay-edge.net: 5
+  msk.frkn.org: 5
+  vkvd519.okcdn.ru: 5
+  3deb05.relay-edge.net: 5
+  brd-398.convix-kino.com: 4
+  gag.fl2.iki-servers.com: 4
+  supbober.mafioznik.xyz: 4
+  zoom.us: 4
+  itsallproxy.quattro-tech.ru: 3
+  hy.quattro-tech.ru: 3
+  sg-proxy.local: 3
 
 Топ портов:
-  443: 47
-  8443: 13
-  2096: 8
+  443: 24
+  2096: 17
+  8080: 7
   2060: 6
-  51595: 4
-  8444: 4
-  1443: 4
-  27948: 4
+  7777: 5
+  2099: 5
+  2104: 5
+  6666: 5
+  2110: 5
+  10000: 4
   22443: 3
   24443: 3
-  25040: 3
 
 Топ схем:
-  vless: 75
-  hysteria2: 18
-  vmess: 10
-  trojan: 6
+  vmess: 156
+  vless: 65
+  hysteria2: 21
+  trojan: 3
 
 Топ transport:
-  tcp: 67
-  ws: 21
-  grpc: 13
-  xhttp: 8
+  tcp: 227
+  grpc: 18
 
 Топ security:
-  reality: 49
-  tls: 32
-  none: 28
+  none: 177
+  reality: 41
+  tls: 27
