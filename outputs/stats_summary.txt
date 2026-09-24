@@ -1,5 +1,5 @@
 VPN Builder stats summary
-Generated at: 2026-09-24 03:36:09 MSK
+Generated at: 2026-09-24 08:26:34 MSK
 
 ====================================================================
 RAW GROUPS
@@ -8,145 +8,147 @@ RAW GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 25
-Уникальных строк: 25
+Всего конфигов: 31
+Уникальных строк: 31
 Уникальных host:port: 6
 Уникальных backend: 7
-Anycast: 6
-Unknown country: 8
+Anycast: 12
+Unknown country: 7
 
 Топ стран:
-  Russia: 11
-  Unknown: 8
-  🌐 Anycast: 6
+  🌐 Anycast: 12
+  Russia: 12
+  Unknown: 7
 
 Топ SNI:
-  cloudflare.com: 5
-  bl3fk52.sysopnova.art: 5
-  amd.com: 5
-  hy.quattro-tech.ru: 4
-  msk.frkn.org: 3
+  donatov.net: 10
+  dl.google.com: 5
+  reels.frkn.org: 5
+  msk.frkn.org: 4
+  hy.quattro-tech.ru: 3
   91.240.86.70: 2
-  itsallproxy.quattro-tech.ru: 1
+  itsallproxy.quattro-tech.ru: 2
 
 Топ портов:
-  443: 18
+  443: 14
+  9881: 5
+  8443: 5
   22443: 5
   24443: 2
 
 Топ схем:
-  vless: 15
-  hysteria2: 10
+  vless: 20
+  hysteria2: 11
 
 Топ transport:
-  tcp: 20
-  xhttp: 5
+  tcp: 11
+  xhttp: 10
+  grpc: 10
 
 Топ security:
-  reality: 15
+  reality: 20
   none: 10
+  tls: 1
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_vless
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 21
-Уникальных строк: 21
+Всего конфигов: 27
+Уникальных строк: 27
 Уникальных host:port: 6
 Уникальных backend: 6
-Anycast: 6
-Unknown country: 7
+Anycast: 11
+Unknown country: 6
 
 Топ стран:
-  Russia: 8
-  Unknown: 7
-  🌐 Anycast: 6
+  🌐 Anycast: 11
+  Russia: 10
+  Unknown: 6
 
 Топ SNI:
-  cloudflare.com: 5
-  bl3fk52.sysopnova.art: 5
-  amd.com: 5
-  hy.quattro-tech.ru: 3
-  msk.frkn.org: 2
-  itsallproxy.quattro-tech.ru: 1
+  donatov.net: 10
+  dl.google.com: 5
+  reels.frkn.org: 5
+  msk.frkn.org: 3
+  hy.quattro-tech.ru: 2
+  itsallproxy.quattro-tech.ru: 2
 
 Топ портов:
-  443: 17
+  443: 13
+  9881: 5
+  8443: 5
   22443: 3
   24443: 1
 
 Топ схем:
-  vless: 15
-  hysteria2: 6
+  vless: 20
+  hysteria2: 7
 
 Топ transport:
-  tcp: 16
-  xhttp: 5
+  xhttp: 10
+  grpc: 10
+  tcp: 7
 
 Топ security:
-  reality: 15
+  reality: 20
   none: 6
+  tls: 1
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW black_all
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 269
-Уникальных строк: 200
-Уникальных host:port: 27
-Уникальных backend: 32
-Anycast: 20
-Unknown country: 187
+Всего конфигов: 287
+Уникальных строк: 207
+Уникальных host:port: 31
+Уникальных backend: 41
+Anycast: 49
+Unknown country: 149
 
 Топ стран:
-  Unknown: 187
-  Japan: 22
-  Finland: 20
-  🌐 Anycast: 20
+  Unknown: 149
+  🌐 Anycast: 49
+  Poland: 48
+  Finland: 21
   Germany: 10
-  United States: 5
-  Czechia: 2
+  Czechia: 4
+  United States: 4
   Netherlands: 2
-  Russia: 1
 
 Топ SNI:
-  www.cloudflare.com: 105
-  185.71.219.128: 35
-  fintanil228.vvzzkontaktezzvv.garden: 20
-  surstreming.vvzzkontaktezzvv.garden: 15
-  gerwai1488.vvzzkontaktezzvv.garden: 15
+  www.cloudflare.com: 49
+  pl.bubahero.com: 48
+  fintanil228.vvzzkontaktezzvv.garden: 19
+  gerwai1488.vvzzkontaktezzvv.garden: 16
+  surstreming.vvzzkontaktezzvv.garden: 16
+  gb.superbuba.top: 16
+  main.abyssettle.net: 15
+  download.nvidia.com: 11
   www.akamai.com: 10
-  download.nvidia.com: 10
-  admin.vkroom-it-service.xyz: 8
-  www.goo.gl: 8
-  100.42.228.109: 5
+  www.blocket.se: 8
 
 Топ портов:
-  443: 212
-  2052: 14
-  8080: 14
-  2082: 7
-  3090: 2
-  45286: 2
+  443: 250
+  8880: 8
+  3090: 4
   80: 2
-  50160: 2
 
 Топ схем:
-  vless: 232
-  trojan: 15
-  vmess: 14
-  hysteria2: 8
+  vless: 244
+  vmess: 23
+  trojan: 14
+  hysteria2: 6
 
 Топ transport:
-  tcp: 225
-  raw: 23
-  xhttp: 10
-  httpupgrade: 7
-  grpc: 2
-  ws: 2
+  tcp: 245
+  ws: 17
+  xhttp: 11
+  raw: 10
+  grpc: 4
 
 Топ security:
-  reality: 191
-  tls: 53
-  none: 25
+  reality: 223
+  none: 41
+  tls: 23
 
 ====================================================================
 FINAL GROUPS
@@ -158,24 +160,27 @@ FINAL GROUPS
 Всего конфигов: 6
 Уникальных строк: 6
 Уникальных host:port: 6
-Уникальных backend: 5
-Anycast: 1
-Unknown country: 3
+Уникальных backend: 6
+Anycast: 2
+Unknown country: 2
 
 Топ стран:
-  Unknown: 3
+  Unknown: 2
+  🌐 Anycast: 2
   Russia: 2
-  🌐 Anycast: 1
 
 Топ SNI:
-  hy.quattro-tech.ru: 2
-  amd.com: 1
-  bl3fk52.sysopnova.art: 1
-  cloudflare.com: 1
+  donatov.net: 1
+  dl.google.com: 1
+  reels.frkn.org: 1
+  91.240.86.70: 1
   msk.frkn.org: 1
+  hy.quattro-tech.ru: 1
 
 Топ портов:
-  443: 4
+  443: 2
+  9881: 1
+  8443: 1
   22443: 1
   24443: 1
 
@@ -184,7 +189,8 @@ Unknown country: 3
   hysteria2: 3
 
 Топ transport:
-  tcp: 5
+  tcp: 3
+  grpc: 2
   xhttp: 1
 
 Топ security:
@@ -198,23 +204,25 @@ Unknown country: 3
 Уникальных строк: 6
 Уникальных host:port: 6
 Уникальных backend: 5
-Anycast: 1
-Unknown country: 3
+Anycast: 2
+Unknown country: 2
 
 Топ стран:
-  Unknown: 3
+  Unknown: 2
+  🌐 Anycast: 2
   Russia: 2
-  🌐 Anycast: 1
 
 Топ SNI:
   hy.quattro-tech.ru: 2
-  bl3fk52.sysopnova.art: 1
-  amd.com: 1
+  donatov.net: 1
+  dl.google.com: 1
+  reels.frkn.org: 1
   msk.frkn.org: 1
-  cloudflare.com: 1
 
 Топ портов:
-  443: 4
+  443: 2
+  9881: 1
+  8443: 1
   22443: 1
   24443: 1
 
@@ -223,7 +231,8 @@ Unknown country: 3
   hysteria2: 3
 
 Топ transport:
-  tcp: 5
+  tcp: 3
+  grpc: 2
   xhttp: 1
 
 Топ security:
@@ -233,291 +242,275 @@ Unknown country: 3
 ────────────────────────────────────────────────────────────────────
 📊 black_all
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 35
-Уникальных строк: 35
-Уникальных host:port: 27
-Уникальных backend: 30
-Anycast: 3
-Unknown country: 24
+Всего конфигов: 44
+Уникальных строк: 44
+Уникальных host:port: 31
+Уникальных backend: 39
+Anycast: 9
+Unknown country: 25
 
 Топ стран:
-  Unknown: 24
-  🌐 Anycast: 3
-  Finland: 2
+  Unknown: 25
+  🌐 Anycast: 9
+  Finland: 3
+  Poland: 2
+  Czechia: 2
   Germany: 1
   United States: 1
-  Japan: 1
-  Czechia: 1
-  Russia: 1
   Netherlands: 1
 
 Топ SNI:
-  www.cloudflare.com: 6
-  185.71.219.128: 3
+  www.cloudflare.com: 3
+  pl.bubahero.com: 2
   fintanil228.vvzzkontaktezzvv.garden: 2
   gerwai1488.vvzzkontaktezzvv.garden: 2
   surstreming.vvzzkontaktezzvv.garden: 2
+  gb.superbuba.top: 2
   www.akamai.com: 1
   sg-proxy.local: 1
-  153.76.185.148: 1
-  www.goo.gl: 1
-  admin.vkroom-it-service.xyz: 1
+  153.76.185.145: 1
+  main.abyssettle.net: 1
 
 Топ портов:
-  443: 20
-  3090: 1
-  45286: 1
-  8080: 1
+  443: 24
+  8880: 4
+  3090: 2
   80: 1
-  2052: 1
-  2082: 1
-  50160: 1
 
 Топ схем:
-  vless: 22
-  vmess: 8
+  vless: 26
+  vmess: 13
   hysteria2: 3
   trojan: 2
 
 Топ transport:
-  tcp: 30
-  grpc: 1
+  tcp: 35
+  ws: 6
+  grpc: 2
   xhttp: 1
-  raw: 1
-  ws: 1
-  httpupgrade: 1
 
 Топ security:
-  reality: 16
-  none: 13
-  tls: 6
+  none: 23
+  reality: 18
+  tls: 3
 
 ────────────────────────────────────────────────────────────────────
 📊 pool
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 39
-Уникальных строк: 39
-Уникальных host:port: 31
-Уникальных backend: 34
-Anycast: 4
-Unknown country: 26
+Всего конфигов: 49
+Уникальных строк: 49
+Уникальных host:port: 36
+Уникальных backend: 44
+Anycast: 10
+Unknown country: 27
 
 Топ стран:
-  Unknown: 26
-  🌐 Anycast: 4
+  Unknown: 27
+  🌐 Anycast: 10
+  Finland: 3
   Russia: 2
-  Finland: 2
-  United States: 1
+  Czechia: 2
+  Poland: 2
   Netherlands: 1
-  Czechia: 1
   Germany: 1
-  Japan: 1
+  United States: 1
 
 Топ SNI:
-  www.cloudflare.com: 6
-  hy.quattro-tech.ru: 2
-  185.71.219.128: 2
+  www.cloudflare.com: 3
   fintanil228.vvzzkontaktezzvv.garden: 2
+  pl.bubahero.com: 2
   surstreming.vvzzkontaktezzvv.garden: 2
   gerwai1488.vvzzkontaktezzvv.garden: 2
-  cloudflare.com: 1
-  bl3fk52.sysopnova.art: 1
+  gb.superbuba.top: 2
+  donatov.net: 1
+  hy.quattro-tech.ru: 1
+  reels.frkn.org: 1
   msk.frkn.org: 1
-  amd.com: 1
 
 Топ портов:
-  443: 23
-  22443: 1
+  443: 25
+  8880: 4
+  3090: 2
   24443: 1
-  2082: 1
-  50160: 1
-  45286: 1
-  3090: 1
+  8443: 1
+  22443: 1
+  9881: 1
   80: 1
-  2052: 1
 
 Топ схем:
-  vless: 24
-  vmess: 8
+  vless: 29
+  vmess: 13
   hysteria2: 5
   trojan: 2
 
 Топ transport:
-  tcp: 33
+  tcp: 37
+  ws: 6
+  grpc: 4
   xhttp: 2
-  httpupgrade: 1
-  raw: 1
-  grpc: 1
-  ws: 1
 
 Топ security:
-  reality: 19
-  none: 16
-  tls: 4
+  none: 25
+  reality: 21
+  tls: 3
 
 ────────────────────────────────────────────────────────────────────
 📊 mixed
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 21
-Уникальных строк: 21
-Уникальных host:port: 21
+Всего конфигов: 22
+Уникальных строк: 22
+Уникальных host:port: 22
 Уникальных backend: 17
-Anycast: 3
-Unknown country: 13
+Anycast: 5
+Unknown country: 12
 
 Топ стран:
-  Unknown: 13
-  🌐 Anycast: 3
+  Unknown: 12
+  🌐 Anycast: 5
   Finland: 2
-  Russia: 1
+  Poland: 2
   Germany: 1
-  Japan: 1
 
 Топ SNI:
-  www.cloudflare.com: 6
-  surstreming.vvzzkontaktezzvv.garden: 2
-  185.71.219.128: 2
-  fintanil228.vvzzkontaktezzvv.garden: 2
+  www.cloudflare.com: 3
+  gb.superbuba.top: 2
   gerwai1488.vvzzkontaktezzvv.garden: 2
-  amd.com: 1
-  bl3fk52.sysopnova.art: 1
-  cloudflare.com: 1
-  www.akamai.com: 1
-  admin.vkroom-it-service.xyz: 1
+  fintanil228.vvzzkontaktezzvv.garden: 2
+  surstreming.vvzzkontaktezzvv.garden: 2
+  pl.bubahero.com: 2
+  dl.google.com: 1
+  reels.frkn.org: 1
+  donatov.net: 1
+  netra-85a0ca.shoameni19.workers.dev: 1
 
 Топ портов:
-  443: 19
-  2082: 1
-  2052: 1
+  443: 20
+  9881: 1
+  8443: 1
 
 Топ схем:
-  vless: 21
+  vless: 22
 
 Топ transport:
   tcp: 17
+  grpc: 2
   xhttp: 2
-  httpupgrade: 1
-  raw: 1
+  ws: 1
 
 Топ security:
-  reality: 19
-  tls: 2
+  reality: 21
+  tls: 1
 
 ────────────────────────────────────────────────────────────────────
 📊 lte
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 23
-Уникальных строк: 23
-Уникальных host:port: 23
+Всего конфигов: 24
+Уникальных строк: 24
+Уникальных host:port: 24
 Уникальных backend: 19
-Anycast: 3
-Unknown country: 14
+Anycast: 5
+Unknown country: 13
 
 Топ стран:
-  Unknown: 14
-  🌐 Anycast: 3
+  Unknown: 13
+  🌐 Anycast: 5
+  Poland: 2
   Finland: 2
   Germany: 1
-  Russia: 1
   United States: 1
-  Japan: 1
 
 Топ SNI:
-  www.cloudflare.com: 6
+  www.cloudflare.com: 3
+  pl.bubahero.com: 2
   fintanil228.vvzzkontaktezzvv.garden: 2
   gerwai1488.vvzzkontaktezzvv.garden: 2
+  gb.superbuba.top: 2
   surstreming.vvzzkontaktezzvv.garden: 2
-  185.71.219.128: 2
-  bl3fk52.sysopnova.art: 1
+  netra-85a0ca.shoameni19.workers.dev: 1
   www.akamai.com: 1
-  amd.com: 1
   sg-proxy.local: 1
-  download.nvidia.com: 1
+  main.abyssettle.net: 1
 
 Топ портов:
-  443: 21
-  2052: 1
-  2082: 1
+  443: 22
+  9881: 1
+  8443: 1
 
 Топ схем:
-  vless: 21
+  vless: 22
   trojan: 2
 
 Топ transport:
   tcp: 19
+  grpc: 2
   xhttp: 2
-  raw: 1
-  httpupgrade: 1
+  ws: 1
 
 Топ security:
-  reality: 19
-  tls: 4
+  reality: 21
+  tls: 3
 
 ====================================================================
 🌍 GLOBAL SUMMARY
 ====================================================================
-Всего конфигов: 130
-Уникальных строк: 42
-Уникальных host:port: 32
-Уникальных backend: 34
-Anycast: 15
-Unknown country: 83
+Всего конфигов: 151
+Уникальных строк: 52
+Уникальных host:port: 36
+Уникальных backend: 44
+Anycast: 33
+Unknown country: 81
 
 Топ стран:
-  Unknown: 83
-  🌐 Anycast: 15
-  Russia: 9
-  Finland: 8
+  Unknown: 81
+  🌐 Anycast: 33
+  Finland: 10
+  Poland: 8
+  Russia: 6
   Germany: 4
-  Japan: 4
+  Czechia: 4
   United States: 3
-  Czechia: 2
   Netherlands: 2
 
 Топ SNI:
-  www.cloudflare.com: 24
-  185.71.219.128: 9
+  www.cloudflare.com: 12
+  pl.bubahero.com: 8
   fintanil228.vvzzkontaktezzvv.garden: 8
   gerwai1488.vvzzkontaktezzvv.garden: 8
   surstreming.vvzzkontaktezzvv.garden: 8
-  hy.quattro-tech.ru: 6
-  amd.com: 5
-  bl3fk52.sysopnova.art: 5
-  cloudflare.com: 5
+  gb.superbuba.top: 8
+  donatov.net: 5
+  dl.google.com: 5
+  reels.frkn.org: 5
   msk.frkn.org: 4
+  hy.quattro-tech.ru: 4
   www.akamai.com: 4
-  www.goo.gl: 4
-  admin.vkroom-it-service.xyz: 4
+  main.abyssettle.net: 4
   download.nvidia.com: 4
-  sg-proxy.local: 3
+  admin.vkroom-it-service.xyz: 4
 
 Топ портов:
-  443: 91
-  2052: 4
-  2082: 4
+  443: 95
+  8880: 8
+  9881: 5
+  8443: 5
+  3090: 4
   22443: 3
   24443: 3
-  3090: 2
-  45286: 2
   80: 2
-  50160: 2
-  8080: 1
 
 Топ схем:
-  vless: 94
-  vmess: 16
+  vless: 105
+  vmess: 26
   hysteria2: 14
   trojan: 6
 
 Топ transport:
-  tcp: 109
+  tcp: 114
+  grpc: 14
+  ws: 14
   xhttp: 9
-  raw: 4
-  httpupgrade: 4
-  grpc: 2
-  ws: 2
 
 Топ security:
-  reality: 79
-  none: 35
-  tls: 16
+  reality: 87
+  none: 54
+  tls: 10
