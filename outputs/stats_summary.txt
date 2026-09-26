@@ -1,5 +1,5 @@
 VPN Builder stats summary
-Generated at: 2026-09-27 00:35:09 MSK
+Generated at: 2026-09-27 02:55:10 MSK
 
 ====================================================================
 RAW GROUPS
@@ -8,158 +8,179 @@ RAW GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 57
-Уникальных строк: 52
-Уникальных host:port: 12
-Уникальных backend: 12
-Anycast: 16
-Unknown country: 7
+Всего конфигов: 94
+Уникальных строк: 94
+Уникальных host:port: 17
+Уникальных backend: 19
+Anycast: 44
+Unknown country: 19
 
 Топ стран:
-  Russia: 34
-  🌐 Anycast: 16
-  Unknown: 7
+  🌐 Anycast: 44
+  Russia: 23
+  Unknown: 19
+  Kazakhstan: 5
+  Germany: 2
+  Netherlands: 1
 
 Топ SNI:
-  31.76.65.234.fwqfw783rg2dad.website: 13
-  event.yandex.ru: 10
-  assets-de2.pleiades.codes: 10
-  open.spotify.com: 5
+  media-se.compressor.work: 27
+  dl.google.com: 19
+  31.76.65.234.fwqfw783rg2dad.website: 8
+  92.53.104.65: 7
+  open.spotify.com: 7
   1bs-abs-more.ru: 5
+  assets-de2.pleiades.codes: 4
   hy.quattro-tech.ru: 4
+  91.240.86.70: 3
   msk.frkn.org: 3
-  91.240.86.70: 2
-  itsallproxy.quattro-tech.ru: 2
-  off: 1
 
 Топ портов:
-  443: 42
-  22443: 7
+  14443: 27
+  443: 23
+  9881: 19
+  22443: 8
+  9992: 5
   43: 5
+  8443: 2
+  9991: 2
   24443: 2
   2086: 1
 
 Топ схем:
-  vless: 43
-  hysteria2: 14
+  vless: 79
+  hysteria2: 15
 
 Топ transport:
+  ws: 35
   tcp: 29
-  ws: 13
-  grpc: 10
-  xhttp: 5
+  grpc: 23
+  xhttp: 7
 
 Топ security:
-  tls: 29
-  reality: 15
-  none: 13
+  tls: 45
+  reality: 35
+  none: 14
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_vless
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 45
-Уникальных строк: 45
-Уникальных host:port: 10
-Уникальных backend: 9
-Anycast: 11
-Unknown country: 5
+Всего конфигов: 86
+Уникальных строк: 86
+Уникальных host:port: 15
+Уникальных backend: 16
+Anycast: 44
+Unknown country: 17
 
 Топ стран:
-  Russia: 29
-  🌐 Anycast: 11
-  Unknown: 5
+  🌐 Anycast: 44
+  Unknown: 17
+  Russia: 17
+  Kazakhstan: 5
+  Germany: 2
+  Netherlands: 1
 
 Топ SNI:
-  31.76.65.234.fwqfw783rg2dad.website: 13
-  assets-de2.pleiades.codes: 10
-  event.yandex.ru: 5
-  open.spotify.com: 5
+  media-se.compressor.work: 27
+  dl.google.com: 19
+  31.76.65.234.fwqfw783rg2dad.website: 8
+  92.53.104.65: 7
+  open.spotify.com: 7
   1bs-abs-more.ru: 5
+  assets-de2.pleiades.codes: 4
+  edge-fr.extazy.net: 2
   hy.quattro-tech.ru: 2
   itsallproxy.quattro-tech.ru: 2
-  msk.frkn.org: 2
-  vpn.ai-boost.tech: 1
 
 Топ портов:
-  443: 35
+  14443: 27
+  443: 21
+  9881: 19
+  9992: 5
   43: 5
   22443: 4
+  8443: 2
+  9991: 2
   2086: 1
 
 Топ схем:
-  vless: 38
+  vless: 79
   hysteria2: 7
 
 Топ transport:
-  tcp: 17
-  ws: 13
-  grpc: 10
-  xhttp: 5
+  ws: 35
+  grpc: 23
+  tcp: 21
+  xhttp: 7
 
 Топ security:
-  tls: 29
-  reality: 10
+  tls: 45
+  reality: 35
   none: 6
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW black_all
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 281
-Уникальных строк: 189
-Уникальных host:port: 33
-Уникальных backend: 42
-Anycast: 61
-Unknown country: 127
+Всего конфигов: 369
+Уникальных строк: 221
+Уникальных host:port: 98
+Уникальных backend: 82
+Anycast: 64
+Unknown country: 102
 
 Топ стран:
-  Unknown: 127
-  🌐 Anycast: 61
-  Netherlands: 59
-  Estonia: 11
-  Germany: 11
-  Russia: 5
-  Finland: 2
-  France: 2
-  Japan: 2
-  United States: 1
+  Unknown: 102
+  🌐 Anycast: 64
+  Switzerland: 54
+  Netherlands: 48
+  Germany: 42
+  United States: 15
+  Poland: 10
+  Russia: 10
+  Finland: 6
+  Kazakhstan: 6
 
 Топ SNI:
-  Qr.fastly.com: 23
-  xnod22x.artemida.live: 22
-  xnod12x.artemida.live: 21
-  stadb90.rumedia-cdn.com: 20
-  ai.android: 13
-  contact.yump.online: 11
-  gag.fl.iki-servers.com: 11
-  condrve.ggisopi.su: 11
-  accounts.fastly.com: 11
-  www.aparat.com: 11
+  s3.netavex.com: 54
+  conge.ggisopi.su: 22
+  community.fastly.com: 17
+  Qr.fastly.com: 16
+  edgetunnel-4uw.pages.dev: 14
+  www.sony.com: 13
+  push.savesafe.info: 12
+  rt.quicksavesafe.com: 10
+  www.nvidia.com: 8
+  media.justsavesafe.com: 8
 
 Топ портов:
-  443: 145
-  8443: 60
-  2096: 30
-  47381: 11
-  11674: 10
+  443: 209
+  8443: 93
+  2096: 8
+  30443: 8
   2060: 7
-  2095: 2
+  8890: 6
+  43435: 6
+  8090: 6
+  54322: 4
+  42411: 2
 
 Топ схем:
-  vless: 230
-  hysteria2: 25
-  vmess: 16
-  trojan: 10
+  vless: 289
+  hysteria2: 47
+  trojan: 23
+  vmess: 10
 
 Топ transport:
   tcp: 178
-  xhttp: 44
+  xhttp: 127
   ws: 42
-  grpc: 17
+  grpc: 22
 
 Топ security:
-  reality: 120
-  tls: 120
-  none: 41
+  reality: 187
+  tls: 116
+  none: 63
+  false: 3
 
 ====================================================================
 FINAL GROUPS
@@ -168,270 +189,302 @@ FINAL GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 12
-Уникальных строк: 12
-Уникальных host:port: 12
-Уникальных backend: 9
+Всего конфигов: 17
+Уникальных строк: 17
+Уникальных host:port: 17
+Уникальных backend: 14
 Anycast: 3
-Unknown country: 2
+Unknown country: 4
 
 Топ стран:
   Russia: 7
+  Unknown: 4
   🌐 Anycast: 3
-  Unknown: 2
+  Kazakhstan: 1
+  Germany: 1
+  Netherlands: 1
 
 Топ SNI:
+  92.53.104.65: 2
+  media-se.compressor.work: 2
   31.76.65.234.fwqfw783rg2dad.website: 2
   assets-de2.pleiades.codes: 2
-  hy.quattro-tech.ru: 2
+  edge-fr.extazy.net: 1
   open.spotify.com: 1
-  event.yandex.ru: 1
+  dl.google.com: 1
   1bs-abs-more.ru: 1
-  vpn.ai-boost.tech: 1
-  msk.frkn.org: 1
-  tcp-reset-club.net: 1
-
-Топ портов:
-  443: 8
-  43: 1
-  22443: 1
-  2086: 1
-  24443: 1
-
-Топ схем:
-  vless: 7
-  hysteria2: 5
-
-Топ transport:
-  tcp: 7
-  ws: 2
-  grpc: 2
-  xhttp: 1
-
-Топ security:
-  tls: 5
-  none: 5
-  reality: 2
-
-────────────────────────────────────────────────────────────────────
-📊 white_vless
-────────────────────────────────────────────────────────────────────
-Всего конфигов: 10
-Уникальных строк: 10
-Уникальных host:port: 10
-Уникальных backend: 8
-Anycast: 3
-Unknown country: 1
-
-Топ стран:
-  Russia: 6
-  🌐 Anycast: 3
-  Unknown: 1
-
-Топ SNI:
-  assets-de2.pleiades.codes: 2
-  31.76.65.234.fwqfw783rg2dad.website: 2
-  event.yandex.ru: 1
-  open.spotify.com: 1
-  1bs-abs-more.ru: 1
-  msk.frkn.org: 1
-  hy.quattro-tech.ru: 1
+  91.240.86.70: 1
   vpn.ai-boost.tech: 1
 
 Топ портов:
   443: 7
+  14443: 2
+  9992: 1
+  9991: 1
+  8443: 1
+  9881: 1
   43: 1
   22443: 1
   2086: 1
+  24443: 1
 
 Топ схем:
-  vless: 7
-  hysteria2: 3
+  vless: 12
+  hysteria2: 5
 
 Топ transport:
-  tcp: 5
-  grpc: 2
-  ws: 2
+  tcp: 9
+  ws: 4
+  grpc: 3
   xhttp: 1
 
 Топ security:
-  tls: 5
+  tls: 7
+  reality: 5
+  none: 5
+
+────────────────────────────────────────────────────────────────────
+📊 white_vless
+────────────────────────────────────────────────────────────────────
+Всего конфигов: 15
+Уникальных строк: 15
+Уникальных host:port: 15
+Уникальных backend: 12
+Anycast: 3
+Unknown country: 3
+
+Топ стран:
+  Russia: 6
+  🌐 Anycast: 3
+  Unknown: 3
+  Kazakhstan: 1
+  Germany: 1
+  Netherlands: 1
+
+Топ SNI:
+  assets-de2.pleiades.codes: 2
+  92.53.104.65: 2
+  media-se.compressor.work: 2
+  31.76.65.234.fwqfw783rg2dad.website: 2
+  open.spotify.com: 1
+  edge-fr.extazy.net: 1
+  dl.google.com: 1
+  1bs-abs-more.ru: 1
+  vpn.ai-boost.tech: 1
+  msk.frkn.org: 1
+
+Топ портов:
+  443: 6
+  14443: 2
+  9992: 1
+  9991: 1
+  8443: 1
+  9881: 1
+  43: 1
+  2086: 1
+  22443: 1
+
+Топ схем:
+  vless: 12
+  hysteria2: 3
+
+Топ transport:
+  tcp: 7
+  ws: 4
+  grpc: 3
+  xhttp: 1
+
+Топ security:
+  tls: 7
+  reality: 5
   none: 3
-  reality: 2
 
 ────────────────────────────────────────────────────────────────────
 📊 black_all
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 42
-Уникальных строк: 42
-Уникальных host:port: 33
-Уникальных backend: 40
-Anycast: 6
-Unknown country: 22
+Всего конфигов: 101
+Уникальных строк: 101
+Уникальных host:port: 95
+Уникальных backend: 77
+Anycast: 14
+Unknown country: 41
 
 Топ стран:
-  Unknown: 22
-  🌐 Anycast: 6
-  Netherlands: 6
-  Russia: 2
-  Germany: 1
-  Estonia: 1
-  Japan: 1
-  United States: 1
-  Finland: 1
-  France: 1
+  Unknown: 41
+  🌐 Anycast: 14
+  Netherlands: 13
+  Germany: 8
+  Poland: 5
+  United States: 5
+  Russia: 3
+  Finland: 3
+  Switzerland: 2
+  Austria: 2
 
 Топ SNI:
-  xnod22x.artemida.live: 2
-  xnod12x.artemida.live: 2
-  accounts.fastly.com: 1
-  Qr.fastly.com: 1
-  43.167.208.94: 1
-  gag.fl.iki-servers.com: 1
-  bags.yump.online: 1
-  contact.yump.online: 1
-  community.fastly.com: 1
-  assets-de2.pleiades.codes: 1
+  media.justsavesafe.com: 4
+  push.savesafe.info: 4
+  rt.quicksavesafe.com: 4
+  filesconvert.org: 4
+  www.sony.com: 3
+  www.bing.com: 3
+  conge.ggisopi.su: 2
+  s3.netavex.com: 2
+  polik.failspace.top: 2
+  31.76.65.234.fwqfw783rg2dad.website: 2
 
 Топ портов:
-  443: 16
-  8443: 9
+  443: 58
+  8443: 13
+  2096: 4
+  30443: 4
   2060: 3
-  2096: 2
-  2095: 1
-  11674: 1
-  47381: 1
+  42411: 1
+  43435: 1
+  8890: 1
+  54322: 1
+  8090: 1
 
 Топ схем:
-  vless: 21
-  hysteria2: 11
-  vmess: 9
-  trojan: 1
+  vless: 69
+  hysteria2: 23
+  vmess: 6
+  trojan: 3
 
 Топ transport:
-  tcp: 33
-  ws: 4
-  xhttp: 3
-  grpc: 2
+  tcp: 63
+  xhttp: 20
+  ws: 12
+  grpc: 6
 
 Топ security:
-  none: 20
-  tls: 11
-  reality: 11
+  reality: 41
+  none: 34
+  tls: 25
+  false: 1
 
 ────────────────────────────────────────────────────────────────────
 📊 pool
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 52
-Уникальных строк: 52
-Уникальных host:port: 43
-Уникальных backend: 47
-Anycast: 9
-Unknown country: 24
+Всего конфигов: 114
+Уникальных строк: 114
+Уникальных host:port: 105
+Уникальных backend: 87
+Anycast: 17
+Unknown country: 43
 
 Топ стран:
-  Unknown: 24
-  🌐 Anycast: 9
-  Russia: 7
-  Netherlands: 6
-  Finland: 1
-  Japan: 1
-  France: 1
-  Estonia: 1
-  United States: 1
-  Germany: 1
+  Unknown: 43
+  🌐 Anycast: 17
+  Netherlands: 14
+  Germany: 9
+  Russia: 8
+  United States: 5
+  Poland: 5
+  Finland: 3
+  Kazakhstan: 2
+  Austria: 2
 
 Топ SNI:
-  hy.quattro-tech.ru: 2
+  filesconvert.org: 4
+  push.savesafe.info: 4
+  www.sony.com: 3
+  rt.quicksavesafe.com: 3
+  media.justsavesafe.com: 3
+  www.bing.com: 3
+  tcp-reset-club.net: 2
+  92.53.104.65: 2
+  msk.frkn.org: 2
   assets-de2.pleiades.codes: 2
-  31.76.65.234.fwqfw783rg2dad.website: 2
-  xnod12x.artemida.live: 2
-  xnod22x.artemida.live: 2
-  1bs-abs-more.ru: 1
-  msk.frkn.org: 1
-  open.spotify.com: 1
-  vpn.ai-boost.tech: 1
-  tcp-reset-club.net: 1
 
 Топ портов:
-  443: 22
-  8443: 9
+  443: 61
+  8443: 14
+  2096: 4
+  30443: 4
   2060: 3
-  2096: 2
-  22443: 1
+  14443: 2
+  2086: 2
   43: 1
-  24443: 1
-  2086: 1
-  11674: 1
-  47381: 1
+  22443: 1
+  9991: 1
 
 Топ схем:
-  vless: 27
-  hysteria2: 15
-  vmess: 9
-  trojan: 1
+  vless: 77
+  hysteria2: 28
+  vmess: 6
+  trojan: 3
 
 Топ transport:
-  tcp: 39
-  ws: 6
-  xhttp: 4
-  grpc: 3
+  tcp: 72
+  xhttp: 19
+  ws: 14
+  grpc: 9
 
 Топ security:
-  none: 24
-  tls: 15
-  reality: 13
+  reality: 44
+  none: 39
+  tls: 30
+  false: 1
 
 ────────────────────────────────────────────────────────────────────
 📊 mixed
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 26
-Уникальных строк: 26
-Уникальных host:port: 26
-Уникальных backend: 22
-Anycast: 6
-Unknown country: 10
+Всего конфигов: 58
+Уникальных строк: 58
+Уникальных host:port: 58
+Уникальных backend: 45
+Anycast: 9
+Unknown country: 20
 
 Топ стран:
-  Unknown: 10
-  🌐 Anycast: 6
+  Unknown: 20
+  🌐 Anycast: 9
+  Netherlands: 8
+  Germany: 6
   Russia: 4
-  Netherlands: 4
-  Germany: 1
-  Estonia: 1
+  Poland: 4
+  Finland: 2
+  Austria: 2
+  Kazakhstan: 1
+  Switzerland: 1
 
 Топ SNI:
+  www.sony.com: 3
+  92.53.104.65: 2
+  media-se.compressor.work: 2
   31.76.65.234.fwqfw783rg2dad.website: 2
   assets-de2.pleiades.codes: 2
-  xnod12x.artemida.live: 2
-  xnod22x.artemida.live: 2
-  open.spotify.com: 1
-  event.yandex.ru: 1
-  1bs-abs-more.ru: 1
-  st90059.rumedia-cdn.com: 1
-  condrve.ggisopi.su: 1
-  accounts.fastly.com: 1
+  nilka.failspace.top: 2
+  conge.ggisopi.su: 2
+  st6dbbc.rumedia-cdn.com: 2
+  download.nvidia.com: 2
+  rt.quicksavesafe.com: 2
 
 Топ портов:
-  443: 16
-  8443: 5
+  443: 40
+  8443: 7
+  14443: 2
   2096: 2
   43: 1
-  11674: 1
-  47381: 1
+  9991: 1
+  9881: 1
+  9992: 1
+  43435: 1
+  8890: 1
 
 Топ схем:
-  vless: 26
+  vless: 58
 
 Топ transport:
-  tcp: 14
-  ws: 5
-  xhttp: 4
-  grpc: 3
+  tcp: 31
+  xhttp: 13
+  ws: 7
+  grpc: 7
 
 Топ security:
-  reality: 13
-  tls: 13
+  reality: 35
+  tls: 23
 
 ────────────────────────────────────────────────────────────────────
 📊 lte
@@ -439,116 +492,124 @@ Unknown country: 10
 Всего конфигов: 25
 Уникальных строк: 25
 Уникальных host:port: 25
-Уникальных backend: 21
-Anycast: 5
-Unknown country: 10
+Уникальных backend: 19
+Anycast: 2
+Unknown country: 0
 
 Топ стран:
-  Unknown: 10
-  🌐 Anycast: 5
-  Netherlands: 4
+  Netherlands: 8
+  Germany: 4
   Russia: 4
-  Germany: 1
-  Estonia: 1
+  Switzerland: 2
+  Finland: 2
+  🌐 Anycast: 2
+  Poland: 2
+  Austria: 1
 
 Топ SNI:
-  assets-de2.pleiades.codes: 2
+  s3.netavex.com: 2
   31.76.65.234.fwqfw783rg2dad.website: 2
-  xnod12x.artemida.live: 2
-  xnod22x.artemida.live: 2
-  accounts.fastly.com: 1
+  st6dbbc.rumedia-cdn.com: 2
+  assets-de2.pleiades.codes: 2
+  nilka.failspace.top: 2
+  polik.failspace.top: 2
   community.fastly.com: 1
-  stadb90.rumedia-cdn.com: 1
+  accounts.fastly.com: 1
   Qr.fastly.com: 1
-  edgetunnel-4uw.pages.dev: 1
-  hub-mori-new.failspace.top: 1
+  stf94fd.rumedia-cdn.com: 1
 
 Топ портов:
-  443: 17
-  8443: 5
-  2096: 1
-  11674: 1
-  43: 1
+  443: 18
+  8443: 4
+  2096: 3
 
 Топ схем:
-  vless: 24
-  trojan: 1
+  vless: 25
 
 Топ transport:
-  tcp: 14
-  xhttp: 4
-  ws: 4
-  grpc: 3
+  tcp: 10
+  ws: 7
+  xhttp: 6
+  grpc: 2
 
 Топ security:
-  tls: 13
-  reality: 12
+  tls: 20
+  reality: 5
 
 ====================================================================
 🌍 GLOBAL SUMMARY
 ====================================================================
-Всего конфигов: 167
-Уникальных строк: 55
-Уникальных host:port: 43
-Уникальных backend: 47
-Anycast: 32
-Unknown country: 69
+Всего конфигов: 330
+Уникальных строк: 121
+Уникальных host:port: 107
+Уникальных backend: 87
+Anycast: 48
+Unknown country: 111
 
 Топ стран:
-  Unknown: 69
-  🌐 Anycast: 32
-  Russia: 30
-  Netherlands: 20
-  Germany: 4
-  Estonia: 4
-  Japan: 2
-  United States: 2
-  Finland: 2
+  Unknown: 111
+  🌐 Anycast: 48
+  Netherlands: 45
+  Russia: 32
+  Germany: 29
+  Poland: 16
+  United States: 10
+  Finland: 10
+  Switzerland: 7
+  Austria: 7
+  Kazakhstan: 6
+  Japan: 5
   France: 2
+  Czechia: 2
 
 Топ SNI:
-  assets-de2.pleiades.codes: 11
-  31.76.65.234.fwqfw783rg2dad.website: 10
-  xnod22x.artemida.live: 8
-  xnod12x.artemida.live: 8
-  open.spotify.com: 5
-  event.yandex.ru: 5
-  1bs-abs-more.ru: 5
-  hy.quattro-tech.ru: 5
-  msk.frkn.org: 4
-  accounts.fastly.com: 4
-  Qr.fastly.com: 4
-  gag.fl.iki-servers.com: 4
-  bags.yump.online: 4
-  contact.yump.online: 4
-  community.fastly.com: 4
+  31.76.65.234.fwqfw783rg2dad.website: 12
+  assets-de2.pleiades.codes: 10
+  push.savesafe.info: 10
+  www.sony.com: 9
+  media.justsavesafe.com: 9
+  rt.quicksavesafe.com: 9
+  92.53.104.65: 8
+  media-se.compressor.work: 8
+  polik.failspace.top: 8
+  nilka.failspace.top: 8
+  st6dbbc.rumedia-cdn.com: 8
+  filesconvert.org: 8
+  s3.netavex.com: 7
+  atatat.failspace.top: 7
+  www.bing.com: 7
 
 Топ портов:
-  443: 86
-  8443: 28
-  2096: 7
+  443: 190
+  8443: 40
+  2096: 13
+  14443: 8
+  30443: 8
   2060: 6
-  43: 5
-  11674: 4
+  2086: 5
+  9992: 4
+  9991: 4
+  9881: 4
+  43: 4
   22443: 3
-  2086: 3
-  47381: 3
-  24443: 2
-  2095: 2
+  42411: 3
+  43435: 3
+  8890: 3
 
 Топ схем:
-  vless: 112
-  hysteria2: 34
-  vmess: 18
-  trojan: 3
+  vless: 253
+  hysteria2: 59
+  vmess: 12
+  trojan: 6
 
 Топ transport:
-  tcp: 112
-  ws: 23
-  xhttp: 17
-  grpc: 15
+  tcp: 192
+  xhttp: 60
+  ws: 48
+  grpc: 30
 
 Топ security:
-  tls: 62
-  reality: 53
-  none: 52
+  reality: 135
+  tls: 112
+  none: 81
+  false: 2
