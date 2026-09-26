@@ -1,5 +1,5 @@
 VPN Builder stats summary
-Generated at: 2026-09-26 04:05:30 MSK
+Generated at: 2026-09-26 09:11:52 MSK
 
 ====================================================================
 RAW GROUPS
@@ -8,159 +8,153 @@ RAW GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 73
-Уникальных строк: 62
-Уникальных host:port: 10
-Уникальных backend: 14
-Anycast: 18
-Unknown country: 18
+Всего конфигов: 72
+Уникальных строк: 57
+Уникальных host:port: 11
+Уникальных backend: 11
+Anycast: 22
+Unknown country: 7
 
 Топ стран:
-  Russia: 27
-  🌐 Anycast: 18
-  Unknown: 18
-  Germany: 10
+  Russia: 35
+  🌐 Anycast: 22
+  Germany: 8
+  Unknown: 7
 
 Топ SNI:
-  dostavitos.stroymatdv.cc: 22
-  dl.google.com: 17
-  ads.x5.ru: 8
-  x5.ru: 6
-  open.spotify.com: 5
-  assets-de2.pleiades.codes: 4
-  hy.quattro-tech.ru: 3
+  dostavitos.stroymatdv.cc: 30
+  petrovich.ru: 15
+  absolute-disaster.org: 5
+  x5.ru: 5
+  yandex.ru: 5
+  hy.quattro-tech.ru: 4
   91.240.86.70: 3
   itsallproxy.quattro-tech.ru: 2
   msk.frkn.org: 2
+  off: 1
 
 Топ портов:
-  443: 47
-  9881: 17
+  443: 57
   22443: 8
-  24443: 1
+  993: 5
+  24443: 2
 
 Топ схем:
-  vless: 62
-  hysteria2: 11
+  vless: 60
+  hysteria2: 12
 
 Топ transport:
-  grpc: 31
-  ws: 22
-  tcp: 11
-  xhttp: 9
+  tcp: 37
+  ws: 30
+  grpc: 5
 
 Топ security:
-  reality: 36
-  tls: 28
-  none: 9
+  tls: 32
+  reality: 30
+  none: 10
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_vless
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 43
-Уникальных строк: 43
-Уникальных host:port: 6
-Уникальных backend: 9
-Anycast: 15
-Unknown country: 14
+Всего конфигов: 26
+Уникальных строк: 26
+Уникальных host:port: 5
+Уникальных backend: 5
+Anycast: 11
+Unknown country: 5
 
 Топ стран:
-  🌐 Anycast: 15
-  Unknown: 14
-  Russia: 9
-  Germany: 5
+  🌐 Anycast: 11
+  Russia: 6
+  Unknown: 5
+  Germany: 4
 
 Топ SNI:
-  dl.google.com: 17
-  dostavitos.stroymatdv.cc: 11
-  open.spotify.com: 5
-  assets-de2.pleiades.codes: 4
+  dostavitos.stroymatdv.cc: 15
+  absolute-disaster.org: 5
   hy.quattro-tech.ru: 2
   itsallproxy.quattro-tech.ru: 2
   msk.frkn.org: 2
 
 Топ портов:
   443: 22
-  9881: 17
   22443: 4
 
 Топ схем:
-  vless: 37
+  vless: 20
   hysteria2: 6
 
 Топ transport:
-  grpc: 21
-  ws: 11
-  tcp: 6
-  xhttp: 5
+  ws: 15
+  tcp: 11
 
 Топ security:
-  reality: 22
   tls: 17
+  reality: 5
   none: 4
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW black_all
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 305
-Уникальных строк: 196
-Уникальных host:port: 50
-Уникальных backend: 67
-Anycast: 35
-Unknown country: 114
+Всего конфигов: 320
+Уникальных строк: 226
+Уникальных host:port: 62
+Уникальных backend: 68
+Anycast: 58
+Unknown country: 76
 
 Топ стран:
-  Unknown: 114
-  Netherlands: 51
-  🌐 Anycast: 35
-  Germany: 29
-  Switzerland: 24
-  Japan: 21
-  United States: 11
-  Finland: 7
-  Poland: 6
-  Russia: 3
+  Unknown: 76
+  Netherlands: 60
+  🌐 Anycast: 58
+  Germany: 47
+  Switzerland: 23
+  United States: 14
+  Lithuania: 10
+  Japan: 8
+  France: 7
+  Estonia: 5
 
 Топ SNI:
-  s3.netavex.com: 34
-  pl1.gursub.com: 15
-  ads.x5.ru: 13
-  cloudflare.com: 12
+  s3.netavex.com: 38
+  www.sony.com: 18
+  secureconnect-pa.mtls.clients6.google.com: 15
+  cloudflare.com: 14
   accounts.fastly.com: 10
-  www.yahoo.com: 10
-  palimpcest.spravedlivost.fun: 10
-  www.sony.com: 10
-  ai.android: 8
-  st6302c.rumedia-cdn.com: 8
+  ukefast.failspace.top: 10
+  stadb90.rumedia-cdn.com: 8
+  palimpcest.spravedlivost.fun: 8
+  ai.android: 7
+  ads.x5.ru: 7
 
 Топ портов:
-  443: 132
-  8443: 38
-  2096: 31
-  8444: 15
-  20270: 10
-  18443: 10
-  3090: 8
-  20410: 6
+  443: 126
+  8443: 67
+  2096: 20
+  20410: 15
+  18443: 13
+  8880: 12
+  3090: 10
+  2085: 8
   2060: 6
-  80: 4
+  40443: 5
 
 Топ схем:
-  vless: 237
-  vmess: 35
-  hysteria2: 24
+  vless: 274
+  hysteria2: 21
+  vmess: 16
   trojan: 9
 
 Топ transport:
-  tcp: 176
-  xhttp: 58
-  ws: 47
-  grpc: 24
+  tcp: 148
+  xhttp: 79
+  ws: 59
+  grpc: 34
 
 Топ security:
-  reality: 159
-  none: 79
-  tls: 67
+  reality: 157
+  tls: 86
+  none: 77
 
 ====================================================================
 FINAL GROUPS
@@ -169,273 +163,271 @@ FINAL GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 10
-Уникальных строк: 10
-Уникальных host:port: 10
-Уникальных backend: 10
-Anycast: 0
-Unknown country: 3
+Всего конфигов: 11
+Уникальных строк: 11
+Уникальных host:port: 11
+Уникальных backend: 9
+Anycast: 1
+Unknown country: 2
 
 Топ стран:
-  Russia: 6
-  Unknown: 3
+  Russia: 7
+  Unknown: 2
+  🌐 Anycast: 1
   Germany: 1
 
 Топ SNI:
-  ads.x5.ru: 2
-  dostavitos.stroymatdv.cc: 1
+  petrovich.ru: 3
+  dostavitos.stroymatdv.cc: 2
+  yandex.ru: 1
   x5.ru: 1
-  open.spotify.com: 1
-  dl.google.com: 1
-  assets-de2.pleiades.codes: 1
+  absolute-disaster.org: 1
   msk.frkn.org: 1
   91.240.86.70: 1
   hy.quattro-tech.ru: 1
 
 Топ портов:
-  443: 7
-  9881: 1
+  443: 8
+  993: 1
   22443: 1
   24443: 1
 
 Топ схем:
-  vless: 7
+  vless: 8
   hysteria2: 3
 
 Топ transport:
-  grpc: 4
-  tcp: 3
-  xhttp: 2
-  ws: 1
+  tcp: 8
+  ws: 2
+  grpc: 1
 
 Топ security:
-  reality: 5
+  reality: 6
   none: 3
   tls: 2
 
 ────────────────────────────────────────────────────────────────────
 📊 white_vless
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 6
-Уникальных строк: 6
-Уникальных host:port: 6
-Уникальных backend: 6
-Anycast: 0
-Unknown country: 2
+Всего конфигов: 5
+Уникальных строк: 5
+Уникальных host:port: 5
+Уникальных backend: 4
+Anycast: 1
+Unknown country: 1
 
 Топ стран:
-  Russia: 3
-  Unknown: 2
+  Russia: 2
   Germany: 1
+  Unknown: 1
+  🌐 Anycast: 1
 
 Топ SNI:
-  dostavitos.stroymatdv.cc: 1
-  open.spotify.com: 1
-  dl.google.com: 1
-  assets-de2.pleiades.codes: 1
+  dostavitos.stroymatdv.cc: 2
+  absolute-disaster.org: 1
   msk.frkn.org: 1
   hy.quattro-tech.ru: 1
 
 Топ портов:
   443: 4
-  9881: 1
   22443: 1
 
 Топ схем:
-  vless: 4
+  vless: 3
   hysteria2: 2
 
 Топ transport:
-  grpc: 2
-  tcp: 2
-  ws: 1
-  xhttp: 1
+  tcp: 3
+  ws: 2
 
 Топ security:
   tls: 3
-  reality: 2
+  reality: 1
   none: 1
 
 ────────────────────────────────────────────────────────────────────
 📊 black_all
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 69
-Уникальных строк: 69
-Уникальных host:port: 50
-Уникальных backend: 66
-Anycast: 8
-Unknown country: 38
+Всего конфигов: 71
+Уникальных строк: 71
+Уникальных host:port: 62
+Уникальных backend: 67
+Anycast: 14
+Unknown country: 24
 
 Топ стран:
-  Unknown: 38
-  🌐 Anycast: 8
-  Netherlands: 7
-  Germany: 4
-  Japan: 4
-  United States: 2
-  Finland: 1
-  Poland: 1
-  Switzerland: 1
-  Czechia: 1
+  Unknown: 24
+  🌐 Anycast: 14
+  Netherlands: 10
+  Germany: 7
+  United States: 4
+  Lithuania: 2
+  France: 2
+  Czechia: 2
+  Russia: 2
+  Japan: 1
 
 Топ SNI:
-  ads.x5.ru: 2
+  s3.netavex.com: 3
+  www.sony.com: 2
   cloudflare.com: 2
-  s3.netavex.com: 2
-  pl1.gursub.com: 2
+  secureconnect-pa.mtls.clients6.google.com: 2
+  ai.android: 2
   hop-germany-september.dynuddns.com: 2
-  pl.dertux.com: 1
-  sg-proxy.local: 1
-  github.com: 1
-  43.167.208.94: 1
-  www.wikipedia.org: 1
+  ads.x5.ru: 1
+  sw8-fe87.nodeflux-cache.cc: 1
+  ej204ej204.subaru-volga.com: 1
+  xnod22x.artemida.live: 1
 
 Топ портов:
-  443: 25
-  8443: 4
-  2096: 4
+  443: 22
+  8443: 10
+  8880: 5
+  2096: 3
+  2085: 3
   3090: 3
   2060: 3
-  8444: 2
-  20270: 1
-  18443: 1
+  20410: 2
+  80: 2
   54322: 1
-  20410: 1
 
 Топ схем:
-  vless: 37
-  vmess: 19
-  hysteria2: 12
+  vless: 51
+  hysteria2: 10
+  vmess: 9
   trojan: 1
 
 Топ transport:
-  tcp: 50
-  ws: 7
-  xhttp: 6
-  grpc: 6
+  tcp: 36
+  ws: 14
+  xhttp: 11
+  grpc: 10
 
 Топ security:
-  none: 39
-  reality: 21
-  tls: 9
+  none: 33
+  reality: 23
+  tls: 15
 
 ────────────────────────────────────────────────────────────────────
 📊 pool
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 76
-Уникальных строк: 76
-Уникальных host:port: 57
-Уникальных backend: 73
-Anycast: 8
-Unknown country: 41
+Всего конфигов: 81
+Уникальных строк: 81
+Уникальных host:port: 72
+Уникальных backend: 75
+Anycast: 15
+Unknown country: 26
 
 Топ стран:
-  Unknown: 41
-  🌐 Anycast: 8
-  Netherlands: 7
-  Russia: 6
-  Germany: 4
-  Japan: 4
-  United States: 2
-  Poland: 1
-  France: 1
-  Czechia: 1
+  Unknown: 26
+  🌐 Anycast: 15
+  Netherlands: 10
+  Russia: 8
+  Germany: 8
+  United States: 4
+  Lithuania: 2
+  Czechia: 2
+  France: 2
+  Japan: 1
 
 Топ SNI:
-  ads.x5.ru: 2
-  hop-germany-september.dynuddns.com: 2
-  pl1.gursub.com: 2
+  petrovich.ru: 3
+  s3.netavex.com: 3
+  dostavitos.stroymatdv.cc: 2
   cloudflare.com: 2
-  s3.netavex.com: 2
-  x5.ru: 1
-  dl.google.com: 1
-  open.spotify.com: 1
+  hop-germany-september.dynuddns.com: 2
+  www.sony.com: 2
+  secureconnect-pa.mtls.clients6.google.com: 2
+  ai.android: 2
+  msk.frkn.org: 1
   hy.quattro-tech.ru: 1
-  91.240.86.70: 1
 
 Топ портов:
   443: 29
-  8443: 4
-  2096: 4
-  2060: 3
+  8443: 10
+  8880: 5
   3090: 3
-  8444: 2
-  9881: 1
+  2085: 3
+  2060: 3
+  2096: 3
+  80: 2
+  20410: 2
   24443: 1
-  22443: 1
-  8081: 1
 
 Топ схем:
-  vless: 42
-  vmess: 19
-  hysteria2: 14
+  vless: 59
+  hysteria2: 12
+  vmess: 9
   trojan: 1
 
 Топ transport:
-  tcp: 52
-  grpc: 9
-  ws: 8
-  xhttp: 7
+  tcp: 43
+  ws: 16
+  grpc: 11
+  xhttp: 11
 
 Топ security:
-  none: 41
-  reality: 24
-  tls: 11
+  none: 36
+  reality: 29
+  tls: 16
 
 ────────────────────────────────────────────────────────────────────
 📊 mixed
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 33
-Уникальных строк: 33
-Уникальных host:port: 33
-Уникальных backend: 31
-Anycast: 4
-Unknown country: 11
+Всего конфигов: 42
+Уникальных строк: 42
+Уникальных host:port: 42
+Уникальных backend: 38
+Anycast: 6
+Unknown country: 7
 
 Топ стран:
-  Unknown: 11
-  Netherlands: 6
-  Russia: 4
-  Germany: 4
-  🌐 Anycast: 4
-  Japan: 2
-  Poland: 1
-  Switzerland: 1
+  Netherlands: 9
+  Germany: 8
+  Unknown: 7
+  Russia: 6
+  🌐 Anycast: 6
+  Lithuania: 2
+  Finland: 1
+  France: 1
+  Estonia: 1
+  Japan: 1
 
 Топ SNI:
-  ads.x5.ru: 2
-  pl1.gursub.com: 2
-  s3.netavex.com: 2
+  petrovich.ru: 3
+  dostavitos.stroymatdv.cc: 2
   cloudflare.com: 2
-  open.spotify.com: 1
-  dostavitos.stroymatdv.cc: 1
-  dl.google.com: 1
+  www.sony.com: 2
+  s3.netavex.com: 2
+  secureconnect-pa.mtls.clients6.google.com: 2
+  ai.android: 2
+  yandex.ru: 1
   x5.ru: 1
-  assets-de2.pleiades.codes: 1
-  ai.android: 1
+  absolute-disaster.org: 1
 
 Топ портов:
-  443: 21
-  2096: 4
-  8444: 2
-  8443: 2
-  9881: 1
-  20410: 1
+  443: 25
+  8443: 7
+  2096: 3
+  20410: 2
+  993: 1
   18443: 1
-  20270: 1
+  48564: 1
+  2053: 1
+  40443: 1
 
 Топ схем:
-  vless: 33
+  vless: 42
 
 Топ transport:
-  tcp: 16
-  xhttp: 6
-  ws: 6
+  tcp: 20
+  ws: 9
+  xhttp: 8
   grpc: 5
 
 Топ security:
-  reality: 24
-  tls: 9
+  reality: 28
+  tls: 14
 
 ────────────────────────────────────────────────────────────────────
 📊 lte
@@ -443,126 +435,124 @@ Unknown country: 11
 Всего конфигов: 25
 Уникальных строк: 25
 Уникальных host:port: 25
-Уникальных backend: 24
-Anycast: 4
-Unknown country: 2
+Уникальных backend: 23
+Anycast: 3
+Unknown country: 0
 
 Топ стран:
+  Germany: 6
   Netherlands: 6
-  Russia: 4
-  Germany: 4
-  🌐 Anycast: 4
-  Japan: 2
-  Unknown: 2
+  Russia: 5
+  🌐 Anycast: 3
+  Lithuania: 2
+  France: 1
   Switzerland: 1
-  Poland: 1
-  United States: 1
+  Estonia: 1
 
 Топ SNI:
-  ads.x5.ru: 2
+  dostavitos.stroymatdv.cc: 2
   s3.netavex.com: 2
-  cloudflare.com: 2
+  petrovich.ru: 2
+  ads.x5.ru: 1
   accounts.fastly.com: 1
-  st682c8.rumedia-cdn.com: 1
+  community.fastly.com: 1
+  cdn-3123.spliceflowtech.com: 1
+  yandex.ru: 1
   stadb90.rumedia-cdn.com: 1
-  st6302c.rumedia-cdn.com: 1
-  dostavitos.stroymatdv.cc: 1
-  x5.ru: 1
-  www.wikipedia.org: 1
+  st89d78.rumedia-cdn.com: 1
 
 Топ портов:
-  443: 16
-  2096: 4
-  8443: 2
-  20270: 1
-  20410: 1
-  18443: 1
+  443: 15
+  8443: 5
+  2096: 3
+  993: 1
+  2053: 1
 
 Топ схем:
-  vless: 24
-  trojan: 1
+  vless: 25
 
 Топ transport:
-  tcp: 9
-  xhttp: 6
-  ws: 6
-  grpc: 4
+  ws: 8
+  xhttp: 7
+  tcp: 7
+  grpc: 3
 
 Топ security:
-  reality: 16
-  tls: 9
+  reality: 13
+  tls: 12
 
 ====================================================================
 🌍 GLOBAL SUMMARY
 ====================================================================
-Всего конфигов: 219
-Уникальных строк: 81
-Уникальных host:port: 57
-Уникальных backend: 74
-Anycast: 24
-Unknown country: 97
+Всего конфигов: 235
+Уникальных строк: 83
+Уникальных host:port: 72
+Уникальных backend: 75
+Anycast: 40
+Unknown country: 60
 
 Топ стран:
-  Unknown: 97
-  Netherlands: 26
-  Russia: 24
-  🌐 Anycast: 24
-  Germany: 18
-  Japan: 12
-  United States: 5
-  Poland: 4
-  Switzerland: 4
-  Czechia: 2
-  France: 2
-  Finland: 1
+  Unknown: 60
+  🌐 Anycast: 40
+  Netherlands: 35
+  Germany: 31
+  Russia: 30
+  Lithuania: 8
+  United States: 8
+  France: 6
+  Estonia: 4
+  Czechia: 4
+  Japan: 3
+  Finland: 3
+  Switzerland: 3
 
 Топ SNI:
-  ads.x5.ru: 10
-  cloudflare.com: 8
-  s3.netavex.com: 8
-  pl1.gursub.com: 6
-  dostavitos.stroymatdv.cc: 5
-  open.spotify.com: 5
-  assets-de2.pleiades.codes: 5
+  petrovich.ru: 11
+  dostavitos.stroymatdv.cc: 10
+  s3.netavex.com: 10
+  www.sony.com: 7
+  cloudflare.com: 6
+  secureconnect-pa.mtls.clients6.google.com: 6
+  ai.android: 6
+  yandex.ru: 4
   x5.ru: 4
-  dl.google.com: 4
+  absolute-disaster.org: 4
   msk.frkn.org: 4
-  pl.dertux.com: 4
-  github.com: 4
-  www.wikipedia.org: 4
-  ai.android: 4
-  accounts.fastly.com: 4
+  ads.x5.ru: 4
+  sw8-fe87.nodeflux-cache.cc: 4
+  xnod22x.artemida.live: 4
+  stadb90.rumedia-cdn.com: 4
 
 Топ портов:
-  443: 102
-  2096: 16
-  8443: 12
-  8444: 6
+  443: 103
+  8443: 32
+  2096: 12
+  8880: 10
+  2085: 6
+  20410: 6
   3090: 6
   2060: 6
-  9881: 4
-  20270: 4
-  18443: 4
-  20410: 4
+  993: 4
+  2053: 4
+  80: 4
   22443: 3
-  24443: 2
-  54322: 2
-  80: 2
-  2085: 2
+  48564: 3
+  40443: 3
+  18443: 3
 
 Топ схем:
-  vless: 147
-  vmess: 38
-  hysteria2: 31
-  trojan: 3
+  vless: 188
+  hysteria2: 27
+  vmess: 18
+  trojan: 2
 
 Топ transport:
-  tcp: 132
+  tcp: 117
+  ws: 51
+  xhttp: 37
   grpc: 30
-  ws: 29
-  xhttp: 28
 
 Топ security:
-  reality: 92
-  none: 84
-  tls: 43
+  reality: 100
+  none: 73
+  tls: 62
