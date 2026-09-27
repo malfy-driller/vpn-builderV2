@@ -1,5 +1,5 @@
 VPN Builder stats summary
-Generated at: 2026-09-27 21:39:46 MSK
+Generated at: 2026-09-28 00:38:11 MSK
 
 ====================================================================
 RAW GROUPS
@@ -8,166 +8,168 @@ RAW GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 94
-Уникальных строк: 94
+Всего конфигов: 119
+Уникальных строк: 118
 Уникальных host:port: 20
-Уникальных backend: 20
-Anycast: 19
-Unknown country: 17
+Уникальных backend: 19
+Anycast: 31
+Unknown country: 32
 
 Топ стран:
-  Russia: 58
-  🌐 Anycast: 19
-  Unknown: 17
+  Russia: 52
+  Unknown: 32
+  🌐 Anycast: 31
+  Germany: 4
 
 Топ SNI:
-  hh.ru: 32
-  donatov.net: 14
-  dl.google.com: 12
-  mc.yandex.tr: 4
-  s3.t2.ru: 4
-  open.spotify.com: 4
-  acru.astro-wall.online: 4
-  freevk.cryposikel.ru: 4
-  hy.quattro-tech.ru: 3
-  91.240.86.70: 3
+  donatov.net: 31
+  de-gw.videomonitor.cloud: 24
+  hh.ru: 16
+  dl.google.com: 8
+  mc.yandex.tr: 5
+  open.spotify.com: 5
+  assets-de2.pleiades.codes: 4
+  gw-fe72.strixedge.cc: 4
+  youtube.sparxiecn.com: 4
+  hy.quattro-tech.ru: 4
 
 Топ портов:
-  443: 54
-  9881: 12
-  2087: 12
+  443: 65
+  2087: 28
+  9881: 8
   22443: 8
-  41011: 4
+  8443: 4
+  24443: 2
   2086: 2
-  875: 1
-  24443: 1
 
 Топ схем:
-  vless: 79
-  hysteria2: 15
+  vless: 101
+  hysteria2: 16
+  vmess: 2
 
 Топ transport:
-  tcp: 52
-  xhttp: 22
-  grpc: 20
+  xhttp: 45
+  grpc: 40
+  tcp: 34
 
 Топ security:
-  reality: 74
-  none: 15
-  tls: 5
+  reality: 97
+  none: 16
+  tls: 6
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_vless
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 55
-Уникальных строк: 55
-Уникальных host:port: 11
+Всего конфигов: 93
+Уникальных строк: 93
+Уникальных host:port: 15
 Уникальных backend: 14
-Anycast: 18
-Unknown country: 16
+Anycast: 29
+Unknown country: 29
 
 Топ стран:
-  Russia: 21
-  🌐 Anycast: 18
-  Unknown: 16
+  Russia: 31
+  🌐 Anycast: 29
+  Unknown: 29
+  Germany: 4
 
 Топ SNI:
-  donatov.net: 14
-  dl.google.com: 12
-  mc.yandex.tr: 4
-  s3.t2.ru: 4
-  open.spotify.com: 4
-  acru.astro-wall.online: 4
-  freevk.cryposikel.ru: 4
-  msk.frkn.org: 3
+  donatov.net: 31
+  de-gw.videomonitor.cloud: 24
+  dl.google.com: 8
+  mc.yandex.tr: 5
+  open.spotify.com: 5
+  assets-de2.pleiades.codes: 4
+  gw-fe72.strixedge.cc: 4
+  youtube.sparxiecn.com: 4
   itsallproxy.quattro-tech.ru: 2
   hy.quattro-tech.ru: 2
 
 Топ портов:
-  443: 33
-  9881: 12
-  41011: 4
+  443: 51
+  2087: 24
+  9881: 8
+  8443: 4
   22443: 4
-  875: 1
   2086: 1
 
 Топ схем:
-  vless: 47
-  hysteria2: 8
+  vless: 85
+  hysteria2: 7
+  vmess: 1
 
 Топ transport:
-  xhttp: 22
-  tcp: 17
-  grpc: 16
+  xhttp: 45
+  grpc: 36
+  tcp: 12
 
 Топ security:
-  reality: 42
-  none: 8
-  tls: 5
+  reality: 81
+  tls: 6
+  none: 6
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW black_all
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 314
-Уникальных строк: 226
-Уникальных host:port: 63
-Уникальных backend: 71
-Anycast: 41
-Unknown country: 150
+Всего конфигов: 322
+Уникальных строк: 254
+Уникальных host:port: 68
+Уникальных backend: 67
+Anycast: 72
+Unknown country: 94
 
 Топ стран:
-  Unknown: 150
-  🌐 Anycast: 41
-  Germany: 38
-  Netherlands: 28
-  United States: 14
-  Austria: 10
-  Poland: 8
-  Estonia: 5
-  Finland: 5
-  Lithuania: 5
+  Unknown: 94
+  🌐 Anycast: 72
+  Netherlands: 38
+  Switzerland: 29
+  Germany: 23
+  Lithuania: 16
+  Czechia: 10
+  United States: 10
+  Finland: 8
+  Kazakhstan: 6
 
 Топ SNI:
-  accounts.fastly.com: 15
-  www.sony.com: 14
-  cdn.steamstatic.com: 14
-  www.hp.com: 13
-  community.fastly.com: 12
-  hub-mori-new.failspace.top: 11
-  atatat.failspace.top: 10
+  s3.netavex.com: 42
+  Qr.fastly.com: 22
+  community.fastly.com: 13
+  accounts.fastly.com: 12
+  bababoy.karp1pdd.life: 11
+  nl-dedic-mori-4.failspace.top: 11
   www.google.com: 10
-  nl-dedic-mori-4.failspace.top: 10
-  deport.ptlux.pro: 8
+  amazon.de: 9
+  www.cloudflare.com: 8
+  assets-ed0e.qorecache.cc: 8
 
 Топ портов:
-  443: 187
-  8443: 47
-  80: 10
+  443: 158
+  8443: 94
+  3090: 20
   2060: 9
-  2095: 6
+  2052: 6
+  8090: 6
   2087: 5
-  31913: 5
-  2018: 5
-  8090: 5
-  2083: 4
+  2085: 4
+  2018: 4
+  42411: 4
 
 Топ схем:
-  vless: 249
-  hysteria2: 34
-  vmess: 20
-  trojan: 11
+  vless: 270
+  hysteria2: 38
+  trojan: 12
+  vmess: 2
 
 Топ transport:
-  tcp: 191
-  xhttp: 86
-  grpc: 21
-  ws: 16
+  tcp: 148
+  xhttp: 131
+  grpc: 31
+  ws: 12
 
 Топ security:
-  reality: 157
-  tls: 86
-  none: 67
-  false: 4
+  reality: 170
+  tls: 82
+  none: 70
 
 ====================================================================
 FINAL GROUPS
@@ -178,46 +180,47 @@ FINAL GROUPS
 ────────────────────────────────────────────────────────────────────
 Всего конфигов: 20
 Уникальных строк: 20
-Уникальных host:port: 20
+Уникальных host:port: 19
 Уникальных backend: 15
-Anycast: 3
-Unknown country: 5
+Anycast: 5
+Unknown country: 7
 
 Топ стран:
-  Russia: 12
-  Unknown: 5
-  🌐 Anycast: 3
+  Russia: 7
+  Unknown: 7
+  🌐 Anycast: 5
+  Germany: 1
 
 Топ SNI:
-  hh.ru: 7
-  donatov.net: 1
+  de-gw.videomonitor.cloud: 4
+  hh.ru: 3
+  gw-fe72.strixedge.cc: 1
   mc.yandex.tr: 1
-  s3.t2.ru: 1
-  dl.google.com: 1
-  31.130.149.165: 1
-  acru.astro-wall.online: 1
   open.spotify.com: 1
-  freevk.cryposikel.ru: 1
-  tcp-reset-club.net: 1
+  youtube.sparxiecn.com: 1
+  donatov.net: 1
+  dl.google.com: 1
+  assets-de2.pleiades.codes: 1
+  vpn.ai-boost.tech: 1
 
 Топ портов:
-  443: 11
-  2087: 3
-  41011: 1
+  443: 9
+  2087: 5
+  8443: 1
   9881: 1
-  875: 1
-  22443: 1
   2086: 1
   24443: 1
+  22443: 1
 
 Топ схем:
-  vless: 15
+  vless: 14
   hysteria2: 5
+  vmess: 1
 
 Топ transport:
-  tcp: 14
-  xhttp: 3
-  grpc: 3
+  tcp: 9
+  grpc: 7
+  xhttp: 4
 
 Топ security:
   reality: 13
@@ -227,236 +230,234 @@ Unknown country: 5
 ────────────────────────────────────────────────────────────────────
 📊 white_vless
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 11
-Уникальных строк: 11
-Уникальных host:port: 11
-Уникальных backend: 11
-Anycast: 3
-Unknown country: 4
+Всего конфигов: 15
+Уникальных строк: 15
+Уникальных host:port: 14
+Уникальных backend: 12
+Anycast: 5
+Unknown country: 6
 
 Топ стран:
-  Russia: 4
-  Unknown: 4
-  🌐 Anycast: 3
+  Unknown: 6
+  🌐 Anycast: 5
+  Russia: 3
+  Germany: 1
 
 Топ SNI:
-  acru.astro-wall.online: 1
+  de-gw.videomonitor.cloud: 4
   mc.yandex.tr: 1
   open.spotify.com: 1
+  youtube.sparxiecn.com: 1
   donatov.net: 1
-  freevk.cryposikel.ru: 1
   dl.google.com: 1
-  s3.t2.ru: 1
-  31.130.149.165: 1
-  vpn.ai-boost.tech: 1
+  assets-de2.pleiades.codes: 1
+  gw-fe72.strixedge.cc: 1
   msk.frkn.org: 1
+  eyj2ijoimiisinbzijoi8j+ht: 1
 
 Топ портов:
   443: 6
+  2087: 4
   9881: 1
-  41011: 1
-  875: 1
-  2086: 1
+  8443: 1
   22443: 1
+  2086: 1
 
 Топ схем:
-  vless: 8
+  vless: 11
   hysteria2: 3
+  vmess: 1
 
 Топ transport:
-  tcp: 6
-  xhttp: 3
-  grpc: 2
+  grpc: 6
+  tcp: 5
+  xhttp: 4
 
 Топ security:
-  reality: 6
+  reality: 10
   none: 4
   tls: 1
 
 ────────────────────────────────────────────────────────────────────
 📊 black_all
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 75
-Уникальных строк: 75
-Уникальных host:port: 63
-Уникальных backend: 68
-Anycast: 10
-Unknown country: 41
+Всего конфигов: 69
+Уникальных строк: 69
+Уникальных host:port: 68
+Уникальных backend: 65
+Anycast: 13
+Unknown country: 27
 
 Топ стран:
-  Unknown: 41
-  🌐 Anycast: 10
+  Unknown: 27
+  🌐 Anycast: 13
   Netherlands: 5
   United States: 5
-  Germany: 4
-  Austria: 2
-  Poland: 2
+  Czechia: 5
+  Lithuania: 3
+  Russia: 2
+  Germany: 2
   Finland: 1
-  Estonia: 1
-  Lithuania: 1
+  Austria: 1
 
 Топ SNI:
-  www.bing.com: 3
-  museai.sofurry.dpdns.org: 3
-  www.sony.com: 2
   nl-dedic-mori-4.failspace.top: 2
-  atatat.failspace.top: 2
-  hub-mori-new.failspace.top: 2
+  s3.netavex.com: 2
   www.google.com: 2
+  www.bing.com: 2
+  lt-z513.nodeflux-cache.cc: 1
   assets-ed0e.qorecache.cc: 1
-  ee2.responsiblecare.uk: 1
-  relay-3c61.strixedge.cc: 1
+  gw-fe72.strixedge.cc: 1
+  Qr.fastly.com: 1
+  atatat.failspace.top: 1
+  sg-proxy.local: 1
 
 Топ портов:
-  443: 32
-  8443: 9
+  443: 25
+  8443: 13
+  3090: 10
   2060: 5
-  2095: 3
-  80: 2
-  2083: 2
+  2085: 2
+  2052: 2
   2056: 2
-  2087: 1
   8090: 1
-  54322: 1
+  80: 1
+  2087: 1
 
 Топ схем:
-  vless: 44
-  hysteria2: 17
-  vmess: 12
+  vless: 46
+  hysteria2: 20
   trojan: 2
+  vmess: 1
 
 Топ transport:
-  tcp: 55
-  xhttp: 10
-  ws: 6
-  grpc: 4
+  tcp: 39
+  grpc: 14
+  xhttp: 13
+  ws: 3
 
 Топ security:
-  none: 36
+  none: 35
   reality: 24
-  tls: 14
-  false: 1
+  tls: 10
 
 ────────────────────────────────────────────────────────────────────
 📊 pool
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 89
-Уникальных строк: 89
-Уникальных host:port: 76
-Уникальных backend: 79
-Anycast: 11
-Unknown country: 46
+Всего конфигов: 83
+Уникальных строк: 83
+Уникальных host:port: 80
+Уникальных backend: 76
+Anycast: 15
+Unknown country: 34
 
 Топ стран:
-  Unknown: 46
-  🌐 Anycast: 11
-  Russia: 9
-  United States: 5
+  Unknown: 34
+  🌐 Anycast: 15
+  Russia: 6
+  Czechia: 5
   Netherlands: 5
-  Germany: 4
-  Austria: 2
-  Poland: 2
-  Finland: 1
-  Estonia: 1
+  United States: 5
+  Germany: 3
+  Lithuania: 3
+  Switzerland: 1
+  Poland: 1
 
 Топ SNI:
-  hh.ru: 4
-  www.bing.com: 3
-  museai.sofurry.dpdns.org: 3
+  hh.ru: 3
+  de-gw.videomonitor.cloud: 2
   tcp-reset-club.net: 2
-  hub-mori-new.failspace.top: 2
-  www.sony.com: 2
-  atatat.failspace.top: 2
   www.google.com: 2
+  s3.netavex.com: 2
   nl-dedic-mori-4.failspace.top: 2
-  donatov.net: 1
+  www.bing.com: 2
+  eyj2ijoimiisinbzijoi8j+ht: 1
+  assets-de2.pleiades.codes: 1
+  open.spotify.com: 1
 
 Топ портов:
-  443: 40
-  8443: 9
+  443: 33
+  8443: 13
+  3090: 10
   2060: 5
   2087: 3
-  2095: 3
-  2083: 2
   2056: 2
-  80: 2
-  2086: 1
+  2052: 2
+  2085: 2
   24443: 1
+  9881: 1
 
 Топ схем:
-  vless: 55
-  hysteria2: 20
-  vmess: 12
+  vless: 56
+  hysteria2: 23
+  vmess: 2
   trojan: 2
 
 Топ transport:
-  tcp: 63
-  xhttp: 13
-  grpc: 7
-  ws: 6
+  tcp: 46
+  grpc: 18
+  xhttp: 16
+  ws: 3
 
 Топ security:
   none: 39
-  reality: 34
-  tls: 15
-  false: 1
+  reality: 33
+  tls: 11
 
 ────────────────────────────────────────────────────────────────────
 📊 mixed
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 46
-Уникальных строк: 46
-Уникальных host:port: 46
-Уникальных backend: 40
+Всего конфигов: 41
+Уникальных строк: 41
+Уникальных host:port: 41
+Уникальных backend: 36
 Anycast: 8
-Unknown country: 19
+Unknown country: 16
 
 Топ стран:
-  Unknown: 19
+  Unknown: 16
   🌐 Anycast: 8
-  Russia: 6
-  Germany: 4
+  Russia: 4
+  Germany: 3
   Netherlands: 3
-  Austria: 2
-  Estonia: 1
+  Lithuania: 3
+  Austria: 1
   Poland: 1
+  Switzerland: 1
   Finland: 1
-  Lithuania: 1
 
 Топ SNI:
-  hh.ru: 4
-  nl-dedic-mori-4.failspace.top: 2
-  www.sony.com: 2
-  hub-mori-new.failspace.top: 2
+  hh.ru: 3
+  de-gw.videomonitor.cloud: 2
   www.google.com: 2
-  atatat.failspace.top: 2
-  acru.astro-wall.online: 1
-  donatov.net: 1
-  s3.t2.ru: 1
-  freevk.cryposikel.ru: 1
+  nl-dedic-mori-4.failspace.top: 2
+  s3.netavex.com: 2
+  dl.google.com: 1
+  assets-de2.pleiades.codes: 1
+  mc.yandex.tr: 1
+  gw-fe72.strixedge.cc: 1
+  youtube.sparxiecn.com: 1
 
 Топ портов:
-  443: 32
-  8443: 6
+  443: 25
+  8443: 10
   2087: 3
-  41011: 1
   9881: 1
-  31913: 1
-  80: 1
   2018: 1
+  42411: 1
 
 Топ схем:
-  vless: 46
+  vless: 41
 
 Топ transport:
-  tcp: 27
-  xhttp: 13
+  tcp: 19
+  xhttp: 16
   grpc: 5
   ws: 1
 
 Топ security:
-  reality: 33
-  tls: 13
+  reality: 32
+  tls: 9
 
 ────────────────────────────────────────────────────────────────────
 📊 lte
@@ -466,126 +467,125 @@ Unknown country: 19
 Уникальных host:port: 25
 Уникальных backend: 22
 Anycast: 6
-Unknown country: 1
+Unknown country: 4
 
 Топ стран:
   🌐 Anycast: 6
-  Germany: 4
-  Russia: 4
+  Unknown: 4
+  Germany: 3
   Netherlands: 3
-  Austria: 2
+  Lithuania: 3
+  Russia: 2
   Finland: 1
-  Lithuania: 1
-  Poland: 1
-  Estonia: 1
-  Unknown: 1
+  Switzerland: 1
+  Austria: 1
+  United States: 1
 
 Топ SNI:
-  hh.ru: 3
-  atatat.failspace.top: 2
-  nl-dedic-mori-4.failspace.top: 2
-  www.sony.com: 2
-  accounts.fastly.com: 1
+  s3.netavex.com: 2
+  de-gw.videomonitor.cloud: 2
+  www.google.com: 2
+  Qr.fastly.com: 1
   community.fastly.com: 1
-  deport.ptlux.pro: 1
+  accounts.fastly.com: 1
   assets-ed0e.qorecache.cc: 1
+  lt-z513.nodeflux-cache.cc: 1
+  sw8-fe87.nodeflux-cache.cc: 1
   relay-3c61.strixedge.cc: 1
-  ccc.010304.xyz: 1
 
 Топ портов:
-  443: 16
-  8443: 4
-  2087: 3
-  31913: 1
-  41011: 1
+  443: 13
+  8443: 10
+  2087: 2
 
 Топ схем:
   vless: 24
   trojan: 1
 
 Топ transport:
-  tcp: 14
-  xhttp: 8
-  grpc: 2
+  xhttp: 14
+  tcp: 7
+  grpc: 3
   ws: 1
 
 Топ security:
-  reality: 14
-  tls: 11
+  reality: 17
+  tls: 8
 
 ====================================================================
 🌍 GLOBAL SUMMARY
 ====================================================================
-Всего конфигов: 266
-Уникальных строк: 96
-Уникальных host:port: 79
-Уникальных backend: 79
-Anycast: 41
-Unknown country: 116
+Всего конфигов: 253
+Уникальных строк: 91
+Уникальных host:port: 83
+Уникальных backend: 76
+Anycast: 52
+Unknown country: 94
 
 Топ стран:
-  Unknown: 116
-  🌐 Anycast: 41
-  Russia: 36
-  Germany: 16
+  Unknown: 94
+  🌐 Anycast: 52
+  Russia: 24
   Netherlands: 16
+  Germany: 13
+  Lithuania: 12
   United States: 11
-  Austria: 8
-  Poland: 6
+  Czechia: 10
   Finland: 4
-  Estonia: 4
-  Lithuania: 4
+  Austria: 4
+  Switzerland: 4
+  Poland: 3
   Kazakhstan: 2
+  Japan: 2
   France: 2
 
 Топ SNI:
-  hh.ru: 18
-  www.sony.com: 8
-  nl-dedic-mori-4.failspace.top: 8
-  atatat.failspace.top: 8
-  www.bing.com: 7
-  www.google.com: 7
-  hub-mori-new.failspace.top: 6
-  museai.sofurry.dpdns.org: 6
-  s3.t2.ru: 5
-  freevk.cryposikel.ru: 5
+  de-gw.videomonitor.cloud: 14
+  hh.ru: 10
+  s3.netavex.com: 8
+  www.google.com: 8
+  nl-dedic-mori-4.failspace.top: 7
+  gw-fe72.strixedge.cc: 6
+  mc.yandex.tr: 5
+  open.spotify.com: 5
+  assets-de2.pleiades.codes: 5
+  youtube.sparxiecn.com: 4
   donatov.net: 4
-  mc.yandex.tr: 4
   dl.google.com: 4
-  31.130.149.165: 4
-  acru.astro-wall.online: 4
+  vpn.ai-boost.tech: 4
+  msk.frkn.org: 4
+  tcp-reset-club.net: 4
 
 Топ портов:
-  443: 137
-  8443: 28
-  2087: 13
+  443: 111
+  8443: 48
+  3090: 20
+  2087: 18
   2060: 10
-  2095: 6
-  41011: 5
-  80: 5
   9881: 4
-  875: 4
   2086: 4
-  2083: 4
-  31913: 4
+  2085: 4
+  2052: 4
   2056: 4
   22443: 3
   2018: 3
+  42411: 3
+  24443: 2
+  8090: 2
 
 Топ схем:
   vless: 192
-  hysteria2: 45
-  vmess: 24
+  hysteria2: 51
+  vmess: 5
   trojan: 5
 
 Топ transport:
-  tcp: 179
-  xhttp: 50
-  grpc: 23
-  ws: 14
+  tcp: 125
+  xhttp: 67
+  grpc: 53
+  ws: 8
 
 Топ security:
-  reality: 124
-  none: 85
-  tls: 55
-  false: 2
+  reality: 129
+  none: 84
+  tls: 40
