@@ -1,5 +1,5 @@
 VPN Builder stats summary
-Generated at: 2026-10-02 18:00:35 MSK
+Generated at: 2026-10-02 22:59:09 MSK
 
 ====================================================================
 RAW GROUPS
@@ -8,172 +8,175 @@ RAW GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 73
-Уникальных строк: 69
-Уникальных host:port: 17
-Уникальных backend: 18
-Anycast: 11
-Unknown country: 18
+Всего конфигов: 125
+Уникальных строк: 125
+Уникальных host:port: 28
+Уникальных backend: 23
+Anycast: 14
+Unknown country: 43
 
 Топ стран:
-  Unknown: 18
-  🌐 Anycast: 11
-  Austria: 9
-  Russia: 9
-  Bulgaria: 8
-  Switzerland: 8
-  Poland: 5
+  Unknown: 43
+  Germany: 16
+  Lithuania: 16
+  Russia: 15
+  🌐 Anycast: 14
+  Austria: 8
+  Poland: 8
   Czechia: 4
-  Germany: 1
+  Finland: 1
 
 Топ SNI:
-  dl.google.com: 34
-  37.139.42.225: 8
+  dl.google.com: 69
+  api.setevoyprostor.cc: 16
   ads.x5.ru: 8
-  188.225.25.22: 4
+  eh.vk.ru: 4
+  open.spotify.com: 4
+  reels.frkn.org: 4
+  ru-svo-1.blook.network: 4
   hy.quattro-tech.ru: 4
-  vk.com: 4
   91.240.86.70: 3
-  itsallproxy.quattro-tech.ru: 2
-  msk.frkn.org: 2
-  filecache.ru: 1
+  176.114.86.163: 2
 
 Топ портов:
-  9830: 9
-  8444: 9
-  7448: 8
-  9882: 8
+  9881: 37
+  443: 30
+  9830: 12
+  8444: 8
+  9873: 8
   22443: 8
-  443: 6
-  9892: 5
   9891: 4
-  9881: 4
+  9892: 4
   9872: 4
+  8443: 4
 
 Топ схем:
-  vless: 58
-  hysteria2: 15
+  vless: 112
+  hysteria2: 13
 
 Топ transport:
-  grpc: 42
-  tcp: 31
+  grpc: 84
+  tcp: 33
+  xhttp: 8
 
 Топ security:
-  reality: 58
-  none: 13
-  tls: 2
+  reality: 105
+  none: 15
+  tls: 5
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_vless
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 56
-Уникальных строк: 56
-Уникальных host:port: 14
-Уникальных backend: 14
-Anycast: 5
-Unknown country: 12
+Всего конфигов: 116
+Уникальных строк: 116
+Уникальных host:port: 26
+Уникальных backend: 20
+Anycast: 14
+Unknown country: 41
 
 Топ стран:
-  Unknown: 12
-  Austria: 9
-  Bulgaria: 8
-  Switzerland: 8
-  Poland: 5
-  🌐 Anycast: 5
+  Unknown: 41
+  Germany: 16
+  Lithuania: 16
+  🌐 Anycast: 14
+  Russia: 9
+  Austria: 8
+  Poland: 8
   Czechia: 4
-  Russia: 4
-  Germany: 1
 
 Топ SNI:
-  dl.google.com: 34
+  dl.google.com: 69
+  api.setevoyprostor.cc: 16
   ads.x5.ru: 8
-  37.139.42.225: 4
-  188.225.25.22: 4
+  eh.vk.ru: 4
+  open.spotify.com: 4
+  reels.frkn.org: 4
+  ru-svo-1.blook.network: 4
+  176.114.86.163: 2
   itsallproxy.quattro-tech.ru: 2
-  filecache.ru: 1
-  hy.quattro-tech.ru: 1
-  ekb.th3web.com: 1
-  msk.frkn.org: 1
+  176.114.86.222: 1
 
 Топ портов:
-  9830: 9
-  8444: 9
-  9882: 8
-  9892: 5
-  443: 5
-  7448: 4
+  9881: 37
+  443: 29
+  9830: 12
+  8444: 8
+  9873: 8
   9891: 4
-  9881: 4
+  9892: 4
   9872: 4
+  8443: 4
   22443: 3
 
 Топ схем:
-  vless: 50
-  hysteria2: 6
+  vless: 112
+  hysteria2: 4
 
 Топ transport:
-  grpc: 42
-  tcp: 14
+  grpc: 84
+  tcp: 24
+  xhttp: 8
 
 Топ security:
-  reality: 50
-  none: 5
-  tls: 1
+  reality: 105
+  none: 6
+  tls: 5
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW black_all
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 130
-Уникальных строк: 79
+Всего конфигов: 183
+Уникальных строк: 112
 Уникальных host:port: 19
-Уникальных backend: 19
-Anycast: 36
-Unknown country: 80
+Уникальных backend: 36
+Anycast: 21
+Unknown country: 124
 
 Топ стран:
-  Unknown: 80
-  🌐 Anycast: 36
-  Estonia: 12
+  Unknown: 124
+  🌐 Anycast: 21
+  Finland: 12
+  Germany: 12
+  Poland: 12
   United States: 1
   Russia: 1
 
 Топ SNI:
-  www.cloudflare.com: 24
-  s3-fi-1.rucdn777.com: 24
-  www.samsung.com: 12
-  de1.meshbeat.online: 12
-  buylite.music.apple.com: 12
-  n48.himoy.space: 12
+  www.cloudflare.com: 60
   www.wikipedia.org: 12
-  www.bing.com: 5
-  play.google.com: 4
-  msjsi.azazilvpn.sbs.: 2
+  example.org: 12
+  accounts.fastly.com: 12
+  buylite.music.apple.com: 12
+  dl.google.com: 12
+  n48.himoy.space: 12
+  kaneki.cfd: 12
+  www.bing.com: 3
+  msk.frkn.org: 3
 
 Топ портов:
-  443: 75
-  25895: 12
-  8444: 12
+  443: 112
   32134: 12
-  8080: 4
+  9881: 12
+  8443: 12
   2377: 4
-  80: 2
-  50160: 2
   55000: 2
-  20000: 1
+  35013: 1
+  2060: 1
 
 Топ схем:
-  vless: 114
-  hysteria2: 10
+  vless: 144
+  vmess: 27
+  hysteria2: 8
   ss: 4
-  vmess: 2
 
 Топ transport:
-  tcp: 112
-  ws: 18
+  tcp: 159
+  xhttp: 12
+  grpc: 12
 
 Топ security:
-  reality: 96
-  none: 22
+  reality: 132
+  none: 39
   tls: 12
 
 ====================================================================
@@ -183,417 +186,420 @@ FINAL GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 17
-Уникальных строк: 17
-Уникальных host:port: 17
-Уникальных backend: 15
+Всего конфигов: 28
+Уникальных строк: 28
+Уникальных host:port: 28
+Уникальных backend: 20
 Anycast: 4
-Unknown country: 4
+Unknown country: 10
 
 Топ стран:
+  Unknown: 10
+  Germany: 4
   🌐 Anycast: 4
-  Unknown: 4
-  Bulgaria: 2
-  Russia: 2
-  Switzerland: 1
+  Russia: 4
+  Poland: 2
   Czechia: 1
+  Lithuania: 1
   Austria: 1
-  Poland: 1
-  Germany: 1
+  Finland: 1
 
 Топ SNI:
-  dl.google.com: 6
+  dl.google.com: 11
+  api.setevoyprostor.cc: 4
   ads.x5.ru: 2
-  vk.com: 1
-  188.225.25.22: 1
-  37.139.42.225: 1
-  filecache.ru: 1
-  ekb.th3web.com: 1
-  els.mangshe.xyz: 1
-  91.240.86.70: 1
-  msk.frkn.org: 1
+  176.114.86.163: 2
+  eh.vk.ru: 1
+  ru-svo-1.blook.network: 1
+  reels.frkn.org: 1
+  176.114.86.222: 1
+  open.spotify.com: 1
+  https://x5media.ru: 1
 
 Топ портов:
-  8444: 3
-  443: 2
-  4443: 1
-  9882: 1
+  443: 8
+  9881: 5
+  8444: 2
+  9830: 2
+  8081: 2
   9891: 1
-  9830: 1
+  8443: 1
   9892: 1
-  7448: 1
+  9873: 1
   9872: 1
-  9881: 1
 
 Топ схем:
-  vless: 11
-  hysteria2: 6
+  vless: 24
+  hysteria2: 4
 
 Топ transport:
+  grpc: 17
   tcp: 9
-  grpc: 8
+  xhttp: 2
 
 Топ security:
-  reality: 11
-  none: 5
+  reality: 20
+  none: 7
   tls: 1
 
 ────────────────────────────────────────────────────────────────────
 📊 white_vless
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 14
-Уникальных строк: 14
-Уникальных host:port: 14
-Уникальных backend: 12
-Anycast: 2
-Unknown country: 3
-
-Топ стран:
-  Unknown: 3
-  Bulgaria: 2
-  🌐 Anycast: 2
-  Russia: 2
-  Austria: 1
-  Poland: 1
-  Switzerland: 1
-  Czechia: 1
-  Germany: 1
-
-Топ SNI:
-  dl.google.com: 6
-  ads.x5.ru: 2
-  188.225.25.22: 1
-  37.139.42.225: 1
-  filecache.ru: 1
-  hy.quattro-tech.ru: 1
-  msk.frkn.org: 1
-  ekb.th3web.com: 1
-
-Топ портов:
-  8444: 3
-  443: 2
-  9830: 1
-  9892: 1
-  9882: 1
-  9891: 1
-  7448: 1
-  9881: 1
-  9872: 1
-  9443: 1
-
-Топ схем:
-  vless: 10
-  hysteria2: 4
-
-Топ transport:
-  grpc: 8
-  tcp: 6
-
-Топ security:
-  reality: 10
-  none: 3
-  tls: 1
-
-────────────────────────────────────────────────────────────────────
-📊 black_all
-────────────────────────────────────────────────────────────────────
-Всего конфигов: 20
-Уникальных строк: 20
-Уникальных host:port: 19
+Всего конфигов: 26
+Уникальных строк: 26
+Уникальных host:port: 26
 Уникальных backend: 18
-Anycast: 8
+Anycast: 4
 Unknown country: 9
 
 Топ стран:
   Unknown: 9
-  🌐 Anycast: 8
-  Estonia: 1
+  Germany: 4
+  Russia: 4
+  🌐 Anycast: 4
+  Poland: 2
+  Czechia: 1
+  Lithuania: 1
+  Austria: 1
+
+Топ SNI:
+  dl.google.com: 11
+  api.setevoyprostor.cc: 4
+  ads.x5.ru: 2
+  176.114.86.163: 2
+  eh.vk.ru: 1
+  reels.frkn.org: 1
+  ru-svo-1.blook.network: 1
+  176.114.86.222: 1
+  open.spotify.com: 1
+  msk.frkn.org: 1
+
+Топ портов:
+  443: 8
+  9881: 5
+  8444: 2
+  9830: 2
+  8081: 2
+  8443: 1
+  9891: 1
+  9892: 1
+  9872: 1
+  9873: 1
+
+Топ схем:
+  vless: 24
+  hysteria2: 2
+
+Топ transport:
+  grpc: 17
+  tcp: 7
+  xhttp: 2
+
+Топ security:
+  reality: 20
+  none: 4
+  tls: 2
+
+────────────────────────────────────────────────────────────────────
+📊 black_all
+────────────────────────────────────────────────────────────────────
+Всего конфигов: 37
+Уникальных строк: 37
+Уникальных host:port: 19
+Уникальных backend: 36
+Anycast: 5
+Unknown country: 27
+
+Топ стран:
+  Unknown: 27
+  🌐 Anycast: 5
+  Germany: 1
+  Finland: 1
+  Poland: 1
   United States: 1
   Russia: 1
 
 Топ SNI:
-  www.bing.com: 3
-  www.cloudflare.com: 2
-  www.samsung.com: 1
-  de1.meshbeat.online: 1
+  www.cloudflare.com: 5
+  www.bing.com: 2
+  accounts.fastly.com: 1
+  example.org: 1
   n48.himoy.space: 1
+  kaneki.cfd: 1
+  dl.google.com: 1
   www.wikipedia.org: 1
-  msjsi.azazilvpn.sbs.: 1
   buylite.music.apple.com: 1
-  134.195.101.117: 1
   134.195.101.118: 1
 
 Топ портов:
-  443: 7
+  443: 11
   2377: 2
-  25895: 1
-  8444: 1
+  8443: 1
+  9881: 1
   35013: 1
-  80: 1
   32134: 1
-  8080: 1
+  55000: 1
   2060: 1
-  50160: 1
 
 Топ схем:
-  vless: 10
-  hysteria2: 7
+  vmess: 18
+  vless: 12
+  hysteria2: 5
   ss: 2
-  vmess: 1
 
 Топ transport:
-  tcp: 17
-  ws: 3
+  tcp: 35
+  xhttp: 1
+  grpc: 1
 
 Топ security:
-  none: 12
-  reality: 7
+  none: 25
+  reality: 11
   tls: 1
 
 ────────────────────────────────────────────────────────────────────
 📊 pool
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 34
-Уникальных строк: 34
-Уникальных host:port: 33
-Уникальных backend: 31
-Anycast: 10
-Unknown country: 13
+Всего конфигов: 62
+Уникальных строк: 62
+Уникальных host:port: 44
+Уникальных backend: 55
+Anycast: 9
+Unknown country: 37
 
 Топ стран:
-  Unknown: 13
-  🌐 Anycast: 10
-  Russia: 2
-  Bulgaria: 2
+  Unknown: 37
+  🌐 Anycast: 9
+  Russia: 4
+  Germany: 3
+  Poland: 3
+  Finland: 2
   Austria: 1
-  Switzerland: 1
-  Germany: 1
-  Poland: 1
+  Lithuania: 1
   Czechia: 1
-  Estonia: 1
+  United States: 1
 
 Топ SNI:
-  dl.google.com: 6
+  dl.google.com: 12
+  www.cloudflare.com: 5
+  api.setevoyprostor.cc: 2
   ads.x5.ru: 2
+  176.114.86.163: 2
   www.bing.com: 2
-  www.cloudflare.com: 2
+  open.spotify.com: 1
+  176.114.86.222: 1
   91.240.86.70: 1
-  37.139.42.225: 1
-  els.mangshe.xyz: 1
-  ekb.th3web.com: 1
-  vk.com: 1
-  filecache.ru: 1
+  eh.vk.ru: 1
 
 Топ портов:
-  443: 8
-  8444: 4
+  443: 16
+  9881: 6
+  9830: 2
+  8444: 2
+  8081: 2
+  8443: 2
   2377: 2
+  9891: 1
   22443: 1
-  9881: 1
-  7448: 1
-  9830: 1
-  2060: 1
-  9882: 1
-  4443: 1
+  26532: 1
 
 Топ схем:
-  vless: 21
-  hysteria2: 10
+  vless: 34
+  vmess: 18
+  hysteria2: 8
   ss: 2
-  vmess: 1
 
 Топ transport:
-  tcp: 23
-  grpc: 8
-  ws: 3
+  tcp: 41
+  grpc: 18
+  xhttp: 3
 
 Топ security:
-  reality: 18
-  none: 14
+  none: 31
+  reality: 29
   tls: 2
 
 ────────────────────────────────────────────────────────────────────
 📊 mixed
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 19
-Уникальных строк: 19
-Уникальных host:port: 19
-Уникальных backend: 17
-Anycast: 4
-Unknown country: 8
+Всего конфигов: 31
+Уникальных строк: 31
+Уникальных host:port: 31
+Уникальных backend: 26
+Anycast: 3
+Unknown country: 17
 
 Топ стран:
-  Unknown: 8
-  🌐 Anycast: 4
-  Bulgaria: 2
-  Austria: 1
-  Switzerland: 1
-  Poland: 1
+  Unknown: 17
+  Poland: 3
+  Germany: 3
+  🌐 Anycast: 3
+  Russia: 1
+  Lithuania: 1
   Czechia: 1
-  Estonia: 1
+  Austria: 1
+  Finland: 1
 
 Топ SNI:
-  dl.google.com: 6
+  dl.google.com: 12
+  www.cloudflare.com: 5
   ads.x5.ru: 2
-  www.cloudflare.com: 2
-  37.139.42.225: 1
-  vk.com: 1
-  188.225.25.22: 1
-  s3-fi-1.rucdn777.com: 1
-  de1.meshbeat.online: 1
+  api.setevoyprostor.cc: 2
+  eh.vk.ru: 1
+  reels.frkn.org: 1
+  open.spotify.com: 1
+  ru-svo-1.blook.network: 1
+  kaneki.cfd: 1
   n48.himoy.space: 1
-  buylite.music.apple.com: 1
 
 Топ портов:
-  443: 6
-  8444: 3
-  9830: 1
-  9872: 1
-  7448: 1
-  9882: 1
+  443: 14
+  9881: 6
+  8443: 2
+  8444: 2
+  9830: 2
   9892: 1
-  4443: 1
-  9881: 1
+  9872: 1
   9891: 1
+  9873: 1
+  32134: 1
 
 Топ схем:
-  vless: 19
+  vless: 31
 
 Топ transport:
-  tcp: 10
-  grpc: 8
-  ws: 1
+  grpc: 15
+  tcp: 13
+  xhttp: 3
 
 Топ security:
-  reality: 18
-  tls: 1
+  reality: 29
+  tls: 2
 
 ────────────────────────────────────────────────────────────────────
 📊 lte
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 20
-Уникальных строк: 20
-Уникальных host:port: 20
-Уникальных backend: 18
-Anycast: 5
-Unknown country: 8
+Всего конфигов: 25
+Уникальных строк: 25
+Уникальных host:port: 25
+Уникальных backend: 20
+Anycast: 2
+Unknown country: 12
 
 Топ стран:
-  Unknown: 8
-  🌐 Anycast: 5
-  Bulgaria: 2
+  Unknown: 12
+  Germany: 3
+  Poland: 3
+  🌐 Anycast: 2
   Austria: 1
-  Poland: 1
+  Lithuania: 1
   Czechia: 1
-  Switzerland: 1
-  Estonia: 1
+  Finland: 1
+  Russia: 1
 
 Топ SNI:
-  dl.google.com: 6
-  ads.x5.ru: 2
+  dl.google.com: 12
+  api.setevoyprostor.cc: 2
   www.cloudflare.com: 2
-  vk.com: 1
-  de1.meshbeat.online: 1
-  www.samsung.com: 1
-  188.225.25.22: 1
+  ads.x5.ru: 2
+  accounts.fastly.com: 1
+  ru-svo-1.blook.network: 1
+  eh.vk.ru: 1
+  example.org: 1
+  reels.frkn.org: 1
   www.wikipedia.org: 1
-  n48.himoy.space: 1
-  s3-fi-1.rucdn777.com: 1
 
 Топ портов:
-  443: 6
-  8444: 3
-  4443: 1
-  9830: 1
+  443: 10
+  9881: 6
+  9830: 2
+  8444: 2
   9892: 1
   9891: 1
-  9882: 1
-  25895: 1
-  9881: 1
+  9873: 1
+  8443: 1
   9872: 1
 
 Топ схем:
-  vless: 19
-  hysteria2: 1
+  vless: 25
 
 Топ transport:
-  tcp: 11
-  grpc: 8
-  ws: 1
+  grpc: 15
+  tcp: 8
+  xhttp: 2
 
 Топ security:
-  reality: 18
+  reality: 23
   tls: 2
 
 ====================================================================
 🌍 GLOBAL SUMMARY
 ====================================================================
-Всего конфигов: 124
-Уникальных строк: 40
-Уникальных host:port: 34
-Уникальных backend: 31
-Anycast: 33
-Unknown country: 45
+Всего конфигов: 209
+Уникальных строк: 71
+Уникальных host:port: 46
+Уникальных backend: 55
+Anycast: 27
+Unknown country: 112
 
 Топ стран:
-  Unknown: 45
-  🌐 Anycast: 33
-  Bulgaria: 10
-  Russia: 7
-  Switzerland: 5
+  Unknown: 112
+  🌐 Anycast: 27
+  Germany: 18
+  Russia: 15
+  Poland: 14
+  Finland: 6
   Czechia: 5
+  Lithuania: 5
   Austria: 5
-  Poland: 5
-  Estonia: 4
-  Germany: 3
   United States: 2
 
 Топ SNI:
-  dl.google.com: 30
+  dl.google.com: 59
+  www.cloudflare.com: 17
+  api.setevoyprostor.cc: 14
   ads.x5.ru: 10
-  www.cloudflare.com: 8
-  188.225.25.22: 5
-  37.139.42.225: 5
-  www.bing.com: 5
-  vk.com: 4
-  els.mangshe.xyz: 4
+  176.114.86.163: 6
+  eh.vk.ru: 5
+  ru-svo-1.blook.network: 5
+  reels.frkn.org: 5
+  open.spotify.com: 4
   msk.frkn.org: 4
-  www.samsung.com: 4
-  de1.meshbeat.online: 4
+  accounts.fastly.com: 4
+  example.org: 4
   n48.himoy.space: 4
+  www.bing.com: 4
   www.wikipedia.org: 4
-  buylite.music.apple.com: 4
-  s3-fi-1.rucdn777.com: 4
 
 Топ портов:
-  443: 31
-  8444: 17
-  9882: 5
+  443: 67
+  9881: 29
+  8444: 10
+  9830: 10
+  8443: 8
+  8081: 6
   9891: 5
-  9830: 5
   9892: 5
-  7448: 5
+  9873: 5
   9872: 5
-  9881: 5
-  4443: 4
-  2060: 4
-  25895: 4
-  32134: 4
   2377: 4
-  9443: 3
+  2053: 3
+  22443: 3
+  32134: 3
+  26532: 2
 
 Топ схем:
-  vless: 90
-  hysteria2: 28
+  vless: 150
+  vmess: 36
+  hysteria2: 19
   ss: 4
-  vmess: 2
 
 Топ transport:
-  tcp: 76
-  grpc: 40
-  ws: 8
+  tcp: 113
+  grpc: 83
+  xhttp: 13
 
 Топ security:
-  reality: 82
-  none: 34
-  tls: 8
+  reality: 132
+  none: 67
+  tls: 10
