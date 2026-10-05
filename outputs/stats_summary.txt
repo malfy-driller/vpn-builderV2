@@ -1,5 +1,5 @@
 VPN Builder stats summary
-Generated at: 2026-10-05 00:40:44 MSK
+Generated at: 2026-10-05 03:11:17 MSK
 
 ====================================================================
 RAW GROUPS
@@ -8,157 +8,168 @@ RAW GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 85
-Уникальных строк: 70
-Уникальных host:port: 14
-Уникальных backend: 12
-Anycast: 2
-Unknown country: 26
+Всего конфигов: 101
+Уникальных строк: 87
+Уникальных host:port: 23
+Уникальных backend: 20
+Anycast: 8
+Unknown country: 31
 
 Топ стран:
-  Poland: 35
-  Unknown: 26
-  Russia: 17
-  Netherlands: 5
-  🌐 Anycast: 2
+  Poland: 33
+  Unknown: 31
+  Russia: 23
+  🌐 Anycast: 8
+  Netherlands: 6
 
 Топ SNI:
-  eh.vk.ru: 30
-  ru-1-8.imnotgay.party: 10
-  avatars.mds.yandex.net: 10
-  ru-1-5.imnotgay.party: 5
-  ru-1-9.imnotgay.party: 5
+  eh.vk.ru: 28
+  avatars.mds.yandex.net: 12
+  ru-1-9.imnotgay.party: 8
   360.yandex.ru: 5
-  m-vnltw-e.mvpstr.com: 5
-  open.spotify.com: 5
-  ads.x5.ru: 5
-  msk.frkn.org: 2
+  ru-1-7.imnotgay.party: 4
+  ru-1-5.imnotgay.party: 4
+  ru-1-2.imnotgay.party: 4
+  sp.skfv-mirror.ru: 4
+  russa.riseapps.uk: 4
+  eg-cai-1.blook.rs: 4
 
 Топ портов:
-  443: 69
-  6443: 10
-  2443: 5
+  443: 80
+  6443: 8
+  2443: 4
+  8443: 4
+  18333: 2
+  563: 1
+  564: 1
 
 Топ схем:
-  vless: 80
-  hysteria2: 4
+  vless: 95
+  hysteria2: 5
   vmess: 1
 
 Топ transport:
-  tcp: 60
+  tcp: 72
   xhttp: 20
-  grpc: 5
+  grpc: 9
 
 Топ security:
-  reality: 75
-  tls: 5
-  none: 5
+  reality: 85
+  tls: 8
+  none: 8
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_vless
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 51
-Уникальных строк: 51
-Уникальных host:port: 8
-Уникальных backend: 8
-Anycast: 0
-Unknown country: 26
+Всего конфигов: 66
+Уникальных строк: 66
+Уникальных host:port: 15
+Уникальных backend: 14
+Anycast: 7
+Unknown country: 30
 
 Топ стран:
-  Unknown: 26
-  Poland: 20
-  Netherlands: 5
+  Unknown: 30
+  Poland: 19
+  🌐 Anycast: 7
+  Netherlands: 6
+  Russia: 4
 
 Топ SNI:
-  eh.vk.ru: 15
-  ru-1-8.imnotgay.party: 10
-  ru-1-5.imnotgay.party: 5
-  ru-1-9.imnotgay.party: 5
+  eh.vk.ru: 14
+  ru-1-9.imnotgay.party: 8
   360.yandex.ru: 5
-  m-vnltw-e.mvpstr.com: 5
-  open.spotify.com: 5
-  eyj2ijoimiisinbzijoi8j+hs: 1
+  ru-1-7.imnotgay.party: 4
+  ru-1-5.imnotgay.party: 4
+  ru-1-2.imnotgay.party: 4
+  sp.skfv-mirror.ru: 4
+  russa.riseapps.uk: 4
+  eg-cai-1.blook.rs: 4
+  m-vnltw-e.mvpstr.com: 4
 
 Топ портов:
-  443: 50
+  443: 63
+  563: 1
+  564: 1
 
 Топ схем:
-  vless: 50
+  vless: 65
   vmess: 1
 
 Топ transport:
-  tcp: 36
-  xhttp: 10
+  tcp: 45
+  xhttp: 12
   grpc: 5
+  raw: 4
 
 Топ security:
-  reality: 45
-  tls: 5
-  none: 1
+  reality: 55
+  tls: 8
+  none: 3
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW black_all
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 391
-Уникальных строк: 250
-Уникальных host:port: 119
-Уникальных backend: 91
-Anycast: 61
-Unknown country: 144
+Всего конфигов: 535
+Уникальных строк: 392
+Уникальных host:port: 158
+Уникальных backend: 113
+Anycast: 82
+Unknown country: 157
 
 Топ стран:
-  Unknown: 144
-  🌐 Anycast: 61
-  Poland: 51
-  United States: 47
-  Germany: 29
-  Netherlands: 20
-  Finland: 12
+  Unknown: 157
+  🌐 Anycast: 82
+  Poland: 76
+  Netherlands: 63
+  Germany: 53
+  United States: 49
+  France: 20
+  Austria: 10
+  Finland: 10
   Czechia: 9
-  France: 7
-  Japan: 5
 
 Топ SNI:
-  www.tesla.com: 31
-  v2ray.aizgl.com: 31
-  www.lamer.com.sg: 25
-  24f9d11d.ferrin.uk: 23
-  accounts.fastly.com: 21
-  us1p1.xn--ghq880n3na965a.com: 16
-  polkadotnewone.failspace.top: 14
-  uehr.pashalloh.org: 12
-  pol-pol-poland.failspace.top: 12
-  pl-2070d4dca0.shamanapp.online: 11
+  24f9d11d.ferrin.uk: 62
+  pl-2070d4dca0.shamanapp.online: 30
+  v2ray.aizgl.com: 26
+  us1p1.xn--ghq880n3na965a.com: 25
+  www.tesla.com: 22
+  pol-pol-poland.failspace.top: 16
+  accounts.fastly.com: 15
+  www.lamer.com.sg: 15
+  de2.srv.vbuste.ru: 14
+  polkadotnewone.failspace.top: 13
 
 Топ портов:
-  443: 259
-  31094: 25
-  39518: 19
-  21263: 16
-  44988: 12
-  33740: 11
-  2377: 6
-  8443: 6
-  2053: 4
-  10443: 4
+  443: 344
+  33740: 30
+  21263: 25
+  39518: 15
+  31094: 15
+  8443: 12
+  2053: 10
+  6443: 8
+  44988: 7
+  50821: 6
 
 Топ схем:
-  vless: 300
-  hysteria2: 39
-  trojan: 28
-  vmess: 18
-  ss: 6
+  vless: 429
+  hysteria2: 48
+  trojan: 31
+  vmess: 22
+  ss: 5
 
 Топ transport:
-  tcp: 259
-  xhttp: 80
-  ws: 45
-  grpc: 7
+  tcp: 314
+  xhttp: 151
+  ws: 52
+  grpc: 18
 
 Топ security:
-  tls: 183
-  reality: 143
-  none: 65
+  tls: 268
+  reality: 189
+  none: 78
 
 ====================================================================
 FINAL GROUPS
@@ -167,278 +178,291 @@ FINAL GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 15
-Уникальных строк: 15
-Уникальных host:port: 14
-Уникальных backend: 12
-Anycast: 1
-Unknown country: 6
+Всего конфигов: 24
+Уникальных строк: 24
+Уникальных host:port: 23
+Уникальных backend: 20
+Anycast: 2
+Unknown country: 9
 
 Топ стран:
-  Unknown: 6
-  Russia: 5
+  Unknown: 9
+  Russia: 8
+  Netherlands: 3
   Poland: 2
-  Netherlands: 1
-  🌐 Anycast: 1
+  🌐 Anycast: 2
 
 Топ SNI:
-  ru-1-8.imnotgay.party: 2
-  avatars.mds.yandex.net: 2
+  avatars.mds.yandex.net: 3
+  136.234.6.142: 2
+  ru-1-9.imnotgay.party: 2
   tcp-reset-club.net: 2
-  ads.x5.ru: 1
   360.yandex.ru: 1
+  ads.x5.ru: 1
+  acru.astro-wall.online: 1
   eh.vk.ru: 1
-  ru-1-9.imnotgay.party: 1
-  open.spotify.com: 1
-  ru-1-5.imnotgay.party: 1
-  m-vnltw-e.mvpstr.com: 1
+  russa.riseapps.uk: 1
+  ru-1-7.imnotgay.party: 1
 
 Топ портов:
-  443: 11
+  443: 16
   6443: 2
   2443: 1
+  564: 1
+  8443: 1
+  563: 1
+  18333: 1
 
 Топ схем:
-  vless: 11
-  hysteria2: 3
+  vless: 19
+  hysteria2: 4
   vmess: 1
 
 Топ transport:
-  tcp: 10
-  xhttp: 4
-  grpc: 1
+  tcp: 17
+  xhttp: 5
+  grpc: 2
 
 Топ security:
-  reality: 10
-  none: 4
-  tls: 1
+  reality: 15
+  none: 7
+  tls: 2
 
 ────────────────────────────────────────────────────────────────────
 📊 white_vless
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 9
-Уникальных строк: 9
-Уникальных host:port: 8
-Уникальных backend: 8
-Anycast: 0
-Unknown country: 6
+Всего конфигов: 16
+Уникальных строк: 16
+Уникальных host:port: 15
+Уникальных backend: 14
+Anycast: 1
+Unknown country: 9
 
 Топ стран:
-  Unknown: 6
+  Unknown: 9
+  Netherlands: 3
   Poland: 2
-  Netherlands: 1
+  Russia: 1
+  🌐 Anycast: 1
 
 Топ SNI:
-  ru-1-8.imnotgay.party: 2
-  eh.vk.ru: 1
+  ru-1-9.imnotgay.party: 2
+  136.234.6.142: 2
   360.yandex.ru: 1
+  acru.astro-wall.online: 1
+  eh.vk.ru: 1
+  russa.riseapps.uk: 1
+  ru-1-7.imnotgay.party: 1
+  sp.skfv-mirror.ru: 1
+  ru-1-2.imnotgay.party: 1
   ru-1-5.imnotgay.party: 1
-  ru-1-9.imnotgay.party: 1
-  m-vnltw-e.mvpstr.com: 1
-  open.spotify.com: 1
-  eyj2ijoimiisinbzijoi8j+hs: 1
 
 Топ портов:
-  443: 8
+  443: 13
+  563: 1
+  564: 1
 
 Топ схем:
-  vless: 8
+  vless: 15
   vmess: 1
 
 Топ transport:
-  tcp: 6
-  xhttp: 2
+  tcp: 11
+  xhttp: 3
   grpc: 1
+  raw: 1
 
 Топ security:
-  reality: 7
-  tls: 1
-  none: 1
+  reality: 11
+  none: 3
+  tls: 2
 
 ────────────────────────────────────────────────────────────────────
 📊 black_all
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 119
-Уникальных строк: 119
-Уникальных host:port: 107
-Уникальных backend: 90
-Anycast: 18
-Unknown country: 59
+Всего конфигов: 140
+Уникальных строк: 140
+Уникальных host:port: 137
+Уникальных backend: 91
+Anycast: 25
+Unknown country: 52
 
 Топ стран:
-  Unknown: 59
-  🌐 Anycast: 18
-  Poland: 10
+  Unknown: 52
+  🌐 Anycast: 25
+  Netherlands: 15
+  Germany: 14
+  Poland: 13
   United States: 9
-  Netherlands: 7
-  Germany: 6
-  France: 2
-  Austria: 2
-  Japan: 2
+  Austria: 4
+  France: 3
   Czechia: 2
+  Japan: 1
 
 Топ SNI:
   www.tesla.com: 8
-  v2ray.aizgl.com: 4
   24f9d11d.ferrin.uk: 4
   us1p1.xn--ghq880n3na965a.com: 4
+  iosapps.itunes.apple.com: 4
+  addons.mozilla.org: 4
+  de2.srv.vbuste.ru: 4
+  myschoolonline.cvedcmimikal.space: 4
+  v2ray.aizgl.com: 4
   www.lamer.com.sg: 4
   www.cloudflare.com: 3
-  www.nvidia.com: 2
-  pl-1-1.imnotgay.party: 2
-  de-1-2.imnotgay.party: 2
-  accounts.fastly.com: 2
 
 Топ портов:
-  443: 76
+  443: 84
+  8443: 6
   21263: 4
+  50821: 4
+  44988: 4
   31094: 4
   39518: 4
-  44988: 4
-  8443: 3
+  8843: 3
   2377: 3
   33740: 2
-  2053: 1
-  10443: 1
 
 Топ схем:
-  vless: 68
-  hysteria2: 30
-  vmess: 12
-  trojan: 6
+  vless: 100
+  hysteria2: 26
+  trojan: 8
   ss: 3
+  vmess: 3
 
 Топ transport:
-  tcp: 93
-  xhttp: 15
-  ws: 10
-  grpc: 1
+  tcp: 101
+  xhttp: 19
+  ws: 14
+  grpc: 6
 
 Топ security:
-  none: 46
-  tls: 37
-  reality: 36
+  reality: 57
+  tls: 49
+  none: 34
 
 ────────────────────────────────────────────────────────────────────
 📊 pool
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 129
-Уникальных строк: 129
-Уникальных host:port: 114
-Уникальных backend: 100
-Anycast: 18
-Unknown country: 64
+Всего конфигов: 150
+Уникальных строк: 150
+Уникальных host:port: 143
+Уникальных backend: 105
+Anycast: 24
+Unknown country: 57
 
 Топ стран:
-  Unknown: 64
-  🌐 Anycast: 18
-  Poland: 12
-  United States: 8
-  Russia: 6
-  Netherlands: 6
-  Germany: 6
-  Japan: 2
-  Austria: 2
+  Unknown: 57
+  🌐 Anycast: 24
+  Netherlands: 17
+  Germany: 14
+  Poland: 13
+  Russia: 8
+  United States: 7
+  Austria: 4
   France: 2
+  Czechia: 2
 
 Топ SNI:
-  www.tesla.com: 8
+  www.tesla.com: 6
+  tcp-reset-club.net: 4
+  avatars.mds.yandex.net: 4
+  www.lamer.com.sg: 4
+  iosapps.itunes.apple.com: 4
   v2ray.aizgl.com: 4
-  24f9d11d.ferrin.uk: 4
-  www.cloudflare.com: 3
-  us1p1.xn--ghq880n3na965a.com: 3
-  tcp-reset-club.net: 2
-  ru-1-8.imnotgay.party: 2
-  avatars.mds.yandex.net: 2
-  msk.frkn.org: 2
-  www.lamer.com.sg: 2
+  de2.srv.vbuste.ru: 4
+  addons.mozilla.org: 4
+  24f9d11d.ferrin.uk: 3
+  i.wareznet.ru: 3
 
 Топ портов:
-  443: 84
-  39518: 4
-  44988: 4
-  2377: 3
+  443: 95
+  8443: 7
+  31094: 4
+  50821: 4
+  6443: 3
   21263: 3
-  8443: 3
-  6443: 2
-  31094: 2
-  33740: 2
-  2443: 1
+  39518: 3
+  2377: 3
+  44988: 3
+  8843: 2
 
 Топ схем:
-  vless: 75
-  hysteria2: 31
-  vmess: 14
-  trojan: 6
+  vless: 109
+  hysteria2: 27
+  trojan: 7
+  vmess: 4
   ss: 3
 
 Топ transport:
-  tcp: 98
-  xhttp: 19
-  ws: 10
-  grpc: 2
+  tcp: 108
+  xhttp: 22
+  ws: 13
+  grpc: 7
 
 Топ security:
-  none: 49
-  reality: 42
-  tls: 38
+  reality: 67
+  tls: 46
+  none: 37
 
 ────────────────────────────────────────────────────────────────────
 📊 mixed
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 52
-Уникальных строк: 52
-Уникальных host:port: 52
-Уникальных backend: 40
+Всего конфигов: 56
+Уникальных строк: 56
+Уникальных host:port: 56
+Уникальных backend: 46
 Anycast: 7
 Unknown country: 18
 
 Топ стран:
   Unknown: 18
-  Poland: 7
   🌐 Anycast: 7
-  Netherlands: 5
-  United States: 5
-  Russia: 3
-  Germany: 3
-  Japan: 2
-  Austria: 1
+  Netherlands: 7
+  Poland: 7
+  Germany: 6
+  Russia: 5
+  Austria: 2
+  United States: 2
   France: 1
+  Finland: 1
 
 Топ SNI:
   www.tesla.com: 4
-  avatars.mds.yandex.net: 2
-  ru-1-8.imnotgay.party: 2
+  avatars.mds.yandex.net: 3
+  ru-1-9.imnotgay.party: 2
+  de2.srv.vbuste.ru: 2
+  de-1.srv.dvzh.net: 2
   24f9d11d.ferrin.uk: 2
-  v2ray.aizgl.com: 2
-  accounts.fastly.com: 2
   cool-place.failspace.top: 2
-  www.nvidia.com: 2
   www.lamer.com.sg: 2
-  polkadotnewone.failspace.top: 2
+  addons.mozilla.org: 2
+  v2ray.aizgl.com: 2
 
 Топ портов:
   443: 40
   6443: 2
+  8443: 2
   44988: 2
   39518: 2
   31094: 2
-  21263: 2
   2443: 1
+  50821: 1
   2053: 1
+  21263: 1
 
 Топ схем:
-  vless: 52
+  vless: 56
 
 Топ transport:
-  tcp: 32
-  xhttp: 14
-  ws: 5
-  grpc: 1
+  tcp: 37
+  xhttp: 10
+  ws: 6
+  grpc: 3
 
 Топ security:
-  reality: 31
-  tls: 21
+  reality: 37
+  tls: 19
 
 ────────────────────────────────────────────────────────────────────
 📊 lte
@@ -446,124 +470,124 @@ Unknown country: 18
 Всего конфигов: 25
 Уникальных строк: 25
 Уникальных host:port: 25
-Уникальных backend: 20
-Anycast: 5
+Уникальных backend: 21
+Anycast: 6
 Unknown country: 0
 
 Топ стран:
-  Poland: 7
-  🌐 Anycast: 5
+  Germany: 6
+  🌐 Anycast: 6
+  Poland: 5
   Netherlands: 4
-  Germany: 3
   Russia: 3
   France: 1
-  United States: 1
-  Japan: 1
 
 Топ SNI:
-  accounts.fastly.com: 2
-  pl-2070d4dca0.shamanapp.online: 2
+  de-8d4c7a0695.shamanapp.online: 2
+  de-1.srv.dvzh.net: 2
+  86153507-1976-48f1-ac86-e8ab274470a8.fly.dev: 2
+  v2ray.aizgl.com: 2
   avatars.mds.yandex.net: 2
-  pol-pol-poland.failspace.top: 2
-  cool-place.failspace.top: 2
   360.yandex.ru: 1
-  apple.com: 1
+  accounts.fastly.com: 1
+  m-vnltw-e.mvpstr.com: 1
+  id-24f9d11d.ferrin.uk: 1
   24f9d11d.ferrin.uk: 1
-  de-1.srv.dvzh.net: 1
-  ads.x5.ru: 1
 
 Топ портов:
-  443: 19
-  33740: 2
-  6443: 2
+  443: 18
+  8443: 3
   2443: 1
+  33740: 1
   2053: 1
+  6443: 1
 
 Топ схем:
   vless: 25
 
 Топ transport:
-  tcp: 10
   xhttp: 9
-  ws: 5
-  grpc: 1
+  ws: 8
+  tcp: 5
+  grpc: 3
 
 Топ security:
-  tls: 17
-  reality: 8
+  tls: 19
+  reality: 6
 
 ====================================================================
 🌍 GLOBAL SUMMARY
 ====================================================================
-Всего конфигов: 349
-Уникальных строк: 135
-Уникальных host:port: 117
-Уникальных backend: 100
-Anycast: 49
-Unknown country: 153
+Всего конфигов: 411
+Уникальных строк: 167
+Уникальных host:port: 155
+Уникальных backend: 107
+Anycast: 65
+Unknown country: 145
 
 Топ стран:
-  Unknown: 153
-  🌐 Anycast: 49
-  Poland: 40
-  Netherlands: 24
-  United States: 23
-  Russia: 18
-  Germany: 18
-  Japan: 7
-  France: 6
-  Austria: 5
+  Unknown: 145
+  🌐 Anycast: 65
+  Netherlands: 49
+  Poland: 42
+  Germany: 40
+  Russia: 26
+  United States: 18
+  Austria: 10
+  France: 7
   Czechia: 4
-  Finland: 2
+  Finland: 3
+  Japan: 2
 
 Топ SNI:
-  www.tesla.com: 20
-  24f9d11d.ferrin.uk: 11
-  v2ray.aizgl.com: 10
-  ru-1-8.imnotgay.party: 9
-  www.cloudflare.com: 9
-  us1p1.xn--ghq880n3na965a.com: 9
-  avatars.mds.yandex.net: 8
-  accounts.fastly.com: 8
-  www.lamer.com.sg: 8
-  cool-place.failspace.top: 8
-  www.nvidia.com: 7
-  pol-pol-poland.failspace.top: 7
-  polkadotnewone.failspace.top: 7
-  tcp-reset-club.net: 6
-  poland-good.failspace.top: 6
+  www.tesla.com: 18
+  avatars.mds.yandex.net: 13
+  v2ray.aizgl.com: 12
+  24f9d11d.ferrin.uk: 10
+  addons.mozilla.org: 10
+  de2.srv.vbuste.ru: 10
+  www.lamer.com.sg: 10
+  iosapps.itunes.apple.com: 9
+  ru-1-9.imnotgay.party: 8
+  tcp-reset-club.net: 8
+  de-1.srv.dvzh.net: 8
+  us1p1.xn--ghq880n3na965a.com: 8
+  samsung.com: 8
+  myschoolonline.cvedcmimikal.space: 8
+  86153507-1976-48f1-ac86-e8ab274470a8.fly.dev: 7
 
 Топ портов:
-  443: 238
-  39518: 10
-  44988: 10
-  21263: 9
-  6443: 8
-  31094: 8
+  443: 266
+  8443: 19
+  31094: 10
+  6443: 9
+  50821: 9
+  44988: 9
+  39518: 9
+  21263: 8
   33740: 6
-  8443: 6
   2377: 6
-  2443: 4
+  2443: 5
+  8843: 5
+  8343: 5
   2053: 4
-  10443: 2
-  80: 2
-  56127: 2
-  4443: 2
+  564: 3
 
 Топ схем:
-  vless: 239
-  hysteria2: 64
-  vmess: 28
-  trojan: 12
+  vless: 324
+  hysteria2: 57
+  trojan: 15
+  vmess: 9
   ss: 6
 
 Топ transport:
-  tcp: 249
-  xhttp: 63
-  ws: 30
-  grpc: 7
+  tcp: 279
+  xhttp: 68
+  ws: 41
+  grpc: 22
+  raw: 1
 
 Топ security:
-  reality: 134
-  tls: 115
-  none: 100
+  reality: 193
+  tls: 137
+  none: 81
