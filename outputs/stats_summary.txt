@@ -1,5 +1,5 @@
 VPN Builder stats summary
-Generated at: 2026-10-05 16:12:54 MSK
+Generated at: 2026-10-06 00:14:06 MSK
 
 ====================================================================
 RAW GROUPS
@@ -8,125 +8,174 @@ RAW GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 7
-Уникальных строк: 7
-Уникальных host:port: 2
-Уникальных backend: 2
-Anycast: 1
-Unknown country: 5
+Всего конфигов: 87
+Уникальных строк: 79
+Уникальных host:port: 22
+Уникальных backend: 18
+Anycast: 10
+Unknown country: 8
 
 Топ стран:
-  Unknown: 5
-  Russia: 1
-  🌐 Anycast: 1
+  Poland: 24
+  Germany: 16
+  Russia: 14
+  🌐 Anycast: 10
+  Unknown: 8
+  Netherlands: 6
+  Finland: 5
+  France: 4
 
 Топ SNI:
-  addons.mozilla.org: 5
-  msk.frkn.org: 2
+  eh.vk.ru: 16
+  api.setevoyprostor.cc: 16
+  www.yandex.ru: 9
+  uncheckfriskjersey.warrantdigest.org: 4
+  fin.cloude.one: 4
+  api.videopereval.cc: 4
+  api.mediaperekat.cc: 4
+  360.yandex.ru: 4
+  nls.cloude.one: 4
+  open.spotify.com: 4
 
 Топ портов:
-  8451: 5
-  443: 2
+  443: 62
+  1443: 8
+  2088: 5
+  444: 4
+  2087: 4
+  2443: 2
+  11223: 1
+  2060: 1
 
 Топ схем:
-  vless: 5
-  hysteria2: 2
+  vless: 81
+  hysteria2: 6
 
 Топ transport:
-  tcp: 7
+  tcp: 70
+  grpc: 13
+  xhttp: 4
 
 Топ security:
-  reality: 5
-  none: 2
+  reality: 81
+  none: 5
+  tls: 1
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_vless
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 6
-Уникальных строк: 6
-Уникальных host:port: 2
-Уникальных backend: 2
+Всего конфигов: 68
+Уникальных строк: 68
+Уникальных host:port: 19
+Уникальных backend: 15
 Anycast: 1
-Unknown country: 5
+Unknown country: 8
 
 Топ стран:
-  Unknown: 5
+  Germany: 16
+  Poland: 16
+  Russia: 12
+  Unknown: 8
+  Netherlands: 6
+  Finland: 5
+  France: 4
   🌐 Anycast: 1
 
 Топ SNI:
-  addons.mozilla.org: 5
-  msk.frkn.org: 1
+  api.setevoyprostor.cc: 16
+  eh.vk.ru: 8
+  uncheckfriskjersey.warrantdigest.org: 4
+  fin.cloude.one: 4
+  api.videopereval.cc: 4
+  api.mediaperekat.cc: 4
+  360.yandex.ru: 4
+  nls.cloude.one: 4
+  open.spotify.com: 4
+  sellflow.org: 4
 
 Топ портов:
-  8451: 5
-  443: 1
+  443: 53
+  1443: 8
+  444: 4
+  2443: 2
+  11223: 1
 
 Топ схем:
-  vless: 5
-  hysteria2: 1
+  vless: 64
+  hysteria2: 4
 
 Топ transport:
-  tcp: 6
+  tcp: 60
+  grpc: 4
+  xhttp: 4
 
 Топ security:
-  reality: 5
-  none: 1
+  reality: 64
+  none: 3
+  tls: 1
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW black_all
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 263
-Уникальных строк: 167
-Уникальных host:port: 24
-Уникальных backend: 32
-Anycast: 77
-Unknown country: 106
+Всего конфигов: 341
+Уникальных строк: 214
+Уникальных host:port: 83
+Уникальных backend: 49
+Anycast: 200
+Unknown country: 75
 
 Топ стран:
-  Unknown: 106
-  🌐 Anycast: 77
-  United States: 42
-  Austria: 12
-  Germany: 12
-  Netherlands: 12
+  🌐 Anycast: 200
+  Unknown: 75
+  Poland: 22
+  Netherlands: 16
+  Germany: 15
+  United States: 7
+  Estonia: 2
+  Finland: 2
   Russia: 2
 
 Топ SNI:
-  node5.luoye.ee: 30
-  node1.luoye.ee: 22
-  node2.luoye.ee: 22
-  files.meridian-labs.net: 12
-  motri-at-new.failspace.top: 12
-  www.bing.com: 12
-  fr-cdg-2.koolb.org: 12
-  accounts.fastly.com: 12
-  ph-mnl-1.blook.rs: 12
-  ng-los-1.blook.network: 12
+  ssl.fastly.com: 51
+  grok.setlisting.ru: 38
+  fzo5i.ir46.90k.hh.ov0.kdns.fr: 36
+  ccc.010304.xyz: 34
+  pl-2070d4dca0.shamanapp.online: 22
+  u.srilankangrill.online: 20
+  argo6.5671234.xyz: 18
+  x.m-90.xyz: 12
+  fr.api-music-fa.com: 10
+  d3-ro.cloud-cdn.xyz: 8
 
 Топ портов:
-  443: 219
-  2083: 12
-  8451: 12
-  8880: 3
+  443: 209
+  52006: 38
+  8443: 32
+  33740: 22
+  2053: 14
+  2083: 4
+  80: 3
   2060: 3
-  50145: 1
-  50160: 1
+  13805: 2
+  5589: 2
 
 Топ схем:
-  vless: 147
-  trojan: 95
-  vmess: 12
-  hysteria2: 9
+  vless: 242
+  trojan: 74
+  hysteria2: 21
+  vmess: 2
+  ss: 2
 
 Топ transport:
-  tcp: 177
-  xhttp: 60
-  ws: 26
+  ws: 228
+  tcp: 80
+  xhttp: 27
+  grpc: 6
 
 Топ security:
-  tls: 181
-  reality: 60
-  none: 22
+  tls: 296
+  none: 28
+  reality: 17
 
 ====================================================================
 FINAL GROUPS
@@ -135,334 +184,418 @@ FINAL GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 2
-Уникальных строк: 2
-Уникальных host:port: 2
-Уникальных backend: 2
-Anycast: 0
-Unknown country: 1
+Всего конфигов: 22
+Уникальных строк: 22
+Уникальных host:port: 22
+Уникальных backend: 18
+Anycast: 2
+Unknown country: 2
 
 Топ стран:
-  Unknown: 1
-  Russia: 1
+  Russia: 5
+  Germany: 4
+  Poland: 3
+  Netherlands: 3
+  Finland: 2
+  Unknown: 2
+  🌐 Anycast: 2
+  France: 1
 
 Топ SNI:
-  addons.mozilla.org: 1
-  msk.frkn.org: 1
+  api.setevoyprostor.cc: 4
+  www.yandex.ru: 2
+  hy2.78.141.219.189.nip.io: 2
+  sellflow.org: 1
+  api.mediaperekat.cc: 1
+  api.videopereval.cc: 1
+  fin.cloude.one: 1
+  nls.cloude.one: 1
+  eh.vk.ru: 1
+  charredrelatedfoam.falloworchard.com: 1
 
 Топ портов:
-  8451: 1
-  443: 1
+  443: 13
+  1443: 2
+  2443: 2
+  2087: 1
+  2088: 1
+  444: 1
+  11223: 1
+  2060: 1
 
 Топ схем:
-  vless: 1
-  hysteria2: 1
+  vless: 17
+  hysteria2: 5
 
 Топ transport:
-  tcp: 2
+  tcp: 18
+  grpc: 3
+  xhttp: 1
 
 Топ security:
-  reality: 1
-  none: 1
+  reality: 17
+  none: 5
 
 ────────────────────────────────────────────────────────────────────
 📊 white_vless
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 2
-Уникальных строк: 2
-Уникальных host:port: 2
-Уникальных backend: 2
+Всего конфигов: 19
+Уникальных строк: 19
+Уникальных host:port: 19
+Уникальных backend: 15
 Anycast: 1
-Unknown country: 1
+Unknown country: 2
 
 Топ стран:
-  Unknown: 1
+  Germany: 4
+  Russia: 3
+  Poland: 3
+  Netherlands: 3
+  Finland: 2
+  Unknown: 2
+  France: 1
   🌐 Anycast: 1
 
 Топ SNI:
-  addons.mozilla.org: 1
-  msk.frkn.org: 1
+  api.setevoyprostor.cc: 4
+  hy2.78.141.219.189.nip.io: 2
+  api.videopereval.cc: 1
+  vextor.win: 1
+  360.yandex.ru: 1
+  nls.cloude.one: 1
+  api.mediaperekat.cc: 1
+  charredrelatedfoam.falloworchard.com: 1
+  sellflow.org: 1
+  fin.cloude.one: 1
 
 Топ портов:
-  8451: 1
-  443: 1
+  443: 13
+  1443: 2
+  2443: 2
+  444: 1
+  11223: 1
 
 Топ схем:
-  vless: 1
-  hysteria2: 1
+  vless: 15
+  hysteria2: 4
 
 Топ transport:
-  tcp: 2
+  tcp: 17
+  grpc: 1
+  xhttp: 1
 
 Топ security:
-  reality: 1
-  none: 1
+  reality: 15
+  none: 3
+  tls: 1
 
 ────────────────────────────────────────────────────────────────────
 📊 black_all
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 32
-Уникальных строк: 32
-Уникальных host:port: 24
-Уникальных backend: 32
-Anycast: 9
-Unknown country: 15
+Всего конфигов: 64
+Уникальных строк: 64
+Уникальных host:port: 63
+Уникальных backend: 47
+Anycast: 37
+Unknown country: 10
 
 Топ стран:
-  Unknown: 15
-  🌐 Anycast: 9
+  🌐 Anycast: 37
+  Unknown: 10
+  Germany: 5
   United States: 4
-  Germany: 1
-  Netherlands: 1
-  Austria: 1
+  Netherlands: 4
+  Estonia: 1
+  Poland: 1
+  Finland: 1
   Russia: 1
 
 Топ SNI:
-  accounts.fastly.com: 1
-  nl-new-ded-once.failspace.top: 1
-  motri-at-new.failspace.top: 1
-  gust.sigy.me: 1
-  www.bing.com: 1
-  suffolkprimarycare.uk: 1
-  sj6.freeguard.org: 1
-  usin1.confstage.app: 1
-  addons.mozilla.org: 1
-  iosapps.itunes.apple.com: 1
+  ssl.fastly.com: 4
+  fzo5i.ir46.90k.hh.ov0.kdns.fr: 4
+  ccc.010304.xyz: 4
+  x.m-90.xyz: 3
+  u.srilankangrill.online: 3
+  argo6.5671234.xyz: 2
+  s4ws.ragingbull.de5.net: 2
+  play.google.com: 2
+  www.bing.com: 2
+  ai.yump.online: 1
 
 Топ портов:
-  443: 16
-  2060: 3
-  8451: 1
-  50145: 1
-  8880: 1
-  2083: 1
-  50160: 1
+  443: 37
+  8443: 7
+  2083: 2
+  2053: 2
+  2060: 2
+  2377: 2
+  55000: 2
+  33740: 1
+  52006: 1
+  80: 1
 
 Топ схем:
-  vless: 13
-  vmess: 8
-  hysteria2: 6
-  trojan: 5
+  vless: 39
+  hysteria2: 14
+  trojan: 8
+  ss: 2
+  vmess: 1
 
 Топ transport:
-  tcp: 24
-  xhttp: 5
-  ws: 3
+  ws: 36
+  tcp: 25
+  xhttp: 2
+  grpc: 1
 
 Топ security:
-  none: 14
-  tls: 13
-  reality: 5
+  tls: 39
+  none: 18
+  reality: 7
 
 ────────────────────────────────────────────────────────────────────
 📊 pool
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 32
-Уникальных строк: 32
-Уникальных host:port: 24
-Уникальных backend: 32
-Anycast: 9
-Unknown country: 15
+Всего конфигов: 79
+Уникальных строк: 79
+Уникальных host:port: 78
+Уникальных backend: 64
+Anycast: 36
+Unknown country: 12
 
 Топ стран:
-  Unknown: 15
-  🌐 Anycast: 9
-  United States: 4
-  Russia: 1
-  Germany: 1
-  Austria: 1
-  Netherlands: 1
+  🌐 Anycast: 36
+  Unknown: 12
+  Germany: 7
+  Netherlands: 7
+  Russia: 5
+  Poland: 4
+  Finland: 3
+  United States: 3
+  France: 1
+  Estonia: 1
 
 Топ SNI:
-  addons.mozilla.org: 1
-  msk.frkn.org: 1
-  xg1.mangshe.xyz: 1
-  node2.luoye.ee: 1
-  usin1.confstage.app: 1
-  www.bing.com: 1
-  accounts.fastly.com: 1
-  eyjhzgqioiizms43ny44ljk3iiwiywlkijoimcisimfscg4ioiiilcjmcci6iiisimhvc3qioiiilcjpzci6imqyzdg2mdfilwmxngitndjjni1iogvhltmzodg5ymnlmtuyysisim5ldci6inrjccisinbhdggioiiilcjwb3j0ijoimtewiiwichmioiiu8jallcddgsdllta08j+buoc8hmuwwrauihwgw0jmxsisinnjesi6imf1dg8ilcjzbmkioiiilcj0bhmioiiilcj0exblijoibm9uzsisinyioiiyin0=: 1
-  ng-los-1.blook.network: 1
-  eyj2ijoimiisinbzijoi8j+hrfcfh7agsg9uzyblb25nlcbib25nietvbmcgfcbbqkxdiiwiywrkijoiewcxlnlna2trlmrwzg5zlm9yzyisinbvcnqioii0ndmilcj0exblijoibm9uzsisimlkijoiyjjiytrhnzmtmzeymy00nzlllwfhotytntk3m2e5zwnkmgmwiiwiywlkijoimcisim5ldci6indziiwicgf0aci6ii9immjhnge3my0zmtizltq3owutywe5ni01otczytlly2qwyzatdm0ilcjob3n0ijoiam1wms45mdc3mzcuehl6iiwidgxzijoidgxziiwic2n5ijoiyxv0byisinnuasi6iiisimfscg4ioiiilcjmcci6iij9: 1
+  ssl.fastly.com: 4
+  fzo5i.ir46.90k.hh.ov0.kdns.fr: 4
+  api.setevoyprostor.cc: 2
+  www.yandex.ru: 2
+  hy2.78.141.219.189.nip.io: 2
+  ccc.010304.xyz: 2
+  www.bing.com: 2
+  play.google.com: 2
+  u.srilankangrill.online: 2
+  s4ws.ragingbull.de5.net: 2
 
 Топ портов:
-  443: 16
+  443: 44
+  8443: 6
   2060: 3
-  8451: 1
-  50145: 1
-  2083: 1
-  50160: 1
-  8880: 1
+  1443: 2
+  2443: 2
+  2377: 2
+  55000: 2
+  2083: 2
+  2053: 2
+  444: 1
 
 Топ схем:
-  vless: 13
-  vmess: 8
-  hysteria2: 6
-  trojan: 5
+  vless: 50
+  hysteria2: 18
+  trojan: 8
+  ss: 2
+  vmess: 1
 
 Топ transport:
-  tcp: 24
-  xhttp: 5
-  ws: 3
+  tcp: 40
+  ws: 32
+  grpc: 4
+  xhttp: 3
 
 Топ security:
-  none: 14
-  tls: 13
-  reality: 5
+  tls: 35
+  reality: 22
+  none: 22
 
 ────────────────────────────────────────────────────────────────────
 📊 mixed
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 12
-Уникальных строк: 12
-Уникальных host:port: 12
-Уникальных backend: 12
-Anycast: 5
-Unknown country: 4
+Всего конфигов: 47
+Уникальных строк: 47
+Уникальных host:port: 47
+Уникальных backend: 39
+Anycast: 20
+Unknown country: 7
 
 Топ стран:
-  🌐 Anycast: 5
-  Unknown: 4
-  Germany: 1
-  Austria: 1
-  Netherlands: 1
+  🌐 Anycast: 20
+  Unknown: 7
+  Russia: 5
+  Germany: 5
+  Poland: 4
+  Netherlands: 2
+  United States: 2
+  France: 1
+  Finland: 1
 
 Топ SNI:
-  addons.mozilla.org: 1
-  files.meridian-labs.net: 1
-  accounts.fastly.com: 1
-  motri-at-new.failspace.top: 1
-  usin1.confstage.app: 1
-  www.bing.com: 1
-  ph-mnl-1.blook.rs: 1
-  suffolkprimarycare.uk: 1
-  nl-new-ded-once.failspace.top: 1
-  fr-cdg-2.koolb.org: 1
+  www.yandex.ru: 2
+  api.setevoyprostor.cc: 2
+  s4ws.ragingbull.de5.net: 2
+  play.google.com: 2
+  ccc.010304.xyz: 2
+  fzo5i.ir46.90k.hh.ov0.kdns.fr: 2
+  x.m-90.xyz: 2
+  u.srilankangrill.online: 2
+  argo6.5671234.xyz: 2
+  360.yandex.ru: 1
 
 Топ портов:
-  443: 10
-  8451: 1
-  2083: 1
+  443: 32
+  8443: 3
+  1443: 2
+  2083: 2
+  2087: 1
+  444: 1
+  2088: 1
+  5589: 1
+  13805: 1
+  33740: 1
 
 Топ схем:
-  vless: 12
+  vless: 47
 
 Топ transport:
-  tcp: 6
-  xhttp: 5
-  ws: 1
+  ws: 22
+  tcp: 19
+  grpc: 3
+  xhttp: 3
 
 Топ security:
-  tls: 7
-  reality: 5
+  tls: 25
+  reality: 22
 
 ────────────────────────────────────────────────────────────────────
 📊 lte
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 18
-Уникальных строк: 18
-Уникальных host:port: 18
-Уникальных backend: 18
-Anycast: 7
-Unknown country: 6
+Всего конфигов: 25
+Уникальных строк: 25
+Уникальных host:port: 25
+Уникальных backend: 21
+Anycast: 15
+Unknown country: 0
 
 Топ стран:
-  🌐 Anycast: 7
-  Unknown: 6
+  🌐 Anycast: 15
+  Netherlands: 3
+  Russia: 2
   United States: 2
+  Poland: 2
   Germany: 1
-  Netherlands: 1
-  Austria: 1
 
 Топ SNI:
+  www.yandex.ru: 2
+  x.m-90.xyz: 2
+  u.srilankangrill.online: 2
+  s4ws.ragingbull.de5.net: 2
+  ccc.010304.xyz: 2
   accounts.fastly.com: 1
-  fr-cdg-2.koolb.org: 1
-  nl-new-ded-once.failspace.top: 1
-  usin1.confstage.app: 1
-  www.bing.com: 1
-  motri-at-new.failspace.top: 1
-  node5.luoye.ee: 1
-  sj6.freeguard.org: 1
-  gust.sigy.me: 1
-  suffolkprimarycare.uk: 1
+  no.gokonstantin.com: 1
+  fr.api-music-fa.com: 1
+  piracy-android.video-streams.org: 1
+  asia.csmaster.site: 1
 
 Топ портов:
-  443: 15
-  2083: 1
-  8451: 1
-  2060: 1
+  443: 16
+  8443: 3
+  2083: 2
+  2087: 1
+  2088: 1
+  2053: 1
+  33740: 1
 
 Топ схем:
-  vless: 12
-  trojan: 5
-  hysteria2: 1
+  vless: 23
+  trojan: 2
 
 Топ transport:
-  tcp: 11
-  xhttp: 5
-  ws: 2
+  ws: 20
+  grpc: 3
+  xhttp: 2
 
 Топ security:
-  tls: 13
-  reality: 5
+  tls: 22
+  reality: 3
 
 ====================================================================
 🌍 GLOBAL SUMMARY
 ====================================================================
-Всего конфигов: 98
-Уникальных строк: 35
-Уникальных host:port: 24
-Уникальных backend: 32
-Anycast: 31
-Unknown country: 42
+Всего конфигов: 256
+Уникальных строк: 89
+Уникальных host:port: 84
+Уникальных backend: 64
+Anycast: 111
+Unknown country: 33
 
 Топ стран:
-  Unknown: 42
-  🌐 Anycast: 31
-  United States: 10
-  Germany: 4
-  Netherlands: 4
-  Austria: 4
-  Russia: 3
+  🌐 Anycast: 111
+  Unknown: 33
+  Germany: 26
+  Netherlands: 22
+  Russia: 21
+  Poland: 17
+  United States: 11
+  Finland: 9
+  France: 4
+  Estonia: 2
 
 Топ SNI:
-  addons.mozilla.org: 6
-  msk.frkn.org: 4
-  accounts.fastly.com: 4
-  nl-new-ded-once.failspace.top: 4
-  motri-at-new.failspace.top: 4
-  gust.sigy.me: 4
-  www.bing.com: 4
-  suffolkprimarycare.uk: 4
-  usin1.confstage.app: 4
-  fr-cdg-2.koolb.org: 4
-  ng-los-1.blook.network: 4
-  ph-mnl-1.blook.rs: 4
-  files.meridian-labs.net: 4
-  sj6.freeguard.org: 3
-  z.2233nm.fun: 3
+  api.setevoyprostor.cc: 12
+  fzo5i.ir46.90k.hh.ov0.kdns.fr: 11
+  ccc.010304.xyz: 10
+  x.m-90.xyz: 9
+  ssl.fastly.com: 9
+  u.srilankangrill.online: 9
+  www.yandex.ru: 8
+  s4ws.ragingbull.de5.net: 8
+  hy2.78.141.219.189.nip.io: 6
+  argo6.5671234.xyz: 6
+  play.google.com: 6
+  360.yandex.ru: 5
+  sellflow.org: 4
+  api.mediaperekat.cc: 4
+  api.videopereval.cc: 4
 
 Топ портов:
-  443: 59
-  2060: 7
-  8451: 6
-  2083: 4
-  50145: 2
-  8880: 2
-  50160: 2
+  443: 155
+  8443: 19
+  1443: 8
+  2083: 8
+  2443: 6
+  2060: 6
+  2053: 6
+  2087: 4
+  2088: 4
+  444: 4
+  33740: 4
+  2377: 4
+  55000: 4
+  11223: 3
+  52006: 3
 
 Топ схем:
-  vless: 52
-  vmess: 16
-  hysteria2: 15
-  trojan: 15
+  vless: 191
+  hysteria2: 41
+  trojan: 18
+  ss: 4
+  vmess: 2
 
 Топ transport:
-  tcp: 69
-  xhttp: 20
-  ws: 9
+  tcp: 119
+  ws: 110
+  grpc: 15
+  xhttp: 12
 
 Топ security:
-  tls: 46
-  none: 30
-  reality: 22
+  tls: 122
+  reality: 86
+  none: 48
