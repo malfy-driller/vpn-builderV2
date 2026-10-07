@@ -1,5 +1,5 @@
 VPN Builder stats summary
-Generated at: 2026-10-07 09:11:03 MSK
+Generated at: 2026-10-07 16:36:11 MSK
 
 ====================================================================
 RAW GROUPS
@@ -8,192 +8,183 @@ RAW GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 128
-Уникальных строк: 116
-Уникальных host:port: 25
-Уникальных backend: 25
-Anycast: 4
-Unknown country: 19
+Всего конфигов: 189
+Уникальных строк: 153
+Уникальных host:port: 36
+Уникальных backend: 30
+Anycast: 28
+Unknown country: 49
 
 Топ стран:
-  Netherlands: 40
-  Unknown: 19
-  Poland: 18
-  Finland: 14
-  Czechia: 9
-  France: 6
-  Germany: 6
-  Russia: 6
-  Switzerland: 5
-  🌐 Anycast: 4
+  Unknown: 49
+  Poland: 36
+  Netherlands: 33
+  🌐 Anycast: 28
+  Russia: 24
+  United States: 10
+  Czechia: 5
+  Switzerland: 4
 
 Топ SNI:
-  vusr-6ac431f4.adhil.uk: 19
-  20ef7310.ferrin.uk: 14
-  eh.vk.ru: 12
-  amd.com: 11
-  ru-trace.palm-network.ru: 9
-  quatro.lmstream.org: 9
-  dl.google.com: 9
-  vusr-6ac513af.adhil.uk: 9
-  chain.files-converter.sbs: 6
-  edge6.files-converter.sbs: 6
+  apis.stroymatdv.cc: 16
+  eh.vk.ru: 16
+  m-vruvc.mvpstr.com: 16
+  node227.overgroup.cloud: 16
+  rumost.overload.ovh: 12
+  api-v1-6ac60b55.vmagnum.win: 12
+  amd.com: 9
+  manage.rushtaxi.ru: 8
+  dl.google.com: 8
+  quatro.lmstream.org: 8
 
 Топ портов:
-  443: 52
-  8443: 37
-  9881: 9
-  9443: 6
-  9892: 6
-  6443: 5
-  9882: 5
-  15443: 3
-  13443: 3
-  25172: 1
+  443: 96
+  8443: 32
+  9881: 8
+  6443: 8
+  7443: 8
+  9892: 5
+  3443: 4
+  9443: 4
+  9882: 4
+  25177: 4
 
 Топ схем:
-  vless: 122
-  hysteria2: 5
-  vmess: 1
+  vless: 133
+  trojan: 52
+  hysteria2: 4
 
 Топ transport:
-  tcp: 64
-  grpc: 38
-  xhttp: 17
-  ws: 6
-  raw: 3
+  tcp: 144
+  grpc: 25
+  ws: 16
+  xhttp: 4
 
 Топ security:
-  reality: 65
-  tls: 57
-  none: 6
+  reality: 97
+  tls: 88
+  none: 4
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_vless
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 113
-Уникальных строк: 113
-Уникальных host:port: 23
-Уникальных backend: 23
-Anycast: 3
-Unknown country: 16
+Всего конфигов: 142
+Уникальных строк: 142
+Уникальных host:port: 33
+Уникальных backend: 27
+Anycast: 16
+Unknown country: 44
 
 Топ стран:
-  Netherlands: 37
-  Unknown: 16
-  Finland: 14
-  Poland: 12
-  Czechia: 9
-  France: 6
-  Germany: 6
-  Switzerland: 5
-  Russia: 5
-  🌐 Anycast: 3
+  Unknown: 44
+  Poland: 28
+  Netherlands: 21
+  🌐 Anycast: 16
+  Russia: 16
+  United States: 8
+  Czechia: 5
+  Switzerland: 4
 
 Топ SNI:
-  vusr-6ac431f4.adhil.uk: 19
-  20ef7310.ferrin.uk: 14
-  amd.com: 11
-  ru-trace.palm-network.ru: 9
-  quatro.lmstream.org: 9
-  dl.google.com: 9
-  vusr-6ac513af.adhil.uk: 9
-  eh.vk.ru: 6
-  de.gokonstantin.com: 3
-  www.cloudflare.com: 3
+  rumost.overload.ovh: 12
+  api-v1-6ac60b55.vmagnum.win: 12
+  amd.com: 9
+  apis.stroymatdv.cc: 8
+  dl.google.com: 8
+  quatro.lmstream.org: 8
+  eh.vk.ru: 8
+  ch.federal-usa.com: 8
+  viet.federal-usa.com: 8
+  sp.federal-usa.com: 8
 
 Топ портов:
-  443: 44
-  8443: 34
-  9881: 9
-  9892: 6
-  6443: 5
-  9882: 5
-  15443: 3
-  13443: 3
-  9443: 3
+  443: 60
+  8443: 24
+  9881: 8
+  6443: 8
+  7443: 8
+  9892: 5
+  3443: 4
+  9443: 4
+  9882: 4
+  25177: 4
 
 Топ схем:
-  vless: 110
-  hysteria2: 2
-  vmess: 1
+  vless: 101
+  trojan: 40
+  hysteria2: 1
 
 Топ transport:
-  tcp: 52
-  grpc: 32
-  xhttp: 17
-  raw: 6
-  ws: 6
+  tcp: 101
+  grpc: 25
+  ws: 8
+  xhttp: 4
+  raw: 4
 
 Топ security:
-  tls: 57
-  reality: 53
-  none: 3
+  reality: 73
+  tls: 68
+  none: 1
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW black_all
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 630
-Уникальных строк: 491
-Уникальных host:port: 229
-Уникальных backend: 145
-Anycast: 366
-Unknown country: 47
+Всего конфигов: 245
+Уникальных строк: 157
+Уникальных host:port: 26
+Уникальных backend: 26
+Anycast: 105
+Unknown country: 18
 
 Топ стран:
-  🌐 Anycast: 366
-  Netherlands: 74
-  Unknown: 47
-  Finland: 43
-  Germany: 27
-  United States: 18
-  France: 17
-  Kazakhstan: 14
-  Poland: 9
-  Estonia: 7
+  🌐 Anycast: 105
+  Netherlands: 59
+  France: 22
+  Unknown: 18
+  Finland: 14
+  United States: 14
+  Estonia: 12
+  Japan: 1
 
 Топ SNI:
-  edg-2oo.pages.dev: 59
-  20ef7310.ferrin.uk: 35
-  vp58.cc.cd: 23
-  accounts.fastly.com: 20
-  nl-2.srv.dvzh.net: 20
-  www.volumeroot.com: 18
-  addons.mozilla.org: 17
-  asia.csmaster.site: 17
-  www.calmlunch.com: 17
-  cab-6ac3cf79.ferrin.uk: 14
+  asia.csmaster.site: 36
+  www.volumeroot.com: 26
+  www.calmlunch.com: 22
+  www.pleadcourt.org: 22
+  ee1.sky-vault.top: 12
+  ijug.jffq.electrocitymarket.ru: 12
+  fr.api-music-fa.com: 12
+  vless.api-music-fa.com: 12
+  aqal.jtvt.electrocitymarket.ru: 12
+  gate1.ragnarok-it.ru: 12
 
 Топ портов:
-  443: 417
-  8880: 71
-  8443: 30
-  2053: 25
-  2083: 15
-  2087: 12
-  80: 10
-  19771: 4
-  34616: 4
-  18333: 4
+  443: 173
+  2053: 24
+  8443: 16
+  80: 12
+  2049: 12
+  2377: 2
+  25172: 2
+  18333: 1
+  55000: 1
 
 Топ схем:
-  vless: 534
-  trojan: 70
-  hysteria2: 21
-  vmess: 3
+  vless: 144
+  trojan: 85
+  hysteria2: 12
   ss: 2
+  vmess: 2
 
 Топ transport:
-  ws: 382
-  tcp: 167
-  xhttp: 76
-  grpc: 5
+  ws: 165
+  tcp: 44
+  xhttp: 36
 
 Топ security:
-  tls: 387
-  reality: 133
-  none: 99
-  false: 11
+  tls: 182
+  reality: 36
+  none: 27
 
 ====================================================================
 FINAL GROUPS
@@ -202,312 +193,305 @@ FINAL GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 26
-Уникальных строк: 26
-Уникальных host:port: 25
-Уникальных backend: 23
-Anycast: 1
-Unknown country: 5
+Всего конфигов: 36
+Уникальных строк: 36
+Уникальных host:port: 36
+Уникальных backend: 29
+Anycast: 4
+Unknown country: 11
 
 Топ стран:
+  Unknown: 11
+  Poland: 6
   Netherlands: 6
-  Unknown: 5
-  Russia: 4
-  Poland: 2
-  Czechia: 2
-  France: 2
-  Finland: 1
-  🌐 Anycast: 1
-  Germany: 1
+  Russia: 5
+  🌐 Anycast: 4
+  United States: 2
   Switzerland: 1
+  Czechia: 1
 
 Топ SNI:
-  ru-trace.palm-network.ru: 3
-  vusr-6ac431f4.adhil.uk: 3
-  dl.google.com: 2
-  amd.com: 2
-  cdn.annet.site: 2
-  ads.x5.ru: 1
-  360.yandex.ru: 1
-  quatro.lmstream.org: 1
-  20ef7310.ferrin.uk: 1
-  www.cloudflare.com: 1
+  rumost.overload.ovh: 3
+  api-v1-6ac60b55.vmagnum.win: 3
+  eh.vk.com: 2
+  www.icloud.com: 2
+  viet.federal-usa.com: 2
+  sp.federal-usa.com: 2
+  jp.federal-usa.com: 2
+  apis.stroymatdv.cc: 2
+  m-vruvc.mvpstr.com: 2
+  node227.overgroup.cloud: 2
 
 Топ портов:
-  443: 9
-  8443: 5
-  6443: 3
-  9881: 2
-  15443: 1
+  443: 14
+  8443: 7
+  7443: 2
+  6443: 2
+  25178: 1
   9443: 1
-  13443: 1
+  3443: 1
   9882: 1
-  25172: 1
-  9892: 1
+  12443: 1
+  2443: 1
 
 Топ схем:
-  vless: 21
-  hysteria2: 4
-  vmess: 1
+  vless: 24
+  trojan: 10
+  hysteria2: 2
 
 Топ transport:
-  tcp: 14
-  grpc: 8
-  xhttp: 2
+  tcp: 28
+  grpc: 5
   ws: 2
+  xhttp: 1
 
 Топ security:
-  reality: 14
-  tls: 7
-  none: 5
+  reality: 18
+  tls: 16
+  none: 2
 
 ────────────────────────────────────────────────────────────────────
 📊 white_vless
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 24
-Уникальных строк: 24
-Уникальных host:port: 23
-Уникальных backend: 21
-Anycast: 1
-Unknown country: 5
+Всего конфигов: 33
+Уникальных строк: 33
+Уникальных host:port: 33
+Уникальных backend: 26
+Anycast: 4
+Unknown country: 10
 
 Топ стран:
+  Unknown: 10
+  Poland: 6
   Netherlands: 6
-  Unknown: 5
+  🌐 Anycast: 4
   Russia: 3
-  Poland: 2
-  France: 2
-  Czechia: 2
-  Germany: 1
-  Finland: 1
-  🌐 Anycast: 1
+  United States: 2
   Switzerland: 1
+  Czechia: 1
 
 Топ SNI:
-  ru-trace.palm-network.ru: 3
-  vusr-6ac431f4.adhil.uk: 3
-  amd.com: 2
-  dl.google.com: 2
-  cdn.annet.site: 2
-  360.yandex.ru: 1
-  ads.x5.ru: 1
-  chain.files-converter.sbs: 1
-  de.gokonstantin.com: 1
-  20ef7310.ferrin.uk: 1
+  rumost.overload.ovh: 3
+  api-v1-6ac60b55.vmagnum.win: 3
+  node107.overcdn.ru: 2
+  node227.overgroup.cloud: 2
+  sp.federal-usa.com: 2
+  m-vruvc.mvpstr.com: 2
+  apis.stroymatdv.cc: 2
+  ch.federal-usa.com: 2
+  jp.federal-usa.com: 2
+  viet.federal-usa.com: 2
 
 Топ портов:
-  443: 8
-  8443: 5
-  6443: 3
-  9881: 2
-  15443: 1
+  443: 13
+  8443: 6
+  7443: 2
+  6443: 2
+  3443: 1
   9443: 1
-  13443: 1
+  25177: 1
+  4443: 1
   9882: 1
-  9892: 1
+  25178: 1
 
 Топ схем:
-  vless: 21
-  hysteria2: 2
-  vmess: 1
+  vless: 22
+  trojan: 10
+  hysteria2: 1
 
 Топ transport:
-  tcp: 11
-  grpc: 8
+  tcp: 25
+  grpc: 5
   ws: 2
-  xhttp: 2
-  raw: 1
+  xhttp: 1
 
 Топ security:
-  reality: 14
-  tls: 7
-  none: 3
+  reality: 16
+  tls: 16
+  none: 1
 
 ────────────────────────────────────────────────────────────────────
 📊 black_all
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 140
-Уникальных строк: 140
-Уникальных host:port: 140
-Уникальных backend: 114
-Anycast: 72
-Unknown country: 18
+Всего конфигов: 27
+Уникальных строк: 27
+Уникальных host:port: 26
+Уникальных backend: 23
+Anycast: 11
+Unknown country: 6
 
 Топ стран:
-  🌐 Anycast: 72
-  Unknown: 18
-  Netherlands: 10
-  Germany: 10
-  Finland: 8
-  United States: 7
-  France: 4
-  Estonia: 3
-  Austria: 2
-  Poland: 2
+  🌐 Anycast: 11
+  Unknown: 6
+  United States: 2
+  Netherlands: 2
+  France: 2
+  Finland: 2
+  Estonia: 1
+  Japan: 1
 
 Топ SNI:
-  addons.mozilla.org: 4
-  www.calmlunch.com: 4
-  20ef7310.ferrin.uk: 4
-  proxy-1cu.pages.dev: 3
-  proxy-34l.pages.dev: 3
-  www.chip.de: 3
-  ssl.fastly.com: 3
-  ee-root.sworkingvpn.com: 2
-  us-1.srv.dvzh.net: 2
-  de-root.sworkingvpn.com: 2
+  asia.csmaster.site: 2
+  www.calmlunch.com: 2
+  bing.com: 2
+  tx-hy2: 2
+  node-us-1.nztvpn.com: 1
+  ee1.sky-vault.top: 1
+  wWw.Volumeroot.cOm.: 1
+  machinemag.ir: 1
+  ccc.010304.xyz: 1
+  fr.api-music-fa.com: 1
 
 Топ портов:
-  443: 81
-  8880: 20
-  8443: 8
-  80: 5
-  2083: 5
-  2053: 4
-  2087: 3
-  25178: 2
-  8080: 2
-  25047: 1
+  443: 13
+  8443: 4
+  80: 3
+  2053: 1
+  2049: 1
+  2377: 1
+  18333: 1
+  25172: 1
+  55000: 1
 
 Топ схем:
-  vless: 125
-  trojan: 10
-  hysteria2: 5
+  vless: 12
+  hysteria2: 8
+  trojan: 5
+  ss: 1
+  vmess: 1
 
 Топ transport:
-  ws: 79
-  tcp: 50
-  xhttp: 8
-  grpc: 3
+  tcp: 13
+  ws: 11
+  xhttp: 3
 
 Топ security:
-  tls: 65
-  reality: 43
-  none: 29
-  false: 3
+  none: 13
+  tls: 11
+  reality: 3
 
 ────────────────────────────────────────────────────────────────────
 📊 pool
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 150
-Уникальных строк: 150
-Уникальных host:port: 147
-Уникальных backend: 126
-Anycast: 66
-Unknown country: 22
+Всего конфигов: 61
+Уникальных строк: 61
+Уникальных host:port: 60
+Уникальных backend: 51
+Anycast: 14
+Unknown country: 17
 
 Топ стран:
-  🌐 Anycast: 66
-  Unknown: 22
-  Netherlands: 15
-  Germany: 9
-  Finland: 8
-  United States: 6
+  Unknown: 17
+  🌐 Anycast: 14
+  Netherlands: 8
+  Poland: 6
   Russia: 5
-  Poland: 4
-  France: 4
-  Estonia: 3
+  United States: 3
+  Finland: 2
+  France: 2
+  Czechia: 1
+  Switzerland: 1
 
 Топ SNI:
-  20ef7310.ferrin.uk: 4
-  ru-trace.palm-network.ru: 3
-  amd.com: 3
-  proxy-1cu.pages.dev: 3
-  www.chip.de: 3
-  ssl.fastly.com: 3
-  addons.mozilla.org: 3
-  proxy-34l.pages.dev: 3
-  cdn.annet.site: 2
-  dl.google.com: 2
+  rumost.overload.ovh: 3
+  node227.overgroup.cloud: 2
+  amd.com: 2
+  apis.stroymatdv.cc: 2
+  sp.federal-usa.com: 2
+  eh.vk.com: 2
+  www.icloud.com: 2
+  api-v1-6ac60b55.vmagnum.win: 2
+  jp.federal-usa.com: 2
+  ch.federal-usa.com: 2
 
 Топ портов:
-  443: 82
-  8880: 18
+  443: 27
   8443: 10
-  80: 5
-  2053: 4
-  2083: 4
-  6443: 3
-  2087: 3
-  9881: 2
-  25172: 2
+  80: 3
+  6443: 2
+  7443: 2
+  9892: 1
+  9882: 1
+  25178: 1
+  9881: 1
+  2443: 1
 
 Топ схем:
-  vless: 133
+  vless: 35
+  trojan: 15
   hysteria2: 9
-  trojan: 7
   vmess: 1
+  ss: 1
 
 Топ transport:
-  ws: 73
-  tcp: 57
-  grpc: 11
-  xhttp: 9
+  tcp: 39
+  ws: 13
+  grpc: 5
+  xhttp: 4
 
 Топ security:
-  tls: 64
-  reality: 52
-  none: 31
-  false: 3
+  tls: 26
+  reality: 21
+  none: 14
 
 ────────────────────────────────────────────────────────────────────
 📊 mixed
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 57
-Уникальных строк: 57
-Уникальных host:port: 57
-Уникальных backend: 49
-Anycast: 19
-Unknown country: 9
+Всего конфигов: 32
+Уникальных строк: 32
+Уникальных host:port: 32
+Уникальных backend: 27
+Anycast: 8
+Unknown country: 6
 
 Топ стран:
-  🌐 Anycast: 19
-  Unknown: 9
-  Netherlands: 6
+  🌐 Anycast: 8
+  Unknown: 6
+  Russia: 4
   Poland: 4
-  Germany: 4
-  Finland: 3
+  Netherlands: 3
   United States: 3
-  France: 2
-  Czechia: 2
-  Estonia: 2
+  Czechia: 1
+  Switzerland: 1
+  Estonia: 1
+  Finland: 1
 
 Топ SNI:
-  ru-trace.palm-network.ru: 3
-  vusr-6ac431f4.adhil.uk: 2
-  dl.google.com: 2
+  rumost.overload.ovh: 3
+  api-v1-6ac60b55.vmagnum.win: 2
+  eh.vk.com: 2
+  apis.stroymatdv.cc: 2
+  m-vruvc.mvpstr.com: 2
+  www.icloud.com: 2
   amd.com: 2
-  20ef7310.ferrin.uk: 2
-  ssl.fastly.com: 2
-  addons.mozilla.org: 2
-  proxy-1cu.pages.dev: 2
-  proxy-34l.pages.dev: 2
-  de-root.sworkingvpn.com: 2
+  asia.csmaster.site: 2
+  360.yandex.ru: 1
+  dl.google.com: 1
 
 Топ портов:
-  443: 33
+  443: 15
   8443: 6
-  2083: 3
-  9881: 2
-  2053: 2
-  13443: 1
+  9881: 1
+  3443: 1
+  6443: 1
+  7443: 1
+  25178: 1
   9443: 1
-  9882: 1
   9892: 1
-  15443: 1
+  25177: 1
 
 Топ схем:
-  vless: 57
+  vless: 32
 
 Топ transport:
-  tcp: 22
-  ws: 22
-  grpc: 8
-  xhttp: 5
+  tcp: 17
+  ws: 6
+  grpc: 5
+  xhttp: 4
 
 Топ security:
-  reality: 30
-  tls: 27
+  reality: 21
+  tls: 11
 
 ────────────────────────────────────────────────────────────────────
 📊 lte
@@ -515,127 +499,124 @@ Unknown country: 9
 Всего конфигов: 25
 Уникальных строк: 25
 Уникальных host:port: 25
-Уникальных backend: 24
-Anycast: 17
+Уникальных backend: 21
+Anycast: 6
 Unknown country: 0
 
 Топ стран:
-  🌐 Anycast: 17
-  Germany: 2
-  Netherlands: 1
+  Netherlands: 7
+  🌐 Anycast: 6
+  Russia: 5
+  Poland: 3
+  France: 2
   Finland: 1
-  Kazakhstan: 1
-  Russia: 1
-  Austria: 1
   Estonia: 1
 
 Топ SNI:
+  eh.vk.com: 2
+  api-v1-6ac60b55.vmagnum.win: 2
   asia.csmaster.site: 2
-  ads.x5.ru: 1
-  20ef7310.ferrin.uk: 1
-  cab-6ac3cf79.ferrin.uk: 1
-  ru-trace.palm-network.ru: 1
-  w2p6.vpnpolar.online: 1
-  de.gokonstantin.com: 1
-  accounts.fastly.com: 1
-  ee2x.global-cdn.org: 1
-  assets-de.pleiades.codes: 1
+  www.calmlunch.com: 2
+  rumost.overload.ovh: 2
+  node227.overgroup.cloud: 2
+  360.yandex.ru: 1
+  apis.stroymatdv.cc: 1
+  ijug.jffq.electrocitymarket.ru: 1
+  ccc.010304.xyz: 1
 
 Топ портов:
   443: 17
-  8443: 4
-  2083: 2
+  8443: 5
   2053: 1
-  2087: 1
+  7443: 1
+  2049: 1
 
 Топ схем:
-  vless: 25
+  vless: 17
+  trojan: 8
 
 Топ transport:
-  ws: 19
-  grpc: 3
-  xhttp: 3
+  tcp: 11
+  ws: 9
+  xhttp: 4
+  grpc: 1
 
 Топ security:
-  tls: 24
-  reality: 1
+  tls: 18
+  reality: 7
 
 ====================================================================
 🌍 GLOBAL SUMMARY
 ====================================================================
-Всего конфигов: 422
-Уникальных строк: 168
-Уникальных host:port: 163
-Уникальных backend: 134
-Anycast: 176
-Unknown country: 59
+Всего конфигов: 214
+Уникальных строк: 63
+Уникальных host:port: 61
+Уникальных backend: 51
+Anycast: 47
+Unknown country: 50
 
 Топ стран:
-  🌐 Anycast: 176
-  Unknown: 59
-  Netherlands: 44
-  Germany: 27
-  Finland: 22
-  United States: 17
-  Russia: 15
-  Poland: 14
-  France: 14
-  Estonia: 9
-  Czechia: 8
-  Austria: 6
+  Unknown: 50
+  🌐 Anycast: 47
+  Netherlands: 32
+  Poland: 25
+  Russia: 22
+  United States: 12
+  France: 6
+  Finland: 6
   Switzerland: 4
-  Kazakhstan: 3
-  Israel: 2
+  Czechia: 4
+  Estonia: 4
+  Japan: 2
 
 Топ SNI:
-  ru-trace.palm-network.ru: 13
-  20ef7310.ferrin.uk: 13
-  vusr-6ac431f4.adhil.uk: 10
-  amd.com: 10
-  addons.mozilla.org: 9
-  proxy-1cu.pages.dev: 9
-  ssl.fastly.com: 9
-  dl.google.com: 8
-  proxy-34l.pages.dev: 8
+  rumost.overload.ovh: 14
+  api-v1-6ac60b55.vmagnum.win: 12
+  apis.stroymatdv.cc: 9
+  eh.vk.com: 8
+  www.icloud.com: 8
+  m-vruvc.mvpstr.com: 8
+  node227.overgroup.cloud: 8
+  amd.com: 8
   asia.csmaster.site: 8
-  www.chip.de: 7
-  cdn.annet.site: 6
-  ee-root.sworkingvpn.com: 6
+  viet.federal-usa.com: 7
+  sp.federal-usa.com: 7
+  jp.federal-usa.com: 7
+  node107.overcdn.ru: 7
+  ch.federal-usa.com: 7
   www.calmlunch.com: 6
-  de-root.sworkingvpn.com: 6
 
 Топ портов:
-  443: 230
+  443: 99
   8443: 38
-  8880: 38
-  2083: 14
-  2053: 11
-  6443: 10
-  80: 10
-  9881: 8
-  2087: 8
-  15443: 4
+  7443: 8
+  6443: 7
+  80: 6
+  25178: 4
   9443: 4
-  13443: 4
+  3443: 4
   9882: 4
-  25172: 4
   9892: 4
+  25177: 4
+  9881: 4
+  2053: 4
+  2049: 4
+  12443: 3
 
 Топ схем:
-  vless: 382
+  vless: 142
+  trojan: 48
   hysteria2: 20
-  trojan: 17
-  vmess: 3
+  ss: 2
+  vmess: 2
 
 Топ transport:
-  ws: 197
-  tcp: 154
-  grpc: 41
-  xhttp: 29
-  raw: 1
+  tcp: 133
+  ws: 43
+  grpc: 21
+  xhttp: 17
 
 Топ security:
-  tls: 194
-  reality: 154
-  none: 68
-  false: 6
+  tls: 98
+  reality: 86
+  none: 30
