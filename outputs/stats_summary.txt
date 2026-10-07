@@ -1,5 +1,5 @@
 VPN Builder stats summary
-Generated at: 2026-10-07 22:31:45 MSK
+Generated at: 2026-10-08 02:50:28 MSK
 
 ====================================================================
 RAW GROUPS
@@ -8,150 +8,187 @@ RAW GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 80
-Уникальных строк: 65
-Уникальных host:port: 10
-Уникальных backend: 10
-Anycast: 10
-Unknown country: 25
+Всего конфигов: 162
+Уникальных строк: 132
+Уникальных host:port: 30
+Уникальных backend: 37
+Anycast: 43
+Unknown country: 19
 
 Топ стран:
-  Unknown: 25
-  Netherlands: 20
-  🌐 Anycast: 10
-  Poland: 10
-  Finland: 5
-  France: 5
+  Poland: 48
+  🌐 Anycast: 43
+  Netherlands: 26
+  Unknown: 19
+  France: 10
   Russia: 5
+  Finland: 3
+  Germany: 3
+  United States: 3
+  Estonia: 2
 
 Топ SNI:
-  apis.stroymatdv.cc: 20
-  quatro.lmstream.org: 15
+  eh.vk.ru: 34
+  apis.stroymatdv.cc: 26
+  quatro.lmstream.org: 20
   dl.google.com: 15
-  www.cloudflare.com: 10
-  www.yandex.ru: 10
-  www.bing.com: 5
-  bab-6.site: 5
+  www.yandex.ru: 8
+  music.yandex.ru: 6
+  bab-6.site: 4
+  max.ru: 4
+  st.vk.com: 4
+  www.bing.com: 3
 
 Топ портов:
-  443: 55
-  9881: 15
-  25481: 5
-  2087: 5
+  443: 119
+  8443: 12
+  9881: 11
+  9892: 4
+  2087: 4
+  25481: 3
+  25172: 3
+  18333: 3
+  150: 1
 
 Топ схем:
-  vless: 80
+  vless: 151
+  hysteria2: 9
+  vmess: 2
 
 Топ transport:
-  grpc: 30
-  tcp: 25
-  ws: 25
+  tcp: 52
+  grpc: 46
+  ws: 32
+  raw: 24
+  xhttp: 8
 
 Топ security:
-  reality: 40
-  tls: 40
+  reality: 90
+  tls: 61
+  none: 11
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_vless
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 55
-Уникальных строк: 55
-Уникальных host:port: 8
-Уникальных backend: 8
-Anycast: 5
-Unknown country: 20
+Всего конфигов: 117
+Уникальных строк: 117
+Уникальных host:port: 26
+Уникальных backend: 33
+Anycast: 35
+Unknown country: 19
 
 Топ стран:
-  Unknown: 20
-  Poland: 10
-  Netherlands: 10
-  Finland: 5
-  France: 5
-  🌐 Anycast: 5
+  🌐 Anycast: 35
+  Poland: 31
+  Unknown: 19
+  Netherlands: 13
+  France: 10
+  Finland: 3
+  Germany: 3
+  Estonia: 2
+  Russia: 1
 
 Топ SNI:
-  quatro.lmstream.org: 15
+  quatro.lmstream.org: 20
+  eh.vk.ru: 17
   dl.google.com: 15
-  apis.stroymatdv.cc: 10
-  www.cloudflare.com: 5
-  www.bing.com: 5
-  bab-6.site: 5
+  apis.stroymatdv.cc: 13
+  music.yandex.ru: 6
+  bab-6.site: 4
+  max.ru: 4
+  st.vk.com: 4
+  www.bing.com: 3
+  free01.tunnely.space: 2
 
 Топ портов:
-  443: 35
-  9881: 15
-  25481: 5
+  443: 84
+  8443: 12
+  9881: 11
+  9892: 4
+  25481: 3
+  150: 1
 
 Топ схем:
-  vless: 55
+  vless: 113
+  hysteria2: 2
+  vmess: 2
 
 Топ transport:
-  grpc: 20
-  ws: 15
-  tcp: 10
-  raw: 10
+  grpc: 38
+  tcp: 31
+  raw: 21
+  ws: 19
+  xhttp: 8
 
 Топ security:
-  tls: 30
-  reality: 25
+  reality: 65
+  tls: 48
+  none: 4
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW black_all
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 220
-Уникальных строк: 134
-Уникальных host:port: 19
-Уникальных backend: 21
-Anycast: 118
-Unknown country: 44
+Всего конфигов: 732
+Уникальных строк: 582
+Уникальных host:port: 233
+Уникальных backend: 120
+Anycast: 452
+Unknown country: 82
 
 Топ стран:
-  🌐 Anycast: 118
-  Unknown: 44
-  France: 35
-  Netherlands: 19
+  🌐 Anycast: 452
+  France: 89
+  Netherlands: 87
+  Unknown: 82
+  United States: 12
+  Belarus: 2
   Finland: 2
-  Germany: 1
-  Russia: 1
+  Germany: 2
+  Japan: 2
+  Kazakhstan: 1
 
 Топ SNI:
-  asia.csmaster.site: 36
-  www.calmlunch.com: 35
-  www.volumeroot.com: 30
-  free-server.techsonic.dev: 16
-  onhit.shalana.shop: 14
-  ccc.010304.xyz: 13
-  ssl.fastly.com: 12
-  primelinelk.me: 12
-  addons.mozilla.org: 12
-  QjSDgI-6551.gborole.buzz: 12
+  www.calmlunch.com: 97
+  ccc.010304.xyz: 76
+  asia.csmaster.site: 53
+  www.volumeroot.com: 49
+  fr.api-music-fa.com: 28
+  www.large-files.info: 27
+  www.pleadcourt.org: 26
+  s4ws.ragingbull.de5.net: 25
+  uwu.blueknightnet.qzz.io: 18
+  bab-6.site: 17
 
 Топ портов:
-  443: 128
-  80: 34
-  8443: 24
-  24215: 12
-  2053: 12
-  25172: 1
-  25096: 1
+  443: 486
+  2053: 72
+  8443: 60
+  2087: 16
+  1891: 13
+  80: 11
+  2096: 8
+  18333: 5
+  10238: 4
+  25172: 4
 
 Топ схем:
-  vless: 131
-  trojan: 76
-  vmess: 8
-  hysteria2: 5
+  vless: 372
+  trojan: 289
+  vmess: 37
+  hysteria2: 31
+  ss: 3
 
 Топ transport:
-  ws: 172
-  tcp: 24
-  xhttp: 12
-  raw: 12
+  ws: 543
+  tcp: 160
+  xhttp: 22
+  grpc: 7
 
 Топ security:
-  tls: 162
-  false: 24
-  none: 22
-  reality: 12
+  tls: 625
+  none: 77
+  reality: 25
+  false: 5
 
 ====================================================================
 FINAL GROUPS
@@ -160,378 +197,428 @@ FINAL GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 10
-Уникальных строк: 10
-Уникальных host:port: 10
-Уникальных backend: 9
-Anycast: 2
-Unknown country: 3
+Всего конфигов: 32
+Уникальных строк: 32
+Уникальных host:port: 30
+Уникальных backend: 31
+Anycast: 15
+Unknown country: 6
 
 Топ стран:
-  Unknown: 3
+  🌐 Anycast: 15
+  Unknown: 6
+  Russia: 2
+  Poland: 2
+  France: 2
   Netherlands: 2
-  🌐 Anycast: 2
-  Russia: 1
-  France: 1
+  Estonia: 1
   Finland: 1
+  United States: 1
 
 Топ SNI:
+  dl.google.com: 3
   www.yandex.ru: 2
+  max.ru: 2
   apis.stroymatdv.cc: 2
-  dl.google.com: 2
-  quatro.lmstream.org: 1
+  music.yandex.ru: 1
+  event.yandex.ru: 1
+  eh.vk.ru: 1
+  d2-ee.cloud-cdn.xyz: 1
   bab-6.site: 1
-  www.cloudflare.com: 1
   www.bing.com: 1
 
 Топ портов:
-  443: 6
+  443: 20
+  8443: 2
   9881: 2
   2087: 1
   25481: 1
+  9892: 1
+  150: 1
+  25172: 1
+  18333: 1
 
 Топ схем:
-  vless: 10
+  vless: 27
+  hysteria2: 3
+  vmess: 2
 
 Топ transport:
-  grpc: 5
-  ws: 3
-  tcp: 2
+  grpc: 12
+  tcp: 11
+  ws: 4
+  xhttp: 4
+  raw: 1
 
 Топ security:
-  reality: 6
-  tls: 4
+  reality: 17
+  tls: 9
+  none: 6
 
 ────────────────────────────────────────────────────────────────────
 📊 white_vless
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 8
-Уникальных строк: 8
-Уникальных host:port: 8
-Уникальных backend: 7
-Anycast: 1
-Unknown country: 3
+Всего конфигов: 28
+Уникальных строк: 28
+Уникальных host:port: 26
+Уникальных backend: 27
+Anycast: 13
+Unknown country: 6
 
 Топ стран:
-  Unknown: 3
+  🌐 Anycast: 13
+  Unknown: 6
+  Poland: 2
   Netherlands: 2
-  France: 1
-  🌐 Anycast: 1
+  France: 2
   Finland: 1
+  Estonia: 1
+  Russia: 1
 
 Топ SNI:
+  dl.google.com: 3
+  max.ru: 2
   apis.stroymatdv.cc: 2
-  dl.google.com: 2
-  quatro.lmstream.org: 1
-  bab-6.site: 1
+  music.yandex.ru: 1
+  event.yandex.ru: 1
+  eh.vk.ru: 1
   www.bing.com: 1
-  www.cloudflare.com: 1
+  quatro.lmstream.org: 1
+  upl.fasssst.ru: 1
+  alventa.ru: 1
 
 Топ портов:
-  443: 5
+  443: 19
+  8443: 2
   9881: 2
   25481: 1
+  9892: 1
+  150: 1
 
 Топ схем:
-  vless: 8
+  vless: 25
+  vmess: 2
+  hysteria2: 1
 
 Топ transport:
-  ws: 3
-  grpc: 3
-  raw: 1
-  tcp: 1
+  grpc: 10
+  tcp: 8
+  ws: 4
+  xhttp: 4
+  raw: 2
 
 Топ security:
-  tls: 4
-  reality: 4
+  reality: 15
+  tls: 9
+  none: 4
 
 ────────────────────────────────────────────────────────────────────
 📊 black_all
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 23
-Уникальных строк: 23
-Уникальных host:port: 19
-Уникальных backend: 20
-Anycast: 8
-Unknown country: 9
+Всего конфигов: 140
+Уникальных строк: 140
+Уникальных host:port: 140
+Уникальных backend: 78
+Anycast: 98
+Unknown country: 15
 
 Топ стран:
-  Unknown: 9
-  🌐 Anycast: 8
-  France: 3
+  🌐 Anycast: 98
+  Unknown: 15
+  Netherlands: 12
+  France: 4
+  United States: 3
+  Japan: 2
+  Germany: 2
+  Kazakhstan: 1
+  Belarus: 1
   Finland: 1
-  Russia: 1
-  Germany: 1
 
 Топ SNI:
-  www.calmlunch.com: 3
-  asia.csmaster.site: 2
-  machinemag.ir: 1
-  onhit.shalana.shop: 1
-  ccc.010304.xyz: 1
-  primelinelk.me: 1
-  ssl.fastly.com: 1
-  www.volumeroot.com: 1
-  free-server.techsonic.dev: 1
-  nl.zhabulik.ru: 1
+  www.calmlunch.com: 4
+  www.volumeroot.com: 4
+  s3ws.ragingbull.de5.net: 4
+  s4ws.ragingbull.de5.net: 4
+  asia.csmaster.site: 4
+  www.pleadcourt.org: 4
+  jp3.yohototo.top: 4
+  uwu.blueknightnet.qzz.io: 4
+  fr.api-music-fa.com: 4
+  bab-6.site: 4
 
 Топ портов:
-  443: 10
-  80: 3
-  8443: 2
+  443: 91
+  2053: 14
+  8443: 12
+  2096: 5
+  2087: 4
+  1891: 3
+  2377: 3
+  80: 2
+  57667: 1
   25096: 1
-  2053: 1
-  24215: 1
-  25172: 1
 
 Топ схем:
-  vless: 10
-  trojan: 5
-  hysteria2: 4
-  vmess: 4
+  vless: 73
+  trojan: 57
+  hysteria2: 7
+  ss: 3
 
 Топ transport:
-  ws: 12
-  tcp: 9
-  xhttp: 1
-  raw: 1
+  ws: 78
+  tcp: 50
+  xhttp: 9
+  grpc: 3
 
 Топ security:
-  tls: 12
-  none: 10
-  reality: 1
+  tls: 118
+  none: 14
+  reality: 8
 
 ────────────────────────────────────────────────────────────────────
 📊 pool
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 32
-Уникальных строк: 32
-Уникальных host:port: 28
-Уникальных backend: 29
-Anycast: 10
-Unknown country: 12
+Всего конфигов: 150
+Уникальных строк: 150
+Уникальных host:port: 146
+Уникальных backend: 96
+Anycast: 102
+Unknown country: 18
 
 Топ стран:
-  Unknown: 12
-  🌐 Anycast: 10
-  France: 3
-  Russia: 2
+  🌐 Anycast: 102
+  Unknown: 18
+  Netherlands: 11
+  France: 5
+  Russia: 3
   Finland: 2
-  Netherlands: 2
-  Germany: 1
+  Poland: 2
+  Germany: 2
+  Japan: 2
+  United States: 1
 
 Топ SNI:
-  dl.google.com: 2
-  www.yandex.ru: 2
-  apis.stroymatdv.cc: 2
-  www.calmlunch.com: 2
-  asia.csmaster.site: 2
-  bab-6.site: 1
-  www.bing.com: 1
-  www.cloudflare.com: 1
-  quatro.lmstream.org: 1
-  us5.h1cloud.net: 1
+  bab-6.site: 5
+  free-server.techsonic.dev: 4
+  s3ws.ragingbull.de5.net: 4
+  fr.api-music-fa.com: 4
+  jp3.yohototo.top: 4
+  asia.csmaster.site: 4
+  www.yandex.ru: 3
+  dl.google.com: 3
+  www.npmjs.com: 3
+  www.pleadcourt.org: 3
 
 Топ портов:
-  443: 15
-  80: 3
+  443: 101
+  8443: 13
+  2053: 11
+  2096: 4
+  1891: 3
   9881: 2
-  8443: 2
-  2087: 1
+  2087: 2
+  2377: 2
+  80: 2
   25481: 1
-  25172: 1
-  2053: 1
-  24215: 1
-  25096: 1
 
 Топ схем:
-  vless: 20
-  hysteria2: 4
-  trojan: 4
-  vmess: 4
+  vless: 87
+  trojan: 50
+  hysteria2: 9
+  vmess: 2
+  ss: 2
 
 Топ transport:
-  ws: 14
-  tcp: 11
-  grpc: 5
+  ws: 70
+  tcp: 55
+  grpc: 13
+  xhttp: 11
   raw: 1
-  xhttp: 1
 
 Топ security:
-  tls: 15
-  none: 10
-  reality: 7
+  tls: 110
+  reality: 22
+  none: 18
 
 ────────────────────────────────────────────────────────────────────
 📊 mixed
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 17
-Уникальных строк: 17
-Уникальных host:port: 17
-Уникальных backend: 15
-Anycast: 8
-Unknown country: 4
+Всего конфигов: 55
+Уникальных строк: 55
+Уникальных host:port: 55
+Уникальных backend: 46
+Anycast: 39
+Unknown country: 6
 
 Топ стран:
-  🌐 Anycast: 8
-  Unknown: 4
+  🌐 Anycast: 39
+  Unknown: 6
+  France: 2
+  Poland: 2
   Netherlands: 2
-  France: 1
-  Russia: 1
+  Estonia: 1
   Finland: 1
+  Russia: 1
+  Kazakhstan: 1
 
 Топ SNI:
-  dl.google.com: 2
+  dl.google.com: 3
+  bab-6.site: 2
   apis.stroymatdv.cc: 2
   www.yandex.ru: 2
+  max.ru: 2
+  www.large-files.info: 2
+  fr.api-music-fa.com: 2
+  s3ws.ragingbull.de5.net: 2
   asia.csmaster.site: 2
-  quatro.lmstream.org: 1
-  www.bing.com: 1
-  bab-6.site: 1
-  www.cloudflare.com: 1
-  ccc.010304.xyz: 1
-  QjSDgI-6551.gborole.buzz: 1
+  ccc.010304.xyz: 2
 
 Топ портов:
-  443: 9
+  443: 37
+  8443: 7
+  2053: 3
   9881: 2
-  8443: 2
-  2087: 1
+  1891: 2
   25481: 1
-  2053: 1
-  24215: 1
+  9892: 1
+  2087: 1
+  2096: 1
 
 Топ схем:
-  vless: 17
+  vless: 55
 
 Топ transport:
-  ws: 8
-  grpc: 5
-  tcp: 2
+  ws: 27
+  grpc: 12
+  tcp: 9
+  xhttp: 6
   raw: 1
-  xhttp: 1
 
 Топ security:
-  tls: 10
-  reality: 7
+  tls: 35
+  reality: 20
 
 ────────────────────────────────────────────────────────────────────
 📊 lte
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 22
-Уникальных строк: 22
-Уникальных host:port: 22
-Уникальных backend: 19
-Anycast: 8
-Unknown country: 6
+Всего конфигов: 25
+Уникальных строк: 25
+Уникальных host:port: 25
+Уникальных backend: 22
+Anycast: 20
+Unknown country: 0
 
 Топ стран:
-  🌐 Anycast: 8
-  Unknown: 6
-  France: 3
-  Russia: 2
+  🌐 Anycast: 20
   Netherlands: 2
-  Finland: 1
+  France: 2
+  Russia: 1
 
 Топ SNI:
   www.yandex.ru: 2
+  max.ru: 2
   apis.stroymatdv.cc: 2
-  asia.csmaster.site: 2
-  www.calmlunch.com: 2
-  dl.google.com: 2
-  ssl.fastly.com: 1
-  primelinelk.me: 1
-  ccc.010304.xyz: 1
+  ssl.fastly.com: 2
+  ccc.010304.xyz: 2
+  music.yandex.ru: 1
+  event.yandex.ru: 1
   bab-6.site: 1
-  quatro.lmstream.org: 1
+  pew.dianawmoon.dpdns.org: 1
+  api-v2.wordfreetop.com: 1
 
 Топ портов:
-  443: 14
-  8443: 2
-  9881: 2
+  443: 19
+  8443: 3
+  2053: 2
   2087: 1
-  25481: 1
-  2053: 1
-  24215: 1
 
 Топ схем:
-  vless: 17
-  trojan: 4
-  hysteria2: 1
+  vless: 25
 
 Топ transport:
-  ws: 11
-  grpc: 5
-  tcp: 4
-  xhttp: 1
-  raw: 1
+  ws: 10
+  xhttp: 8
+  grpc: 6
+  tcp: 1
 
 Топ security:
-  tls: 15
-  reality: 7
+  tls: 19
+  reality: 6
 
 ====================================================================
 🌍 GLOBAL SUMMARY
 ====================================================================
-Всего конфигов: 112
-Уникальных строк: 35
-Уникальных host:port: 29
-Уникальных backend: 29
-Anycast: 37
-Unknown country: 37
+Всего конфигов: 430
+Уникальных строк: 176
+Уникальных host:port: 166
+Уникальных backend: 105
+Anycast: 287
+Unknown country: 51
 
 Топ стран:
-  🌐 Anycast: 37
-  Unknown: 37
-  France: 12
-  Netherlands: 10
-  Russia: 7
-  Finland: 7
-  Germany: 2
+  🌐 Anycast: 287
+  Unknown: 51
+  Netherlands: 31
+  France: 17
+  Russia: 9
+  Poland: 8
+  Finland: 6
+  United States: 5
+  Estonia: 4
+  Japan: 4
+  Germany: 4
+  Kazakhstan: 3
+  Belarus: 1
 
 Топ SNI:
+  bab-6.site: 14
+  dl.google.com: 12
+  www.yandex.ru: 11
+  s3ws.ragingbull.de5.net: 11
+  fr.api-music-fa.com: 11
+  ccc.010304.xyz: 11
+  max.ru: 10
   apis.stroymatdv.cc: 10
-  dl.google.com: 10
-  www.yandex.ru: 8
-  asia.csmaster.site: 8
-  www.calmlunch.com: 7
-  quatro.lmstream.org: 5
-  bab-6.site: 5
-  www.cloudflare.com: 5
-  www.bing.com: 5
-  ccc.010304.xyz: 4
-  primelinelk.me: 4
-  ssl.fastly.com: 4
-  QjSDgI-6551.gborole.buzz: 4
-  addons.mozilla.org: 4
-  www.volumeroot.com: 3
+  asia.csmaster.site: 10
+  jp3.yohototo.top: 10
+  s4ws.ragingbull.de5.net: 9
+  free-server.techsonic.dev: 9
+  www.large-files.info: 8
+  uwu.blueknightnet.qzz.io: 8
+  www.npmjs.com: 8
 
 Топ портов:
-  443: 59
-  9881: 10
-  8443: 8
-  80: 6
-  25481: 5
-  2087: 4
-  2053: 4
-  24215: 4
+  443: 287
+  8443: 39
+  2053: 30
+  2096: 10
+  2087: 9
+  9881: 8
+  1891: 8
+  2377: 5
+  25481: 4
+  9892: 4
+  80: 4
+  150: 3
+  25172: 3
+  18333: 2
   25096: 2
-  25172: 2
 
 Топ схем:
-  vless: 82
-  trojan: 13
-  hysteria2: 9
-  vmess: 8
+  vless: 292
+  trojan: 107
+  hysteria2: 20
+  vmess: 6
+  ss: 5
 
 Топ transport:
-  ws: 51
-  tcp: 29
-  grpc: 23
+  ws: 193
+  tcp: 134
+  grpc: 56
+  xhttp: 42
   raw: 5
-  xhttp: 4
 
 Топ security:
-  tls: 60
-  reality: 32
-  none: 20
+  tls: 300
+  reality: 88
+  none: 42
