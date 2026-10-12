@@ -1,5 +1,5 @@
 VPN Builder stats summary
-Generated at: 2026-10-12 19:08:47 MSK
+Generated at: 2026-10-13 02:04:21 MSK
 
 ====================================================================
 RAW GROUPS
@@ -8,175 +8,184 @@ RAW GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 115
-Уникальных строк: 87
-Уникальных host:port: 21
-Уникальных backend: 23
-Anycast: 49
-Unknown country: 16
+Всего конфигов: 141
+Уникальных строк: 122
+Уникальных host:port: 25
+Уникальных backend: 24
+Anycast: 42
+Unknown country: 31
 
 Топ стран:
-  🌐 Anycast: 49
-  Poland: 31
-  Unknown: 16
-  Germany: 7
-  Kazakhstan: 6
-  Russia: 6
+  Poland: 46
+  🌐 Anycast: 42
+  Unknown: 31
+  Russia: 14
+  Kazakhstan: 7
+  Germany: 1
 
 Топ SNI:
-  eh.vk.ru: 26
-  dl.google.com: 23
-  birthdaysale.net: 12
-  rwyisq.edge-assets.ru: 10
-  eh2.vk.ru: 6
-  eh4.vk.ru: 6
-  eh1.vk.ru: 6
-  msk.frkn.org: 6
-  my.kempekl.online: 5
-  msk-ind-1.movietop24.site: 3
+  eh.vk.ru: 38
+  dl.google.com: 31
+  ru-1-1.unturned-rust-dead.lol: 17
+  ru-1-2.unturned-rust-dead.lol: 8
+  rwyisq.edge-assets.ru: 7
+  www.cloudflare.com: 7
+  my.kempekl.online: 6
+  ru-1-3.unturned-rust-dead.lol: 5
+  dzv5pi.edge-assets.ru: 3
+  apple.com: 3
 
 Топ портов:
-  443: 86
-  9892: 7
-  9882: 6
-  9872: 4
-  9889: 3
-  9873: 3
-  2053: 1
+  443: 92
+  9889: 8
+  9882: 7
+  25136: 7
+  9873: 6
+  9892: 5
+  9872: 5
+  8443: 3
+  2053: 3
+  46018: 2
 
 Топ схем:
-  vless: 103
-  hysteria2: 7
-  vmess: 5
+  vless: 135
+  hysteria2: 3
+  vmess: 3
 
 Топ transport:
-  tcp: 49
-  grpc: 29
-  xhttp: 22
-  raw: 10
-  ws: 5
+  tcp: 59
+  grpc: 49
+  raw: 17
+  xhttp: 10
+  ws: 6
 
 Топ security:
-  reality: 76
-  tls: 29
-  none: 10
+  reality: 119
+  tls: 16
+  none: 6
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_vless
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 84
-Уникальных строк: 84
-Уникальных host:port: 21
+Всего конфигов: 120
+Уникальных строк: 120
+Уникальных host:port: 25
 Уникальных backend: 23
-Anycast: 31
-Unknown country: 16
+Anycast: 40
+Unknown country: 31
 
 Топ стран:
-  🌐 Anycast: 31
-  Poland: 18
-  Unknown: 16
-  Germany: 7
-  Kazakhstan: 6
-  Russia: 6
+  🌐 Anycast: 40
+  Unknown: 31
+  Poland: 27
+  Russia: 14
+  Kazakhstan: 7
+  Germany: 1
 
 Топ SNI:
-  dl.google.com: 23
-  eh.vk.ru: 13
-  rwyisq.edge-assets.ru: 10
-  birthdaysale.net: 6
-  my.kempekl.online: 5
-  eh2.vk.ru: 3
-  eh4.vk.ru: 3
-  eh1.vk.ru: 3
-  msk-ind-1.movietop24.site: 3
-  ru-1-2.unturned-rust-dead.lol: 3
+  dl.google.com: 31
+  eh.vk.ru: 19
+  ru-1-1.unturned-rust-dead.lol: 17
+  ru-1-2.unturned-rust-dead.lol: 8
+  rwyisq.edge-assets.ru: 7
+  www.cloudflare.com: 7
+  my.kempekl.online: 6
+  ru-1-3.unturned-rust-dead.lol: 5
+  dzv5pi.edge-assets.ru: 3
+  apple.com: 3
 
 Топ портов:
-  443: 55
-  9892: 7
-  9882: 6
-  9872: 4
-  9889: 3
-  9873: 3
+  443: 73
+  9889: 8
+  9882: 7
+  25136: 7
+  9873: 6
+  9892: 5
+  9872: 5
+  8443: 3
+  46018: 2
   2053: 1
 
 Топ схем:
-  vless: 75
-  vmess: 5
-  hysteria2: 4
+  vless: 116
+  vmess: 3
+  hysteria2: 1
 
 Топ transport:
-  tcp: 29
-  grpc: 29
-  xhttp: 16
-  ws: 5
-  raw: 5
+  grpc: 49
+  tcp: 43
+  raw: 12
+  xhttp: 10
+  ws: 6
 
 Топ security:
-  reality: 54
-  tls: 23
-  none: 7
+  reality: 100
+  tls: 16
+  none: 4
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW black_all
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 410
-Уникальных строк: 291
-Уникальных host:port: 60
-Уникальных backend: 38
-Anycast: 61
-Unknown country: 70
+Всего конфигов: 491
+Уникальных строк: 400
+Уникальных host:port: 77
+Уникальных backend: 75
+Anycast: 70
+Unknown country: 148
 
 Топ стран:
-  Netherlands: 151
-  Unknown: 70
-  🌐 Anycast: 61
-  Germany: 56
-  France: 36
-  India: 15
-  United States: 9
-  Russia: 9
-  Lithuania: 3
+  Netherlands: 153
+  Unknown: 148
+  🌐 Anycast: 70
+  Germany: 59
+  France: 31
+  Russia: 10
+  United States: 8
+  Lithuania: 6
+  Finland: 2
+  Kazakhstan: 2
 
 Топ SNI:
-  www.volumeroot.com: 66
-  www.pleadcourt.org: 57
-  www.calmlunch.com: 37
-  rnxq-1lpi3m.linmeisoft.com: 34
-  wWw.Volumeroot.cOm.: 28
-  qcloudge1.exitvpn.shop: 18
-  sweedenqfds777.qcloud.surf: 18
-  finkawwwbroy5.qcloud.surf: 17
-  ccc.010304.xyz: 16
-  fr.api-music-fa.com: 12
+  www.volumeroot.com: 64
+  www.pleadcourt.org: 56
+  rnxq-1lpi3m.linmeisoft.com: 48
+  www.calmlunch.com: 31
+  wWw.Volumeroot.cOm.: 25
+  www.samsung.com: 20
+  ccc.010304.xyz: 19
+  sweedenqfds777.qcloud.surf: 16
+  qcloudge1.exitvpn.shop: 13
+  rwyisq.edge-assets.ru: 12
 
 Топ портов:
-  443: 295
-  2053: 25
-  20270: 18
-  21223: 18
-  20326: 17
-  25119: 10
-  2087: 9
-  666: 6
-  8443: 3
-  50875: 3
+  443: 313
+  25119: 20
+  2087: 18
+  21223: 17
+  43000: 13
+  20270: 13
+  27313: 12
+  2083: 11
+  20326: 11
+  28152: 9
 
 Топ схем:
-  trojan: 215
-  vless: 126
-  hysteria2: 68
-  vmess: 1
+  vless: 209
+  trojan: 181
+  hysteria2: 76
+  vmess: 25
 
 Топ transport:
-  ws: 277
-  tcp: 124
-  grpc: 9
+  ws: 280
+  tcp: 170
+  grpc: 22
+  xhttp: 13
+  raw: 6
 
 Топ security:
-  tls: 345
-  reality: 37
-  none: 28
+  tls: 342
+  reality: 91
+  none: 58
 
 ====================================================================
 FINAL GROUPS
@@ -185,296 +194,308 @@ FINAL GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 26
-Уникальных строк: 26
-Уникальных host:port: 21
+Всего конфигов: 28
+Уникальных строк: 28
+Уникальных host:port: 25
 Уникальных backend: 23
-Anycast: 11
-Unknown country: 8
+Anycast: 8
+Unknown country: 10
 
 Топ стран:
-  🌐 Anycast: 11
-  Unknown: 8
-  Russia: 2
-  Poland: 2
-  Germany: 2
+  Unknown: 10
+  🌐 Anycast: 8
+  Russia: 5
+  Poland: 3
+  Germany: 1
   Kazakhstan: 1
 
 Топ SNI:
   dl.google.com: 6
-  rwyisq.edge-assets.ru: 2
-  birthdaysale.net: 2
-  msk.frkn.org: 2
-  m.47news.ru: 1
-  my.kempekl.online: 1
-  eh1.vk.ru: 1
-  eh4.vk.ru: 1
-  eh2.vk.ru: 1
+  cape.flowzari.info: 2
+  ru-1-2.unturned-rust-dead.lol: 2
+  ru-1-3.unturned-rust-dead.lol: 2
+  ru-1-1.unturned-rust-dead.lol: 2
+  apple.com: 1
   eh.vk.ru: 1
+  dzv5pi.edge-assets.ru: 1
+  my.kempekl.online: 1
+  ember.datanexi.store: 1
 
 Топ портов:
-  443: 14
-  9892: 2
+  443: 15
+  9889: 2
+  8443: 1
+  46018: 1
+  25136: 1
   9882: 1
-  9889: 1
-  2053: 1
   9873: 1
+  9892: 1
+  2053: 1
   9872: 1
 
 Топ схем:
-  vless: 18
-  vmess: 5
-  hysteria2: 3
+  vless: 24
+  vmess: 3
+  hysteria2: 1
 
 Топ transport:
-  tcp: 12
-  grpc: 8
-  xhttp: 4
+  grpc: 12
+  tcp: 11
+  raw: 2
+  xhttp: 2
   ws: 1
-  raw: 1
 
 Топ security:
-  reality: 13
-  none: 8
-  tls: 5
+  reality: 21
+  none: 4
+  tls: 3
 
 ────────────────────────────────────────────────────────────────────
 📊 white_vless
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 26
-Уникальных строк: 26
-Уникальных host:port: 21
+Всего конфигов: 28
+Уникальных строк: 28
+Уникальных host:port: 25
 Уникальных backend: 23
-Anycast: 11
-Unknown country: 8
+Anycast: 8
+Unknown country: 10
 
 Топ стран:
-  🌐 Anycast: 11
-  Unknown: 8
-  Germany: 2
-  Russia: 2
-  Poland: 2
+  Unknown: 10
+  🌐 Anycast: 8
+  Russia: 5
+  Poland: 3
+  Germany: 1
   Kazakhstan: 1
 
 Топ SNI:
   dl.google.com: 6
-  rwyisq.edge-assets.ru: 2
-  birthdaysale.net: 2
-  msk.frkn.org: 2
-  eh1.vk.ru: 1
-  m.47news.ru: 1
+  ru-1-3.unturned-rust-dead.lol: 2
+  ru-1-1.unturned-rust-dead.lol: 2
+  ru-1-2.unturned-rust-dead.lol: 2
+  cape.flowzari.info: 2
+  apple.com: 1
+  ligastavok.ru: 1
+  dzv5pi.edge-assets.ru: 1
   my.kempekl.online: 1
-  eh2.vk.ru: 1
-  eh4.vk.ru: 1
-  ru-1-2.unturned-rust-dead.lol: 1
+  eh.vk.ru: 1
 
 Топ портов:
-  443: 14
-  9892: 2
+  443: 15
+  9889: 2
+  8443: 1
+  46018: 1
+  25136: 1
   9882: 1
-  9872: 1
-  9873: 1
+  9892: 1
   2053: 1
-  9889: 1
+  9873: 1
+  9872: 1
 
 Топ схем:
-  vless: 18
-  vmess: 5
-  hysteria2: 3
+  vless: 24
+  vmess: 3
+  hysteria2: 1
 
 Топ transport:
-  tcp: 12
-  grpc: 8
-  xhttp: 4
+  grpc: 12
+  tcp: 11
+  xhttp: 2
+  raw: 2
   ws: 1
-  raw: 1
 
 Топ security:
-  reality: 13
-  tls: 7
-  none: 6
+  reality: 21
+  none: 4
+  tls: 3
 
 ────────────────────────────────────────────────────────────────────
 📊 black_all
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 53
-Уникальных строк: 53
-Уникальных host:port: 52
-Уникальных backend: 36
-Anycast: 12
-Unknown country: 10
+Всего конфигов: 90
+Уникальных строк: 90
+Уникальных host:port: 67
+Уникальных backend: 71
+Anycast: 16
+Unknown country: 37
 
 Топ стран:
-  🌐 Anycast: 12
-  Unknown: 10
+  Unknown: 37
+  🌐 Anycast: 16
+  Netherlands: 13
   Germany: 9
-  Netherlands: 7
-  United States: 4
-  India: 4
+  Russia: 4
   France: 3
-  Russia: 3
+  United States: 3
   Lithuania: 1
+  Poland: 1
+  Japan: 1
 
 Топ SNI:
-  rnxq-1lpi3m.linmeisoft.com: 4
+  ap2.directly.chat: 4
   www.pleadcourt.org: 4
+  rnxq-1lpi3m.linmeisoft.com: 4
   www.calmlunch.com: 3
-  wWw.Volumeroot.cOm.: 2
+  wWw.Volumeroot.cOm.: 3
+  www.volumeroot.com: 3
+  ru-1-2.unturned-rust-dead.lol: 2
+  rwyisq.edge-assets.ru: 2
   ru-1-3.unturned-rust-dead.lol: 2
   ccc.010304.xyz: 2
-  play.google.com: 2
-  uwu.femboy67.cc.cd: 2
-  hyfuuf6.wsone.icu: 2
-  tttyder.wsone.icu: 2
 
 Топ портов:
-  443: 34
+  443: 42
+  2083: 3
   2087: 3
-  666: 2
+  43000: 2
   2053: 2
-  2095: 2
-  25119: 1
+  2095: 1
+  32134: 1
+  25136: 1
   50875: 1
-  8443: 1
-  2082: 1
-  18642: 1
+  25119: 1
 
 Топ схем:
-  vless: 24
-  trojan: 18
+  vless: 43
+  vmess: 23
+  trojan: 14
   hysteria2: 10
-  vmess: 1
 
 Топ transport:
-  tcp: 26
-  ws: 24
-  grpc: 3
+  tcp: 48
+  ws: 29
+  grpc: 7
+  raw: 3
+  xhttp: 3
 
 Топ security:
-  tls: 32
-  none: 11
-  reality: 10
+  tls: 38
+  none: 29
+  reality: 23
 
 ────────────────────────────────────────────────────────────────────
 📊 pool
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 72
-Уникальных строк: 72
-Уникальных host:port: 66
-Уникальных backend: 56
+Всего конфигов: 111
+Уникальных строк: 111
+Уникальных host:port: 80
+Уникальных backend: 86
 Anycast: 20
-Unknown country: 17
+Unknown country: 47
 
 Топ стран:
+  Unknown: 47
   🌐 Anycast: 20
-  Unknown: 17
-  Germany: 11
-  Russia: 5
-  Netherlands: 5
-  India: 4
-  United States: 4
-  Poland: 2
-  France: 2
-  Kazakhstan: 1
+  Netherlands: 12
+  Germany: 10
+  Russia: 7
+  Poland: 4
+  France: 3
+  United States: 3
+  Kazakhstan: 2
+  Japan: 1
 
 Топ SNI:
   dl.google.com: 6
-  rnxq-1lpi3m.linmeisoft.com: 3
-  msk.frkn.org: 2
-  birthdaysale.net: 2
-  rwyisq.edge-assets.ru: 2
-  ru-1-2.unturned-rust-dead.lol: 2
-  wWw.Volumeroot.cOm.: 2
-  hyfuuf6.wsone.icu: 2
-  ccc.010304.xyz: 2
-  www.calmlunch.com: 2
+  rnxq-1lpi3m.linmeisoft.com: 4
+  rwyisq.edge-assets.ru: 3
+  ru-1-3.unturned-rust-dead.lol: 3
+  ru-1-2.unturned-rust-dead.lol: 3
+  www.calmlunch.com: 3
+  ap2.directly.chat: 3
+  www.pleadcourt.org: 3
+  wWw.Volumeroot.cOm.: 3
+  www.volumeroot.com: 3
 
 Топ портов:
-  443: 42
+  443: 51
+  2083: 3
   2087: 3
-  9892: 2
+  9889: 2
   2053: 2
-  666: 2
-  2095: 2
-  9873: 1
-  9882: 1
-  9889: 1
+  25136: 2
+  8443: 2
+  43000: 2
+  9892: 1
   9872: 1
 
 Топ схем:
-  vless: 41
-  trojan: 15
+  vless: 62
+  vmess: 26
+  trojan: 13
   hysteria2: 10
-  vmess: 6
 
 Топ transport:
-  tcp: 35
-  ws: 21
-  grpc: 11
+  tcp: 57
+  ws: 28
+  grpc: 17
+  raw: 5
   xhttp: 4
-  raw: 1
 
 Топ security:
-  tls: 33
-  reality: 23
-  none: 16
+  reality: 41
+  tls: 38
+  none: 32
 
 ────────────────────────────────────────────────────────────────────
 📊 mixed
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 37
-Уникальных строк: 37
-Уникальных host:port: 37
-Уникальных backend: 30
-Anycast: 15
-Unknown country: 7
+Всего конфигов: 54
+Уникальных строк: 54
+Уникальных host:port: 52
+Уникальных backend: 43
+Anycast: 18
+Unknown country: 13
 
 Топ стран:
-  🌐 Anycast: 15
-  Unknown: 7
+  🌐 Anycast: 18
+  Unknown: 13
   Germany: 6
   Russia: 5
-  Poland: 2
-  Kazakhstan: 1
+  Poland: 4
+  Netherlands: 3
+  Kazakhstan: 2
+  Japan: 1
   Lithuania: 1
+  Finland: 1
 
 Топ SNI:
   dl.google.com: 6
-  rwyisq.edge-assets.ru: 2
-  birthdaysale.net: 2
+  cape.flowzari.info: 2
   ru-1-2.unturned-rust-dead.lol: 2
-  rnxq-1lpi3m.linmeisoft.com: 2
-  play.google.com: 2
+  ru-1-1.unturned-rust-dead.lol: 2
   ru-1-3.unturned-rust-dead.lol: 2
-  ccc.010304.xyz: 2
-  msk-ind-1.movietop24.site: 1
-  eh.vk.ru: 1
+  www.cloudflare.com: 2
+  rwyisq.edge-assets.ru: 2
+  delta.linkexo.xyz: 2
+  rnxq-1lpi3m.linmeisoft.com: 2
+  ap2.directly.chat: 2
 
 Топ портов:
-  443: 23
+  443: 32
   2087: 3
-  9892: 2
-  666: 2
-  9872: 1
+  2083: 3
+  9889: 2
+  8443: 2
+  25136: 2
+  43000: 2
+  9892: 1
   9873: 1
-  9882: 1
-  9889: 1
-  25119: 1
-  8443: 1
+  46018: 1
 
 Топ схем:
-  vless: 37
+  vless: 54
 
 Топ transport:
-  tcp: 11
-  grpc: 11
-  ws: 10
-  xhttp: 4
-  raw: 1
+  tcp: 20
+  grpc: 14
+  ws: 12
+  raw: 5
+  xhttp: 3
 
 Топ security:
-  reality: 23
-  tls: 14
+  reality: 39
+  tls: 15
 
 ────────────────────────────────────────────────────────────────────
 📊 lte
@@ -484,47 +505,45 @@ Unknown country: 7
 Уникальных host:port: 25
 Уникальных backend: 19
 Anycast: 8
-Unknown country: 2
+Unknown country: 0
 
 Топ стран:
   🌐 Anycast: 8
+  Netherlands: 6
   Germany: 5
-  Netherlands: 4
-  Russia: 2
-  Unknown: 2
-  Poland: 1
-  France: 1
-  Lithuania: 1
-  United States: 1
+  Poland: 2
+  France: 2
+  Japan: 1
+  Russia: 1
 
 Топ SNI:
-  rwyisq.edge-assets.ru: 2
   ccc.010304.xyz: 2
-  birthdaysale.net: 2
+  www.calmlunch.com: 2
   www.pleadcourt.org: 2
+  www.volumeroot.com: 2
   wWw.Volumeroot.cOm.: 2
-  rnxq-1lpi3m.linmeisoft.com: 2
+  ap2.directly.chat: 2
+  apple.com: 1
   my.kempekl.online: 1
-  lucasjow.us.ci: 1
-  fr.api-music-fa.com: 1
-  www.calmlunch.com: 1
+  dzv5pi.edge-assets.ru: 1
+  fert1qswdfegrthy.localip.ir: 1
 
 Топ портов:
-  443: 19
+  443: 18
   2087: 3
+  8443: 2
   2053: 1
-  8443: 1
-  50875: 1
+  2083: 1
 
 Топ схем:
-  vless: 19
-  trojan: 6
+  vless: 17
+  trojan: 8
 
 Топ transport:
-  ws: 15
-  xhttp: 4
+  ws: 18
   tcp: 4
-  grpc: 2
+  xhttp: 2
+  grpc: 1
 
 Топ security:
   tls: 20
@@ -533,74 +552,75 @@ Unknown country: 2
 ====================================================================
 🌍 GLOBAL SUMMARY
 ====================================================================
-Всего конфигов: 239
-Уникальных строк: 82
-Уникальных host:port: 70
-Уникальных backend: 56
-Anycast: 77
-Unknown country: 52
+Всего конфигов: 336
+Уникальных строк: 119
+Уникальных host:port: 83
+Уникальных backend: 87
+Anycast: 78
+Unknown country: 117
 
 Топ стран:
-  🌐 Anycast: 77
-  Unknown: 52
-  Germany: 35
-  Russia: 19
-  Netherlands: 16
-  Poland: 9
-  United States: 9
-  India: 8
-  France: 6
-  Kazakhstan: 4
-  Lithuania: 4
+  Unknown: 117
+  🌐 Anycast: 78
+  Netherlands: 34
+  Germany: 32
+  Russia: 27
+  Poland: 17
+  France: 8
+  Kazakhstan: 7
+  United States: 6
+  Japan: 4
+  Lithuania: 3
+  Finland: 3
 
 Топ SNI:
   dl.google.com: 24
-  rnxq-1lpi3m.linmeisoft.com: 11
+  ru-1-2.unturned-rust-dead.lol: 11
+  ru-1-3.unturned-rust-dead.lol: 11
+  ap2.directly.chat: 11
+  cape.flowzari.info: 10
   rwyisq.edge-assets.ru: 10
-  birthdaysale.net: 10
-  msk.frkn.org: 8
+  rnxq-1lpi3m.linmeisoft.com: 10
+  www.pleadcourt.org: 9
+  ru-1-1.unturned-rust-dead.lol: 8
+  www.calmlunch.com: 8
+  wWw.Volumeroot.cOm.: 8
   ccc.010304.xyz: 8
-  www.pleadcourt.org: 8
-  ru-1-2.unturned-rust-dead.lol: 7
-  ru-1-3.unturned-rust-dead.lol: 7
-  www.calmlunch.com: 6
-  wWw.Volumeroot.cOm.: 6
-  play.google.com: 6
-  m.47news.ru: 5
-  my.kempekl.online: 5
-  eh1.vk.ru: 4
+  www.volumeroot.com: 8
+  delta.linkexo.xyz: 7
+  www.cloudflare.com: 7
 
 Топ портов:
-  443: 146
+  443: 173
   2087: 12
-  9892: 8
-  2053: 8
-  666: 6
+  2083: 10
+  8443: 9
+  9889: 8
+  25136: 7
+  2053: 7
+  43000: 6
+  46018: 4
   9882: 4
-  9889: 4
   9873: 4
+  9892: 4
   9872: 4
-  2095: 4
-  8443: 4
+  32134: 3
   25119: 3
-  50875: 3
-  2082: 2
-  18642: 2
 
 Топ схем:
-  vless: 157
-  trojan: 39
-  hysteria2: 26
-  vmess: 17
+  vless: 224
+  vmess: 55
+  trojan: 35
+  hysteria2: 22
 
 Топ transport:
-  tcp: 100
-  ws: 72
-  grpc: 43
-  xhttp: 20
-  raw: 4
+  tcp: 151
+  ws: 89
+  grpc: 63
+  raw: 17
+  xhttp: 16
 
 Топ security:
-  tls: 111
-  reality: 87
-  none: 41
+  reality: 150
+  tls: 117
+  none: 69
