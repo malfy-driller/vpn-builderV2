@@ -1,5 +1,5 @@
 VPN Builder stats summary
-Generated at: 2026-10-14 20:36:12 MSK
+Generated at: 2026-10-14 23:58:03 MSK
 
 ====================================================================
 RAW GROUPS
@@ -8,131 +8,148 @@ RAW GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 12
-Уникальных строк: 12
-Уникальных host:port: 3
-Уникальных backend: 4
-Anycast: 7
+Всего конфигов: 64
+Уникальных строк: 39
+Уникальных host:port: 5
+Уникальных backend: 7
+Anycast: 9
 Unknown country: 0
 
 Топ стран:
-  🌐 Anycast: 7
-  Netherlands: 5
+  Poland: 30
+  Germany: 20
+  🌐 Anycast: 9
+  Russia: 5
 
 Топ SNI:
-  api.mediaplav.cc: 5
-  lk.x5.ru: 5
-  match-stream.lovkisport.blog: 1
+  eh.vk.ru: 30
+  vod3.rucdncomp.pro: 20
+  storage.fatcutecat.net: 5
+  tcprus5.figurapn.ru: 5
+  194.87.118.184: 2
   off: 1
+  match-stream.lovkisport.blog: 1
 
 Топ портов:
-  443: 5
-  49922: 5
-  2053: 2
+  443: 40
+  20010: 20
+  2053: 4
 
 Топ схем:
-  vless: 10
-  hysteria2: 2
+  vless: 60
+  hysteria2: 4
 
 Топ transport:
-  grpc: 10
-  tcp: 2
+  tcp: 29
+  ws: 20
+  raw: 15
 
 Топ security:
-  tls: 5
-  reality: 5
-  none: 2
+  reality: 35
+  tls: 25
+  none: 4
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_vless
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 11
-Уникальных строк: 11
-Уникальных host:port: 3
-Уникальных backend: 3
+Всего конфигов: 36
+Уникальных строк: 36
+Уникальных host:port: 5
+Уникальных backend: 5
 Anycast: 6
 Unknown country: 0
 
 Топ стран:
+  Poland: 15
+  Germany: 10
   🌐 Anycast: 6
-  Netherlands: 5
+  Russia: 5
 
 Топ SNI:
-  api.mediaplav.cc: 5
-  lk.x5.ru: 5
+  eh.vk.ru: 15
+  vod3.rucdncomp.pro: 10
+  storage.fatcutecat.net: 5
+  tcprus5.figurapn.ru: 5
   match-stream.lovkisport.blog: 1
 
 Топ портов:
-  443: 5
-  49922: 5
+  443: 25
+  20010: 10
   2053: 1
 
 Топ схем:
-  vless: 10
+  vless: 35
   hysteria2: 1
 
 Топ transport:
-  grpc: 10
-  tcp: 1
+  tcp: 16
+  ws: 10
+  raw: 10
 
 Топ security:
-  tls: 5
-  reality: 5
+  reality: 20
+  tls: 15
   none: 1
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW black_all
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 269
-Уникальных строк: 193
-Уникальных host:port: 21
-Уникальных backend: 26
-Anycast: 91
-Unknown country: 27
+Всего конфигов: 282
+Уникальных строк: 190
+Уникальных host:port: 27
+Уникальных backend: 37
+Anycast: 62
+Unknown country: 59
 
 Топ стран:
-  🌐 Anycast: 91
-  Netherlands: 88
-  Unknown: 27
-  France: 25
-  Germany: 14
-  Lithuania: 12
-  Poland: 12
+  Netherlands: 82
+  🌐 Anycast: 62
+  Unknown: 59
+  United States: 45
+  France: 20
+  Lithuania: 13
+  Germany: 1
 
 Топ SNI:
-  ssl.fastly.com: 48
-  www.volumeroot.com: 34
-  www.calmlunch.com: 25
-  ccc.010304.xyz: 22
-  www.pleadcourt.org: 22
-  wWw.Volumeroot.cOm.: 20
-  Account.fastly.com: 12
-  b58e68t.lt1.h1clayd.click: 12
-  pl.bootless.ru: 12
-  portal.citygrainla.com: 12
+  www.icloud.com: 65
+  www.volumeroot.com: 40
+  ccc.010304.xyz: 33
+  www.pleadcourt.org: 25
+  www.calmlunch.com: 20
+  wWw.Volumeroot.cOm.: 17
+  b58e68t.lt1.h1clayd.click: 13
+  fiber.google.com: 10
+  sweedenqfds777.qcloud.surf: 8
+  45.137.43.168: 6
 
 Топ портов:
-  443: 240
-  2083: 11
+  443: 155
+  25717: 22
+  26100: 11
+  26128: 11
+  25716: 11
+  25718: 10
+  2087: 10
+  21223: 8
+  14430: 6
   80: 6
-  2053: 6
-  6008: 2
 
 Топ схем:
-  vless: 148
-  trojan: 107
-  hysteria2: 10
-  vmess: 4
+  vless: 137
+  trojan: 108
+  vmess: 20
+  hysteria2: 17
 
 Топ transport:
-  ws: 205
-  tcp: 38
-  xhttp: 26
+  ws: 155
+  tcp: 84
+  grpc: 33
+  xhttp: 10
 
 Топ security:
-  tls: 228
-  reality: 24
-  none: 17
+  tls: 144
+  reality: 88
+  none: 50
 
 ====================================================================
 FINAL GROUPS
@@ -141,343 +158,390 @@ FINAL GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 3
-Уникальных строк: 3
-Уникальных host:port: 3
-Уникальных backend: 3
+Всего конфигов: 5
+Уникальных строк: 5
+Уникальных host:port: 5
+Уникальных backend: 5
 Anycast: 2
 Unknown country: 0
 
 Топ стран:
   🌐 Anycast: 2
-  Netherlands: 1
+  Poland: 1
+  Russia: 1
+  Germany: 1
 
 Топ SNI:
-  api.mediaplav.cc: 1
-  lk.x5.ru: 1
-  match-stream.lovkisport.blog: 1
+  eh.vk.ru: 1
+  storage.fatcutecat.net: 1
+  tcprus5.figurapn.ru: 1
+  vod3.rucdncomp.pro: 1
+  off: 1
 
 Топ портов:
-  443: 1
-  49922: 1
+  443: 3
+  20010: 1
   2053: 1
 
 Топ схем:
-  vless: 2
+  vless: 4
   hysteria2: 1
 
 Топ transport:
-  grpc: 2
-  tcp: 1
+  raw: 2
+  tcp: 2
+  ws: 1
 
 Топ security:
-  tls: 1
-  reality: 1
+  reality: 2
+  tls: 2
   none: 1
 
 ────────────────────────────────────────────────────────────────────
 📊 white_vless
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 3
-Уникальных строк: 3
-Уникальных host:port: 3
-Уникальных backend: 3
+Всего конфигов: 5
+Уникальных строк: 5
+Уникальных host:port: 5
+Уникальных backend: 5
 Anycast: 2
 Unknown country: 0
 
 Топ стран:
   🌐 Anycast: 2
-  Netherlands: 1
+  Poland: 1
+  Russia: 1
+  Germany: 1
 
 Топ SNI:
-  api.mediaplav.cc: 1
-  lk.x5.ru: 1
+  eh.vk.ru: 1
+  storage.fatcutecat.net: 1
+  vod3.rucdncomp.pro: 1
+  tcprus5.figurapn.ru: 1
   match-stream.lovkisport.blog: 1
 
 Топ портов:
-  443: 1
-  49922: 1
+  443: 3
+  20010: 1
   2053: 1
 
 Топ схем:
-  vless: 2
+  vless: 4
   hysteria2: 1
 
 Топ transport:
-  grpc: 2
-  tcp: 1
+  raw: 2
+  tcp: 2
+  ws: 1
 
 Топ security:
-  tls: 1
-  reality: 1
+  reality: 2
+  tls: 2
   none: 1
 
 ────────────────────────────────────────────────────────────────────
 📊 black_all
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 24
-Уникальных строк: 24
-Уникальных host:port: 21
-Уникальных backend: 21
-Anycast: 7
-Unknown country: 8
+Всего конфигов: 37
+Уникальных строк: 37
+Уникальных host:port: 27
+Уникальных backend: 34
+Anycast: 10
+Unknown country: 16
 
 Топ стран:
-  Unknown: 8
-  🌐 Anycast: 7
+  Unknown: 16
+  🌐 Anycast: 10
+  United States: 4
   Netherlands: 3
-  Germany: 2
   France: 2
   Lithuania: 1
-  Poland: 1
+  Germany: 1
 
 Топ SNI:
-  ssl.fastly.com: 3
+  www.icloud.com: 5
   www.calmlunch.com: 2
-  portal.citygrainla.com: 1
+  ccc.010304.xyz: 2
+  45.137.43.168: 2
   b58e68t.lt1.h1clayd.click: 1
-  Account.fastly.com: 1
-  pl.bootless.ru: 1
+  wWw.Volumeroot.cOm.: 1
+  91.196.32.163: 1
   play.google.com: 1
-  lucasjow.us.ci: 1
-  ccc.010304.xyz: 1
-  connect.dodopanel.biz: 1
+  www.volumeroot.com: 1
+  www.pleadcourt.org: 1
 
 Топ портов:
-  443: 17
-  2083: 1
+  443: 12
+  14430: 2
+  25718: 1
+  2087: 1
+  2095: 1
   80: 1
-  6008: 1
-  2053: 1
+  25717: 1
+  26100: 1
+  26128: 1
+  25716: 1
 
 Топ схем:
-  vless: 12
-  trojan: 6
-  hysteria2: 3
-  vmess: 3
+  vless: 14
+  vmess: 10
+  trojan: 8
+  hysteria2: 5
 
 Топ transport:
-  ws: 13
-  tcp: 8
-  xhttp: 3
+  tcp: 20
+  ws: 14
+  grpc: 2
+  xhttp: 1
 
 Топ security:
-  tls: 16
-  none: 6
-  reality: 2
+  none: 20
+  tls: 10
+  reality: 7
 
 ────────────────────────────────────────────────────────────────────
 📊 pool
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 25
-Уникальных строк: 25
-Уникальных host:port: 22
-Уникальных backend: 23
-Anycast: 8
-Unknown country: 7
+Всего конфигов: 41
+Уникальных строк: 41
+Уникальных host:port: 31
+Уникальных backend: 38
+Anycast: 12
+Unknown country: 15
 
 Топ стран:
-  🌐 Anycast: 8
-  Unknown: 7
-  Netherlands: 4
+  Unknown: 15
+  🌐 Anycast: 12
+  United States: 4
+  Netherlands: 3
   Germany: 2
   France: 2
-  Lithuania: 1
   Poland: 1
+  Russia: 1
+  Lithuania: 1
 
 Топ SNI:
+  www.icloud.com: 5
+  45.137.43.168: 2
+  ccc.010304.xyz: 2
   www.calmlunch.com: 2
-  ssl.fastly.com: 2
-  match-stream.lovkisport.blog: 1
-  lk.x5.ru: 1
-  api.mediaplav.cc: 1
-  Account.fastly.com: 1
-  cafebazaar.ir: 1
-  free.sahanwickramasinghe.me: 1
-  ccc.010304.xyz: 1
-  lucasjow.us.ci: 1
+  eh.vk.ru: 1
+  vod3.rucdncomp.pro: 1
+  storage.fatcutecat.net: 1
+  tcprus5.figurapn.ru: 1
+  off: 1
+  eyjhzgqioijkqle0zfbeuhvkrnpqnetwlnyum2rucy52axailcjpzci6ijfkodrlndgwlthmzditngzhzs05nmrllwu0nmzlmzzmzmu4niisinbvcnqioii0ndmilcjzy3kioijhdxrviiwidii6ijiilcjuzxqioij3cyisimhvc3qioijkqle0zfbeuhvkrnpqnetwlnyum2rucy52axailcjwyxroijoil3dzlxztzxnziiwidgxzijoidgxziiwiywxwbii6iiisimzwijoiiiwic25pijoiskjrngrqrfb1skz6ajrlvi52ljnkbnmudmlwiiwichmioilwn4ew8j+htybtb3v0acblb3jlyswgww9uz3nhbi1kb25nihwgw0jmxsisimfpzci6ijailcj0exblijoibm9uzsj9: 1
 
 Топ портов:
-  443: 17
+  443: 15
+  14430: 2
+  20010: 1
   2053: 1
-  49922: 1
-  6008: 1
-  80: 1
-  2083: 1
+  10443: 1
+  26128: 1
+  25716: 1
+  2087: 1
+  25718: 1
+  25717: 1
 
 Топ схем:
-  vless: 13
-  trojan: 6
-  hysteria2: 3
-  vmess: 3
+  vless: 18
+  vmess: 10
+  trojan: 8
+  hysteria2: 5
 
 Топ transport:
-  ws: 12
-  tcp: 8
-  xhttp: 3
+  tcp: 21
+  ws: 15
+  raw: 2
   grpc: 2
+  xhttp: 1
 
 Топ security:
-  tls: 15
-  none: 7
-  reality: 3
+  none: 20
+  tls: 12
+  reality: 9
 
 ────────────────────────────────────────────────────────────────────
 📊 mixed
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 11
-Уникальных строк: 11
-Уникальных host:port: 11
-Уникальных backend: 10
-Anycast: 5
-Unknown country: 1
+Всего конфигов: 13
+Уникальных строк: 13
+Уникальных host:port: 13
+Уникальных backend: 12
+Anycast: 4
+Unknown country: 2
 
 Топ стран:
-  🌐 Anycast: 5
-  Netherlands: 2
-  Lithuania: 1
-  Unknown: 1
-  Germany: 1
+  🌐 Anycast: 4
+  United States: 3
+  Unknown: 2
   Poland: 1
+  Russia: 1
+  Germany: 1
+  Lithuania: 1
 
 Топ SNI:
-  ssl.fastly.com: 2
-  lk.x5.ru: 1
-  api.mediaplav.cc: 1
+  www.icloud.com: 5
+  ccc.010304.xyz: 2
+  eh.vk.ru: 1
+  storage.fatcutecat.net: 1
+  tcprus5.figurapn.ru: 1
+  vod3.rucdncomp.pro: 1
   b58e68t.lt1.h1clayd.click: 1
-  connect.dodopanel.biz: 1
-  Account.fastly.com: 1
-  pl.bootless.ru: 1
-  portal.citygrainla.com: 1
-  lucasjow.us.ci: 1
-  ccc.010304.xyz: 1
+  fiber.google.com: 1
 
 Топ портов:
-  443: 9
-  49922: 1
-  2083: 1
+  443: 6
+  20010: 1
+  2087: 1
+  26128: 1
+  25718: 1
+  25717: 1
+  25716: 1
+  26100: 1
 
 Топ схем:
-  vless: 11
+  vless: 13
 
 Топ transport:
-  ws: 5
+  tcp: 5
+  ws: 3
+  raw: 2
   grpc: 2
-  tcp: 2
-  xhttp: 2
+  xhttp: 1
 
 Топ security:
-  tls: 8
-  reality: 3
+  reality: 9
+  tls: 4
 
 ────────────────────────────────────────────────────────────────────
 📊 lte
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 18
-Уникальных строк: 18
-Уникальных host:port: 18
-Уникальных backend: 16
+Всего конфигов: 21
+Уникальных строк: 21
+Уникальных host:port: 21
+Уникальных backend: 19
 Anycast: 7
-Unknown country: 1
+Unknown country: 2
 
 Топ стран:
   🌐 Anycast: 7
-  Netherlands: 4
-  Germany: 2
+  Netherlands: 3
+  United States: 3
   France: 2
-  Poland: 1
+  Unknown: 2
+  Germany: 1
+  Russia: 1
   Lithuania: 1
-  Unknown: 1
+  Poland: 1
 
 Топ SNI:
-  ssl.fastly.com: 2
+  www.icloud.com: 5
+  ccc.010304.xyz: 2
   www.calmlunch.com: 2
-  Account.fastly.com: 1
-  pl.bootless.ru: 1
-  lucasjow.us.ci: 1
-  ccc.010304.xyz: 1
-  api.mediaplav.cc: 1
-  wWw.Volumeroot.cOm.: 1
+  vod3.rucdncomp.pro: 1
+  www.volumeroot.com: 1
   www.pleadcourt.org: 1
-  portal.citygrainla.com: 1
+  wWw.Volumeroot.cOm.: 1
+  storage.fatcutecat.net: 1
+  b58e68t.lt1.h1clayd.click: 1
+  play.google.com: 1
 
 Топ портов:
-  443: 16
-  2083: 1
-  49922: 1
+  443: 14
+  20010: 1
+  25718: 1
+  25717: 1
+  25716: 1
+  2087: 1
+  26128: 1
+  26100: 1
 
 Топ схем:
-  vless: 11
-  trojan: 6
-  hysteria2: 1
+  vless: 13
+  trojan: 8
 
 Топ transport:
   ws: 11
-  tcp: 3
-  xhttp: 2
+  tcp: 5
   grpc: 2
+  raw: 2
+  xhttp: 1
 
 Топ security:
-  tls: 15
-  reality: 3
+  tls: 12
+  reality: 9
 
 ====================================================================
 🌍 GLOBAL SUMMARY
 ====================================================================
-Всего конфигов: 84
-Уникальных строк: 27
-Уникальных host:port: 23
-Уникальных backend: 23
-Anycast: 31
-Unknown country: 17
+Всего конфигов: 122
+Уникальных строк: 43
+Уникальных host:port: 31
+Уникальных backend: 39
+Anycast: 37
+Unknown country: 35
 
 Топ стран:
-  🌐 Anycast: 31
-  Unknown: 17
-  Netherlands: 15
+  🌐 Anycast: 37
+  Unknown: 35
+  United States: 14
+  Netherlands: 9
   Germany: 7
   France: 6
+  Poland: 5
+  Russia: 5
   Lithuania: 4
-  Poland: 4
 
 Топ SNI:
-  ssl.fastly.com: 9
+  www.icloud.com: 20
+  ccc.010304.xyz: 8
   www.calmlunch.com: 6
-  api.mediaplav.cc: 5
-  lk.x5.ru: 5
-  match-stream.lovkisport.blog: 4
-  portal.citygrainla.com: 4
+  eh.vk.ru: 5
+  storage.fatcutecat.net: 5
+  tcprus5.figurapn.ru: 5
+  vod3.rucdncomp.pro: 5
   b58e68t.lt1.h1clayd.click: 4
-  Account.fastly.com: 4
-  pl.bootless.ru: 4
-  lucasjow.us.ci: 4
-  ccc.010304.xyz: 4
-  connect.dodopanel.biz: 4
-  play.google.com: 3
-  www.pleadcourt.org: 3
+  fiber.google.com: 4
+  45.137.43.168: 4
+  off: 3
   wWw.Volumeroot.cOm.: 3
+  play.google.com: 3
+  www.volumeroot.com: 3
+  www.pleadcourt.org: 3
 
 Топ портов:
-  443: 61
-  49922: 5
+  443: 53
+  20010: 5
   2053: 4
-  2083: 4
+  25718: 4
+  2087: 4
+  25717: 4
+  26100: 4
+  26128: 4
+  25716: 4
+  14430: 4
+  2095: 2
   80: 2
-  6008: 2
+  10443: 2
+  21223: 2
+  5443: 2
 
 Топ схем:
-  vless: 51
-  trojan: 18
-  hysteria2: 9
-  vmess: 6
+  vless: 66
+  trojan: 24
+  vmess: 20
+  hysteria2: 12
 
 Топ transport:
-  ws: 41
-  tcp: 23
-  grpc: 10
-  xhttp: 10
+  tcp: 55
+  ws: 45
+  raw: 10
+  grpc: 8
+  xhttp: 4
 
 Топ security:
-  tls: 56
-  none: 15
-  reality: 13
+  tls: 42
+  none: 42
+  reality: 38
