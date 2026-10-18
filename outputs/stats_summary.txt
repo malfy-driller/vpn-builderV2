@@ -1,5 +1,5 @@
 VPN Builder stats summary
-Generated at: 2026-10-18 09:02:49 MSK
+Generated at: 2026-10-18 14:21:09 MSK
 
 ====================================================================
 RAW GROUPS
@@ -8,186 +8,178 @@ RAW GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 149
-Уникальных строк: 136
-Уникальных host:port: 31
-Уникальных backend: 25
-Anycast: 25
-Unknown country: 23
+Всего конфигов: 92
+Уникальных строк: 89
+Уникальных host:port: 24
+Уникальных backend: 21
+Anycast: 9
+Unknown country: 3
 
 Топ стран:
-  Netherlands: 42
-  🌐 Anycast: 25
-  Unknown: 23
-  Russia: 19
-  Poland: 11
-  Austria: 9
-  Germany: 7
-  France: 6
-  Finland: 4
-  Bulgaria: 3
+  Netherlands: 47
+  Russia: 21
+  Finland: 9
+  🌐 Anycast: 9
+  Unknown: 3
+  Bulgaria: 2
+  Germany: 1
 
 Топ SNI:
-  max.ru: 20
-  ru-auto-02.10media.top: 17
-  apple.com: 16
-  id-6ad3c751.adhil.uk: 12
-  api.mediapolyana.cc: 11
-  www.rutube.ru: 11
-  api.mediakaskad.cc: 9
-  ru8.my-cdn.org: 8
-  api.videolaguna.cc: 6
-  gpt.prem-ai.shop: 6
+  ru-auto-02.10media.top: 11
+  api-v2-6ad3c751.vmagnum.win: 11
+  stillroom.10media.top: 10
+  www.bing.com: 9
+  max.ru: 7
+  apis.heoleti.pro: 6
+  outh.yandex-cloud.org: 6
+  rutube.ru: 4
+  api.mediaplotina.cc: 3
+  api-maps.yandex.ru: 3
 
 Топ портов:
-  443: 101
-  23688: 16
-  8443: 15
-  2053: 7
-  25481: 4
-  54183: 3
-  9443: 2
+  443: 39
+  8443: 14
+  25481: 9
+  2096: 6
+  2053: 6
+  54183: 6
+  10000: 4
+  447: 3
+  8444: 3
 
 Топ схем:
-  vless: 140
-  hysteria2: 8
-  vmess: 1
+  vless: 79
+  hysteria2: 11
+  vmess: 2
 
 Топ transport:
-  grpc: 64
-  tcp: 52
-  xhttp: 24
-  ws: 8
-  raw: 1
+  grpc: 52
+  tcp: 23
+  raw: 11
+  xhttp: 6
 
 Топ security:
-  reality: 86
-  tls: 54
-  none: 9
+  tls: 47
+  reality: 32
+  none: 13
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_vless
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 121
-Уникальных строк: 121
-Уникальных host:port: 26
-Уникальных backend: 20
-Anycast: 23
-Unknown country: 19
+Всего конфигов: 71
+Уникальных строк: 71
+Уникальных host:port: 20
+Уникальных backend: 15
+Anycast: 7
+Unknown country: 2
 
 Топ стран:
-  Netherlands: 32
-  🌐 Anycast: 23
-  Unknown: 19
-  Poland: 11
-  Austria: 9
-  Russia: 8
-  Germany: 7
-  France: 6
-  Finland: 4
+  Netherlands: 43
+  Finland: 9
+  🌐 Anycast: 7
+  Russia: 7
   Bulgaria: 2
+  Unknown: 2
+  Germany: 1
 
 Топ SNI:
-  ru-auto-02.10media.top: 17
-  apple.com: 13
-  id-6ad3c751.adhil.uk: 12
-  api.mediapolyana.cc: 11
-  max.ru: 10
-  api.mediakaskad.cc: 9
-  ru8.my-cdn.org: 8
-  api.videolaguna.cc: 6
-  gpt.prem-ai.shop: 6
-  stillroom.10media.top: 5
+  ru-auto-02.10media.top: 11
+  api-v2-6ad3c751.vmagnum.win: 11
+  stillroom.10media.top: 10
+  www.bing.com: 9
+  outh.yandex-cloud.org: 5
+  api.mediaplotina.cc: 3
+  api-maps.yandex.ru: 3
+  apis.heoleti.pro: 3
+  ru3.radiolumens.uk: 3
+  magnit.chronoaudit.ru: 3
 
 Топ портов:
-  443: 87
-  23688: 13
-  8443: 12
-  25481: 4
-  9443: 2
-  54183: 2
+  443: 32
+  8443: 14
+  25481: 9
+  54183: 5
+  447: 3
+  2096: 3
+  8444: 3
 
 Топ схем:
-  vless: 116
-  hysteria2: 4
-  vmess: 1
+  vless: 62
+  hysteria2: 7
+  vmess: 2
 
 Топ transport:
-  grpc: 58
-  tcp: 44
-  xhttp: 10
-  ws: 8
-  raw: 1
+  grpc: 45
+  tcp: 12
+  raw: 11
+  xhttp: 3
 
 Топ security:
-  reality: 62
-  tls: 54
-  none: 5
+  tls: 44
+  reality: 18
+  none: 9
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW black_all
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 459
-Уникальных строк: 311
-Уникальных host:port: 80
-Уникальных backend: 69
-Anycast: 127
-Unknown country: 96
+Всего конфигов: 315
+Уникальных строк: 239
+Уникальных host:port: 39
+Уникальных backend: 46
+Anycast: 56
+Unknown country: 69
 
 Топ стран:
-  🌐 Anycast: 127
-  Unknown: 96
-  Netherlands: 73
-  Germany: 43
-  Poland: 38
-  France: 34
-  Lithuania: 18
-  India: 11
-  Estonia: 7
-  United States: 7
+  Netherlands: 80
+  Unknown: 69
+  🌐 Anycast: 56
+  Poland: 30
+  France: 22
+  Lithuania: 22
+  Germany: 18
+  United States: 12
+  Japan: 5
+  Russia: 1
 
 Топ SNI:
-  poland.travel: 33
-  pl.golangwikito.cfd: 32
-  www.calmlunch.com: 32
-  www.volumeroot.com: 27
-  ccc.010304.xyz: 26
-  m-vruvc.mvpstr.com: 26
-  www.icloud.com: 22
-  proxy-34l.pages.dev: 22
-  www.pleadcourt.org: 20
-  b58e68t.lt1.h1clayd.click: 18
+  www.pleadcourt.org: 33
+  ccc.010304.xyz: 25
+  pl.golangwikito.cfd: 23
+  m-vruvc.mvpstr.com: 23
+  b58e68t.lt1.h1clayd.click: 22
+  poland.travel: 21
+  www.volumeroot.com: 21
+  sdcdethyerft.localip.ir: 18
+  FREETOPLAY-2.TETRIS-GAME.WORLD: 16
+  www.calmlunch.com: 16
 
 Топ портов:
-  443: 313
-  2087: 25
-  25119: 15
-  8443: 14
-  26128: 12
-  2083: 12
-  26100: 10
-  2053: 10
+  443: 255
+  2087: 18
   8080: 9
-  23690: 6
+  444: 6
+  2053: 5
+  8443: 3
+  28106: 2
+  2095: 1
 
 Топ схем:
-  vless: 307
-  trojan: 124
-  hysteria2: 16
-  vmess: 12
+  vless: 179
+  trojan: 103
+  hysteria2: 17
+  vmess: 16
 
 Топ transport:
-  tcp: 214
-  ws: 196
-  grpc: 28
-  raw: 19
-  xhttp: 2
+  tcp: 157
+  ws: 137
+  xhttp: 10
+  grpc: 6
+  raw: 5
 
 Топ security:
-  tls: 235
-  reality: 188
-  none: 34
-  false: 2
+  tls: 165
+  reality: 113
+  none: 37
 
 ====================================================================
 FINAL GROUPS
@@ -196,309 +188,300 @@ FINAL GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 32
-Уникальных строк: 32
-Уникальных host:port: 31
-Уникальных backend: 23
-Anycast: 8
-Unknown country: 7
+Всего конфигов: 26
+Уникальных строк: 26
+Уникальных host:port: 24
+Уникальных backend: 18
+Anycast: 2
+Unknown country: 3
 
 Топ стран:
-  🌐 Anycast: 8
-  Unknown: 7
-  Russia: 6
-  Netherlands: 3
-  Germany: 2
+  Netherlands: 9
+  Russia: 7
+  Unknown: 3
   Finland: 2
-  Poland: 1
-  France: 1
-  Austria: 1
-  Bulgaria: 1
+  🌐 Anycast: 2
+  Bulgaria: 2
+  Germany: 1
 
 Топ SNI:
-  www.rutube.ru: 4
-  apple.com: 3
-  ru8.my-cdn.org: 2
+  outh.yandex-cloud.org: 4
+  api-v2-6ad3c751.vmagnum.win: 3
   ru-auto-02.10media.top: 2
-  ap2.directly.chat: 2
-  id-6ad3c751.adhil.uk: 2
   www.bing.com: 2
-  ru1server.rabstvo.shop: 2
-  passport.yandex.ru: 1
+  ne13847.cdn-video.pro: 2
   max.ru: 1
+  www.rutube.ru: 1
+  rutube.ru: 1
+  dsapi-v2-6ad3c751.adhil.uk: 1
+  yt-ru.convertvideo123.online: 1
 
 Топ портов:
-  443: 18
+  443: 8
   8443: 4
-  23688: 3
+  54183: 4
   2053: 2
   25481: 2
-  9443: 1
-  54183: 1
+  10000: 1
+  2096: 1
+  447: 1
+  8444: 1
 
 Топ схем:
-  vless: 27
-  hysteria2: 4
-  vmess: 1
+  vless: 17
+  hysteria2: 7
+  vmess: 2
 
 Топ transport:
-  grpc: 14
-  tcp: 13
-  ws: 3
-  xhttp: 2
+  tcp: 12
+  grpc: 10
+  raw: 3
+  xhttp: 1
 
 Топ security:
-  reality: 17
-  tls: 10
-  none: 5
+  tls: 9
+  none: 9
+  reality: 8
 
 ────────────────────────────────────────────────────────────────────
 📊 white_vless
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 27
-Уникальных строк: 27
-Уникальных host:port: 26
-Уникальных backend: 19
-Anycast: 8
-Unknown country: 6
+Всего конфигов: 22
+Уникальных строк: 22
+Уникальных host:port: 20
+Уникальных backend: 14
+Anycast: 2
+Unknown country: 2
 
 Топ стран:
-  🌐 Anycast: 8
-  Unknown: 6
-  Netherlands: 3
-  Germany: 2
-  Russia: 2
+  Netherlands: 9
+  Russia: 4
+  🌐 Anycast: 2
   Finland: 2
-  France: 1
-  Poland: 1
-  Austria: 1
-  Bulgaria: 1
+  Bulgaria: 2
+  Unknown: 2
+  Germany: 1
 
 Топ SNI:
-  apple.com: 3
-  ru-auto-02.10media.top: 2
-  ru8.my-cdn.org: 2
-  ap2.directly.chat: 2
-  id-6ad3c751.adhil.uk: 2
-  ru1server.rabstvo.shop: 2
+  outh.yandex-cloud.org: 4
+  api-v2-6ad3c751.vmagnum.win: 3
   www.bing.com: 2
-  max.ru: 1
-  passport.yandex.ru: 1
-  promo-digital.wb.ru: 1
+  ne13847.cdn-video.pro: 2
+  ru-auto-02.10media.top: 2
+  magnit.chronoaudit.ru: 1
+  yt-ru.convertvideo123.online: 1
+  api.mediaplotina.cc: 1
+  dsapi-v2-6ad3c751.adhil.uk: 1
+  apis.heoleti.pro: 1
 
 Топ портов:
-  443: 17
-  23688: 3
-  8443: 2
+  443: 7
+  8443: 4
+  54183: 4
   25481: 2
-  9443: 1
-  54183: 1
+  2096: 1
+  447: 1
+  8444: 1
 
 Топ схем:
-  vless: 23
-  hysteria2: 3
-  vmess: 1
+  vless: 14
+  hysteria2: 6
+  vmess: 2
 
 Топ transport:
-  grpc: 12
-  tcp: 11
-  ws: 3
+  grpc: 9
+  tcp: 9
+  raw: 3
   xhttp: 1
 
 Топ security:
-  reality: 13
-  tls: 10
-  none: 4
+  tls: 9
+  none: 8
+  reality: 5
 
 ────────────────────────────────────────────────────────────────────
 📊 black_all
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 88
-Уникальных строк: 88
-Уникальных host:port: 78
-Уникальных backend: 62
-Anycast: 22
-Unknown country: 25
+Всего конфигов: 48
+Уникальных строк: 48
+Уникальных host:port: 39
+Уникальных backend: 41
+Anycast: 5
+Unknown country: 20
 
 Топ стран:
-  Unknown: 25
-  🌐 Anycast: 22
-  Germany: 12
-  Poland: 6
+  Unknown: 20
   Netherlands: 6
-  United States: 4
-  India: 4
-  France: 3
+  🌐 Anycast: 5
+  Poland: 4
+  France: 4
+  United States: 3
   Lithuania: 2
-  Estonia: 1
+  Germany: 2
+  Japan: 1
+  Russia: 1
 
 Топ SNI:
-  ru.tradingview.com: 4
-  proxy-34l.pages.dev: 4
-  proxy-1cu.pages.dev: 4
-  pl.golangwikito.cfd: 3
-  poland.travel: 3
-  ssl.fastly.com: 3
   b58e68t.lt1.h1clayd.click: 2
+  pl.golangwikito.cfd: 2
+  m-vruvc.mvpstr.com: 2
   www.pleadcourt.org: 2
   www.calmlunch.com: 2
-  tttyder.wsone.icu: 2
+  sdcdethyerft.localip.ir: 2
+  ne45174.cdn-video.pro: 2
+  www.apple.com: 1
+  max.ru: 1
+  accounts.fastly.com: 1
 
 Топ портов:
-  443: 45
-  8080: 5
-  2087: 4
-  8443: 3
-  2083: 2
-  2053: 2
-  80: 2
-  25119: 2
-  23690: 1
-  8462: 1
+  443: 29
+  8080: 3
+  2087: 2
+  28106: 1
+  8443: 1
+  444: 1
+  2095: 1
+  2053: 1
 
 Топ схем:
-  vless: 55
-  trojan: 18
-  vmess: 10
-  hysteria2: 5
+  vless: 23
+  trojan: 9
+  vmess: 9
+  hysteria2: 7
 
 Топ transport:
-  tcp: 52
-  ws: 29
-  grpc: 5
-  xhttp: 1
-  raw: 1
+  tcp: 32
+  ws: 12
+  grpc: 2
+  xhttp: 2
 
 Топ security:
-  tls: 40
-  reality: 27
-  none: 20
-  false: 1
+  none: 18
+  tls: 17
+  reality: 13
 
 ────────────────────────────────────────────────────────────────────
 📊 pool
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 117
-Уникальных строк: 117
-Уникальных host:port: 106
-Уникальных backend: 83
-Anycast: 28
-Unknown country: 31
+Всего конфигов: 67
+Уникальных строк: 67
+Уникальных host:port: 56
+Уникальных backend: 55
+Anycast: 7
+Unknown country: 21
 
 Топ стран:
-  Unknown: 31
-  🌐 Anycast: 28
-  Germany: 14
-  Netherlands: 9
-  Poland: 7
-  Russia: 6
+  Unknown: 21
+  Netherlands: 13
+  Russia: 7
+  🌐 Anycast: 7
   France: 4
-  India: 4
-  United States: 4
+  Poland: 4
+  Germany: 3
+  United States: 3
   Finland: 2
+  Lithuania: 2
 
 Топ SNI:
-  www.rutube.ru: 4
-  ru.tradingview.com: 4
-  proxy-34l.pages.dev: 4
-  proxy-1cu.pages.dev: 4
-  apple.com: 3
-  pl.golangwikito.cfd: 3
-  poland.travel: 3
-  id-6ad3c751.adhil.uk: 2
   ru-auto-02.10media.top: 2
+  ne13847.cdn-video.pro: 2
+  api-v2-6ad3c751.vmagnum.win: 2
+  outh.yandex-cloud.org: 2
   www.bing.com: 2
+  www.pleadcourt.org: 2
+  m-vruvc.mvpstr.com: 2
+  pl.golangwikito.cfd: 2
+  sdcdethyerft.localip.ir: 2
+  www.calmlunch.com: 2
 
 Топ портов:
-  443: 62
-  8443: 7
-  8080: 5
-  2087: 4
-  2053: 3
-  23688: 2
+  443: 35
+  8443: 3
+  8080: 3
+  54183: 2
   25481: 2
-  25119: 2
-  80: 2
-  2083: 2
+  2053: 2
+  2087: 2
+  10000: 1
+  8444: 1
+  447: 1
 
 Топ схем:
-  vless: 80
-  trojan: 18
+  vless: 37
   vmess: 11
-  hysteria2: 8
+  hysteria2: 10
+  trojan: 9
 
 Топ transport:
-  tcp: 64
-  ws: 31
-  grpc: 18
+  tcp: 39
+  ws: 12
+  grpc: 11
   xhttp: 3
-  raw: 1
+  raw: 2
 
 Топ security:
-  tls: 49
-  reality: 43
   none: 24
-  false: 1
+  tls: 23
+  reality: 20
 
 ────────────────────────────────────────────────────────────────────
 📊 mixed
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 58
-Уникальных строк: 58
-Уникальных host:port: 58
-Уникальных backend: 44
-Anycast: 17
-Unknown country: 11
+Всего конфигов: 34
+Уникальных строк: 34
+Уникальных host:port: 34
+Уникальных backend: 27
+Anycast: 6
+Unknown country: 6
 
 Топ стран:
-  🌐 Anycast: 17
-  Unknown: 11
-  Germany: 8
-  Russia: 6
-  Netherlands: 4
-  Poland: 4
+  Netherlands: 8
+  🌐 Anycast: 6
+  Unknown: 6
+  Russia: 5
   Finland: 2
-  France: 1
-  Austria: 1
-  Lithuania: 1
+  United States: 2
+  Lithuania: 2
+  Poland: 2
+  Germany: 1
 
 Топ SNI:
-  www.rutube.ru: 4
-  apple.com: 2
   www.bing.com: 2
-  ap2.directly.chat: 2
-  ru8.my-cdn.org: 2
+  api-v2-6ad3c751.vmagnum.win: 2
   ru-auto-02.10media.top: 2
-  id-6ad3c751.adhil.uk: 2
-  ssl.fastly.com: 2
-  poland.travel: 2
-  ru.tradingview.com: 2
+  m-vruvc.mvpstr.com: 2
+  sdcdethyerft.localip.ir: 2
+  b58e68t.lt1.h1clayd.click: 2
+  pl.golangwikito.cfd: 2
+  max.ru: 1
+  apis.heoleti.pro: 1
+  ru3.radiolumens.uk: 1
 
 Топ портов:
-  443: 34
-  8443: 6
-  23688: 2
+  443: 20
+  8443: 3
   25481: 2
-  2053: 2
-  9443: 1
-  444: 1
+  2087: 2
+  2096: 1
+  8444: 1
+  2053: 1
+  447: 1
+  10000: 1
   8080: 1
-  8478: 1
-  26100: 1
 
 Топ схем:
-  vless: 58
+  vless: 34
 
 Топ transport:
-  tcp: 25
-  grpc: 17
-  ws: 12
+  tcp: 15
+  grpc: 11
   xhttp: 3
-  raw: 1
+  ws: 3
+  raw: 2
 
 Топ security:
-  reality: 35
-  tls: 23
+  reality: 20
+  tls: 14
 
 ────────────────────────────────────────────────────────────────────
 📊 lte
@@ -506,128 +489,128 @@ Unknown country: 11
 Всего конфигов: 25
 Уникальных строк: 25
 Уникальных host:port: 25
-Уникальных backend: 17
-Anycast: 9
+Уникальных backend: 20
+Anycast: 2
 Unknown country: 0
 
 Топ стран:
-  🌐 Anycast: 9
-  Russia: 6
-  Germany: 4
-  Netherlands: 4
-  United States: 1
-  Poland: 1
+  Netherlands: 8
+  Russia: 5
+  United States: 2
+  🌐 Anycast: 2
+  France: 2
+  Lithuania: 2
+  Poland: 2
+  Germany: 1
+  Finland: 1
 
 Топ SNI:
-  www.rutube.ru: 4
-  sdcdethyerft.localip.ir: 2
   ru-auto-02.10media.top: 2
-  ru8.my-cdn.org: 2
-  proxy-34l.pages.dev: 2
-  ssl.fastly.com: 2
-  proxy-1cu.pages.dev: 2
-  www.pleadcourt.org: 2
+  www.calmlunch.com: 2
+  b58e68t.lt1.h1clayd.click: 2
+  pl.golangwikito.cfd: 2
+  api-v2-6ad3c751.vmagnum.win: 2
+  max.ru: 1
   www.apple.com: 1
-  passport.yandex.ru: 1
+  accounts.fastly.com: 1
+  www.rutube.ru: 1
+  apis.heoleti.pro: 1
 
 Топ портов:
-  443: 15
-  2087: 4
+  443: 17
   8443: 3
   2053: 1
-  9443: 1
-  2083: 1
+  2096: 1
+  10000: 1
+  2087: 1
+  25481: 1
 
 Топ схем:
-  vless: 23
-  trojan: 2
+  vless: 21
+  trojan: 4
 
 Топ transport:
-  ws: 13
-  grpc: 9
-  tcp: 2
-  xhttp: 1
+  tcp: 8
+  grpc: 7
+  ws: 6
+  xhttp: 2
+  raw: 2
 
 Топ security:
-  tls: 19
-  reality: 6
+  tls: 14
+  reality: 11
 
 ====================================================================
 🌍 GLOBAL SUMMARY
 ====================================================================
-Всего конфигов: 347
-Уникальных строк: 120
-Уникальных host:port: 108
-Уникальных backend: 83
-Anycast: 92
-Unknown country: 80
+Всего конфигов: 222
+Уникальных строк: 75
+Уникальных host:port: 59
+Уникальных backend: 56
+Anycast: 24
+Unknown country: 52
 
 Топ стран:
-  🌐 Anycast: 92
-  Unknown: 80
-  Germany: 42
-  Netherlands: 29
-  Russia: 26
-  Poland: 20
-  France: 10
+  Netherlands: 53
+  Unknown: 52
+  Russia: 29
+  🌐 Anycast: 24
+  Poland: 12
   United States: 10
-  Finland: 8
-  India: 8
-  Lithuania: 5
-  Austria: 4
-  Bulgaria: 3
-  Estonia: 3
-  Czechia: 3
+  France: 10
+  Finland: 9
+  Germany: 9
+  Lithuania: 8
+  Bulgaria: 4
+  Japan: 2
 
 Топ SNI:
-  www.rutube.ru: 16
-  apple.com: 12
-  proxy-34l.pages.dev: 12
-  proxy-1cu.pages.dev: 12
-  ru8.my-cdn.org: 10
+  api-v2-6ad3c751.vmagnum.win: 13
   ru-auto-02.10media.top: 10
-  ru.tradingview.com: 10
-  ssl.fastly.com: 9
-  ap2.directly.chat: 8
-  id-6ad3c751.adhil.uk: 8
-  www.bing.com: 8
+  outh.yandex-cloud.org: 10
+  www.bing.com: 9
+  b58e68t.lt1.h1clayd.click: 8
   pl.golangwikito.cfd: 8
-  poland.travel: 8
+  ne13847.cdn-video.pro: 7
   sdcdethyerft.localip.ir: 7
-  de14.my-cdn.org: 7
+  m-vruvc.mvpstr.com: 6
+  www.calmlunch.com: 6
+  max.ru: 5
+  dsapi-v2-6ad3c751.adhil.uk: 5
+  yt-ru.convertvideo123.online: 5
+  apis.heoleti.pro: 5
+  api.mediaplotina.cc: 5
 
 Топ портов:
-  443: 191
-  8443: 25
-  2087: 13
-  8080: 11
-  2053: 10
-  23688: 10
-  25481: 8
-  2083: 6
-  9443: 5
-  25119: 5
-  80: 4
-  54183: 3
-  8478: 3
-  26128: 3
+  443: 116
+  8443: 18
+  54183: 10
+  25481: 9
+  2053: 7
+  8080: 7
+  2087: 7
+  2096: 5
+  10000: 4
+  447: 4
+  8444: 4
   444: 3
+  28106: 2
+  2095: 2
 
 Топ схем:
-  vless: 266
-  trojan: 38
-  vmess: 23
-  hysteria2: 20
+  vless: 146
+  hysteria2: 30
+  vmess: 24
+  trojan: 22
 
 Топ transport:
-  tcp: 167
-  ws: 91
-  grpc: 75
-  xhttp: 11
-  raw: 3
+  tcp: 115
+  grpc: 50
+  ws: 33
+  xhttp: 12
+  raw: 12
 
 Топ security:
-  tls: 151
-  reality: 141
-  none: 53
-  false: 2
+  tls: 86
+  reality: 77
+  none: 59
