@@ -1,5 +1,5 @@
 VPN Builder stats summary
-Generated at: 2026-10-20 11:41:16 MSK
+Generated at: 2026-10-20 16:50:51 MSK
 
 ====================================================================
 RAW GROUPS
@@ -8,135 +8,115 @@ RAW GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 45
-Уникальных строк: 30
-Уникальных host:port: 5
-Уникальных backend: 5
-Anycast: 0
-Unknown country: 8
+Всего конфигов: 10
+Уникальных строк: 10
+Уникальных host:port: 2
+Уникальных backend: 2
+Anycast: 5
+Unknown country: 0
 
 Топ стран:
-  Netherlands: 30
-  Unknown: 8
-  Finland: 5
-  Germany: 2
+  Germany: 5
+  🌐 Anycast: 5
 
 Топ SNI:
-  api-maps.yandex.ru: 20
-  max.ru: 10
-  edge-fr.extazy.net: 5
-  www.samsung.com: 5
-  263651t.fi3.h1clayd.click: 5
+  renderer-bridge-2-121.mirra.now: 5
+  msk-01.file-rkat.online: 5
 
 Топ портов:
-  443: 35
-  8443: 5
-  25895: 5
+  443: 10
 
 Топ схем:
-  vless: 45
+  vless: 10
 
 Топ transport:
-  xhttp: 30
-  tcp: 15
+  grpc: 5
+  tcp: 5
 
 Топ security:
-  reality: 45
+  tls: 5
+  reality: 5
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_vless
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 30
-Уникальных строк: 30
-Уникальных host:port: 5
-Уникальных backend: 5
-Anycast: 0
-Unknown country: 8
+Всего конфигов: 10
+Уникальных строк: 10
+Уникальных host:port: 2
+Уникальных backend: 2
+Anycast: 5
+Unknown country: 0
 
 Топ стран:
-  Netherlands: 15
-  Unknown: 8
-  Finland: 5
-  Germany: 2
+  Germany: 5
+  🌐 Anycast: 5
 
 Топ SNI:
-  api-maps.yandex.ru: 10
-  edge-fr.extazy.net: 5
-  www.samsung.com: 5
-  263651t.fi3.h1clayd.click: 5
-  max.ru: 5
+  renderer-bridge-2-121.mirra.now: 5
+  msk-01.file-rkat.online: 5
 
 Топ портов:
-  443: 20
-  8443: 5
-  25895: 5
+  443: 10
 
 Топ схем:
-  vless: 30
+  vless: 10
 
 Топ transport:
-  tcp: 15
-  xhttp: 15
+  grpc: 5
+  tcp: 5
 
 Топ security:
-  reality: 30
+  tls: 5
+  reality: 5
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW black_all
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 318
-Уникальных строк: 200
-Уникальных host:port: 28
-Уникальных backend: 28
-Anycast: 73
-Unknown country: 16
+Всего конфигов: 224
+Уникальных строк: 162
+Уникальных host:port: 15
+Уникальных backend: 19
+Anycast: 90
+Unknown country: 42
 
 Топ стран:
-  Netherlands: 140
-  🌐 Anycast: 73
-  Poland: 43
-  France: 32
-  Unknown: 16
-  United States: 8
-  Czechia: 4
-  Japan: 2
+  Netherlands: 92
+  🌐 Anycast: 90
+  Unknown: 42
 
 Топ SNI:
-  www.volumeroot.com: 55
-  www.pleadcourt.org: 44
-  pl.golangwikito.cfd: 42
-  www.calmlunch.com: 32
-  ccc.010304.xyz: 28
-  u.srilankangrill.online: 27
-  nl5.brightmetric.trade: 18
-  wWw.Volumeroot.cOm.: 18
-  nl7.brightmetric.trade: 8
-  wtqrycyqafndeba.global.ssl.fastly.net: 8
+  www.volumeroot.com: 38
+  u.srilankangrill.online: 36
+  www.pleadcourt.org: 30
+  ccc.010304.xyz: 25
+  wWw.Volumeroot.cOm.: 24
+  play.google.com: 12
+  uitestytrio-production.up.railway.app: 12
+  adheres-scruple.quick-cdn.net: 12
+  www.calmlunch.com: 10
+  lv1.dedushka.top: 10
 
 Топ портов:
-  443: 265
-  8443: 30
-  2083: 4
-  2377: 4
-  80: 1
+  443: 173
+  8443: 36
+  8080: 2
+  8880: 2
+  8446: 1
 
 Топ схем:
-  trojan: 152
-  vless: 144
-  vmess: 14
-  ss: 4
-  hysteria2: 4
+  trojan: 112
+  vless: 101
+  vmess: 10
+  hysteria2: 1
 
 Топ transport:
-  ws: 223
-  tcp: 77
-  raw: 10
-  xhttp: 8
+  ws: 189
+  tcp: 35
 
 Топ security:
-  tls: 231
-  reality: 64
-  none: 23
+  tls: 197
+  none: 15
+  reality: 12
 
 ====================================================================
 FINAL GROUPS
@@ -145,350 +125,304 @@ FINAL GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 5
-Уникальных строк: 5
-Уникальных host:port: 5
-Уникальных backend: 5
-Anycast: 0
-Unknown country: 2
+Всего конфигов: 2
+Уникальных строк: 2
+Уникальных host:port: 2
+Уникальных backend: 2
+Anycast: 1
+Unknown country: 0
 
 Топ стран:
-  Netherlands: 2
-  Unknown: 2
-  Finland: 1
+  Germany: 1
+  🌐 Anycast: 1
 
 Топ SNI:
-  api-maps.yandex.ru: 1
-  max.ru: 1
-  263651t.fi3.h1clayd.click: 1
-  edge-fr.extazy.net: 1
-  www.samsung.com: 1
+  renderer-bridge-2-121.mirra.now: 1
+  msk-01.file-rkat.online: 1
 
 Топ портов:
-  443: 3
-  8443: 1
-  25895: 1
+  443: 2
 
 Топ схем:
-  vless: 5
+  vless: 2
 
 Топ transport:
-  tcp: 3
-  xhttp: 2
+  grpc: 1
+  tcp: 1
 
 Топ security:
-  reality: 5
+  tls: 1
+  reality: 1
 
 ────────────────────────────────────────────────────────────────────
 📊 white_vless
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 5
-Уникальных строк: 5
-Уникальных host:port: 5
-Уникальных backend: 5
-Anycast: 0
-Unknown country: 2
+Всего конфигов: 2
+Уникальных строк: 2
+Уникальных host:port: 2
+Уникальных backend: 2
+Anycast: 1
+Unknown country: 0
 
 Топ стран:
-  Netherlands: 2
-  Unknown: 2
-  Finland: 1
+  Germany: 1
+  🌐 Anycast: 1
 
 Топ SNI:
-  api-maps.yandex.ru: 1
-  max.ru: 1
-  263651t.fi3.h1clayd.click: 1
-  edge-fr.extazy.net: 1
-  www.samsung.com: 1
+  renderer-bridge-2-121.mirra.now: 1
+  msk-01.file-rkat.online: 1
 
 Топ портов:
-  443: 3
-  8443: 1
-  25895: 1
+  443: 2
 
 Топ схем:
-  vless: 5
+  vless: 2
 
 Топ transport:
-  tcp: 3
-  xhttp: 2
+  grpc: 1
+  tcp: 1
 
 Топ security:
-  reality: 5
+  tls: 1
+  reality: 1
 
 ────────────────────────────────────────────────────────────────────
 📊 black_all
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 35
-Уникальных строк: 35
-Уникальных host:port: 28
-Уникальных backend: 26
-Anycast: 9
-Unknown country: 8
-
-Топ стран:
-  🌐 Anycast: 9
-  Netherlands: 8
-  Unknown: 8
-  Poland: 3
-  United States: 2
-  France: 2
-  Japan: 2
-  Czechia: 1
-
-Топ SNI:
-  u.srilankangrill.online: 4
-  nl5.brightmetric.trade: 4
-  pl.golangwikito.cfd: 2
-  www.calmlunch.com: 2
-  www.pleadcourt.org: 2
-  npdev.uk: 1
-  speedtestmark.com: 1
-  FREE-2.HI-L.IM: 1
-  130.94.67.119: 1
-  usa.frnhk.xyz: 1
-
-Топ портов:
-  443: 20
-  8443: 5
-  2083: 1
-  80: 1
-  2377: 1
-
-Топ схем:
-  vless: 17
-  trojan: 7
-  vmess: 7
-  hysteria2: 3
-  ss: 1
-
-Топ transport:
-  tcp: 19
-  ws: 15
-  xhttp: 1
-
-Топ security:
-  tls: 16
-  none: 12
-  reality: 7
-
-────────────────────────────────────────────────────────────────────
-📊 pool
-────────────────────────────────────────────────────────────────────
-Всего конфигов: 36
-Уникальных строк: 36
-Уникальных host:port: 29
-Уникальных backend: 31
-Anycast: 6
+Всего конфигов: 21
+Уникальных строк: 21
+Уникальных host:port: 15
+Уникальных backend: 18
+Anycast: 8
 Unknown country: 10
 
 Топ стран:
   Unknown: 10
-  Netherlands: 9
-  🌐 Anycast: 6
-  Poland: 3
-  Japan: 2
-  France: 2
-  United States: 2
-  Finland: 1
-  Czechia: 1
+  🌐 Anycast: 8
+  Netherlands: 3
+
+Топ SNI:
+  u.srilankangrill.online: 3
+  www.pleadcourt.org: 2
+  uitestytrio-production.up.railway.app: 1
+  ccc.010304.xyz: 1
+  amp-api-edge.apps.apple.com: 1
+  play.google.com: 1
+  adheres-scruple.quick-cdn.net: 1
+  wWw.Volumeroot.cOm.: 1
+  www.calmlunch.com: 1
+  lv1.dedushka.top: 1
+
+Топ портов:
+  443: 9
+  8443: 3
+  8080: 1
+  8880: 1
+  8446: 1
+
+Топ схем:
+  vless: 9
+  vmess: 6
+  trojan: 5
+  hysteria2: 1
+
+Топ transport:
+  ws: 11
+  tcp: 10
+
+Топ security:
+  tls: 11
+  none: 9
+  reality: 1
+
+────────────────────────────────────────────────────────────────────
+📊 pool
+────────────────────────────────────────────────────────────────────
+Всего конфигов: 22
+Уникальных строк: 22
+Уникальных host:port: 16
+Уникальных backend: 20
+Anycast: 8
+Unknown country: 10
+
+Топ стран:
+  Unknown: 10
+  🌐 Anycast: 8
+  Netherlands: 3
+  Germany: 1
 
 Топ SNI:
   u.srilankangrill.online: 2
   www.pleadcourt.org: 2
-  nl5.brightmetric.trade: 2
-  pl.golangwikito.cfd: 2
-  www.calmlunch.com: 2
-  www.samsung.com: 1
-  api-maps.yandex.ru: 1
-  edge-fr.extazy.net: 1
-  max.ru: 1
-  263651t.fi3.h1clayd.click: 1
+  msk-01.file-rkat.online: 1
+  renderer-bridge-2-121.mirra.now: 1
+  185.174.137.172: 1
+  eyj2ijoimiisinbzijoi8j+hqfcfh6ogr2vybwfueswgrnjhbmtmdxj0igftie1haw4gfcbbqkxdiiwiywrkijoimje3ljywlje4my45nsisinbvcnqioiizmzc0ncisimlkijoiyjnhmtewnjgtmwe3zs00njqzltg1zgutn2m4mmnjztq2otqziiwiywlkijoimcisim5ldci6indziiwidhlwzsi6im5vbmuilcj0bhmioiiilcjwyxroijoil1noyw1hblznrvntmjayniisimhvc3qioiiilcjzy3kioijhdxrviiwic25pijoiiiwiywxwbii6iiisimzwijoiin0=: 1
+  amp-api-edge.apps.apple.com: 1
+  uitestytrio-production.up.railway.app: 1
+  lv1.dedushka.top: 1
+  eyjhzgqioiixodmumta5ljezms43nsisimlkijoiyji2yzq4mdmtmgjjys00njdjlweyndutyzlhodbizgq3mmvjiiwicg9ydci6ijiwmdg2iiwic2n5ijoiyxv0byisinyioiiyiiwibmv0ijoid3milcjob3n0ijoiiiwicgf0aci6ii8ilcj0bhmioijub25liiwichmioilwn4ew8j+htybtb3v0acblb3jlyswgu2vvbmduyw0tc2kgkej1bgplb25nlxjvksb8iftctf0ilcjhawqioiiwiiwidhlwzsi6im5vbmuilcjzbmkioiiilcjhbhbuijoiiiwiznaioiiifq==: 1
 
 Топ портов:
-  443: 20
-  8443: 5
-  25895: 1
-  2083: 1
-  80: 1
-  2377: 1
+  443: 11
+  8443: 2
+  8446: 1
+  8080: 1
+  8880: 1
 
 Топ схем:
-  vless: 18
-  trojan: 7
-  vmess: 7
-  hysteria2: 3
-  ss: 1
+  vless: 10
+  vmess: 6
+  trojan: 5
+  hysteria2: 1
 
 Топ transport:
-  tcp: 20
-  ws: 13
-  xhttp: 3
+  tcp: 11
+  ws: 10
+  grpc: 1
 
 Топ security:
-  tls: 14
-  none: 12
-  reality: 10
+  tls: 11
+  none: 9
+  reality: 2
 
 ────────────────────────────────────────────────────────────────────
 📊 mixed
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 17
-Уникальных строк: 17
-Уникальных host:port: 17
-Уникальных backend: 14
-Anycast: 4
-Unknown country: 2
+Всего конфигов: 8
+Уникальных строк: 8
+Уникальных host:port: 8
+Уникальных backend: 7
+Anycast: 6
+Unknown country: 0
 
 Топ стран:
-  Netherlands: 5
-  🌐 Anycast: 4
-  Unknown: 2
-  United States: 2
-  Poland: 2
-  Finland: 1
-  Czechia: 1
+  🌐 Anycast: 6
+  Germany: 1
+  Netherlands: 1
 
 Топ SNI:
   u.srilankangrill.online: 2
-  pl.golangwikito.cfd: 2
-  nl5.brightmetric.trade: 2
-  edge-fr.extazy.net: 1
-  api-maps.yandex.ru: 1
-  max.ru: 1
-  263651t.fi3.h1clayd.click: 1
-  www.samsung.com: 1
-  nl7.brightmetric.trade: 1
-  usa.frnhk.xyz: 1
+  renderer-bridge-2-121.mirra.now: 1
+  msk-01.file-rkat.online: 1
+  play.google.com: 1
+  uitestytrio-production.up.railway.app: 1
+  adheres-scruple.quick-cdn.net: 1
+  ccc.010304.xyz: 1
 
 Топ портов:
-  443: 10
-  8443: 5
-  25895: 1
-  2083: 1
+  443: 6
+  8443: 2
 
 Топ схем:
-  vless: 17
+  vless: 8
 
 Топ transport:
-  tcp: 8
-  ws: 6
-  xhttp: 3
+  ws: 5
+  tcp: 2
+  grpc: 1
 
 Топ security:
-  reality: 10
-  tls: 7
+  tls: 6
+  reality: 2
 
 ────────────────────────────────────────────────────────────────────
 📊 lte
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 24
-Уникальных строк: 24
-Уникальных host:port: 24
-Уникальных backend: 19
-Anycast: 4
-Unknown country: 2
+Всего конфигов: 13
+Уникальных строк: 13
+Уникальных host:port: 13
+Уникальных backend: 11
+Anycast: 6
+Unknown country: 3
 
 Топ стран:
-  Netherlands: 9
-  🌐 Anycast: 4
-  Poland: 3
-  United States: 2
-  France: 2
-  Unknown: 2
-  Czechia: 1
-  Finland: 1
+  🌐 Anycast: 6
+  Netherlands: 3
+  Unknown: 3
+  Germany: 1
 
 Топ SNI:
   u.srilankangrill.online: 2
-  www.calmlunch.com: 2
   www.pleadcourt.org: 2
-  pl.golangwikito.cfd: 2
-  nl5.brightmetric.trade: 2
-  max.ru: 1
-  api-maps.yandex.ru: 1
-  usa.frnhk.xyz: 1
-  nl7.brightmetric.trade: 1
-  speedtestmark.com: 1
+  uitestytrio-production.up.railway.app: 1
+  renderer-bridge-2-121.mirra.now: 1
+  adheres-scruple.quick-cdn.net: 1
+  ccc.010304.xyz: 1
+  play.google.com: 1
+  www.calmlunch.com: 1
+  wWw.Volumeroot.cOm.: 1
+  lv1.dedushka.top: 1
 
 Топ портов:
-  443: 17
-  8443: 5
-  2083: 1
-  25895: 1
+  443: 11
+  8443: 2
 
 Топ схем:
-  vless: 17
-  trojan: 7
+  vless: 8
+  trojan: 5
 
 Топ transport:
-  ws: 12
-  tcp: 9
-  xhttp: 3
+  ws: 9
+  tcp: 3
+  grpc: 1
 
 Топ security:
-  tls: 14
-  reality: 10
+  tls: 11
+  reality: 2
 
 ====================================================================
 🌍 GLOBAL SUMMARY
 ====================================================================
-Всего конфигов: 122
-Уникальных строк: 40
-Уникальных host:port: 33
-Уникальных backend: 31
-Anycast: 23
-Unknown country: 26
+Всего конфигов: 68
+Уникальных строк: 23
+Уникальных host:port: 17
+Уникальных backend: 20
+Anycast: 30
+Unknown country: 23
 
 Топ стран:
-  Netherlands: 35
-  Unknown: 26
-  🌐 Anycast: 23
-  Poland: 11
-  United States: 8
-  France: 6
-  Finland: 5
-  Czechia: 4
-  Japan: 4
+  🌐 Anycast: 30
+  Unknown: 23
+  Netherlands: 10
+  Germany: 5
 
 Топ SNI:
-  u.srilankangrill.online: 10
-  nl5.brightmetric.trade: 10
-  pl.golangwikito.cfd: 8
-  www.calmlunch.com: 6
+  u.srilankangrill.online: 9
   www.pleadcourt.org: 6
-  api-maps.yandex.ru: 5
-  max.ru: 5
-  263651t.fi3.h1clayd.click: 5
-  edge-fr.extazy.net: 5
-  www.samsung.com: 5
-  npdev.uk: 4
-  speedtestmark.com: 4
-  usa.frnhk.xyz: 4
+  renderer-bridge-2-121.mirra.now: 5
+  msk-01.file-rkat.online: 5
+  uitestytrio-production.up.railway.app: 4
   ccc.010304.xyz: 4
-  wtqrycyqafndeba.global.ssl.fastly.net: 4
+  play.google.com: 4
+  adheres-scruple.quick-cdn.net: 4
+  wWw.Volumeroot.cOm.: 3
+  www.calmlunch.com: 3
+  lv1.dedushka.top: 3
+  amp-api-edge.apps.apple.com: 2
+  telewebion.com: 2
+  eyj2ijoimiisinbzijoi8j+hqfcfh6ogr2vybwfueswgrnjhbmtmdxj0igftie1haw4gfcbbqkxdiiwiywrkijoimje3ljywlje4my45nsisinbvcnqioiizmzc0ncisimlkijoiyjnhmtewnjgtmwe3zs00njqzltg1zgutn2m4mmnjztq2otqziiwiywlkijoimcisim5ldci6indziiwidhlwzsi6im5vbmuilcj0bhmioiiilcjwyxroijoil1noyw1hblznrvntmjayniisimhvc3qioiiilcjzy3kioijhdxrviiwic25pijoiiiwiywxwbii6iiisimzwijoiin0=: 2
+  eyj2ijoimiisinbzijoilvcwpzqg3yegy5bwtpcfm7jgvitllskwlib8iftctf0ilcjhzgqioijkzs1kmjflntzjmtnjlnnoyw1hbmfwcc5vbmxpbmuilcjwb3j0ijoimzm3ndqilcjpzci6imizytexmdy4ltfhn2utndy0my04nwrlltdjodjjy2u0njk0myisimfpzci6ijailcjzy3kioijhdxrviiwibmv0ijoid3milcj0exblijoibm9uzsisimhvc3qioijkzs1kmjflntzjmtnjlnnoyw1hbmfwcc5vbmxpbmu6mzm3ndqilcjhbhbuijoiiiwicgf0aci6ii9tagftyw5wtuvtuziwmjyilcj0bhmioiiilcjzbmkioiiilcjmcci6iij9: 2
 
 Топ портов:
-  443: 73
-  8443: 22
-  25895: 5
-  2083: 4
-  80: 2
-  2377: 2
+  443: 41
+  8443: 9
+  8080: 2
+  8880: 2
+  8446: 2
 
 Топ схем:
-  vless: 79
-  trojan: 21
-  vmess: 14
-  hysteria2: 6
-  ss: 2
+  vless: 39
+  trojan: 15
+  vmess: 12
+  hysteria2: 2
 
 Топ transport:
-  tcp: 62
-  ws: 46
-  xhttp: 14
+  ws: 35
+  tcp: 28
+  grpc: 5
 
 Топ security:
-  tls: 51
-  reality: 47
-  none: 24
+  tls: 41
+  none: 18
+  reality: 9
