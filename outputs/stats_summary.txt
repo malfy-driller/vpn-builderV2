@@ -1,5 +1,5 @@
 VPN Builder stats summary
-Generated at: 2026-10-20 16:50:51 MSK
+Generated at: 2026-10-20 21:13:15 MSK
 
 ====================================================================
 RAW GROUPS
@@ -8,115 +8,141 @@ RAW GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 10
-Уникальных строк: 10
-Уникальных host:port: 2
-Уникальных backend: 2
-Anycast: 5
-Unknown country: 0
+Всего конфигов: 60
+Уникальных строк: 55
+Уникальных host:port: 11
+Уникальных backend: 10
+Anycast: 35
+Unknown country: 5
 
 Топ стран:
+  🌐 Anycast: 35
+  Estonia: 5
   Germany: 5
-  🌐 Anycast: 5
+  Lithuania: 5
+  Unknown: 5
+  Russia: 5
 
 Топ SNI:
-  renderer-bridge-2-121.mirra.now: 5
-  msk-01.file-rkat.online: 5
+  uzs9w3bg6u.rucdncomp.pro: 10
+  eg.api.nurcloud.org: 10
+  ru-in-est-4vp.movietop24.site: 5
+  cl-fn-in.movietop24.site: 5
+  ru-in-de-4vp.movietop24.site: 5
+  ru-in-lv-4vp.movietop24.site: 5
+  ru-in-lt-4vp.movietop24.site: 5
+  ru-in-uk-4vp.movietop24.site: 5
+  edge-fr.extazy.net: 5
+  ru-in-yt-tw.movietop24.site: 5
 
 Топ портов:
-  443: 10
+  443: 55
+  8443: 5
 
 Топ схем:
-  vless: 10
+  vless: 60
 
 Топ transport:
-  grpc: 5
-  tcp: 5
+  tcp: 50
+  ws: 10
 
 Топ security:
-  tls: 5
-  reality: 5
+  reality: 50
+  tls: 10
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_vless
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 10
-Уникальных строк: 10
-Уникальных host:port: 2
-Уникальных backend: 2
-Anycast: 5
-Unknown country: 0
+Всего конфигов: 45
+Уникальных строк: 45
+Уникальных host:port: 9
+Уникальных backend: 8
+Anycast: 25
+Unknown country: 5
 
 Топ стран:
+  🌐 Anycast: 25
+  Estonia: 5
   Germany: 5
-  🌐 Anycast: 5
+  Lithuania: 5
+  Unknown: 5
 
 Топ SNI:
-  renderer-bridge-2-121.mirra.now: 5
-  msk-01.file-rkat.online: 5
+  eg.api.nurcloud.org: 10
+  ru-in-est-4vp.movietop24.site: 5
+  cl-fn-in.movietop24.site: 5
+  ru-in-de-4vp.movietop24.site: 5
+  ru-in-lv-4vp.movietop24.site: 5
+  ru-in-lt-4vp.movietop24.site: 5
+  uzs9w3bg6u.rucdncomp.pro: 5
+  ru-in-uk-4vp.movietop24.site: 5
 
 Топ портов:
-  443: 10
+  443: 45
 
 Топ схем:
-  vless: 10
+  vless: 45
 
 Топ transport:
-  grpc: 5
-  tcp: 5
+  tcp: 40
+  ws: 5
 
 Топ security:
+  reality: 40
   tls: 5
-  reality: 5
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW black_all
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 224
-Уникальных строк: 162
-Уникальных host:port: 15
-Уникальных backend: 19
-Anycast: 90
-Unknown country: 42
+Всего конфигов: 285
+Уникальных строк: 224
+Уникальных host:port: 18
+Уникальных backend: 24
+Anycast: 81
+Unknown country: 59
 
 Топ стран:
-  Netherlands: 92
-  🌐 Anycast: 90
-  Unknown: 42
+  Netherlands: 104
+  🌐 Anycast: 81
+  Unknown: 59
+  France: 41
 
 Топ SNI:
-  www.volumeroot.com: 38
-  u.srilankangrill.online: 36
-  www.pleadcourt.org: 30
-  ccc.010304.xyz: 25
-  wWw.Volumeroot.cOm.: 24
-  play.google.com: 12
-  uitestytrio-production.up.railway.app: 12
-  adheres-scruple.quick-cdn.net: 12
-  www.calmlunch.com: 10
-  lv1.dedushka.top: 10
+  www.pleadcourt.org: 44
+  www.volumeroot.com: 44
+  u.srilankangrill.online: 42
+  www.calmlunch.com: 30
+  wWw.Volumeroot.cOm.: 23
+  www.aparat.com: 22
+  ccc.010304.xyz: 13
+  play.google.com: 11
+  ru2.radiolumens.uk: 11
+  ghosts-spasm.quick-cdn.net: 11
 
 Топ портов:
-  443: 173
-  8443: 36
+  443: 175
+  8443: 42
+  8880: 13
+  42924: 11
+  9444: 11
+  44512: 11
   8080: 2
-  8880: 2
-  8446: 1
 
 Топ схем:
-  trojan: 112
-  vless: 101
-  vmess: 10
-  hysteria2: 1
+  trojan: 149
+  vless: 114
+  vmess: 20
+  hysteria2: 2
 
 Топ transport:
-  ws: 189
-  tcp: 35
+  ws: 209
+  tcp: 54
+  xhttp: 22
 
 Топ security:
-  tls: 197
-  none: 15
-  reality: 12
+  tls: 227
+  reality: 33
+  none: 25
 
 ====================================================================
 FINAL GROUPS
@@ -125,304 +151,361 @@ FINAL GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 2
-Уникальных строк: 2
-Уникальных host:port: 2
-Уникальных backend: 2
-Anycast: 1
-Unknown country: 0
+Всего конфигов: 11
+Уникальных строк: 11
+Уникальных host:port: 11
+Уникальных backend: 10
+Anycast: 6
+Unknown country: 1
 
 Топ стран:
+  🌐 Anycast: 6
+  Lithuania: 1
   Germany: 1
-  🌐 Anycast: 1
+  Estonia: 1
+  Unknown: 1
+  Russia: 1
 
 Топ SNI:
-  renderer-bridge-2-121.mirra.now: 1
-  msk-01.file-rkat.online: 1
+  eg.api.nurcloud.org: 2
+  ru-in-lt-4vp.movietop24.site: 1
+  ru-in-de-4vp.movietop24.site: 1
+  ru-in-est-4vp.movietop24.site: 1
+  edge-fr.extazy.net: 1
+  cl-fn-in.movietop24.site: 1
+  ru-in-lv-4vp.movietop24.site: 1
+  ru-in-uk-4vp.movietop24.site: 1
+  ru-in-yt-tw.movietop24.site: 1
+  uzs9w3bg6u.rucdncomp.pro: 1
 
 Топ портов:
-  443: 2
+  443: 10
+  8443: 1
 
 Топ схем:
-  vless: 2
+  vless: 11
 
 Топ transport:
-  grpc: 1
-  tcp: 1
+  tcp: 10
+  ws: 1
 
 Топ security:
+  reality: 10
   tls: 1
-  reality: 1
 
 ────────────────────────────────────────────────────────────────────
 📊 white_vless
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 2
-Уникальных строк: 2
-Уникальных host:port: 2
-Уникальных backend: 2
-Anycast: 1
-Unknown country: 0
+Всего конфигов: 9
+Уникальных строк: 9
+Уникальных host:port: 9
+Уникальных backend: 8
+Anycast: 5
+Unknown country: 1
 
 Топ стран:
+  🌐 Anycast: 5
   Germany: 1
-  🌐 Anycast: 1
+  Lithuania: 1
+  Estonia: 1
+  Unknown: 1
 
 Топ SNI:
-  renderer-bridge-2-121.mirra.now: 1
-  msk-01.file-rkat.online: 1
+  eg.api.nurcloud.org: 2
+  ru-in-de-4vp.movietop24.site: 1
+  ru-in-lt-4vp.movietop24.site: 1
+  ru-in-est-4vp.movietop24.site: 1
+  cl-fn-in.movietop24.site: 1
+  ru-in-lv-4vp.movietop24.site: 1
+  ru-in-uk-4vp.movietop24.site: 1
+  uzs9w3bg6u.rucdncomp.pro: 1
 
 Топ портов:
-  443: 2
+  443: 9
 
 Топ схем:
-  vless: 2
+  vless: 9
 
 Топ transport:
-  grpc: 1
-  tcp: 1
+  tcp: 8
+  ws: 1
 
 Топ security:
+  reality: 8
   tls: 1
-  reality: 1
 
 ────────────────────────────────────────────────────────────────────
 📊 black_all
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 21
-Уникальных строк: 21
-Уникальных host:port: 15
-Уникальных backend: 18
+Всего конфигов: 28
+Уникальных строк: 28
+Уникальных host:port: 18
+Уникальных backend: 23
 Anycast: 8
-Unknown country: 10
+Unknown country: 15
 
 Топ стран:
-  Unknown: 10
+  Unknown: 15
   🌐 Anycast: 8
-  Netherlands: 3
+  France: 3
+  Netherlands: 2
 
 Топ SNI:
   u.srilankangrill.online: 3
+  www.calmlunch.com: 2
   www.pleadcourt.org: 2
-  uitestytrio-production.up.railway.app: 1
-  ccc.010304.xyz: 1
+  www.aparat.com: 2
   amp-api-edge.apps.apple.com: 1
-  play.google.com: 1
-  adheres-scruple.quick-cdn.net: 1
+  ghosts-spasm.quick-cdn.net: 1
+  ccc.010304.xyz: 1
   wWw.Volumeroot.cOm.: 1
-  www.calmlunch.com: 1
   lv1.dedushka.top: 1
+  ru2.radiolumens.uk: 1
 
 Топ портов:
   443: 9
   8443: 3
+  8880: 2
   8080: 1
-  8880: 1
-  8446: 1
+  9444: 1
+  42924: 1
+  44512: 1
 
 Топ схем:
-  vless: 9
-  vmess: 6
-  trojan: 5
+  vless: 11
+  vmess: 10
+  trojan: 6
   hysteria2: 1
 
 Топ transport:
+  tcp: 15
   ws: 11
-  tcp: 10
+  xhttp: 2
 
 Топ security:
-  tls: 11
-  none: 9
-  reality: 1
+  none: 13
+  tls: 12
+  reality: 3
 
 ────────────────────────────────────────────────────────────────────
 📊 pool
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 22
-Уникальных строк: 22
-Уникальных host:port: 16
-Уникальных backend: 20
-Anycast: 8
-Unknown country: 10
+Всего конфигов: 38
+Уникальных строк: 38
+Уникальных host:port: 28
+Уникальных backend: 33
+Anycast: 13
+Unknown country: 16
 
 Топ стран:
-  Unknown: 10
-  🌐 Anycast: 8
-  Netherlands: 3
+  Unknown: 16
+  🌐 Anycast: 13
+  France: 3
+  Netherlands: 2
+  Lithuania: 1
+  Estonia: 1
   Germany: 1
+  Russia: 1
 
 Топ SNI:
+  eg.api.nurcloud.org: 2
+  www.aparat.com: 2
   u.srilankangrill.online: 2
   www.pleadcourt.org: 2
-  msk-01.file-rkat.online: 1
-  renderer-bridge-2-121.mirra.now: 1
-  185.174.137.172: 1
-  eyj2ijoimiisinbzijoi8j+hqfcfh6ogr2vybwfueswgrnjhbmtmdxj0igftie1haw4gfcbbqkxdiiwiywrkijoimje3ljywlje4my45nsisinbvcnqioiizmzc0ncisimlkijoiyjnhmtewnjgtmwe3zs00njqzltg1zgutn2m4mmnjztq2otqziiwiywlkijoimcisim5ldci6indziiwidhlwzsi6im5vbmuilcj0bhmioiiilcjwyxroijoil1noyw1hblznrvntmjayniisimhvc3qioiiilcjzy3kioijhdxrviiwic25pijoiiiwiywxwbii6iiisimzwijoiin0=: 1
-  amp-api-edge.apps.apple.com: 1
-  uitestytrio-production.up.railway.app: 1
-  lv1.dedushka.top: 1
-  eyjhzgqioiixodmumta5ljezms43nsisimlkijoiyji2yzq4mdmtmgjjys00njdjlweyndutyzlhodbizgq3mmvjiiwicg9ydci6ijiwmdg2iiwic2n5ijoiyxv0byisinyioiiyiiwibmv0ijoid3milcjob3n0ijoiiiwicgf0aci6ii8ilcj0bhmioijub25liiwichmioilwn4ew8j+htybtb3v0acblb3jlyswgu2vvbmduyw0tc2kgkej1bgplb25nlxjvksb8iftctf0ilcjhawqioiiwiiwidhlwzsi6im5vbmuilcjzbmkioiiilcjhbhbuijoiiiwiznaioiiifq==: 1
+  www.calmlunch.com: 2
+  ru-in-lv-4vp.movietop24.site: 1
+  ru-in-uk-4vp.movietop24.site: 1
+  cl-fn-in.movietop24.site: 1
+  ru-in-lt-4vp.movietop24.site: 1
+  ru-in-est-4vp.movietop24.site: 1
 
 Топ портов:
-  443: 11
-  8443: 2
-  8446: 1
+  443: 19
+  8443: 3
+  8880: 2
+  42924: 1
   8080: 1
-  8880: 1
+  9444: 1
+  44512: 1
 
 Топ схем:
-  vless: 10
-  vmess: 6
-  trojan: 5
+  vless: 21
+  vmess: 10
+  trojan: 6
   hysteria2: 1
 
 Топ transport:
-  tcp: 11
-  ws: 10
-  grpc: 1
+  tcp: 25
+  ws: 11
+  xhttp: 2
 
 Топ security:
-  tls: 11
-  none: 9
-  reality: 2
+  reality: 13
+  none: 13
+  tls: 12
 
 ────────────────────────────────────────────────────────────────────
 📊 mixed
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 8
-Уникальных строк: 8
-Уникальных host:port: 8
-Уникальных backend: 7
-Anycast: 6
-Unknown country: 0
+Всего конфигов: 19
+Уникальных строк: 19
+Уникальных host:port: 19
+Уникальных backend: 16
+Anycast: 11
+Unknown country: 3
 
 Топ стран:
-  🌐 Anycast: 6
+  🌐 Anycast: 11
+  Unknown: 3
   Germany: 1
-  Netherlands: 1
+  Lithuania: 1
+  Russia: 1
+  Estonia: 1
+  France: 1
 
 Топ SNI:
+  eg.api.nurcloud.org: 2
   u.srilankangrill.online: 2
-  renderer-bridge-2-121.mirra.now: 1
-  msk-01.file-rkat.online: 1
-  play.google.com: 1
-  uitestytrio-production.up.railway.app: 1
-  adheres-scruple.quick-cdn.net: 1
-  ccc.010304.xyz: 1
+  www.aparat.com: 2
+  ru-in-uk-4vp.movietop24.site: 1
+  ru-in-de-4vp.movietop24.site: 1
+  edge-fr.extazy.net: 1
+  cl-fn-in.movietop24.site: 1
+  ru-in-lt-4vp.movietop24.site: 1
+  uzs9w3bg6u.rucdncomp.pro: 1
+  ru-in-yt-tw.movietop24.site: 1
 
 Топ портов:
-  443: 6
-  8443: 2
+  443: 12
+  8443: 3
+  9444: 1
+  42924: 1
+  8880: 1
+  44512: 1
 
 Топ схем:
-  vless: 8
+  vless: 19
 
 Топ transport:
+  tcp: 12
   ws: 5
-  tcp: 2
-  grpc: 1
+  xhttp: 2
 
 Топ security:
+  reality: 13
   tls: 6
-  reality: 2
 
 ────────────────────────────────────────────────────────────────────
 📊 lte
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 13
-Уникальных строк: 13
-Уникальных host:port: 13
-Уникальных backend: 11
-Anycast: 6
-Unknown country: 3
+Всего конфигов: 25
+Уникальных строк: 25
+Уникальных host:port: 25
+Уникальных backend: 20
+Anycast: 11
+Unknown country: 5
 
 Топ стран:
-  🌐 Anycast: 6
-  Netherlands: 3
-  Unknown: 3
+  🌐 Anycast: 11
+  Unknown: 5
+  France: 3
+  Netherlands: 2
+  Estonia: 1
+  Lithuania: 1
   Germany: 1
+  Russia: 1
 
 Топ SNI:
   u.srilankangrill.online: 2
+  www.calmlunch.com: 2
   www.pleadcourt.org: 2
-  uitestytrio-production.up.railway.app: 1
-  renderer-bridge-2-121.mirra.now: 1
-  adheres-scruple.quick-cdn.net: 1
+  eg.api.nurcloud.org: 2
+  www.aparat.com: 2
   ccc.010304.xyz: 1
-  play.google.com: 1
-  www.calmlunch.com: 1
+  ghosts-spasm.quick-cdn.net: 1
   wWw.Volumeroot.cOm.: 1
-  lv1.dedushka.top: 1
+  ru2.radiolumens.uk: 1
+  uzs9w3bg6u.rucdncomp.pro: 1
 
 Топ портов:
-  443: 11
-  8443: 2
+  443: 18
+  8443: 3
+  9444: 1
+  42924: 1
+  8880: 1
+  44512: 1
 
 Топ схем:
-  vless: 8
-  trojan: 5
+  vless: 19
+  trojan: 6
 
 Топ transport:
-  ws: 9
-  tcp: 3
-  grpc: 1
+  tcp: 13
+  ws: 10
+  xhttp: 2
 
 Топ security:
-  tls: 11
-  reality: 2
+  reality: 13
+  tls: 12
 
 ====================================================================
 🌍 GLOBAL SUMMARY
 ====================================================================
-Всего конфигов: 68
-Уникальных строк: 23
-Уникальных host:port: 17
-Уникальных backend: 20
-Anycast: 30
-Unknown country: 23
+Всего конфигов: 130
+Уникальных строк: 39
+Уникальных host:port: 29
+Уникальных backend: 33
+Anycast: 54
+Unknown country: 41
 
 Топ стран:
-  🌐 Anycast: 30
-  Unknown: 23
-  Netherlands: 10
+  🌐 Anycast: 54
+  Unknown: 41
+  France: 10
+  Netherlands: 6
+  Lithuania: 5
   Germany: 5
+  Estonia: 5
+  Russia: 4
 
 Топ SNI:
+  eg.api.nurcloud.org: 10
   u.srilankangrill.online: 9
+  www.aparat.com: 8
+  www.calmlunch.com: 6
   www.pleadcourt.org: 6
-  renderer-bridge-2-121.mirra.now: 5
-  msk-01.file-rkat.online: 5
-  uitestytrio-production.up.railway.app: 4
-  ccc.010304.xyz: 4
-  play.google.com: 4
-  adheres-scruple.quick-cdn.net: 4
-  wWw.Volumeroot.cOm.: 3
-  www.calmlunch.com: 3
-  lv1.dedushka.top: 3
-  amp-api-edge.apps.apple.com: 2
-  telewebion.com: 2
-  eyj2ijoimiisinbzijoi8j+hqfcfh6ogr2vybwfueswgrnjhbmtmdxj0igftie1haw4gfcbbqkxdiiwiywrkijoimje3ljywlje4my45nsisinbvcnqioiizmzc0ncisimlkijoiyjnhmtewnjgtmwe3zs00njqzltg1zgutn2m4mmnjztq2otqziiwiywlkijoimcisim5ldci6indziiwidhlwzsi6im5vbmuilcj0bhmioiiilcjwyxroijoil1noyw1hblznrvntmjayniisimhvc3qioiiilcjzy3kioijhdxrviiwic25pijoiiiwiywxwbii6iiisimzwijoiin0=: 2
-  eyj2ijoimiisinbzijoilvcwpzqg3yegy5bwtpcfm7jgvitllskwlib8iftctf0ilcjhzgqioijkzs1kmjflntzjmtnjlnnoyw1hbmfwcc5vbmxpbmuilcjwb3j0ijoimzm3ndqilcjpzci6imizytexmdy4ltfhn2utndy0my04nwrlltdjodjjy2u0njk0myisimfpzci6ijailcjzy3kioijhdxrviiwibmv0ijoid3milcj0exblijoibm9uzsisimhvc3qioijkzs1kmjflntzjmtnjlnnoyw1hbmfwcc5vbmxpbmu6mzm3ndqilcjhbhbuijoiiiwicgf0aci6ii9tagftyw5wtuvtuziwmjyilcj0bhmioiiilcjzbmkioiiilcjmcci6iij9: 2
+  ru-in-lt-4vp.movietop24.site: 5
+  ru-in-de-4vp.movietop24.site: 5
+  ru-in-est-4vp.movietop24.site: 5
+  cl-fn-in.movietop24.site: 5
+  ru-in-lv-4vp.movietop24.site: 5
+  ru-in-uk-4vp.movietop24.site: 5
+  uzs9w3bg6u.rucdncomp.pro: 5
+  edge-fr.extazy.net: 4
+  ru-in-yt-tw.movietop24.site: 4
+  ghosts-spasm.quick-cdn.net: 4
 
 Топ портов:
-  443: 41
-  8443: 9
+  443: 77
+  8443: 13
+  8880: 6
+  9444: 4
+  42924: 4
+  44512: 4
   8080: 2
-  8880: 2
-  8446: 2
 
 Топ схем:
-  vless: 39
-  trojan: 15
-  vmess: 12
+  vless: 90
+  vmess: 20
+  trojan: 18
   hysteria2: 2
 
 Топ transport:
-  ws: 35
-  tcp: 28
-  grpc: 5
+  tcp: 83
+  ws: 39
+  xhttp: 8
 
 Топ security:
-  tls: 41
-  none: 18
-  reality: 9
+  reality: 60
+  tls: 44
+  none: 26
