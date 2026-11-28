@@ -1,5 +1,5 @@
 VPN Builder stats summary
-Generated at: 2026-11-28 06:31:28 MSK
+Generated at: 2026-11-28 15:23:22 MSK
 
 ====================================================================
 RAW GROUPS
@@ -8,130 +8,185 @@ RAW GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 25
-Уникальных строк: 25
-Уникальных host:port: 4
-Уникальных backend: 2
-Anycast: 0
-Unknown country: 0
+Всего конфигов: 111
+Уникальных строк: 111
+Уникальных host:port: 31
+Уникальных backend: 24
+Anycast: 39
+Unknown country: 20
 
 Топ стран:
-  United States: 15
-  Germany: 10
+  🌐 Anycast: 39
+  United States: 26
+  Unknown: 20
+  Netherlands: 8
+  Russia: 5
+  Estonia: 3
+  Finland: 3
+  France: 3
+  Kazakhstan: 3
+  Germany: 1
 
 Топ SNI:
-  help.cs-on.ru: 15
-  steam-videos.cc: 10
+  dl.google.com: 18
+  cdn.mornismp.ru: 18
+  help.cs-on.ru: 18
+  api-maps.yandex.ru: 7
+  tia.kunisosi.bid: 6
+  aiforchats.space: 6
+  168.113.128.93: 5
+  rugermicro1.gangplatform.com: 3
+  assets.study.golangwikito.cfd: 3
+  max.ru: 3
 
 Топ портов:
-  443: 25
+  443: 43
+  2083: 18
+  12445: 6
+  8443: 6
+  9882: 6
+  9881: 6
+  43000: 5
+  5269: 3
+  2082: 3
+  9872: 3
 
 Топ схем:
-  vless: 25
+  vless: 105
+  hysteria2: 6
 
 Топ transport:
-  ws: 15
-  tcp: 10
+  tcp: 39
+  xhttp: 33
+  ws: 21
+  grpc: 18
 
 Топ security:
-  tls: 15
-  reality: 10
+  reality: 63
+  tls: 45
+  none: 3
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW white_vless
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 25
-Уникальных строк: 25
-Уникальных host:port: 4
-Уникальных backend: 2
-Anycast: 0
-Unknown country: 0
+Всего конфигов: 96
+Уникальных строк: 96
+Уникальных host:port: 29
+Уникальных backend: 23
+Anycast: 30
+Unknown country: 19
 
 Топ стран:
-  United States: 15
-  Germany: 10
+  🌐 Anycast: 30
+  United States: 26
+  Unknown: 19
+  Netherlands: 8
+  Estonia: 3
+  Finland: 3
+  France: 3
+  Kazakhstan: 3
+  Germany: 1
 
 Топ SNI:
-  help.cs-on.ru: 15
-  steam-videos.cc: 10
+  dl.google.com: 18
+  help.cs-on.ru: 18
+  cdn.mornismp.ru: 9
+  tia.kunisosi.bid: 6
+  api-maps.yandex.ru: 6
+  aiforchats.space: 6
+  rugermicro1.gangplatform.com: 3
+  assets.study.golangwikito.cfd: 3
+  max.ru: 3
+  cdn.study.golangwikito.cfd: 3
 
 Топ портов:
-  443: 25
+  443: 42
+  2083: 9
+  12445: 6
+  8443: 6
+  9882: 6
+  9881: 6
+  5269: 3
+  2082: 3
+  9872: 3
+  24611: 3
 
 Топ схем:
-  vless: 25
+  vless: 90
+  hysteria2: 6
 
 Топ transport:
-  ws: 15
-  tcp: 5
-  raw: 5
+  tcp: 33
+  xhttp: 24
+  ws: 21
+  grpc: 18
 
 Топ security:
-  tls: 15
-  reality: 10
+  reality: 57
+  tls: 36
+  none: 3
 
 ────────────────────────────────────────────────────────────────────
 📊 RAW black_all
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 2135
-Уникальных строк: 1987
-Уникальных host:port: 774
-Уникальных backend: 472
-Anycast: 1867
-Unknown country: 214
+Всего конфигов: 549
+Уникальных строк: 412
+Уникальных host:port: 99
+Уникальных backend: 139
+Anycast: 351
+Unknown country: 151
 
 Топ стран:
-  🌐 Anycast: 1867
-  Unknown: 214
-  United States: 21
-  Finland: 12
-  Estonia: 4
-  Germany: 4
-  Japan: 4
-  Austria: 2
-  Bulgaria: 2
-  France: 1
+  🌐 Anycast: 351
+  Unknown: 151
+  Finland: 13
+  Bulgaria: 7
+  United States: 7
+  Germany: 6
+  Austria: 5
+  Japan: 3
+  Estonia: 3
+  Netherlands: 2
 
 Топ SNI:
-  freeceshi6.frii.site: 99
-  mohammad38526.pages.dev: 55
-  vp58.cc.cd: 45
-  c7dabe95.proxy-978.pages.dev: 33
-  wallweb-4ez.pages.dev: 33
-  cfnode-11ivy8.pages.dev: 29
-  powered-by-surena.configfarsi695fce27aa549.workers.dev: 29
-  levikoconfig.levikogjgfdd.ir: 28
-  j4mr-d9oj1at9i-8kuayba9kocwx7uzn.pages.dev: 28
-  vf3uymn6bu20313tqlfvws58mnqrhxxi.pages.dev: 26
+  freeceshi6.frii.site: 202
+  free.sahanwickramasinghe.com: 23
+  jp3.yohototo.top: 19
+  sinavm2.soft10.ir: 15
+  cdn.akamai.steamstatic.com: 15
+  matrix.learnpodedu.com: 14
+  crm.dpdns.org: 12
+  kuruish.org: 8
+  fortuna.masynbazar.ru: 8
+  lingering-fire-1fe9.vpnetwork3567.workers.dev: 8
 
 Топ портов:
-  443: 1241
-  8443: 248
-  2083: 152
-  2053: 145
-  2096: 96
-  2087: 90
-  23169: 2
-  2377: 1
+  443: 313
+  8443: 122
+  2083: 9
+  2053: 6
+  43000: 2
+  61374: 1
+  60001: 1
+  50160: 1
 
 Топ схем:
-  vless: 1861
-  vmess: 160
-  trojan: 86
-  ss: 24
+  vless: 391
+  vmess: 94
+  ss: 37
+  trojan: 23
   hysteria2: 4
 
 Топ transport:
-  ws: 1849
-  tcp: 218
-  xhttp: 61
-  grpc: 6
-  raw: 1
+  ws: 349
+  tcp: 157
+  xhttp: 42
+  grpc: 1
 
 Топ security:
-  tls: 1915
-  none: 188
-  reality: 32
+  tls: 390
+  none: 134
+  reality: 25
 
 ====================================================================
 FINAL GROUPS
@@ -140,244 +195,308 @@ FINAL GROUPS
 ────────────────────────────────────────────────────────────────────
 📊 white_cidr
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 4
-Уникальных строк: 4
-Уникальных host:port: 4
-Уникальных backend: 2
-Anycast: 0
-Unknown country: 0
+Всего конфигов: 31
+Уникальных строк: 31
+Уникальных host:port: 31
+Уникальных backend: 24
+Anycast: 10
+Unknown country: 6
 
 Топ стран:
-  Germany: 2
-  United States: 2
+  🌐 Anycast: 10
+  Unknown: 6
+  United States: 5
+  Netherlands: 4
+  Estonia: 1
+  Finland: 1
+  Russia: 1
+  Kazakhstan: 1
+  France: 1
+  Germany: 1
 
 Топ SNI:
-  steam-videos.cc: 2
+  dl.google.com: 6
+  cdn.mornismp.ru: 3
+  outh.yandex-cloud.org: 3
+  api-maps.yandex.ru: 2
+  aiforchats.space: 2
   help.cs-on.ru: 2
+  max.ru: 1
+  cdn.study.golangwikito.cfd: 1
+  baza221.wba-pn.ru: 1
+  168.113.128.93: 1
 
 Топ портов:
-  443: 4
+  443: 11
+  2083: 3
+  54183: 3
+  8443: 2
+  9881: 2
+  9882: 2
+  5269: 1
+  43000: 1
+  12445: 1
+  2082: 1
 
 Топ схем:
-  vless: 4
+  vless: 26
+  hysteria2: 5
 
 Топ transport:
-  tcp: 2
-  ws: 2
+  tcp: 14
+  xhttp: 8
+  grpc: 6
+  ws: 3
 
 Топ security:
-  reality: 2
-  tls: 2
+  reality: 19
+  tls: 9
+  none: 3
 
 ────────────────────────────────────────────────────────────────────
 📊 white_vless
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 4
-Уникальных строк: 4
-Уникальных host:port: 4
-Уникальных backend: 2
-Anycast: 0
-Unknown country: 0
+Всего конфигов: 29
+Уникальных строк: 29
+Уникальных host:port: 29
+Уникальных backend: 23
+Anycast: 9
+Unknown country: 6
 
 Топ стран:
-  United States: 2
-  Germany: 2
+  🌐 Anycast: 9
+  Unknown: 6
+  United States: 5
+  Netherlands: 4
+  Estonia: 1
+  Finland: 1
+  France: 1
+  Kazakhstan: 1
+  Germany: 1
 
 Топ SNI:
+  dl.google.com: 6
+  outh.yandex-cloud.org: 3
+  aiforchats.space: 2
+  api-maps.yandex.ru: 2
   help.cs-on.ru: 2
-  steam-videos.cc: 2
+  cdn.mornismp.ru: 2
+  max.ru: 1
+  baza221.wba-pn.ru: 1
+  assets.study.golangwikito.cfd: 1
+  nohope-67-s4.mcdeliver.ru: 1
 
 Топ портов:
-  443: 4
+  443: 11
+  54183: 3
+  8443: 2
+  2083: 2
+  9882: 2
+  9881: 2
+  5269: 1
+  12445: 1
+  2082: 1
+  25112: 1
 
 Топ схем:
-  vless: 4
+  vless: 24
+  hysteria2: 5
 
 Топ transport:
-  ws: 2
-  raw: 1
-  tcp: 1
+  tcp: 13
+  xhttp: 7
+  grpc: 6
+  ws: 3
 
 Топ security:
-  tls: 2
-  reality: 2
+  reality: 18
+  tls: 8
+  none: 3
 
 ────────────────────────────────────────────────────────────────────
 📊 black_all
 ────────────────────────────────────────────────────────────────────
 Всего конфигов: 140
 Уникальных строк: 140
-Уникальных host:port: 140
-Уникальных backend: 137
-Anycast: 97
-Unknown country: 7
+Уникальных host:port: 66
+Уникальных backend: 122
+Anycast: 28
+Unknown country: 95
 
 Топ стран:
-  🌐 Anycast: 97
-  United States: 16
-  Unknown: 7
-  Finland: 5
-  Estonia: 3
-  Germany: 3
-  Japan: 2
-  France: 1
-  Switzerland: 1
-  Poland: 1
+  Unknown: 95
+  🌐 Anycast: 28
+  Finland: 4
+  Japan: 3
+  Bulgaria: 3
+  United States: 2
+  Germany: 1
+  Austria: 1
+  Estonia: 1
+  Netherlands: 1
 
 Топ SNI:
-  lesson6.schoolpizorbz.xyz: 2
-  FaNs.livErpoOl.qZZ.io: 2
-  fr-b2.golangwikito.cfd: 2
-  usa.899themes.pro: 1
-  frb.899themes.pro: 1
-  coldmeadow.xyz: 1
-  lanternbay.xyz: 1
-  eeb.899themes.pro: 1
-  glenharbor.xyz: 1
-  ancient-haze-d203.vpnetwork3567.workers.dev: 1
+  jp3.yohototo.top: 4
+  freeceshi6.frii.site: 4
+  sinavm2.soft10.ir: 4
+  matrix.learnpodedu.com: 3
+  lingering-fire-1fe9.vpnetwork3567.workers.dev: 3
+  institutes-creativity-cards-affairs.trycloudflare.com: 2
+  w.fugui.us: 2
+  free.sahanwickramasinghe.com: 2
+  kuruish.org: 2
+  ee-b1.prosetupvideo.shop: 2
 
 Топ портов:
-  443: 98
-  8443: 14
-  2053: 11
-  2083: 7
-  2096: 5
-  2087: 4
-  23169: 1
+  443: 48
+  8443: 11
+  2053: 2
+  2083: 1
+  43000: 1
+  50160: 1
+  60001: 1
+  61374: 1
 
 Топ схем:
-  vless: 135
-  ss: 3
-  trojan: 1
-  hysteria2: 1
+  vmess: 74
+  vless: 50
+  ss: 9
+  trojan: 4
+  hysteria2: 3
 
 Топ transport:
-  ws: 102
-  tcp: 17
-  xhttp: 14
-  grpc: 6
-  raw: 1
+  tcp: 94
+  ws: 37
+  xhttp: 8
+  grpc: 1
 
 Топ security:
-  tls: 118
-  reality: 18
-  none: 4
+  none: 86
+  tls: 44
+  reality: 10
 
 ────────────────────────────────────────────────────────────────────
 📊 pool
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 144
-Уникальных строк: 144
-Уникальных host:port: 144
-Уникальных backend: 139
-Anycast: 97
-Unknown country: 7
+Всего конфигов: 150
+Уникальных строк: 150
+Уникальных host:port: 84
+Уникальных backend: 132
+Anycast: 33
+Unknown country: 90
 
 Топ стран:
-  🌐 Anycast: 97
-  United States: 18
-  Unknown: 7
-  Germany: 5
-  Finland: 5
-  Estonia: 3
+  Unknown: 90
+  🌐 Anycast: 33
+  United States: 7
+  Netherlands: 5
+  Finland: 3
+  Estonia: 2
   Japan: 2
+  Bulgaria: 2
+  Kazakhstan: 1
   France: 1
-  Netherlands: 1
-  Bulgaria: 1
 
 Топ SNI:
+  dl.google.com: 6
+  freeceshi6.frii.site: 4
+  sinavm2.soft10.ir: 4
+  jp3.yohototo.top: 3
+  matrix.learnpodedu.com: 3
+  lingering-fire-1fe9.vpnetwork3567.workers.dev: 3
+  aiforchats.space: 2
+  cdn.mornismp.ru: 2
   help.cs-on.ru: 2
-  steam-videos.cc: 2
-  fr-b2.golangwikito.cfd: 2
-  lesson6.schoolpizorbz.xyz: 2
-  FaNs.livErpoOl.qZZ.io: 2
-  fgzb39ezu86s.ycz7syeeu3is.workers.dev: 1
-  ydyg0908.mynameiszt.eu.org: 1
-  wallweb-av6.pages.dev: 1
-  vp14.1145678.xyz: 1
-  cc20i5h7zc50yf204nto2kaw6dw6pn7l.pages.dev: 1
+  outh.yandex-cloud.org: 2
 
 Топ портов:
-  443: 102
-  8443: 14
-  2053: 11
-  2083: 7
-  2096: 5
-  2087: 4
-  23169: 1
+  443: 51
+  8443: 11
+  2083: 3
+  9882: 2
+  9881: 2
+  54183: 2
+  2053: 2
+  5269: 1
+  9872: 1
+  2082: 1
 
 Топ схем:
-  vless: 139
-  ss: 3
-  trojan: 1
-  hysteria2: 1
+  vmess: 66
+  vless: 65
+  ss: 8
+  hysteria2: 7
+  trojan: 4
 
 Топ transport:
-  ws: 104
-  tcp: 19
-  xhttp: 14
-  grpc: 6
-  raw: 1
+  tcp: 94
+  ws: 34
+  xhttp: 15
+  grpc: 7
 
 Топ security:
-  tls: 120
-  reality: 20
-  none: 4
+  none: 79
+  tls: 45
+  reality: 26
 
 ────────────────────────────────────────────────────────────────────
 📊 mixed
 ────────────────────────────────────────────────────────────────────
-Всего конфигов: 60
-Уникальных строк: 60
-Уникальных host:port: 60
-Уникальных backend: 58
-Anycast: 37
-Unknown country: 4
+Всего конфигов: 55
+Уникальных строк: 55
+Уникальных host:port: 55
+Уникальных backend: 47
+Anycast: 21
+Unknown country: 13
 
 Топ стран:
-  🌐 Anycast: 37
-  United States: 8
-  Unknown: 4
+  🌐 Anycast: 21
+  Unknown: 13
+  United States: 7
+  Netherlands: 3
   Finland: 3
-  Germany: 2
-  Estonia: 2
-  Switzerland: 1
-  Austria: 1
-  Poland: 1
+  Japan: 2
   France: 1
+  Estonia: 1
+  Kazakhstan: 1
+  Russia: 1
 
 Топ SNI:
+  dl.google.com: 6
+  api-maps.yandex.ru: 2
+  cdn.mornismp.ru: 2
   help.cs-on.ru: 2
-  steam-videos.cc: 2
-  cffq.pages.dev: 1
-  kclx.eu.org: 1
-  ironlark.xyz: 1
-  go.iranfree.de5.net: 1
-  usr-6b09ce88-api-v3.alcors.net: 1
-  ssssss.0ab62183-3cf1-45db-9b75-fc16b366e4af.ccwu.cc: 1
-  edg-2oo.pages.dev: 1
-  free.sahanwickramasinghe.com: 1
+  aiforchats.space: 2
+  freeceshi6.frii.site: 2
+  jp3.yohototo.top: 2
+  sinavm2.soft10.ir: 2
+  matrix.learnpodedu.com: 2
+  tia.kunisosi.bid: 1
 
 Топ портов:
-  443: 41
-  8443: 8
-  2053: 5
-  2096: 2
-  2087: 2
-  2083: 2
+  443: 28
+  8443: 9
+  2083: 3
+  9882: 2
+  9881: 2
+  2053: 2
+  12445: 1
+  9872: 1
+  5269: 1
+  2082: 1
 
 Топ схем:
-  vless: 60
+  vless: 55
 
 Топ transport:
-  ws: 42
-  tcp: 9
-  xhttp: 5
-  grpc: 4
+  ws: 22
+  tcp: 13
+  xhttp: 13
+  grpc: 7
 
 Топ security:
-  tls: 47
-  reality: 13
+  tls: 29
+  reality: 26
 
 ────────────────────────────────────────────────────────────────────
 📊 lte
@@ -385,113 +504,125 @@ Unknown country: 4
 Всего конфигов: 25
 Уникальных строк: 25
 Уникальных host:port: 25
-Уникальных backend: 24
-Anycast: 10
+Уникальных backend: 21
+Anycast: 9
 Unknown country: 0
 
 Топ стран:
-  United States: 12
-  🌐 Anycast: 10
-  Austria: 1
-  Netherlands: 1
+  🌐 Anycast: 9
+  United States: 7
+  Netherlands: 3
+  Japan: 2
+  Germany: 1
   Estonia: 1
+  Bulgaria: 1
+  Austria: 1
 
 Топ SNI:
+  api-maps.yandex.ru: 2
+  jp3.yohototo.top: 2
   help.cs-on.ru: 2
-  sss.0ab62183-3cf1-45db-9b75-fc16b366e4af.ccwu.cc: 1
-  s.0ab62183-3cf1-45db-9b75-fc16b366e4af.ccwu.cc: 1
-  bbbbb.1111-08.ccwu.cc: 1
-  sssssss.260920-3.kdns.fr: 1
-  rrrrrrrr.260920-006.ccwu.cc: 1
-  sssss.0ab62183-3cf1-45db-9b75-fc16b366e4af.ccwu.cc: 1
-  ss.0ab62183-3cf1-45db-9b75-fc16b366e4af.ccwu.cc: 1
-  ssssss.0ab62183-3cf1-45db-9b75-fc16b366e4af.ccwu.cc: 1
-  rrr.260920-006.ccwu.cc: 1
+  aiforchats.space: 2
+  crm.dpdns.org: 1
+  max.ru: 1
+  tk.stealthtunnel.com: 1
+  xinnusvpn.duckdns.org: 1
+  baza221.wba-pn.ru: 1
+  aus.stealthtunnel.com: 1
 
 Топ портов:
-  443: 20
-  2053: 2
-  8443: 1
-  2087: 1
-  2096: 1
+  443: 19
+  8443: 3
+  5269: 1
+  24611: 1
+  2083: 1
 
 Топ схем:
   vless: 25
 
 Топ transport:
-  ws: 15
-  xhttp: 10
+  ws: 16
+  xhttp: 6
+  tcp: 3
 
 Топ security:
-  tls: 24
-  reality: 1
+  tls: 19
+  reality: 6
 
 ====================================================================
 🌍 GLOBAL SUMMARY
 ====================================================================
-Всего конфигов: 377
-Уникальных строк: 145
-Уникальных host:port: 144
-Уникальных backend: 139
-Anycast: 241
-Unknown country: 18
+Всего конфигов: 430
+Уникальных строк: 172
+Уникальных host:port: 96
+Уникальных backend: 145
+Anycast: 110
+Unknown country: 210
 
 Топ стран:
-  🌐 Anycast: 241
-  United States: 58
-  Unknown: 18
-  Germany: 14
-  Finland: 13
-  Estonia: 9
+  Unknown: 210
+  🌐 Anycast: 110
+  United States: 33
+  Netherlands: 20
+  Finland: 12
+  Japan: 9
+  Estonia: 7
+  Bulgaria: 7
+  Germany: 5
+  Kazakhstan: 4
+  France: 4
   Austria: 4
-  Japan: 4
-  France: 3
-  Switzerland: 3
-  Poland: 3
-  Netherlands: 3
-  Russia: 2
-  Bulgaria: 2
+  Russia: 3
+  Israel: 2
 
 Топ SNI:
+  dl.google.com: 24
+  jp3.yohototo.top: 11
+  freeceshi6.frii.site: 11
+  api-maps.yandex.ru: 10
+  aiforchats.space: 10
   help.cs-on.ru: 10
-  steam-videos.cc: 8
-  lesson6.schoolpizorbz.xyz: 5
-  ancient-haze-d203.vpnetwork3567.workers.dev: 4
-  player.vimeo.com: 4
-  ssssss.0ab62183-3cf1-45db-9b75-fc16b366e4af.ccwu.cc: 4
-  sssssss.260920-3.kdns.fr: 4
-  j4mr-d9oj1at9i-8kuayba9kocwx7uzn.pages.dev: 4
-  nuclear.us.kg: 4
-  FaNs.livErpoOl.qZZ.io: 4
-  fr-b2.golangwikito.cfd: 4
-  ns4t32a2zc38o0on-ghqgwsswrh4mqda.pages.dev: 4
-  789156.xyz: 4
-  usa.899themes.pro: 3
-  frb.899themes.pro: 3
+  sinavm2.soft10.ir: 10
+  cdn.mornismp.ru: 9
+  outh.yandex-cloud.org: 8
+  matrix.learnpodedu.com: 8
+  institutes-creativity-cards-affairs.trycloudflare.com: 6
+  lingering-fire-1fe9.vpnetwork3567.workers.dev: 6
+  max.ru: 5
+  baza221.wba-pn.ru: 5
+  fl1.edgeport.cloud: 5
 
 Топ портов:
-  443: 269
-  8443: 37
-  2053: 29
-  2083: 16
-  2096: 13
-  2087: 11
-  23169: 2
+  443: 168
+  8443: 38
+  2083: 13
+  9881: 8
+  9882: 8
+  54183: 8
+  2053: 6
+  5269: 5
+  24611: 5
+  43000: 4
+  12445: 4
+  2082: 4
+  25112: 4
+  9872: 4
+  9873: 4
 
 Топ схем:
-  vless: 367
-  ss: 6
-  trojan: 2
-  hysteria2: 2
+  vless: 245
+  vmess: 140
+  hysteria2: 20
+  ss: 17
+  trojan: 8
 
 Топ transport:
-  ws: 267
-  tcp: 48
-  xhttp: 43
-  grpc: 16
-  raw: 3
+  tcp: 231
+  ws: 115
+  xhttp: 57
+  grpc: 27
 
 Топ security:
-  tls: 313
-  reality: 56
-  none: 8
+  none: 171
+  tls: 154
+  reality: 105
